@@ -1,0 +1,687 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Instituto de Ciências Exatas</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Instituto de Ciências Exatas</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Orientações de outra natureza'}, 
+series: [{data: [[2002,
+2],
+[2006,
+2],
+[2007,
+10],
+[2008,
+11],
+[2009,
+18],
+[2010,
+20],
+[2011,
+12],
+[2012,
+18],
+[2013,
+12],
+[2014,
+20],
+[2015,
+16],
+[2016,
+20],
+[2017,
+19],
+[2018,
+19],
+[2019,
+8],
+[2020,
+18],
+[2021,
+15],
+[2022,
+12]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Orientações de outra natureza</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 252<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Julia Fernandes da Silva e Silva. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Matemática) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Laura da Fonseca Cintra. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bruna Pereira Falcucci. <b>Orientação de monitoria da disciplina de Princípios de UI/UX: teoria e prática em design de software</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bryan Ferreira Fernandes. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Daniele Eiko Nunokawa. <b>Estágio docência</b>. (Estágio Docência do Programa de Pós-graduação Stricto sensu em Nutrição e L) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Fernanda Canova Faria. <b>Supervisão de Monitoria com Bolsa Institucional (Graduação): Cálculo II</b>. (Física) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2604391010090933">Tiago José Arruda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Gabriel Takahiro Toma de Lima. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Matemática) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Laura Mariane Dias Silva. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Odontologia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Mattheus Veiga Lima Abreu. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Victória Maria da Ré Silva. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Vitoria Gabriele Souza Geraldine. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Medicina) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Vitoria Gabriele Souza Geraldine. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Matemática) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Camila Ribeiro Alves. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Franciely Polississo Rueda. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Jasmine Germano França. <b>Monitoria na disciplina de Fundamentos Matemáticos para Ciência da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>João Paulo Pereira Leal. <b>Supervisão de Monitoria com Bolsa Institucional (Graduação): Cálculo II</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2604391010090933">Tiago José Arruda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Leonardo Pereira de Araújo. <b>Monitoria na disciplina de Bioinformática</b>. (Biotecnologia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Leícia Aparecida Luiz Tranche de Brito. <b>Monitoria na disciplina de Introdução à Computação</b>. (Biotecnologia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lidia Duarte Vicentini. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lucas da Silva Justino. <b>Monitoria na disciplina de Fundamentos Matemáticos para Ciência da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Maria Izabelle Pereira. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Matemática) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Mariana Coelho Angelo. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mariana Santos Melo. <b>Monitoria na disciplina de Bioinformática</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Patrick de Andrade Flausino. <b>Monitoria na disciplina de Introdução à Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Paulo Vinícius Magalhães dos Santos. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Medicina) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Regiley Pimenta Ramos de Oliveira. <b>Supervisão de Monitoria com Bolsa Institucional (Graduação): Cálculo I</b>. (Física) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2604391010090933">Tiago José Arruda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Victor Hugo Tozzo Filho. <b>Supervisão de Monitoria com Bolsa Institucional (Graduação): Geometria Analítica</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2604391010090933">Tiago José Arruda</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bianca Verola Costa. <b>Projeto de Extensão Conversas Matemáticas</b>. (Matemática) - Universidade Federal de Alfenas, Pró-Reitoria de Extensão UNIFAL-MG. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Caio Marinello Moura Leite. <b>Supervisão de Monitoria com Bolsa Institucional (Graduação): Vetores e Geometria Analítica</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2604391010090933">Tiago José Arruda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Edson Aparecido da Silva Júnior. <b>Monitoria de Matemática Elementar I</b>. (Matemática) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Emily Rarissa Crisotomo Benedito. <b>Introdução à Computação</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gabriel Takahiro Toma de Lima. <b>Fundamentos Matemáticos para a Ciências da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>José Carlos Tobias da Silva. <b>Fundamentos Matemáticos para Ciência da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Karoline Sanchez Fernandes. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Leonardo Pereira de Araújo. <b>Introdução à Computação</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Letícia Rodrigues Barbosa. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Luan Bueno Bastos. <b>Supervisão de Monitoria com Bolsa Institucional (Graduação): Funções Reais de Várias Variáveis</b>. (Física) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2604391010090933">Tiago José Arruda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Luiz Felipe Xavier. <b>Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mariana Gabriela Gusmão. <b>Monitoria de Matemática Elementar I</b>. (Matemática) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mateus Martins Rodrigues. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Nathalia Machado dos Santos. <b>Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Rafael Ferreira Cardoso. <b>Projeto de Extensão Conversas Matemáticas</b>. (Matemática) - Universidade Federal de Alfenas, Pró-Reitoria de Extensão UNIFAL-MG. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Rafaela Costa Alves. <b>Introdução à Computação</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Regiley Pimenta Ramos de Oliveira. <b>Orientação do Projeto de Monitoria em Matemática Básica.</b>. (Matemática) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Vítor Hugo da Costa Luz. <b>Introdução à Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriel Cardoso dos Santos. <b>Monitoria da Disciplina de Banco de Dados II</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Beatriz de Oliveira Rodrigues. <b>Monitoria da Disciplina de Engenharia de Software</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Breno A de Souza, Luiza B. Martins e Paloma O. Vasconcelos. <b>Estudo da atenção à mulheres portadoras de câncer de mama em um município do Sul de Minas Gerais</b>. (Medicina) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6581499944728910">Flávio Bittencourt</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Felipe Rodrigues Batista Ferreira. <b>Monitoria da Disciplina de Linguagens Formais e Autômatos</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Nikolas Neves de Figueiredo. <b>Laboratório de ensino em Educação Matemática na formação de professores - 2019</b>. (Matemática) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ronaldo Andre Lopes. <b>Laboratório de ensino em Educação Matemática na formação de professores</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2019.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>, <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Vítor Hugo da Costa Luz. <b>Monitoria da Disciplina de Geometria Analítica</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Wendell João Castro de Avila. <b>Monitoria da Disciplina de Banco de Dados I</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriel Cardoso dos Santos. <b>Monitoria da Disciplina de Banco de Dados I</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>André Luiz Carvalhaes. <b>Monitoria na disciplina Física I</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>David Vinicius Alves. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Eduardo Soares Garcia. <b>Monitoria na disciplina Física I</b>. (Química) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Guilherme Camilo Leal. <b>Tipos de tabelas e gráficos para variáveis aleatórias qualitativas e quantitativas</b>. Orientação de outra natureza - Escola Estadual Judith Vianna, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3374954104030940">Natalia da Silva Martins Fonseca</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Levy Bueno Alves. <b>Monitoria em Introdução à Computação</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lucas Fechio Marin. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marcelo César Costa. <b>Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Mateus Jesus de Oliveira Rodrigues. <b>Monitoria na disciplina Física I</b>. (Física) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Milene Gabrielle de Faria. <b>Monitoria da Disciplina de Engenharia de Software</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mylena Cristina Morata. <b>Monitoria em Introdução à Computação</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Rafael Passos Domingues. <b>Monitoria na Disciplina Conceitos Matemáticos Aplicados à Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Roberta Siqueira Fernades. <b>Laboratório de Ensino em Educação Matemática na formação de professores 2018</b>. (Matemática) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Rodrigo de Oliveira Figueiredo. <b>Monitoria em Fundamentos de Matemática para a Ciência da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>, <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Sebastiao Vitor de Brito. <b>Monitoria na Disciplina Conceitos Matemáticos Aplicados à Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Victor Rodrigues Periz. <b>Monitoria em Fundamentos de Matemática para a Ciência da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Vinicius Alex da Silva. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Vinicius Alex da Silva. <b>Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Willian Alves Lion. <b>Teste de Scheffé para experimentos em estrutura fatorial: uma rotina em R</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6581499944728910">Flávio Bittencourt</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Silveira de Souza. <b>Monitoria na disciplina Física I</b>. (Química) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andre Gomes da Silva Junior. <b>Monitoria na Disciplina Computação Aplicada à Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Andre Gomes da Silva Junior. <b>Monitoria na Disciplina Métodos Quantitativos em Geografia</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bruna Borges da Silva. <b>Conversas sobre matemática com idosos</b>. (Matemática) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Denner Azevedo Rocha. <b>Projeto de Monitoria da disciplina Geometria Analítica do curso de Graduação em Biotecnologia</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Eric Eduardo Alves Ferreira. <b>Monitoria na disciplina Física I</b>. (Física) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Gabriel Alex da Silva Alves. <b>Um pacote R para a construção de gráficos de amostragem sequencial</b>. (Ensino Médio) - Escola Estadual Samuel Engel, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Gabrielle Bianka Santos Ferreira. <b>Um pacote R para a construção de gráficos de amostragem sequencial</b>. (Ensino Médio) - Escola Estadual Samuel Engel, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Hugo Luiz Camargo Pinto. <b>Monitoria Remunerada - Disciplina Inglês Técnico</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Larissa Melo Pereira. <b>Monitoria na Disciplina Computação Aplicada ao Ensino de Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Luis Phillipe Garrone Andrade. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Luiz Gustavo de Souza Carvalho. <b>Monitoria Remunerada - Disciplina Banco de Dados I</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Matheus Amoreli Silveira. <b>Monitoria Remunerada - Disciplina Engenharia de Software</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Mauricio Roque Vidal. <b>Monitoria da Disciplina de Inteligência Artificial I.</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Pró-Reitoria de Graduação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Nayara da Silva. <b>O Laboratório de Ensino em Educação Matemática na Formação de professores</b>. (Matemática) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Rafael Passos Domingues. <b>Monitoria na disciplina Física I</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Raphael Cesar de Souza Pimenta. <b>Projeto de Monitoria da disciplina Geometria Analítica do curso de Graduação em Física-Licenciatura</b>. (Física) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Rodrigo de Oliveira Figueiredo. <b>Monitoria em Fundamentos de Matemática para a Ciência da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Yago Guilherme dos Reis. <b>Monitoria na Disciplina Métodos Quantitativos em Geografia</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alice Noronha de Oliveira. <b>CasaCiência: proposta de criação de um centro de divulgação científica</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Ministério da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Vilas Boas Ferreira. <b>Funções gráficas no software R e a conversão dos sistemas de cores RGB e LAB</b>. (Ensino Médio) - Escola Estadual Samuel Engel, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Luiza Fonseca Arêas. <b>Monitoria na disciplina Física I</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Beatriz de Oliveira Rodrigues. <b>Monitoria Remunerada - Disciplina Engenharia de Software</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bruno de Melo Morgan. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Caio Henrique Giolo Antunes. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Diego Tercetti Miranda Nogueira. <b>Monitoria na Disciplina Computação Aplicada ao Ensino de Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Flaviane Silva de Souza. <b>CasaCiência: proposta de criação de um centro de divulgação científica</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Ministério da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jhulia Graziella de Souza Rodrigues. <b>Aspectos computacionais envolvendo autovalores e autovetores</b>. (Ciência da Computação) - Universidade Federal de Uberlândia, IMPA-PICME. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6808752952332925">José Claudinei Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>João Paulo de Araújo. <b>Monitoria na disciplina Computação Aplicados à Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Lucas Fechio Marin. <b>Monitoria Remunerada - Disciplina Inglês Técnico</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Marco Antonio Barbosa Filho. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Matheus de Andrade Flausino. <b>Monitoria Remunerada - Disciplina Banco de Dados I</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Matheus Menali Rodrigues Pereira. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Nicolas Marcelli Bontempo Vespucio. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Octavio Marchi Parise. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Rodolfo Sydow Leme da Silva. <b>Estágio Obrigatório em Ciência da Computação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Sebastiao Vitor de Brito. <b>Monitoria na Disciplina Métodos Quantitativos em Geografia</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Talles Domician Fonseca. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Thiago Mendes Meloto. <b>Estágio obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Aparecida do Carmo. <b>Estudo da proporção áurea no corpo humano</b>. (ensino médio) - Escola Estadual Emílio da Silveira, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andrey Alexandre Soares de Lima. <b>Amostragem de proporções: uso em pesquisas eleitorais</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6581499944728910">Flávio Bittencourt</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Christian Fernando Cordeiro Pinheiro. <b>CasaCiência: proposta de criação de um centro de divulgação científica</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Ministério da Educação. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cássia de Souza Santos. <b>CasaCiência: proposta de criação de um centro de divulgação científica</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Ministério da Educação. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Felipe Fidelis Camilo. <b>Estudo sobre os diferentes tipos de médias</b>. (Ensino Médio) - Escola Estadual Samuel Engel, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3374954104030940">Natalia da Silva Martins Fonseca</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Isadhora Mendes dos Reis. <b>Estatística dos acidentes de trânsito: uma análise descritiva</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9808310940421979">Adriana Dias</a>, <a href="http://lattes.cnpq.br/6581499944728910">Flávio Bittencourt</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Jefferson Vigato SIlva. <b>Monitoria na disciplina Métodos Quantitativos Aplicados à Geografia</b>. (Geografia - Licenciatura) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Laura Ronchini Mendonça. <b>Monitoria na disciplina Métodos Quantitativos em Geografia</b>. (Geografia - Licenciatura) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Lucas Oliveira Nabeto. <b>Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Paulo Henrique Xavier. <b>Monitoria na disciplina Computação Aplicada à Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Paulo Júnio de Paula. <b>CasaCiência: proposta de criação de um centro de divulgação científica</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Ministério da Educação. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Pedro Pereira Martins. <b>Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Ronaldo André Lopes. <b>Função gráfica branch-and-bounds para programação inteira</b>. (Ensino Médio) - Colégio CRA, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Saulo Alves de Araujo. <b>CasaCiência: proposta de criação de um centro de divulgação científica</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Ministério da Educação. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Thiago Henrique dos Reis. <b>Rastreamento de Objetos em Dispositivos Móveis para o Ensino de Física</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Vinícius Lino de Oliveira. <b>O uso de barras de progresso no software R</b>. Emílio Silveira, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriano Cesar Bócoli. <b>Orientação de Monitoria</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alexandre Benedeti Goncalves. <b>Astro 3D: uma Ferramenta para o Ensino de Astronomia</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Lívia de Almeida Silva. <b>Monitoria na disciplina Métodos Quantitativos Aplicados à Geografia</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Anderson dos Santos. <b>Monitoria na disciplina Laboratório de Física II</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Anderson Luis dos Santos Selenguini. <b>Orientação de Monitoria</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Bolsista do PJTC: Gabriel Augusto Pires de Souza. <b>Uso do alinhamento global para identificação de template para a enzima SHK e Mycobacteriu tuberculosis</b>. (Biotecnologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Bolsista do PJTC: Miriã Nunes Guimarães. <b>Modelagem e Avaliação de Enzimas em Vias Metabólicas Alvo para Desenho de Fármacos</b>. (Biotecnologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Cássia de Souza Santos. <b>Jogos Eletrônicos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Danilo Ravasio de Freitas Branco. <b>Monitoria na disciplina Laboratório de Física II</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Eder Dourado dos Santos. <b>Estudo sobre as justificativas de professores e futuros professores para o Ensino de Física na Educação Básica e a relação com o interesse/desinteresse dos alunos pela aprendizagem</b>. (Física) - Universidade Federal de Goiás, Sisu-MEC. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Eduardo Luiz Divino Rebelo. <b>Jogos Eletrônicos no Ensino de Matemática</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Elizandra Karla Odorico. <b>Jogos Eletrônicos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Gabriel Rocha de Oliveira. <b>Orientação de Monitoria</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Gabrielle Moretti de Souza. <b>Jogos Eletrônicos no Ensino de Matemática</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Liza Mara Vieira. <b>A função plot do software R</b>. Emílio Silveira, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Murilo Borges Ribeiro. <b>Orientação de Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Murilo Borges Ribeiro. <b>Orientação de Monitoria</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Murilo Fechio Barbosa. <b>Orientação de Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Raphael Vinicíus Castro Silva. <b>Jogos Eletrônicos no Ensino de Matemática</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>, <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Vinícius Lino de Oliveira. <b>O uso de barras de progresso em linguagem R</b>. Emílio Silveira, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adailton Reis Araújo Júnior. <b>Resolução de equações algébricas de uma variável real</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6808752952332925">José Claudinei Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Lívia de Almeida Silva. <b>Monitoria na disiciplina Métodos Quantitativos Aplicados à Geografia</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Anderson dos Santos. <b>Monitoria na disciplina de Computação Aplicada à Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Arthur Busqueiro. <b>Uso de Model Driven Engineering para geração de modelos de simulação de processos de desenvolvimento de software</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bolsista Bic-Jr FAPEMIG: Kellen Barbosa Dias. <b>Estudo matemático-computacional da ferramenta de alinhamento global.</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Bolsista do PJTC: Letícia Cristina Duarte Lima. <b>Modelagem das Enzimas da Via do Ácido Chiquimico em Organismos Distintos.</b>. (Biotecnologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Juliana Mara de Oliveira. <b>Monitoria na disiciplina Métodos Quantitativos Aplicados à Geografia</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Karina Pereira dos Santos. <b>Monitoria na disiciplina Métodos Quantitativos Aplicados à Geografia</b>. (Geografia - Licenciatura) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Kleyton D'Martin Costa. <b>Monitoria na disiciplinaomputação Aplicada ao Ensino de Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Mateus Neves Barreto. <b>Orientação de Bolsa de Apoio Técnico</b>. Orientação de outra natureza - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Márcia Pereira da Silva. <b>Monitoria na disciplina Métodos Quantitativos Aplicados à Geografia</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Vinícius Ferreira da Silva. <b>Orientação de Monitoria</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Anderson dos Santos. <b>Monitoria na Disciplina Computação Aplicada à Física</b>. (Física - Licenciatura) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Astride Gonçalves Carlos. <b>Jogos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bolsista do PJTC: Luis Philipe Garroni Andrade. <b>Programação em Pipeline de Ferramentas Genomicas</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cássia de Souza Santos. <b>Jogos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Daniel Lucas Costa e Silva. <b>Monitoria Cálculo Diferencial e Integral I</b>. (Odontologia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Elizandra Karla Odorico. <b>Jogos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Erika Santos de Jesus. <b>Jogos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Felipe Bruno de Paiva Anacleto. <b>Estudo de Conceitos e Controvérsias Matemáticas</b>. (Licenciatura em Matemática/ Física / Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3089568911577519">Evandro Monteiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Flávia Leite. <b>Jogos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Frederico Gonçalves de Araújo. <b>Monitoria da disciplina de Matemática II do curso Bacharelado em Ciência e Economia</b>. (Bacharelado Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Fábio Hideo Kunikawa Fonseca Silva. <b>Monitoria da disciplina Matemática II</b>. (Bacharelado Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Gabriel Lara de Carli. <b>Monitoria Cálculo Diferencial e Integral I</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Hiago Borges de Oliveira. <b>Análise de performance de camadas de persistência com JPA e JDBC</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Jhonatan Thallisson Cabral Nery. <b>Parque da Ciência</b>. (Ciências da Computação) - Universidade Federal de Goiás, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Juliana de Fátima Silva. <b>Métodos Quantitativos Aplicados à Geografia (disciplina)</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Luiz Eduardo Moreira. <b>Modelagem de Objetos Virtuais através do Blender 3D</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Marcia Pereira da Silva. <b>Monitoria na discplina Métodos Quantitativos em Geografia</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Mateus Henrique Basso Macedo. <b>Monitoria Remunerada - Disciplina Banco de Dados II</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Camila Andrade Araujo. <b>Orientação de Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Danielle D., Fernando V., Leandra N., Renata F., Gabrielle M. <b>Instituto Girassol - Inclusão Digital para Pessoas com Necessidades Especiais</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Flávia Leite. <b>Jogos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Larissa Araújo Costa. <b>Monitoria Cálculo Diferencial e Integral I</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Marcos Augusto Xavier de Oliveira. <b>Projeto de Monitoria - Fatec Mogi Mirim - SP</b>. (Projetos Mecânicos) - FATEC - Faculdade de Tecnologia de Mogi Mirim (SP), . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Mariana Dehon Costa e Lima. <b>Orientação de Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Mateus Drigo da Silva. <b>Orientação de Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Mirele Bastos. <b>Estágio Curricular Obrigatório Laboratório de Modelagem Molecular</b>. (Bacharelado em Química) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Natália Gabriele Hosch. <b>Monitoria Matemática</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Talitha Accioly Simões Coelho. <b>Monitoria na disciplina Métodos Quantitativos</b>. (Geografia - Licenciatura) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Valquiria Guimaraes Pereira. <b>Geração de uma base de dados sobre apatitas</b>. (Licenciatura em Física) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6165304398755510">Mirta Mir Caraballo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Vivian Silveira. <b>Jogos no Ensino de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriane Elias Bueno. <b>Monitoria Cálculo I</b>. (Bacharelado Interdisciplinar em Ciência e Econômia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Camila Queirós Lourençoni. <b>Monitoria Cálculo I</b>. (Bacharelado Interdisciplinar em Ciência e Econômia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Danilo Alves Pereira Evangelista. <b>Estudo docoeficiente b da função de 2° grau</b>. Orientação de outra natureza - Instituto Federal Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6581499944728910">Flávio Bittencourt</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Danilo Fernandes Bispo. <b>Capacitaçao em Montagem e Manutenção de Computadores</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Flávio Pereira Picheli. <b>Estágio de interesse curricular do curso de biotecnologia</b>. Orientação de outra natureza - Instituto de Química São Carlos - USP, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1140012060761818">Cristiana Schmidt de Magalhães</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Guilherme Augusto Zampieri. <b>Desenvolvimento de um site para o curso de Ciência da Computação - Unifal/MG</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Guilherme Augusto Zampieri. <b>Monitoria Voluntária - Disciplina Programação Orientada a Objetos</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Junio Cesar Rosa. <b>Monitoria da Disciplina de Programação Estruturada</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Leonardo Elisei Júnior. <b>CONTROLE ESTATÍSTICO DE PROCESSO NO ABATE DE AVES</b>. (Geografia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Lucas Schmoeller do Prado Rodrigues. <b>Monitoria da Disciplina de Programação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Marcelo de Lima Penteado, Jeverson Gabriel Abreu. <b>Monitoria em Disciplina de Algoritmos</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mariana Dehon Costa e Lima. <b>Monitoria da Disciplina de Programação Estruturada</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mateus Neves Barreto, Marcelo Lima Penteado. <b>Livro de Receitas Digital Interativo para alunos da APAE, Alfenas-MG</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Ministério da Educação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Matheus Vilas Boas Militani. <b>CONTROLE ESTATÍSTICO DE PROCESSO NO ABATE DE AVES</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Mayara Toledo de Macedo. <b>Reforço Escolar: Matemática Fácil</b>. (Bacharelado Interdisciplinar em Ciência e Econômia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Reidner Ramos. <b>Elementos culturais locais no Ensino de Física</b>. (Licenciatura em Física) - Universidade Federal de Goiás, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Rogério Souza Bernardes. <b>Crenças populares a respeito dos fenômenos climáticos naturais: ciência e conhecimento local na vida cotidiana</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Tatiane Fernandes Figueiredo. <b>Orientação de Estágio Obrigatório</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Vinícius Archanjo Ferraz. <b>Monitoria na disciplina Métodos Quantitativos em Geografia</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Yuri Farias Tejo de Araújo. <b>Relatório de Estágio- Laboratório Q 204 - Instituto de Ciências Exatas</b>. (Química) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1140012060761818">Cristiana Schmidt de Magalhães</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alencar Santos Paixão. <b>Monitoria da disciplina Climatologia Geral</b>. (Licenciatura e Bacharelado em Geografia) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruna Maria Fernandes Martins. <b>Análise dos índices de criminalidade em Alfenas/MG comparada com as escalas estadual e nacional</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Davisson Rondinelli de Melo Araujo. <b>Monitoria Cálculo I</b>. (Cálculo I) - Universidade Federal de São João Del-Rei, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Douglas Donizeti de Castilho Braz. <b>Monitoria da Disciplina de Programação</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gisele Aparecida Rodrigues. <b>Mitos a respeito dos fenômenos climáticos naturais: ciência e conhecimento local na vida cotidiana</b>. (Bacharelado em Geografia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2009.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>, <a href="http://lattes.cnpq.br/6122155083160820">Artur Justiniano Roberto Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Graziele Sales de Souza. <b>Dispositivos gráficos elementares no software R</b>. (Ensino Médio) - Escola Estadual Judith Viana, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Gustavo Silva Noronha. <b>Monitoria Cálculo I</b>. (Bacharelado Interdisciplinar em Ciência e Econômia) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Hilquias Tamiris dos Santos. <b>A logística dos transportes em função das indústrias na cidade de Alfenas/MG</b>. (Bacharelado em Geografia) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jorge Fernandes Nasser Batista. <b>Laboratório Q 204 - Departamento de ciências exatas</b>. (Química) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1140012060761818">Cristiana Schmidt de Magalhães</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>João Antônio da Silva. <b>Construção e manutenção de um meio de comunicação entre a comundade de Alfenas e o curso de Ciência da Computação da Unifal/MG</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Jéverson Gabriel Abreu. <b>Otimização de código R: uma aplicação em Análise Generalizada de Procrustes</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ludmila Vianna Batista. <b>Análise dos índices de criminalidade em Alfenas/MG comparada com as escalas estadual e nacional</b>. (Bacharelado em Geografia) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Maira Joice Reis de Oliveira. <b>Desenvolvimento de página WEB para o ensino e aprendizagem de Matemática</b>. (Licenciatura em Matemática) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6016565950437007">Andréa Cardoso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Quênia Yoko de Paula Matsui. <b>Bioinformática aplicada ao estudo de marcadores gênicos em aves</b>. (Biologia) - Universidade do Vale do Paraíba, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Renan Serenini Bernardes. <b>Monitoria Cálculo I</b>. (Bacharelado Interdisciplinar em Ciência e Econômia) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Thaísa Andrade Freitas. <b>Monitoria Cálculo I</b>. (Bacharelado Interdisciplinar em Ciência e Econômia) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Túlio Cesar Resende de Faria. <b>Monitoria Matemática Financeira</b>. (Matemática Financeira) - Universidade Federal de São João Del-Rei, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Wanderson da Silva. <b>Mitos a respeito dos fenômenos climáticos naturais: ciência e conhecimento local na vida cotidiana</b>. (Geografia - Bacharelado) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Camila Eugênia Rochini Ferreira. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. Orientação de outra natureza - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Camila Pereira. <b>Monitoria Voluntária na Disciplina Estatística</b>. (Quimica) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Edgar Fonseca Franco Junior. <b>Monitoria Voluntária - Disciplina Programação Orientada a Objetos</b>. (Ciência da Computação) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luciana Assis Terra. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. (Quimica) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Lucivane Ap. Marchiori Garcindo, Luci A. Nicolau. <b>Monitoramento e Avaliação de Cursos a distância baseado em Análise Sensorial</b>. Orientação de outra natureza - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Priscila Generoso Fonseca. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. (Odontologia) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Rafael T. Karine P. Fernando V. Bruno F. Leandra C. Daniele. <b>Inclusão Digital para Pessoas com Necessidades Especiais</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Programa de Bolsas de Extensão - Unifal/MG. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Richard Rampazzo. <b>Monitoria Voluntária na Disciplina Estatística</b>. (Quimica) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Rochini Ferreira. <b>Monitoria Voluntária na Disciplina Bioetatística</b>. (Quimica) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Sandra Maria Silva. <b>Monitoria Voluntária na Disciplina Probabilidade e Bioestatística</b>. (Nutrição) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Vinícius Moreira da Silva Braga. <b>Bioinformática Genômica e Estrutural aplicada na seleção e estudo de marcadores gênicos em câncer.</b>. (Ciência da Computação) - Universidade do Vale do Paraíba, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Flávia Pires Lemos. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. (Odontologia) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Camila Fernandes Miguel. <b>Monitoria Voluntária na Disciplina Estatística</b>. (Nutrição) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fernanda Silveira de Ávila Terra. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. (Odontologia) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Flávia Fernandes dos Reis. <b>Monitoria da disciplina Didática Geral para as Licenciaturas</b>. (Pedagogia) - Universidade Federal de Uberlândia, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4318353199461089">Samuel Bueno Soltau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Janaína Madruga Morais. <b>Monitoria Voluntária na Disciplina Estatística</b>. (Nutrição) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Juliana Barbosa Maia. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. (Nutrição) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Mayra Carmem Matos Loscha. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. (Odontologia) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Patrícia Cabral de Vasconcellos. <b>Monitoria voluntária na disciplina Estatística</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Rogéria de Magalhães Silva. <b>Monitoria Voluntária na Disciplina Bioestatística</b>. (Odontologia) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Tatiana Érica de Oliveira. <b>Monitoria Voluntaria na Disciplina Bioestatística</b>. (Nutrição) - Universidade Federal de Alfenas, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Jane Macedo Neto. <b>Monitoria de Bioestatística</b>. Orientação de outra natureza - Universidade Federal de Alfenas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Valdirene da Silva Gonçalves. <b>Aprendizagem Significativa de Matemática Utilizando Novas Tecnologias</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1690570104837528">José Carlos de Souza Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fabrício Santos Gonçalves de Oliveira. <b>Estudo ambiental da Contaminação de Fenóis no córrego da Pedra Branca na cidade de Alfenas</b>. Orientação de outra natureza - Universidade Federal de Alfenas, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1140012060761818">Cristiana Schmidt de Magalhães</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gustavo de Souza Pessôa. <b>Estudo Ambiental da Contaminação de Fenóis no Córrego Chafariz na cidade de Alfenas</b>. Orientação de outra natureza - Universidade Federal de Alfenas, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1140012060761818">Cristiana Schmidt de Magalhães</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 11:03:39<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
