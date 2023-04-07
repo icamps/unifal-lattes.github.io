@@ -1,0 +1,437 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PPGBiotec</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PPGBiotec</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2000,
+1],
+[2002,
+2],
+[2004,
+1],
+[2005,
+2],
+[2006,
+5],
+[2007,
+6],
+[2008,
+12],
+[2009,
+5],
+[2010,
+11],
+[2011,
+15],
+[2012,
+10],
+[2013,
+7],
+[2014,
+3],
+[2015,
+2],
+[2016,
+4],
+[2017,
+8],
+[2018,
+10],
+[2019,
+8],
+[2020,
+4],
+[2021,
+7],
+[2022,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 124<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Schneedorf, J.M. <b>More from the same: revisiting Jmol and R for Biochemistry learning during the coronavirus outbreak</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANGELOTTI, JOELISE A. F. <b>Imobilização de enzima: Conceitos e estudos de casos</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BENTO, H. B. S. ; GONCALVES, R. L. N. ; CONCEICAO, J. A. B. ; OLIVEIRA, G. C. K. ; REIS, C. E. R ; CARVALHO, A. K. F. <b>Análise de íons em resíduos agroindustriais: utilização de minerais secundários como ferramentas importantes para valorização de subprodutos</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARVALHO, A. <b>K. F. Produção de biodiesel: panorama tecnológico, ambiental e econômico</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CARVALHO, A. <b>K. F. Potential of filamentous fungi for biofuels production</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CARVALHO, A.K.F. <b>Produção de Biodiesel: Uma Visão Geral das Matérias-Primas, Processos e Tecnologias</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CARVALHO, A.K.F. <b>Sucroquímica, Alcoolquímica - no contexto da Química Verde</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>PAULA, A. V. ; CARVALHO, A.K.F.. <b>Aplicações de Enzimas na Química Fina</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, G. S. S. ; CARVALHO, A.K.F.. <b>Biotecnologia e Sustentabilidade</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANGELOTTI, JOELISE ALENCAR FIGUEIRA. <b>Imobilização de enzimas: Da Concepção a aplicação</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BADINO, A.C. <b>Fermentação Alcoólica Extrativa</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MENDES, A. A. <b>Potencial aplicação de lipases na síntese de aromas</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BADINO, A.C. <b>Processos Alternativos para a Produção de Etanol - Fermentação Extrativa</b>. 2019. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, A. K. F; CONTATO, A. G.. <b>Biocombustível de segunda geração: estudos biotecnológicos e aplicações</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARVALHO, A.K.F. <b>De resíduos agroindustriais a múltiplos produtos de alto valor agregado: Novas perspectivas para uma biorrefinaria integrada</b>. 2019. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>De Souza,T.C. <b>Crescimento e Desenvolvimento de plantas de milheto, milho e sorgo em rejeitos de mineração e o efeito benéfico da adição de húmus de minhoca</b>. 2019. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MAGALLANES-NOGUERA, C. ; NASCIMENTO, J. S. ; SILVA, F. M. ; SANTOS, E. G. ; CALDAS, I. S. ; LUIZ, JAINE H.H. ; KURINA-SANZ, M. ; SILVA, E. O.. <b>Obtencion de un meroterpenoide bioactivo mediante co-cultivos de hongos endofitos</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MENDES, A. A. <b>Tecnologia na Indústria 4.0</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MENDES, A. A. <b>Novos conceitos na relação Homem & Máquina - Indústria 4.0</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MENDES, A. A. <b>Imobilização e estabilização de enzimas industriais - Universidade Estadual de Santa Cruz (Ilhéus/BA)</b>. 2019. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANGELOTTI, JOELISE ALENCAR FIGUEIRA. <b>Compostos Bioativos: novas fontes de obtenção</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, A. K. F.; DE CASTRO, H. F.. <b>Extração de óleos microbianos e sua utilização em processos de interesse industrial</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARVALHO, A. K. F; BENTO, H. B. S ; REIS, C. E. R ; CASTRO, H. F. DE. <b>Sugarcane-bagasse hydrolysate as a platform for a fungal-based biorefinery</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CARVALHO, A.K.F. <b>Extração de óleos microbianos e sua utilização em processos de interesse industrial</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>De Souza,T.C. <b>Aspectos ecofisiológicos do milho e sorgo em situações de estresse</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>De Souza,T.C. <b>Respostas morfofisiológicas de milho e sorgo sob déficit hídrico</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LEMOS, V. V. ; ROLEMBERG, MARLUS PINHEIRO ; Souza, Bruno Rossetti de ; PERNA, R. F ; BASSO, R. C. <b>Modelagem NRTL da solubilidade dos ácidos láurico, mirístico, palmítico e esteárico em acetona e 2-butanona</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LOPES, M. M. ; VARANO, A. ; HIRATA, D.B. ; LUIZ, JAINE H.H. ; ANGELOTTI, J. A. F.. <b>Evaluation of the potential of amylase and cellulase production by endophytic fungi isolated from Handroanthus impetiginosus</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MACHADO, N. B. ; MIGUEZ, J. P. ; BOLINA, I. C. A. ; MENDES, A. A. <b>PREPARATION AND CHARACTERIZATION OF FUNCTIONALIZED RICE HUSK SILICA FOR LIPASE ADSORPTION</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MENDES, A. <b>A. ENZIMOLOGIA - Estratégias de estabilização de enzimas industriais</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVES, M. D. ; MIGUEZ, J. P. ; MACHADO, N. B. ; MENDES, A. A.. <b>EFFECT OF TEMPERATURE ON THE SYNTHESIS OF A WAX ESTER IN A SOLVENT SYSTEM: KINETIC AND THERMODYNAMIC STUDY</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AMORIM, L. F. S. ; LUIZ, JAINE H. H. ; PADOVAN, A. ; CARVALHO, P. L. N. ; ARIOSA, M. C. F.. <b>Avaliação do potencial antimicrobiano do produto de fermentação de micro-organismos isolados de terra preta antropogênica da Amazônia</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARVALHO, A. K. F.; DA CONCEIÇÃO, LEYVISON RAFAEL V. ; SILVA, JOÃO PAULO V. ; CASTRO, H. F.. <b>Procedures for third-generation production of biodiesel by solid acid catalysis: _Mucor circinelloides_ as a potential feedstock</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>De Souza,T.C. <b>Ecofisiologia e suas implicações no manejo cultural do milho safrinha</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HIRATA, DANIELA B. <b>Lipases: Biocatalisadores para reações de interesse imdustrial</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LOPES, M. M. ; VASCONCELOS, L. V. B. ; MENDES, A. A. ; LUIZ, JAINE H. H.. <b>Modulação das propriedades catalíticas de lipase imobilizada em sílica funcionalizada por diferentes estratégias</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LUIZ, JAINE H. H. <b>Antioxidant activity of organic extracts from fruits of Lycium barbarum (Goji berry)</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, M. G. R. ; LOPES, L. F. ; PEREIRA, B. P. S. ; CARVALHO, P. L. N. ; LUIZ, JAINE H. H.. <b>Avaliação da atividade antioxidante de frações oriundas de extratos obtidos do fruto Goji berry</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MENDES, A. <b>A. Enzymatic production of a biolubricant by esterification reaction: Optimization and reusability studies</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, M. G. R. ; CARVALHO, P. L. N. ; LUIZ, J. H. H. L.. <b>Análise química comparativa dos constituintes de extratos obtidos do fruto Goji berry e de cápsulas disponíveis comercialmente</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SOUZA, B. R. ; REMEDIO, B. R. ; PECANHA, L. O. O. ; ROLEMBERG, M. P. ; Basso, R. C.. <b>Modelagem da Solubilidade de Ácidos Graxos em Solventes Utilizando a Equação de Van Laar</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VASCONCELOS, L. V. B. ; MENDES, A. A. ; LUIZ, J. H. H. L.. <b>Imobilização de lipases microbianas por diferentes protocolos em partículas de sílica modificadas quimicamente: caracterização das propriedades catalíticas e aplicação na síntese de ésteres</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FIGUEIRA, J. A.; SATO, H. H.. <b>Metodologia de detecção de alfa amilase residual em açúcar</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MENDES, A. <b>A. Propiedades y aplicaciones biotecnológicas de lipasas vegetales procedentes de las semillas oleaginosas</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRESSANI, A. P. ; GARCIA, K. C. A. ; CORRADINI, M. C. C. ; LAGE, F. A. P. ; BASSI, J. J. ; HIRATA, D. B. ; PEREIRA, Ernandes Benedito ; MENDES, A. A. <b>Produção de biolubrificantes por reação de hidroesterificação catalisada por lipases vegetal e microbiana</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BRESSANI, A. P. ; GARCIA, K. C. A. ; MENDES, A. A. <b>Ethyl esters production from macaw palm oil by hydroesterification process using plant and microbial lipases as biocatalysts</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MENDES, A. <b>A. Optimization of the production of methyl oleate by esterification reaction catalyzed by immobilized Thermomyces lanuginosus lipase on poly-hydroxybutyrate particles</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Badino, A. C. <b>Mesa Redonda: Biotecnologia de Enzimas Microbianas - Palestra: Biorreatores na Produção de Celulases</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, A. K. F.; ANDRADE, G. S. S. ; Castro, Heizir F.. <b>Avaliação do efeito de diferentes fontes de carbono na produção de lipase intracelular via fermentação submersa pelo fungo filamentoso Mucor circinelloides URM 4182</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>da Silveira, NJF. <b>Bioinformática Estrutural</b>. 2013. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>De Souza,T.C. <b>Parâmetros fisiológicos em milho safrinha</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DONATELLI, A. L. S. ; MOREIRA, V. M. ; VASCONCELLOS, V. M. ; HIRATA, D.B. ; ROQUE1, A. C. M. ; LUIZ, J. H. H.. <b>Sociedade Brasileira de Química</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, N. C. A. ; MIRANDA, J. S. ; GRACIANO, A. L. D. ; BRESSANI, A. P. ; HIRATA, D. B. ; MENDES, A. A. <b>Otimização da produção enzimática de aroma de abacaxi por delineamento experimental</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>ZAMPIERI, F. B. ; OLIVEIRA, J. H. H. L.. <b>Avaliação da separação de lipase produzida pelo fungo Geotrichum candidum do caldo de fermentação por atividade enzimática e por eletroforese</b>. 2013. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Basso, R. C.; SILVA, C. A. S. ; SOUSA, C. O. ; Meirelles, A. J. A. ; BATISTA, E. A. C.. <b>Liquid-Liquid Equilibrium of Pseudoternary Systems Containing Glycerol + Ethanol + Ethylic Biodiesel from Macauba (Acrocomia aculeata) Pulp Oil at T/K = 298.2: Experimental Data and, Thermodynamic Modeling</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Basso, R. C.; SOUSA, C. O. ; Meirelles, A. J. A. ; BATISTA, E. A. C.. <b>Métodos Preditivos na Obtenção da Viscosidade e Densidade do Biodiesel Etílico de Óleo de Crambe em Diferentes Temperaturas (283,2 - 363,2) K</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BRIGAGÃO, MAISA R.P.L. <b>O Comitê de Ética em Ser Humano</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>De Souza,T.C. <b>Morfofisiologia de milho em condições de estresse hídrico</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>De Souza,T.C. <b>Composição química de estruturas secretoras de plantas em vários ambientes</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MENDES, A. <b>A. Caracterização das propriedades catalíticas de lipases de sementes de oleaginosas em meio orgânico e aquoso</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MENDES, A. <b>A. Transesterificação de óleos vegetais catalisada por lipase imobilizada e estabilizada por ligação covalente multipontual em suportes orgânicos</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MENDES, A. <b>A. Triagem de suportes e protocolos de ativação na imobilização e estabilização de lipase de Thermomyces lanuginosus</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>OLIVEIRA, J. H. H. L. <b>Desafios no isolamento de compostos bioativos de origem marinha a fungos endofíticos</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VASCONCELLOS, V. M. ; PEREIRA, E. B. ; HIRATA, D. B.. <b>PRODUÇÃO DE LIPASES POR FERMENTAÇÃO SUBMERÇA UTILIZANDO CALDO DE FERMENTAÇÃO COMPLEXO</b>. 2012. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Altarugio, L. M. ; HIRATA, D. B. ; PEREIRA, E. B.. <b>Comparação da estabilidade de lipase de Candida rugosa imobilizada em micropartículas de quitosana por adsorção e ligação covalente multipontual</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Altarugio, L. M. ; Zampieri, G. H. ; Lopes, W. R. Z. ; Cognette, R. C. ; HIRATA, D. B. ; PEREIRA, E. B.. <b>Imobilização de Lipase de Candida rugosa em micropartículas de quitosana utilizando diferentes agentes ativadores</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BACCIOTTI, F. ; PEREIRA, E. B. ; HIRATA, D. B.. <b>UTILIZAÇÃO DE INDUTOR ALTERNATIVO PARA A PRODUÇÃO DE LIPASE POR GEOTRICHUM CANDIDUM</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Basso, Rodrigo Côrrea; Meirelles, A. J. A. ; BATISTA, E. A. C.. <b>Liquid-Liquid Equilibrium of System Containing Glycerol, Ehanol and Biodiesel from Crambe (Hochst Abyssinica) oil at (293,15 - 318,15)K</b>. 2011. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CARVALHO, A. K. F.; SOUZA, L. T. A. ; BARBOZA, J. C. S. ; ZANIN, G. M. Z. ; CASTRO, H. F.. <b>Comparação do Processo de Alcoólise do Óleo de Pinhão Manso (Jatropha curcas): Desempenho de Catalisadores Heterogêneos Químico e Bioquímico</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Cognette, R. C. ; Altarugio, L. M. ; HIRATA, D. B. ; PEREIRA, E. B.. <b>Otimização e caracterização de micropartículas de quitosana imobilizada em lipase pancreática comercial</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GUIMARÃES, G.C. ; SENEDESI, J. C. ; HIRATA, D.B.. <b>OTIMIZAÇÃO DA ETAPA DE EXTRAÇÃO DO ÁCIDO CLAVULÂNICO</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>HIRATA, D.B.; Oliveira, J. H. H. L. ; Rodrigues, M. I. ; Barboza, M. ; Hokka, C. O.. <b>OTIMIZAÇÃO DA REAÇÃO DE PRECIPITAÇÃO INTERMEDIÁRIA NO PROCESSO DE PURIFICAÇÃO DO ÁCIDO CLAVULÂNICO DO CALDO DE FERMENTAÇÃO UTILIZANDO A T-OCTILAMINA COMO INTERMEDIÁRIO ESTÁVEL</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>HIRATA, D.B.; Oliveira, J. H. H. L. ; Rodrigues, M. I. ; Barboza, M. ; Hokka, C. O.. <b>OTIMIZAÇÃO DA REAÇÃO DE PRECIPITAÇÃO INTERMEDIÁRIA NO PROCESSO DE PURIFICAÇÃO DO ÁCIDO CLAVULÂNICO DO CALDO DE FERMENTAÇÃO UTILIZANDO A T-OCTILAMINA COMO INTERMEDIÁRIO ESTÁVEL</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Junior, M. K. A. ; PIMENTA, L. S. ; PEREIRA, E. B.. <b>Caracterização e aplicação de diferentes lipases em reações de hidrólise e síntese de biodiesel</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MENDES, A. A; CASTRO, Heizir Ferreira de ; GIORDANO, Raquel de Lima Camargo. <b>Preparation of active and thermo-stable biocatalysts by multipoint covalent attachment of lipase on activated agarose beads for biodiesel synthesis</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PIMENTA, L. S. ; Junior, M. K. A. ; PEREIRA, E. B.. <b>Etanólise de fontes oleaginosas por catálise química e enzimática</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Saraiva, LA ; Rodrigues IC ; Veloso, MP ; da Silveira, NJF. <b>BIOINFORMATICS APPROACH OF CYCLIN-DEPENDENT KINASES 1 AND 3 COMPLEXED WITH INHIBITORS</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SILVEIRA, L. A. ; SALGADO, E. G.. <b>IV Jornada Científica da UNIFAL-MG</b>. 2011. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Zampieri, G. H. ; Lopes, W. R. Z. ; HIRATA, D. B. ; PEREIRA, Ernandes Benedito. <b>Avaliação do desempenho de duas cepas fúngicas na produção de lipases</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARNEIRO, L. A. B. C. ; PEREIRA, Ernandes Benedito ; SILVEIRA, E. A.. <b>Syntheis and characterization of chitosan microparticles in enzymatic reactions</b>. 2010. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARNEIRO, L. A. B. C. ; SILVANO, Jacira ; PEREIRA, Ernandes Benedito. <b>Síntese e Caracterização de Micropartículas de Quitosana em Reações Enzimáticas</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARVALHO, P. V. S. D. ; da Silveira, NJF ; Omote, D ; Gouvêa, CMCP. <b>Approach applied in the computational Discovery of new phytochemical present in medicinal plants, with Terapeutic Potential in Head and Neck Cancer</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FIGUEIRA, J. A.; SATO, H. H. ; Fernandes, P.. <b>Characterization of B-glucosidase entrapped in LentiKats and in sol-gel supports</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Matsui QYP ; Mota, AJ ; Back-Brito GN ; Pereira, DB ; da Silveira, NJF ; Mittmann J. <b>Sexagem e sequenciamento parcial do gene CHD-1/Z de Mimus Saturninus Taxidermizado</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MENDES, A. <b>A. Screening of protocols to immobilize microbial lipase from Penicillium camembertii on different supports</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Saraiva, LA ; da Silveira, NJF ; Rodrigues IC ; Silva, JMSF ; Santos, PG ; Santos, MH ; Veloso, MP. <b>Molecular docking of natural pharmacologically active xanthones with human serum albumin and bovine serum albumin, main protein transporters in plasma</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Saraiva, LA ; da Silveira, NJF ; Rodrigues IC ; Silva, JMSF ; Santos, PG ; Veloso, MP. <b>Docking Molecular de xantomonas naturais farmacologicamente ativas com HSA, principal proteína humana de transporte sanguíneo</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Saraiva, LA ; Veloso, MP ; Rodrigues IC ; da Silveira, NJF. <b>Structural Bioinformatics approach of cyclin-dependent kinases 1 and 3 complexed with inhibitors</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Saraiva, LA ; Veloso, MP ; Rodrigues IC ; da Silveira, NJF. <b>Computational approach to new anticancer drug developments using bioinformatics to structural analysis of molecular markers in HNSCC</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SILVA, R. A. ; de Assis, GF ; da Silveira, NJF. <b>Prediction of segmentes in proteins using LMProt algoritm</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BADINO, A.C. <b>Mesa Redonda: Biotecnologia Industrial - Palestra: Fermentadores na produção de antibióticos</b>. 2009. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, A. K. F.; BRUNO, L. M. ; LIMA, C. P.. <b>Pesquisa de bacteriófagos na linha de produção industrial de queijos de coalho produzidos no Ceará</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>da Silveira, NJF. <b>Métodos Computacionail Aplicados em Bioinformática</b>. 2009. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MENDES, A. <b>A. Alcoholysis of palm oil using immobilized lipase on hybrid hydrogel chitosan-alginate chemically modified</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, J. H. H. L.; GRANATO, A. C. ; Leão, K. V. ; Ferreira, Antonio G. ; Barboza, M. ; Carlos Osamu Hokka. <b>Uso da espectrometria de massas para detecção de cefamicina C e isolamento de compostos presentes no meio de fermentação</b>. 2009. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIAR, Rafael Oliveira de ; De Luca, V. D ; Hendler, G. H ; MACHADO, T. L. ; AGNES, Eduardo João ; PEREIRA, M. R. ; DE CASTRO, H. F. ; PEREIRA, E. B.. <b>Síntese e caracterização de micropartículas de quitosana aplicadas em reações enzimáticas</b>. 2008. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AGUIAR, Rafael Oliveira de ; MONDARDO, Ramiro Macarini ; AGNES, Eduardo João ; DE CASTRO, H. F. ; PEREIRA, E. B.. <b>Produção de ácidos graxos por hidrólise enzimática empregando lipase imobilizada em quitosana: avaliação e comparação da eficiência de imobilização</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Batista Neto, Alvaro ; GRANATO, A. C. ; OLIVEIRA, J. H. H. L. ; Bustamante, M ; Barboza, M. ; Carlos Osamu Hokka. <b>Tratamento de caldo de cultivo para o isolamento de Cefamicina C</b>. 2008. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BIEHL, Jonata de Ben ; AGUIAR, Rafael Oliveira de ; AGNES, Eduardo João ; DE CASTRO, H. F. ; PEREIRA, E. B.. <b>Avaliação da Biodegradabilidade do efluente da indústria de laticínios utilizando enzimas hidrolíticas para degradação de gorduras e produção de biogás</b>. 2008. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CARVALHO, A. K. F.; QUEIROZ, A.A.M. ; BRUNO, L. M. ; BORGES, M. F.. <b>Ajuste de PCR específica para a identificação de bactérias ácido láticas</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Coutinho, C. M. ; CHIU, M. C. ; Basso, R. C. ; RIBEIRO, A. P. A. ; Grimaldi, Renato ; GONCALVES, L. A. G.. <b>Degumming of Sunflower Oil using Polymeric Membranes</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DORS, G. ; PEREIRA, E. B. ; DE CASTRO, H. F. ; FURIGO JUNIOR, Agenor. <b>Hidrólise enzimática e biodigestão simultânea de efluentes da indústria de produtos avícolas</b>. 2008. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Figueira, Joelise de Alencar. <b>Aplicação de alfa-amilase no processamento de açúcar cristal bruto</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MENDES, A. <b>A. Imobilização multipontual de lipases em géis glioxil: Influência da aminação química sobre a estabilidade térmica e em solventes orgânicos</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MENDES, A. <b>A. Estratégias para a obtenção de derivados termoestáveis de lipase imobilizada em matriz híbrida quitosana-alginato epoxilada</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>OLIVEIRA, J. H. H. L.; Granato, Ana Claudia ; Bustamante, M ; Batista Neto, Alvaro ; Carlos Osamu Hokka ; Barboza, M.. <b>Isolamento da cefamicina C e intermediários da rota biossintética de S. clavuligerus</b>. 2008. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VARELA, A. G. ; DAGOSTIN, J. C. M. ; AGNES, Eduardo João ; DE CASTRO, H. F. ; PEREIRA, E. B.. <b>Perfil de comparação entre um catalisador químico e a lipase imobilizada na produção de ésteres aromatizantes</b>. 2008. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Basso, R. C.; GONCALVES, L. A. G. ; GRIMALDI, R. ; Viotto, L. A.. <b>Degomagem de Miscela de Óleo Bruto de Soja e Hexano por Membrana Cerâmica e Estudo do Processo de Limpeza</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Basso, R. C.; MASUSHI, M. H. ; GONCALVES, L. A. G. ; GRIMALDI, R.. <b>Influência dos Diacilgliceróis na Velocidade de Cristalização do Óleo de Palma</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARVALHO, A. K. F.; BRUNO, L. M. ; QUEIROZ, A.A.M. ; BORGES, M. F.. <b>Extração de DNA de bactérias ácido lática: adequação de protocolo</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Daniela Battaglia Hirata ; OLIVEIRA, J. H. H. L. ; Barboza, M. ; Carlos Osamu Hokka ; Ferreira, Antonio G.. <b>Isolamento e purificação do AC através de precipitação com o sal 2-etilhexanoato de potássio</b>. 2007. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DORS, G. ; PEREIRA, E. B. ; DE CASTRO, H. F. ; FURIGO JUNIOR, Agenor. <b>Hidrólise enzimática e biodegradação simultâneas no tratamento de águas residuárias ricas em lipídeos</b>. 2007. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, J. H. H. L.; Daniela Battaglia Hirata ; FERREIRA, A. G. ; PAZOTTO, M. B. ; Carlos Osamu Hokka. <b>ISOLAMENTO DA CEFAMICINA C E DE NOVOS METABÓLITOS ORIUNDOS DE CALDOS DE STREPTOMYCES CLAVULIGERUS E DE NOVAS LINHAGENS DE STREPTOMYCES</b>. 2007. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DANTZGER, M. ; NUNES, Terezinha D'ávila e Silva ; BRIGAGÃO, M. R. P. L. ; NUNES, F. R. A. ; PERON, Roseclér Aparecida ; NUNES, M. L. A. ; MOREIRA, D. A. C.. <b>Efeito do consumo do polvilho de lobeira sobre parâmetros bioquímicos plasmáticos e conteúdo de glicogênio de tecidos insulino-dependentes e não dependentes</b>. 2006. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MENDES, A. <b>A. Produção de biodiesel por interesterificação de óleo de babaçu e etanol catalisada por lipase imobilizada em suporte híbrido</b>. 2006. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>OLIVEIRA, J. H. H. L.; Daniela Battaglia Hirata ; PAZOTTO, M. B. ; Carlos Osamu Hokka. <b>?Isolamento e identificação do ácido clavulânico e da cefamicina C?</b>. 2006. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ROCHA, V. F. B. ; LINHARES, N.F.M. ; MOREIRA, D. A. C. ; NUNES, Terezinha D'ávila e Silva ; BRIGAGÃO, M. R. P. L.. <b>Estresse oxidativo em glândulas salivares no diabetes mellitus: envolvimento de compostos tiólicos</b>. 2006. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANTOS FILHO, P. R.; FERREIRA, P. G. ; MARTINS, I. S. ; GOUVEA, C. M. C. P.. <b>Atividade do extrato hexânico de frutos de Pterodon emarginatus sobre o estresse oxidativo e nitrosativo in vitro</b>. 2006. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRIGAGÃO, M. R. P. L. <b>Lychnopholide inhibits leukocyte respiratory burst by a proteinS-thiolation mechanism</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MENDES, A. <b>A. Avaliação da atividade metanogênica e biodegradabilidade anaeróbia de águas residuárias com elevados teores de lipídeos pré-tratados com lipases</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SANTOS FILHO, P. R.; OLIVEIRA, G. A. ; GOUVEA, C. M. C. P.. <b>Atividade estimuladora da óxido nítrico sintase (NOS) e antioxidante do composto vegetal Mais Vida</b>. 2004. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>PEREIRA, E. B. <b>Tratamento enzimático para remoção de gorduras dos resíduos gerados por indústrias de produtos avícolas</b>. 2002. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>PEREIRA, E. B. <b>Tecnologias alternativas para tratamento de efluentes ricos em gorduras</b>. 2002. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>PEREIRA, E. B. <b>Enzimas e suas aplicações - Imobilização de Lipases em diferentes suportes</b>. 2000. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 17:29:28<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="24/01/2023 11:29:14">
+<curriculo_lattes data_processamento="07/04/2023 17:47:35">
   <pesquisador id="0487113229071944">
     <identificacao>
       <identificador10></identificador10>
@@ -75,7 +75,7 @@
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2010</ano_conclusao>
           <nome>Quebra decorrespondência e decoerência em sistemas quânticoscom análogo clássico não-linear</nome>
-          <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Adélcio Carlos de Oliveira - Coordenador. Financiador(es): Universidade Estadual de Santa Cruz - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado da Bahia - Auxílio financeiro.</descricao>
+          <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Adélcio Carlos de Oliveira - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado da Bahia - Auxílio financeiro / Universidade Estadual de Santa Cruz - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -108,6 +108,36 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.5890/JAND.2023.06.004</doi>
+          <titulo>Anomalous heat diffusion in a boundary layer: A Fractionary Blasius?s System</titulo>
+          <autores>MONTEIRO, T. B. ; ALMEIDA, A. C. L. ; OLIVEIRA, Adélcio Carlos de</autores>
+          <revista>JOURNAL OF APPLIED NONLINEAR DYNAMICS</revista>
+          <volume>JOURNAL OF APPLIED NONLINEAR DYNAMICS</volume>
+          <paginas>245-256</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.physa.2022.128313</doi>
+          <titulo>A complementary resource relation of concurrence and roughness for a two-qubit state</titulo>
+          <autores>REIS, M. ; OLIVEIRA, Adélcio Carlos de</autores>
+          <revista>PHYSICA A-STATISTICAL MECHANICS AND ITS APPLICATIONS</revista>
+          <volume>PHYSICA A-STATISTICAL MECHANICS AND ITS APPLICATIONS</volume>
+          <paginas>128313</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1140/epjd/s10053-020-00028-w</doi>
+          <titulo>The quantum Jarzynski inequality for superconducting optical cavities</titulo>
+          <autores>DE PAULA, JOSIANE OLIVEIRA REZENDE ; DE FARIA, J. G. PEIXOTO ; DE OLIVEIRA, J. G. G. ; DE CARVALHOFALCÃO, RICARDO ; Oliveira, Adélcio C.</autores>
+          <revista>EUROPEAN PHYSICAL JOURNAL D</revista>
+          <volume>EUROPEAN PHYSICAL JOURNAL D</volume>
+          <paginas>30</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1016/j.physa.2021.126099</doi>
           <titulo>Continuum reset dynamics as a pathway to Newtonian classical limit of Quantum Mechanics</titulo>
           <autores>OLIVEIRA, Adélcio Carlos de</autores>
@@ -124,16 +154,6 @@
           <revista>Journal of Computational Electronics</revista>
           <volume>Journal of Computational Electronics</volume>
           <paginas>2189-2198</paginas>
-          <numero></numero>
-          <ano>2021</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1140/epjd/s10053-020-00028-w</doi>
-          <titulo>The quantum Jarzynski inequality for superconducting optical cavities</titulo>
-          <autores>DE PAULA, JOSIANE OLIVEIRA REZENDE ; DE FARIA, J. G. PEIXOTO ; DE OLIVEIRA, J. G. G. ; DE CARVALHOFALCÃO, RICARDO ; Oliveira, Adélcio C.</autores>
-          <revista>EUROPEAN PHYSICAL JOURNAL D</revista>
-          <volume>EUROPEAN PHYSICAL JOURNAL D</volume>
-          <paginas>30</paginas>
           <numero></numero>
           <ano>2021</ano>
         </artigo>
@@ -730,28 +750,6 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <artigos_em_revista>
-        <artigo_revista>
-          <doi></doi>
-          <autores>MONTEIRO, T. B. ; ALMEIDA, A. C. L. ; OLIVEIRA, Adélcio Carlos de</autores>
-          <titulo>Anomalous heat diffusion in a boundary layer: A Fractionary Blasius's System</titulo>
-          <revista>JOURNAL OF APPLIED NONLINEAR DYNAMICS</revista>
-          <ano>2022</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-        <artigo_revista>
-          <doi></doi>
-          <autores>REIS, M. ; OLIVEIRA, Adélcio Carlos de</autores>
-          <titulo>A complementary resource relation of concurrence and roughness for a two-qubit state</titulo>
-          <revista>PHYSICA A-STATISTICAL MECHANICS AND ITS APPLICATIONS</revista>
-          <ano>2022</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>Jarzynski Equality as Quantum Indicator</titulo>
@@ -3510,6 +3508,755 @@
         </evento>
     </participacao_evento>
   </pesquisador>
+  <pesquisador id="4937965723746020">
+    <identificacao>
+      <identificador10></identificador10>
+      <nome_inicial>Érico Goulart de Oliveira Costa</nome_inicial>
+      <nome_completo>Érico Goulart de Oliveira Costa</nome_completo>
+      <nome_citacao_bibliografica>Goulart, E.;GOULART, E;GOULART, ÉRICO;DE OLIVEIRA COSTA, ÉRICO GOULART;GOULART, ERICO</nome_citacao_bibliografica>
+      <sexo>Masculino</sexo>
+    </identificacao>
+    <idiomas>
+      <idioma>
+          <nome>Inglês</nome>
+          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
+      </idioma>
+      <idioma>
+          <nome>Espanhol</nome>
+          <proficiencia>Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco.</proficiencia>
+      </idioma>
+    </idiomas>
+    <endereco>
+      <endereco_profissional>Universidade Federal de São João Del-Rei. Rod.: MG 443, KM 7 Ouro Branco Campus Alto Paraopeba 36420000 - Ouro Branco, MG - Brasil Telefone: (031) 37497300 URL da Homepage: https://ufsj.edu.br/cap/</endereco_profissional>
+      <endereco_profissional_lat></endereco_profissional_lat>
+      <endereco_profissional_long></endereco_profissional_long>
+    </endereco>
+    <formacao_academica>
+        <formacao>
+          <ano_inicio>2004</ano_inicio>
+          <ano_conclusao>2008</ano_conclusao>
+          <tipo>Doutorado em Relatividade Geral e Cosmologia</tipo>
+          <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
+          <descricao>Título: Excitações do tensor de Weyl na cosmologia e questões de estabilidade, Ano de obtenção: 2008. Orientador: Mário Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: equacoes quasi-maxwellianas; Sistemas Dinâmicos; Formação de Estruturas. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. Setores de atividade: Pesquisa e desenvolvimento científico.</descricao>
+        </formacao>
+        <formacao>
+          <ano_inicio>2002</ano_inicio>
+          <ano_conclusao>2004</ano_conclusao>
+          <tipo>Mestrado em Relatividade Geral e Cosmologia</tipo>
+          <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
+          <descricao>Título: A Aceleração do Universo e a Eletrodinâmica Não-Linear, Ano de Obtenção: 2004. Orientador: Mário Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Eletrodinâmica Não-Linear; Fator de Escala; Born-Infeld. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. Setores de atividade: Pesquisa e desenvolvimento científico.</descricao>
+        </formacao>
+        <formacao>
+          <ano_inicio>1999</ano_inicio>
+          <ano_conclusao>2002</ano_conclusao>
+          <tipo>Graduação em Física bacharelado</tipo>
+          <nome_instituicao>Universidade Federal de Viçosa, UFV, Brasil</nome_instituicao>
+          <descricao>Título: Aspectos Geométricos do Cálculo Diferencial Absoluto. Orientador: Afrânio Rodrigues Pereira. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de Minas Gerais, FAPEMIG, Brasil.</descricao>
+        </formacao>
+    </formacao_academica>
+    <projetos_pesquisa>
+        <projeto>
+          <ano_inicio>2014</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Geometric Wave Equations in the Theory of Topological Solitons</nome>
+          <descricao>Descrição: O projeto investiga equações diferenciais parciais hiperbólicas para campos tomando valores em variedades Riemannianas. Equações desse tipo aparecem em diversos setores da física-matemática, como na física nuclear, teorias de Yang-Mills, teoria de cordas, relatividade geral, elasto-dinâmica e magnetismo. Em certas situações, elas admitem sólitons topológicos de diversas naturezas e vem sendo estudadas em detalhes recentemente. Combinando técnicas de topologia algébrica, geometria diferencial e análise de EDPs, nós exploramos teorias do tipo Wave Maps, Skyrme, Faddeev-Niemi, modelos integráveis e AFZ.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) . Integrantes: Érico Goulart de Oliveira Costa - Integrante / Enrique Reyes Garcia - Coordenador / Daniel Pons Rubio - Integrante / Miguel Bezares - Integrante / Gonzalo Melchisedec - Integrante.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2013</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Nonlinear Electrodynamics as a Symmetric Hyperbolic System</nome>
+          <descricao>Descrição: O projeto investiga a coerência do problema de Cauchy e a emergência de singularidades para teorias não-lineares do eletromagnetismo. Utilizamos o formalismo de fibrados desenvolvido por R. Geroch para sistemas simétrico-hiperbólicos de primeira ordem e exploramos técnicas geométricas típicas da relatividade geral no estudo de ondas, variedades características, descontinuidades, raios, shocks e blow-ups.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (2) . Integrantes: Érico Goulart de Oliveira Costa - Integrante / Oscar Reula - Coordenador / Federico Leon Carrasco - Integrante / Fernando Abalos - Integrante.</descricao>
+        </projeto>
+    </projetos_pesquisa>
+    <area_atuacao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Relatividade e Gravitação.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Física Clássica e Física Quântica; Mecânica e Campos.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Métodos Matemáticos da Física.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise/Especialidade: Equações Diferenciais Parciais.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Geometria e Topologia/Especialidade: Geometria Diferencial.</descricao>
+    </area_atuacao>
+    <colaboradores>
+        <id_lattes_colaborador>9768360230719166</id_lattes_colaborador>
+        <id_lattes_colaborador>5205000061462210</id_lattes_colaborador>
+        <id_lattes_colaborador>3980645829400310</id_lattes_colaborador>
+        <id_lattes_colaborador>7214193952056222</id_lattes_colaborador>
+        <id_lattes_colaborador>4937965723746020</id_lattes_colaborador>
+    </colaboradores>
+    <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.105.024021</doi>
+          <titulo>Nonlinear electrodynamics nonminimally coupled to gravity: Symmetric-hyperbolicity and causal structure</titulo>
+          <autores>GOULART, ÉRICO; BERGLIAFFA, SANTIAGO ESTEBAN PEREZ</autores>
+          <revista>Physical Review D</revista>
+          <volume>Physical Review D</volume>
+          <paginas>024021</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1142/S0219887821500389</doi>
+          <titulo>Spacetime foliations, quaternions and knotted light</titulo>
+          <autores>Goulart, E.; OTTONI, J. E.</autores>
+          <revista>INTERNATIONAL JOURNAL OF GEOMETRIC METHODS IN MODERN PHYSICS</revista>
+          <volume>INTERNATIONAL JOURNAL OF GEOMETRIC METHODS IN MODERN PHYSICS</volume>
+          <paginas>2150038</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1088/1361-6382/ac08a9</doi>
+          <titulo>Space and time ambiguities in vacuum electrodynamics</titulo>
+          <autores>GOULART, ÉRICO; BITTENCOURT, EDUARDO</autores>
+          <revista>Classical and Quantum Gravity</revista>
+          <volume>Classical and Quantum Gravity</volume>
+          <paginas>145029</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevA.104.043523</doi>
+          <titulo>Spherical symmetry and nonmagnetic dielectrics in analog models of gravity</titulo>
+          <autores>BITTENCOURT, EDUARDO ; KLIPPERT, RENATO ; DA SILVA, DIEGO RENAN ; GOULART, ÉRICO</autores>
+          <revista>PHYSICAL REVIEW A</revista>
+          <volume>PHYSICAL REVIEW A</volume>
+          <paginas>043523</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1088/1751-8121/ab213c</doi>
+          <titulo>On spacetime foliations and electromagnetic knots</titulo>
+          <autores>COSTA E SILVA, W ; GOULART, E ; OTTONI, J E</autores>
+          <revista>Journal of Physics A-Mathematical and Theoretical</revista>
+          <volume>Journal of Physics A-Mathematical and Theoretical</volume>
+          <paginas>265203</paginas>
+          <numero></numero>
+          <ano>2019</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.100.125001</doi>
+          <titulo>Geometrical hypotheses underlying wave functions and their emerging dynamics</titulo>
+          <autores>GOULART, ERICO; PINTO-NETO, NELSON</autores>
+          <revista>PHYSICAL REVIEW D</revista>
+          <volume>PHYSICAL REVIEW D</volume>
+          <paginas>125001</paginas>
+          <numero></numero>
+          <ano>2019</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1209/0295-5075/115/10004&md5=beaa60163368101abbfc9ea85355c0e2</doi>
+          <titulo>Nonlinear electrodynamics is skilled with knots</titulo>
+          <autores>Goulart, E</autores>
+          <revista>Europhysics Letters (Print)</revista>
+          <volume>Europhysics Letters (Print)</volume>
+          <paginas>10004</paginas>
+          <numero></numero>
+          <ano>2016</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.94.084011</doi>
+          <titulo>From Hopf fibrations to exotic causal replacements</titulo>
+          <autores>BEZARES, MIGUEL ; GOULART, ÉRICO ; PALOMERA, GONZALO ; PONS, DANIEL J. ; REYES, ENRIQUE G.</autores>
+          <revista>PHYSICAL REVIEW D</revista>
+          <volume>PHYSICAL REVIEW D</volume>
+          <paginas>084011</paginas>
+          <numero></numero>
+          <ano>2016</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.91.045033</doi>
+          <titulo>Nontrivial causal structures engendered by knotted solitons</titulo>
+          <autores>Goulart, E</autores>
+          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
+          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
+          <paginas>045033</paginas>
+          <numero></numero>
+          <ano>2015</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.92.084024</doi>
+          <titulo>Nonlinear electrodynamics as a symmetric hyperbolic system</titulo>
+          <autores>ABALOS, FERNANDO ; CARRASCO, FEDERICO ; GOULART, ÉRICO ; REULA, OSCAR</autores>
+          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
+          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
+          <paginas>084024</paginas>
+          <numero></numero>
+          <ano>2015</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4936147&md5=03bf3fbe470c84cc11d337dbc955e19a</doi>
+          <titulo>Characteristic analysis for integrable soliton models on two-dimensional target spaces</titulo>
+          <autores>Goulart, E</autores>
+          <revista>Journal of Mathematical Physics</revista>
+          <volume>Journal of Mathematical Physics</volume>
+          <paginas>113513</paginas>
+          <numero></numero>
+          <ano>2015</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.89.105008</doi>
+          <titulo>Inspecting baby Skyrmions with effective metrics</titulo>
+          <autores>GIBBONS, G.'W. ; Goulart, E.</autores>
+          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
+          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
+          <paginas>105008</paginas>
+          <numero></numero>
+          <ano>2014</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1475-7516/2014/01/e01&md5=8d98b8f03f0a5dca5ad41e565f6d0030</doi>
+          <titulo>Erratum: Geometric scalar theory of gravity</titulo>
+          <autores>NOVELLO, M ; BITTENCOURT, E ; MOSCHELLA, U ; GOULART, E ; SALIM, J.M ; TONIATO, J.D</autores>
+          <revista>Journal of Cosmology and Astroparticle Physics</revista>
+          <volume>Journal of Cosmology and Astroparticle Physics</volume>
+          <paginas>E01-E01</paginas>
+          <numero></numero>
+          <ano>2014</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1475-7516/2013/06/014&md5=e4058b8842242c2b4a4faa03a25a81ad</doi>
+          <titulo>Geometric scalar theory of gravity</titulo>
+          <autores>NOVELLO, M ; BITTENCOURT, E ; MOSCHELLA, U ; GOULART, E ; SALIM, J.M ; TONIATO, J.D</autores>
+          <revista>Journal of Cosmology and Astroparticle Physics</revista>
+          <volume>Journal of Cosmology and Astroparticle Physics</volume>
+          <paginas>014-014</paginas>
+          <numero></numero>
+          <ano>2013</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/30/15/155020&md5=c8ed6ecbc6e637d912f494a7a85b3bfc</doi>
+          <titulo>Disformal invariance of Maxwell?s field equations</titulo>
+          <autores>GOULART, E; FALCIANO, F T</autores>
+          <revista>Classical and Quantum Gravity (Print)</revista>
+          <volume>Classical and Quantum Gravity (Print)</volume>
+          <paginas>155020</paginas>
+          <numero></numero>
+          <ano>2013</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/29/8/085011&md5=296fbaba8336bb179622ce86d7103db6</doi>
+          <titulo>A new symmetry of the relativistic wave equation</titulo>
+          <autores>Goulart, E.; F. T. Falciano</autores>
+          <revista>Classical and Quantum Gravity (Print)</revista>
+          <volume>Classical and Quantum Gravity (Print)</volume>
+          <paginas>085011</paginas>
+          <numero></numero>
+          <ano>2012</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.5402/2012/260951</doi>
+          <titulo>Mimicking General Relativity with Newtonian Dynamics</titulo>
+          <autores>Goulart, E</autores>
+          <revista>ISRN Mathematical Physics</revista>
+          <volume>ISRN Mathematical Physics</volume>
+          <paginas>260951</paginas>
+          <numero></numero>
+          <ano>2012</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/28/24/245008&md5=511f5067935f6d67ceb398e510b0b12b</doi>
+          <titulo>Hidden geometries in nonlinear theories: a novel aspect of analogue gravity</titulo>
+          <autores>Goulart, E.; M. Novello ; F. T. Falciano ; TONIATO, J.</autores>
+          <revista>Classical and Quantum Gravity (Print)</revista>
+          <volume>Classical and Quantum Gravity (Print)</volume>
+          <paginas>245008</paginas>
+          <numero></numero>
+          <ano>2011</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.84.105027&md5=a50785498968dd111535133f24e52a3c</doi>
+          <titulo>Effective metric in nonlinear scalar field theories</titulo>
+          <autores>Goulart, E.; Bergliaffa, Santiago</autores>
+          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
+          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
+          <paginas>105027</paginas>
+          <numero></numero>
+          <ano>2011</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.83.125022&md5=586296c6829d63d7920889b6ec21ccb9</doi>
+          <titulo>Scalar quantum field theory in disordered media</titulo>
+          <autores>Goulart, E.; Arias, E. ; Krein, G. ; Menezes, G. ; Svaiter, N.</autores>
+          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
+          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
+          <paginas>125022</paginas>
+          <numero></numero>
+          <ano>2011</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/28/14/145022&md5=aadfff439b4f104d3f0208ebd78500ea</doi>
+          <titulo>Beyond analog gravity: the case of exceptional dynamics</titulo>
+          <autores>NOVELLO, M. ; Goulart, E.</autores>
+          <revista>Classical and Quantum Gravity (Print)</revista>
+          <volume>Classical and Quantum Gravity (Print)</volume>
+          <paginas>145022</paginas>
+          <numero></numero>
+          <ano>2011</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1142/s0217751x10050573</doi>
+          <titulo>GEOMETRICAL PROPERTIES OF ELECTROMAGNETIC TIDAL FORCES</titulo>
+          <autores>GOULART, ÉRICO; FALCIANO, FELIPE TOVAR</autores>
+          <revista>International Journal of Modern Physics A</revista>
+          <volume>International Journal of Modern Physics A</volume>
+          <paginas>5383-5398</paginas>
+          <numero></numero>
+          <ano>2010</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1142/s0217751x0904628x&md5=78396b4bfd947275854b1e54d72d34c6</doi>
+          <titulo>FORMAL ANALOGIES BETWEEN GRAVITATION AND ELECTRODYNAMICS</titulo>
+          <autores>Goulart, E.; FALCIANO, F. T.</autores>
+          <revista>International Journal of Modern Physics A</revista>
+          <volume>International Journal of Modern Physics A</volume>
+          <paginas>4589</paginas>
+          <numero></numero>
+          <ano>2009</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/26/13/135015&md5=c20cf1be20564867b192af140f34b07b</doi>
+          <titulo>A classification of the effective metric in nonlinear electrodynamics</titulo>
+          <autores>DE OLIVEIRA COSTA, ÉRICO GOULART; PEREZ BERGLIAFFA, SANTIAGO ESTEBAN</autores>
+          <revista>Classical and Quantum Gravity (Print)</revista>
+          <volume>Classical and Quantum Gravity (Print)</volume>
+          <paginas>135015</paginas>
+          <numero></numero>
+          <ano>2009</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1134/s0202289309030013</doi>
+          <titulo>Gravitational waves in singular and bouncing FLRW universes</titulo>
+          <autores>ANTUNES, V. ; Goulart, E. ; NOVELLO, M.</autores>
+          <revista>Gravitation & Cosmology (Print)</revista>
+          <volume>Gravitation & Cosmology (Print)</volume>
+          <paginas>191-198</paginas>
+          <numero></numero>
+          <ano>2009</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1134/s0202289308040051</doi>
+          <titulo>Cosmological stability of Weyl conformal tensor</titulo>
+          <autores>Goulart, E.; NOVELLO, M.</autores>
+          <revista>Gravitation & Cosmology (Print)</revista>
+          <volume>Gravitation & Cosmology (Print)</volume>
+          <paginas>321-326</paginas>
+          <numero></numero>
+          <ano>2008</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/24/11/015&md5=7cd9efe5dde93f5c2bf8791af47b5a65</doi>
+          <titulo>Cosmological Effects of Nonlinear Electrodynamics</titulo>
+          <autores>M. Novello ; J. Salim ; S. Bergliafa ; Goulart, E.</autores>
+          <revista>Classical and Quantum Gravity (Print)</revista>
+          <volume>Classical and Quantum Gravity (Print)</volume>
+          <paginas>3021-3036</paginas>
+          <numero></numero>
+          <ano>2007</ano>
+        </artigo>
+    </artigos_em_periodicos>
+    <livros_publicados>
+        <livro>
+          <autores>M. Novello ; Goulart, E.</autores>
+          <titulo>Eletrodinâmica Não-Linear: causalidade e efeitos cosmológicos</titulo>
+          <edicao>1</edicao>
+          <volume>1</volume>
+          <paginas>112</paginas>
+          <ano>2010</ano>
+        </livro>
+    </livros_publicados>
+    <texto_em_jornal>
+        <texto>
+          <ano>2012</ano>
+          <autores>Goulart, E</autores>
+          <titulo>Vida longa à Reunião Argentino-Brasileira de Gravitação, Astrofísica e Cosmologia</titulo>
+          <nome_jornal>Cosmos & Contexto, Meio Digital</nome_jornal>
+          <data>15 jan. 2012</data>
+          <volume></volume>
+          <paginas></paginas>
+        </texto>
+    </texto_em_jornal>
+    <trabalho_completo_congresso>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1142/9789814623995_0314</doi>
+          <autores>TONIATO, JÚNIOR D. ; GOULART, ÉRICO ; NOVELLO, MARIO ; FALCIANO, FELIPE T.</autores>
+          <titulo>A NOVEL ASPECT OF ANALOGUE GRAVITY</titulo>
+          <nome_evento>Proceedings of the MG13 Meeting on General Relativity</nome_evento>
+          <ano>2015</ano>
+          <volume></volume>
+          <paginas>1912</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>BITTENCOURT, E ; Goulart, E.</autores>
+          <titulo>Geometric Scalar Gravity</titulo>
+          <nome_evento>Subatomic particles</nome_evento>
+          <ano>2014</ano>
+          <volume>17</volume>
+          <paginas>349-351</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>Goulart, E</autores>
+          <titulo>Selected Studies on Effective Geometries</titulo>
+          <nome_evento>Primeira Reunião Argentino-Brasileira de Gravitação</nome_evento>
+          <ano>2011</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>Goulart, E</autores>
+          <titulo>Gravidade em Baixas Dimensões</titulo>
+          <nome_evento>Simpósio de Iniciação Científica</nome_evento>
+          <ano>1999</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+    </trabalho_completo_congresso>
+    <apresentacao_trabalho>
+        <trabalho_apresentado>
+          <titulo>Formal aspects of knotted light</titulo>
+          <autores>DE OLIVEIRA COSTA, ÉRICO GOULART</autores>
+          <ano>2019</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Análise Geométrica na Teoria Clássica de Campos</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2016</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Effective geometries in the theory of topological solitons</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2015</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Knotted lines of forces in electrodynamics</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2015</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Inspecting Baby-Skyrmions with effective metrics</titulo>
+          <autores>GOULART, E</autores>
+          <ano>2014</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>On nonlinear wave maps</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2014</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Geometric wave equations in the theory of topological solitons</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2014</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Nontrivial Causal Structures Engendered by Knotted Solitons</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2014</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Effective geometries in nonlinear field theory</titulo>
+          <autores>GOULART, E</autores>
+          <ano>2013</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>A hidden symmetry of Maxwell's field equations</titulo>
+          <autores>Goulart, E.; FALCIANO, F T</autores>
+          <ano>2013</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Effective metrics</titulo>
+          <autores>Goulart, E.; FALCIANO, F. T. ; TONIATO, J. ; M. Novello</autores>
+          <ano>2011</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Uma invariância inesperada das equações de Maxwell</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2011</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Superfícies características na eletrodinâmica não-linear</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2011</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Light cone deformations in nonlinear electrodynamics</titulo>
+          <autores>Goulart, E.; S. E. P. Bergliaffa</autores>
+          <ano>2010</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Causal hyper-surfaces in nonlinear electrodynamics</titulo>
+          <autores>Goulart, E.; S. E. P. Bergliaffa</autores>
+          <ano>2010</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Gravidade artificial</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2010</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Sobre a geometria de raios escalares</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2009</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Rotas para a gravidade artificial</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2009</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Classificação de regimes não-lineares na eletrodinâmica</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2008</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Estabilidade da estrutura conforme na cosmologia</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2007</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Estabilidade do tensor de Weyl na cosmologia</titulo>
+          <autores>Goulart, E</autores>
+          <ano>2007</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+    </apresentacao_trabalho>
+    <trabalhos_tecnicos>
+        <trabalho>
+          <titulo>Sólitons topológicos do modelo sigma não linear acoplados com a gravidade 3D</titulo>
+          <autores>Goulart, E.; PEREIRA, A. R.</autores>
+          <ano>2001</ano>
+        </trabalho>
+        <trabalho>
+          <titulo>Gravidade em Baixas Dimensões</titulo>
+          <autores>Goulart, E.; PEREIRA, A. R.</autores>
+          <ano>2000</ano>
+        </trabalho>
+    </trabalhos_tecnicos>
+    <producao_tecnica>
+        <producao>
+          <titulo>Modelos Análogos de Gravitação</titulo>
+          <autores>Goulart, E</autores>
+          <natureza>Curso de curta duração ministrado/Extensão</natureza>
+          <ano>2011</ano>
+        </producao>
+        <producao>
+          <titulo>Fundamentos de Relatividade Geral</titulo>
+          <autores>M. Novello ; Goulart, E.</autores>
+          <natureza>Curso de curta duração ministrado/Extensão</natureza>
+          <ano>2010</ano>
+        </producao>
+        <producao>
+          <titulo>Programa Mínimo de Cosmologia</titulo>
+          <autores>Bergliaffa, Santiago ; M. Novello ; PINTO NETO, N. ; MOSQUERA, H. ; SALIM, J. M. ; FABRIS, J. ; OLIVEIRA, L. A. ; MAKLER, M. ; JORAS, S. E. ; LORENCI, V. ; Goulart, E.</autores>
+          <natureza>Editoração/Livro</natureza>
+          <ano>2010</ano>
+        </producao>
+        <producao>
+          <titulo>Programa Mínimo de Cosmologia</titulo>
+          <autores>Goulart, E</autores>
+          <natureza>Revisão Técnica</natureza>
+          <ano>2010</ano>
+        </producao>
+        <producao>
+          <titulo>Fundamentos de Cosmologia Relativista</titulo>
+          <autores>Goulart, E</autores>
+          <natureza>Curso de curta duração ministrado/Outra</natureza>
+          <ano>2009</ano>
+        </producao>
+    </producao_tecnica>
+    <orientacao_mestrado_em_andamento>
+        <dissertacao>
+          <nome_aluno>Daniel Passile Catalayu</nome_aluno>
+          <titulo_trabalho>Métricas efetivas na eletrodinâmica não-linear</titulo_trabalho>
+          <ano>2020</ano>
+          <instituicao>Dissertação (Mestrado profissional em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Luciano G. de Lima</nome_aluno>
+          <titulo_trabalho>Aproximação de campo fraco na relatividade geral</titulo_trabalho>
+          <ano>2020</ano>
+          <instituicao>Dissertação (Mestrado profissional em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Istenio Nunes de Morais</nome_aluno>
+          <titulo_trabalho>Buracos Negros na formulação de Kerr-Schild</titulo_trabalho>
+          <ano>2020</ano>
+          <instituicao>Dissertação (Mestrado profissional em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+    </orientacao_mestrado_em_andamento>
+    <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Elves Silva Moreira</nome_aluno>
+          <titulo_trabalho>CONGRUÊNCIAS EM RELATIVIDADE GERAL E CONSEQUÊNCIAS COSMOLÓGICAS</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Gabriel Volino da Silva</nome_aluno>
+          <titulo_trabalho>Propriedades algébricas dos tensores de Faraday e Weyl</titulo_trabalho>
+          <ano>2021</ano>
+          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+    </orientacao_mestrado_concluido>
+    <orientacao_iniciacao_cientifica_concluido>
+        <iniciacao_cientifica>
+          <nome_aluno>Gabriel Volino da Silva</nome_aluno>
+          <titulo_trabalho>Geometrias emergentes em sistemas não lineares</titulo_trabalho>
+          <ano>2019</ano>
+          <instituicao>(Graduando em Engenharia Mecatrônica) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Meison David Leite da Rocha</nome_aluno>
+          <titulo_trabalho>Teoria dos nós aplicada `a física</titulo_trabalho>
+          <ano>2019</ano>
+          <instituicao>(Graduando em Engenharia Civil) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Emanuel Monção Lima</nome_aluno>
+          <titulo_trabalho>Análise geométrica na teoria clássica de campos</titulo_trabalho>
+          <ano>2019</ano>
+          <instituicao>(Graduando em Engenharia Mecatrônica) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+    </orientacao_iniciacao_cientifica_concluido>
+    <participacao_evento>
+        <evento>
+          <titulo>Encontro em Gravitação e Cosmologia Quântica. 2011. (Oficina).</titulo>
+          <ano>2011</ano>
+        </evento>
+        <evento>
+          <titulo>Grav 11. 2011. (Congresso).</titulo>
+          <ano>2011</ano>
+        </evento>
+        <evento>
+          <titulo>V Reunião Anual do ICRA.Uma invariância inesperada das equações de Maxwell. 2011. (Encontro).</titulo>
+          <ano>2011</ano>
+        </evento>
+        <evento>
+          <titulo>Amazonian School on Quantum Theory and Applications.Light Cone Deformations in Non-linear Electro-dynamics. 2010. (Oficina).</titulo>
+          <ano>2010</ano>
+        </evento>
+        <evento>
+          <titulo>GR 19 meeting. Causal Surfaces Non-Linear Electrodynamics. 2010. (Congresso).</titulo>
+          <ano>2010</ano>
+        </evento>
+        <evento>
+          <titulo>I Symposium Mario Novello on Bouncing Models. 2010. (Simpósio).</titulo>
+          <ano>2010</ano>
+        </evento>
+        <evento>
+          <titulo>IV Reunião Anual do ICRA.Superfícies causais na Eletrodinâmica Não-Linear. 2010. (Encontro).</titulo>
+          <ano>2010</ano>
+        </evento>
+        <evento>
+          <titulo>XIV Brazilian School of Cosmology and Gravitation. 2010. (Oficina).</titulo>
+          <ano>2010</ano>
+        </evento>
+        <evento>
+          <titulo>III Reuniao Anual do ICRA.Sobre a ação da luz em si mesma. 2009. (Simpósio).</titulo>
+          <ano>2009</ano>
+        </evento>
+        <evento>
+          <titulo>Segunda Escola de Viena: do Colapso do Sistema Tonal à Elaboração do Dodecafonismo. 2009. (Seminário).</titulo>
+          <ano>2009</ano>
+        </evento>
+        <evento>
+          <titulo>II Reuniao Anual do ICRA.Classificação de Regimes Não-Lineares na Eletrodiniamica. 2008. (Simpósio).</titulo>
+          <ano>2008</ano>
+        </evento>
+        <evento>
+          <titulo>XIII Brasilian School of Cosmology and Gravitation - BSCG. 2008. (Congresso).</titulo>
+          <ano>2008</ano>
+        </evento>
+        <evento>
+          <titulo>Cesare Lattes Meeting on Gamma Ray Bursts. 2007. (Congresso).</titulo>
+          <ano>2007</ano>
+        </evento>
+        <evento>
+          <titulo>I Conferência de Cosmologia, Relatividade e Astrofísica.Estabilidade da Estrutura Conforme na Cosmologia. 2007. (Seminário).</titulo>
+          <ano>2007</ano>
+        </evento>
+        <evento>
+          <titulo>I Reuniao Anual do ICRA.Excitações do Tensor de Weyl na Cosmologia. 2007. (Simpósio).</titulo>
+          <ano>2007</ano>
+        </evento>
+        <evento>
+          <titulo>Logic and Time (in honor of Kurt Gödel). 2007. (Seminário).</titulo>
+          <ano>2007</ano>
+        </evento>
+        <evento>
+          <titulo>FOURTH INTERNATIONAL SCHOOL ON FIELD THEORY AND GRAVITATION. 2006. (Encontro).</titulo>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>XII - Brazilian School of Cosmology and Gravitation - BSCG. 2006. (Congresso).</titulo>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>Estrutura do espaço-tempo. 2004. (Encontro).</titulo>
+          <ano>2004</ano>
+        </evento>
+        <evento>
+          <titulo>II Escola de Cosmologia e Gravitação. 2004. (Simpósio).</titulo>
+          <ano>2004</ano>
+        </evento>
+        <evento>
+          <titulo>XI - Brazilian School of Cosmology and Gravitation - BSCG. 2004. (Congresso).</titulo>
+          <ano>2004</ano>
+        </evento>
+        <evento>
+          <titulo>Tenth Marcel Grossmann Meeting. 2003. (Congresso).</titulo>
+          <ano>2003</ano>
+        </evento>
+        <evento>
+          <titulo>Transplanckian Physics. 2003. (Encontro).</titulo>
+          <ano>2003</ano>
+        </evento>
+    </participacao_evento>
+    <organizacao_evento>
+        <evento>
+          <titulo></titulo>
+          <natureza></natureza>
+          <ano>0</ano>
+        </evento>
+    </organizacao_evento>
+  </pesquisador>
   <pesquisador id="1373657423991547">
     <identificacao>
       <identificador10></identificador10>
@@ -4734,7 +5481,7 @@
           <ano>2007</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1088/0305-4470/39/30/002</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0305-4470/39/30/002&md5=c138e9d5521d7fa89ae3be1e54cacf7d</doi>
           <titulo>Heat conduction in a weakly anharmonic chain: an analytical approach</titulo>
           <autores>FRANCISCO NETO, A. ; LEMOS, Humberto C. F. ; PEREIRA, E.</autores>
           <revista>Journal of Physics. A, Mathematical and General (Print) (Cessou em 2006. Cont. ISSN 1751-8113 Journal of Physics. A, Mathematical and Theoretical (Pri</revista>
@@ -4880,6 +5627,22 @@
     </orientacao_tcc_concluido>
     <orientacao_iniciacao_cientifica_concluido>
         <iniciacao_cientifica>
+          <nome_aluno>Gabriel Francisco Xavier Vítor</nome_aluno>
+          <titulo_trabalho>ifusão anômala e cálculo fracionário</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduando em Engenharia Química) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Carolaine Gomes de Oliveira</nome_aluno>
+          <titulo_trabalho>Equações Diferenciais Ordinárias Fracionárias</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduando em Engenharia Civil) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
           <nome_aluno>Daniel de Morais Alves dos Santos</nome_aluno>
           <titulo_trabalho>Oscilador Harmônico Fracionário</titulo_trabalho>
           <ano>2018</ano>
@@ -5000,14 +5763,14 @@
           <ano_conclusao>2014</ano_conclusao>
           <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
-          <descricao>Título: A teoria geométrica-escalar da gravitação e sua aplicação à cosmologia, Ano de obtenção: 2014. Orientador: Mario Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: gravitação escalar; teorias alternativas da gravitação; cosmologia. Grande área: Ciências Exatas e da Terra</descricao>
+          <descricao>Título: A teoria geométrica-escalar da gravitação e sua aplicação à cosmologia O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2014. Orientador: Mario Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: gravitação escalar; teorias alternativas da gravitação; cosmologia. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2008</ano_inicio>
           <ano_conclusao>2010</ano_conclusao>
           <tipo>Mestrado em Física (Conceito CAPES 4)</tipo>
           <nome_instituicao>Universidade Federal do Espírito Santo, UFES, Brasil</nome_instituicao>
-          <descricao>Título: Modelo Acústico Análogo ao Buraco Negro de Schwarzschild, Ano de Obtenção: 2010. Orientador: Sergio Vitorino de Borba Gonçalves. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Buracos negros acústicos; Física de Buracos Negros; radiação Hawking. Grande área: Ciências Exatas e da Terra</descricao>
+          <descricao>Título: Modelo Acústico Análogo ao Buraco Negro de Schwarzschild O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2010. Orientador: Sergio Vitorino de Borba Gonçalves. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Buracos negros acústicos; Física de Buracos Negros; radiação Hawking. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2017</ano_inicio>
@@ -5181,8 +5944,8 @@
           <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/28/24/245008&md5=511f5067935f6d67ceb398e510b0b12b</doi>
           <titulo>Hidden geometries in nonlinear theories: a novel aspect of analogue gravity</titulo>
           <autores>Goulart, E ; Novello, M ; Falciano, F T ; TONIATO, J. D.</autores>
-          <revista>CLASSICAL AND QUANTUM GRAVITY</revista>
-          <volume>CLASSICAL AND QUANTUM GRAVITY</volume>
+          <revista>Classical and Quantum Gravity (Print)</revista>
+          <volume>Classical and Quantum Gravity (Print)</volume>
           <paginas>245008</paginas>
           <numero></numero>
           <ano>2011</ano>
@@ -5342,13 +6105,31 @@
           <natureza>Editoração/Periódico</natureza>
         </trabalho_apresentado>
     </apresentacao_trabalho>
+    <orientacao_doutorado_em_andamento>
+        <tese>
+          <nome_aluno>Matheus Filipe</nome_aluno>
+          <titulo_trabalho>Parâmetros pós-Newtonianos além do sistema solar</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Tese (Doutorado em Física) - Universidade Federal do Espírito Santo</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Espírito Santo. (Coorientador).</agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </tese>
+    </orientacao_doutorado_em_andamento>
     <orientacao_iniciacao_cientifica_em_andamento>
         <iniciacao_cientifica>
-          <nome_aluno>Felipe dos Santos Escórcio</nome_aluno>
-          <titulo_trabalho>Gravitação newtoniana a G variável</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Iniciação científica (Graduando em Física) - Universidade Federal de Ouro Preto</instituicao>
-          <agencia_de_fomento>Universidade Federal de Ouro Preto</agencia_de_fomento>
+          <nome_aluno>Raul César Martins Gonçalves</nome_aluno>
+          <titulo_trabalho>A tensão na medida do parâmetro de Hubble e implicações à cosmologia</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>André Pelais Oliveira</nome_aluno>
+          <titulo_trabalho>Teorias newtonianas da gravitação com acoplamento variável</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_em_andamento>
@@ -5362,6 +6143,16 @@
           <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
         </dissertacao>
     </orientacao_mestrado_concluido>
+    <orientacao_iniciacao_cientifica_concluido>
+        <iniciacao_cientifica>
+          <nome_aluno>Felipe dos Santos Escórcio</nome_aluno>
+          <titulo_trabalho>Gravitação newtoniana a G variável</titulo_trabalho>
+          <ano>2021</ano>
+          <instituicao>(Graduando em Física) - Universidade Federal de Ouro Preto</instituicao>
+          <agencia_de_fomento>Universidade Federal de Ouro Preto</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+    </orientacao_iniciacao_cientifica_concluido>
     <participacao_evento>
         <evento>
           <titulo>100 anos do eclipse de Sobral. Ondas Gravitacionais e Buracos Negros. 2019. (Congresso).</titulo>
@@ -5444,7 +6235,7 @@
           <ano>2010</ano>
         </evento>
         <evento>
-          <titulo>XIV Brazilian School of Cosmology and Gravitation. 2010. (Outra).</titulo>
+          <titulo>XIV Brazilian School of Cosmology and Gravitation. 2010. (Oficina).</titulo>
           <ano>2010</ano>
         </evento>
         <evento>
@@ -5481,6 +6272,16 @@
         </evento>
     </participacao_evento>
     <organizacao_evento>
+        <evento>
+          <titulo>Semana da Física 2022</titulo>
+          <natureza>Congresso</natureza>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>Inverno Astrofísico 2022</titulo>
+          <natureza>Congresso</natureza>
+          <ano>2022</ano>
+        </evento>
         <evento>
           <titulo>PPGCosmo Workshop on Astrophysics, Cosmology and Gravitation</titulo>
           <natureza>Congresso</natureza>
@@ -6508,19 +7309,19 @@
           <ano_inicio>2014</ano_inicio>
           <ano_conclusao>2016</ano_conclusao>
           <nome>Modelos baseados em agentes para o mercado imobiliário</nome>
-          <descricao>Descrição: Um modelo baseado em agentes (MBA) é uma simulação computacional de um número de tomadores de decisão (agentes) e instituições, os quais interagem a partir de regras preestabelecidas. Os agentes podem ser tão diversos quanto necessário ? de consumidores a reguladores e profissionais da bolsa de valores ? e a estrutura institucional pode incluir desde bancos até o governo. Ao contrário de modelos tradicionais em economia, um MBA não se baseia na hipótese de que a economia se move sempre em direção a um estado de equilíbrio. Em um MBA, em cada instante de tempo, cada agente toma uma atitude de acordo com sua condição atual, o estado do mundo ao seu redor e as regras que governam seu comportamento. Um agente representando um consumidor, por exemplo, pode decidir se ele poupa ou gasta baseado na taxa de inflação, seu otimismo atual sobre o futuro, e outras regras comportamentais deduzidas de experimentos psicológicos ("behavioral economy"). Simulações de MBA podem lidar com um maior espectro de comportamento não-lineares que não são tratáveis em modelos convencionais de equilíbrio. Reguladores podem então simular uma economia artificial sob diferentes cenários reguladores e explorar quantitativamente suas consequencias. Neste projeto em particular, nosso objetivo é implementar um MBA para descrever a microestrutura do mercado imobiliário.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Almeida, Alexandre C. L. - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa. Número de produções C, T & A: 6</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2009</ano_inicio>
-          <ano_conclusao>2011</ano_conclusao>
-          <nome>UNIVERSAL 01/2009 FAPEMIG: Aspectos Fundamentais em Transições de Fases para Estados Absorventes</nome>
-          <descricao>Descrição: Valor financiado: R$19.110,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ronald Dickman - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <descricao>Descrição: Um modelo baseado em agentes (MBA) é uma simulação computacional de um número de tomadores de decisão (agentes) e instituições, os quais interagem a partir de regras preestabelecidas. Os agentes podem ser tão diversos quanto necessário ? de consumidores a reguladores e profissionais da bolsa de valores ? e a estrutura institucional pode incluir desde bancos até o governo. Ao contrário de modelos tradicionais em economia, um MBA não se baseia na hipótese de que a economia se move sempre em direção a um estado de equilíbrio. Em um MBA, em cada instante de tempo, cada agente toma uma atitude de acordo com sua condição atual, o estado do mundo ao seu redor e as regras que governam seu comportamento. Um agente representando um consumidor, por exemplo, pode decidir se ele poupa ou gasta baseado na taxa de inflação, seu otimismo atual sobre o futuro, e outras regras comportamentais deduzidas de experimentos psicológicos ("behavioral economy"). Simulações de MBA podem lidar com um maior espectro de comportamento não-lineares que não são tratáveis em modelos convencionais de equilíbrio. Reguladores podem então simular uma economia artificial sob diferentes cenários reguladores e explorar quantitativamente suas consequencias. Neste projeto em particular, nosso objetivo é implementar um MBA para descrever a microestrutura do mercado imobiliário.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Almeida, Alexandre C. L. - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 6</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Edital MCT/CNPq 14/2009 - Universal - Aspectos Fundamentais em Transições de Fases para Estados Absorventes II</nome>
           <descricao>Descrição: Valor financiado: R$7.500,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ediane de Sá Alvevs - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 6</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2009</ano_inicio>
+          <ano_conclusao>2011</ano_conclusao>
+          <nome>UNIVERSAL 01/2009 FAPEMIG: Aspectos Fundamentais em Transições de Fases para Estados Absorventes</nome>
+          <descricao>Descrição: Valor financiado: R$19.110,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ronald Dickman - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -7248,6 +8049,18 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
+    <artigos_em_revista>
+        <artigo_revista>
+          <doi></doi>
+          <autores>GONZAGA, M. N. ; de OLIVEIRA, M. M. ; Atman, A. P. F.</autores>
+          <titulo>Spatial scale effects in COVID-19 spreading models</titulo>
+          <revista>COMPLEX SYSTEMS</revista>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </artigo_revista>
+    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>Comunicação no APS March Meeting 2017 em New Orleans/EUA: Temporal disorder in discontinuous absorbing phase transitions</titulo>
@@ -8933,7 +9746,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1140/epjc/s10052-010-1366-7</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1140/epjc/s10052-010-1366-7&md5=c54552421251313c4ffea80f94209b76</doi>
           <titulo>The ATLAS Inner Detector commissioning and calibration</titulo>
           <autores>AAD, G</autores>
           <revista>European Physical Journal. C, Particles and Fields (Print)</revista>
@@ -8953,7 +9766,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1140/epjc/s10052-010-1415-2</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1140/epjc/s10052-010-1415-2&md5=f3600eae1ff4ab81a5b7aca50f3d587a</doi>
           <titulo>Commissioning of the ATLAS Muon Spectrometer with cosmic rays</titulo>
           <autores>AAD, G. Abbott, B. Abdallah, J. Abdelalim, A. A. Abdesselam, A. Abdinov, O. Abi, B. Abolins, M. Abramowicz, H. Abreu, H. Acharya, B. S. Adams, D. L. Addy, T. N. Adelman, J. Adorisio, C. Adragna, P. Adye, T. Aefsky, S. Aguilar-Saavedra, J. A. Aharrouche, M. Ahlen, S. P. Ahles, F. Ahmad, A. Ahmed, H. Ahsan, M. , et al.Aielli, G. Akdogan, T. Åkesson, T. P. A. Akimoto, G. Akimov, A. V. Aktas, A. Alam, M. S. Alam, M. A. Albrand, S. Aleksa, M. Aleksandrov, I. N. Alexa, C. Alexander, G. Alexandre, G. Alexopoulos, T. Alhroob, M. Aliev, M. Alimonti, G. Alison, J. Aliyev, M. Allport, P. P. Allwood-Spiers, S. E. Almond, J. Aloisio, A. Alon, R. Alonso, A. Alviggi, M. G. Amako, K. Amelung, C. Amorim, A. Amorós, G. Amram, N. Anastopoulos, C. Andeen, T. Anders, C. F. Anderson, K. J. Andreazza, A. Andrei, V. Anduaga, X. S. Angerami, A. Anghinolfi, F. Anjos, N. Annovi, A. Antonaki, A. Antonelli, M. Antonelli, S. Antos, J. Antunovic, B. Anulli, F. Aoun, S. Arabidze, G. Aracena, I. Arai, Y. Arce, A. T. H. Archambault, J. P. Arfaoui, S. Arguin, J.-F. Argyropoulos, T. Arik, M. Armbruster, A. J. Arnaez, O. Arnault, C. Artamonov, A. Arutinov, D. Asai, M. Asai, S. Asfandiyarov, R. Ask, S. Åsman, B. Asner, D. Asquith, L. Assamagan, K. Astbury, A. Astvatsatourov, A. Atoian, G. Auerbach, B. Augsten, K. Aurousseau, M. Austin, N. Avolio, G. Avramidou, R. Axen, D. Ay, C. Azuelos, G. Azuma, Y. Baak, M. A. Bach, A. M. Bachacou, H. Bachas, K. Backes, M. Badescu, E. Bagnaia, P. Bai, Y. Bain, T. Baines, J. T. Baker, O. K. Baker, M. D. Baker, S. SantosPedrosa, F. Baltasar Banas, E. Banerjee, P. Banerjee, S. Banfi, D. Bangert, A. Bansal, V. Baranov, S. P. Baranov, S. Barashkou, A. Barber, T. Barberio, E. L. Barberis, D. Barbero, M. Bardin, D. Y. Barillari, T. Barisonzi, M. Barklow, T. Barlow, N. Barnett, B. M. Barnett, R. M. Baroncelli, A. Barr, A. J. Barreiro, F. BarreiroGuimarãesdaCosta, J. Barrillon, P. Bartoldus, R. Bartsch, D. Bates, R. L. Batkova, L. Batley, J. R. Battaglia, A. Battistin, M. Bauer, F. Bawa, H. S. Bazalova, M. Beare, B. Beau, T. Beauchemin, P. H. Beccherle, R. Becerici, N. Bechtle, P. Beck, G. A. Beck, H. P. Beckingham, M. Becks, K. H. Beddall, A. J. Beddall, A. Bednyakov, V. A. Bee, C. Begel, M. Harpaz, S. Behar Behera, P. K. Beimforde, M. Belanger-Champagne, C. Bell, P. J. Bell, W. H. Bella, G. Bellagamba, L. Bellina, F. Bellomo, M. Belloni, A. Belotskiy, K. Beltramello, O. BenAmi, S. Benary, O. Benchekroun, D. Bendel, M. Benedict, B. H. Benekos, N. Benhammou, Y. Benincasa, G. P. Benjamin, D. P. Benoit, M. Bensinger, J. R. Benslama, K. Bentvelsen, S. Beretta, M. Berge, D. BergeaasKuutmann, E. Berger, N. Berghaus, F. Berglund, E. Beringer, J. Bernat, P. Bernhard, R. Bernius, C. Berry, T. Bertin, A. Besana, M. I. Besson, N. Bethke, S. Bianchi, R. M. Bianco, M. Biebel, O. Biesiada, J. Biglietti, M. Bilokon, H. Bindi, M. Binet, S. Bingul, A. Bini, C. Biscarat, C. Bitenc, U. Black, K. M. Blair, R. E. Blanchard, J.-B. Blanchot, G. Blocker, C. Blondel, A. Blum, W. Blumenschein, U. Bobbink, G. J. Bocci, A. Boehler, M. Boek, J. Boelaert, N. Böser, S. Bogaerts, J. A. Bogouch, A. Bohm, C. Bohm, J. Boisvert, V. Bold, T. Boldea, V. Bondarenko, V. G. Bondioli, M. Boonekamp, M. Bordoni, S. Borer, C. Borisov, A. Borissov, G. Borjanovic, I. Borroni, S. Bos, K. Boscherini, D. Bosman, M. Boterenbrood, H. Bouchami, J. Boudreau, J. Bouhova-Thacker, E. V. Boulahouache, C. Bourdarios, C. Boveia, A. Boyd, J. Boyko, I. R. Bozovic-Jelisavcic, I. Bracinik, J. Braem, A. Branchini, P. Brandenburg, G. W. Brandt, A. Brandt, G. Brandt, O. Bratzler, U. Brau, B. Brau, J. E. Braun, H. M. Brelier, B. Bremer, J. Brenner, R. Bressler, S. Britton, D. Brochu, F. M. Brock, I. Brock, R. Brodet, E. Bromberg, C. Brooijmans, G. Brooks, W. K. Brown, G. BruckmandeRenstrom, P. A. Bruncko, D. Bruneliere, R. Brunet, S. Bruni, A. Bruni, G. Bruschi, M. Bucci, F. Buchanan, J. Buchholz, P. Buckley, A. G. Budagov, I. A. Budick, B. Büscher, V. Bugge, L. Bulekov, O. Bunse, M. Buran, T. Burckhart, H. Burdin, S. Burgess, T. Burke, S. Busato, E. Bussey, P. Buszello, C. P. Butin, F. Butler, B. Butler, J. M. Buttar, C. M. Butterworth, J. M. Byatt, T. Caballero, J. CabreraUrbán, S. Caforio, D. Cakir, O. Calafiura, P. Calderini, G. Calfayan, P. Calkins, R. Caloba, L. P. Calvet, D. Camarri, P. Cameron, D. Campana, S. Campanelli, M. Canale, V. Canelli, F. Canepa, A. Cantero, J. Capasso, L. CapeansGarrido, M. D. M. Caprini, I. Caprini, M. Capua, M. Caputo, R. Caramarcu, C. Cardarelli, R. Carli, T. Carlino, G. Carminati, L. Caron, B. Caron, S. CarrilloMontoya, G. D. CarronMontero, S. Carter, A. A. Carter, J. R. Carvalho, J. Casadei, D. Casado, M. P. Cascella, M. CastanedaHernandez, A. M. Castaneda-Miranda, E. CastilloGimenez, V. Castro, N. F. Cataldi, G. Catinaccio, A. Catmore, J. R. Cattai, A. Cattani, G. Caughron, S. Cauz, D. Cavalleri, P. Cavalli, D. Cavalli-Sforza, M. Cavasinni, V. Ceradini, F. Cerqueira, A. S. Cerri, A. Cerrito, L. Cerutti, F. Cetin, S. A. Chafaq, A. Chakraborty, D. Chan, K. Chapman, J. D. Chapman, J. W. Chareyre, E. Charlton, D. G. Chavda, V. Cheatham, S. Chekanov, S. Chekulaev, S. V. Chelkov, G. A. Chen, H. Chen, S. Chen, X. Cheplakov, A. Chepurnov, V. F. CherkaouiElMoursli, R. Tcherniatine, V. Chesneanu, D. Cheu, E. Cheung, S. L. Chevalier, L. Chevallier, F. Chiarella, V. Chiefari, G. Chikovani, L. Childers, J. T. Chilingarov, A. Chiodini, G. Chizhov, V. Choudalakis, G. Chouridou, S. Christidi, I. A. Christov, A. Chromek-Burckhart, D. Chu, M. L. Chudoba, J. Ciapetti, G. Ciftci, A. K. Ciftci, R. Cinca, D. Cindro, V. Ciobotaru, M. D. Ciocca, C. Ciocio, A. Cirilli, M. Citterio, M. Clark, A. Clark, P. J. Cleland, W. Clemens, J. C. Clement, B. Clement, C. Coadou, Y. Cobal, M. Coccaro, A. Cochran, J. Coggeshall, J. Cogneras, E. Colijn, A. P. Collard, C. Collins, N. J. Collins-Tooth, C. Collot, J. Colon, G. CondeMuiño, P. Coniavitis, E. Consonni, M. Constantinescu, S. Conta, C. Conventi, F. Cooke, M. Cooper, B. D. Cooper-Sarkar, A. M. Cooper-Smith, N. J. Copic, K. Cornelissen, T. Corradi, M. Corriveau, F. Corso-Radu, A. Cortes-Gonzalez, A. Cortiana, G. Costa, G. Costa, M. J. Costanzo, D. Costin, T. Côté, D. CouraTorres, R. Courneyea, L. Cowan, G. Cowden, C. Cox, B. E. Cranmer, K. Cranshaw, J. Cristinziani, M. Crosetti, G. Crupi, R. Crépé-Renaudin, S. Almenar, C</autores>
           <revista>European Physical Journal. C, Particles and Fields (Print)</revista>
@@ -8963,7 +9776,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1140/epjc/s10052-010-1403-6</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1140/epjc/s10052-010-1403-6&md5=3447ac1977c70474fff58646bd6c1f6b</doi>
           <titulo>Drift Time Measurement in the ATLAS Liquid Argon Electromagnetic Calorimeter using Cosmic Muons</titulo>
           <autores>AAD, G</autores>
           <revista>European Physical Journal. C, Particles and Fields (Print)</revista>
@@ -8973,7 +9786,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.79.014029</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.79.014029&md5=917f4f62486bf71de168ff04d68e0e95</doi>
           <titulo>Torsion discovery potential and its discrimination at CERN LHC</titulo>
           <autores>Almeida, F. M. L. ; Nepomuceno, A. A. ; VALE, M. A. B.</autores>
           <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
@@ -8983,7 +9796,7 @@
           <ano>2009</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1088/1748-0221/3/08/S08003</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1748-0221/3/08/s08003&md5=267fccbdc6675c5f813138e5b8931f51</doi>
           <titulo>The ATLAS Experiment at the CERN Large Hadron Collider</titulo>
           <autores>ATLAS Collaboration ; DO VALE, M. A. B.</autores>
           <revista>Journal of Instrumentation</revista>
@@ -8993,7 +9806,7 @@
           <ano>2008</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.75.075002</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.75.075002&md5=af9ac67122fdca96cfc756987b82e600</doi>
           <titulo>Discriminating among the theoretical origins of new heavy Majorana neutrinos at CERN LHC</titulo>
           <autores>Almeida, F. M. L. ; Coutinho, Y. A. ; Martins Simões, J. A. ; RAMALHO, A. J. ; Wulck, S. ; VALE, M. A. B.</autores>
           <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
@@ -9003,7 +9816,7 @@
           <ano>2007</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.75.034014</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.75.034014&md5=375375a8c3d8d783a384fd63ad2dd16a</doi>
           <titulo>Torsion phenomenology at the CERN LHC</titulo>
           <autores>Belyaev, A. ; SHAPIRO, I. ; VALE, M. A. B.</autores>
           <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
@@ -9789,10 +10602,16 @@
     </formacao_academica>
     <projetos_pesquisa>
         <projeto>
+          <ano_inicio>2022</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Dinâmica e Universalidade em Sistemas Complexos</nome>
+          <descricao>Descrição: Projeto aprovado na Chamada CNPq Nº 4/2021 - Bolsas de Produtividade em Pesquisa - PQ. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sidiney Geraldo Alves - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</descricao>
+        </projeto>
+        <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Física Estatística de Sistemas Complexos</nome>
-          <descricao>Descrição: Chamada MCTIC/CNPq Nº 28/2018 - Universal/Faixa B. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sidiney Geraldo Alves - Coordenador.</descricao>
+          <descricao>Descrição: Chamada MCTIC/CNPq Nº 28/2018 - Universal/Faixa B. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante / Marcelo Martins de Oliveira - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
@@ -9810,7 +10629,7 @@
           <ano_inicio>2013</ano_inicio>
           <ano_conclusao>2016</ano_conclusao>
           <nome>Teoria de escala dinâmica e distribuições em crescimento de interfaces e processos cinéticos de agregação</nome>
-          <descricao>Descrição: A dinâmica de evolução de interfaces rugosas é, em geral, um processo complexo e importante em muitos fenômenos de crescimento. Tradicionalmente, o estudo de interfaces utilizando teoria de escala dinâmica envolve a determinação de uma série de expoentes que, mais que definir a classe de universalidade, permitem extrair conclusões acerca dos principais fenômenos envolvidos na evolução do sistema. Entretanto, muitas vezes é difícil obter valores precisos para os expoentes de escala devido a efeitos de tamanho e tempo finitos e métodos alternativos devem ser usados para complementar a caracterização dessas interfaces. Neste projeto, pretendemos dar continuidade a trabalhos desenvolvidos pelo grupo nos quais uma técnica bastante promissora vem sendo utilizada, que é o cálculo de distribuições de momentos e cumulantes das alturas de interfaces obtidas usando modelos discretos. A comparação das distribuições de uma dada superfície com aquelas associadas às diversas classes de universalidade nos permite concluir, por exemplo, a qual classe de universalidade um determinado sistema pertence. Da mesma forma, distribuições de extremos (alturas máxima e mínima da interface) também apresentam um caráter universal e são úteis para se determinar classes de universalidade. Além disso, essas últimas também podem ser usadas para se estudar a assimetria nas distribuições de altura. Dentre os diferentes problemas teóricos associados ao crescimento de interfaces investigados nesse projeto destacam-se aqueles associados aos modelos discretos pertencentes à classe de universalidade de Kardar-Parisi-Zhang (KPZ). Aqui, pretendemos estender essa investigação a dimensões superiores, abordando em particular um ponto importante ainda em aberto, a dimensão crítica da classe de universalidade KPZ. Entre outros problemas, é importante também destacar, a investigação da dinâmica de replicação e a migração de linhagens célulares normais e tumorais em cultura, fenômenos centrais no crescimento, invasão e metástase.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Sukarno Olavo Ferreira - Integrante / Márcio Santos Rocha - Integrante / Tiago José de Oliveira - Integrante / Silvio da Costa Ferreira Junior - Integrante / Anésia Aparecida dos Santos - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
+          <descricao>Descrição: A dinâmica de evolução de interfaces rugosas é, em geral, um processo complexo e importante em muitos fenômenos de crescimento. Tradicionalmente, o estudo de interfaces utilizando teoria de escala dinâmica envolve a determinação de uma série de expoentes que, mais que definir a classe de universalidade, permitem extrair conclusões acerca dos principais fenômenos envolvidos na evolução do sistema. Entretanto, muitas vezes é difícil obter valores precisos para os expoentes de escala devido a efeitos de tamanho e tempo finitos e métodos alternativos devem ser usados para complementar a caracterização dessas interfaces. Neste projeto, pretendemos dar continuidade a trabalhos desenvolvidos pelo grupo nos quais uma técnica bastante promissora vem sendo utilizada, que é o cálculo de distribuições de momentos e cumulantes das alturas de interfaces obtidas usando modelos discretos. A comparação das distribuições de uma dada superfície com aquelas associadas às diversas classes de universalidade nos permite concluir, por exemplo, a qual classe de universalidade um determinado sistema pertence. Da mesma forma, distribuições de extremos (alturas máxima e mínima da interface) também apresentam um caráter universal e são úteis para se determinar classes de universalidade. Além disso, essas últimas também podem ser usadas para se estudar a assimetria nas distribuições de altura. Dentre os diferentes problemas teóricos associados ao crescimento de interfaces investigados nesse projeto destacam-se aqueles associados aos modelos discretos pertencentes à classe de universalidade de Kardar-Parisi-Zhang (KPZ). Aqui, pretendemos estender essa investigação a dimensões superiores, abordando em particular um ponto importante ainda em aberto, a dimensão crítica da classe de universalidade KPZ. Entre outros problemas, é importante também destacar, a investigação da dinâmica de replicação e a migração de linhagens célulares normais e tumorais em cultura, fenômenos centrais no crescimento, invasão e metástase.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Sukarno Olavo Ferreira - Integrante / Márcio Santos Rocha - Integrante / Tiago José de Oliveira - Integrante / Silvio da Costa Ferreira Junior - Integrante / Anésia Aparecida dos Santos - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2013</ano_inicio>
@@ -9839,14 +10658,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Simulação computacional de processos cinéticos de agregação</nome>
-          <descricao>Descrição: Na natureza podemos encontrar um número muito grande de processos de crescimento que levam a formação de padrões complexos que, normalmente, apresentam estruturas fractais e, portanto, exibem invariância sob mudanças de escala. Como exemplos, podemos citar a eletrodeposição, o crescimento de filmes finos, o crescimento de células normais e tumorais ou de colônias de bactérias e formação de aglomerados de galáxias, etc. Muitos desses processos ocorrem pela agregação de um ou mais componentes sob diferentes condições que levam a padrões com morfologias variadas. O estudo dos mecanismos subjacentes a esses fenômenos de crescimento, além de possuir uma grande relevância científica -- compreensão dos fenômenos relevantes nos processos de crescimento -- podem levar a inovações tecnológicas com aplicações em componentes microeletrônicos, células combustíveis, redes de nano-fios e outras. Além disso, o entendimento dos fenômenos mais relevantes nesses processos é crucial também para avanços de técnicas experimentais (como por exemplo micro-fabricação eletroquímica). Neste projeto, vamos investigar através de simulação computational os fenômenos de formação de padrão e de transições morfológicas encontrados em eletrodeposição, dinâmica de migração e agregação de células em cultura, agregação de moléculas em gotículas de hélio superfluido, entre outros. É importante mencionar que o ponto comum a estas investigações é o estudo dos mecanismos subjacentes à dinâmica de formação de padrões em sistemas que envolvem processos cinéticos de agregação. Enfim, essas investigações serão feitas por meio de uma abordagem interdisciplinar na qual combinamos métodos da mecânica estatística e da modelagem matemática e computacional.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Investigação de sistemas complexos via modelos de Autômatos Celulares</nome>
+          <descricao>Descrição: Investigar, utilizando modelos de autômatos celulares, a dinâmica de formação de opinião em processos eleitorais e disseminação de doenças em plantações, como a do bicho mineiro do cafeeiro e a vassoura de bruxa e a monília no cacaueiro.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Investigação de sistemas complexos via modelos de Autômatos Celulares</nome>
-          <descricao>Descrição: Investigar, utilizando modelos de autômatos celulares, a dinâmica de formação de opinião em processos eleitorais e disseminação de doenças em plantações, como a do bicho mineiro do cafeeiro e a vassoura de bruxa e a monília no cacaueiro.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</descricao>
+          <nome>Simulação computacional de processos cinéticos de agregação</nome>
+          <descricao>Descrição: Na natureza podemos encontrar um número muito grande de processos de crescimento que levam a formação de padrões complexos que, normalmente, apresentam estruturas fractais e, portanto, exibem invariância sob mudanças de escala. Como exemplos, podemos citar a eletrodeposição, o crescimento de filmes finos, o crescimento de células normais e tumorais ou de colônias de bactérias e formação de aglomerados de galáxias, etc. Muitos desses processos ocorrem pela agregação de um ou mais componentes sob diferentes condições que levam a padrões com morfologias variadas. O estudo dos mecanismos subjacentes a esses fenômenos de crescimento, além de possuir uma grande relevância científica -- compreensão dos fenômenos relevantes nos processos de crescimento -- podem levar a inovações tecnológicas com aplicações em componentes microeletrônicos, células combustíveis, redes de nano-fios e outras. Além disso, o entendimento dos fenômenos mais relevantes nesses processos é crucial também para avanços de técnicas experimentais (como por exemplo micro-fabricação eletroquímica). Neste projeto, vamos investigar através de simulação computational os fenômenos de formação de padrão e de transições morfológicas encontrados em eletrodeposição, dinâmica de migração e agregação de células em cultura, agregação de moléculas em gotículas de hélio superfluido, entre outros. É importante mencionar que o ponto comum a estas investigações é o estudo dos mecanismos subjacentes à dinâmica de formação de padrões em sistemas que envolvem processos cinéticos de agregação. Enfim, essas investigações serão feitas por meio de uma abordagem interdisciplinar na qual combinamos métodos da mecânica estatística e da modelagem matemática e computacional.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2007</ano_inicio>
@@ -10802,755 +11621,6 @@
           <titulo>III Encontro Nacional de Física Estatística</titulo>
           <natureza>Congresso</natureza>
           <ano>2021</ano>
-        </evento>
-    </organizacao_evento>
-  </pesquisador>
-  <pesquisador id="4937965723746020">
-    <identificacao>
-      <identificador10></identificador10>
-      <nome_inicial>Érico Goulart de Oliveira Costa</nome_inicial>
-      <nome_completo>Érico Goulart de Oliveira Costa</nome_completo>
-      <nome_citacao_bibliografica>Goulart, E.;GOULART, E;GOULART, ÉRICO;DE OLIVEIRA COSTA, ÉRICO GOULART;GOULART, ERICO</nome_citacao_bibliografica>
-      <sexo>Masculino</sexo>
-    </identificacao>
-    <idiomas>
-      <idioma>
-          <nome>Inglês</nome>
-          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
-      </idioma>
-      <idioma>
-          <nome>Espanhol</nome>
-          <proficiencia>Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco.</proficiencia>
-      </idioma>
-    </idiomas>
-    <endereco>
-      <endereco_profissional>Universidade Federal de São João Del-Rei. Rod.: MG 443, KM 7 Ouro Branco Campus Alto Paraopeba 36420000 - Ouro Branco, MG - Brasil Telefone: (031) 37497300 URL da Homepage: https://ufsj.edu.br/cap/</endereco_profissional>
-      <endereco_profissional_lat></endereco_profissional_lat>
-      <endereco_profissional_long></endereco_profissional_long>
-    </endereco>
-    <formacao_academica>
-        <formacao>
-          <ano_inicio>2004</ano_inicio>
-          <ano_conclusao>2008</ano_conclusao>
-          <tipo>Doutorado em Relatividade Geral e Cosmologia</tipo>
-          <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
-          <descricao>Título: Excitações do tensor de Weyl na cosmologia e questões de estabilidade, Ano de obtenção: 2008. Orientador: Mário Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: equacoes quasi-maxwellianas; Sistemas Dinâmicos; Formação de Estruturas. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. Setores de atividade: Pesquisa e desenvolvimento científico.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2002</ano_inicio>
-          <ano_conclusao>2004</ano_conclusao>
-          <tipo>Mestrado em Relatividade Geral e Cosmologia</tipo>
-          <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
-          <descricao>Título: A Aceleração do Universo e a Eletrodinâmica Não-Linear, Ano de Obtenção: 2004. Orientador: Mário Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Eletrodinâmica Não-Linear; Fator de Escala; Born-Infeld. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. Setores de atividade: Pesquisa e desenvolvimento científico.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>1999</ano_inicio>
-          <ano_conclusao>2002</ano_conclusao>
-          <tipo>Graduação em Física bacharelado</tipo>
-          <nome_instituicao>Universidade Federal de Viçosa, UFV, Brasil</nome_instituicao>
-          <descricao>Título: Aspectos Geométricos do Cálculo Diferencial Absoluto. Orientador: Afrânio Rodrigues Pereira. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de Minas Gerais, FAPEMIG, Brasil.</descricao>
-        </formacao>
-    </formacao_academica>
-    <projetos_pesquisa>
-        <projeto>
-          <ano_inicio>2014</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Geometric Wave Equations in the Theory of Topological Solitons</nome>
-          <descricao>Descrição: O projeto investiga equações diferenciais parciais hiperbólicas para campos tomando valores em variedades Riemannianas. Equações desse tipo aparecem em diversos setores da física-matemática, como na física nuclear, teorias de Yang-Mills, teoria de cordas, relatividade geral, elasto-dinâmica e magnetismo. Em certas situações, elas admitem sólitons topológicos de diversas naturezas e vem sendo estudadas em detalhes recentemente. Combinando técnicas de topologia algébrica, geometria diferencial e análise de EDPs, nós exploramos teorias do tipo Wave Maps, Skyrme, Faddeev-Niemi, modelos integráveis e AFZ.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) . Integrantes: Érico Goulart de Oliveira Costa - Integrante / Enrique Reyes Garcia - Coordenador / Daniel Pons Rubio - Integrante / Miguel Bezares - Integrante / Gonzalo Melchisedec - Integrante.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2013</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Nonlinear Electrodynamics as a Symmetric Hyperbolic System</nome>
-          <descricao>Descrição: O projeto investiga a coerência do problema de Cauchy e a emergência de singularidades para teorias não-lineares do eletromagnetismo. Utilizamos o formalismo de fibrados desenvolvido por R. Geroch para sistemas simétrico-hiperbólicos de primeira ordem e exploramos técnicas geométricas típicas da relatividade geral no estudo de ondas, variedades características, descontinuidades, raios, shocks e blow-ups.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (2) . Integrantes: Érico Goulart de Oliveira Costa - Integrante / Oscar Reula - Coordenador / Federico Leon Carrasco - Integrante / Fernando Abalos - Integrante.</descricao>
-        </projeto>
-    </projetos_pesquisa>
-    <area_atuacao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Relatividade e Gravitação.</descricao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Física Clássica e Física Quântica; Mecânica e Campos.</descricao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Métodos Matemáticos da Física.</descricao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise/Especialidade: Equações Diferenciais Parciais.</descricao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Geometria e Topologia/Especialidade: Geometria Diferencial.</descricao>
-    </area_atuacao>
-    <colaboradores>
-        <id_lattes_colaborador>9768360230719166</id_lattes_colaborador>
-        <id_lattes_colaborador>5205000061462210</id_lattes_colaborador>
-        <id_lattes_colaborador>3980645829400310</id_lattes_colaborador>
-        <id_lattes_colaborador>7214193952056222</id_lattes_colaborador>
-        <id_lattes_colaborador>4937965723746020</id_lattes_colaborador>
-    </colaboradores>
-    <artigos_em_periodicos>
-        <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.105.024021</doi>
-          <titulo>Nonlinear electrodynamics nonminimally coupled to gravity: Symmetric-hyperbolicity and causal structure</titulo>
-          <autores>GOULART, ÉRICO; BERGLIAFFA, SANTIAGO ESTEBAN PEREZ</autores>
-          <revista>Physical Review D</revista>
-          <volume>Physical Review D</volume>
-          <paginas>024021</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1142/S0219887821500389</doi>
-          <titulo>Spacetime foliations, quaternions and knotted light</titulo>
-          <autores>Goulart, E.; OTTONI, J. E.</autores>
-          <revista>INTERNATIONAL JOURNAL OF GEOMETRIC METHODS IN MODERN PHYSICS</revista>
-          <volume>INTERNATIONAL JOURNAL OF GEOMETRIC METHODS IN MODERN PHYSICS</volume>
-          <paginas>2150038</paginas>
-          <numero></numero>
-          <ano>2021</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1088/1361-6382/ac08a9</doi>
-          <titulo>Space and time ambiguities in vacuum electrodynamics</titulo>
-          <autores>GOULART, ÉRICO; BITTENCOURT, EDUARDO</autores>
-          <revista>Classical and Quantum Gravity</revista>
-          <volume>Classical and Quantum Gravity</volume>
-          <paginas>145029</paginas>
-          <numero></numero>
-          <ano>2021</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevA.104.043523</doi>
-          <titulo>Spherical symmetry and nonmagnetic dielectrics in analog models of gravity</titulo>
-          <autores>BITTENCOURT, EDUARDO ; KLIPPERT, RENATO ; DA SILVA, DIEGO RENAN ; GOULART, ÉRICO</autores>
-          <revista>PHYSICAL REVIEW A</revista>
-          <volume>PHYSICAL REVIEW A</volume>
-          <paginas>043523</paginas>
-          <numero></numero>
-          <ano>2021</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1088/1751-8121/ab213c</doi>
-          <titulo>On spacetime foliations and electromagnetic knots</titulo>
-          <autores>COSTA E SILVA, W ; GOULART, E ; OTTONI, J E</autores>
-          <revista>Journal of Physics A-Mathematical and Theoretical</revista>
-          <volume>Journal of Physics A-Mathematical and Theoretical</volume>
-          <paginas>265203</paginas>
-          <numero></numero>
-          <ano>2019</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.100.125001</doi>
-          <titulo>Geometrical hypotheses underlying wave functions and their emerging dynamics</titulo>
-          <autores>GOULART, ERICO; PINTO-NETO, NELSON</autores>
-          <revista>PHYSICAL REVIEW D</revista>
-          <volume>PHYSICAL REVIEW D</volume>
-          <paginas>125001</paginas>
-          <numero></numero>
-          <ano>2019</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1209/0295-5075/115/10004&md5=beaa60163368101abbfc9ea85355c0e2</doi>
-          <titulo>Nonlinear electrodynamics is skilled with knots</titulo>
-          <autores>Goulart, E</autores>
-          <revista>Europhysics Letters (Print)</revista>
-          <volume>Europhysics Letters (Print)</volume>
-          <paginas>10004</paginas>
-          <numero></numero>
-          <ano>2016</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.94.084011</doi>
-          <titulo>From Hopf fibrations to exotic causal replacements</titulo>
-          <autores>BEZARES, MIGUEL ; GOULART, ÉRICO ; PALOMERA, GONZALO ; PONS, DANIEL J. ; REYES, ENRIQUE G.</autores>
-          <revista>PHYSICAL REVIEW D</revista>
-          <volume>PHYSICAL REVIEW D</volume>
-          <paginas>084011</paginas>
-          <numero></numero>
-          <ano>2016</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.91.045033</doi>
-          <titulo>Nontrivial causal structures engendered by knotted solitons</titulo>
-          <autores>Goulart, E</autores>
-          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
-          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
-          <paginas>045033</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.92.084024</doi>
-          <titulo>Nonlinear electrodynamics as a symmetric hyperbolic system</titulo>
-          <autores>ABALOS, FERNANDO ; CARRASCO, FEDERICO ; GOULART, ÉRICO ; REULA, OSCAR</autores>
-          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
-          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
-          <paginas>084024</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4936147&md5=03bf3fbe470c84cc11d337dbc955e19a</doi>
-          <titulo>Characteristic analysis for integrable soliton models on two-dimensional target spaces</titulo>
-          <autores>Goulart, E</autores>
-          <revista>Journal of Mathematical Physics</revista>
-          <volume>Journal of Mathematical Physics</volume>
-          <paginas>113513</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.89.105008</doi>
-          <titulo>Inspecting baby Skyrmions with effective metrics</titulo>
-          <autores>GIBBONS, G.'W. ; Goulart, E.</autores>
-          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
-          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
-          <paginas>105008</paginas>
-          <numero></numero>
-          <ano>2014</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1475-7516/2014/01/e01&md5=8d98b8f03f0a5dca5ad41e565f6d0030</doi>
-          <titulo>Erratum: Geometric scalar theory of gravity</titulo>
-          <autores>NOVELLO, M ; BITTENCOURT, E ; MOSCHELLA, U ; GOULART, E ; SALIM, J.M ; TONIATO, J.D</autores>
-          <revista>Journal of Cosmology and Astroparticle Physics</revista>
-          <volume>Journal of Cosmology and Astroparticle Physics</volume>
-          <paginas>E01-E01</paginas>
-          <numero></numero>
-          <ano>2014</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1475-7516/2013/06/014&md5=e4058b8842242c2b4a4faa03a25a81ad</doi>
-          <titulo>Geometric scalar theory of gravity</titulo>
-          <autores>NOVELLO, M ; BITTENCOURT, E ; MOSCHELLA, U ; GOULART, E ; SALIM, J.M ; TONIATO, J.D</autores>
-          <revista>Journal of Cosmology and Astroparticle Physics</revista>
-          <volume>Journal of Cosmology and Astroparticle Physics</volume>
-          <paginas>014-014</paginas>
-          <numero></numero>
-          <ano>2013</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/30/15/155020&md5=c8ed6ecbc6e637d912f494a7a85b3bfc</doi>
-          <titulo>Disformal invariance of Maxwell?s field equations</titulo>
-          <autores>GOULART, E; FALCIANO, F T</autores>
-          <revista>Classical and Quantum Gravity (Print)</revista>
-          <volume>Classical and Quantum Gravity (Print)</volume>
-          <paginas>155020</paginas>
-          <numero></numero>
-          <ano>2013</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/29/8/085011&md5=296fbaba8336bb179622ce86d7103db6</doi>
-          <titulo>A new symmetry of the relativistic wave equation</titulo>
-          <autores>Goulart, E.; F. T. Falciano</autores>
-          <revista>Classical and Quantum Gravity (Print)</revista>
-          <volume>Classical and Quantum Gravity (Print)</volume>
-          <paginas>085011</paginas>
-          <numero></numero>
-          <ano>2012</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.5402/2012/260951</doi>
-          <titulo>Mimicking General Relativity with Newtonian Dynamics</titulo>
-          <autores>Goulart, E</autores>
-          <revista>ISRN Mathematical Physics</revista>
-          <volume>ISRN Mathematical Physics</volume>
-          <paginas>260951</paginas>
-          <numero></numero>
-          <ano>2012</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/28/24/245008&md5=511f5067935f6d67ceb398e510b0b12b</doi>
-          <titulo>Hidden geometries in nonlinear theories: a novel aspect of analogue gravity</titulo>
-          <autores>Goulart, E ; Novello, M ; Falciano, F T ; TONIATO, J. D.</autores>
-          <revista>Classical and Quantum Gravity (Print)</revista>
-          <volume>Classical and Quantum Gravity (Print)</volume>
-          <paginas>245008</paginas>
-          <numero></numero>
-          <ano>2011</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.84.105027&md5=a50785498968dd111535133f24e52a3c</doi>
-          <titulo>Effective metric in nonlinear scalar field theories</titulo>
-          <autores>Goulart, E.; Bergliaffa, Santiago</autores>
-          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
-          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
-          <paginas>105027</paginas>
-          <numero></numero>
-          <ano>2011</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.83.125022&md5=586296c6829d63d7920889b6ec21ccb9</doi>
-          <titulo>Scalar quantum field theory in disordered media</titulo>
-          <autores>Goulart, E.; Arias, E. ; Krein, G. ; Menezes, G. ; Svaiter, N.</autores>
-          <revista>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</revista>
-          <volume>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</volume>
-          <paginas>125022</paginas>
-          <numero></numero>
-          <ano>2011</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/28/14/145022&md5=aadfff439b4f104d3f0208ebd78500ea</doi>
-          <titulo>Beyond analog gravity: the case of exceptional dynamics</titulo>
-          <autores>NOVELLO, M. ; Goulart, E.</autores>
-          <revista>Classical and Quantum Gravity (Print)</revista>
-          <volume>Classical and Quantum Gravity (Print)</volume>
-          <paginas>145022</paginas>
-          <numero></numero>
-          <ano>2011</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1142/s0217751x10050573</doi>
-          <titulo>GEOMETRICAL PROPERTIES OF ELECTROMAGNETIC TIDAL FORCES</titulo>
-          <autores>GOULART, ÉRICO; FALCIANO, FELIPE TOVAR</autores>
-          <revista>International Journal of Modern Physics A</revista>
-          <volume>International Journal of Modern Physics A</volume>
-          <paginas>5383-5398</paginas>
-          <numero></numero>
-          <ano>2010</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1142/s0217751x0904628x&md5=78396b4bfd947275854b1e54d72d34c6</doi>
-          <titulo>FORMAL ANALOGIES BETWEEN GRAVITATION AND ELECTRODYNAMICS</titulo>
-          <autores>Goulart, E.; FALCIANO, F. T.</autores>
-          <revista>International Journal of Modern Physics A</revista>
-          <volume>International Journal of Modern Physics A</volume>
-          <paginas>4589</paginas>
-          <numero></numero>
-          <ano>2009</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/26/13/135015&md5=c20cf1be20564867b192af140f34b07b</doi>
-          <titulo>A classification of the effective metric in nonlinear electrodynamics</titulo>
-          <autores>DE OLIVEIRA COSTA, ÉRICO GOULART; PEREZ BERGLIAFFA, SANTIAGO ESTEBAN</autores>
-          <revista>Classical and Quantum Gravity (Print)</revista>
-          <volume>Classical and Quantum Gravity (Print)</volume>
-          <paginas>135015</paginas>
-          <numero></numero>
-          <ano>2009</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1134/s0202289309030013</doi>
-          <titulo>Gravitational waves in singular and bouncing FLRW universes</titulo>
-          <autores>ANTUNES, V. ; Goulart, E. ; NOVELLO, M.</autores>
-          <revista>Gravitation & Cosmology (Print)</revista>
-          <volume>Gravitation & Cosmology (Print)</volume>
-          <paginas>191-198</paginas>
-          <numero></numero>
-          <ano>2009</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1134/s0202289308040051</doi>
-          <titulo>Cosmological stability of Weyl conformal tensor</titulo>
-          <autores>Goulart, E.; NOVELLO, M.</autores>
-          <revista>Gravitation & Cosmology (Print)</revista>
-          <volume>Gravitation & Cosmology (Print)</volume>
-          <paginas>321-326</paginas>
-          <numero></numero>
-          <ano>2008</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/0264-9381/24/11/015&md5=7cd9efe5dde93f5c2bf8791af47b5a65</doi>
-          <titulo>Cosmological Effects of Nonlinear Electrodynamics</titulo>
-          <autores>M. Novello ; J. Salim ; S. Bergliafa ; Goulart, E.</autores>
-          <revista>Classical and Quantum Gravity (Print)</revista>
-          <volume>Classical and Quantum Gravity (Print)</volume>
-          <paginas>3021-3036</paginas>
-          <numero></numero>
-          <ano>2007</ano>
-        </artigo>
-    </artigos_em_periodicos>
-    <livros_publicados>
-        <livro>
-          <autores>M. Novello ; Goulart, E.</autores>
-          <titulo>Eletrodinâmica Não-Linear: causalidade e efeitos cosmológicos</titulo>
-          <edicao>1</edicao>
-          <volume>1</volume>
-          <paginas>112</paginas>
-          <ano>2010</ano>
-        </livro>
-    </livros_publicados>
-    <texto_em_jornal>
-        <texto>
-          <ano>2012</ano>
-          <autores>Goulart, E</autores>
-          <titulo>Vida longa à Reunião Argentino-Brasileira de Gravitação, Astrofísica e Cosmologia</titulo>
-          <nome_jornal>Cosmos & Contexto, Meio Digital</nome_jornal>
-          <data>15 jan. 2012</data>
-          <volume></volume>
-          <paginas></paginas>
-        </texto>
-    </texto_em_jornal>
-    <trabalho_completo_congresso>
-        <trabalho_completo>
-          <doi>http://dx.doi.org/10.1142/9789814623995_0314</doi>
-          <autores>TONIATO, JÚNIOR D. ; GOULART, ÉRICO ; NOVELLO, MARIO ; FALCIANO, FELIPE T.</autores>
-          <titulo>A NOVEL ASPECT OF ANALOGUE GRAVITY</titulo>
-          <nome_evento>Proceedings of the MG13 Meeting on General Relativity</nome_evento>
-          <ano>2015</ano>
-          <volume></volume>
-          <paginas>1912</paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>BITTENCOURT, E ; Goulart, E.</autores>
-          <titulo>Geometric Scalar Gravity</titulo>
-          <nome_evento>Subatomic particles</nome_evento>
-          <ano>2014</ano>
-          <volume>17</volume>
-          <paginas>349-351</paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>Goulart, E</autores>
-          <titulo>Selected Studies on Effective Geometries</titulo>
-          <nome_evento>Primeira Reunião Argentino-Brasileira de Gravitação</nome_evento>
-          <ano>2011</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>Goulart, E</autores>
-          <titulo>Gravidade em Baixas Dimensões</titulo>
-          <nome_evento>Simpósio de Iniciação Científica</nome_evento>
-          <ano>1999</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-    </trabalho_completo_congresso>
-    <apresentacao_trabalho>
-        <trabalho_apresentado>
-          <titulo>Formal aspects of knotted light</titulo>
-          <autores>DE OLIVEIRA COSTA, ÉRICO GOULART</autores>
-          <ano>2019</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Análise Geométrica na Teoria Clássica de Campos</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Effective geometries in the theory of topological solitons</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Knotted lines of forces in electrodynamics</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Inspecting Baby-Skyrmions with effective metrics</titulo>
-          <autores>GOULART, E</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>On nonlinear wave maps</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Geometric wave equations in the theory of topological solitons</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Nontrivial Causal Structures Engendered by Knotted Solitons</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Effective geometries in nonlinear field theory</titulo>
-          <autores>GOULART, E</autores>
-          <ano>2013</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>A hidden symmetry of Maxwell's field equations</titulo>
-          <autores>Goulart, E.; FALCIANO, F T</autores>
-          <ano>2013</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Effective metrics</titulo>
-          <autores>Goulart, E.; FALCIANO, F. T. ; TONIATO, J. ; M. Novello</autores>
-          <ano>2011</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Uma invariância inesperada das equações de Maxwell</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2011</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Superfícies características na eletrodinâmica não-linear</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2011</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Light cone deformations in nonlinear electrodynamics</titulo>
-          <autores>Goulart, E.; S. E. P. Bergliaffa</autores>
-          <ano>2010</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Causal hyper-surfaces in nonlinear electrodynamics</titulo>
-          <autores>Goulart, E.; S. E. P. Bergliaffa</autores>
-          <ano>2010</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Gravidade artificial</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2010</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Sobre a geometria de raios escalares</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2009</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Rotas para a gravidade artificial</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2009</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Classificação de regimes não-lineares na eletrodinâmica</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2008</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Estabilidade da estrutura conforme na cosmologia</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2007</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Estabilidade do tensor de Weyl na cosmologia</titulo>
-          <autores>Goulart, E</autores>
-          <ano>2007</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-    </apresentacao_trabalho>
-    <trabalhos_tecnicos>
-        <trabalho>
-          <titulo>Sólitons topológicos do modelo sigma não linear acoplados com a gravidade 3D</titulo>
-          <autores>Goulart, E.; PEREIRA, A. R.</autores>
-          <ano>2001</ano>
-        </trabalho>
-        <trabalho>
-          <titulo>Gravidade em Baixas Dimensões</titulo>
-          <autores>Goulart, E.; PEREIRA, A. R.</autores>
-          <ano>2000</ano>
-        </trabalho>
-    </trabalhos_tecnicos>
-    <producao_tecnica>
-        <producao>
-          <titulo>Modelos Análogos de Gravitação</titulo>
-          <autores>Goulart, E</autores>
-          <natureza>Curso de curta duração ministrado/Extensão</natureza>
-          <ano>2011</ano>
-        </producao>
-        <producao>
-          <titulo>Fundamentos de Relatividade Geral</titulo>
-          <autores>M. Novello ; Goulart, E.</autores>
-          <natureza>Curso de curta duração ministrado/Extensão</natureza>
-          <ano>2010</ano>
-        </producao>
-        <producao>
-          <titulo>Programa Mínimo de Cosmologia</titulo>
-          <autores>Bergliaffa, Santiago ; M. Novello ; PINTO NETO, N. ; MOSQUERA, H. ; SALIM, J. M. ; FABRIS, J. ; OLIVEIRA, L. A. ; MAKLER, M. ; JORAS, S. E. ; LORENCI, V. ; Goulart, E.</autores>
-          <natureza>Editoração/Livro</natureza>
-          <ano>2010</ano>
-        </producao>
-        <producao>
-          <titulo>Programa Mínimo de Cosmologia</titulo>
-          <autores>Goulart, E</autores>
-          <natureza>Revisão Técnica</natureza>
-          <ano>2010</ano>
-        </producao>
-        <producao>
-          <titulo>Fundamentos de Cosmologia Relativista</titulo>
-          <autores>Goulart, E</autores>
-          <natureza>Curso de curta duração ministrado/Outra</natureza>
-          <ano>2009</ano>
-        </producao>
-    </producao_tecnica>
-    <orientacao_mestrado_em_andamento>
-        <dissertacao>
-          <nome_aluno>Daniel Passile Catalayu</nome_aluno>
-          <titulo_trabalho>Métricas efetivas na eletrodinâmica não-linear</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado profissional em Física) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Luciano G. de Lima</nome_aluno>
-          <titulo_trabalho>Aproximação de campo fraco na relatividade geral</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado profissional em Física) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Istenio Nunes de Morais</nome_aluno>
-          <titulo_trabalho>Buracos Negros na formulação de Kerr-Schild</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado profissional em Física) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-    </orientacao_mestrado_em_andamento>
-    <orientacao_mestrado_concluido>
-        <dissertacao>
-          <nome_aluno>Elves Silva Moreira</nome_aluno>
-          <titulo_trabalho>CONGRUÊNCIAS EM RELATIVIDADE GERAL E CONSEQUÊNCIAS COSMOLÓGICAS</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Gabriel Volino da Silva</nome_aluno>
-          <titulo_trabalho>Propriedades algébricas dos tensores de Faraday e Weyl</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-    </orientacao_mestrado_concluido>
-    <orientacao_iniciacao_cientifica_concluido>
-        <iniciacao_cientifica>
-          <nome_aluno>Gabriel Volino da Silva</nome_aluno>
-          <titulo_trabalho>Geometrias emergentes em sistemas não lineares</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>(Graduando em Engenharia Mecatrônica) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Meison David Leite da Rocha</nome_aluno>
-          <titulo_trabalho>Teoria dos nós aplicada `a física</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>(Graduando em Engenharia Civil) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Emanuel Monção Lima</nome_aluno>
-          <titulo_trabalho>Análise geométrica na teoria clássica de campos</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>(Graduando em Engenharia Mecatrônica) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-    </orientacao_iniciacao_cientifica_concluido>
-    <participacao_evento>
-        <evento>
-          <titulo>Encontro em Gravitação e Cosmologia Quântica. 2011. (Oficina).</titulo>
-          <ano>2011</ano>
-        </evento>
-        <evento>
-          <titulo>Grav 11. 2011. (Congresso).</titulo>
-          <ano>2011</ano>
-        </evento>
-        <evento>
-          <titulo>V Reunião Anual do ICRA.Uma invariância inesperada das equações de Maxwell. 2011. (Encontro).</titulo>
-          <ano>2011</ano>
-        </evento>
-        <evento>
-          <titulo>Amazonian School on Quantum Theory and Applications.Light Cone Deformations in Non-linear Electro-dynamics. 2010. (Oficina).</titulo>
-          <ano>2010</ano>
-        </evento>
-        <evento>
-          <titulo>GR 19 meeting. Causal Surfaces Non-Linear Electrodynamics. 2010. (Congresso).</titulo>
-          <ano>2010</ano>
-        </evento>
-        <evento>
-          <titulo>I Symposium Mario Novello on Bouncing Models. 2010. (Simpósio).</titulo>
-          <ano>2010</ano>
-        </evento>
-        <evento>
-          <titulo>IV Reunião Anual do ICRA.Superfícies causais na Eletrodinâmica Não-Linear. 2010. (Encontro).</titulo>
-          <ano>2010</ano>
-        </evento>
-        <evento>
-          <titulo>XIV Brazilian School of Cosmology and Gravitation. 2010. (Oficina).</titulo>
-          <ano>2010</ano>
-        </evento>
-        <evento>
-          <titulo>III Reuniao Anual do ICRA.Sobre a ação da luz em si mesma. 2009. (Simpósio).</titulo>
-          <ano>2009</ano>
-        </evento>
-        <evento>
-          <titulo>Segunda Escola de Viena: do Colapso do Sistema Tonal à Elaboração do Dodecafonismo. 2009. (Seminário).</titulo>
-          <ano>2009</ano>
-        </evento>
-        <evento>
-          <titulo>II Reuniao Anual do ICRA.Classificação de Regimes Não-Lineares na Eletrodiniamica. 2008. (Simpósio).</titulo>
-          <ano>2008</ano>
-        </evento>
-        <evento>
-          <titulo>XIII Brasilian School of Cosmology and Gravitation - BSCG. 2008. (Congresso).</titulo>
-          <ano>2008</ano>
-        </evento>
-        <evento>
-          <titulo>Cesare Lattes Meeting on Gamma Ray Bursts. 2007. (Congresso).</titulo>
-          <ano>2007</ano>
-        </evento>
-        <evento>
-          <titulo>I Conferência de Cosmologia, Relatividade e Astrofísica.Estabilidade da Estrutura Conforme na Cosmologia. 2007. (Seminário).</titulo>
-          <ano>2007</ano>
-        </evento>
-        <evento>
-          <titulo>I Reuniao Anual do ICRA.Excitações do Tensor de Weyl na Cosmologia. 2007. (Simpósio).</titulo>
-          <ano>2007</ano>
-        </evento>
-        <evento>
-          <titulo>Logic and Time (in honor of Kurt Gödel). 2007. (Seminário).</titulo>
-          <ano>2007</ano>
-        </evento>
-        <evento>
-          <titulo>FOURTH INTERNATIONAL SCHOOL ON FIELD THEORY AND GRAVITATION. 2006. (Encontro).</titulo>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>XII - Brazilian School of Cosmology and Gravitation - BSCG. 2006. (Congresso).</titulo>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>Estrutura do espaço-tempo. 2004. (Encontro).</titulo>
-          <ano>2004</ano>
-        </evento>
-        <evento>
-          <titulo>II Escola de Cosmologia e Gravitação. 2004. (Simpósio).</titulo>
-          <ano>2004</ano>
-        </evento>
-        <evento>
-          <titulo>XI - Brazilian School of Cosmology and Gravitation - BSCG. 2004. (Congresso).</titulo>
-          <ano>2004</ano>
-        </evento>
-        <evento>
-          <titulo>Tenth Marcel Grossmann Meeting. 2003. (Congresso).</titulo>
-          <ano>2003</ano>
-        </evento>
-        <evento>
-          <titulo>Transplanckian Physics. 2003. (Encontro).</titulo>
-          <ano>2003</ano>
-        </evento>
-    </participacao_evento>
-    <organizacao_evento>
-        <evento>
-          <titulo></titulo>
-          <natureza></natureza>
-          <ano>0</ano>
         </evento>
     </organizacao_evento>
   </pesquisador>

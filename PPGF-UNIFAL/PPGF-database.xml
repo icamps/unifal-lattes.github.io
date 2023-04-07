@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="24/01/2023 10:50:37">
+<curriculo_lattes data_processamento="07/04/2023 17:41:52">
   <pesquisador id="8478305453281130">
     <identificacao>
       <identificador10></identificador10>
@@ -47,6 +47,12 @@
         </formacao>
     </formacao_academica>
     <projetos_pesquisa>
+        <projeto>
+          <ano_inicio>2020</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Computational modeling of pharmacokinetic profiles: bayesian parameter estimation and artificial neural networks</nome>
+          <descricao>Descrição: This research project is on the development and implementation of computational models for processes of drug biodistribution, aimed at the pharmacokinetics of magnetic nanoparticles, but also on processes of delayed stomach emptying. Its novel aspects include: 1) development of computational models that will provide a novel quantitative description of experimental pharmacokinetic profiles; 2) development of an in silico technology for virtual experimentation of several set-ups; 3) advances on uncertainty modeling (Bayesian statistics) and on classification problems (Artificial Neural Networks). Although the project has a theoretical-computational character, all the aspects previously described will be performed with a basis on in vivo experimental data by means of an interdisciplinarity approach in computer science, statistics, pharmacology and physics. Besides funding research advances in those areas, the project will also contribute to the initiation and training of new researchers, especially undergraduate and graduate students. (AU). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (3) . Integrantes: Anibal Thiago Bezerra - Integrante / Verônica Andrea González-Lopez - Integrante / RODRIGUES, DIEGO SAMUEL - Coordenador / DE ARRUDA MIRANDA, JOSÉ RICARDO - Integrante.</descricao>
+        </projeto>
         <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
@@ -133,6 +139,16 @@
         <id_lattes_colaborador>8780105727404133</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1088/1402-4896/acbdc8</doi>
+          <titulo>Revisiting semiconductor bulk hamiltonians using quantum computers</titulo>
+          <autores>PIMENTA, RAPHAEL CÉSAR DE SOUZA ; BEZERRA, Anibal Thiago</autores>
+          <revista>PHYSICA SCRIPTA</revista>
+          <volume>PHYSICA SCRIPTA</volume>
+          <paginas>045804</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.1016/j.physe.2022.115513</doi>
           <titulo>Leveraging machine learning to harness non-parabolic effects in semiconductor heterostructures</titulo>
@@ -2270,7 +2286,7 @@
       <identificador10></identificador10>
       <nome_inicial>Fernando Gonçalves Gardim</nome_inicial>
       <nome_completo>Fernando Gonçalves Gardim</nome_completo>
-      <nome_citacao_bibliografica>GARDIM, F. G.;Gardim, Fernando;Gardim, F;Gardim, Fernando G.</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>GARDIM, F. G.;Gardim, Fernando;Gardim, F;Gardim, Fernando G.;GARDIM, F.G.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -2294,14 +2310,14 @@
           <ano_conclusao>2009</ano_conclusao>
           <tipo>Doutorado em IFT-UNESP</tipo>
           <nome_instituicao>Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil</nome_instituicao>
-          <descricao>Título: Termodinâmica de Quase-Partículas, Ano de obtenção: 2009. Orientador: Fernanda Monti Steffens. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: QCD; Quase-Partícula; Termodinâmica; Plasma de Quarks e Gluons. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Física Estatística e Termodinâmica.</descricao>
+          <descricao>Título: Termodinâmica de Quase-Partículas O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2009. Orientador: Fernanda Monti Steffens. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: QCD; Quase-Partícula; Termodinâmica; Plasma de Quarks e Gluons. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Física Estatística e Termodinâmica.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2003</ano_inicio>
           <ano_conclusao>2005</ano_conclusao>
           <tipo>Mestrado em IFT-UNESP</tipo>
           <nome_instituicao>Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil</nome_instituicao>
-          <descricao>Título: Seções de Choque Totais Hadrônicas e Colisões entre Partons, Ano de Obtenção: 2005. Orientador: Adriano A Natale. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física das Partículas Elementares e Campos. Setores de atividade: Outros.</descricao>
+          <descricao>Título: Seções de Choque Totais Hadrônicas e Colisões entre Partons O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2005. Orientador: Adriano A Natale. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física das Partículas Elementares e Campos. Setores de atividade: Outros.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1999</ano_inicio>
@@ -2380,6 +2396,7 @@
     </area_atuacao>
     <colaboradores>
         <id_lattes_colaborador>6419220260106427</id_lattes_colaborador>
+        <id_lattes_colaborador>7801833255752802</id_lattes_colaborador>
         <id_lattes_colaborador>5996181459466951</id_lattes_colaborador>
         <id_lattes_colaborador>0326321170602739</id_lattes_colaborador>
         <id_lattes_colaborador>2425549033248106</id_lattes_colaborador>
@@ -2392,6 +2409,16 @@
         <id_lattes_colaborador>7349950103979107</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.5506/APhysPolBSupp.16.1-A88</doi>
+          <titulo>Effective Shear and Bulk Viscosities of the Quark-Gluon Plasma: QCD Versus Heavy-ion Data</titulo>
+          <autores>GARDIM, F.G.; OLLITRAULT, J.-Y.</autores>
+          <revista>ACTA PHYSICA POLONICA. B, PROCEEDINGS SUPPLEMENT</revista>
+          <volume>ACTA PHYSICA POLONICA. B, PROCEEDINGS SUPPLEMENT</volume>
+          <paginas>1</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.1016/j.nuclphysa.2020.121999</doi>
           <titulo>Effects of initial state fluctuations on the mean transverse momentum</titulo>
@@ -2423,22 +2450,22 @@
           <ano>2021</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevC.103.044907</doi>
-          <titulo>Effective shear and bulk viscosities for anisotropic flow</titulo>
-          <autores>Gardim, Fernando G.; Ollitrault, Jean-Yves</autores>
-          <revista>PHYSICAL REVIEW C</revista>
-          <volume>PHYSICAL REVIEW C</volume>
-          <paginas>044907</paginas>
-          <numero></numero>
-          <ano>2021</ano>
-        </artigo>
-        <artigo>
           <doi>http://dx.doi.org/10.1103/PhysRevC.103.024909</doi>
           <titulo>Correlation between mean transverse momentum and anisotropic flow in heavy-ion collisions</titulo>
           <autores>GIACALONE, GIULIANO ; Gardim, Fernando G. ; NORONHA-HOSTLER, JACQUELYN ; Ollitrault, Jean-Yves</autores>
           <revista>PHYSICAL REVIEW C</revista>
           <volume>PHYSICAL REVIEW C</volume>
           <paginas>024909</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevC.103.044907</doi>
+          <titulo>Effective shear and bulk viscosities for anisotropic flow</titulo>
+          <autores>Gardim, Fernando G.; Ollitrault, Jean-Yves</autores>
+          <revista>PHYSICAL REVIEW C</revista>
+          <volume>PHYSICAL REVIEW C</volume>
+          <paginas>044907</paginas>
           <numero></numero>
           <ano>2021</ano>
         </artigo>
@@ -2687,6 +2714,24 @@
     </resumo_congresso>
     <apresentacao_trabalho>
         <trabalho_apresentado>
+          <titulo>The smallest, hottest and most perfect fluid on Earth</titulo>
+          <autores>GARDIM, F. G</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Simpósio</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Extracting Effective Viscosities from heavy ion collisions</titulo>
+          <autores>GARDIM, F. G</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Quark Gluon Plasma & the standard model of relativistic collisions</titulo>
+          <autores>GARDIM, F. G</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
           <titulo>A termodinâmica do menor e mais quente fluido da Terra, e outras propriedades</titulo>
           <autores>GARDIM, F. G</autores>
           <ano>2021</ano>
@@ -2846,26 +2891,16 @@
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
-        <dissertacao>
-          <nome_aluno>Yuri Schneider</nome_aluno>
-          <titulo_trabalho>Correlações em Hidrodinâmica de Colisoes de Ions Pesados Relativisticos</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
     </orientacao_mestrado_em_andamento>
-    <orientacao_iniciacao_cientifica_em_andamento>
-        <iniciacao_cientifica>
-          <nome_aluno>Rafaela Maria de Carvalho</nome_aluno>
-          <titulo_trabalho>Divulgação científica em Física Nuclear</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Iniciação científica (Graduando em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-    </orientacao_iniciacao_cientifica_em_andamento>
     <supervisao_pos_doutorado_concluido>
+        <supervisao>
+          <nome_aluno>André Veiga Giannini</nome_aluno>
+          <titulo_trabalho></titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </supervisao>
         <supervisao>
           <nome_aluno>Érike Roberto Cazaroto</nome_aluno>
           <titulo_trabalho></titulo_trabalho>
@@ -2885,6 +2920,14 @@
     </supervisao_pos_doutorado_concluido>
     <orientacao_mestrado_concluido>
         <dissertacao>
+          <nome_aluno>Yuri Schneider de Assis</nome_aluno>
+          <titulo_trabalho>Correlações em Hidrodinâmica de Colisoes de Ions Pesados Relativisticos</titulo_trabalho>
+          <ano>2019</ano>
+          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
           <nome_aluno>Pablo Magallanes</nome_aluno>
           <titulo_trabalho>Impacto da distribuição inicial de energia das colisões centrais e periféricas de íons pesados relativísticos nas propriedades geométricas e na distribuição final de partículas</titulo_trabalho>
           <ano>2016</ano>
@@ -2894,6 +2937,14 @@
         </dissertacao>
     </orientacao_mestrado_concluido>
     <orientacao_iniciacao_cientifica_concluido>
+        <iniciacao_cientifica>
+          <nome_aluno>Rafaela Maria de Carvalho</nome_aluno>
+          <titulo_trabalho>Divulgação científica em Física Nuclear</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduando em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
         <iniciacao_cientifica>
           <nome_aluno>Mayara Pontes Barbosa</nome_aluno>
           <titulo_trabalho>O Plasma de Quarks e Glúons e sua descrição hidrodinâmica relativística</titulo_trabalho>
@@ -2927,6 +2978,14 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
         <iniciacao_cientifica>
+          <nome_aluno>Giovana Stivanin</nome_aluno>
+          <titulo_trabalho>Modelos Nucleares e seus decaimentos</titulo_trabalho>
+          <ano>2016</ano>
+          <instituicao>(Graduando em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
           <nome_aluno>Samuel Vilela da Silva Abreu</nome_aluno>
           <titulo_trabalho>O estudo do plasma de quarks e gluons através da descrição hidrodinâmica</titulo_trabalho>
           <ano>2016</ano>
@@ -2937,14 +2996,6 @@
         <iniciacao_cientifica>
           <nome_aluno>Edirlan Faria dos Santos</nome_aluno>
           <titulo_trabalho>O estudo de íons pesados relativístico para formação de Plasma de Quarks e Glúons através da descrição hidrodinâmica</titulo_trabalho>
-          <ano>2016</ano>
-          <instituicao>(Graduando em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Giovana Stivanin</nome_aluno>
-          <titulo_trabalho>Modelos Nucleares e seus decaimentos</titulo_trabalho>
           <ano>2016</ano>
           <instituicao>(Graduando em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
@@ -2993,7 +3044,19 @@
     </orientacao_iniciacao_cientifica_concluido>
     <participacao_evento>
         <evento>
+          <titulo>III Workshop do Programa de Pós?Graduação em Física UNIFAL/UFSJ.Overview on the Quark-Gluon Plasma. 2022. (Encontro).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>INCT-FNA Symposium.The smallest, hottest and most perfect fluid on Earth. 2022. (Simpósio).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
           <titulo>Quark Matter 2022. Extracting Effective Viscosities from heavy ion collisions. 2022. (Congresso).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>UK-Latin America School on DUNE Physics and Software. 2022. (Oficina).</titulo>
           <ano>2022</ano>
         </evento>
         <evento>
@@ -3110,6 +3173,11 @@
         </evento>
     </participacao_evento>
     <organizacao_evento>
+        <evento>
+          <titulo>Festival "Mais Ciência, Por Favor"</titulo>
+          <natureza>Festival</natureza>
+          <ano>2022</ano>
+        </evento>
         <evento>
           <titulo>Pint of Science Poços de Caldas III</titulo>
           <natureza>Festival</natureza>
@@ -3243,7 +3311,7 @@
           <ano_inicio>2004</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
           <nome>Física de Neutrinos de Reatores: experimentos Double Chooz e Neutrinos Angra</nome>
-          <descricao>Descrição: Experimento Double Chooz: O fenômeno de oscilações de neutrinos entre estados de diferente sabor foi bem estabelecido pelo estudo de neutrinos solares e de neutrinos atmosféricos. Isto permitiu medir dois ângulos de mistura entre os autoestados de sabor e os autoestados de massa. Entretanto falta medir o terceiro ângulo de mistura. O objetivo científico do experimento Double Chooz é o estudo de oscilações de neutrinos de curta distância e a medida do ângulo de mistura theta 13 usando um reator nuclear como fonte de neutrinos. A medida deste ângulo de mistura, único ainda não conhecido, dará acesso ao estudo de violação de CP no setor leptônico. - Experimento Neutrinos Angra: Reatores nucleares são uma intensa fonte de antineutrinos e a potência térmica liberada no processo de fissão dos elementos combustíveis é diretamente relacionada com o fluxo emitido de antineutrinos. O objetivo do experimento Neutrinos ANGRA é a medida do fluxo de neutrinos gerado no reator Angra II e seu espectro de energia para o desenvolvimento de técnicas de monitoramento de reatores nucleares e aplicações na área de salvaguardas nucleares.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (6) / Mestrado acadêmico: (4) / Mestrado profissional: (3) / Doutorado: (3) . Integrantes: Gustavo do Amaral Valdiviesso - Integrante / Ernesto Kemp - Integrante / João Carlos Costa dos Anjos - Coordenador / Iuri Muniz Pepe - Integrante / Herman Lima Jr - Integrante / Pietro Chimenti - Integrante / Luciano Manhães de Andrade Filho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 9</descricao>
+          <descricao>Descrição: Experimento Double Chooz: O fenômeno de oscilações de neutrinos entre estados de diferente sabor foi bem estabelecido pelo estudo de neutrinos solares e de neutrinos atmosféricos. Isto permitiu medir dois ângulos de mistura entre os autoestados de sabor e os autoestados de massa. Entretanto falta medir o terceiro ângulo de mistura. O objetivo científico do experimento Double Chooz é o estudo de oscilações de neutrinos de curta distância e a medida do ângulo de mistura theta 13 usando um reator nuclear como fonte de neutrinos. A medida deste ângulo de mistura, único ainda não conhecido, dará acesso ao estudo de violação de CP no setor leptônico. - Experimento Neutrinos Angra: Reatores nucleares são uma intensa fonte de antineutrinos e a potência térmica liberada no processo de fissão dos elementos combustíveis é diretamente relacionada com o fluxo emitido de antineutrinos. O objetivo do experimento Neutrinos ANGRA é a medida do fluxo de neutrinos gerado no reator Angra II e seu espectro de energia para o desenvolvimento de técnicas de monitoramento de reatores nucleares e aplicações na área de salvaguardas nucleares.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (6) / Mestrado acadêmico: (4) / Mestrado profissional: (3) / Doutorado: (3) . Integrantes: Gustavo do Amaral Valdiviesso - Integrante / Ernesto Kemp - Integrante / João Carlos Costa dos Anjos - Coordenador / Iuri Muniz Pepe - Integrante / Herman Lima Jr - Integrante / Pietro Chimenti - Integrante / Luciano Manhães de Andrade Filho - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro / Financiadora de Estudos e Projetos - Auxílio financeiro. Número de produções C, T & A: 9</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -3453,7 +3521,7 @@
           <ano>2020</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1007/jhep01(2016)163</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/jhep01(2016)163&md5=934d7a80a4c18eb7e5497a0d2782ce40</doi>
           <titulo>Measurement of ? 13 in Double Chooz using neutron captures on hydrogen with novel background rejection techniques</titulo>
           <autores>Abe, Y</autores>
           <revista>JOURNAL OF HIGH ENERGY PHYSICS</revista>
@@ -3473,7 +3541,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nima.2016.05.052</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nima.2016.05.052&md5=c0b42fa6dce56213231902a7b01f61d6</doi>
           <titulo>Readout electronics validation and target detector assessment for the neutrinos angra experiment</titulo>
           <autores>ALVARENGA, T.A. ; ANJOS, J.C. ; AZZI, G. ; CERQUEIRA, A.S. ; CHIMENTI, P. ; COSTA, J.A. ; DORNELAS, T.I. ; FARIAS, P.C.M.A. ; GUEDES, G.P. ; GONZALEZ, L.F.G. ; KEMP, E. ; LIMA, H.P. ; MACHADO, R. ; NÓBREGA, R.A. ; PEPE, I.M. ; RIBEIRO, D.B.S. ; SIMAS FILHO, E.F. ; Valdiviesso, G.A. ; Wagner, S.</autores>
           <revista>Nuclear Instruments & Methods in Physics Research. Section A, Accelerators, Spectrometers, Detectors and Associated Equipment (Print)</revista>
@@ -3483,7 +3551,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1088/1748-0221/11/08/P08001</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1748-0221/11/08/p08001&md5=8b162168141564983cc2d76f514bd829</doi>
           <titulo>Characterization of the spontaneous light emission of the PMTs used in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Journal of Instrumentation</revista>
@@ -3493,7 +3561,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nuclphysbps.2015.10.090</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nuclphysbps.2015.10.090&md5=b381e147e967d6927f83dbc0e47a02fb</doi>
           <titulo>Using Neutrinos to Monitor Nuclear Reactors: the Angra Neutrino Experiment, Simulation and Detector Status</titulo>
           <autores>ANJOS, J.C</autores>
           <revista>Nuclear Physics. B, Proceedings Supplement (Print)</revista>
@@ -3523,7 +3591,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nima.2014.07.058</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nima.2014.07.058&md5=098448a6fa8f5af7d3da5fb9846996b3</doi>
           <titulo>Precision muon reconstruction in Double Chooz</titulo>
           <autores>Abe, Y</autores>
           <revista>Nuclear Instruments & Methods in Physics Research. Section A, Accelerators, Spectrometers, Detectors and Associated Equipment (Print)</revista>
@@ -3533,7 +3601,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1007/jhep10(2014)032</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/jhep10(2014)032&md5=afa01068e0b289a891cc91fa9a46fa56</doi>
           <titulo>Ortho-positronium observation in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>J HIGH ENERGY PHYS</revista>
@@ -3543,7 +3611,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1007/jhep10(2014)086</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/jhep10(2014)086&md5=9b12c5a64460a46cad2bc8e80d71c24e</doi>
           <titulo>Improved measurements of the neutrino mixing angle ? 13 with the Double Chooz detector</titulo>
           <autores>Abe, Y</autores>
           <revista>J HIGH ENERGY PHYS</revista>
@@ -3553,7 +3621,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physletb.2014.04.045</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2014.04.045&md5=7392de50915ddd8e741daf4b668d6d44</doi>
           <titulo>Background-independent measurement of in Double Chooz</titulo>
           <autores>Abe, Y. ; Valdiviesso, G.A.</autores>
           <revista>PHYSICS LETTERS B</revista>
@@ -3563,7 +3631,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/physrevd.87.011102</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.87.011102&md5=fb31e1e7bee5d7c23aeaa01543ad325b</doi>
           <titulo>Direct measurement of backgrounds using reactor-off data in Double Chooz</titulo>
           <autores>Abe, Y</autores>
           <revista>Physical Review. D. Particles, Fields, Gravitation, and Cosmology (Online)</revista>
@@ -3573,7 +3641,7 @@
           <ano>2013</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physletb.2013.04.050</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2013.04.050&md5=7841306223ba93f9ae0e462d8a6c7a06</doi>
           <titulo>First measurement of from delayed neutron capture on hydrogen in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Physics Letters. B (Print)</revista>
@@ -3593,7 +3661,7 @@
           <ano>2012</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/physrevd.86.112009</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.86.112009&md5=f7a570651b44ba173f171cc73289efde</doi>
           <titulo>First test of Lorentz violation with a reactor-based antineutrino experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Physical Review. D. Particles, Fields, Gravitation, and Cosmology (Online)</revista>
@@ -3613,7 +3681,7 @@
           <ano>2012</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physletb.2011.05.057</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2011.05.057&md5=cba6827326e93f43253b9f91a9534396</doi>
           <titulo>Probing new limits for the Violation of the Equivalence Principle in the solar¿reactor neutrino sector as a next to leading order effect</titulo>
           <autores>Valdiviesso, G.A.; Guzzo, M.M. ; Holanda, P.C.</autores>
           <revista>PHYSICS LETTERS B</revista>
@@ -3623,7 +3691,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1140/epjc/s10052-009-1227-4</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1140/epjc/s10052-009-1227-4&md5=88a30e18ddabe3519c180ff3a96e6d31</doi>
           <titulo>First proton?proton collisions at the LHC as observed with the ALICE detector: measurement of the charged-particle pseudorapidity density at ? s = 900 GeV. European Physical Journal</titulo>
           <autores>Aamodt, K ; do Amaral Valdiviesso, G.</autores>
           <revista>European Physical Journal. C, Particles and Fields (Print)</revista>
@@ -3633,7 +3701,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nuclphysa.2009.10.142</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nuclphysa.2009.10.142&md5=492604ed5b812bd276196c77984735a4</doi>
           <titulo>The ALICE Collaboration</titulo>
           <autores>Aamodt, K. ; Abel, N. ; Abrahantes Quintana, A. ; Acero, A. ; Adamová, D. ; Aggarwal, M.M. ; Aglieri Rinella, G. ; Agocs, A. ; Aguilar Salazar, S. ; Ahammed, Z. ; do Amaral Valdiviesso, G.</autores>
           <revista>Nuclear Physics. A (Print)</revista>
@@ -3736,18 +3804,6 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <artigos_em_revista>
-        <artigo_revista>
-          <doi>http://dx.doi.org/10.48550/arXiv.2109.01304</doi>
-          <autores>The DUNE Collaboration ; G. A. Valdiviesso</autores>
-          <titulo>Low exposure long-baseline neutrino oscillation sensitivity of the DUNE experiment</titulo>
-          <revista>PHYSICAL REVIEW D</revista>
-          <ano>2022</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>Detecção de Neutrinos e o Experimento DUNE</titulo>
@@ -4287,7 +4343,7 @@
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Novos materiais para células fotovoltaicas: calcopirites, kesterites e nanoestruturas de semicondutores III-V</nome>
-          <descricao>Descrição: Desenvolvimento de novos materiais para dispositivos fotoeléctricos, nomeadamente, células solares, baseados em calcopirites (CuIn1-xGax(Se,S)2), kesterites (Cu2ZnSn(S,Se)4) e nanoestruturas de semicondutores III-V.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (3) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Juan Carlos González - Coordenador / Mirta Mir - Integrante / António Ferreira da Cunha - Integrante / María Celeste do Carmo - Integrante / Nikolai Sobolev - Integrante / Joaquim Pratas Leitão - Integrante / Luis Cadillon Costa - Integrante / Pedro Salomé - Integrante / Paulo Fernandes - Integrante / Nuno Miguel Santos - Integrante / Alfredo Gontijo de Oliveira - Integrante / Marcus Vinicius Baeta Moreira - Integrante / Geraldo Mathias Ribeiro - Integrante / Maria Ivonete Nogueira da Silva - Integrante / Rodrigo Andrade Ribeiro - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro / Fundação para a Ciência e a Tecnologia - Auxílio financeiro.</descricao>
+          <descricao>Descrição: Desenvolvimento de novos materiais para dispositivos fotoeléctricos, nomeadamente, células solares, baseados em calcopirites (CuIn1-xGax(Se,S)2), kesterites (Cu2ZnSn(S,Se)4) e nanoestruturas de semicondutores III-V.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (3) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Juan Carlos González - Coordenador / Mirta Mir - Integrante / António Ferreira da Cunha - Integrante / María Celeste do Carmo - Integrante / Nikolai Sobolev - Integrante / Joaquim Pratas Leitão - Integrante / Luis Cadillon Costa - Integrante / Pedro Salomé - Integrante / Paulo Fernandes - Integrante / Nuno Miguel Santos - Integrante / Alfredo Gontijo de Oliveira - Integrante / Marcus Vinicius Baeta Moreira - Integrante / Geraldo Mathias Ribeiro - Integrante / Maria Ivonete Nogueira da Silva - Integrante / Rodrigo Andrade Ribeiro - Integrante. Financiador(es): Fundação para a Ciência e a Tecnologia - Auxílio financeiro / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2008</ano_inicio>
@@ -4311,7 +4367,7 @@
           <ano_inicio>2006</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Modelagem Computacional (propriedades estruturais, eletrônicas e magnéticas) de Sólidos, Moléculas, Nanoestruturas e Superficies</nome>
-          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 30 / Número de orientações: 4</descricao>
+          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 39 / Número de orientações: 2</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -4343,6 +4399,7 @@
         <id_lattes_colaborador>8780105727404133</id_lattes_colaborador>
         <id_lattes_colaborador>1481276383743867</id_lattes_colaborador>
         <id_lattes_colaborador>3732563704810366</id_lattes_colaborador>
+        <id_lattes_colaborador>1101341437463729</id_lattes_colaborador>
         <id_lattes_colaborador>2914643532111011</id_lattes_colaborador>
         <id_lattes_colaborador>6347400432232688</id_lattes_colaborador>
         <id_lattes_colaborador>7179720346302573</id_lattes_colaborador>
@@ -5920,25 +5977,9 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
-          <nome_aluno>Letícia Carolaine Silva Faria</nome_aluno>
-          <titulo_trabalho>Estudio teórico da interação do glifosato com nanotubos de cabono decorados com hidroxílas</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
           <nome_aluno>Paulo da Silva Ferreira Neto</nome_aluno>
           <titulo_trabalho>Simulação computacional de aplicação de nanoestruturas no aprimoramento de biossensores: Detecção e diagnóstico eficiente de doenças cardíacas</titulo_trabalho>
           <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Tales Alexandre Aversi-Ferreira</nome_aluno>
-          <titulo_trabalho>O uso de nanotubos de carbono (CNTs) ligados à carboxila como filtros para glifosato</titulo_trabalho>
-          <ano>2020</ano>
           <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
@@ -5953,6 +5994,22 @@
         </dissertacao>
     </orientacao_mestrado_em_andamento>
     <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Tales Alexandre Aversi-Ferreira</nome_aluno>
+          <titulo_trabalho>Mitigação de pesticidas com o uso de nanotubos de carbono - um estudo de Mecânica Quântica</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Letícia Carolaine Silva Faria</nome_aluno>
+          <titulo_trabalho>Estudo teórico da interação do glifosato com nanotubos de cabono decorados com hidroxilas</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
         <dissertacao>
           <nome_aluno>Robeto Madeira</nome_aluno>
           <titulo_trabalho>Interação de Nanotubos de Nitreto de Boro com Metais Pesados: Estudo de Primeiros Princípios</titulo_trabalho>
@@ -6588,16 +6645,28 @@
     </formacao_academica>
     <projetos_pesquisa>
         <projeto>
-          <ano_inicio>2019</ano_inicio>
+          <ano_inicio>2023</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>ESTUDO DA PRIMEIRA HIPERPOLARIZABILIDADE ÓPTICA DE MATERIAIS ORGÂNICOS ATRAVÉS DA TÉCNICA DE ESPALHAMENTO HYPER-RAYLEIGH COM CONTROLE DE POLARIZAÇÃO</nome>
-          <descricao>Descrição: A óptica não linear é uma área da física associada a fenômenos ópticos no qual a polarização induzida em um material é não linear com o campo elétrico. Este campo de pesquisa surgiu em 1961, após o advento do laser por Maiman (Nature, 187, 493?494, 1960), com a descoberta da geração de segundo harmônico por Kaiser e Garret (Phys. Rev. Lett. 7, 229, 1961). Neste fenômeno, um feixe de luz laser de alta intensidade interage com um material de tal forma que a resposta do material a presença deste campo possui uma dependência com o dobro da frequência da radiação incidente. Do ponto de vista quanto-mecânico, ao incidir um feixe de luz com frequência f em um material com suscetibilidade óptica não linear de segunda ordem, dois fótons de frequência f serão aniquilados e um fóton de frequência 2f será criado. Este efeito possui várias aplicações como no desenvolvimento de lasers ultrarrápidos, amplificadores ópticos, informação quântica e dispositivos fotônicos, para citar alguns. Assim, o estudo de novos materiais orgânicos e inorgânicos com alta hiperpolarizabilidade de primeira ordem é de suma importância para a geração de novas tecnologias, em especial, àquelas voltadas a Fotônica. Portanto, este projeto visa à implantação da técnica de espalhamento Hyper-Rayleigh sub-nanossegundos com controle de polarização para investigar a primeira hiperpolarizabilidade dinâmica de materiais orgânicos como moléculas ramificadas (com geometria dipolar, quadrupolar e octupolar) e polímeros quirais. Já mostramos em trabalhos anteriores (J. Phys. Chem. Lett, 4, 1753-1759, 2013 / J. Phys. Chem B, 116, 14708-14714, 2012) que efeitos ópticos não lineares são muito sensíveis a mudança do estado de polarização do campo óptico, de tal forma que o efeito possa ser controlado ou até mesmo chaveado. Além disso, a interação da luz polarizada com a estrutura molecular pode trazer informações importantes para o entendimento de estruturas secundárias de moléculas orgânicas, DNA, aminoácidos, etc.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / SILVA - Integrante / BONI, LEONARDO DE - Integrante / MENDONÇA, CLEBER R - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 8</descricao>
+          <nome>Micro-espectroscopia fluorescente hiperespectral resolvida no tempo aplicada à dinâmica de portadores de carga em filmes finos de nanocristais de perovskitas</nome>
+          <descricao>Descrição: Nanocristais coloidais de perovskitas (NCPs) têm se mostrado extremamente promissores para a fabricação de células solares, dispositivos emissores de luz e fotodetectores de baixo custo e altamente eficientes. Estas características se devem principalmente à elevada eficiência quântica de fluorescência destes nanomateriais aliada à alta condução iônica de portadores de carga. Por outro lado, os NCPs apresentam baixa estabilidade química e segregação de fase sob fotoexcitação, o que tem inviabilizado suas aplicações. Para contornar estes problemas, NCPs baseados em haletos metálicos com diferentes composições químicas têm sido intensamente estudados através da conjugação de métodos experimentais e teóricos. Contudo, tanto a difusão iônica desencadeada pela fotoexcitação como também a transferência de energia entre nanocristais são pouco compreendidas. Neste contexto, este projeto tem como objetivo investigar as propriedades dinâmicas da mobilidade iônica em filmes finos nanocristalinos de perovskitas do tipo ABX3, em que A e B são cátions de tamanhos distintos e X é, geralmente, um ânion haleto ou um sistema misto de haletos. Para tanto, será implementada no Laboratório de Espectroscopia Óptica e Fotônica da Unifal a técnica de microespectroscopia fluorescente resolvida no tempo, que possui resolução espacial e temporal adequadas para a visualização da difusão iônica e da substituição de íons haleto. A utilização conjunta desta técnica e de métodos computacionais de análise multivariada permitirá obter informações sobre a segregação de fase em nanoescala, além de elucidar os mecanismos subjacentes à difusão iônica fotoinduzida, contribuindo, dessa maneira, para o desenvolvimento de dispositivos mais estáveis e eficientes.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / Cleber Renato Mendonça - Integrante / Marco A. Schiavon - Integrante / Leonardo De Boni - Integrante / Diego Lourençoni Ferreira - Integrante.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2022</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>ESPECTROSCOPIA ÓPTICA NÃO LINEAR E MICROFABRICAÇÃO A LASER APLICADOS AO ESTUDO DE NANOMATERIAIS</nome>
+          <descricao>Descrição: A espectroscopia óptica não linear é uma poderosa ferramenta para caracterizar propriedades de nanomateriais. Por exemplo, a resposta óptica de segunda ordem permite caracterizar a simetria, o número de camadas, e o rotação de nanoestruturas 2D. Também permite a criação de nano-dispositivos de geração de segundo harmônico. Por outro lado, a resposta de terceira ordem é capaz de fornecer informações sobre estados ?escuros?, produzir estruturas 3D com resolução abaixo do limite de difração, aumentar a resolução em microscopia óptica, gerar dispositivos ultrarrápidos, dentre outras. Nos últimos anos com o crescimento exponencial da nanofotônica e nanoplasmônica, que permitem manipular e controlar fótons e plasmons em nanoescala, o interesse por nanomateriais com altas polarizabilidades não lineares é crescente. Dentre os vários materiais, podemos destacar os nanocristais semicondutores e metálicos. Os NCs semicondutores possuem alta absorção de dois fótons enquanto nanoestruturas plasmônicas apresentam alta resposta óptica não linear de segunda ordem. Aqui, como uma primeira etapa do projeto iremos investigar a relação entre a estrutura cristalina e a resposta óptica não linear de nanocristais (core-shell) de CuInS2(Zn) e de nanobastões de ouro. Para tanto, iremos usar a técnica de Varredura-Z (terceira ordem) e Espalhamento Hyper-Rayleigh (segunda ordem). Um dos grandes problemas ao quantificar a resposta óptica não linear de nanomateriais está associado à determinação não precisa da concentração das nanoestruturas bem como efeitos de espalhamentos espúrios. Para contornar estes problemas, iremos usar a técnica de saturação da fluorescência induzida por laser pulsado bem como um modelo baseado na Teoria de espalhamento Mie com medidas de absorção óptica, as quais fornecem informação precisa da concentração. Em uma segunda etapa, iremos produzir micro e nanoestruturas em filmes finos metálicos e de NCs semicondutores de perovskita. Para tanto, iremos usar a técnica de microfabricação a laser que foi desenvolvida recentemente em nosso laboratório. É importante salientar que a grande parte da execução desse projeto está vinculada a alunos de pós-graduação do Laboratório de Espectroscopia Óptica e Fotônica da UNIFAL, sob a minha coordenação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (4) . Integrantes: Marcelo Gonçalves Vivas - Coordenador. Número de produções C, T & A: 4</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>ESPECTROSCOPIA ÓPTICA NÃO LINEAR E TRANSFERÊNCIA DIRETA INDUZIDA POR LASER DE NANOMATERIAIS</nome>
           <descricao>Descrição: Processos ópticos não lineares como absorção de dois fótons e índice de refração não linear estão intimamente associados com novas tecnologias que vão desde a microscopia de alta resolução à geração de computadores quânticos via estados emaranhados. Contudo, como a probabilidade de ocorrência destes fenômenos é baixa é necessário à síntese de materiais compropriedades especiais. Neste contexto, nas últimas décadas nanomateriais semicondutores e de carbono emergiram como materiais ópticos que apresentam resposta óptica não linear extremamente elevada e com tempos de resposta ultrarrápidos (femtossegundos). Neste sentido, este projeto tem como objetivo o estudo experimental do espectro de absorção de dois fótons (A2F) e do índice de refração não linear de nanocristais semicondutores de perovskita (CsPbBr3, CsPbI3, CsPbCl3) e nanopartículas de carbono sintetizadas com diferentes ligantes. Além disso, após a caraterização óptica não linear destes materiais, pretendemos fabricar filmes finos utilizando as técnicas de automontagem e spin coated bem como o uso do polímero PMMA como matriz hospedeira para fabricar dispositivos via a técnica de Transferência direta induzida por laser (Laser Induced Forward Transfer-LIFT). Esta técnica permite a fabricação de microdispositivos complexos com alta resolução espacial 2D, a transferência é realizada sem modificação nas propriedades ópticas e estruturais do alvo e é de fácil implementação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / MENDONCA, C. R. - Integrante / DE BONI, Leonardo - Integrante / SCHIAVON, MARCO A. - Integrante / Carlos Henrique Domingues dos Santos - Integrante / Luis Ricardo Pereira Mucciaroni - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 10</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2019</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>ESTUDO DA PRIMEIRA HIPERPOLARIZABILIDADE ÓPTICA DE MATERIAIS ORGÂNICOS ATRAVÉS DA TÉCNICA DE ESPALHAMENTO HYPER-RAYLEIGH COM CONTROLE DE POLARIZAÇÃO</nome>
+          <descricao>Descrição: A óptica não linear é uma área da física associada a fenômenos ópticos no qual a polarização induzida em um material é não linear com o campo elétrico. Este campo de pesquisa surgiu em 1961, após o advento do laser por Maiman (Nature, 187, 493?494, 1960), com a descoberta da geração de segundo harmônico por Kaiser e Garret (Phys. Rev. Lett. 7, 229, 1961). Neste fenômeno, um feixe de luz laser de alta intensidade interage com um material de tal forma que a resposta do material a presença deste campo possui uma dependência com o dobro da frequência da radiação incidente. Do ponto de vista quanto-mecânico, ao incidir um feixe de luz com frequência f em um material com suscetibilidade óptica não linear de segunda ordem, dois fótons de frequência f serão aniquilados e um fóton de frequência 2f será criado. Este efeito possui várias aplicações como no desenvolvimento de lasers ultrarrápidos, amplificadores ópticos, informação quântica e dispositivos fotônicos, para citar alguns. Assim, o estudo de novos materiais orgânicos e inorgânicos com alta hiperpolarizabilidade de primeira ordem é de suma importância para a geração de novas tecnologias, em especial, àquelas voltadas a Fotônica. Portanto, este projeto visa à implantação da técnica de espalhamento Hyper-Rayleigh sub-nanossegundos com controle de polarização para investigar a primeira hiperpolarizabilidade dinâmica de materiais orgânicos como moléculas ramificadas (com geometria dipolar, quadrupolar e octupolar) e polímeros quirais. Já mostramos em trabalhos anteriores (J. Phys. Chem. Lett, 4, 1753-1759, 2013 / J. Phys. Chem B, 116, 14708-14714, 2012) que efeitos ópticos não lineares são muito sensíveis a mudança do estado de polarização do campo óptico, de tal forma que o efeito possa ser controlado ou até mesmo chaveado. Além disso, a interação da luz polarizada com a estrutura molecular pode trazer informações importantes para o entendimento de estruturas secundárias de moléculas orgânicas, DNA, aminoácidos, etc.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / SILVA - Integrante / BONI, LEONARDO DE - Integrante / MENDONÇA, CLEBER R - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 8</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
@@ -6632,14 +6701,14 @@
         <projeto>
           <ano_inicio>2014</ano_inicio>
           <ano_conclusao>2017</ano_conclusao>
-          <nome>UTILIZANDO TÉCNICAS ÓPTICAS LINEARES PARA ESTUDAR PROCESSOS ÓPTICOS NÃO LINEARES EM COMPOSTOS ORGÂNICOS ?-CONJUGADOS RAMIFICADOS</nome>
-          <descricao>Descrição: O presente projeto tem como objetivo investigar processos ópticos não lineares (ONL) de segunda e terceira ordem, respectivamente, primeira hiperpolarizabilidade e absorção de dois fótons (A2F), de sistemas orgânicos ?-conjugados com distintas estruturas (dipolares, quadrupolares e octupolares). Uma vez que moléculas orgânicas que não apresentam simetria de inversão, ou seja, não centrossimétricas, exibem ambos os efeitos ópticos citados previamente, pretendemos estimar a magnitude desses efeitos usando um conjunto de técnicas ópticas lineares baseadas em absorção e emissão bem como um modelo semi-clássico levando em consideração poucos níveis de energia. Recentemente, tenho observado e já publicado resultados a respeito de que propriedades ópticas não lineares tanto de sistemas moleculares simples (estruturas dipolares) bem como aquelas mais complexas com estruturas octupolares, podem ser descritas através de modelos de poucos níveis de energia. Dentro deste modelo, tanto a seção de choque de A2F como a primeira hiperpolarizabilidade dinâmica dependem do momento de dipolo de transição, da diferença do momento de dipolo permanente entre o primeiro estado excitado e o estado fundamental bem como da largura de linha dos estados envolvidos na transição. Moléculas que apresentam baixa simetria molecular de tal forma que não podemos descrever com precisão a paridade de seus estados eletrônicos, estados acessados via um fóton também são acessados via dois fótons. Além disso, em geral, não como uma regra, a banda de absorção de dois fótons bem como a primeira hiperpolarizabilidade dinâmica (não ressonante) pode ser descrita pelo estado excitado de mais baixa energia permitido por absorção de um fóton. Portanto, todos os parâmetros que descrevem os efeitos supracitados podem ser obtidos através de técnicas ópticas lineares baseadas em absorção e emissão, como ficará claro no decorrer deste plano de trabalho. Além disso, pretendo através de uma colaboração com o professor Dr. Cleber Renato Mendonça do Instituto de Física de São Carlos (IFSC ? USP), estudar os efeitos ópticos não lineares usando técnicas para a obtenção direta da magnitude e comportamento espectral da seção de choque de A2F e da primeira hiperpolarizabilidade dinâmica. Através dessas técnicas e de métodos de química quântica baseados na Teoria do Funcional da Densidade, o efeito da ramificação de estruturas ?-conjugadas sobre os processos ópticos não lineares será explorado a nível molecular. Efeitos de ramificação como as estruturas octupolares ou dendríticas podem apresentar engrandecimento exponencial dos efeitos ópticos dependendo do tipo de acoplamento eletrônico entre os ramos bem como da natureza dos grupos doadores e aceitadores de elétrons conectados na extremidade de cada ramo. Moléculas com este design são promissoras para eletrônica orgânica e desenvolvimento de dispositivos puramente ópticos ou fotônicos.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / DE BONI, Leonardo - Integrante / MENDONCA, CLEBER - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 14</descricao>
+          <nome>ESPECTROSCOPIA DE PLÁSMONS DE SUPERFÍCIE APLICADA AO DIAGNÓSTICO DE DOENÇAS NEGLIGENCIADAS</nome>
+          <descricao>Descrição: Um dos grandes obstáculos para países subdesenvolvidos ou em desenvolvimento são as conhecidas doenças negligenciadas. Esse tipo de doença prevalece em condições de pobreza, contribuindo para a manutenção do quadro de desigualdades. Constituem esse grupo, doenças como a dengue, doença de Chagas, esquistossomose, hanseníase, leishmaniose, malária, tuberculose, entre outras. Segundo dados da Organização Mundial de Saúde (OMS), cerca de um bilhão de pessoas estão infectadas com uma ou mais doenças negligenciadas, o que representa um sexto da população mundial. Apesar do número significativo, existe grande dificuldade de avanço nas pesquisas nesta área, devido à falta de investimento por parte da indústria farmacêutica, seja no desenvolvimento de novos fármacos ou métodos de diagnósticos. Este fato se deve ao retorno financeiro reduzido, uma vez que a maior parte da população atingida é de baixa renda. Visando a alteração do quadro supracitado, propomos o desenvolvimento de um sistema óptico baseado em RPS capaz de diagnosticar algumas destas doenças como, por exemplo, dengue, Doença de Chagas e malária, tendo em vista que essas enfermidades vêm assolando nossa população nos últimos anos. A espectroscopia óptica baseada em Ressonância de Plásmon de Superfície apresenta diversas vantagens em relação a outros métodos de diagnósticos rápidos, como a elevada sensibilidade, facilidade experimental, medida em tempo real e análise quantitativa. Dessa forma, com o sistema proposto, pode-se chegar ao desenvolvimento de sistemas ópticos inteligentes e integrados de detecção que contribuirá para suprir a carência de tais métodos em hospitais e clínicas, sobretudo no sistema público de saúde. Além disso, a técnica baseada em plásmons de superfície oferece uma grande oportunidade para estudar efeitos de ciência básica como a dependência do índice da espessura de filmes automontados de proteínas com seu índice de refração.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / Ana Carolina de Oliveira - Integrante / Debora Maria Lara Carielo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 2</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2014</ano_inicio>
           <ano_conclusao>2017</ano_conclusao>
-          <nome>ESPECTROSCOPIA DE PLÁSMONS DE SUPERFÍCIE APLICADA AO DIAGNÓSTICO DE DOENÇAS NEGLIGENCIADAS</nome>
-          <descricao>Descrição: Um dos grandes obstáculos para países subdesenvolvidos ou em desenvolvimento são as conhecidas doenças negligenciadas. Esse tipo de doença prevalece em condições de pobreza, contribuindo para a manutenção do quadro de desigualdades. Constituem esse grupo, doenças como a dengue, doença de Chagas, esquistossomose, hanseníase, leishmaniose, malária, tuberculose, entre outras. Segundo dados da Organização Mundial de Saúde (OMS), cerca de um bilhão de pessoas estão infectadas com uma ou mais doenças negligenciadas, o que representa um sexto da população mundial. Apesar do número significativo, existe grande dificuldade de avanço nas pesquisas nesta área, devido à falta de investimento por parte da indústria farmacêutica, seja no desenvolvimento de novos fármacos ou métodos de diagnósticos. Este fato se deve ao retorno financeiro reduzido, uma vez que a maior parte da população atingida é de baixa renda. Visando a alteração do quadro supracitado, propomos o desenvolvimento de um sistema óptico baseado em RPS capaz de diagnosticar algumas destas doenças como, por exemplo, dengue, Doença de Chagas e malária, tendo em vista que essas enfermidades vêm assolando nossa população nos últimos anos. A espectroscopia óptica baseada em Ressonância de Plásmon de Superfície apresenta diversas vantagens em relação a outros métodos de diagnósticos rápidos, como a elevada sensibilidade, facilidade experimental, medida em tempo real e análise quantitativa. Dessa forma, com o sistema proposto, pode-se chegar ao desenvolvimento de sistemas ópticos inteligentes e integrados de detecção que contribuirá para suprir a carência de tais métodos em hospitais e clínicas, sobretudo no sistema público de saúde. Além disso, a técnica baseada em plásmons de superfície oferece uma grande oportunidade para estudar efeitos de ciência básica como a dependência do índice da espessura de filmes automontados de proteínas com seu índice de refração.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / Ana Carolina de Oliveira - Integrante / Debora Maria Lara Carielo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 2</descricao>
+          <nome>UTILIZANDO TÉCNICAS ÓPTICAS LINEARES PARA ESTUDAR PROCESSOS ÓPTICOS NÃO LINEARES EM COMPOSTOS ORGÂNICOS ?-CONJUGADOS RAMIFICADOS</nome>
+          <descricao>Descrição: O presente projeto tem como objetivo investigar processos ópticos não lineares (ONL) de segunda e terceira ordem, respectivamente, primeira hiperpolarizabilidade e absorção de dois fótons (A2F), de sistemas orgânicos ?-conjugados com distintas estruturas (dipolares, quadrupolares e octupolares). Uma vez que moléculas orgânicas que não apresentam simetria de inversão, ou seja, não centrossimétricas, exibem ambos os efeitos ópticos citados previamente, pretendemos estimar a magnitude desses efeitos usando um conjunto de técnicas ópticas lineares baseadas em absorção e emissão bem como um modelo semi-clássico levando em consideração poucos níveis de energia. Recentemente, tenho observado e já publicado resultados a respeito de que propriedades ópticas não lineares tanto de sistemas moleculares simples (estruturas dipolares) bem como aquelas mais complexas com estruturas octupolares, podem ser descritas através de modelos de poucos níveis de energia. Dentro deste modelo, tanto a seção de choque de A2F como a primeira hiperpolarizabilidade dinâmica dependem do momento de dipolo de transição, da diferença do momento de dipolo permanente entre o primeiro estado excitado e o estado fundamental bem como da largura de linha dos estados envolvidos na transição. Moléculas que apresentam baixa simetria molecular de tal forma que não podemos descrever com precisão a paridade de seus estados eletrônicos, estados acessados via um fóton também são acessados via dois fótons. Além disso, em geral, não como uma regra, a banda de absorção de dois fótons bem como a primeira hiperpolarizabilidade dinâmica (não ressonante) pode ser descrita pelo estado excitado de mais baixa energia permitido por absorção de um fóton. Portanto, todos os parâmetros que descrevem os efeitos supracitados podem ser obtidos através de técnicas ópticas lineares baseadas em absorção e emissão, como ficará claro no decorrer deste plano de trabalho. Além disso, pretendo através de uma colaboração com o professor Dr. Cleber Renato Mendonça do Instituto de Física de São Carlos (IFSC ? USP), estudar os efeitos ópticos não lineares usando técnicas para a obtenção direta da magnitude e comportamento espectral da seção de choque de A2F e da primeira hiperpolarizabilidade dinâmica. Através dessas técnicas e de métodos de química quântica baseados na Teoria do Funcional da Densidade, o efeito da ramificação de estruturas ?-conjugadas sobre os processos ópticos não lineares será explorado a nível molecular. Efeitos de ramificação como as estruturas octupolares ou dendríticas podem apresentar engrandecimento exponencial dos efeitos ópticos dependendo do tipo de acoplamento eletrônico entre os ramos bem como da natureza dos grupos doadores e aceitadores de elétrons conectados na extremidade de cada ramo. Moléculas com este design são promissoras para eletrônica orgânica e desenvolvimento de dispositivos puramente ópticos ou fotônicos.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / DE BONI, Leonardo - Integrante / MENDONCA, CLEBER - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 14</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -6679,7 +6748,7 @@
         <id_lattes_colaborador>0108190685018320</id_lattes_colaborador>
         <id_lattes_colaborador>2387431254472136</id_lattes_colaborador>
         <id_lattes_colaborador>5395774975535644</id_lattes_colaborador>
-        <id_lattes_colaborador>1240139322355086</id_lattes_colaborador>
+        <id_lattes_colaborador>7366807766543442</id_lattes_colaborador>
         <id_lattes_colaborador>7507841142527331</id_lattes_colaborador>
         <id_lattes_colaborador>0448980118528732</id_lattes_colaborador>
         <id_lattes_colaborador>7694622713378423</id_lattes_colaborador>
@@ -6698,6 +6767,46 @@
         <id_lattes_colaborador>7947299462681693</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1039/d2cp05004h</doi>
+          <titulo>Frequency-resolved microscopic second-order hyperpolarizability of azochromophores: a study on nonlinear all-optical switching applications</titulo>
+          <autores>MOYSÉS, RENATO MAFRA ; BARBANO, EMERSON CRISTIANO ; DA SILVA, DANIEL LUIZ ; VIVAS, MARCELO GONÇALVES ; MISOGUTI, LINO</autores>
+          <revista>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</revista>
+          <volume>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</volume>
+          <paginas>5582-5591</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1039/d2cp05189c</doi>
+          <titulo>Unveiling the molecular structure and two-photon absorption properties relationship of branched oligofluorenes</titulo>
+          <autores>ZUCOLOTTO COCCA, LEANDRO H. ; PELOSI, ANDRÉ GASPAROTTO ; ABEGÃO, LUIS M. G. ; DE Q. GARCIA, RAFAEL ; MULATIER, JEAN-CHRISTOPHE ; PITRAT, DELPHINE ; BARSU, CYRILLE ; ANDRAUD, CHANTAL ; MENDONÇA, CLEBER R. ; Vivas, Marcelo G. ; DE BONI, Leonardo</autores>
+          <revista>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</revista>
+          <volume>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</volume>
+          <paginas>5021-5028</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1021/acs.langmuir.2c02023</doi>
+          <titulo>Size-Dependent Photobleaching Mechanism and Kinetics Induced by Nanosecond Laser Pulses in Colloidal Semiconductor Quantum Dots</titulo>
+          <autores>DOS SANTOS, CARLOS H. D. ; FERREIRA, DIEGO LOURENÇONI ; VALE, BRENER R. C. ; MOURÃO, RAFAEL S. ; SCHIAVON, MARCO ANTÔNIO ; VIVAS, MARCELO GONÇALVES</autores>
+          <revista>LANGMUIR</revista>
+          <volume>LANGMUIR</volume>
+          <paginas>15088-15105</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1039/D2CP05006D</doi>
+          <titulo>Size-dependent photoinduced transparency in colloidal CdTe quantum dots in the strong confinement regime: an inverse linear relationship</titulo>
+          <autores>DOS SANTOS, CARLOS H. D. ; FERREIRA, DIEGO L. ; ZUCOLOTTO COCCA, LEANDRO H. ; MOURÃO, RAFAEL S. ; SCHIAVON, MARCO A. ; MENDONÇA, CLEBER R. ; DE BONI, Leonardo ; Vivas, Marcelo G.</autores>
+          <revista>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</revista>
+          <volume>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</volume>
+          <paginas>359-365</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.1021/acs.jpca.0c08530</doi>
           <titulo>Molecular Structure-Optical Property Relationship of Salicylidene Derivatives: A Study on the First-Order Hyperpolarizability</titulo>
@@ -8052,45 +8161,23 @@
           <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
         </supervisao>
     </supervisao_pos_doutorado_em_andamento>
+    <orientacao_doutorado_em_andamento>
+        <tese>
+          <nome_aluno>Richard Silveira Pereira</nome_aluno>
+          <titulo_trabalho>Plataformas plasmônicas para o desenvolvimento de lasers aleatórios sintonizáveis</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Tese (Doutorado em Ciência e Engenharia de Materiais) - Universidade Federal de Alfenas. (Coorientador).</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </tese>
+    </orientacao_doutorado_em_andamento>
     <orientacao_mestrado_em_andamento>
         <dissertacao>
-          <nome_aluno>Gabriel Fabrício de Souza</nome_aluno>
-          <titulo_trabalho>Transparência fotoinduzida de politiofenos: Efeito da conformação molecular</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado profissional em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>DEBORA CRISTINA DA SILVA RODRIGUES</nome_aluno>
-          <titulo_trabalho>Desenvolvimento de micro- and nanoestruturas plasmônicas via laser</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado profissional em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Guilherme Matavelli Prata Bernardes</nome_aluno>
-          <titulo_trabalho>Geração localizada de nanopartículas de Au em matrizes poliméricas via laser pulsado: Aplicação em eletrônica orgânica</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado em CIÊNCIA E ENGENHARIA DE MATERIAIS) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Letícia Garcia</nome_aluno>
-          <titulo_trabalho>Síntese de nano-bastões de ouro para aplicações em Terapia Fototérmica</titulo_trabalho>
-          <ano>2020</ano>
+          <nome_aluno>Perla Giovanna Fernandes Pacheco</nome_aluno>
+          <titulo_trabalho>SÍNTESE E PROPRIEDADES ÓPTICAS DE NANOPARTÍCULAS DE PRATA E RESINAS COMPOSTAS/AgNPs</titulo_trabalho>
+          <ano>2023</ano>
           <instituicao>Dissertação (Mestrado em CIÊNCIA E ENGENHARIA DE MATERIAIS) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Jardel dos Santos Leite</nome_aluno>
-          <titulo_trabalho>Simulação de propriedades ópticas de microestruturas plasmônicas via FDTD</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado profissional em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
     </orientacao_mestrado_em_andamento>
@@ -8106,11 +8193,19 @@
     </supervisao_pos_doutorado_concluido>
     <orientacao_mestrado_concluido>
         <dissertacao>
-          <nome_aluno>Christiane Pereira</nome_aluno>
+          <nome_aluno>Christiane F. J. Pereira</nome_aluno>
           <titulo_trabalho>Estudo sobre a Cinética e os Mecanismos de Crescimento ?Bottom-up? de Nanopartículas de Ouro via Pulsos Laser Altamente Focalizados</titulo_trabalho>
           <ano>2022</ano>
           <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Gabriel Fabrício de Souza</nome_aluno>
+          <titulo_trabalho>MICROESPECTROSCOPIA DE FLUORESCÊNCIA HIPERESPECTRAL APLICADO AO ESTUDO DAS PROPRIEDADES ÓPTICAS DE FILMES FINOS DE NANOCRISTAIS DE PEROVSKITA CsPbBrxI(3-x)</titulo_trabalho>
+          <ano>2021</ano>
+          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
@@ -8135,6 +8230,22 @@
           <ano>2020</ano>
           <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>DEBORA CRISTINA DA SILVA RODRIGUES</nome_aluno>
+          <titulo_trabalho>ESPECTRÔMETRO DE RESSONÂNCIA DE PLÁSMONS DE SUPERFÍCIE NA CONFIGURAÇÃO DE DUPLO PRISMA: DESENVOLVIMENTO E CARACTERIZAÇÃO DE MICROESTRUTURAS</titulo_trabalho>
+          <ano>2020</ano>
+          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Guilherme Matavelli Prata Bernardes</nome_aluno>
+          <titulo_trabalho>Geração localizada de nanopartículas de Au em matrizes poliméricas via laser pulsado: Aplicação em eletrônica orgânica</titulo_trabalho>
+          <ano>2020</ano>
+          <instituicao>Dissertação (Mestrado em CIÊNCIA E ENGENHARIA DE MATERIAIS) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
@@ -8475,6 +8586,11 @@
         </evento>
     </participacao_evento>
     <organizacao_evento>
+        <evento>
+          <titulo></titulo>
+          <natureza></natureza>
+          <ano>0</ano>
+        </evento>
         <evento>
           <titulo>III Escola Avançada de Óptica e fotônica</titulo>
           <natureza>Outro</natureza>
@@ -9644,6 +9760,16 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.3390/sym15030709</doi>
+          <titulo>Dynamical Analysis of the Covarying Coupling Constants in Scalar-Tensor Gravity</titulo>
+          <autores>CUZINATTO, RODRIGO R.; GUPTA, RAJENDRA P. ; POMPEIA, PEDRO J.</autores>
+          <revista>Symmetry-Basel</revista>
+          <volume>Symmetry-Basel</volume>
+          <paginas>709</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1088/1361-6382/ac51bb</doi>
           <titulo>Non-commutativity and non-inertial effects on a scalar field in a cosmic string space-time: I. Klein-Gordon oscillator</titulo>
           <autores>CUZINATTO, RODRIGO ROCHA; DE MONTIGNY, MARC ; POMPEIA, PEDRO JOSÉ</autores>
@@ -9674,22 +9800,22 @@
           <ano>2022</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1093/mnras/stac3267</doi>
-          <titulo>Observational constraints on varying fundamental constants in a minimal CPC model</titulo>
-          <autores>CUZINATTO, R R; HOLANDA, R F L ; PEREIRA, S H</autores>
-          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
-          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
-          <paginas>633-640</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
           <doi>http://dx.doi.org/10.1093/mnras/stac2039</doi>
           <titulo>Testing a varying-¿ model for dark energy within co-varying physical couplings framework</titulo>
           <autores>CUZINATTO, R R; GUPTA, R P ; HOLANDA, R F L ; JESUS, J F ; PEREIRA, S H</autores>
           <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
           <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
           <paginas>5981-5992</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stac3267</doi>
+          <titulo>Observational constraints on varying fundamental constants in a minimal CPC model</titulo>
+          <autores>CUZINATTO, R R; HOLANDA, R F L ; PEREIRA, S H</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>633-640</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -10329,6 +10455,16 @@
           <natureza>Apresentação de Trabalho/Simpósio</natureza>
         </trabalho_apresentado>
     </apresentacao_trabalho>
+    <orientacao_mestrado_em_andamento>
+        <dissertacao>
+          <nome_aluno>Vitória Fernanda Belo Campos</nome_aluno>
+          <titulo_trabalho>Teorias escalares-tensoriais e suas aplicações em cosmologia</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+    </orientacao_mestrado_em_andamento>
     <orientacao_doutorado_concluido>
         <tese>
           <nome_aluno>Eduardo Messias de Morais</nome_aluno>

@@ -1,0 +1,159 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PPGBiotec</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PPGBiotec</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Processos ou técnicas'}, 
+series: [{data: [[2004,
+1],
+[2008,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Processos ou técnicas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 4<br>
+                    
+                    
+                    <div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GALVAO, C. M. A. ; ALMEIDA, Paulo Ignácio Fonseca de ; Badino, Alberto C. ; RELA-FILHO, R.. <b>Ethanol obtainment process by Saccharomyces cerevisiae immobilized on chrysotile in an inner circulation pneumatic reactor</b>. 2008.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Ethanol+obtainment+process+by+Saccharomyces+cerevisiae+immobilized+on+chrysotile+in+an+inner+circulation+pneumatic+reactor">busca Google</a> |            <a href="http://www.bing.com/search?q=Ethanol+obtainment+process+by+Saccharomyces+cerevisiae+immobilized+on+chrysotile+in+an+inner+circulation+pneumatic+reactor">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DE CASTRO, H. F. ; MENDES, A. A. ; PEREIRA, E. B. ; FURIGO JUNIOR, Agenor. <b>Biodegradabilidade Anaeróbia de Águas Residuárias de Indústrias de Produtos Avícolas e Lácteos previamente tratadas com Enzimas Hidrolíticas</b>. 2004.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Biodegradabilidade+Anaeróbia+de+Águas+Residuárias+de+Indústrias+de+Produtos+Avícolas+e+Lácteos+previamente+tratadas+com+Enzimas+Hidrolíticas">busca Google</a> |            <a href="http://www.bing.com/search?q=Biodegradabilidade+Anaeróbia+de+Águas+Residuárias+de+Indústrias+de+Produtos+Avícolas+e+Lácteos+previamente+tratadas+com+Enzimas+Hidrolíticas">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BADINO, A.C.; ALMEIDA, Paulo Ignácio Fonseca de ; GALVAO, C. M. A.. <b>Processo de obtenção de etanol por Saccharomyces cerevisiae imobilizada em crisotila em biorreator pneumático de circulação interna</b>. 0.PI0703327-3<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Processo+de+obtenção+de+etanol+por+Saccharomyces+cerevisiae+imobilizada+em+crisotila+em+biorreator+pneumático+de+circulação+interna">busca Google</a> |            <a href="http://www.bing.com/search?q=Processo+de+obtenção+de+etanol+por+Saccharomyces+cerevisiae+imobilizada+em+crisotila+em+biorreator+pneumático+de+circulação+interna">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BARBOZA, M. ; HOKKA, Carlos Osamu ; BADINO, A.C. ; SILVA, C. S. ; BARRETO, V. O. ; RODRIGUES, G. Y. ; TEODORO, Juliana Conceição ; ORTIZ, Sheila Cristiane Alves ; BAPTISTA NETO, Alvaro de ; HIRATA, Daniela Battlaglia ; CERRI, Marcel Otávio. <b>Processo para extração e purificação de ácido clavulânico, seus sais e ésteres</b>. 0.PI 0704995-1<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Processo+para+extração+e+purificação+de+ácido+clavulânico,+seus+sais+e+ésteres">busca Google</a> |            <a href="http://www.bing.com/search?q=Processo+para+extração+e+purificação+de+ácido+clavulânico,+seus+sais+e+ésteres">busca Bing</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 17:29:30<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

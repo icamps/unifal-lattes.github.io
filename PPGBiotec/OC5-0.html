@@ -1,0 +1,749 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PPGBiotec</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PPGBiotec</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Iniciação científica'}, 
+series: [{data: [[1995,
+1],
+[1998,
+5],
+[1999,
+4],
+[2001,
+3],
+[2002,
+9],
+[2003,
+8],
+[2004,
+2],
+[2005,
+4],
+[2006,
+8],
+[2007,
+8],
+[2008,
+9],
+[2009,
+9],
+[2010,
+11],
+[2011,
+15],
+[2012,
+14],
+[2013,
+16],
+[2014,
+16],
+[2015,
+13],
+[2016,
+19],
+[2017,
+21],
+[2018,
+18],
+[2019,
+29],
+[2020,
+11],
+[2021,
+15],
+[2022,
+8]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 276<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Arthur Ouro Preto. <b>Produção de ésteres emolientes utilizando um sistema na presença e ausência de solvente empregando células íntegras do fungo Rhizopus oryzae,</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruna Cerri Pereira Camargo. <b>Avaliação da influência da composição do meio de cultura e das condições de cultivo na esporulação e resistência dos esporos de Bacillus megaterium B119</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Felipe Ribeiro Carlos. <b>Produção de lipídio microbiano para posterior utilização como matéria-prima dentro do contexto de biorrefinaria avançada</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Giovanna Soares Abrantes Murta. <b>Hidrólise enzimática do óleo residual de fritura utilizando lipase ligada ao micélio produzida via fermentação submersa,</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Natália Cristina de Melo Santos. <b>Ação de biosurfactantes em biomembranas miméticas e desenvolvimento de nanopartículas correlatas para a Covid19.</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Tallis Vinícius Araújo da Silva. <b>Produção de bioplastificante a partir do óleo de fritura empregando lipase imobilizada em resíduo agroindustrial como catalisador</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Thiago Victor da Silva Bonfim. <b>Avaliação da recuperação por absorção de etanol removido de caldo de fermentação por CO2</b>. Iniciação Científica - Universidade Federal de São Carlos, Agência Nacional de Petróleo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Vitória Capuano Barboza. <b>Estudo da atividade antimicrobiana de extratos fúngicos para posterior aplicação em diferentes segmentos industriais</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Alves da Silva. <b>Efeitos da aplicação do chá de composto sobre o estresse oxidativo em plântulas de milho</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Bubula de Souza. <b>Análise e proposta de novos fármacos contra a Proteína N do vírus SARS-CoV-2.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Daura Concilia Alves Fernandes. <b>Efeito comparativo entre cisteína e hidroxilamina na oxidação de corante por reação de Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bruna de Freitas Moraes. <b>Solubilidade de Componentes do Destilado de Desodorização de Óleos Vegetais em Sistemas Contendo Solventes Orgânicos</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bruna Godinho. <b>IDENTIFICAÇÃO IN SILICO DE UM POTENCIAL INIBIDOR PARA A PROTEÍNA ?-AMILÓIDE PARA O TRATAMENTO DA DOENÇA DE ALZHEIMER</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Felipe Augusto Matos. <b>Efeito comparativo entre ácido ascórbico e catecol na oxidação de corante por reação de Fenton</b>. (Graduando em Engenharia Química) - Universidade Federal de Itajubá, Unifei. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GABRIELA ROSSINI RODRIGUES DE OLIVEIRA. <b>Avaliação química e da atividade biológica da espécie Leea rubra (Leeaceae)</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Guilherme Corrêa Rodrigues. <b>Ação da espermina e da espermidina sobre as trocas gasosas e acúmulo de metabólitos primários em milho submetido deficit hídrico</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>José Miguel Júnior. <b>Efeitos da aplicação do chá de composto sobre o estresse oxidativo em plântulas de sorgo</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Juan Pablo Pereira Lima. <b>Efeito de biomoléculas com propriedades redutoras na degradação de corantes e de efluente têxtil por processos Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mariana Melo. <b>Caracterização cinética de novos inibidores de serino proteases e desenvolvimento de nanopartículas correlatas para a Covid19</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mariana Santos Melo. <b>Desenvolvimento in silico de fármacos contra variantes mundiais em SARS-Cov-2.</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Pedro Henrique Cavalcante Pinto. <b>Avaliação da transferência de O2 em reatores pneumáticos com alimentação intermitente de ar</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Rhyan Lelis Nubile Gonçalves. <b>Produção de lipídio microbiano para posterior utilização como matéria-prima dentro do contexto de biorrefinaria avançada</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Sara Evelyn de Castro Silva. <b>ABORDAGENS IN SILICO APLICADAS AO ESTUDO DA CYP51 DO GENOMA DA CANDIDA ALBICANS</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alexandre Borges Matias. <b>Caracterização e avaliação da produção de lipases a partir do fungo Rhizopus oryzae via cultivo submerso aplicadas em reações de biotransformação.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>André Alves Manoel Diniz. <b>Avaliação do desenvolvimento de espécies arbóreas nativas em rejeito com húmus visando ao reflorestamento da região da bacia do Rio Doce</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Beatriz Expedito Sotero. <b>Estudo fitoquimico e avaliação da atividade biológica da espécie Leea rubra (Leeaceae)</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carlos Henrique Borges Tabelini. <b>Influência do aminoácido cisteína no tratamento de um efluente têxtil por reagentes Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Guilherme José Sabi. <b>Produção de concentrados de ácidos graxos por hidrólise enzimática do óleo de fritura em reator de tanque agitado catalisada por lipases de diferentes fontes</b>. (Graduando em Química) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Juan Pablo Pereira Lima. <b>Adição de ácido ascórbico para estimular o tratamento de um efluente têxtil por reações de Fenton e tipo Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Leonardo Pereira de Araújo. <b>Atualização e expansão da biblioteca de fragmentos do software MB-Isoster.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Matheus Felipe Soares Silva. <b>Uso da quitosana na redução do estresse causado por cádmio em estacas de Talinum patens</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Milena Rocha Lopes da Silva. <b>Imobilização da lipase produzida de Geotrichum candidum e sua aplicação na síntese de biodiesel via hidroesterificação</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, CNPQ. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Patrícia da Silva Antunes. <b>Abordagem in silico do genoma do SARS-COV-2 e desenho racional de fármacos contra a proteína Spike.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Yamka Sousa França. <b>Efeito do chá de composto sobre o crescimento inicial do milho in vitro</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Abimael de Carvalho Medeiros. <b>Estudo de sistemas aquosos bifásicos em aplicações biotecnológicas de extração enzimática com diferentes condições de ph e uso de polímeros termoseparáveis</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aline dos Santos Soares. <b>ABORDAGEM in Silíco DOS MARCADORES EGFR E MMP2 COMO POTENCIAIS ALVOS PARA O DESENHO DE FÁRMACOS PARA HNSCC COM A FLOURORACIL, ANÁLOGOS E COMPOSTOS ATIVOS DA BLEOMICINA</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Clara Cruz da Silva. <b>ÓXIDO NÍTRICO COMO MODULADOR DO EQUILÍBRIO REDOX E DA RESPOSTA FISIOLÓGICA DE DOIS HÍBRIDOS DE MILHO CONTRASTANTES PARA TOLERÂNCIA A SECA</b>. (Graduando em Ciências Biológicas-Bacharelado) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>André Luís Zozzi Ferreira. <b>Influência do pH e da concentração de esporos na morfologia de Aspergillus niger e na produção de endoglucanases</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bianca Leticia de Abreu. <b>Características anatômicas de Talinum paniculatum sob excesso de chumbo</b>. Iniciação Científica - Escola Estadual Padre José Grimminck, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Brenda Ferreira Custódio. <b>Preparação e caracterização de sílica funcionalizada e sua aplicação na imobilização de lipase via adsorção iônica</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Bruna Moraes. <b>Estudo do potencial de fungos endofíticos isolados de Ipê Rosa (Handroanthus impetiginosus) para a produção de celulases por fermentação semissóolida</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3798416800583466">Joelise de Alencar Figueira Angelotti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Bruno Rossetti de Sousa. <b>Partição da Enzima Frutosiltransferase em Sistemas Aquosos Bifásicos Visando sua Purificação e Produção por Fermentação Extrativa</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>BÁRBARA CASSIANO RODOLFO. <b>Estudo do potencial de fungos endofíticos isolados de Ipê Rosa (Handroanthus impetiginosus) para a produção de celulases por fermentação semissóolida</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3798416800583466">Joelise de Alencar Figueira Angelotti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Eric Eduardo Alves Ferreira. <b>Hidrólise de Óleos Vegetais Catalisada pela lipase de Geotrichum candidum para Produção de Concentrados de Ácidos Graxos</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Fabiana Roncali. <b>Estudo do potencial de fungos endofíticos isolados de Ipê Rosa (Handroanthus impetiginosus) para a produção de celulases por fermentação semissóolida</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3798416800583466">Joelise de Alencar Figueira Angelotti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Felipe Oliveira Amaro. <b>AVALIAÇÃO QUÍMICA E BIOLOGICA DO PRODUTO DE FERMENTAÇÃO DO FUNGO ENDOFÍTICO Lasiodiplodia sp</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, UNIFAL-MG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Franciele de Ávila Martins Carneiro. <b>?AVALIAÇAO QUÍMICA E DA ATIVIDADE BIOLÓGICA DO EXTRATO n-BUTANÓLICO DO FUNGO ENDOFÍTICO Penicillium, PROVENIENTE DO MANGUEZAL?</b>. (Graduando em Química Bacharelado) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Gabriel Lira Santana Silva. <b>Efeito da adição de ácido ascórbico em processos Fenton para a degradação de corantes</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Jessica Cristina Silva Resende. <b>Estudo da solubilidade de fitoesteróis e ácidos graxos em solventes orgânicos</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Julia Conti Mestre. <b>Método de medida do coeficiente volumétrico de transferência de oxigênio em biorreatores pneumáticos durante cultivos</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Karolina Soares Costa. <b>Estudo da solubilidade de componentes minoritários do óleo vegetal</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Letícia Lima Reis. <b>?AVALIAÇÃO QUÍMICA E BIOLÓGICA DO PRODUTO DE FERMENTAÇÃO DO FUNGO ENDOFÍTICO DO GÊNERO Preussia ISOLADO DO IPÊ?</b>. (Graduando em Química Bacharelado) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Levy Bueno Alves. <b>MÉTODOS DA MODELAGEM MOLECULAR APLICADO AO ESTUDO DAS PROTEÍNAS 2I87, MURD E UPP DO GENOMA DO STAPHYLOCOCCUS AUREUS.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Lucas Souza de Bem. <b>Produção, purificação e caracterização das lipases produzidas pelo fungo endofítico Preussia africana isolado de Handroanthus impetiginosus</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Marco Aurélio Leite. <b>Aminoácidos, óxido nítrico e poliaminas como moduladores do equilíbrio redox e da resposta morfofisiológica de dois híbridos de milho contrastantes para tolerância a seca</b>. (Graduando em Ciências Biológicas/Bacharelado) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4590764128651556">Marcus Vinícius Silveira Cambraia</a>. <b>Aplicação dos derivados de trealose na indução de tolerância à seca em milho: análise do sistema antioxidante</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Milena Rocha Lopes da Silva. <b>Produção, purificação e estudo da seletividade em reações de hidrólise, para a lipase de Geotrichum candidum</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Márcio Daniel Nicodemos Ramos. <b>Influência da adição de cisteína na degradação de corantes por sistemas Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Nathan Rômulo. <b>Modelo de testes de prospecção para identificação de toxígenos em microcrustáceos</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Natália Fernanda Pereira. <b>Dissacarídeos derivados da trealose: síntese com foco na prospecção tecnológica para indução da tolerância à seca em milho</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Patrícia da Silva Antunes. <b>ABORDAGEM in Silico ATRAVÉS DE DINÂMICA MOLECULAR DOS MARCADORES PD-L1 E mTOR COMO POTENCIAIS ALVOS PARA O DESENHO DE FÁRMACOS EM CARCINOMA DE CÉLULAS ESCAMOSAS DE CABEÇA E PESCOÇO</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Thaís Cristina dos Santos Balconi. <b>Imobilização de lipase microbiana em partículas de sílica funcionalizadas obtidas a partir da casca de arroz e aplicação na síntese de biolubrificantes</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8303024543041443">Willian Terassi Pereira</a>. <b>Avaliação anatômica em milho sob déficit hídrico com aplicação de derivados da trealose</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Beatriz Brambilla de Lara. <b>Estudos cinéticos, termodinâmicos, isoterma e de mecanismo de adsorção do corante azul de metileno em adsorvente de baixo custo</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7557747681368877">André Alves Manoel Diniz</a>. <b>Avaliação morfofisiológica em milho sob déficit hídrico com aplicação de derivados de trealose</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bruno Rossetti de Sousa. <b>Estudo do comportamento no equilíbrio líquido-líquido e da particação da enzima frutosiltransferase em sistemas aquosos bifásicos compostos por diferentes soluções de sal + polímeros, adicionados ou não de glicose</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Daniela Caldiron. <b>Caracterização termodinâmica da interação de ricina com candidatos a novos ligantes desenvolvidos por desenho racional</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Guilherme José Sabi. <b>Imobilização de lipase microbiana via adsorção física em resíduo agroindustrial ? Avaliação do efeito de carregamento de lipase nas propriedades catalíticas dos biocatalisadores preparados</b>. (Graduando em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Gustavo F. de Oliveira/Nádia Alves Gomes da Silva. <b>Purificação da lipase produzida por Geotrichum candidum, utilizando um método de baixo custo</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, PIBITI/CNPq. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6495595015806373">Jenifer Teixeira da Silva</a>. <b>Utilização de estacas de Talinum paniculatum para a fitorremediação de cádmio: análise fotossintética</b>. (Graduando em Ensino Médio) - Escola Estadual Prefeito Ismael Brasil Correa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6276900904765322">Juliana Léo Poloni</a>. <b>Potencial de Talinum paniculatum para fitorremediação sob excesso de cádmio</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7624243404083535">Keila Yumi Ishii</a>. <b>Rizofiltração por estacas de Talinun patens em água contaminada por chumbo</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4733888795822361">Larissa Cristina da Silva</a>. <b>Síntese de derivados de trealose para avaliação de sua ação em plantas de milho quando submetidas à seca</b>. (Graduando em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Lucas Ferreira Lopes. <b>?ESTUDO QUÍMICO E AVALIAÇÃO DA ATIVIDADE ANTIOXIDANTE DO EXTRATO ACETATO DE ETILA OBTIDO DE Lycium barbarum?</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Marcela Cabette Crivelenti. <b>Imobilização de lipase microbiana em partículas de casca de macaúba por adsorção física e aplicação na síntese de biolubrificantes</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mariana Prósperi de Oliveira Paula. <b>PRODUÇÃO, PURIFICAÇÃO E ESTUDO DA SELETIVIDADE EM REAÇÕES DE HIDRÓLISE PARA A LIPASE DE Geotrichum candidum</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Márcio Daniel Nicodemos Ramos. <b>Influência do ácido ascórbico na descoloração de corantes por reação de Fenton a partir de solução de ferro envelhecida (em equilíbrio)</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Mônica Corrêa Del Peloso. <b>Efeito do priming com putrescina sobre aspectos bioquímicos e metabólicos durante o desenvolvimento inicial de dois híbridos de milho contrastantes para a tolerância à seca</b>. (Graduando em Ciências Biológicas-Bacharelado) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Nicole Souza Okura. <b>Imobilização de enzimas em resíduos agroindustriais</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Patrícia da Silva Antunes. <b>ABORDAGEM in Silico DOS MARCADORES TUSC2 E PD-L1 COMO POTENCIAIS ALVOS PARA O DESENHO DE FÁRMACOS EM HNSCC COM A CISPLATINA, ANÁLOGOS E COMPOSTOS ATIVOS DO LÁTEX AVELOZ.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, PROBIC/Universidade Federal de Alfenas. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Raquel de Pádua Faria. <b>Estudo de meio de cultura complexos de origem Agroindustrial para a produção de Frutosiltransferase por fermentação submersa visando a obtenção de frutooligossacarídeos</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alana Cristine Meira. <b>Efeito da geometria da região de mistura no desempenho de biorreatores airlift de circulação interna</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Varano. <b>AVALIAÇÃO DO POTENCIAL DE PRODUÇÃO DE ENZIMAS DE INTERESSE BIOTECNOLÓGICO POR FUNGOS ENDOFÍTICOS ISOLADOS DE ANNONA CRASSIFLORA APLICADAS EM REAÇÕES DE BIOTRANSFORMAÇÃO</b>. Iniciação Científica - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Carolina Alves da Silva Ticianelli. <b>Efeito do aminoácido tirosina na descoloração de corantes por sistemas Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0866183990911407">Caio Contiero Rosa</a>. <b>Efeito do campo eletromagnético na germinação, crescimeto inicial e rendimento fotossintético em milho</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7101568985428587">Daniela Ferreira Cabral</a>. <b>Sintese de novos derivados de quitosana para a indução da tolerância a seca em milho</b>. (Graduando em Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Fernanda Luzia Borba Santiago. <b>Imobilização da lipase produzida por Geotrichum candidum em manae-agarose e silicatos</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, PIBITI/CNPq. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Franciele Ávila M. Carneiro e Letícia L. Reis. <b>?AVALIAÇAO QUÍMICA E DA ATIVIDADE BIOLÓGICA DO EXTRATO n-BUTANÓLICO DO FUNGO ENDOFÍTICO Penicillium, PROVENIENTE DO MANGUEZAL?-IC voluntária</b>. (Graduando em Química) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Gabrielle de Jorge Bassi/Lucas Souza de Bem. <b>Otimização do meio de cultivo para a produção de lipases provenientes de fungos endofíticos isolados de Tabebuia sp.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Geisa de Fátima Moratti. <b>Efeito da Temperatura e Vazão de Gás na Separação de Frutosiltransferase Produzida por Aspergillus oryzae IPT 301 em Coluna de Bolhas e Espuma</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Larissa da Costa Teodoro. <b>UTILIZAÇÃO DE SUPORTES DE BAIXO CUSTO PARA IMOBILIZAÇÃO ESTABILIZAÇÃO DE LIPASE DE INTERESSE BIOTECNOLÓGICO</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Larissa Teixeira de Abreu Costa. <b>Efeito de diversos corantes na descoloração do corante-alvo azul de metileno por sistemas Fenton</b>. (Graduando em Engenharia Química) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Lucas Victor Benjamim Vasconcelos. <b>IMOBILIZAÇÃO DE LIPASES MICROBIANAS POR DIFERENTES PROTOCOLOS EM PARTÍCULAS DE SÍLICA MODIFICADAS QUIMICAMENTE: CARACTERIZAÇÃO DAS PROPRIEDADES CATALÍTICAS E APLICAÇÃO NA SÍNTESE DE ÉSTERES</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Marco Aurélio Leite. <b>INFLUÊNCIA DA 6-BENZILAMINOPURINA E DA CINETINA SOBRE OS NÍVEIS ENDÓGENOS DE AÇÚCARES, AMINOÁCIDOS E POLIAMINAS EM EXPLANTES EMBRIOGÊNICOS DE Bowdichia virgilioides Kunth</b>. (Graduando em Ciências Biológicas-Bacharelado) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0209349723110764">Maria Carolina Carvalhais</a>. <b>O uso de bioestimulantes derivados da quitosana na germinação de sementes de milho (Zea mays L.)</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Mariana Gabriela Risola da Silva. <b>Análise comparativa e avaliação da atividade antimicrobiana dos constituintes de extratos obtidos do fruto Goji berry e de capsulas disponíveis comercialmente</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, UNIFAL-MG. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Marina Momesso Lopes. <b>Modulação das propriedades catalíticas de lipase imobilizada em sílica funcionalizada por diferentes estratégias</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, UNIFAL-MG. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Márcio Daniel Nicodemos Ramos. <b>Influência do aminoácido cisteína na descoloração de corantes por processos Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Rafael Conrado. <b>Produção de ?-glicosidase por Aspergillus niger utilizando resíduos agroindustriais e metodologia de planejamento experimental</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3798416800583466">Joelise de Alencar Figueira Angelotti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Raquel de Pádua Faria. <b>Estudo de Meios de Cultura Complexos de Origem Agroindustrial para a Produção de Frutosiltransferase por Fermentação Submersa Visando a Obtenção de Frutooligossacarídeos</b>. (Graduando em Engenharia Química) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Tomás Lemos Lessa. <b>Efeito do ácido ascórbico na descoloração de corantes por processos Fenton</b>. (Graduando em Engenharia de Bioprocessos) - Universidade Federal de Itajubá, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0256137787866684">Valdir Veroneze Junior</a>. <b>Efeito da aplicação da quitosana no sistema antioxidante enzimático e não enzimático de dois híbridos de milho contrastantes à seca</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5657478734659332">Ana Lúcia Mendes Pinheiro</a>. <b>Acúmulo de chumbo em plântulas de Talinum patens</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruno Rossetti de Souza. <b>Comportamento da Solubilidade de Monoacilgliceróis e Ácidos Graxos em Solventes Diversos</b>. (Graduando em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bárbara Alves Verde. <b>Síntese enzimática de éster de cera (decanoato de cetila) por reação de esterificação: Determinação de parâmetros cinéticos e termodinâmicos</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0866183990911407">Caio Contiero Rosa</a>. <b>Efeito do campo eletromagnético na germinação, crescimento inicial e rendimento fotossintético em alface</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Carlos Eduardo Martins Pinto. <b>Estudo do arraste de etanol de soluções hidroalcoólicas e avaliação da fermentação extrativa utilizando nitrogênio como gás de arraste</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Agência Nacional de Petróleo. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Guilherme José Sabi. <b>Síntese enzimática de éster de cera (oleato de cetila) por reação de esterificação: Determinação de parâmetros cinéticos e temodinâmicos</b>. (Graduando em Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Isabela Morato de Souza. <b>Seleção de fungos endofíticos produtores de lipases isolados de Tabebuia sp</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0016997966752726">Josiele Aparecida Silva</a>. <b>Fitotoxicidade do chumbo em Talinum patens</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Juliana Grell Fernades Silveira e Anelique Pinto de Almeida. <b>Composição química e atividade farmacológica do óleo essencial de Ocimum basilicum</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Marcello Henrique da Silva Cavalcanti. <b>Imobilização e caracterização de lipase de Thermomyces lanuginosus por adsorção em nanopartículas metálicas.</b>. (Graduando em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Marcelo Vitor Boschiero. <b>Seleção de óleos vegetais para fermentação extrativa de etanol e aplicação em extração contracorrente</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mariana Gabriela Risola da Silva. <b>Avaliação da atividade antioxidante de frações oriundas de extratos obtidos do fruto Goji berry</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mayele Santos Dorvalino. <b>Produção enzimática de btirato de geranila (aroma de cereja) por esterificação catalisada por lipase imobilizada em suporte hidrofóbico</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Mayra Cristina da Silva Costa. <b>ASPECTOS BIOQUÍMICOS E FITOQUÍMICOS RELACIONADOS À SUPLEMENTAÇÃO COM PROLINA EM CALOS DE IPÊ-ROXO [Handroanthus impetiginosus (MARTIUS EX DC) MATTOS]</b>. (Graduando em Química Bacharelado) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Mohamed Ziad Dabaja. <b>AVALIAÇÃO DO POTENCIAL DE PRODUÇÃO DE ENZIMAS DE INTERESSE BIOTECNOLÓGICO POR FUNGOS ENDOFÍTICOS ISOLADOS DE ANNONA CRASSIFLORA APLICADAS EM REAÇÕES DE BIOTRANSFORMAÇÃO</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Natália Cunha Moreira. <b>Comparação entre duas estratégias de imobilização utilizando a lipase produzida por Geotrichum candidum</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Thiago Castro Félix. <b>Produção enzimática de ésteres etílicos (biodiesel) por hidroesterificação empregando óleo de fritura como matéria-prima</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0256137787866684">Valdir Veroneze Junior</a>. <b>Efeito da aplicação de derivados de quitosana nos parâmetros de trocas gasosas em milho</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Vinicius Moreira Leo. <b>INFLUÊNCIA DO DIABETES MELLITUS NA ATIVIDADE DE PROTEÍNA DISSULFETO ISOMERASE EM GLÂNDULAS SALIVARES DE RATOS</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3464810678760688">Anderson de Faria Nogueira</a>. <b>Crescimento inicial e anatomia radicular de Talinum patens exposta ao chumbo</b>. (Graduando em Ensino Médio) - Escola Estadual Samuel Engel, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Breno Mendonça Costa. <b>OTIMIZAÇÃO DA PRODUÇÃO ENZIMÁTICA DE VALERATO DE ETILA POR METODOLOGIA DE SUPERFÍCIE DE RESPOSTA</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, CNPq. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Daniela Garcia Carrilho Peres. <b>Produção de surfactantes por esterificação catalisada por lipases imobilizadas via adsorção física em materiais lignocelulósicos</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gabrielle Esteves Miranda. <b>Síntese enzimática de ésteres de aroma de fruta em meio isento de solvente</b>. Iniciação Científica - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Georgia Attie Buainain Georges. <b>Metodologias de medidas de retenção gasosa em biorreatores pneumáticos</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Guilherme Andrade Brancaglion. Estudo da utilização de indutores alternativos na produção de lipase por Candida sp e G. <b>candidum através de fermentação submersa e otimização do meio de cultivo</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0016997966752726">Josiele Aparecida Silva</a>. <b>Padronização de bioensaios para detecção de alelopáticos e poluentes utilizando Talinum patens</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Letícia Cristina Duarte Lima. <b>Produção de biocatalisadores por imobilização de lipases em resíduos agroindustriais e aplicação na síntese de oleato de cetila (éster de cera)</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Mariana Gabriela Risola da Silva. <b>Análise comparativa dos constituintes de extratos obtidos do fruto Goji berry e de cápsulas disponíveis comercialmente e estudo da atividade biológica</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Miriã Nunes Guimãraes. <b>Produção de biodiesel por reação sequencial de hidrólise e esterificação de gordura animal catalisada por lipases</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Patrícia Ferraz de Castro. <b>OTIMIZAÇÃO DO MEIO DE PRODUÇÃO DE LIPASE POR Geotrichum candidum</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, CNPq. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ugo Guilherme Roque Rinco. <b>Papel da proteína disulfeto isomerase no mecanismo de secreção proteica por glândulas salivares</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0256137787866684">Valdir Veroneze Junior</a>. <b>Efeito da aplicação da quitosana nos parâmetros de trocas gasosas em dois híbridos de milho contrastantes à seca</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Souza Stangarlin. <b>Bioinformática Aplicada ao Estudo de Marcadores em Mycobacterium leprae</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Barbara Akemi Yamaoka Rosalem. <b>Potencial bioativo de extratos obtidos a partir de fungos endofíticos de plantas do gênero Tabebuia (Ipê)</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, UNIFAL-MG. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Breno Mendonça Costa. <b>Otimização da produção de valerato de etila catalisada por lipase microbiana imobilizada em suporte hidrofóbico</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Elisa Zaparoli Ramos. <b>Imobilização de lipase produzida por Geotrichum candidum em suporte de baixo custo</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Fernanda Del Busso Zampieri. <b>Separação de lipase produzida pelo fungo Geotrichum candidum do caldo de fermentação monitorada por atividade hidrolítica</b>. Iniciação Científica - Universidade Federal de Alfenas, CNPQ. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Flávia Arantes Pires Lage. <b>Preparação de biocatalisadores por imobilização de lipases de Rhizomucor miehei e Mucor javanicus em suporte hidrofóbico para posterior aplicação em reações de síntese de ésteres de interesse industrial</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>, <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Georgia Garcia de Oliveira. <b>Metodologia de medidas de retenção gasosa em biorreatores pneumáticos</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6160006885404806">Inêssa Rocha da Costa</a>. <b>Ação alelopática de cumarinas semissintéticas sobre bioensaios de alface</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jaquelinne de Jorge Bassi. <b>Triagem de biocatalisadores e otimização da produção de ésteres de frutose (biossurfactantes) em meio orgânico</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Juliana Grell Fernandes Silveira. <b>Potencial farmacológico e estudo químico do óleo essencial de Ocimum basilicum (manjericão)</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Larissa Midiane Todero. <b>Síntese de biolubrificantes a partir do óleo de fritura pelo processo de hidroesterificação mediada por biocatalisadores heterogêneos</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Laís quintino Dias. <b>Determinação da viabilidade celular e da atividade antioxidante de calos obtidos de diferentes órgãos de Tabebuia impetiginosa MARTIUS ex DC</b>. Iniciação Científica - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Maria Carolina Cucatti Corradini. <b>Produção enzimática de éster de aroma de fruta por esterificação: Otimização da reação pela metodologia de superfície de resposta</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Patrícia Ferraz de Castro. <b>Otimização do meio de produção de lipase por Trichosporon asahii</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, PROGRAMA INSTITUCIONAL DE BOLSAS DE INICIAÇÃO CIENTÍFICA. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Rodney Helder Miotti Júnior. <b>Imobilização de Lipases de Candida rugosa e Geotrichum candidum produzidas por fermentação submersa.</b>. (Graduando em Química Bacharelado) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0268737424253522">Wesley Augusto Nunes</a>. <b>Avaliação da atividade esquistossomicida dos extratos e do bioativo 7-Epiclusianona obtidos do epicarpo de Garcinia brasiliensis</b>. (Graduando em Química) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANA CAROLINA DE AZEVEDO DIAS. <b>INFLUÊNCIA DE EXTRATOS OBTIDOS DE FRUTOS E SEMENTES DE BACUPARI EM BIOENSAIOS COM ALFACE</b>. (Graduando em Ciências Biológicas-Licenciatura) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Luiza Santiago Donatelli. <b>SEPARAÇÃO DE LIPASE PRODUZIDA PELO FUNGO Geotrichum candidum DO CALDO DE FERMENTAÇÃO POR MÉTODOS CROMATOGRÁFICOS</b>. (Graduando em Química Bacharelado) - Universidade Federal de Alfenas, UNIFAL-MG. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Paula Pereira Bressani. <b>Produção de biodiesel de segunda geração a partir do óleo de macaúba pelo processo de hidroesterificação</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Augusto Duarte Alvarenga. <b>Seleção do organismo certificador em implementação de ISO 9001 por meio do AHP</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BRUNA BORGES DE MELO. <b>Produção de lipase por Geotrichum candidum utilizando como indutor óleo de algodão</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Camila Cristina Vieira Velloso. <b>Efeito de compostos fenólicos redutores na degradação de corantes por reação de Fenton cuprosa</b>. (Graduando em Engenharia de Bioprocessos) - UFSJ, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Camila de Oliveira Sousa. <b>Influência de acilgliceróis parciais nas propriedades físicas de óleos vegetais e biodieseis</b>. (Graduando em Engenharia de Alimentos) - Universidade Estadual de Campinas, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Cássia Sidney Santana. <b>Efeito de metabólito fúngico na degradação de corantes por reagentes Fenton (Fe/H2O2)</b>. (Graduando em Engenharia Química) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5995816876778042">Eduarda Cardoso Marinho</a>. <b>Isolamento e purificação de xantona natural de Garcinia sp, obtenção de análogos semissintéticos e atividade antimicrobiana</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fernanda Del Busso Zampieri. <b>SEPARAÇÃO DE LIPASE PRODUZIDA PELO FUNGO Geotrichum candidum DO CALDO DE FERMENTAÇÃO POR MÉTODOS CROMATOGRÁFICOS</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, UNIFAL-MG. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Gláucia Domingues. <b>Avaliação de solventes para fermentação extrativa de etanol</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Jéssica Fernanda Gonçalves. <b>Produção de lipase por Geotrichum candidum utilizando a palha de café como substrato, imobilização da lipase produzida e sua aplicação na área de biocatálise</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, PROGRAMA INSTITUCIONAL DE BOLSAS DE INICIAÇÃO CIENTÍFICA. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Letícia Rios Vieira. <b>CALOGÊNESE EM EXPLANTES DO PROCÂMBIO DE EMBRIÕES DE BACUPARI: CARACTERIZAÇÃO BIOQUÍMICA E TEORES DE FENÓLICOS TOTAIS</b>. (Graduando em Ciências Biológicas-Bacharelado) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Lincoln Leandro Fonseca. <b>Análise de expressão gênica por bioinformática, utilizando dados de ESTs do projeto genoma câncer (hcgp).</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Mariane de Andrade Mancilha. <b>OTIMIZAÇÃO DA EXTRAÇÃO LÍQUIDO-LIQUIDO PARA O ÁCIDO CLAVULÂNICO PROVENIENTE DO CALDO DE FERMENTAÇÃO</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Rafael Macedo Dias. <b>Avaliação de Formas de Cultivo para Obtenção de Altas Concentrações Celulares</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriane Duarte Coelho. <b>Produção enzimática de ésteres de monossacarídeos</b>. (Graduando em Engenharia Agronômica) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CAMILA GARNICA CONTERATO e MURILO AMARAL FONSECA. <b>AVALIAÇÃO DO DESEMPENHO DE FUNGOS ORIUNDOS DO MANGUE E DO FUNGO Geotrichum candidum EM SÍNTESE DE AROMAS</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cássia Sidney Santana. <b>Efeito de compostos fenólicos redutores de Fe3+ na descoloração de efluentes da indústria do explosivo TNT por reagentes Fenton (Fe/H2O2)</b>. (Graduando em Engenharia Química) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fábio Hideki Miyake. <b>Determinação de Equilíbrio Líquido-líquido para a Produção de Biodiesel a partir de Óleo de Crambe (Crambe abyssinica) e Nabo-forrageiro (Raphanus sativus L.)</b>. (Graduando em Engenharia de Alimentos) - Universidade Estadual de Campinas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Jéssica Faria Mesquita. <b>Efeito de surfactantes na sacarificação enzimática de bagaço de cana biotratado por fungo ligninolítico</b>. (Graduando em Engenharia Química) - Universidade Federal de São João Del-Rei, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Jéssica Soares Miranda. <b>Produção de ésteres por esterificação direta de açucares e ácidos carboxílicos mediada por lipases imobilizadas</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Kadima Caldeira Santos. <b>Triagem de lipases vegetais para a produção de ésteres etílicos (biodiesel) em meio isento de solventes</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lucas Smith Pimenta. <b>Etanolise de fontes oleaginosas por catalise enzimatica</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, CNPq. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Maurício Reis Júnior. <b>Efeito do nitróxido Tempol sobre a atividade de NADPH oxidase de neutrófilos induzida por malation</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Mohamed Ziad Dabaja. <b>Imobilização da lipase AK em PHB e sua aplicação na reação de transesterificação de óleo de açaí</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Natália Cristina Alves da Silva. <b>Produção de aromas naturais de frutas catalisada por lipases imobilizadas em suporte hidrofóbico e de baixo custo</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Patrícia Heloise Alves Bezerra. <b>Aplicação de lipase AK comercial de Pseudomonas fluorescens imobilizada em suporte PHB</b>. Iniciação Científica - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Rodrigo Sebastião Henrique. <b>Imobilização e monitoramento de células vivas adsorvidas a eletrodos modificados com copolímeros de síntese radicalar controlada</b>. (Graduando em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VANESSA MOLINA DE VASCONCELLOS. <b>PRODUÇÃO DE LIPASES POR Geotrichum candidum UTILIZANDO A PALHA DE CAFÉ COMO SUBSTRATO</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carolina Rocha Machado. <b>Sondas fluorescentes para atividade redutase de proteína dissulfeto isomerase</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Débora Mara de Jesus Cassimiro. <b>Produção de lipases por germinação de sementes</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Edu de Paula Scamilhe. <b>Produção de biodiesel via rota etílica a partir do extrato de óleo de café verde</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gabriel Ferreira Ruela. <b>Síntese de Biodiesel via rota enzimática</b>. (Graduando em Ensino Médio) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Iara Camila de Almeida Bolina. <b>Transesterificação de óleo de macaúba por lipases imobilizadas e estabilizadas em matriz hidrofóbica polipropileno</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Jéssica Faria Mesquita. <b>Sacarificação enzimática de bagaço de cana biotratado por fungo ligninolítico</b>. (Graduando em Engenharia Química) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Kadima Caldeira Santos. <b>Caracterização das propriedades catalíticas de lipases vegetais oriundas da germinação de sementes: Aplicação de biocatalisadores na síntese de ésteres aromatizantes</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei - Campus Sete Lagoas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lidiane Claudiano de Carvalho. <b>Atividade redutase de proteína disulfeto isomerase em células acinosas de glândulas salivares</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Lucas Miguel Altarugio. <b>Comparação da estabilidade de lipase de Candida rugosa imobilizada em micropartículas de quitosana por adsorção e ligação covalente multipontual</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Mateus Nordi Esperança. <b>Avaliação das transferências de calor e massa na recuperação de etanol por arraste por co2</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Agência Nacional de Petróleo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Matheus Henrique Mariz de Avelar. <b>Imobilização de lipases vegetais em suporte hidrofóbico: Aplicação dos biocatalisadores em síntese de biodiesel</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Maurício Alexandre Reis Júnior. <b>Nitróxidos como reguladores da atividade da proteína quinase C em neutrófilos</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Milton Kennedy Aquino Junior. <b>IMOBILIZAÇÃO DE LIPASES E SUA APLICAÇÃO EM REAÇÕES DE HIDRÓLISE E SÍNTESE DE BIODIESEL</b>. (Graduando em Ensino Médio) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Murilo Amaral Fonseca. <b>Aplicação da lipase produzida pelo fungo Geotrichum candidum em síntese de aromas</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Paulo Vinicios Sanches Daltro de Carvalho. <b>Abordagem Computacional aplicada no Descobrimento de Fitofármacos presentes em Euphorbia tirucalli Lineu (Aveloz), com Potencial Terapêutico em Câncer de Cabeça e Pescoço.</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Felipe Boni Rezende. <b>Distribuição do tempo de residência em biorreatores airlift de circulação interna geometricamente semelhantes</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fernanda Bacciotti/ Bruna Borges de Melo. <b>INDUTORES ALTERNATIVOS E OTIMIZAÇÃO DE PARÂMETROS PARA PRODUÇÃO DE LIPASE VIA FERMENTAÇÃO SUBMERSA POR Geotrichum candidum</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fernanda Barreto de Oliveira Reis. <b>Efeito de compostos fenólicos na descoloração de efluentes da indústria têxtil e de explosivos por reagentes Fenton (Fe2+ / H2O2)</b>. (Graduando em Engenharia Química) - Universidade Federal de São João Del-Rei, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gabriela Caputo Guimarães. <b>Otimização da etapa de extração para o processo de purificação do ácido clavulânico</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>José Augusto Zorel. <b>Sistema calorimétrico de titulação adaptado à aquisição de dados em potenciostato</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Lara A. Buffoni de C. Carneiro. <b>Síntese e caracterização de micropartículas de quitosana aplicadas em reações enzimáticas</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lucas Miguel Altarugio. <b>mobilização de enzimas em microparticulas de quitosana: desenvolvimento de técnicas de imobilização, estabilização e aplicação em biocatálise</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lucas Smith Pimenta. <b>Produção de biocombustível através de catálise enzimática utilizando diferentes fontes oleaginosas</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Pricila de Figueiredo Reis. <b>INIBIDORES SINTÉTICOS DA PROTEÍNA DISSULFETO ISOMERASE</b>. (Graduando em Bacharelado em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Renan Cabral Cognette. <b>Otimização e caracterização de micropartículas de quitosana imobilizadas em lipases comerciais</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Rodrigo Sebastião Henrique. <b>Lipossomos incorporados com dopamina complexada a ácido 4-aminobenzóico como um modelo simples para estudo da interação de fármacos com biomembranas</b>. (Graduando em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Branca Engel Timoner. <b>NITRÓXIDOS COMO REGULADORES DO ESTADO DE FOSFORILAÇÃO PROTÉICA ASSOCIADO À ATIVIDADE DO COMPLEXO NADPH OXIDASE DE FAGÓCITOS</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fábio Lobato de Campos Oliveira. <b>EFEITO DO NITRÓXIDO TEMPOL NO ESTRESSE OXIDATIVO E REGENERAÇÃO TISSULAR EM MUCOSA PALATINA DE RATOS</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>José Alexandre Macedo. <b>Mapa Metabólico Dinâmico: Um Software para Visualização de Rotas Metabólicas para o Ensino de Bioquímica</b>. (Graduando em Ciência da computação) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Juliana Carolina Baldacin. <b>avaliação da distribuição do diâmetro de bolhas na transferência de oxigênio em biorreatores pneumáticos de bancada</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Marcela Gros e Silva. <b>Bioinformática estrutural aplicada ao desenho de drogas utilizando simulações de docking e dinâmica molecular em CDKs</b>. (Graduando em Engenharia Biomédica) - Universidade do Vale do Paraíba, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Marcilene Aparecida Alves. <b>Interação de albumina sérica com glutationa como modelo de modulação da resposta antioxidante de proteínas plasmáticas</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Neúbio Matos Ferreira. <b>Software Para Simulação de Mapas Autocatalíticos</b>. (Graduando em Ciência da computação) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>TESSA MARTINS DE CARVALHO CARNEIRO. <b>SONDAS FLUORESCENTES PARA O ESTUDO CINÉTICO DA PROTEÍNA DISSULFETO ISOMERASE</b>. (Graduando em Bacharelado em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Tânia Mara Romanholi. <b>Avaliação da pressurização autógena de CO2 em dornas de fermentação e sua utilização como gás de arraste de etanol</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adenilza Cristina da Silva. <b>Determinação de dopamina em homogenatos de cérebro de ratos tratados com ginko, sálvia e noz-de-cola por voltametria cíclica</b>. (Graduando em Biomedicina) - Universidade José do Rosário Vellano, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>André Godinho Varela e João Carlos Mezzari Dagostin. <b>Caracterização das propriedades biocatalíticas da lipase livre e imobilizada em quitosana utilizando diferentes estratégias de imobilização.</b>. (Graduando em Farmácia) - Universidade do Extremo Sul Catarinense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Andréia Alves Cardoso. <b>Efeito do nitróxido TEMPOL no estresse oxidativo e regeneração tissular em mucosa palatina de ratos</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Jonta de Ben Biehl. <b>Avaliação da biodegradação de rejeito piritoso através da compostagem com inoculação de microrganismos decompositores</b>. (Graduando em ENGENHARIA AMBIENTAL) - Universidade do Extremo Sul Catarinense, Universidade do Extremo Sul Catarinense. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Lucas de Abreu Silveira. <b>Implementação de Sistema de Gestão da Qualidade Baseado na NBR ISO 9001:2008 em um laboratório de uma instituição pública federal</b>. (Graduando em Biotecnologia) - Universidade Federal de Alfenas, UNIVERSIDADE FEDERAL DE ALFENAS. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Maria Cecília Gomes Xavier. <b>Captação de xantonas modificadas com ferro por albumina</b>. (Graduando em Química) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Márcio Tadeu de Oliveira. <b>Purificação e propriedades de carboidrato prebiótico de quefir aquoso</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Samuel Nuno Pereira Lima. <b>EFEITO DE NITRÓXIDOS SOBRE A SINALIZAÇÃO CELULAR EM NEUTRÓFILOS INFLAMATÓRIOS</b>. Iniciação Científica - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Vitor Ferreira Henrique. <b>Desenvolvimento de software para aplicação em análise de reatores químicos</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>André Godinho Varela e João Carlos Mezzari Dagostin. <b>Perfil de comparação entre um catalisador químico e a lipase imobilizada na produção de ésteres aromatizantes</b>. (Graduando em Farmácia) - Universidade do Extremo Sul Catarinense, unesc. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>André Godinho Varela e João Carlos Mezzari Dagostin. <b>Perfil de Comparação entre um Catalisador Químico e a Lipase Imobilizada na Produção de Ésteres Aromatizantes</b>. (Graduando em Farmácia) - Universidade do Extremo Sul Catarinense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Branca Engel Timoner. <b>EFEITO DO NITRÓXIDO AC-TEMPO SOBRE O BURST RESPIRATÓRIO E FOSFORILAÇÃO DE PROTEÍNAS DE MACRÓFAGOS</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Jonata de Ben Biehl. <b>Avaliação da biodegradabilidade do efluente da indústria de frangos utilizando enzimas hidrolíticas para degradação de gorduras</b>. (Graduando em ENGENHARIA AMBIENTAL) - Universidade do Extremo Sul Catarinense, unesc. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>José Alexandre Macedo. <b>SISMA: um software para simulações de mapas metabólicos</b>. (Graduando em Ciência da computação) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Nadine Francine Marcula Linhares. <b>ESTUDO DA ATIVIDADE DE PROTEÍNA DISSULFETO ISOMERASE EM GLÂNDULAS SALIVARES:</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Rafael O. de Aguiar, Gabriel H Hendler, Vanessa D.de Lucca. <b>Imobilização da enzima lipase em micropartículas de quitosana</b>. (Graduando em Farmácia) - Universidade do Extremo Sul Catarinense, Universidade do Extremo Sul Catarinense. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Vinício Felipe Brasil Rocha. <b>ESTRESSE OXIDATIVO EM GLÂNDULAS SALIVARES NO DIABETES: PAPEL DE TIOL PROTEÍNAS</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carolina Nakau Fuzissaki. <b>Efeito de benzofenonas naturais na via de sinalização de tirosina quinase e proteína quinase c de neutrófilos inflamatórios.</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Elis Rocha. <b>Validação homeopática de verapamil em ultra-diluição em culturas de macrófagos</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Joacir Júnior Cassa de Assis. <b>Estudo do estresse oxidativo induzido por radiação ionizante em glândulas salivares</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Lynus Vieira de Almeida. <b>Estudo do estresse oxidativo na sialose induzida por agonista beta-adrenérgico</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mariana Sardelli Pinha. <b>Produção de Ácido Clavulânico por Streptomyces clavuligerusImobilizado em Crisotila</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ramiro Macarini Mondardo. <b>Produção de ácidos graxos por hidrólise enzimática empregando lipase imobilizada: avaliação e comparação da eificiencia de imobilização</b>. (Graduando em Farmácia) - Universidade do Extremo Sul Catarinense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Vinicio Felipe Rocha Brasil. <b>Danos oxidativos em glândulas salivares no diabetes: envolvimento de compostos tiólicos</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ênio Silva Luciano. <b>Uso da suspensão de quefir em ultradiluição no controle microbiológico da produção de álcool de cana-de-açúcar</b>. (Graduando em Zootecnia) - Universidade José do Rosário Vellano, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Elton Caetano. <b>Avaliação antioxidante da maçã de efefante (Dilinea indica)</b>. (Graduando em Agronomia) - Universidade de Alfenas-Laboratório de fitofármacos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Rafael Garcia Curraleiro. <b>WebLab de Engenharia Química e Bioquímica: Reator Bioquímico para Execução Remota e Monitoramento de um Processo de Fermentação Alcoólica</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Tainá Maria Silva de Castro. <b>BENZOFENONAS NATURAIS COMO AGENTES REGULADORES DO ESTRESSE OXIDATIVO EM NEUTRÓFILOS INFLAMATÓRIOS</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Tiago Alves Moura. <b>Medidas eletroliticas de soluçoes homeopaticas como modelo simplificado para o estudo de formulaçoes em ultradiluiçao</b>. Iniciação Científica - Universidade de Alfenas-Laboratório de fitofármacos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Kátia Gonzatti. <b>Uso do farelo de quefir como antibiótico natural em culturas hidropônicas de alface (Lactuca sativa, Linné)</b>. (Graduando em Agronomia) - Universidade José do Rosário Vellano, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Simon Fernandes Riess. <b>Identificaçao e quantificaçao de pesticidas organofosforados e carbamatos em amostras de agua coletadas na regiao de Alfenas-MG</b>. (Graduando em Agronomia) - Universidade de Alfenas-Laboratório de fitofármacos, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Luiza dos Santos Augusto. <b>Isolamento, caracterização e emprego de extratos polissacarídicos de quefir e cogumelo tibetano</b>. (Graduando em Enfermagem) - Universidade José do Rosário Vellano, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carolina Bellão. <b>Influência das condições de cultivo na produção de ácido clavulânico por Streptomyces clavuligerus em batelada alimentada</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fernanda Marques Valente. <b>Uso da suspensão de quefir em preparações alopáticas e diluições homeopáticas como antibacteriano na fermentação da cana.</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Flávio Henrique da Silva. <b>Desenvolvimento de software para aplicação em análise de biorreatores</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gabriela Lombardo Maranesi. <b>Estudo da influência de óleos vegetais sobre a produção de ácido clavulânico por Streptomyces clavuligerus</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Kamila Leite Rodrigues. <b>Biofilmes propagáveis modificados: incorporação de Saccharomyces cerevisae em grãos de kefir</b>. (Graduando em Fisioterapia) - Universidade José do Rosário Vellano, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Kamila Leite Rodrigues. <b>Avaliação das atividades antiinflamatória e analgésica do probiótico quefir por adjuvante de Freund, contorção abdominal, edema de pata induzido por carragenina e indução de tecido granulomatoso em ratos</b>. Iniciação Científica - Universidade de Alfenas-Laboratório de fitofármacos, PROBIC/UNIFENAS. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Thiago Roberto Winter. <b>Reação termo-química de soluções diluídas de d-glicose como modelo simplicado para o estudo de ultra-diluições.</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Anderson Victorino Esposito. <b>Ativação anômala de tripsina com inibidores de quimotripsina em extremos de pH.</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andre Vasconcelos Belico. <b>Leveduras como modelo de estudo de monitoramente fermentativo e respiratorio por microcalorimetria</b>. (Graduando em Ciências Biológicas) - Universidade Federal de Minas Gerais, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Antonio Lucas Binda Junior. <b>Avaliação termodinâmica da endosimbiose em Herpetomonas</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ayda Baganha F Dias. <b>Parâmetros físico-químicos e fisiológicos na administração oral sub-crônica murina de quefir cultivado em recipientes plásticos e metálicos.</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Kamila Leite Rodrigues. <b>Avaliaçao antimicrobiana do oleo de girassol ozonizado.</b>. (Graduando em Fisioterapia) - Universidade José do Rosário Vellano, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Lívia Kassis Garla. <b>Estudo da atividade antiinflamatória do simbionte cogumelo tibetano</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Nayara Neves Mariano. <b>Simbiogenese artificial em graos de quefir.</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Nemer Luis Pichara. <b>Resistencia de microrganismos simbiontes a estresse fisico-quimico</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ricardo de Oliveira Diniz. <b>Atividade antiinflamatória de quefir em ratos</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fabíola Maria Zacheu. <b>Efeito anti-inflamatório de triterpenos e lactonas sesquiterpênicas</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Leandro Drago Mendes. <b>Requerimentos nutricionais para o crescimento em água de kefir, um probiótico da medicina popular.</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ricardo de Oliveira Diniz. <b>Avaliaçao do perfil termogenico de quefir por microcalorimetria.</b>. (Graduando em Medicina) - Universidade José do Rosário Vellano, . 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Farnaz Bassiri. <b>Estudo Comparativo da Ação de Dois Enxaguatórios Bucais de Uso Infantil</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Giuliano César Silveira. <b>Defesa Antioxidante de Fagócitos durante o Processo Diabético</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Keith Bullia Freitas Simas. <b>Peroxidação Lipídica em Glândulas Parótidas Induzida por Sialodenose</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, . 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Mila de Carlo Salomão Lopes. <b>Lipoperoxidação e Alterações Histológicas em Glândulas Parótidas e Submandibulares de Animais Diabéticos</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, . 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Carolina Silva e Virdes. <b>Efeito do Tanino sobre o Metabolismo de Carboidratos da Flora Oral</b>. (Graduando em Odontologia) - Universidade Federal de Alfenas, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Eduardo Shigueo Hori. <b>Modelagem e Simulação de um Biorreator de Membrana Cerâmica para Produção de Cefalosporina C</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fabiana Bogas Bertollo. <b>Monitoramento do Crescimento do Fungo Penicillium chrysogenum no Processo de Produção de Penicilina</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Giuliano César Silveira. <b>Detecção de Mn- e Cu-Zn-Superóxido Dismutases em Células Fagocitárias</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Sebastião Barreto Neto. <b>Estudo Comparativo das Amilases Séricas e Salivares</b>. (Graduando em Farmácia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Elaine Machado Toste. <b>Estudo da Influência da Composição do Meio de Cultura no Cultivo do Fungo Penicillium chrysogenum IFO-8644</b>. (Graduando em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 1995.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 17:29:30<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

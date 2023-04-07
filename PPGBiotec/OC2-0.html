@@ -1,0 +1,509 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PPGBiotec</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PPGBiotec</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2000,
+1],
+[2001,
+1],
+[2002,
+1],
+[2003,
+1],
+[2004,
+1],
+[2005,
+4],
+[2006,
+6],
+[2007,
+4],
+[2008,
+9],
+[2009,
+3],
+[2010,
+9],
+[2011,
+2],
+[2012,
+3],
+[2013,
+3],
+[2014,
+10],
+[2015,
+7],
+[2016,
+14],
+[2017,
+13],
+[2018,
+13],
+[2019,
+12],
+[2020,
+13],
+[2021,
+14],
+[2022,
+12],
+[2023,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 157<br>
+                    
+                    
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4026858447883658">Diego Borges Tabelini</a>. <b>Efluente de laticínios mineiros: avaliação de suas características, tratamento e do seu potencial biotecnológico</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6130342702026486">Adriana Alves de Oliveira</a>. <b>ANÁLISE DE CERTIFICAÇÕES ISO 13485 NOS PAÍSES DO CONTINENTE AMERICANO</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4787473374325220">Camila Silva Sampaio</a>. <b>SÍNTESE DE AGREGADOS RETICULADOS PARA A LIPASE PRODUZIDA DE Geotrichum candidum</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Biotecnologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7693852540625259">Fernanda Aparecida Passari</a>. <b>Síntese de antioxidantes lipofílicos empregando lipase imobilizada por diferentes protocolos</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9817271495610714">Guilherme José Sabi</a>. <b>Produção de bioplastificantes empregando diferentes catalisadores (enzimáticos e químico) e aplicação na preparação de filmes poliméricos</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gustavo José Passari. <b>Produção enzimática de ésteres de ácido gálico catalisado por lipases livres</b>. Dissertação (Mestrado em BIOTECNOLOGIA) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Isis Furlan Guimarães Junqueira. <b>Estudo da Solubilidade de Fitoesteróis em Solventes com Até Quatro Átomos de Carbono em Diferentes Temperaturas</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lucilene Bento Carletto. AVALIAÇÃO QUÍMICA E BIOLÓGICA DOS EXTRATOS ACETATO DE ETILA OBTIDOS A PARTIR DO CO-CULTIVO DOS FUNGOS LASIODIPLODIA SP. <b>E PREUSSIA AFRICANA</b>. Dissertação (Mestrado em BIOTECNOLOGIA) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Maira Fernanda Alves Bueno. <b>ESTUDO DE CASO: GESTÃO DE DESENVOLVIMENTO DE NOVOS PRODUTOS COSMÉTICOS EM UMA EMPRESA DE PEQUENO PORTE</b>. Dissertação (Mestrado em BIOTECNOLOGIA) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4590764128651556">Marcus Vinícius Silveira Cambraia</a>. <b>Desenvolvimento de um processo para a produção sustentável de um éster (levulinato de isoamila) catalisada por Eversa Transform 2.0 imobilizada por ativação interfacial</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Myllena Rodrigues dos Santos. <b>SELEÇÃO DE MICRORGANISMOS PRODUTORES DE LIPASES PRESENTE EM EFLUENTES INDUSTRIAIS.</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Biotecnologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8548712874557788">Nayara Clarete</a>. <b>Efeito do priming com óxido nítrico no desenvolvimento inicial de um híbrido de milho sensível à seca, em comparação à um híbrido tolerante</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Vinícius Silveira Cambraia. <b>DESENVOLVIMENTO DE UM PROCESSO PARA A PRODUÇÃO SUSTENTÁVEL DE UM ÉSTER (LEVULINATO DE ISOAMILA) CATALISADA POR EVERSA TRANSFORM 2.0 IMOBILIZADA VIA ATIVAÇÃO INTERFACIAL</b>. Dissertação (Mestrado em BIOTECNOLOGIA) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6130029713135764">Celso Ferreira Félix</a>. <b>Estudo da Solubilidade de Ácidos Graxos em Solventes Orgânicos por meio do SimuladorComputacional DWSIM</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8008266182700826">Dajara Moana Barbosa Moreira. OTIMIZAÇÃO DAS CONDIÇÕES DE CULTIVO SUBMERSO DO FUNGO Lasiodiplodia sp</a>. <b>PARA PRODUÇÃO DE EXTRATOS COM ATIVIDADE ANTIMICROBIANA</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5306403222607471">Franciely Aparecida Lopes</a>. <b>Caracterização do licenciamento ambiental em Minas Gerais e os reflexos da utilização dos critérios locacionais</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7050520712371006">Frederico Augusto Massote Bonifácio</a>. <b>Licenciamento Ambiental Municipal em Minas Gerais: uma análise da Região Sul do Estado</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3872457414374904">Gustavo Francisco de Oliveira</a>. <b>PRODUÇÃO POR CULTIVO SUBMERSO E PARCIAL CARACTERIZAÇÃO DE UMA NOVA LIPASE DO FUNGO ENDOFÍTICO Preussia africana</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Biotecnologia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2370786724924371">José Geraldo Esteves Guedes Júnior</a>. <b>Desenvolvimento e otimização da produção de diésteres de etilenoglicol (biolubicantes) por hidroesterificação enzimática do óleo de fritura</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5159242293050281">Jéssika Ramos Pereira Rocha</a>. <b>Produção de metabólitos primários em milho (Zea mays) subme?do, à déficit hídrico em resposta a tratamento com derivados semissinté?cos de trealose</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Leandro Donizete Silva. <b>EFEITOS DO ÓXIDO NÍTRICO EXÓGENO EM PLANTAS DE MILHO SUBMETIDAS A DEFICIT HÍDRICO</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7948231231579656">Luís Fernando da Silva Santos</a>. <b>Produção de oleato de decila utilizando a lipase de Geotrichum candidum</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>, <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6443913516649553">Nicole Souza Okura</a>. <b>Preparação e caracterização de um suporte heterofuncional à base de quitosana e seu uso na imobilização de lipase</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4046398304262669">Rafaela Santos Gama</a>. <b>Produção de ésteres industriais empregando biocatalisadores heterogêneos preparados por imobilização de lipase em partículas de biossílica funcionalizadas</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3525010684893831">Renata Carvalho Costa</a>. <b>Avaliação das características físico-químicas do efluente da agroindústria da mandioca e do seu potencial bioenergético</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Thiago Martins da Cunha. <b>Desenvolvimento e caracterização de um agregado enzimático reticulado (CLEA) de ?-glicosidase produzida por Aspergillus niger</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1241364723966060">Wagner Carlos de Alcantara Carvalho</a>. <b>Desenvolvimento de um processo enzimático para a produção de biolubrificantes a partir de óleo de soja refinado e de fritura.</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Biotecnologia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>, <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Brenda Campos Gomes. <b>Análise térmica da fermentação alcoólica convencional e extrativa com arraste por dióxido de carbono</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9768811534147426">Brenda de Melo Silva</a>. <b>Produção de ésteres de aroma catalisada por lipase imobilizada em suporte hidrofóbico preparado a partir de sílica de casca de arroz</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5062725349771743">Edson Geraldo Monteiro Junior</a>. <b>Estudo do Equilíbrio Líquido-Líquido de Sistemas Aquosos Bifásicos com Alteração de pH, com Ênfase na Distribuição de Glicose e da Enzima Frutosiltransferase</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Eduarda Lourenço Ferreira. <b>AVALIAÇÃO DE DIFERENTES ABORDAGENS DE EXTRAÇÃO COMO ESTRATÉGIA PARA MELHORAR A ATIVIDADE ANTIOXIDANTE DE EXTRATOS OBTIDOS DE RESÍDUOS DE CASCA DE CAFÉ.</b>. Dissertação (Mestrado em Pós-graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3798416800583466">Joelise de Alencar Figueira Angelotti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3134838655531238">Janaína Piza Ferreira</a>. <b>Como a desfolha precoce atua nas características morfofisiológicas e bioquímicas nas plantas de milho?</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0723630735882349">Luciano Ribeiro Rodrigues</a>. <b>Autuações ambientais lavradas pela Polícia de Meio Ambiente no Sul de Minas Gerais</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Marta Maria Oliveira dos Santos. <b>Catálise enzimática aplicada na produção de compostos de aroma</b>. Dissertação (Mestrado em ENGENHARIA E CIÊNCIA DE ALIMENTOS) - Universidade Estadual do Sudoeste da Bahia, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0190923773022708">Myllena Rodrigues dos Santos</a>. <b>ESTUDO DA PREPARAÇÃO DE AGREGADO ENZIMÁTICO RETICULADO (CLEAs) DE LIPASE PRODUZIDA POR Aspergillus niger</b>. Dissertação (Mestrado em Pós-graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3798416800583466">Joelise de Alencar Figueira Angelotti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Nayara Clarete da Penha. <b>Efeito do priming com óxido nítricono desenvolvimento inicial de um híbrido de milho sensível à seca, em comparação à um híbrido tolerante</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0765241623837363">Patrícia Alejandra Mendoza Ortiz</a>. <b>Otimização da síntese enzimática de um biossurfactante e avaliação de suas propriedades antimicrobianas</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9619857537935351">Pedro Ernesto dos Reis</a>. <b>Potencial fitorremediador de Talinum paniculatum na presença de cádmio, chumbo, manganês e ferro.</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0782155054675081">Rodolfo Cabral Marcelino</a>. <b>Desenho de fármacos in silico para marcadores moleculares em alvos de SARS-Cov-2.</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3656353579832157">Wellington Felipe dos Santos</a>. <b>Crescimento, eficiência fotossintética e produção de metabólitos primários e secundários em Garcinia brasiliensis cultivada sob diferentes malhas fotoconversoras</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Augusto César Januario. <b>Emprego de duas novas cepas de levedura nacional na produção de cerveja artesanal tipo ALE</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Ciência e Engenharia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5505402632048385">Christiany Chagas Toledo</a>. <b>Efeito do priming com putrescina sobre aspectos bioquímicos e metabólicos durante o desenvolvimento inicial de dois híbridos de milho contrastantes para a tolerância à seca</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2710487912428155">Ivan Ilich Kerbauy Veloso</a>. <b>modelagem e otimização da fermentação alcoólica em batelada alimentada à baixa temperatura</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3509177477960858">José Borges de Carvalho</a>. <b>Rede de cooperativas e associações de catadores de materiais recicláveis como organização no tratamento de resíduos sólidos urbanos</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7211415053407035">Letícia Pereira Almeida</a>. <b>Avaliação da transferência de calor em fermentações alcoólicas convencional e extrativa</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7508414375695383">Matheus Jareta Costa</a>. <b>Produção enzimática de biodiesel via hidroesterificação utilizando como matéria-prima óleo de soja residual</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Engenharia Química) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Otto Alberto Quispe Jimenez. <b>INFLUÊNCIA DE SAIS DE SÓDIO NO EQUILÍBRIO DE FASES DE SISTEMAS AQUOSOS BIFÁSICOS CONTENDO TRITON X-114, NA PRESENÇA OU NÃO DE GLICOSE, VISANDO A EXTRAÇÃO DA ENZIMA FRUTOSILTRANSFERASE</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Alfenas, UNIFAL-MG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Rauber Daniel Pereira. <b>Desenvolvimento de metodologia para o cálculo de eficiência e modelagem por redes neurais de unidade de fermentação industrial</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8604609987683402">Samuel Vitor Assis Machado de Lima</a>. <b>Aplicações de quitosana na raiz e parte aérea alteram o padrão de acúmulo de cádmio em estacas de Talinum patens (Talinaceae)</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8305119564170062">Thiago Martins da Cunha</a>. <b>DESENVOLVIMENTO E CARACTERIZAÇÃO DE UM AGREGADO ENZIMÁTICO RETICULADO DE ?-GLICOSIDASE PRODUZIDA POR ASPERGILLUS NIGER</b>. Dissertação (Mestrado em Pós-graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3798416800583466">Joelise de Alencar Figueira Angelotti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Vanessa Vilela Lemos. <b>PROGRAMAÇÃO EM VBA PARA A MODELAGEM DO EQUILÍBRIO SÓLIDO LÍQUIDO DE MISTURAS MULTICOMPONENTES A PARTIR DOS MODELOS WILSON, NRTL, UNIQUAC E UNIFAC</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1626723325907340">Willian de Souza Matias Reis. 1</a>. <b>TRATAMENTO DE ÁGUAS RESIDUÁRIAS PROVENIENTES DA INDÚSTRIA DE PRODUTOS LÁCTEOS EMPREGANDO CÉLULAS ÍNTEGRAS DO FUNGO Rhizopus oryzae</b>. Dissertação (Mestrado em Programa de Pós Graduação em Biotecnologia - Mestrado - PPGBIOTEC) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1772752279137976">Daniella Rita de Carvalho Souza</a>. <b>Identificação das práticas sustentáveis em empresas alimentícias</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3429910666709013">Elba Sharon Dias</a>. <b>Efeito fitotóxico do cádmio e ação do óxido nítrico no desenvolvimento inicail de Bowdichia virgilioides Kunth</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fernanda Mendes de Paiva Olímpio. <b>Preparação, caracterização e estudos de liberação controlada de pancreatina encapsulada em biopolímeros</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Janaína de Fátima Corsini. <b>Bioinformática Estrutural Aplicada ao Desenho de Fármacos aos Marcadores Apoptóticos BIRC7, MDM2, TP53, Identificados em Vários Tipos de Câncer.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0301671834066522">José Nacarato Neto</a>. <b>Efeito do quefirano sobre a viabilidade celulare atividade de enzimas antioxidantes em calos de Handranthus impetiginosus</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>João Pedro Miguez. <b>Produção de biolubrificante catalisada por lipase imobilizada via adsorção física em sílica de casca de arroz funcionalizada</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4866000939284287">Leticia Aparecida Bressanin</a>. <b>Efeito do rejeito de mineração de Mariana-MG sobre espécies arbóreas de diferentes estados sucessionais ecológicos e do vermicomposto como atenuante</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4226749999424865">Marcela Fernandes de Oliveira</a>. <b>Separação da Enzima Frutosiltransfera Utilizando uma Coluna de Bolhas e Espuma</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Marco Aurélio Boaventura Filho. <b>EMBRIOGÊNESE SOMÁTICA DIRETA E CARACTERIZAÇÃO BIOQUÍMICA DE CALOS DE BOWDICHIA VIRGILIOIDES KUNTH</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7057387874580669">Marina Del Bianco Sousa</a>. <b>Avaliação da produção de pigmento vermelho pelo fungo endofítico Talaromyces minioluteus/ Penicillium minioluteum</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Natália Boscariol Machado. <b>Preparação e caracterização de partículas de sílica de casca de arroz funcionalizada na imobilização de lipase e aplicação na síntese na síntese de ésteres</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>, <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9838312181366102">Saulo Rocha Leite</a>. <b>Estudo sobre a viabilidade econômica para implantação de uma unidade sustentável de coleta e separação de resíduos sólidos</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0256137787866684">Valdir Veroneze Júnior. Variação Sazonal das Características Ecofisiológicas e Fitoquímicas de Garcinia brasiliensis Mart</a>. <b>(CLUSIACEAE)</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6529823743245345">Alexandra dos Santos Ambrósio</a>. <b>Aplicação de derivados de trealose em folhas de milho sob déficit hídrico: avaliação anatômica e fotossintética</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2293564491200582">Aline Aparecida Silva Pereira</a>. <b>Índice de sustentabilidade na atividade mineral</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1523666921740772">Allyson de Freitas</a>. <b>Seleção de fornecedores verdes na cadeia de Suprimentos: estudo de caso com decisão multicriterial</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8188353615194095">Augusto Duarte Alvarenga</a>. <b>Aplicação do método de tomada de decisão na gestão integrada de resíduos sólidos urbanos</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1507881536646352">Bruno Ricardo Remédio</a>. <b>Estudo por meio da modelagem termodinâmica nrtl do comportamento do equilíbrio líquido-líquido nas etapas de decantação e lavagem de biodieseis etílicos</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4043789557049115">Rodrigo Corrêa Basso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5505402632048385">Christiany Chagas Toledo</a>. <b>Efeito do priming com putrescina sobre aspectos bioquímicos e metabólicos durante o desenvolvimento inicial de dois híbridos de milho contrastantes para a tolerância à seca</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8940440883936877">Claudio Vieira Castro</a>. <b>Impactos socioambientais do Programa Certifica Minas Café em lavouras cafeeiras do Sul de Minas Gerais</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9369277271787128">Gisele de Fatima Esteves</a>. <b>Crescimento e desenvolvimento de plantas de milheto, milho e sorgo em rejeitos de mineração do desastre de Mariana-MG e o efeito benéfico da adição de vermicomposto</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2171828464199433">Joice Aparecida de Novais Portugal</a>. <b>Derivados da trealose no sistema antioxidante e fotossintético de plantas de milho expostas ao déficit hídrico</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9504755418661506">Leila Mc Leod</a>. <b>Efeito da aplicação de putrescina sobre aspectos bioquímicos e acúmulo de poliaminas em calos de Handroanthus impetiginosus</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9804351744503274">Matheus Moreira Ferreira</a>. <b>Avaliação de diferentes estratégias de imobilização, caracterização das propriedades catalíticas e determinação dos parâmetros termodinâmicos para a lipase produzida por Geotrichum candidum, visando seu emprego na produção de ácidos graxos concentrados</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Engenharia Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4263468711432339">Paula Squinca de Carvalho</a>. <b>Desenvolvimento da etapa de liquefação da biomassa lignocelulósica visando a sua aplicação no cultivo de Aspergillus niger</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2434358802487961">Rafael Júnior de Andrade</a>. <b>Equilíbrio, análise conformacional e atividade biológica de hemoglobina complexada a dopamina</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3618691030393718">Candara Keocheguerian</a>. <b>Destilação Instantânea em Regime Transiente: Dorna Volante Modificada</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Apoio ao Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3214655794405009">Carlos César Gomes Júnior</a>. <b>Alterações morfofisiológicas em dois híbridos de milho (Zea mays L.) em resposta a inoculação com fungos micorrízicos arbusculares</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3206339129369204">Caroline Oliveira dos Reis</a>. <b>Aplicação de quitosana e seus derivados em híbrido de milho sob déficit hídrico</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9956303513828523">George Augusto Veloso de Oliveira</a>. <b>Equilíbrio químico e cinética enzimática da interação de alfa-amilase com compostos fenólicos encontrados em cerveja.</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8218586415327244">Icaro Alves Pinto</a>. <b>Identificação in silico de inibidores da via Wnt canônica em células de adenocarcinoma mamário humano triplo-negativo.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Janaina Mara de Assis Dias. <b>Avaliação da Sustentabilidade de países em nível mundial</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4067015829295547">Mariane Molina Buffo</a>. <b>Transferência de oxigênio e cisalhamento em biorreator convencional com diferentes combinações de impelidores</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9101516032931768">Mariela Regina da Silva Pena</a>. <b>Inoculação com Fungos micorrízicos arbusculares na produção de mudas da espécie Cedrela odorata</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0737208711013327">Michelle Dias Alves</a>. <b>Preparação de biocatalisadores por ativação interfacial de lipase microbiana em suporte hidrofóbico e aplicação na síntese de biolubrificante por reação de esterificação</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Pablo Ferreira das Chagas. <b>Análise da expressão de RNAs não codificantes Longos T-UCRs em Câncer.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4907808183266433">Rafael Macedo Dias</a>. <b>Estudo de Equilíbrio Líquido-Vapor de soluções hidroetanólicas contendo frutose</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8522084015224661">Sandra Barbosa Neder Agostini</a>. <b>PROSPECÇÃO DE COMPOSTOS BIOATIVOS NO PRODUTO DE FERMENTAÇÃO DE FUNGOS ENDOFÍTICOS ISOLADOS DE Handroanthus impetiginosus</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3434371171169198">Suzana Eda Hikichi</a>. <b>Análise da difusão da emissão de certificações ISO 14001 nos países do continente Americano</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, UNIFAL-MG. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0913156373807120">Valquíria Mikaela Rabêlo</a>. <b>Respostas bioquímicas e fisiológicas de híbrido de milho submetido ao déficit hídrico com aplicação foliar de quitosana e seus derivados</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Felipe de Almeida Silva. <b>Estudo da produção de biodiesel utilizando etanol e óleo de soja ou de macaúba catalisada por lipase de mamaona e de Thermomyces lanuginosus</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7213939581780258">Fábio de Oliveira Neves</a>. <b>Análise do Sistema de Gestão Ambiental (ISO 14001) no continente americano</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9613795097580238">José Luiz de Souza</a>. <b>EFEITO DE MEDIADORES FENÓLICOS NO TRATAMENTO DE UM EFLUENTE SINTÉTICO POR REAÇÃO DE FENTON</b>. Dissertação (Mestrado em Tecnologias para o Desenvolvimento Sustentável) - Universidade Federal de São João Del-Rei, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9504755418661506">Leila Mc Leod</a>. <b>Efeito da aplicação de Putrescina sobre aspectos bioquímicos e acúmulo de poliaminas em calos de Handroanthus impetiginosus</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3706106054366883">Priscila Vasconcellos Romanatti</a>. <b>Alterações fisiológicas e anatômicas em folhas de berinjela pela sensibilidade à radiação Ultravioleta-B</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Rodrigo Miranda de Moraes. Aspectos fisiológicos, metabólicos e alterações no ciclo celular de Lactuca sativa L. <b>(Asteraceae) em resposta ao cobre, peróxido de hidrogênio e óxido nítrico.</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Tuanan da Costa Lourenço. <b>Simulação computacional de líquidos iônicos de interesse em tecnologia limpa.</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2259076244255313">CLEITON BARCOT TINTOR</a>. <b>Síntese de Biodiesel a partir de Resíduos Gordurosos utilizando lipase imobilizada</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Ciência e Engenharia) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>, <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cristina Mazzeu Junqueira. <b>Caracterização de novos Sistemas aquosos bifásicos para a sua aplicação em partição de Lipase de Geotrichum candidum</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Química) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4963218454931780">Daniele Maria Marques</a>. <b>Morfofisiologia de espécies arbóreas expostas ao cobre</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9257188178085094">Guilherme Gonzales de Souza</a>. <b>Morfofisiologia aplicada à caracterização da tolerância de Talinum patens ao chumbo</b>. Dissertação (Mestrado em Ciências Ambientais (32011016005P4)) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Hetiene Pereira Marques. <b>Produção de metabólitos em calos de Garcinia brasiliensis</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7010012819835496">Mateus Nordi Esperança</a>. <b>Influência de aspectos geométricos na hidrodinâmica e na transferência de oxigênio de biorreatores airlift de circulação interna visando a produção de celulases</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Agência Nacional de Petróleo. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9907905714878969">Mayron Martins</a>. <b>Aplicação da quitosana em milho transgênico e não transgênico</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Tatiane Costa Leite. <b>Análise dos fatores determinantes para o sucesso no lançamento de produtos de empresas de base tecnológica: comparação entre o sucesso e o fracasso no lançamento do primeiro e do segundo produto</b>. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Itajubá, . 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4831979408534465">Thiago Castilho</a>. <b>Estudo Computacional de Doenças Negligenciadas e Interação com Drogas.</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Ênnio Miranda Barroso. Alelopatia e citogenotoxicidade de extratos de diferentes estruturas de Garcinia brasiliensis Mrt. <b>(Clusiaceae) em bioensaio com Lactuca sativa L.</b>. Dissertação (Mestrado em PPG em Ecologia e Tecnologia Ambiental) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Agnes Cristina Oliveira Mafra. <b>Produção de ácido glucônico e xarope de frutose a partir de sacarose catalisada por enzimas em reator airlif</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1739702914949735">Cláúdio Daniel Cerdeira</a>. <b>Influência de antioxidantes na capacidade microbicida de neutrófilos humanos</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3114111479745705">Gabriel Deriggi Torresam</a>. <b>Desenvolvimento de Sistema de Monitoramento e Controle de Biorreator Airlift de Bancada</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5591867184048691">Deborah Braga Resende</a>. <b>Resistência antioxidante de fungos: papel da formação de biofilme</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4382375440812889">Simone Ribeiro Bruzadelli Franco de Carvalho</a>. <b>Estresse oxidativo na doença periodontal; marcadores bioquímicos</b>. Dissertação (Mestrado em Mestrado em Ciências Odontológicas) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5115619055593854">Vinícius Politi Duarte</a>. <b>Comportamento anatômico e ecofisiológico de Piper aduncum (L.) de diferentes pontos de uma área degradada</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6876593588999622">Fernanda Marisa da Cunha</a>. <b>Desenvolvimento de um processo não-convencional para a produção de celulases por aspergillus niger em biorreator pneumático na presença de bagaço de cana-de-açúcar</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4796007900701417">Sidney Magalhães Lopes</a>. <b>Estudos preliminares de produção de ácido glucônico a partir de sacarose invertida em biorreator airlift</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriano Francisco Barbosa. <b>Estudo Eletroquímico Da Interação De Oligossacarídeos Prebióticos Com Membranas De Bicamada Lipídica</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0316872375852250">Andressa Teresina de Lima</a>. <b>Efeito de nitróxidos em processos inflamatórios associados à infecções fúngicas</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0241179746228711">Carla Neves Toledo</a>. <b>Voltametria direta de mioglobina imobilizada em eletrodo de ouro modificado com polimetil metacrilato com bloco de poli-2-dimetilaminoetil metacrilato (PMMA-bloco-PDMAEMA)</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9131212914993459">Carlos Alberto Ferreira</a>. <b>Complexos De Dopamina Com Albumina Como Modelo Para Etiquetagem Eletroquímica De Proteínas Desprovidas de Centros Redox Metálicos</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8903118201027369">Cecília Ladeira Lopes Costa</a>. <b>Produção de ácido clavulânico por Streptomyces clavuligerus em batelada e em batelada com pulsos de glicerol sob diferentes condições de temperatura</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Jean Douglas Moura dos Santos. <b>CONFIABILIDADE INTER E INTRAVALIADORES NA MENSURAÇÃO ANGULAR GONIOMETRICA E FOTOGRAMETRIA DIGITAL</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2983228894397657">Poliany Graziella Santos</a>. <b>Estudo do Mecanismo de Interação de Xantonas Naturais com Soroalbumina</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2430552009733935">Sérgio Scherrer Thomasi</a>. <b>Avaliação de parâmetros de desempenho de três modelos de biorreatores pneumáticos de bancada</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4452650152311645">Talita Antunes Guimarães</a>. <b>Determinação de LDL oxidada: aplicação como marcador de risco cardiovascular</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Daiane Nascimento Alves. <b>ESTUDO DA QUALIDADE DE VIDA E DO COMPORTAMENTO DO SISTEMA NERVOSO AUTÔNOMO EM PACIENTES OBESOS MÓRBIDOS SUBMETIDOS À CIRURGIA BARIÁTRICA</b>. Dissertação (Mestrado em Bioengenharia) - Universidade de Vale do Paraíba, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9257945961345588">Gérsika Bitencourt dos Santos</a>. <b>Papel de proteína dissulfeto isomerase na tivação do comlexo NOX fagocitário</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Heberton Campos Neves Vieira de Souza. <b>Falhas inevitáveis no arranjo geométrico durante o remodelamento ósseo que determinam uma perda óssea irreversível : um estudo por simulações Monte Carlo</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2009.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2974319270935111">Altamir Fernandes de Oliveira</a>. <b>ESTUDO CINÉTICO DA PROTEÍNA DISSULFETO ISOMERASE: NITRÓXIDOS COMO REGULADORES DA ATIVIDADE CATALÍTICA</b>. Dissertação (Mestrado em Mestrado em Química) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7484031579135586">André Antonio Bernardo</a>. <b>O uso de radiações não ionizantes</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade do Extremo Sul Catarinense, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ariane Hidalgo Mansano Pletsch. <b>Estudo comparativo da modulação autonômica da frequência cardíaca em repouso de idodos hipertensos, diabéticos e saudáveis</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0281834660891592">Geverson de Andrade Teixeira</a>. <b>Avaliação do biotratamento anaeróbio de percolados de aterro sanitário, utilizando-se parâmetros físicos-quimicos, biológicos e biomonitoramento com organismos bioindicadores</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade do Extremo Sul Catarinense, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Giovani Arnaldo Pacetti. <b>ANÁLISE DO COMPORTAMENTO DO SISTEMA NERVOSO AUTÔNOMO DE ALUNOS DO CURSO DE FORMAÇÃO EM CONTROLE DE TRÁFEGO AÉREO DURANTE A PRÁTICA SIMULADA DE NÃO RADAR</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Juliana Leal Ribeiro Cantalino. <b>Estudo do Efeito da Mobilização Craniana Sobre O Sistema Nervoso Autônomo Através Da Variabilidade Da Frequência Cardíaca,</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade do Vale do Paraíba, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5478116068552992">Luana Martins de Andrade</a>. <b>Avaliação de formas de preparação de estoques de trabalho na preservação de Streptomyces clavuligerus visando a produção de ácido clavulânico</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7202891297011849">Luciana Souza Chavasco</a>. <b>Regulação da atividade de NADPH oxidase de neutrófilos por nitróxidos</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Raul Marcel Daré. <b>Avaliação de coeficientes de rendimento e modelagem do processo fermentativo de produção de etanol</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1087619912727132">Alexandre Campesi</a>. <b>Avaliação da velocidade de cisalhamento média em biorreator convencional tipo tanque agitado e aerado</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2804074132459564">André Ghisi Ortigossa</a>. <b>Influência da sazonalidade na geração de resíduos sólidos de serviços de saúde produzidos nas unidades de saúde 24 horas de Criciúma/SC</b>. Dissertação (Mestrado em Mestrado Em Ciências Ambientais) - Universidade do Extremo Sul Catarinense, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7794382045548190">Emiliane Pereira Laignier</a>. <b>PAPEL DE RADICAIS TIILA NA PRODUÇÃO DE OXIDANTES POR MACRÓFAGOS: BUSCA DE NOVOS ALVOS BIOQUÍMICOS PARA O CONTROLE DO ESTRESSE OXIDATIVO NA INFLAMAÇÃO</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Ministério da Educação. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fábio Alessandro Pieri. <b>Uso do óleo de copaíba na prevençaõ da doença periodontal em cães</b>. Dissertação (Mestrado em Mestrado Em Ciência Animal) - Universidade José do Rosário Vellano, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bruno Anjos Blanco. <b>Potencial antimicrobiano e cicatrizante do creme de grãos de quefir submetidos a diferentes tratamentos térmicos</b>. Dissertação (Mestrado em Mestrado Em Ciência Animal) - Universidade José do Rosário Vellano, . 2006.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9638894751959867">Carolina Bellão</a>. <b>Avaliação de fontes de carbono e de condições de indução na expressão de canacistatina por Escherichia coli BL21 (DE3)</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gisanara Dors. <b>Hidrólise enzimática e biodigestão de efluentes da indústria de produtos avícolas</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de Santa Catarina, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2006.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6140458335560178">Guilherme Pimenta de Pádua Zolini</a>. <b>Avaliação da atividade de neutrófilos em ratos Wistar tratados com quefir</b>. Dissertação (Mestrado em Mestrado Em Ciência Animal) - Universidade José do Rosário Vellano, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7656931991723109">Maria Eliza de Castro Moreira</a>. <b>Isolamento, caracterização e avaliação da atividade antiinflamatória e cicatrizante de carboidratos contidos em solução aquosa de quefir</b>. Dissertação (Mestrado em Mestrado Em Saúde) - Universidade José do Rosário Vellano, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Nathália Novack. <b>Efeito de mananoligossacarídeos sobre a função hepática e intestinal em frangos</b>. Dissertação (Mestrado em Mestrado Em Saúde) - Universidade José do Rosário Vellano, . 2006.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7999741482353508">Marcel Otávio Cerri</a>. <b>Avaliação das Transferências de Calor e Massa em um Biorreator Airlift de Bancada para a Produção de Ácido Clavulânico</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7637969345259917">Marcos Coelho Bissoli</a>. <b>Respostas lipidêmicas de coelhos à ingestão de ração suplementada com quefir</b>. Dissertação (Mestrado em Mestrado Em Ciência Animal) - Universidade José do Rosário Vellano, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Rafaella Bergmann. <b>Composição microbiológica de quefir em meios de enriquecimento</b>. Dissertação (Mestrado em Mestrado Em Ciência Animal) - Universidade José do Rosário Vellano, . 2005.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Sheila Cristiane Alves Ortiz. <b>Estudo da produção de ácido clavulânico por Streptomyces clavuligerus em diferentes concentrações de lipídios e de fontes complexas de nitrogênio</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2005.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4866170062696360">Juliana Conceição Teodoro</a>. <b>Influencia das condicoes de alimentacao do meio suplementar na producao de acido clavulanico por Streptomyces clavuligerus em batelada alimentada</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0299258047786568">Luiz Claudio Macedo Cassiano Filho</a>. <b>Avaliação do desempenho de biorreator airlift para a produção de ácido clavulânico por Streptomyces clavuligerus</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>João Carlos Rosa. <b>Influência das condições de transferência de oxigênio na produção de ácido clavulânico por Streptomyces clavuligerus</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Denise Aparecida Corrêa Moreira. <b>Alterações peroxidativas e histológicas no fígado de ratos submetidos à ingestão crônica de etanol e vitamina A</b>. Dissertação - Universidade Federal de Alfenas, . 2001.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3135081161167616">Álvaro de Baptista Neto</a>. <b>Estudo cinético e reologico do processo descontínuo de produção de ácido clavulânico por Streptomyces clavuligerus</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2000.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 17:29:30<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,271 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PPGBiotec</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PPGBiotec</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Tese de doutorado'}, 
+series: [{data: [[2001,
+1],
+[2004,
+1],
+[2008,
+2],
+[2009,
+2],
+[2010,
+1],
+[2011,
+1],
+[2013,
+2],
+[2014,
+4],
+[2015,
+3],
+[2016,
+9],
+[2017,
+2],
+[2018,
+5],
+[2019,
+1],
+[2020,
+3],
+[2021,
+2],
+[2022,
+5],
+[2023,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Tese de doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 45<br>
+                    
+                    
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2710487912428155">Ivan Ilich Kerbauy Veloso</a>. <b>Avaliação da fermentação alcoólica extrativa em diferentes temperaturas com remoção de etanol por arraste com CO2</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Giovana Esteves. <b>POLIAMINAS COMO MITIGADORAS DOS EFEITOS DE DÉFICIT HÍDRICO EM PLANTAS DE MILHO</b>. Tese (Doutorado em Programa de Pós Graduação em Ciências Ambientais) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5162384820340060">Marcelo Rodrigues Martins</a>. <b>Avaliação da sustentabilidade socioeconômica e ambiental de propriedades leiteiras utilizando o sistema a pasto e confinado no estado de Minas Gerais</b>. Tese (Doutorado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7057387874580669">Marina Del Bianco Sousa</a>. <b>Avaliação do processo de produção de colorante natural vermelho pelo fungo endofítico Talaromyces minnesotensis</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Mayara Vieira Santos. <b>Estudo do processo integrado de fermentação alcoólica extrativa com CO2 com desidratação por adsorção e recuperação por absorção</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4022836598139408">Omar Cabezas Gómez. Identificação de metabólitos secundários com potencial antimicrobiano produzidos pelo fungo endofítico Lasiodiplodia sp</a>. <b>isolado do Ipê rosa (Handroanthus impetiginosus)</b>. Tese (Doutorado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4263468711432339">Paula Squinca de Carvalho</a>. <b>Cellulose nanomaterials isolated via enzymatic and mechanical routes for application in hydrogels</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0269816277533872">Taise Bonfim Martins</a>. <b>Estudo do desempenho de eliminadores de névoa na fermentação alcoólica extrativa</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9956303513828523">George Augusto Veloso de Oliveira</a>. <b>Análise da interação e cinética enzimática de ricina complexada a novos ligantes de potencial inibitório</b>. Tese (Doutorado em Química) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1833746881496736">Iara Camila de Almeida Bolina</a>. <b>Preparação e caracterização de partículas de sílica funcionalizada para a imobilização de lipase e aplicação dos biocatalisadores preparados na síntese de biolubrificantes</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4067015829295547">Mariane Molina Buffo</a>. <b>Influência da morfologia e do cisalhamento na produção de enzimas celulolíticas por Aspergillus niger</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8220209819669257">Kaio César da Silva Rodrigues</a>. <b>Fermentação alcoólica extrativa com remoção de etanol por arraste com CO2 e recuperação por absorção</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0776073519691539">Gustavo Silveira</a>. <b>Nova arquitetura de biocélula a combustível e caracterização dos seus parâmetros eletroquímicos</b>. Tese (Doutorado em Química) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Maria Fernanda Barbato Salomon. <b>Modelo de negócios de servitização na indústria aeronáutica</b>. Tese (Doutorado em Engenharia de Produção) - Universidade Federal de Itajubá, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7010012819835496">Mateus Nordi Esperança</a>. <b>Contribuição ao estudo do desempenho de biorreatores airlift de circulação interna: análise das condições operacionais e da geometria do equipamento</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Agência Nacional de Petróleo. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4831979408534465">Thiago Castilho Elias</a>. <b>MB-ISOSTER: UM SOFTWARE PARA SIMULAÇÃO DE BIOISOSTERISMO.</b>. Tese (Doutorado em Química) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3611312975264556">William Costa e Silva</a>. <b>Integração térmica e análise exergética das etapas de produção e recuperação de etanol 1G utilizando o software Aspen Plus</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Apoio ao Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1174905383146257">Diego Andrade Lemos</a>. <b>Estudo do Processo de Fermentação Alcoólica Extrativa por Solventes</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2983228894397657">Poliany Graziella de Freitas</a>. <b>Métodos Computacionais Aplicados na Busca por Novos Fármacos Contra Alvos Moleculares em Hepatite C, Câncer e Leishmaniose.</b>. Tese (Doutorado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Camila Florêncio. <b>Influência da composição de extratos enzimáticos produzidos por linhagens de Trichoderma sp na hidrólise do bagaço de cana-de-açúcar</b>. Tese (Doutorado em Biotecnologia) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6757715440030373">Caroline Eliza Mendes</a>. <b>Avaliação das condições hidrodinâmicas, de transferência de oxigênio e de cisalhamento em diferentes modelos e escalas de reatores pneumáticos</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4963218454931780">Daniele Maria Marques</a>. <b>Déficit hídrico e doses de nitrogênio na morfofisiologia e produção de genótipos de milho inoculadas por Azospirillum brasilense</b>. Tese (Doutorado em Botânica Aplicada) - Universidade Federal de Lavras, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9257945961345588">Gersika Bitencourt Santos</a>. <b>AÇÃO DO NITRÓXIDO TEMPOL SOBRE A ATIVIDADE DO COMPLEXO ENZIMÁTICO NADPH OXIDASE (Nox2) EM NEUTRÓFILOS</b>. Tese (Doutorado em Doutorado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9618572624201461">Jorge Luiz Silveira Sonego</a>. <b>Estudo da produção de etanol de sacarose por fermentação extrativa utilizando arraste com dióxido de carbono</b>. Tese (Doutorado em Programa de Pós-Graduação em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Luciano Jacob Corrêa. <b>Estudos de melhorias no processo de hidrólise enzimática de biomassas para produção de etanol</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Patricia Lunardelli Negreiros de Carvalho. <b>Prospecção de compostos antimicrobianos produzidos pela fermentação de fungos endofíticos isolados de manguezais</b>. Tese (Doutorado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Tiago Henrique. <b>Abordagem Computacional para Identificação de Marcadores Moleculares e de seus Ligantes com Potencial Aplicação no Tratamento do Carcinoma Epidermoide de Cabeça e Pescoçopara o tratamento de adenocarcinoma de pulmão</b>. Tese (Doutorado em Ciências da Saúde) - Faculdade de Medicina de São José do Rio Preto, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Vinícius Vescovi. <b>Lipases imobilizadas em suportes híbridos como biocatalisadores para a produção de ésteres de açúcar</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1739702914949735">Cláudio Daniel Cerdeira</a>. <b>Influência da Laserterapia na Diferenciação de Monócitos Humanos em Subtipos de Macrófagos M1 e M2: Avaliação de Marcadores Bioquímicos/Funcionais e Morfológicos</b>. Tese (Doutorado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6876593588999622">Fernanda Mariza Cunha</a>. <b>Estratégias de melhoria do bioprocesso de produção de enzimas celulolíticas por Aspergillus niger a partir de bagaço de cana-de-açúcar para a produção de etanol de segunda geração</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3444129592454266">Guilherme Youssef Rodriguez</a>. <b>Avaliação de parâmetros globais de desempenho de biorreatores pneumáticos através de fluidodinâmica computacional</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Agência Nacional de Petróleo. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Camila Ramos da Silva Pinto. <b>Remoção de Etanol por Stripping Empregando Dióxido de Carbono</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, . 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8903118201027369">Cecília Ladeira Lopes Costa</a>. <b>Estratégias para melhoria da produção de ácido clavulânico por Streptomyces clavuligerus</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Luis Henrique Romano. Bioprospecção de Microrganismos Endofíticos Isolados de Tabebuia sp. <b>e Hymenaea courbaril e Identificação da Produção de Metabólitos de Interesse Biotecnológico</b>. Tese (Doutorado em Biotecnologia) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7010012819835496">Mateus Nordi Esperança</a>. <b>Avaliação da Hidrodinâmica e da Transferência de Oxigênio em Biorreatores Airlift de Diferentes Geometrias para a Produção de Celulases</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Agência Nacional de Petróleo. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9257945961345588">Gersika Bitencourt Santos</a>. <b>Proteína Dissulfeto Isomerase: Nova subunidade regulatória do complexo fagocitário Nox2</b>. Tese (Doutorado em Doutorado em Ciências Farmacêuticas) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7269967957109739">Maritza Catalina Condori Bustamante</a>. <b>Transferência de Oxigênio e Condições de Cisalhamento em Biorreator Convencional com Diferentes Impelidores</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6716019534474825">Douglas Ferreira</a>. <b>Produção, isolamento e identificação de metabólito com atividade antitumoral de cultura de Streptomyces carpaticus</b>. Tese (Doutorado em Programa de Pós-Graduação em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9638894751959867">Carolina Bellão</a>. <b>Produção de cefamicina C por Streptomyces clavuligerus em batelada e batelada alimentada</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Humberto Lameira Miranda. <b>A Influência da Interação de Diferentes Ordens e Tempos de Intervalo no Número de Repetições em Exercícios Resistidos</b>. Tese (Doutorado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2009.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7999741482353508">Marcel Otávio Cerri</a>. <b>Hidrodinâmica e Transferência de oxigênio em três biorreatores airlift de circulação interna</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Daniela Batagllia. Precipitação do clavulanato de potássio a partir do ácido clavulanico produzido por S. <b>clavuligerus</b>. Tese (Doutorado em Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3433047807065363">Jaine Honorata Hortolan Luiz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4866170062696360">Juliana Conceição Teodoro</a>. <b>Influência das condições de alimentação de glicerol e ornitina na produção de ácido clavulânico por Streptomyces clavuligerus</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Álvaro de Baptista Neto. <b>Estudo do processo de produção de ácido clavulânico por Streptomyces clavuligerus em cultivos contínuos com alta concentração celular</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2004.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ester Ribeiro Gouveia. <b>Desenvolvimento do processo de producao de acido clavulanico por Streptomyces Clavuligerus NRRL 3585</b>. Tese (Doutorado em Engenharia Química) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2001.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 17:29:30<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

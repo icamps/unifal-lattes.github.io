@@ -1,0 +1,383 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PPGBiotec</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PPGBiotec</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de prêmios e títulos'}, 
+series: [{data: [[1998,
+1],
+[2000,
+1],
+[2001,
+1],
+[2002,
+5],
+[2003,
+1],
+[2004,
+1],
+[2005,
+2],
+[2006,
+1],
+[2007,
+3],
+[2009,
+3],
+[2010,
+4],
+[2011,
+2],
+[2012,
+5],
+[2013,
+10],
+[2014,
+4],
+[2015,
+7],
+[2016,
+6],
+[2017,
+12],
+[2018,
+3],
+[2019,
+10],
+[2020,
+4],
+[2021,
+2],
+[2022,
+7]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de prêmios e títulos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 95<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Web Encontro Nacional de Engenharia Química, BIOTC - Biotecnologia e Bioprocessos. II Web Encontro Nacional de Engenharia Química, II WENDEQ 2022.. 2022.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Menção Honrosa - VIII Simpósio Integrado UNIFAL-MG 19ª Semana Nacional de Ciência e Tecnologia, Universidade Federal de Alfenas.. 2022.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Menção Honrosa - VIII Simpósio Integrado UNIFAL-MG 19ª Semana Nacional de Ciência e Tecnologia,, UNIFAL-MG.. 2022.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Menção Honrosa no XXIII Simpósio Nacional de Bioprocessos - Veloso et al. - ?THERMAL ANALYSIS OF EXTRACTIVE FEDBATCH FERMENTATION WITH CO 2 STRIPPING AT LOW TEMPERATURE", Associação Brasileira de Engenharia Química.. 2022.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Professor homenageado da turma 2/2017 do curso de Química - Bacharelado, UNIFAL-MG.. 2022.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Prêmio melhor trabalho apresentado no evento II Web Encontro Nacional de Engenharia Química, BIOTC - Biotecnologia e Bioprocessos., II Web Encontro Nacional de Engenharia Química.. 2022.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>World's Top 2% Scientists, 2021 - https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/5, Elsevier - Stanford University.. 2022.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Prêmio Jovem Micologista - Maria Auxiliadora de Queiroz Cavalcanti, Departamento de Micologia da UFPE e Departamento de Ciências Biológicas da UEFS.. 2021.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>World's Top 2% Scientists, 2020 - https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/50, Elsevier - Stanford University.. 2021.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Menção honrosa do trabalho intitulado "Otimização da esterificação enzimática para a produção de ésteres de isoamila" apresentado (Oral) no III WTL, UFMG.. 2020.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Paraninfo da turma 2/2015 do curso de Química Bacharelado, UNIFAL-MG., UNIFAL-MG.. 2020.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Patrono da turma 1/2016 do curso de Biotecnologia, UNIFAL-MG., UNIFAL-MG.. 2020.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Prêmio de melhor Apresentação Oral - sessão Exatas no XIV Colóquio Técnico-científico/VI Encontro de Extensão da UniFOA, em 06 e 07 de novembro, Centro Universitário de Volta Redonda (UniFOA).. 2020.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1o Lugar no 2o. Prêmio Nacional de Ensino de Bioquímica e Biologia Molecular "Bayardo Baptista Torres", Sociedade Brasileira de Bioquímica e Biologia Molecular.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Melhor Pôster SINAFERM/SHEB 2019 - Eixo Temático Mod., Instrum. e Contr. de Bioprocessos - Martins et al., Gas hold-up and mass transfer on stripping of ethanol by CO2 in three pneumatic bioreactors, ABEQ.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Melhor Pôster SINAFERM/SHEB 2019 - Eixo Temático Proc. Microbiológicos - Buffo et al., Oxygen transfer and fragmentation of A. niger pellets in stirred tank and concentric-duct airlift bioreactors, ABEQ.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Menção Honrosa - VIII Prêmio CREA-RJ de Trabalhos Científicos e Tecnológicos 2019, CREA-RJ.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Menção honrosa do trabalho intitulado "Characterization of amino-functionalized rice husk silica and its use as support to immobilize lipase" apresentado (pôster) no XXII SINAFERM e XIII SHEB, UFU.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Menção honrosa do trabalho intitulado "Enzymatic synthesis of a surfactant ester catalyzed by lipase immobilized on functionalized SiO2" apresentado na forma de pôster no Ist SciBioSus 2019, UFMG.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Patrono da turma 1/2015 do curso de Biotecnologia, UNIFAL-MG., UNIFAL-MG.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Professor homenageado da turma 2/2014 do curso de Química - Bacharelado, UNIFAL-MG.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Prêmio Ciência, Tecnologia e Inovação em Biodiesel - VII Congresso da Rede Brasileira de Tecnologia, Rede Brasileira de Tecnologia e Inovação de Biodiesel.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Prêmio de melhor trabalho apresentado na área de Micologia Industrial - IX Congresso Brasileiro de Micologia, IX Congresso Brasileiro de Micologia.. 2019.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Diploma de Honra ao Mérito, pela participação em projetos de pesquisa relacionados a produção de Biodiesel, Centro Acadêmico de Engenharia Ambiental - CAEA - Escola de Engenharia de Lorena - EEL - USP... 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mençao Honrosa - XXII Congresso Brasileiro de Engenharia Química (COBEQ 2018) - Pereira et al. Trabalho PT.0999. Predição da Eficiência de Fermentação Alcoólica por Redes Neurais., ABEQ.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Patrono da turma 1/2014 do curso de Biotecnologia, UNIFAL-MG.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10 Anos do Curso de Biotecnologia: desafios e conquistas., Universidade Federal de Alfenas.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2o Lugar no 1o Prêmio Nacional de Ensino de Bioquímica e Biologia Molecula, Sociedade Brasileira de Bioquímica e Biologia Molecular.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Melhor Pôster SINAFERM/SHEB 2017 - Eixo Temático 3: Processos Microbiológicos - Esperança et al., Hydrodynamic evaluation of a square cross-section split airlift using CFD, ABEQ.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Melhor Pôster SINAFERM/SHEB 2017 - Eixo Temático 4. Model., Instrument. e Contr. de Bioproc. - Moraes et al., Evaluation of extractive batch ethanol fermentation at high temperature with CO2 stripping, ABEQ.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Menção honrosa Key note no Eixo Temático - Bioprocessos e Biotecnologia, XXI Simpósio Nacional de Bioprocessos e XII Simpósio de Hidrólise Enzimática de Biomassas, UNIT.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Paraninfo da turma 2/2012 do curso de Química - Bacharelado, UNIFAL-MG.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Professor homenageado da turma 1/2013 do curso de Biotecnologia, UNIFAL-MG.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Professor homenageado da turma 2017 do Colégio Técnico de Lorena, Prof. Nelson Pesciotta., Colégio Técnico de Lorena, Escola de Engenharia de Lorena, Universidade de São Paulo (COTEL-EEL-USP).. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Prêmio Capes de Tese 2016 - Menção Honrosa - Estudos de melhorias no processo de hidrólise enzimática de biomassas para produção de etanol - Luciano Jacob Corrêa (PPGEQ/UFSCar) (Coorientador), CAPES.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Prêmio de Melhor Trabalho - Categoria graduação- apresentado na área de Processos Biotecnológicos na VIII Semana de Biotecnologia Industrial EEL-USP, Departamento de Biotecnologia Industrial - Escola de Engenharia de Lorena-Universidade de São Paulo.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Prêmio de Melhor Trabalho - Categoria pós-graduação- apresentado na área de Processos Biotecnológicos na VIII Semana de Biotecnologia Industrial EEL-USP, Departamento de Biotecnologia Industrial - Escola de Engenharia de Lorena-Universidade de São Paulo.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Quarto colocado - Programa de Premiação a Excelência Científica (Edital PRPPG 046/2016), Universidade Federal de Alfenas - Pró-Reitoria de Pesquisa e Pós-Graduação.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1° lugar no 13° Prêmio Destaque na Iniciação Científica e Tecnológica 2015 - aluna Flávia Arantes Pires Lage, CNPq.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Prêmio Cientista e Empreendedor do ano Instituto Nanocell na categoria de Aluno na área de Biotecnologia aplicada à saúde, Instituto Nanocell.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Paraninfo da primeira turma do curso de graduação em Engenharia de Bioprocessos da Unifei (formandos 2016), Unifei.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Paraninfo da turma 1/2012 do Curso de Biotecnologia., UNIFAL-MG.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Professor homenageado da turma 1/2013 do curso de Farmácia, UNIFAL-MG.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Professor homenageado da turma 2/2011 do curso de Química - Bacharelado, UNIFAL-MG.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1° colocado na premiação dos melhores trabalhos da categoria graduação no XX SINAFERM / XI SHEB,, XX SINAFERM/ XI SHEB, UFC - SINAFERM.. 2015.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Coach of the winning team in the doctoral debate, IFPR - 23rd International Conference on Production Research.. 2015.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Menção honrosa do trabalho intitulado "Estudo cinético da produção de ácidos graxos na hidrólise de óleo de soja catalisada por lipase de mamona" no XX SINAFERM/ XI SHEB, UFC - SINAFERM.. 2015.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Menção honrosa do trabalho intitulado "Otimização da síntese de lonoleato de etila utilizando a lipase produzida de Geotrichum candidum imobilizada em suporte de baixo custo" no XX SINAFERM/ XI SHEB, UFC - SINAFERM.. 2015.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Orientação do terceiro melhor trabalho de Iniciação Científica na categoria Ciências Biológicas e Biotecnologia, Universidade Federal de Alfenas - I Simpósio Integrado UNIFAL-MG.. 2015.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2834667104138232">Thiago Corrêa de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Professor homenageado da turma 2/2010 do curso de Química - Bacharelado, UNIFAL-MG., UNIFAL.. 2015.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Trabalho premiado no I Simpósio Integrado UNIFAL-MG (2° Colocação - Área Ciências Biológicas e Biotecnologia), Universidade Federal de Alfenas (UNIFAL-MG).. 2015.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Paraninfo da turma 2009/1 do curso de Engenharia Química da Universidade Federal de São Hoão del-Rei, UFSJ.. 2014.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Paraninfo da Turma de Biotecnologia, Universidade Federal de Alfenas.. 2014.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Prêmio Professor Giulio Massarani - Melhor trabalho apresentado na área de Processos Biotecnológicos, XX Congresso Brasileiro de Engenharia Química, ABEQ... 2014.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8233720168272812">Ana Karine Furtado de Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Trabalho premiado em 3° lugar no Seminário de Iniciação Científica (SIC/ 2014) da UNIFAL-MG, intitulado ?imobilização de lipases de Geotrichum candidum produzidas por fermentação submersa?, Universidade Federal de Alfenas.. 2014.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>4º Prêmio Top Etanol (Mateus Nordi Esperança: 3º lugar na na categoria Monografias - Graduação e Pós-Graduação Lato Sensu), Projeto AGORA - UNICA.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Destaque para o trabalho intitulado "Imobilização de lipases vegetais em suporte hidrofóbico: Aplicação dos biocatalisadores em síntese de biodiesel ", XI Congresso de Produção Científica - UFSJ.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Early Career Researchers Mentoring Award, International Foundation for Production Research.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Honra ao Mérito - Homenagem pela Participação no Desenvolvimento da Propriedade Intelectual da UFSCar, UNiversidade Federal de São Carlos (UFSCar).. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Menção honrosa do trabalho intitulado "Produção e imobilização de lipase de Geotrichum candidum: Aplicação do biocatalisador na síntese de ésteres de interesse industrial " no XIX SINAFERM/ X SHEB, .. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Menção Honrosa no XIX Simpósio Nacional de Bioprocessos - X Simpósio de Hidrólise Enzimática, Associação Brasileira de Engenharia Química - ABEQ.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5292381247624407">Daniela Battaglia Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Menção Honrosa no XIX Simpósio Nacional de Bioprocessos - X Simpósio de Hidrólise Enzimática,, Associação Brasileira de Engenharia Química - ABEQ e SINAFERM/SHEB.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Professor Homenageado do Curso de Biotecnologia, Universidade Federal de Alfenas.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Prêmio - 5 Melhores Paineis do XIX SINAFERM?X SHEB-2013 - Florêncio et al., Validação do método de fermentação combinada para a produção de endoglucanases e xilanases por diferentes linhagens de fungo, ABEQ.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Top Cited Papers for 2010 and 2011 - Immobilization and stabilization of microbial lipases by multipoint covalent attachment on aldehyde-resin affinity: Application of the biocatalysts in biodiesel sy, Journal of Molecular Catalysis B: Enzymatic.. 2013.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Melhor Avaliador durante o XIX Simpósio de Engenharia de Produção, Departamento de Engenharia de Produção da Faculdade de Engenharia de Bauru (FEB).. 2012.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Melhor Trabalho Categoria Doutorado - IV Jornada Científica Embrapa - São Carlos, Embrapa.. 2012.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Menção Honrosa no II Congresso Farmacêutico da UNESP, UNESP.. 2012.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Professor Homenageado do Curso de Biotecnologia, Universidade Federal de Alfenas.. 2012.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Publicação de destaque do Programa de Pós Graduação em Biologia Funcional e Molecular, Programa de Pós Graduação em Biologia Funcional e Molecular/IB/Unicamp.. 2012.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Menção Honrosa no 1st Brazilian BioEnergy Science and Technology Conference (Campos do Jordão, August 14 to 18th, 2011) - Esperança et al. vide em "Trabalhos publicados em anais de eventos", FAPESP.. 2011.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Prêmio Capes de Tese 2010 da área de Engenharias II (Orientador) - Hidrodinâmica e Transferência de oxigênio em três biorreatores airlift de circulação interna - Marcel Otávio Cerri (PPG-EQ/UFSCar), Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES.. 2011.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Melhor Painel na II Jornada Científica Embrapa - São Carlos, Embrapa.. 2010.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Melhor trabalho em painel apresentado na XXXIX Reunião Anual da SBBq, Sociedade Brasileira de Bioquímica e Biologia Molecular.. 2010.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Professor Homenageado do Curso de Biotecnologia, Universidade Federal de Alfenas.. 2010.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Trabalho premiado em 1º lugar no XII Workshop e Congresso da Associação Latino Americana de Geoquímica Orgânica - ALAGO, .. 2010.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1409264122407992">André Aguiar Mendes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>7th International Congress of Pharmaceutical Sciences Best Poster Award, Brazilian Association of Pharmaceutical Sciences.. 2009.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Melhor trabalho na seção de metabolismo do XII congresso brasileiro de fisiologia vegetal, Sociedade Brasileira de fisiologia vegetal.. 2009.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0595142298134685">Plinio Rodrigues dos Santos Filho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Trabalho premiado como primeiro lugar na área de Saúde na II JICA, Universidde Federal de Alfenas.. 2009.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Honra ao Mérito, Federação das Sociedades de Biologia Experimental-FESBE.. 2007.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Paraninfo da Turma de Engenharia de Computação, Universidade do Vale do Paraíba/UNIVAP.. 2007.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Prêmio de Melhor Pôster no XVI Simpósio Nacional de Fermentações (SINAFERM 2007) - Cerri et al. -, Vallée S.A... 2007.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6244428434217018">Alberto Colli Badino Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Marqui's Who's Who in the World 2006 (23rd Edition), Who's Who in the World.. 2006.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Melhor Trabalho - Congresso de Fisioterapia 2005, Unifenas.. 2005.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Processo Seletivo de Docentes, UNIT - Universidade Tiradentes.. 2005.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Honra ao Mérito, Federação das Sociedades de Biologia Experimental-FESBE.. 2004.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Melhor Trabalho Apresentado - II Seminário de Iniciação Científica da Unifenas, Unifenas.. 2003.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aplicação de Métodos Moleculares no Estudo e Monitoramento da Diversidade de Processos Microbianos em Biorreatores e Sistemas de Tratamentos de Efluentes e Resíduos Tóxicos, CNPq/MCT ? CBAB. Universidade de Campinas/ UNICAMP-CPQBA - Campinas/SP.. 2002.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Melhor Trabalho de Ciências Biológicas - I Seminário de Iniciação Científica da Unifenas, Unifenas.. 2002.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0436922594542722">Jose Mauricio Schneedorf Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Melhor trabalho na forma de resumo na área de Engenharias, durante o II Encontro de Pós-Graduação Latino Americano - Propriedades cinéticas de preparações comerciais de lipases oriundas de fontes animal e microbiana, UNIVAP.. 2002.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2926571414651131">Adriano Aguiar Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Menção Honrosa pela qualidade de apresentação do trabalho na forma de poster durante o VII Seminário de Hidrólise Enzimática de Biomassas - VII SHEB, Departamento de Engenharia Química da Universidade Estadual de Maringá.. 2002.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Prêmio Nacional de Pós-Graduação 2001- OPP/ABEQ - 1º colocado na Categoria Mestrado, Associação Brasileira de Engenharia Química - ABEQ.. 2002.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Estrategias de Purificação de Biomoléculas - CBAB/MCT, Faculdade de Ciências Exactas y Tecnologia, UNT/PROIMI, Tucumán-Argentina.. 2001.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Curso de Imobilização de Proteínas em Suportes Sólidos: Fundamentos e Aplicações, Universidade Federal de Pernambuco - LIKA - UFPE.. 2000.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0524540000904823">Ernandes Benedito Pereira</a>.</font></td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>VIII Prêmio Estímulo Kolynos, Kolynos do Brasil.. 1998.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0963588859777460">Maísa Ribeiro Pereira Lima Brigagão</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 17:29:30<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

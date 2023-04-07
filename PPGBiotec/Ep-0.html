@@ -1,0 +1,933 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PPGBiotec</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PPGBiotec</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[1994,
+1],
+[1997,
+1],
+[1999,
+1],
+[2000,
+5],
+[2001,
+3],
+[2002,
+16],
+[2003,
+14],
+[2004,
+20],
+[2005,
+27],
+[2006,
+20],
+[2007,
+18],
+[2008,
+18],
+[2009,
+11],
+[2010,
+22],
+[2011,
+32],
+[2012,
+19],
+[2013,
+15],
+[2014,
+9],
+[2015,
+17],
+[2016,
+21],
+[2017,
+16],
+[2018,
+14],
+[2019,
+22],
+[2020,
+6],
+[2021,
+16],
+[2022,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 367<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>33º Encontro Técnico Aesabesp/Congresso Nacional de Saneamento e Meio Ambiente. Avaliação da eficiência da estação de tratamento de esgoto da cidade de Timóteo-MG. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>International Symposium on Biosciences and Biotechnology: Inovations and Trends. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV International Symposium on Fungal Stress - ISFUS & International Fungal Biology Conference - IFBC.From agro-industrial by-products to biofuels: using rice and cassava washing waters to produce functional lipids and biodiesel. 2022. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>23º Congresso Brasileiro de Engenharia Química e 18º Encontro Brasileiro Sobre o Ensino de Engenharia Química. Improvement of Candida rugosa lipase stability by simultaneous immobilization and drying processes: green carrier and spray drying.. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>25th Annual Green Chemistry & Engineering Conference. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>3rd NanoPurAsp Mini Symposium. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>4º Ciclo de Palestras do Programa de Pós-graduação em Engenharia Química UNIFAL.Engenharia Química e as inovações na pesquisa e indústria de polímeros: desafios e oportunidades. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>8ª Semana da Química e 1º Workshop do PPGQ "Os Desafios da Ciência na Era Digital. 8ª Semana da Química e 1º Workshop do PPGQ "Os Desafios da Ciência na Era Digital. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>8ª Semana da Química e 1º Workshop do PPGQ Os Desafios da Ciência na Era Digital. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>9º Congresso Brasileiro de Extensão Universitária (CBEU). Área Temática de Extensão 5 - Meio Ambiente. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Congresso Internacional Movimentos Docentes, IV SEPAD e II PRATIC. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Simpósio de Microbiologia de Rondônia: Saúde, Ambiente e Inovação.. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I WEB ENCONTRO NACIONAL DE ENGENHARIA QUÍMICA.ANÁLISE DE ÍONS EM RESÍDUOS AGROINDUSTRIAIS: UTILIZAÇÃO DE MINERAIS SECUNDÁRIOS COMO FERRAMENTAS IMPORTANTES PARA VALORIZAÇÃO DE SUBPRODUTOS. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Dia com Biotecnologia da Escola de Engenharia de Lorena-USP.II Dia com Biotecnologia da Escola de Engenharia de Lorena-USP. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>II Simpósio da Pós-graduação em Engenharia e Ciência de Alimentos.Processos de purificação e imobilização de enzimas para aplicações na indústria de alimentos. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VI Encontro Pernambucano de Micologia e do II Simpósio Micológico da Mata Atlântica Nordestina,. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VII Simpósio Integrado Unifal: Transversalidade, ciência e afeto.VII Simpósio Integrado Unifal: Transversalidade, ciência e afeto. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>X Seminário de Extensão, Cultura e Assuntos Comunitários.X Seminário de Extensão, Cultura e Assuntos Comunitários. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXV Congresso Latino Americano de Microbiologia (XXV ALAM). Microbial lipid production from starchy sources: Use food industry waste as substrate for fungal biorefinery. 2021. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3º Ciclo de Palestras do Programa de Pós-graduação em Engenharia Química UNIFAL.Bioprocessos e Sustentabilidade. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia. Atualização e Expansão da Biblioteca de Fragmentos do Software MB-Isoster.. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I SIMPÓSIO INTERNACIONAL EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS ? V SEMINÁRIO EM INOVAÇÃO E TECNOLOGIA NA ÁREA DE ALIMENTOS. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>III Workshop de Tecnologias Limpas.Oxidação dos corantes Preto de Remazol b e Violeta Básico 10 por reagentes Fenton e ácido ascórbico. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Webinário - Microrganismos probióticos em prol do bem-estar. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XL Encontro Nacional de Engenharia de Produção (ENEGEP WEB 2020). Gestão de Riscos e Resiliência de cadeias de suprimentos em crises globais. 2020. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13 Simpósio Latino Americano em Ciência de Alimentos.Improvement of antioxidant and antimicrobial activity of soy isoflavones extracts bioconverted with ?-glucosidase. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1a Reunião 2019 do Fórum Nacional de Pró-Reitores de Planejamento e de Administração das Instituições Federais de Ensino Superior (Forplad).Validação do ForRisco. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>5 Simpósio Integrado Unifal.Estudo do potencial de fungos endofíticos isolados de Ipê Rosa (Handroanthus impetiginosus) para a produção de celulases por fermentação semissóolida. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>7 Semana da Química. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>7° Semana da Química: As interatividades da Química. Novos conceitos na relação Homem & Máquina - Indústria 4.0. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ciclo de Palestras PPGBIOTEC. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Ciclo de Palestras do Programa de Pós-graduação em Biotecnologia (PPGBiotec).De resíduos agroindustriais a múltiplos produtos de alto valor agregado: Novas perspectivas para uma biorrefinaria integrada.. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>II Workshop de Tecnologias Limpas - II WTL. PREPARATION AND CHARACTERIZATION OF FUNCTIONALIZED RICE HUSK SILICA FOR LIPASE ADSORPTION. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IX Congresso Brasileiro de Micologia,. De subprodutos agroindustriais a óleos funcionais: biossíntese de ácidos graxos poli-insaturados pelo fungo filamentoso Mucor circinelloides. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Jornada Adacêmica 2019.Gestão de Projetos. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>PUBSIC Conference 2019. ForRisco Methodology and the empiricism of risk management in Brazilian High-Level Educational Institutions. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Semana da Biologia de Tangará da Serra e Workshop de Instrumentação para o Ensino de Ciências e Biologia (SEBIOTAS e WIECBIO),. BIOCOMBUSTÍVEL DE SEGUNDA GERAÇÃO: ESTUDOS BIOTECNOLÓGICOS E APLICAÇÕES. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V Congresso Mineiro de Engenharia de Alimentos - CMEA. Otimização de Processos e Planejamento Experimental. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Workshop de Restauração Ambiental: Rio Doce em Foco.Crescimento e Desenvolvimento de Plantas de milheto, milho e sorgo em rejeitos de mineração e o efeito benéfico da adição de humus de minhoca. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>X-Meeting. Building New Molecules by Bioisosteric Replacement using MB-Isoster Program.. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>X-Meeting. COMPUTATIONAL APPROACH OF NSCLC MARKERS APPLIED TO DRUG DESIGN AGAINST PD-L1 AND HOMOLOGY MODELING BY TUSC2 (FUS1). 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>X-Meeting. MOLECULAR MODELING METHODS APPLIED TO THE STUDY OF STAPHYLOCOCCUS AUREUS TARGET PROTEINS. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIX Encontro Latino Americano de Pós-Graduação (XIX EPG).Avaliação das características físico-químicas do efluente da agroindústria da mandioca. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XVII Congresso Brasileiro de Fisiologia Vegetal. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XVII Congresso Brasileiro de Fisiologia Vegetal. Maize chlorophyll- ? fluorescence analysis under water deficit with application of Trehalose derivates mixture. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXII Simpósio Nacional de Bioprocessos e XIII Simpósio de Hidrólise Enzimática de Biomassas. Characterization of Candida rugosa lipase to obtain fatty acids from the coffee oil hydrolysis. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXII Simpósio Nacional de Bioprocessos XIII Simpósio de Hidrólise Enzimática de Biomassas. Dairy by-products as substrate for the synthesis of high added-value compounds by Mucor circinelloides.. 2019. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>26 Simpósio Internacional de Iniciação Científica e Tecnológica da USP - SIICUSP,.26º SIICUSP - Simpósio Internacional de Iniciação Científica e Tecnológica da Universidade de São Paulo. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2nd International Conference on Bioresource Technology for Bioenergy, Bioproducts & Environmental Sustainability. Sugarcane-bagasse hydrolysate as a platform for a fungal-based biorefinery. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>3º International Congress on Information and Communication Technology. Risk Managment in the Public Sector: A proposed reference model and tool survey. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ciclo de Palestras do Programa de Pós-graduação em Engenharia Química UNIFAL.Extração de óleos microbianos e sua utilização em processos de interesse industrial. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Encontro do Fórum Nacional de Gestores de Inovação e Transferência de Tecnologia - FORTEC- Sudeste. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Fórum de Pró-Reitores de Planejamento e Administração.Gestão de Risco - Desenvolvimento do Software. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV FÓRUM NACIONAL DE PRÓ-REITORES DE PLANEJAMENTO E ADMINISTRAÇÃO.Painel 3: ForRisco ? lançamento do livro, apresentação do software e da capacitação on-line. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>O Modelo ForRisco: Curso de Capacitação.O Modelo ForRisco: Curso de Capacitação. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>VI Simpósio de Engenharia e Ciência de Alimentos.Modelagem da Solubilidade do B-Sitosterol em Solventes Orgânicos Usando o Modelo NRTL. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XIII Seminário Brasileiro de Tecnologia Enzimática.Evaluation of the potential of amylase and cellulase production by endophytic fungi isolated from Handroantus impetiginosus. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXII Congresso Brasileiro de Engenharia Química - XXII COBEQ. PREPARATION AND CHARACTERIZATION OF FUNCTIONALIZED RICE HUSK SILICA FOR LIPASE ADSORPTION. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXII Congresso Brasileiro de Engenharia Química. Análise cinética da descoloração do corante cromotrope 2R por processos Fenton na presença de fenóis derivados de lignina. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXII CONGRESSO BRASILEIRO DE ENGENHARIA QUÍMICA. PRODUÇÃO DE ÓLEOS MICROBIANOS A PARTIR DE SUBSTRATOS DE BAIXO CUSTO E RENOVÁVEIS: UTILIZAÇÃO DE SUBPRODUTOS DA AGROINDÚSTRIA. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXXII Congresso Nacional de Milho e Sorgo. Respostas morfofisiológicas de milho e sorgo sob déficit hídrico. 2018. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12 Slaca - Simposio Latino americano de Ciência de Alimentos.Combination of agroindustrial wastes as strategy to increase the -glucosidase production by Aspergillus niger under solid-state fermentation. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>14th European Mediterranean & Middle Eastern Conference on Information Systems. ?Perception of Enterprise Risk Management in Brazilian HigherEducation Institutions?. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>28th DEXA Conferences and Workshops. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>3ª Semana de Inovação em Gestão Pública. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>4º Reunião do Fórum Nacional de Pró-Reitores de Planejamento e de Administração das Instituições Federais de Ensino Superior (Forplad).Gestão de Riscos na Universidade Federal de Alfenas.. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BIOTECNOLOGIA - UNIFAL/MG - 10 ANOS - Desafios e Conquistas. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Brazilian-International Congress of Genetics. The LincRNA Ultra-Conserved UC.112 and UC.160 are associated with childhood T-Cell acute lymphoblastic leukemia.. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop do Programa de Pós-Graduação em Ciências Biológicas.Identificação de Candidatos Vacinais em potencial para Trichosporon asahii Baseada na Tecnologia de Vacinologia Reversa. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II FÓRUM NACIONAL DE PRÓ-REITORES DE PLANEJAMENTO E ADMINISTRAÇÃO. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Semana de Biologia Sintética. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI Ciclo de Palestras em Biotecnologia.Conversão de Materiais Lignocelulósicos em Biocombustíveis. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VIII Semana de Biotecnologia Industrial EEL-USP.Biossíntese de ácidos graxos poli-insaturados C18 por fungo filamentoso Mucor circinelloides: Ácidos graxos nutricionalmente importantes para as funções vitais das células. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXI Simposio Nacional de Bioprocessos XII Simpósio de Hidrólise Enzimática de Biomassas. PROCEDURES FOR THIRD-GENERATION PRODUCTION OF BIODIESEL BY SOLID ACID CATALYSIS: _Mucor circinelloides_ AS A POTENTIAL FEEDSTOCK. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXI Simpósio Nacional de Bioprocessos (SINAFERM) e o XII Simpósio de Hidrólise Enzimática de Biomassas (SHEB). Procedures for third-generation production of biodiesel by solid acid catalysis: Mucor circinelloides as a potential feedstock. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXI Simpósio Nacional de Bioprocessos e XII Simpósio de Hidrólise Enzimática de Biomassas. EFFECT OF TEMPERATURE ON THE SYNTHESIS OF A WAX ESTER IN A SOLVENT SYSTEM: KINETIC AND THERMODYNAMIC STUDY. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXI Simpósio Nacional de Bioprocessos/ XII Simpósio de Hidrólise Enzimática de Biomassas.Effect of the amino acid cysteine in the decolorization of dyes by Fenton processes. 2017. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2º Fórum de Proteção do Conhecimento Sensível nas Universidades de Minas Gerais. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>3ºFórum de Proteção do Conhecimento Sensível nas Universidades de Minas Gerais. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>67º CONGRESSO NACIONAL DE BOTÂNICA, XXXVI ERBOT e 8ª JORNADA CAPIXABA DE BOTÂNICA. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>6a Semana da Química. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Fórum "Mudanças Climáticas Globais e a Segurrança Alimentar". 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Workshop do Programa de Pós-Graduação em Ciências Biológicas.Mesa-redonda: Biologia do Câncer.. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Simpósio Integrado Unifal-MG.Análise química comparativa dos constituintes de extratos obtidos do fruto Goji berry e de cápsulas disponíveis comercialmente. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV Jornada Científica de Biotecnologia - IV JOBITU 2016.Reaproveitamento Biotecnológico de Resíduos Agroindustriais. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IV Jornada Científica de Biotecnologia 2016 - IV JOBITU 2016. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IV Jornada Científica de Biotecnologia. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI COEN. Mini-curso: Gerenciamento de Projetos. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VI Semana da Química. Tratamento de resíduos: Processos Oxidativos Avançados. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>X Encontro Anual da Associação Fórum Nacional de Gestores de Inovação e Transferência de Tecnologia (FORTEC). 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XI Brazilian Meeting on Chemistry of Food and Beverages - V Simpósio de Engenharia e Ciência de Alimentos.Processos Biotecnológicos em Sistemas Aquosos Bifásicos. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XII Seminário Brasileiro de Tecnologia Enzimática (XII ENZITEC). Imobilização de lipase pancreática suína em partículas de poli-hidróxi butirato para a produção de ésteres etílicos a partir de óleos de macaúba e aroma de abacaxi. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XVIII Encontro da Rede Mineira de Propriedade Intelectual. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXI Congresso Brasileiro de Engenharia Química (XXI COBEQ). Enzymatic production of a biolubricant by esterification reaction: Optimization and reusability studies. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXI Congresso Brasileiro de Engenharia Química - Cobeq 2016. Aplicação de processos Fenton mediados por metoxifenóis sobre o azocorante Pardo de Bismarck Y. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XXI Congresso Brasileiro de Engenharia Química. Avaliador de trabalhos submetidos ao XXI Congresso Brasileiro de Engenharia Química (COBEQ 2016). 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXI Congresso Brasileiro de Engenharia Química. Cultivo do fungo Mucor circinelloides para a produção de lipídio (Single cell oil-SCO) utilizando diferentes fontes de carbono. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXXI Congresso Nacional de Milho e Sorgo. Efeito da Quitosana na Anatomia Radicular de Híbridos Transgênico e não Transgênico de Milho. 2016. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10o Congresso Brasileiro de Gestão da Inovação e do Desenvolvimento de Produtos ? CBGDP. Métodos de tomada de decisão no Processo de Desenvolvimento de Produtos - Mini Curso. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2 DataStorm Summer School.2 DataStorm Summer School. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>22ND INNOVATION & PRODUCT DEVELOPMENT MANAGEMENT CONFERENCE. Fuzzy Front End in New Product development: Does size matter?. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>23rd Congress of the International Union of Biochemistry and Molecular Biology. INHIBITORY ACTION OF NITROXIDE TEMPOL ON PROTEIN DISULFIDE ISOMERASE ACTIVITY AND NEUTROPHIL NADPH OXIDASE ACTIVATION. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>23rd International Congress of International Union of Biochemistry and Molecular Biology (IUBMB) and 44rd Annual Meeting of the brazilian Society for Biochemistry and molecular Biology (SBBq). Potencial role of nitric oxide on the copper-induced cytotoxicity in Lactuca sativa roots. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>7th International Conference on Polyphenols and Health.Effect of soy isoflavone extract bioconverted by free beta glucosidase from Aspergillus niger LBA 02 and immobilized in Lentikats® and sol-gel in adipocyte differentiation. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Annual Research Staff Conference. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Annual University of Glasgow Learning and Teaching Conference. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Simpósio Integrado Unifal-MG.Composição química e atividade farmacológica do óleo essencial de Ocimum basilicum,. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Simpósio Internacional de Botânica Aplicada (SINBOT) e XXXV Encontro Regional de Botânicos (ERBOT)."TROCAS GASOSAS E CRESCIMENTO DE Myroxylon peruiferum L. f. (Fabaceae) EM DIFERENTES CONCENTRAÇÕES DE COBRE. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>International Conference on Production Research - ICPR23. ICPR23. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Seminário: Oportunidades no Uso de Enzimas para a produção de açúcar e etanol.Metodologia para detecção de alfa amilase residual em açúcar. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V COEN - Congresso das Engenharias. Gerenciamento de Projetos - Métodos de Tomada de Decisão. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XV Congresso Brasileira de Fisiologia Vegetal e 1ª Conferência Brasil-Israel de Ciências de Plantas. Anatomia radicular de genótipos de milho contrastantes à seca submetidos ao déficit hídrico em diferentes estádios de crescimento. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XVI Congreso Latinoamerticano de Grasas y Aceites -. Propiedades y aplicaciones biotecnológicas de lipasas vegetales procedentes de las semillas oleaginosas. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XX Simpósio Nacional de Bioprocessos (XX SINAFERM). Screening of biocatalysts and optimization of ethyl valerate synthesis by esterification reaction in non-aqueous medium. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XX Simpósio Nacional de Bioprocessos/ XI Simpósio de Hidrólise Enzimática de Biomassas.Uso do metabólito ácido 3-hidroxiantranílico como mediador redox na degradação de vermelho de fenol por reagentes Fenton. 2015. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>16th International Biotechnology Symposium and Exhibition Biotechnology for the Development of a Green Economy.Assessing the performance of whole-cell lipase derived from Mucor circinelloides as catalyst for the ethanolysis of non-edible vegetable oils under batch and continuos runs. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>21st International Congress of Chemical and Process Engineering - 21st CHISA. Ethyl esters production from macaw palm oil by hydroesterification process using plant and microbial lipases as biocatalysts. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>21st International Congress of Chemical and Process Engineering CHISA 2014. Dye decolorization using Fenton reagents and natural mediators. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>4th International Congress on Green Process Engineering - 4th GPE. Optimization of the production of methyl oleate by esterification reaction catalyzed by immobilized Thermomyces lanuginosus lipase on poly-hydroxybutyrate particles. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>International Conference on Quality Engineering and Management. Reasons, benefits and difficulties associated with ISO 9001 certification for sugar and ethanol companies. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Workshop "Coleções Biológicas e seu impacto no Desenvolvimento Científico e tecnologico nacional e internacional. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XX Congresso Brasileiro de Engenharia Química - COBEQ 2014. Efeito do mediador natural siringaldeído na descoloração de corantes por reagentes Fenton (Fe/H2O2). 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XX Congresso Brasileiro de Engenharia Química - XX COBEQ. Produção de biolubrificantes por reação de hidroesterificação catalisada por lipases vegetal e microbiana. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XX Congresso Brasileiro de Engenharia Química. TRANSESTERIFICAÇÃO ENZIMÁTICA DE SINGLE CELL OIL (SCO) DE Mucor circinelloides PARA A PRODUÇÃO DE BIODIESEL. 2014. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>22nd International Conference on Production Research (ICPR 22). Prioritization of critical success factors in managing the product development process of Biotechnology companies.. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>9º Congresso Brasileiro de Gestão de Desenvolvimento de Produto. Priorização dos Fatores Críticos de Sucesso no Pré Desenvolvimento. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>As Patentes de Invenção e a Proteção do Conhecimento. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Avanços Tecnológicos na Qualidade e Estabilidade de Chocolate e de Outros Sistemas Lipídicos?. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bioproducts-Biofuels. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Fórum Nacional das Áreas do Sistema Universidade Aberta do Brasil (UAB). 2013. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV Ciclo de Palestra em Biotecnologia.Biotecnologia: Registro no conselho profissional. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV Semana de Biotecnologia Industrial.Avaliação do efeito de diferentes fontes de carbono na produção de lipase intracelular via fermentação submersa pelo fungo filamentoso Mucor circinelloides URM 4182. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SINAFERM 2013 E SHEB 2013. Produção e Imobilização de lipase de Geotrichum candidum: aplicação do biocatalisador na síntese de ésteres de interesse industrial. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XIV Congresso Brasileiro de Fisiologia Vegetal. Nitrate reductase deficiency affects sinapoylated anthocyanin accumulation in leaves of Arabidopsis thaliana. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XIX Simpósio Nacional de Bioprocessos e X Simpósio de Hidrólise Enzimática de Biomassas.Produção e recuperação de lipídeos por Mucor circinelloides. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XIX Simpósio Nacional de Bioprocessos, X Simpósio de Hidrólise Enzimática de Biomassas. PRODUÇÃO E IMOBILIZAÇÃO DE LIPASE DE Geotrichum candidum: APLICAÇÃO DO BIOCATALISADOR NA SÍNTESE DE ÉSTERES DE INTERESSE INDUSTRIAL. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XIX Simpósio Nacional de Bioprocessos/ X Seminário de Hidrólise Enzimática de Biomassa (XIX SINAFERM/ X SHEB). Otimização da produção enzimática de aroma de abacaxi por delineamento experimental. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XIX Simpósio nacional de Bioprocessos/X Simpósio de Hidrólise Enzimática ica de Biomassas. USO DE PRÉ-TRATAMENTOS PARA A SACARIFICAÇÃO ENZIMÁTICA DE BAGAÇO DE CANA DE AÇÚCAR. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXIII Encontro Nacional de Engenharia de Produção. A certificação ISO 9001 no continente Americano: análise estatística. 2013. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>15th EUROPEAN CONGRESS on BIOTECHNOLOGY of the European Federation of Biotechnology - ECB15. 2012. An immobilized-based system for cellobiose hydrolysis. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1° Simpósio Internacional de Botânica Aplicada e 1° Simpósio Nacional de Frutíferas do Norte e Nordeste e.Cultivo de Segmento Nodal de Garcinia brasiliensis Mart. (Clusiaceae). 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>4° Congresso Brasileiro de Biotecnologia e Rodada de Negócios. Calli induction from Garcinia brasiliensis (Mart.) roots. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Avanços Tecnológicos na Qualidade e Estabilidade de Chocolates e de Outros Sistemas Lipídicos. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Encontro Mineiro de Engenharia de Produção.Palestrante em mini-curso: Formação de Auditores Internos (4 horas). 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>EQUIFASE2012 - IX Iberoamerican Conference on Phase Equilibria and Fluid Properties for Process Design. Liquid-Liquid Equilibrium of Pseudoternary Systems Containing Glycerol + Ethanol + Ethylic Biodiesel from Macauba (Acrocomia aculeata) Pulp Oil at T/K = 298.2: Experimental Data and, Thermodynamic Modeling. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Escola de altos Estudos em Importância dos Compostos Bioativos na Ciência e Tecnologia de Alimentos. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Simpósio Internacional de Botânica Aplicada e I Simpósio Nacional de Frutíferas do Norte e Nordeste. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II SEMMOP - Seminário das Engenharias Mecânica, de Mobilidade e de Produção. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II SEMMOP - Seminário das Engenharias Mecânica, de Mobilidade e de Produção.A importância do Processo de desenvolvimento de produtos (PDP): casos práticos. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II SEMMOP - Seminário das Engenharias Mecânica, de Mobilidade e de Produção.ISO 9001:2008: casos práticos. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III Jornada Científica de Biotecnologia da UNIFAL-MG. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>III Jornada de Biotecnologia. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Seminário Internacional Cristalização e Processamento de Gorduras Especiais. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Workshop sobre Registro e Proteção de Cultures no Brasil. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>X Seminário Brasileiro de Tecnologia Enzimática (X ENZITEC). Transesterificação de óleos vegetais catalisada por lipase imobilizada e estabilizada por ligação covalente multipontual em suportes orgânicos. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>X Seminário Brasileiro de Tecnologia Enzimática - Enzitec. Pré-tratamentos biológico e quimio-termomecânico para a sacarificação enzimática de bagaço de cana de açúcar; Sacarificação enzimática de bagaço de cana de açúcar biotratado pelo fungo Ceriporiopsis subvermispora. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIX Congresso Brasileiro de Engenharia Química (XIX COBEQ). Caracterização das propriedades catalíticas de lipases de sementes de oleaginosas em meio orgânico e aquoso. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XIX Congresso Brasileiro de Engenharia Química. Síntese e propriedades das amostras de biodiesel produzidas por etanólise química de diferentes matérias-primas lipídicas. 2012. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>11th International Chemical and Biological Engineering Conference. Preparation of active and thermo-stable biocatalysts by multipoint covalent attachment of lipase on activated agarose beads for biodiesel synthesis. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1st Brazilian Bioenergy Science and Technology Conference. Liquid-liquid equilibrium of system containing glycerol, ethanol and biodiesel from crambe (Hochst abyssinica) oil at (293,15 - 318,15) K. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1º Workshop do Programa de Pós-graduação em Biologia Funcional e Molecular IB UNICAMP.Nitric oxide signaling effect on the phenylpropanoid synthesis in leaves of Arabidopsis thaliana. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>2ª Semana de Ciência e Economia e 3ª Semana do PIEPEX.Gestão de projetos. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>8º Workshop de Capacitação para Pesquisadores da USP em Publicação Científica. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Avanços Tecnológicos na Qualidade e Estabilidade de Chocolates. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Building Insights Breaking Boundaries.Treinamento Elsevier nas bases de dados SciVerse ScienceDirect, SciVese Scopus e Compendex. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CHEMPOR 2011 - 11th International Chemical and Biological Engineering Conference.. "Behavior of Ceriporiopsis subvermispora during Pinus taeda biotreatment in calcium- or oxalic acid-amended cultures" e "Effect of aqueous extracts from Ceriporiopsis subvermispora-biotreated wood in the degradation of Azure B by Fenton reagents". 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ciclo de Palestras - Farmácia.Produção de Biodiesel utilizando óleo de fritura. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Workshop sobre Boas Práticas em Educação a Distância. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Ciclo de Palestra em Biotecnologia. Lipases em Biotecnologia: Produção, Aplicação e Mercado. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IV Jornada Científica da UNIFAL-MG.Estudo da implementação do sistema de gestão da qualidade baseado na NBR ISO 9001 em um laboratório de uma instituição pública federal. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IV Jornada de Iciação Científica da Unifal-MG. Otimização da Etapa de Extração do Ácido Clavulânico. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>IV Jornada de Iniciação Científica da Unifal_MG. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Product-Process Design: Role and Use of Property Prediction Methods and Tools. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Simposio Nacional de Bioprocessos- Sinaferm.OTIMIZAÇÃO DA REAÇÃO DE PRECIPITAÇÃO INTERMEDIÁRIA NO PROCESSO DE PURIFICAÇÃO DO ÁCIDO CLAVULÂNICO DO CALDO DE FERMENTAÇÃO UTILIZANDO A T-OCTILAMINA COMO INTERMEDIÁRIO ESTÁVEL. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Simpósio Nacional de Bioprocessos - Sinaferm.OTIMIZAÇÃO DA ETAPA DE EXTRAÇÃO DO ÁCIDO CLAVULÂNICO. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Simpósio Nacional de Bioprocessos - Sinaferm.UTILIZAÇÃO DE INDUTOR ALTENATIVO PARA A PRODUÇÃO DE LIPASE POR GEOTRICHUM CANDIDUM. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>V Semana da Química da UNIFAL-MG. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>VII Meeting of South American Group of the SFRBM. PRODUCTION OF ANTIBODY ANTI-LOW DENSITY LIPOPROTEIN FOR USE IN LABORATORY DIAGNOSIS OF CARDIOVASCULAR RISK. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>VII Semana Tecnológica no Instituto Federal de Educação e Tecnologia do Sul de Minas - Campus Machado.Gestão da Qualidade em Biotecnologia. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>VIII Congresso Brasileiro de Ensino Superior a Distância - ESUD 2011. Mesa Redonda. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Workshop on Synthetic Biology and Robotics. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>X-Meeting. Bioinformatics Approach of cyclin-dependent kinases 1 and 3 complexed with inhibitors. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>X-Meeting. Bioinformatics Practical Course. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>X-Meeting. Validation of Molecular Dinamics on Experiments of New Drogs Identification.. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XIII Congresso Brasileiro de Fisiologia Vegetal e XIV Reunião Latino americana de Fisiologia Vegetal. Correlação entre metabolismo de nitrogênio, emissão de óxido nítrico (NO) e síntese de fenilpropanóides em folhas de Arabidopsis thaliana. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XIII Congresso Brasileiro de Fisiologia Vegetal. Análise de produtividade em linhagens de sorgo contrastantes à seca. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XVIII - Simpósio Nacional de Bioprocessos - Sinaferm.Caracterização da B-glicosidase produzida por Aspergillus sp.. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XVIII Simpósio Nacional de Bioprocessos.Comparação do Processo de Alcoólise do Óleo de Pinhão Manso (Jatropha curcas): Desempenho de Catalisadores Heterogêneos Químico e Bioquímico. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XXXI Encontro Nacional de Engenharia de Produção. Apresentação de Poster. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XXXI Encontro Nacional de Engenharia de Produção.Palestra Nacional - Sistemas de gestão da qualidade - ISO9001:2008. 2011. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>4th International Congress on Bioprocess in Food Industries. Screening of protocols to immobilize microbial lipase from Penicillium camembertii on different supports. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>56. Congresso Brasileiro de Genética. Sexagem e sequenciamento parcial do Gene CDH1/Z de Mimus Saturninus Taxidermizado. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CCIS 2010. Prediction of Segments in Proteins using LMProt Algoritm.. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II ciclo de palestras em Biotecnologia.Bioinformática estrutural: métodos e aplicações. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II Colóquio Regional - EAD.EAD, Cultura e Produção de Subjetividade. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Jornada Científica de Biotecnologia. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Jornada da Biotecnologia da Unifal-MG. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>II Semana Nacional de Ciência e Tecnologia.Avaliador de trabalhos. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Congresso Internacional Software Livre e Governo Eletrônico. Desenvolvimento e Gestão de um Curso Utilizando o Ambiente Moodle. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Congresso Internacional Software Livre e Governo Eletrônico. Mysql. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Jornada Científica da UNIFAL-MG.Avaliador dos Resumos Cientificos. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III Jornada Científica da Universidade Federal de Alfenas-MG. Produção de Lipase por Fermentação Submersa Utilizando Diferentes. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IV Congresso da Rede Brasileira de Tecnologia de Biodiesel e VII Congresso Brasileiro de Plantas Oleaginosas, Óleos, Gorduras e Biodiesel. Desempenho de catalisadores heterogêneos na síntese de biodiesel a partir de óleo de babaçu pela rota etílica. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>IX Jornada do Curso de Farmácia.10 anos do Curso de Farmácia. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>IX Seminário Brasileiro de Tecnologia Enzimática - ENZITEC. Síntese e caracterização de micropartículas de quitosana imobilizadas em lipase de Candida rugosa. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>IX Seminário Brasileiro de Tecnologia Enzimática.Atividade pro-oxidante de extratos enzimáticos provenientes da biodegradação de Pinus taeda pelo fungo Ceriporiopsis subvermispora. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SB-Meeting. COMPUTATIONAL APPROACH TO NEW ANTICANCER DRUG DEVELOPMENTS USING BIOINFORMATICS TO STRUCTURAL ANALYSIS OF MOLECULAR MARKERS IN HNSCC.. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>The 1st International Conference on Bioinformatics SOIBIO.. Prediction of Segments in Protein Using LMProt algoritm.. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>V Simpósio Internacional Tendências e Inovações em Tecnologia de Óleos e Gorduras. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XVIII International Conference on Bioencapsulation.Characterization of B-glucosidase entrapped in LentiKats and in sol-gel supports. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXVIII Congresso Nacional de Milho e Sorgo. Trabalhos de Ecofisiologia. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXX ENEGEP. Dificuldades encontradas em projetos de implementação da ISO 9001:2008 em empresas de base tecnológica incubadas. 2010. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>8ºSLACA - Simpósio Latino Americano de Ciênica de Alimentos.Adequação de metodologia para determinação residual de alfa-amilase em açúcar bruto. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Congresso Brasileiro de Fisiologia Vegetal. Anatomia radicular ao longo dos ciclos de seleção do milho. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Semana Acadêmica da Ciência da Computação.Métodos Computacionais Aplicados em Bioinformática. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Semana de Biotecnologia Industrial. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Congresso Brasilerio de Espectrometria de Massas. Identificação de metil-hopanos em óleos por CGxCG-EMTdV. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IX Simpósio de Hidrólise Enzimática de Biomassas.Caracterização das propriedades catalíticas de lipases livres e imobilizadas em quitosana por ligação covalente,. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>VII Encontro de Iniciação Cientifica da Embrapa Agroindústria Tropical.Pesquisa de bacteriófagos na linha de produção industrial de queijos de Coalho produzidos no Ceará. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XII Congresso Brasileiro de Fisiologia Vegetal. Influência da nitrato redutase sobre o acúmulo de fenilpropanóides em folhas de Arabidopsis thaliana. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XVII Simpósio Nacional de Bioprocessos.Susceptibilidade do amido de cana-de-açúcar a diferentes enzimas amilolíticas. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XXIX Encontro Nacional de Engenharia de Produção. Seleção de um modelo de processo de desenvolvimento de produto para indústria de base tecnológica do ramo eletroeletrônico. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXXVIII Annual Meeting of the Brazilian Society for Biochemistry and molecular biology. Amino Acid Supplementation Effects on the Secondary Metabolites Profile in Nitrate Reductase Double-deficient Arabidopsis thaliana. 2009. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alimentos Funcionais. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Congresso Internacional de tecnologia na cadeia produtiva da cana - Concana. Amido de caldo de cana-de-açúcar - determinação quantitativa e estudo de algumas características. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Forum permanente de Agronegócios - Petroquímica Verde. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II WIMA - II Workshop Internacional sobre Microbiologia Ambiental. Caracterização da temperatura, umidade, pH e relação C/N da compostagem dos resíduos sólidos produzidos na indústria de pasteurização de leite. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II WIMA - II Workshop Internacional sobre Microbiologia Ambiental. Produção de ácidos graxos por hidrólise enzimática empregando lipase imobilizada em quitosana: avaliação e comparação da eficiência de imobilização.. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>III Simpósio Internacional Tendências e Inovações em Tecnologia de Óleos e Gorduras. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>International conference of agricultural Engineering, the XXXVII Brazilian Congress on Agricultural Engineering and International Livestock Environment Symposium - ILES VIII. Sugarcane starch quantitative determination and characterization. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Petroquímica verde. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Programa de Formação Continuada Geral dos docentes da Unesc:Avaliando a Avaliação Processual da Unesc. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Simpósio Internacional de Nutrição e Metabolismo. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Substâncias Recalcitrantes nos Processos de Tratamento de Efluentes Líquidos. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VI Encontro de Iniciação Científica.Ajuste de PCR específica para Bactérias Ácido Láticas. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VIII Seminário Brasileiro de Tecnologia Enzimática - ENZITEC 2008.Perfil de comparação entre um catalisador químico e a lipase imobilizada na produção de ésteres aromatizantes. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VIII Seminário Brasileiro de Tecnologia Enzimática. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XVII Congresso Brasileiro de Engenharia Química. Estratégias para a Obtenção de Derivados Termoestáveis de Lipase Imobilizada em Matriz Híbrida Quitosana-Alginato Epoxilada. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XVII Congresso de Pós-Graduação da UFLA. Metabolismo do carbono em raízes de milho Saracura sob alagamento intermitente. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XVII Congresso Nacional de Milho e Sorgo. Análise da morfologia radicular em ciclos de seleção de milho Saracura BRS-4154. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXI CONGRESSO BRASILEIRO DE CIÊNCIA E TECNOLOGIA DE ALIMENTOS. Identificação de (Lactobacillus) isolados de queijos de coalho artesanais do Ceará. 2008. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1.º Fórum Internacional de Resíduos Sólidos. Avaliação datoxicidade de percolados de aterro industrial utilizando-se organismos bioindicadorres. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1.º Fórum Internacional de Resíduos Sólidos. Avaliação e comparação entre duas minicomposteiras de pvc para uso domiciliar. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2º ECEPAA - Encontro Cearense de Profissionais e Acadêmicos da área de Alimentos. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>6th International Congress Of Pharmaceutical Sciences. In vitro antioxidant properties of Stryphnodendron adstringens leaf extracts. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Curso Metodologia e Didática de Ensino Superior. 2007. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IV Encontro sobre Aplicações Ambientais de Processos Oxidativos Avançados.Efeito de fenóis redutores de Fe3+ na descoloração de Azure B por reagentes de Fenton. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Programa de Formação Continuada dos Docentes da Unesc: Avaliação do Desempenho Acadêmico. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SLACA - Simpósio Latino Americano de Ciência e Tecnologia de Alimentos em Benefício a Sociedade: Ligando a Agricultura à Saúde.Determinação de amido em caldo de cana de açúcar e determinação de alfa-amilase residual em açúcar bruto. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>V Encontro de Iniciação Científica da Embrapa Agroindústria Tropical.EXTRAÇÃO DE DNA DE BACTÉRIAS ÁCIDO LÁTICAS: ADEQUAÇÃO DE PROTOCOLO. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VI Jornada do Curso de Farmácia - Farmacêutico Formação Generalista. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XII Congresso Latino Americano de Óleos e Gorduras. Influência dos Diacilgliceróis na Velocidade de Cristalização do Óleo de Palma. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XIII Jornada de iniciação científica de Alfenas. Atividade do extrato hexânico de frutos de Pterodon emarginatus sobre o estresse oxidativo e nitrosativo in vitro.. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XV ENAAL - Comgresso Latino Americano de Analistas de Alimentos. CARACTERÍSTICAS MICROBIOLÓGICAS E TECNOLÓGICAS DE BACTÉRIAS ÁCIDO LÁTICAS ISOLADAS DE QUEIJOS DE COALHO COMERCIALIZADOS NO CEARÁ. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XVI Simpósio Nacional de Bioprocessos (SINAFERM).as. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XVI Simpósio Nacional de Bioprocessos - SINAFERM 2007.Hidrólise enzimática e biodegradação simultâneas no tratamento de águas residuárias ricas em lipídeos. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XVI Simpósio Nacional de Bioprocessos. Preparação e Caracterização de Lipase Microbiana Imobilizada em Matriz Híbrida Quitosana-Alginato. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XVI Sinaferm - Simpósio Nacional de Bioprocessos.Efeito de ácido oxálico exógeno na biodegradação de Pinus taeda por Ceriporiopsis subvermispora. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXXVI Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology. Nitroxide-based detection of glutathionyl radicals during macrophage respiratory burst. 2007. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>14º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP-SICUSP.ISOLAMENTO E AVALIAÇÃO DA ATIVIDADE ANTIOXIDANTE DA 1,3,5,6-TETRAIDROXIXANTONA E 7-O-BETA-D-GLICOSIL-FUKUGETINA DO PERICARPO DE RHEEDIA BRASILIENSIS. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Apresentação da norma NBR-ISO/IEC 17025. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Global Dialogues on Emerging Science and Technology (GDEST).Molecular Markers Identification on HNSCC using Data from Different Experimental Techniques. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I SEMINÁRIO DE INICIAÇÃO CIENTÍFICA.ESTUDO QUÍMICO DOS FRUTOS DE RHEEDIA BRASILIENSIS (BACUPARI) E AVALIAÇÃO DA ATIVIDADE ANTIOXIDANTE E CICATRIZANTE DOS CONSTITUINTES QUÍMICOS ISOLADOS. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>In-Silico Analysis of Proteins Celebrating the 20th anniversary of Swiss-Prot. DBMODELING: A database of structural models of proteins. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Programa de Formação Continuada dos Docentes da Unesc. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SEMANA NACIONAL DE CIÊNCIA E TECNOLOGIA 2006.ISOLAMENTO E AVALIAÇÃO DA ATIVIDADE ANTIOXIDANTE DE METABÓLITOS DO PERICARPO DE Rheedia brasiliensis (GUTTIFERAE). 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Seminario ACAFE e Grupos de Pesquisa. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Simpósio de Engenharia de Produção. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VII ENZITEC. VII Seminário Brasileiro de Tecnologia Enzimática. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VII Semana da Biologia. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VII SEMANA DA BIOLOGIA.ISOLAMENTO DE METABÓLITOS SECUNDÁRIOS EM PERICARPO DE Rheedia brasiliensis. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Workshop IGDP - Inovação e Sistemas PLM. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>X Encontro Latino Americano de Iniciação Científica e VI Encontro Lationo Americano de Pós Graduação. Informática Biomédica: do paciente às metodologias computacionais. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XII Jornada de iniciação científica de alfenas. Atividade do extrato hexânico de frutos de Pterodon emarginatus sobre o estresse oxidativo e nitrosativo in vitro. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XII Jornada de Iniciação Científica de Alfenas. Avaliação do efeito da membrana de látex natural de Hevea brasilienseis no reparo de defeito da parede abdominal de rato. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XVI COBEQ. XVI Congresso Brasileiro de Engenharia Química. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XVI Congresso Brasileiro de Engenharia Química. Efeito de cálcio exógeno em cultivos de Ceriporiopsis subvermispora sobre madeira/ Efeito de óleo de soja na biodegradação de Pinus taeda por Ceriporiopsis subvermispora. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XVI CONGRESSO DA SOCIEDADE BOTÂNICA DE SÃO PAULO. ISOLAMENTO DOS CONSTITUINTES DOS FRUTOS DE RHEEDIA BRASILIENSIS E AVALIAÇÃO DA ATIVIDADE ANTIOXIDANTE. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XX Congresso Brasileiro de Ciência e tecnologia de alimentos. Avaliação preliminar do efeito de diferentes tipos de secagem solar sobre as características da hortelã desidratada. 2006. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13 Edição Farmapólis. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1ª SEMANA DA QUÍMICA. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2nd Mercorsur Congress on Chemical Engineering and 4th Mercorsur Congress on Process Systems Engineering (EMPOMER). Clavulanic acid extraction from cultivation medium by organic solvent and aqueous two phase system. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>2nd Mercorsur Congress on Chemical Engineering and 4th Mercorsur Congress on Process Systems Engineering (EMPOMER). Kinetic studies on clavulanic acid production by Streptomyces clavuligerus. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>2nd Mercorsur Congress on Chemical Engineering and 4th Mercorsur Congress on Process Systems Engineering (EMPOMER). Utilization of PEG-phosphate aqueous two-phase system for clavulanic acid extraction from fermentation broth. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>56º CONGRESSO NACIONAL DE BOTÂNICA. ESTUDO DO POTENCIAL ANTIOXIDANTE DE EXTRATOS E COMPOSTOS ISOLADOS DO PERICARPO E SEMENTES DE RHEEDIA BRASILIENSIS. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>encontro nacional de engenharia de Produção. Mapeamento dos processos em serviços: estudo de caso em duas pequenas empresas da área de saúde. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GRUPOS PET DA UNIFAL-MG-DESARMAMENTO. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Semana de Tecnologia da FATEC.Bioinformática. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II CONGRESSO BRASILEIRO DE PLANTAS OLEAGINOSAS, ÓLEOS, GORDURAS E BIODIESEL. IDENTIFICAÇÃO DOS ÁCIDOS GRAXOS DO EXTRATO CLOROFÓRMICO DAS SEMENTES DOS FRUTOS DE PLATONIA INSIGNIS POR CG-MS. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Jornada Científico-Cultural dos Grupos PET-UNIFAL-MG.Ministrou o Curso Radicias Livres: Aspectos Químicos e Biológicos. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IV Jornada de Farmácia da Unesc. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IV Meeting of the South American Group of the Free Radical Biology and Medicine. Lychnopholide inhibits leukcyte respiratory burst by a protein S-thiolation mechanism. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>IV Meeting of the South American Group of the International Society for Free Radical Research. Apresentacao Oral Lychnopholide inhibits leukocyte respiratory burst by a protein S-thiolation mechanism. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>IV Meeting of the South American Group of the society for Free Radical Biology and Medicine. Studies on the antioxidant activity of the vegetal compound Mais Vida.. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>IV Meeting of the South American Group of the Society for Free Radical Biology and Medicine.Sunrise Free Radical School. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Semana nacional de Ciência e Tecnologia e IV Mostra do conhecimento: Graduação, pesquisa e extensão.Oficinas de educação. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SEMINÁRIOS DO PET ENFERMAGEM-EFOA/CEUFE-qUESTÕES ATUAIS SOBRE CÉLULAS TRONCO. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Simpósio de Engenharia de Produção.Contribuição do Gerenciamento de Projetos na implementação de um Sistema de Gestão da Qualdiade. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Simpósio Nacional de Bioprocessos.XV Sinaferm - Simpósio Nacional de Bioprocessos. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>VIII SHEB. VIII Seminário de Hidrólise Enzimática de Biomassas. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XI JORNADA CIENTÍFICA DE ALFENAS. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XI Jornada de iniciação científica de Alfenas. Propriedades antioxidantes in vitro do composto vegetal Mais vida.. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XI Jornada de Iniciação Científica de Alfenas.Avaliador da XI Jornada de Iniciação Científica de Alfenas. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XI Semana da Engenharia de Alimentos. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XIII Simpósio internacional de iniciação científica da usp. Efeito do composto vegetal Mais Vida sobre a lipoperoxidação espontânea e induzida por Fe2+/ascorbato em homogeneizado de cérebro de rato.. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XIII Simpósio internacional de iniciação científica da USP.Propriedades antioxidantes in vitro do composto vegetal Mais Vida.. 2005. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12th Biennial Meeting of the Society for Free Radical Research International.Free Radical School. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Latin American Protein Society Meeting. Structural Bioinformatics Applied to the Study of Protein Targets from Mycobacterium tuberculosis Genome. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>5th International Symposium on Natural Polymers and Composites/ 8th Brazilian Symposium on the Chemistry of Lignins and Other Components.5th International Symposium on Natural Polymers and Composites/ 8th Brazilian Symposium on the Chemistry of Lignins and Other Components. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Curso: A docência no Ensno Superior. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III MOSTRA DO CONHECIMENTO: GRADUAÇÃO PESQUISA E EXTENSÃO.PROJETO DE EDUCAÇÃO AMBIENTAL NO PARQUE MANOEL PEDRO RODRIGUES. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>International Conference on Bioinformatics and Computational Biology. DBMODELING: a Database of Protein Structural Models from Mycobacterium tuberculosis. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>palestra: TCC - a construção da Pesquisa nos Cursos de Graduação. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Semana da ciência e tecnologia. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Simpósio Sul-Americano de Biologia Molecular do Sono e dos Rítmos Biológicos. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>V SEMANA DA BIOLOGIA- SEGUINDO OS PASSOS DA VIDA. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>V Semana da biologia. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VI ENZITEC. VI Seminário Brasileiro de Tecnologia Enzimática. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VIII INIC e IV EPG. VIII Encontro Latino-Americano de Iniciação Científica e IV Encontro Latino-Americano de Pós-Graduação. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>X Jornada de iniciação científica de Alfenas. Análise da genotoxicidade do extrato hexânico bruto (EHB) de Pterodon emarginatus.. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>X Jornada de iniciação científica de Alfenas. Atividade estimuladora da óxido nítrico sintase (NOS) e antioxidante do composto vegetal Mais Vida.. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XII Congresso da Sociedade Brasileira de Biologia celular e IX Congresso da Sociedade Iberoamericana de Biologia Celular. Nitric oxide synthase estimulation by the vegetal compound Mais Vida.. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XII Simpósio Internacional de Iniciação Científica da USP.Atividade antioxidante e estimuladora da óxido nítrico sintase (NOS) do composto vegetal Mais Vida.. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIV Simpósio Nacional de Fermentações - SINAFERM. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XV COBEQ e II CBTermo. XV Congresso Brasileiro de Engenharia Química e II Congresso Brasileiro de Termodinâmica Aplicada. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XVIII ENCONTRO REGIONAL DA SOCIEDADE BRASILEIRA DE QUÍMICA.ESTUDO DO POTENCIAL ANTIOXIDANTE DE EXTRATOS E COMPOSTOS ISOLADOS DO EPICARPO E SEMENTES DE Rheedia brasiliensis. 2004. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>11º Simpósio Internacional de Iniciação Científica da USP - SIICUSP.11º Simpósio Internacional de Iniciação Científica da USP - SIICUSP. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>4ª SEMANA DA BIOLOGIA-O MUNDO EM CADA SER VIVO. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Curso: Propriedade Intelectual - Patentes. 2003. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>curso: Tratamento Avançado de Efluentes no XIV Simpósio Nacional de Fermentações. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Escola de Computação de Alto Desempenho para Sistemas Complexos.Bioinformatics Study of Cyclin-Dependent Kinase 5 Complexed with Roscovitine. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II MOSTRA DO CONHECIMENTO: GRADUAÇÃO, PESQUISA E EXTENSÃO.EDUCAÇÃO AMBIENTAL NO PARQUE MANOEL PEDRO RODRIGUES. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IX Semana da biologia. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Minicurso: O uso de tirlhas interpretativas na Educação ambiental e ensino fundamental, na III semana de Esino , Pesquisa e Extensão- SEPEX. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SBBq. Bioinformatics Study of Cyclin-Dependent Kinase 5 Complexed with Roscovitine. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VII Encontro de Iniciação Científica/ III Encontro de Pós-Graduação.VII Encontro de Iniciação Científica/ III Encontro de Pós-Graduação. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XI Simpósio internacional de iniciação científica da USP.Avaliação da atividade antimutagênica do extrato de Pterodon emarginatus (sucupira branca).. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XIV Simpósio Nacional de Fermentações. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XIV SINAFERM. XIV Simpósio Nacional de Fermentações. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XVIII Reunião Anual da FESBE. Ministrou o Curso Estresse Oxidativo Celular. 2003. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10a Semana de Engenharia Química do Vale do Paraíba - SEQVAP.10a Semana de Engenharia Química do Vale do Paraíba - SEQVAP. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>10º Simpósio Internacional de Iniciação Científica da USP - SIICUSP.10º Simpósio Internacional de Iniciação Científica da USP - SIICUSP. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>5 Seminário Brasileiro de Tecnologia Enzimática. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Curso Fermentation Technology Módulo IV.Curso:. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Curso: Aplicação de Métodos Moleculares no Estudo e Monitoramento de Diversidade e Porcessos Microbianos em Biorreatores e Sistemas de Tratamento de Efluentes de Resíduos Tóxicos. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Jornada do Curso de Farmácia da Unesc. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II EPG. II Encontro Latino-Americano de Pó-Graduação. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>III Semana da biologia. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Mostra do conhecimento: Graduaçâo, pesquisa e extensâo.Pteridófitas Isosporadas. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Semana do Meio Ambiente. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI Encontro de Iniciação Científica/ II Encontro de Pós Graduação Latino - Americano.VI Encontro de Iniciação Científica/ II Encontro de Pós Graduação Latino - Americano. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VII Seminário de Hidrólise Enzimática de Biomassas - SHEB.VII Seminário de Hidrólise Enzimática de Biomassas - SHEB. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VII Seminário de Hidrólize Enzimática de Biomassas. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VII SHEB. VII Seminário de Hidrólise Enzimática de Biomassas. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VIII Workshop de Química da Pós graduação.Alcalóides 3-alquilpiperidínicos isolados da esponja Pachychalina sp.n. (Ordem Haplosclerida). 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Workshop on Molecular Modeling in Biophysics. Comparative Modeling: Problems and Solutions Using MODELLER. 2002. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Curso Fermentation Technology - Módulo III.Curso Fermentation Technology - Módulo III - Fungos Filamentosos. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Curso: Estrategias de Purificación de Biomoléculas. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XXI Congresso Brasileiro de Microbiologia. 2001. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Congresso Regional de Engenharia Química. IX Congresso Regional de Engenharia Química - COREEQ. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>curso Imobilização de Proteínas em Suportes Sólidos: Fundamentos e Aplicações. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IX Semana de Engenharia Química do Vale do Paraíba.IX Semana de Engenharia Química do Vale do Paraíba. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SEQVAP.Semana de Engenharia Química do Vale do Paraíba. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>X Congresso Nacional de Estudantes de Engenharia Química (CONEEQ). Relato de experiência de gestão do conhecimento em grupo de pesquisa: etapa de documentação. 2000. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Congress on Process Engineering for the Mercorsur. 1999. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso Regional dos Estudantes de Engenharia Química. 1997. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>XIII Congresso de Iniciação Científica e Tecnológica em Engenharia. 1994. (Congresso).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 17:29:30<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
