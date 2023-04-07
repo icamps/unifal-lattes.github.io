@@ -1,0 +1,167 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Artigos aceitos para publicação'}, 
+series: [{data: [[2012,
+1],
+[2019,
+1],
+[2022,
+3],
+[2023,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Artigos aceitos para publicação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 6<br>
+                    (<b>A1</b>: 1, <b>A2</b>: 2, <b>A3</b>: 1, <b>A4</b>: 0, <b>B1</b>: 0, <b>B2</b>: 1, <b>B3</b>: 0, <b>B4</b>: 0, <b>B5</b>: 0, <b>C</b>: 0, <b>NP</b>: 0, <b>Qualis n&atilde;o identificado</b>: 1)<br><p><b>Legenda Qualis:</b><ul><li> Publica&ccedil;&atilde;o para a qual o nome exato do Qualis foi identificado: <font color="#254117"><b>Qualis &lt;estrato&gt;</b></font><li> Publica&ccedil;&atilde;o para a qual um nome similar (n&atilde;o exato) do Qualis foi identificado: <font color="#F88017"><b>Qualis &lt;estrato&gt;</b></font> (nome similar)<li> Publica&ccedil;&atilde;o para a qual nenhum nome do Qualis foi identificado: <font color="#FDD7E4"><b>Qualis n&atilde;o identificado</b></font> (nome usado na busca)</ul>
+                    
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra Marins ; Paulo Fellipe Cristaldo ; Leticia R Paiva ; Octavio Miramontes ; Og DeSouza. <b>A new approach to mark termites (Cornitermes cumulans (Kollar) Blattodea: Isoptera) for laboratory bioassays</b>. BRAZILIAN JOURNAL OF BIOLOGY. 2023. <a href="http://dx.doi.org/10.1590/1519-6984.03316" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+new+approach+to+mark+termites+(Cornitermes+cumulans+(Kollar)+Blattodea:+Isoptera)+for+laboratory+bioassays&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+new+approach+to+mark+termites+(Cornitermes+cumulans+(Kollar)+Blattodea:+Isoptera)+for+laboratory+bioassays">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+new+approach+to+mark+termites+(Cornitermes+cumulans+(Kollar)+Blattodea:+Isoptera)+for+laboratory+bioassays">busca Google</a> ]          </font><br><font color="#F88017"><b>Qualis: A2</b></font> (BRAZILIAN JOURNAL OF MICROBIOLOGY)</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MONTEIRO, T. B. ; ALMEIDA, A. C. L. ; OLIVEIRA, Adélcio Carlos de. <b>Anomalous heat diffusion in a boundary layer: A Fractionary Blasius's System</b>. JOURNAL OF APPLIED NONLINEAR DYNAMICS. 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anomalous+heat+diffusion+in+a+boundary+layer:+A+Fractionary+Blasius's+System&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anomalous+heat+diffusion+in+a+boundary+layer:+A+Fractionary+Blasius's+System">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anomalous+heat+diffusion+in+a+boundary+layer:+A+Fractionary+Blasius's+System">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: B2</b></font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REIS, M. ; OLIVEIRA, Adélcio Carlos de. <b>A complementary resource relation of concurrence and roughness for a two-qubit state</b>. PHYSICA A-STATISTICAL MECHANICS AND ITS APPLICATIONS. 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+complementary+resource+relation+of+concurrence+and+roughness+for+a+two-qubit+state&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+complementary+resource+relation+of+concurrence+and+roughness+for+a+two-qubit+state">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+complementary+resource+relation+of+concurrence+and+roughness+for+a+two-qubit+state">busca Google</a> ]          </font><br><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (PHYSICA A-STATISTICAL MECHANICS AND ITS APPLICATIONS)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>The DUNE Collaboration ; G. A. Valdiviesso. <b>Low exposure long-baseline neutrino oscillation sensitivity of the DUNE experiment</b>. PHYSICAL REVIEW D. 2022. <a href="http://dx.doi.org/10.48550/arXiv.2109.01304" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Low+exposure+long-baseline+neutrino+oscillation+sensitivity+of+the+DUNE+experiment&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Low+exposure+long-baseline+neutrino+oscillation+sensitivity+of+the+DUNE+experiment">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Low+exposure+long-baseline+neutrino+oscillation+sensitivity+of+the+DUNE+experiment">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BORGES, L. H. C. ; de MELO, C. A. M. ; BARONE, F. A.. <b>Higher order derivative operators as quantum corrections</b>. NUCLEAR PHYSICS B. 2019. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Higher+order+derivative+operators+as+quantum+corrections&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Higher+order+derivative+operators+as+quantum+corrections">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Higher+order+derivative+operators+as+quantum+corrections">busca Google</a> ]          </font><br><font color="#F88017"><b>Qualis: A3</b></font> (NUCLEAR PHYSICS. B)</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>de MELO, C. A. M.; Cuzinatto, R. R.. <b>Uma introdução à gravitação discreta: o cálculo de Regge</b>. Latin - American Journal of Physics Education. 2012. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Uma+introdução+à+gravitação+discreta:+o+cálculo+de+Regge&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Uma+introdução+à+gravitação+discreta:+o+cálculo+de+Regge">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Uma+introdução+à+gravitação+discreta:+o+cálculo+de+Regge">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: A2</b></font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 24/01/2023 11:50:27<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

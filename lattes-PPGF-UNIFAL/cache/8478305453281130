@@ -1,0 +1,2567 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Anibal Thiago Bezerra)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4130051H9&amp;idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8478305453281130" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="15" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="18" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="23" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="25" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="58" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador" tabindex="61" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="64" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador" tabindex="67" _megamenupos="8pos"><span></span>Citações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="72" _megamenupos="9pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4130051H9"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Anibal Thiago Bezerra</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/8478305453281130</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">8478305453281130</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 03/12/2022</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Bacharel, licenciado, mestre e doutor em física pela Universidade Federal de São Carlos. Pós-doutor pela Universidade Federal do ABC. Atualmente é professor adjunto no Departamento de Física junto ao Instituto de Ciências Exatas da Universidade Federal de Alfenas. Tem experiência na área de Física, com ênfase em Física da Matéria Condensada, atuando principalmente nos seguintes temas: tríons, tunelamento ressonante, excitons, semicondutores de tunelamento ressonante, semicondutores, poços quânticos, simulação computacional de sistemas quânticos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="74">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Anibal Thiago Bezerra<img src="/buscatextual/images/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/8478305453281130</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="75">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal de Alfenas. <br class="clear">Av. Jovino Fernandes Sales, 2600<br class="clear">Santa Clara<br class="clear">37130000 - Alfenas, MG - Brasil<br class="clear">Telefone: (35) 37011965<br class="clear">URL da Homepage: <a target="blank" href="http://www.unifal-mg.edu.br/portal/" tabindex="76">http://www.unifal-mg.edu.br/portal/</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="77">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Física<span class="ajaxCAPES" data-param="&amp;codigoCurso=33001014011P5&amp;nivelCurso=D"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	<br class="clear">Título: Modelagem computacional de estruturas de poços quânticos semicondutores para dispositivos optoeletrônicos e spintrônicos<a class="tooltip-oasis" target="_blank" style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" href="http://oasisbr.ibict.br/vufind/Record/SCAR_0892257a049e93baf9971cc95bba28c4" tabindex="78"><img src="./images/v2/logo-oasisbr-circulo.png" style="width: 15px; margin-right: 0px; vertical-align: bottom">
+					<span>				   
+					     <img src="./images/v2/logo-oasisbr.png"><br><br>
+					     <p align="justify">O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações.</p>		    
+					 </span>			
+					  </a>, Ano de obtenção: 2014. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/0451310772113076" tabindex="79"><img src="images/curriculo/logolattes.gif"></a>Nelson Studart Filho. <br class="clear">Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear">Palavras-chave: Fotodetectores de Infravermelho; Física.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Estados Eletrônicos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Física<span class="ajaxCAPES" data-param="&amp;codigoCurso=33001014011P5&amp;nivelCurso=M"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	<br class="clear">Título: Estudos de efeitos de spin em diodos de tunelamento ressonante do tipo p<a class="tooltip-oasis" target="_blank" style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" href="http://oasisbr.ibict.br/vufind/Record/SCAR_e312737958a951fb7982beb8df05c951" tabindex="80"><img src="./images/v2/logo-oasisbr-circulo.png" style="width: 15px; margin-right: 0px; vertical-align: bottom">
+					<span>				   
+					     <img src="./images/v2/logo-oasisbr.png"><br><br>
+					     <p align="justify">O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações.</p>		    
+					 </span>			
+					  </a>, Ano de Obtenção: 2010.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/7558531056409406" tabindex="81"><img src="images/curriculo/logolattes.gif"></a>Yara Galvão Gobato.<br class="clear">Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear">Palavras-chave: Física; Tunelamento Ressonante, semicondutores, poço quânt.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Propriedades de Transportes de Matéria Condensada (Não Eletrônica). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Física. <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	<br class="clear">Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado" tabindex="82">
+<h1 tabindex="0">Pós-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Estados Eletrônicos. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="83">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2022 - 2022</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">UK-Latin America School on DUNE Physics and Software.  (Carga horária: 25h). <br class="clear">Lancaster University, LANCASTER, Inglaterra.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SPINTRÔNICA.  (Carga horária: 4h). <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">RELATIVIDADE -A COMOSMOLOGIA DO INÍCIO DO UNIVERSO.  (Carga horária: 4h). <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ÓPTICA: LASERS E SUAS APLICAÇÕES.  (Carga horária: 4h). <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="84">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Alfenas, UNIFAL/MG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto A, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2021 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, PPGF. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Vice-coordenador da pós graduação em Física.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2019 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Departamento de Física, PIBID. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física - UFLA - UFSJ - UNIFAL, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Modelagem Matemática e Computacional<br class="clear">Mecânica Quântica<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento, Departamento de Física. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="#LP_Solução numérica de problemas quânticos" tabindex="85">Solução numérica de problemas quânticos</a><br class="clear"><a href="#LP_Análise de propriedades óticas e de transporte de Células solares" tabindex="86">Análise de propriedades óticas e de transporte de Células solares</a><br class="clear"><a href="#LP_Simulação de sistemas sólidos via primeiros princípios (Density Functional Theory)" tabindex="87">Simulação de sistemas sólidos via primeiros princípios (Density Functional Theory)</a><br class="clear"><a href="#LP_Análise de propriedades óticas e de transporte de Perovskitas Híbridas" tabindex="88">Análise de propriedades óticas e de transporte de Perovskitas Híbridas</a><br class="clear"><a href="#LP_Inteligência artificial aplicada à sistemas semicondutores" tabindex="89">Inteligência artificial aplicada à sistemas semicondutores</a><br class="clear"><a href="#LP_Aprendizado de Máquina no processo de coleção de vuz, via Arapucas, no experimento DUNE" tabindex="90">Aprendizado de Máquina no processo de coleção de vuz, via Arapucas, no experimento DUNE</a><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Física Geral<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estágio Supervisionado IV<br class="clear">Física Moderna 1<br class="clear">Física Moderna 2<br class="clear">Física 1<br class="clear">Introdução aos Conceitos da Física<br class="clear">Laboratório de Física 1<br class="clear">Laboratório de Física 4<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Biomedicina, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Biofísica<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Métodos de Física Matemática I<br class="clear">Métodos de Física Matemática II<br class="clear">Mecânica Clássica<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Biotecnologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Laboratório de Física I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Biofísica<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2016 - 7/2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Departamento de Física. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador do curso de Física - Licenciatura.</div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Federal do ABC, UFABC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Pos Doutorando, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Doutorado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Mestrado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Graduação, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="91">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Solução numérica de problemas quânticos" tabindex="92"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Solução numérica de problemas quânticos</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Resolução da equação de Schrodinger via técnicas numéricas, aplicada à sistemas semicondutores de baixa dimensionalidade, com poços, fios e pontos quânticos.. </div>
+</div><a name="LP_Análise de propriedades óticas e de transporte de Células solares" tabindex="93"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise de propriedades óticas e de transporte de Células solares</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Análise teórica de propriedades de Células solares de banda intermediária, formadas por semicondutores com confinamento quântico bidimensional.. </div>
+</div><a name="LP_Simulação de sistemas sólidos via primeiros princípios (Density Functional Theory)" tabindex="94"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Simulação de sistemas sólidos via primeiros princípios (Density Functional Theory)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Utilização de DFT para otimização e obtenção de propriedades de sistemas sólidos, tais quais estrutura eletrônica, densidade de estados, tensor dielétrico.. </div>
+</div><a name="LP_Análise de propriedades óticas e de transporte de Perovskitas Híbridas" tabindex="95"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise de propriedades óticas e de transporte de Perovskitas Híbridas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Estudo via métodos e aproximações tradicionais à semicondutores e DFT em estruturas de baixa dimensionalidade formadas por perovskitas híbridas orgânicas-inorgânicas (Rudlesden-Popper) aplicadas à dispositivos fotovoltaicos.. </div>
+</div><a name="LP_Inteligência artificial aplicada à sistemas semicondutores" tabindex="96"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inteligência artificial aplicada à sistemas semicondutores</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Uso de rede neurais na busca de padrões que suportem o estudo e otimização de  propriedades óticas e de transporte de heteroestruturas semicondutoras.. </div>
+</div><a name="LP_Aprendizado de Máquina no processo de coleção de vuz, via Arapucas, no experimento DUNE" tabindex="97"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprendizado de Máquina no processo de coleção de vuz, via Arapucas, no experimento DUNE</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="98">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Diodos de tunelamento ressonante aplicados à telecomunicação" tabindex="99"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diodos de tunelamento ressonante aplicados à telecomunicação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: No presente projeto pretendemos analisar as propriedades física de Diodos de Tunelamento Ressonante aplicados à telecomunicações. Destacamos simulações computacionais de figuras de mérito como curvas de corrente-tensão, além de acoplamento à sistemas óticos.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Ulisses Rondina Duarte - Integrante / Rafael Vinicius Tayette da Nobrega - Integrante.<br class="clear"><br class="clear">Número de produções C, T &amp; A: 1</div>
+</div><a name="PP_Estudo de primeiros princípios (DFT) de ligas metálicas" tabindex="100"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de primeiros princípios (DFT) de ligas metálicas<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nesse projeto, ligas metálicas baseadas em ouro serão analisadas por meio da Teoria do Funcional de Densidade (DFT) para obtenção de propriedades como estrutura eletrônica, densidade de estados, absorção ótica e propriedades de transporte.   O objetivo deste trabalho será realizar a otimização estrutural dessas ligas para diferentes concentrações e organizações dos metais, bem como para os materiais puros, para aplicações em dispositivos fotônicos. Para as várias concentrações, serão testadas diferentes organizações dos átomos na estrutura a fim de se obter a otimização estrutural da liga em questão. 
+Após a otimização estrutural, serão obtidas a estrutura de bandas dessas ligas e a densidade de estados, para posterior obtenção das características dielétricas das ligas. Especificamente, serão calculadas as componentes diagonais da parte real e imaginária do tensor dielétrico, em função da frequência de excitação.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Mariama Rebelo de Souza dias - Integrante.<br class="clear"><br class="clear">Número de produções C, T &amp; A: 1</div>
+</div><a name="PP_Inteligência artificial aplicada à sistemas físicos" tabindex="101"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inteligência artificial aplicada à sistemas físicos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nesse projeto usaremos as técnicas de inteligência artificial e aprendizado de máquina para analisar as propriedades de sistemas físicos. Iremos utilizar da capacidade de determinar padrões das Redes Neurais Artificiais para estudar e buscar por previsões de propriedades óticas e de transporte de sistemas semicondutores baseados em poços quânticos. Dentre as propriedades que pretendemos analisar está a influência da não parabolicidade na estrutura eletrônica desses sistemas e suas consequências em propriedades como absorção ótica, corrente, fotocorrente, dentre outras.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Especialização: (0)  / Mestrado acadêmico: (1)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Gabriel da Silva Macedo - Integrante.<br class="clear"></div>
+</div><a name="PP_Estudo das propriedades óticas e de transporte em células solares de banda intermediária" tabindex="102"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo das propriedades óticas e de transporte em células solares de banda intermediária<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O avanço das técnicas experimentais no que tange o desenvolvimento de novas estruturas semicondutoras
+tem impulsionado o aperfeiçoamento de dispositivos optoeletrônicos com as mais diversas finalidades,
+dentre as quais destacamos a geração de energia limpa e renovável pelo desenvolvimento e utilização de
+células solares. 
+Especificamente tratando de estruturas semicondutoras de baixa dimensionalidade, estas se
+mostram muito promissoras quando empregadas como dispositivos optoeletrônicos, o que está
+principalmente associado ao confinamento quântico de seus portadores de carga e à interação desses
+portadores com perturbações externas na forma de campos externos, como diferenças de potenciais
+elétricos e a luz solar. Além disso, a flexibilidade em se controlar o perfil de potencial eletrônico gerado pela
+descontinuidade do band gap das diferentes camadas que formam tais estruturas, possibilita a manipulação
+e controle precisos das propriedades óticas e de transporte eletrônico, inclusive uma sintonia fina entre o
+Página 1 de 5
+espectro de excitação e absorção ótica com o espectro de radiação solar. Nessa estruturas, os fótons
+oriundos da luz solar excitam elétrons presentes na banda de valência para a banda de condução do
+dispositivo, os quais podem ser retirados na forma de corrente. Contudo, esse processo se restringe a uma
+pequena faixa de frequências o que reduz significativamente a eficiência na geração de corrente. Para
+aumentar a eficiência de conversão, bandas de estados adicionais intermediárias às bandas de valência e
+condução, tais quais as subbandas geradas pelo confinamento quântico em estruturas de baixa
+dimensionalidade, podem ser utilizadas. Esse processo viabiliza a captura de fótons menos energéticos
+levando à uma utilização mais ampla do espectro solar. Nesse caso, parte dos elétrons são excitados dos
+estados de valência para a banda intermediária e, via um processo de multifótons, são posteriormente
+excitados para os estados de condução e extraído como corrente. Desse modo o aumento na eficiência de
+geração de corrente está diretamente relacionado à eficiência do processo multifotônico em relação aos
+processos de recombinação ótica. Dessa forma, no presente projeto de pesquisa pretendemos realizar
+estudos teóricos em estruturas de baixa dimensionalidade (poços quânticos) aplicadas no desenvolvimento
+de células solares de banda intermediária, visando o entendimento das propriedades básicas de operação
+desses dispositivos, possibilitando o design de estruturas mais eficientes. Para tanto, a dinâmica dos
+sistemas será obtida pela resolução numérica da equação de Schröedinger dependente do tempo, usando o
+método do Split-Operator. Nesse método, o operador de evolução temporal é separado apropriadamente em
+exponenciais de termos não comutativos contendo os operadores de energia cinética e potencial e
+propagados temporalmente com precisão arbitrária. 
+Esperamos com isso, entender em detalhes o
+comportamento do movimento eletrônico nessas estruturas e os processos de excitação ótica dos
+portadores de carga, fornecendo parâmetros para a modelagem de resultados experimentais e, mais ainda,
+possibilitando a sugestão de estruturas e métodos mais eficientes para serem empregados em dispositivos
+optoeletrônicos com tecnologia nacional.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Nelson Studart - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear">Número de produções C, T &amp; A: 5</div>
+</div><a name="PP_Modelagem de fotodetectores de infravermelho na faixa entre 2 e 20 um para diversas aplicações" tabindex="103"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem de fotodetectores de infravermelho na faixa entre 2 e 20 um para diversas aplicações<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Integrante / Nelson Studart Filho - Coordenador.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear">Número de produções C, T &amp; A: 1</div>
+</div><a name="PP_Estudo da dependência do confinamento quântico nas propriedades de spin em heteroestruturas semicondutoras de tunelamento ressonante" tabindex="104"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo da dependência do confinamento quântico nas propriedades de spin em heteroestruturas semicondutoras de tunelamento ressonante<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esse projeto tem como objetivo evidenciar o papel do confinamento quânticos nas propriedades de spin em diodos de tunelamento ressonante de dupla barreira, para tanto é verificada a dependência da largura do poço quântico na polarização da luminesência desse tipo de estrutura na presença de campos elétrico e magnético.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Yara Galvão Gobato - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div><a name="PP_ESTUDO EM HETEROESTRUTURAS SEMICONDUTORAS CONTENDO SEMICONDUTORES MAGNÉTICOS DILUÍDOS" tabindex="105"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESTUDO EM HETEROESTRUTURAS SEMICONDUTORAS CONTENDO SEMICONDUTORES MAGNÉTICOS DILUÍDOS<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esse projeto tem como objetivo realizar um estudo sistemático em amostras com boa qualidade ótica contendo GaMnAs onde os efeitos de spin podem ser estudados por fotoluminescência. Para o início deste estudo foram preparadoS poços quânticos de AlAs/GaMnAs com baixa concentração de Mn (&lt;0.2%).. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Yara Galvão Gobato - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div><a name="PP_ESTUDO DE TRÍONS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N" tabindex="106"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESTUDO DE TRÍONS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste trabalho estudamos a criação e destruição desses complexos excitônicos em função da voltagem aplicada na estrutura uma vez que, dependendo da voltagem aplicada podemos mudar a concentração relativa de elétrons e buracos no QW. Desta forma, em uma mesma amostra, teremos a formação de diferentes complexos
+excitônicos. Com esse objetivo, utilizamos a técnica de eletroluminescência e transporte para estudar amostras do tipo p-i-n de GaAs/GaAlAs.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Yara Galvão Gobato - Integrante / Ednilson Carlos dos Santos - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear">Número de produções C, T &amp; A: 3</div>
+</div><a name="PP_ESTUDO DE TRÍONS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N" tabindex="107"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESTUDO DE TRÍONS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nesse trabalho foi estudada a formação e a destruição de complexos excitônicos em diodos de tunelamento ressonante.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Yara Galvão Gobato - Integrante / Ednilson Carlos dos Santos - Integrante.<br class="clear"><br class="clear">Número de produções C, T &amp; A: 3</div>
+</div><a name="PP_ESTUDO DAS PROPRIEDADES ÓTICAS E DE TRANSPORTE EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE" tabindex="108"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESTUDO DAS PROPRIEDADES ÓTICAS E DE TRANSPORTE EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nesse trabalho foi realizado um estudo de propriedades ótica (Luminescência) e de Transporte em diodos semicondutores de tunelamento ressonante de dupla barreira.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Anibal Thiago Bezerra - Coordenador / Yara Galvão Gobato - Integrante / Lara Fernandes dos Santos - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="109">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Applied Physics. A, Materials Science &amp; Processing (Internet)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Superlattices and Microstructures</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Nanoscale Research Letters</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2021 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Physics Education</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2021 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: EUROPEAN JOURNAL OF PHYSICS</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="110">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="111">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Pouco, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PremiosTitulos" tabindex="112">
+<h1 tabindex="0">Prêmios e títulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IOP Trusted Reviewer, IOP - Institute of Physics. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="113">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="114"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="115"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science<a href="http://www.researcherid.com/rid/D-5391-2015" target="_blank" tabindex="116"><img src="/buscatextual/images/curriculo/researcherID.gif"></a></div><div class="trab">Total de trabalhos:7</div><div class="cita">Total de citações:6</div><div class="fator">Fator H:2</div><div class="detalhes"><a href="http://www.researcherid.com/rid/D-5391-2015" target="_blank" tabindex="117">Bezerra, Anibal T</a>&nbsp;&nbsp;Data:&nbsp;03/08/2017</div></div></div></div></div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:9</div><div class="cita">Total de citações:10</div><div class="detalhes">Bezerra, Anibal T&nbsp;&nbsp;Data:&nbsp;22/08/2022</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="118"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.369</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">DA SILVA MACEDO, GABRIEL</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2023</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.physe.2022.115513" target="_blank" tabindex="119"></a>DA SILVA MACEDO, GABRIEL ; DE SOUSA DIAS, MARIAMA REBELLO ; <b>BEZERRA, Anibal Thiago</b> . Leveraging machine learning to harness non-parabolic effects in semiconductor heterostructures. PHYSICA E-LOW-DIMENSIONAL SYSTEMS &amp; NANOSTRUCTURES<sup><img id="13869477_1" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="13869477" original-title="PHYSICA E-LOW-DIMENSIONAL SYSTEMS &amp; NANOSTRUCTURES (1386-9477)<br />Fator de impacto (JCR 2021): 3.369"></sup>, v. 146, p. 115513, 2023. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.physe.2022.115513&amp;issn=13869477&amp;volume=146&amp;issue=&amp;paginaInicial=115513&amp;titulo=Leveraging machine learning to harness non-parabolic effects in semiconductor heterostructures&amp;sequencial=1&amp;nomePeriodico=PHYSICA E-LOW-DIMENSIONAL SYSTEMS &amp; NANOSTRUCTURES" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">4.177</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">KREIDER, MOLLY KATE</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2022</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1021/acs.jpcc.1c10655" target="_blank" tabindex="120"></a>KREIDER, MOLLY KATE ; REHAN, ABDUL QADEER ; KENT, ROBERT. M. ; <b>BEZERRA, ANIBAL T.</b> ; REBELLO SOUSA DIAS, MARIAMA . Al-Au Thin Films for Thermally Stable and Highly Sensitive Plasmonic Sensors. Journal of Physical Chemistry C<sup><img id="19327447_2" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="19327447" original-title="Journal of Physical Chemistry C (1932-7447)<br />Fator de impacto (JCR 2021): 4.177"></sup>, v. 126, p. 5628-5639, 2022. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1021/acs.jpcc.1c10655&amp;issn=19327447&amp;volume=126&amp;issue=&amp;paginaInicial=5628&amp;titulo=Al-Au Thin Films for Thermally Stable and Highly Sensitive Plasmonic Sensors&amp;sequencial=2&amp;nomePeriodico=Journal of Physical Chemistry C" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000783122600027&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Pimenta, R. C. S.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span>Pimenta, R. C. S. ; <b>BEZERRA, Anibal Thiago</b> . Leveraging Qiskit to teach basic quantum computation algorithms.. Parana Journal of Science and Education<sup></sup>, v. 7, p. 1-5, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=24476153&amp;volume=7&amp;issue=&amp;paginaInicial=1&amp;titulo=Leveraging Qiskit to teach basic quantum computation algorithms.&amp;sequencial=3&amp;nomePeriodico=Parana Journal of Science and Education" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.194</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BEZERRA, Anibal Thiago</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3934/mbe.2021467" target="_blank" tabindex="121"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="122">BEZERRA, Anibal Thiago</a></b>; INSTITUTE OF EXACT SCIENCES, FEDERAL UNIVERSITY OF ALFENAS-MG (UNIFAL-MG), ALFENAS-MG 37133-840, BRAZIL ; PINTO, LEONARDO ANTONIO ; RODRIGUES, DIEGO SAMUEL ; BITTENCOURT, GABRIELA NOGUEIRA ; DE ARRUDA MANCERA, PAULO FERNANDO ; DE ARRUDA MIRANDA, JOSÉ RICARDO ; INSTITUTE OF BIOSCIENCES, SÃO PAULO STATE UNIVERSITY (UNESP), BOTUCATU-SP 18618-689, BRAZIL ; SCHOOL OF TECHNOLOGY, UNIVERSITY OF CAMPINAS (UNICAMP), LIMEIRA-SP 13484-332, BRAZIL . Classification of gastric emptying and orocaecal transit through artificial neural networks. MATHEMATICAL BIOSCIENCES AND ENGINEERING (ONLINE)<sup><img id="15510018_4" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="15510018" original-title="Mathematical Biosciences and Engineering (1551-0018)<br />Fator de impacto (JCR 2021): 2.194"></sup>, v. 18, p. 9511-9524, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.3934/mbe.2021467&amp;issn=15510018&amp;volume=18&amp;issue=&amp;paginaInicial=9511&amp;titulo=Classification of gastric emptying and orocaecal transit through artificial neural networks&amp;sequencial=4&amp;nomePeriodico=MATHEMATICAL BIOSCIENCES AND ENGINEERING (ONLINE)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000743910600011&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.983</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BEZERRA, Anibal Thiago</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10825-020-01547-w" target="_blank" tabindex="123"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="124">BEZERRA, Anibal Thiago</a></b>. The application of a modified Levine model to quantum-well infrared photodetectors in the low-temperature regime. Journal of Computational Electronics<sup><img id="15698025_5" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="15698025" original-title="Journal of Computational Electronics (1569-8025)<br />Fator de impacto (JCR 2021): 1.983"></sup>, v. 19, p. 1645-1650, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s10825-020-01547-w&amp;issn=15698025&amp;volume=19&amp;issue=&amp;paginaInicial=1645&amp;titulo=The application of a modified Levine model to quantum-well infrared photodetectors in the low-temperature regime&amp;sequencial=5&amp;nomePeriodico=Journal of Computational Electronics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000549781300001&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.409</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">PEREIRA, PEDRO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/1361-6463/aa5a85" target="_blank" tabindex="125"></a>PEREIRA, PEDRO ; <b>BEZERRA, ANIBAL</b> ; FARINAS, PAULO F ; MAIALLE, MARCELO ; DEGANI, MARCOS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0451310772113076" target="_blank" tabindex="126">STUDART, NELSON</a> . Generation of spin polarized currents with coherent trapping in magnetic semiconductors. Journal of Physics. D, Applied Physics (Print)<sup><img id="00223727_6" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="00223727" original-title="JOURNAL OF PHYSICS D-APPLIED PHYSICS (0022-3727)<br />Fator de impacto (JCR 2021): 3.409"></sup>, v. 50, p. 135101, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/1361-6463/aa5a85&amp;issn=00223727&amp;volume=50&amp;issue=&amp;paginaInicial=135101&amp;titulo=Generation of spin polarized currents with coherent trapping in magnetic semiconductors&amp;sequencial=6&amp;nomePeriodico=Journal of Physics. D, Applied Physics (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000396058700002&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.409</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BEZERRA, ANIBAL T</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/1361-6463/aa795a" target="_blank" tabindex="127"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="128">BEZERRA, ANIBAL T</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0451310772113076" target="_blank" tabindex="129">STUDART, NELSON</a> . Lifetime enhancement for multiphoton absorption in intermediate band solar cells. JOURNAL OF PHYSICS D-APPLIED PHYSICS<sup><img id="00223727_7" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="00223727" original-title="JOURNAL OF PHYSICS D-APPLIED PHYSICS (0022-3727)<br />Fator de impacto (JCR 2021): 3.409"></sup>, v. 50, p. 305501, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/1361-6463/aa795a&amp;issn=00223727&amp;volume=50&amp;issue=&amp;paginaInicial=305501&amp;titulo=Lifetime enhancement for multiphoton absorption in intermediate band solar cells&amp;sequencial=7&amp;nomePeriodico=JOURNAL OF PHYSICS D-APPLIED PHYSICS" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000405016400001&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">4</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.971</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BEZERRA, ANIBAL T.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1063/1.4861656" target="_blank" tabindex="130"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="131">BEZERRA, ANIBAL T.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1397190485811267" target="_blank" tabindex="132">CASTELANO, LEONARDO K.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9904070947832545" target="_blank" tabindex="133">DEGANI, MARCOS H.</a> ; MAIALLE, MARCELO Z. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0309157540839329" target="_blank" tabindex="134">FARINAS, PAULO F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0451310772113076" target="_blank" tabindex="135">STUDART, NELSON</a> . Generation and control of spin-polarized photocurrents in GaMnAs heterostructures. Applied Physics Letters (on-line)<sup><img id="10773118_8" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="10773118" original-title="APPLIED PHYSICS LETTERS (1077-3118)<br />Fator de impacto (JCR 2021): 3.971"></sup>, v. 104, p. 022105, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1063/1.4861656&amp;issn=10773118&amp;volume=104&amp;issue=&amp;paginaInicial=022105&amp;titulo=Generation and control of spin-polarized photocurrents in GaMnAs heterostructures&amp;sequencial=8&amp;nomePeriodico=Applied Physics Letters (on-line)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000330431000053&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">3</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1063/1.4861656&amp;md5=1b99c3885f1a3346562517e816939d4c" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.736</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BEZERRA, ANIBAL T.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevB.89.035301" target="_blank" tabindex="136"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="137">BEZERRA, ANIBAL T.</a></b>; MAIALLE, MARCELO Z. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9904070947832545" target="_blank" tabindex="138">DEGANI, MARCOS H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0309157540839329" target="_blank" tabindex="139">FARINAS, PAULO F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0451310772113076" target="_blank" tabindex="140">STUDART, NELSON</a> . Negative photoconductance in a biased multiquantum well with filter barriers. Physical Review. B, Condensed Matter and Materials Physics<sup><img id="10980121_9" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="10980121" original-title="PHYSICAL REVIEW B (1098-0121)<br />Fator de impacto (JCR 2014): 3.736"></sup>, v. 89, p. 035301, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevB.89.035301&amp;issn=10980121&amp;volume=89&amp;issue=&amp;paginaInicial=035301&amp;titulo=Negative photoconductance in a biased multiquantum well with filter barriers&amp;sequencial=9&amp;nomePeriodico=Physical Review. B, Condensed Matter and Materials Physics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000332173200003&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.409</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GALETI, H V A</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0022-3727/46/50/505313" target="_blank" tabindex="141"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3876752605313288" target="_blank" tabindex="142">GALETI, H V A</a> ; <b>BEZERRA, A T</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7558531056409406" target="_blank" tabindex="143">GALVÃO GOBATO, Y</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8780105727404133" target="_blank" tabindex="144">BRASIL, M J S P</a> ; TAYLOR, D ; HENINI, M . Optical and electrical control of spin polarization of two-dimensional hole gases in p-type resonant tunnelling devices. Journal of Physics D: Applied Physics<sup><img id="13616463_10" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="13616463" original-title="JOURNAL OF PHYSICS D-APPLIED PHYSICS (1361-6463)<br />Fator de impacto (JCR 2021): 3.409"></sup>, v. 46, p. 505313, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/0022-3727/46/50/505313&amp;issn=13616463&amp;volume=46&amp;issue=&amp;paginaInicial=505313&amp;titulo=Optical and electrical control of spin polarization of two-dimensional hole gases in p-type resonant tunnelling devices&amp;sequencial=10&amp;nomePeriodico=Journal of Physics D: Applied Physics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000331143600029&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/0022-3727/46/50/505313&amp;md5=e0a03e2c0c05018acb12277e9effff09" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="145"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, H. M. L. ; DIAS, M. R. S. ; <b>BEZERRA, Anibal Thiago</b> . Anisotropic dielectric function response of Ag-Au alloys evaluated via DFT. In: APS March Meeting, 2021, Virtual. APS March Meeting 2021, 2021. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REHAN, A. Q. ; KENT, R. M. ; KREIDER, M. K. ; <b>BEZERRA, Anibal Thiago</b> ; DIAS, M. R. S. . Accelerating the discovery of bimetallic materials for sensing applications via DFT and ML. In: APS March Meeting, 2021, Virtual. APS March Meeting 2021, 2021. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="146">BEZERRA, ANIBAL T.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1397190485811267" target="_blank" tabindex="147">CASTELANO, LEONARDO K.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9904070947832545" target="_blank" tabindex="148">DEGANI, MARCOS H.</a> ; MAIALLE, MARCELO Z. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0309157540839329" target="_blank" tabindex="149">FARINAS, PAULO F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0451310772113076" target="_blank" tabindex="150">STUDART, NELSON</a> . Modeling GaMnAs Heterostructures for Generation &amp; Control of Spin-Polarized Photocurrents. In: Intenational Conference on the Physics of Semiconductors, 2014, Austin - Texas. Posters: Spintronics &amp; Spin Phenomena, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOBATO, Yara Galvão ; GALETI, Helder Vinicius Avanço ; BRASIL, M.J.S.P. ; <b>BEZERRA, ANIBAL T.</b> ; TAYLOR, D ; HENINI, M. . Spin Polarized Hole Injection in Resonant Tunneling Diodes. In: International Conference on the Physics of Semiconductors, 2014, Austin - Texas. Posters: Spintronics &amp; Spin Phenomena, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0451310772113076" target="_blank" tabindex="151">STUDART, NELSON</a> ; <b>BEZERRA, ANIBAL T.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1397190485811267" target="_blank" tabindex="152">CASTELANO, LEONARDO K.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0309157540839329" target="_blank" tabindex="153">FARINAS, PAULO F.</a> ; MAIALLE, M. Z. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9904070947832545" target="_blank" tabindex="154">DEGANI, MARCOS H.</a> . Terahertz excitation and control of spin photocurrents in a semi- conductor nanostructure. In: American Physical Society March Meeting, 2013, Baltimore. Bulletin of the American Physical Society, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="155">BEZERRA, Anibal Thiago</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9904070947832545" target="_blank" tabindex="156">DEGANI, MARCOS H.</a> ; MAIALLE, M. Z. ; FARINAS, P. F. ; STUDART, N. . Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. In: International Conference on Superlattices, Nanostructures and Nanodevices, 2012, Dresden. International Conference on Superlattices, Nanostructures and Nanodevices, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AVANÇO, Helder Galetti ; <b>BEZERRA, Anibal Thiago</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7558531056409406" target="_blank" tabindex="157">GALVÃO GOBATO, Y</a> ; BRASIL, M.J.S.P. ; CESAR, D. F. ; LOPEZ-RICHARD, V. ; Marques, G. E. ; HENINI, M. ; TAYLOR, D. . Voltage Controlled spin polarization in p-type GaAs/AlAs double barrier structures. In: International Conference on Superlattices, Nanostructures and Nanodevices, 2012, Dresden. International Conference on Superlattices, Nanostructures and Nanodevices, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3876752605313288" target="_blank" tabindex="158">GALETI, H V A</a> ; <b>BEZERRA, Anibal Thiago</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7558531056409406" target="_blank" tabindex="159">GALVÃO GOBATO, Y</a> ; BRASIL, M.J.S.P. ; CESAR, D. F. ; LOPEZ-RICHARD, V. ; Marques, G. E. ; HENINI, M. ; TAYLOR, D. . Spin polarization in voltage controlled two-dimensional hole gases. In: 7th International Conference on Physics and Applications of Spin-Related Phenomena in Semiconductors, 2012, Eindhoven. 7th International Conference on Physics and Applications of Spin-Related Phenomena in Semiconductors, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="160">BEZERRA, Anibal Thiago</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9904070947832545" target="_blank" tabindex="161">DEGANI, MARCOS H.</a> ; MAIALLE, MARCELO Z. ; FARINAS, P. F. ; Studart N . Strong electric field photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. In: 31st International Conference on the Physics of Semiconductors, 2012, Zurique. 31st International Conference on the Physics of Semiconductors, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="162">BEZERRA, Anibal Thiago</a></b>; GOBATO, Yara Galvão ; GALETI, Helder Vinicius Avanço ; Marques, G. E. ; BRASIL, M.J.S.P. ; TAYLOR, D. ; HENINI, M. . Spin effects studies in a p-type resonant tunneling diode. In: XII Giambiagi School - Low dimensional condensed matter, 2010, Buenos Aires. XII GIAMBIAGI SCHOOL, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="163">BEZERRA, Anibal Thiago</a></b>; GOBATO, Yara Galvão ; SANTOS, Ednilson Carlos dos . FORMAÇÃO DE TRÍONS EM DIODOS DE DUPLA BARREIRA DO TIPO P-I-N. In: XV Congresso de Iniciação Científica da UFScar, 2007, São Carlos. Anais de Evenos da UFSCar, 2007. v. 3. p. 573-573. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="164">BEZERRA, Anibal Thiago</a></b>; GOBATO, Yara Galvão ; SANTOS, Ednilson Carlos dos ; SANTOS, Lara Fernandes dos ; GALETI, Helder Vinicius Avanço . ESTUDO DE COMPLEXOS EXCITÔNICOS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N. In: XIV Congresso de Iniciação Científica da UFSCar, 2006, São Carlos. Anais de Eventos da UFSCar, 2006. v. 2. p. 442-442. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="165"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="166">BEZERRA, Anibal Thiago</a></b>; PINTO, L. A. ; RODRIGUES, D. S. ; BITTENCOURT, G. N. ; MIRANDA, J. R. A. . Gastric Emptying and Orocaecal Transit Analyses of Diabetic and Control Individuals Through Deep Neural Networks. 2021. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="167">BEZERRA, Anibal Thiago</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9904070947832545" target="_blank" tabindex="168">DEGANI, MARCOS H.</a> ; MAIALLE, M. Z. ; FARINAS, P. F. ; STUDART, N. . Photocurrenr control by dynamic localization effects in a multiple quantum well structure. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="169">BEZERRA, Anibal Thiago</a></b>; MAIALLE, M. Z. ; DEGANI, M. H. ; FARINAS, P. F. ; STUDART, N. . Negative Photocundutance in a multiple quantum well strucuture. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="170">BEZERRA, Anibal Thiago</a></b>; DEGANI, M. H. ; MAIALLE, M. Z. ; FARINAS, P. F. ; Studart N . Strong electric field infrared photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="171">BEZERRA, Anibal Thiago</a></b>; DEGANI, M. H. ; MAIALLE, M. Z. ; FARINAS, P. F. ; Studart N . Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="172">BEZERRA, Anibal Thiago</a></b>; DEGANI, M. H. ; MAIALLE, M. Z. ; FARINAS, P. F. ; Studart N . Theorical studies of a multiple quantum well structure under bias working as an infrared photodetector. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AVANÇO, Helder Galleti ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="173">BEZERRA, Anibal Thiago</a></b> ; GOBATO, Yara Galvão ; BRASIL, M.J.S.P. ; CESAR, D. F. ; LOPEZ-RICHARD, V. ; Marques, G. E. ; HENINI, M. ; TAYLOR, D. . Spin poalarization in voltage controlled two-dimensional hole gases. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AVANÇO, Helder Galleti ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="174">BEZERRA, Anibal Thiago</a></b> ; GOBATO, Yara Galvão ; BRASIL, M.J.S.P. ; CESAR, D. F. ; LOPEZ-RICHARD, V. ; Marques, G. E. ; HENINI, M. ; TAYLOR, D. . Voltage controlled spin polarization in p-type GaAs/AlAs double barrier structures. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="175">BEZERRA, Anibal Thiago</a></b>; GOBATO, Yara Galvão ; GALETI, Helder Vinicius Avanço ; Marques, G. E. ; BRASIL, M.J.S.P. ; TAYLOR, D. ; HENINI, M. . Spin effects studies in a p-type resonant tunneling diode. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="176">BEZERRA, Anibal Thiago</a></b>; GOBATO, Yara Galvão ; SANTOS, Ednilson Carlos dos . FORMAÇÃO DE TRÍONS EM DIODOS DE DUPLA BARREIRA DO TIPO P-I-N. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Ednilson Carlos dos ; GOBATO, Yara Galvão ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="177">BEZERRA, Anibal Thiago</a></b> . ESTUDO DAS PROPRIEDADES ÓTICAS E DE TRANPORTE DE HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE COM PONTOS QUÂNTICOS. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Ednilson Carlos dos ; GOBATO, Yara Galvão ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="178">BEZERRA, Anibal Thiago</a></b> . EFEITO TUNEL RESSONANTE EM HETEROESTRUTURAS DE DUPLA BARREIRA COM PONTOS QUÂNTICOS. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="179">BEZERRA, Anibal Thiago</a></b>; GOBATO, Yara Galvão ; SANTOS, Ednilson Carlos dos . ESTUDO DE COMPLEXOS EXCITÔNICOS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="180"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="181">BEZERRA, Anibal Thiago</a></b>. Resolução da equação de Schrodinger dependente do tempo numericamente pelo método Spli-Operator. 2012. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="182">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="183"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; SOLTAU, S. B.; VIVAS, M. G..  Participação em banca de Gabriel da Silva Macedo. REDES NEURAIS ARTIFICIAIS APLICADAS NA OTIMIZAÇÃO DE PROPRIEDADES DE SISTEMAS SEMICONDUTORES CONTENDO POÇOS QUÂNTICOS. 2020. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I. Camps Rodrigues; <b>BEZERRA, Anibal Thiago</b>; SOLTAU, S. B..  Participação em banca de Roberto Tavares Madeira. Interação de Nanotubos de Nitreto de Boro com Metais Pesados - Estudo de Primeiros Princípios. 2020. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Toti, Frederico Augusto; <b>BEZERRA, Anibal Thiago</b>.  Participação em banca de Lídia Rodrigues Dionísio Oliveira. Sequência Didática no Ensino de Tecnologias Relacionadas à Física Baseada na Motivação Intrínseca Entre Alunos do Ensino Médio. 2019. Dissertação (Mestrado em Mestrado Nacional Profissional em Ensino de Física do Polo 28) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; DIAS, M. R. S.; MAIALLE, M. Z.; NEVES, P. P..  Participação em banca de Gabriel Marinho Machado. Recuperando o uso da aproximação de massa efetiva em perovskitas híbridas de baixa dimensionalidade por meio da aproximação de bandas não parabólicas. 2019. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEVES, P. P.; <b>BEZERRA, ANIBAL T.</b>; ANTONELLI, E..  Participação em banca de Gilson José Rodrigues. Incorporação do MN no óxido semicondutor magnético diluído ZNO via síntese química: método Pechini. 2018. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUEZ, I. C.; CAMPOS, M. G. N.; <b>BEZERRA, Anibal Thiago</b>.  Participação em banca de Wanderson Geraldo Knupp. Interação Nanotubo de Carbono com Hidroxiapatita. 2017. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TEODORO, M. D.; FERRI, F. A.; <b>BEZERRA, Anibal Thiago</b>.  Participação em banca de Emerson Chaves dos Santos. Biestabilidade Extrínsica em Diodos de Tunelamento Ressonante. 2016. Dissertação (Mestrado em Física) - Universidade Federal de São Carlos. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1397190485811267" target="_blank" tabindex="184">CASTELANO, LEONARDO K.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0309157540839329" target="_blank" tabindex="185">FARINAS, PAULO F.</a>.  Participação em banca de Pedro Henrique Pereira. Geração de corrente spin polarizada em heteroestruturas dopadas com impurezas magnéticas. 2015. Dissertação (Mestrado em Física) - Universidade Federal de São Carlos. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STUDART, N.; <b>BEZERRA, Anibal Thiago</b>; GUALDI, A. J.; SALES, N. L. L..  Participação em banca de Bruno Marconi Riboldi. A construção de uma UEPS para ensinar relatividade utilizando animações e o game "A Slower Speed of Light". 2015. Dissertação (Mestrado em Física) - Universidade Federal de São Carlos. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; LEMES, N. H. T.; SEBASTIAO, R. C. O.; RODRIGUEZ, I. C..  Participação em banca de Éderson D'Martin Costa. Inversão da função energia potencial a partir do coeficiente de viscosidade quântico. 2017. Tese (Doutorado em Química)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; Toti, Frederico Augusto; SORPRESO, T. P..  Participação em banca de Lídia Rodrigues Dionísio Oliveira. INVESTIGAÇÃO DAS MOTIVAÇÕES INTRÍNSECAS NA APRENDIZAGEM DE ENSINO MÈDIO. 2019. Exame de qualificação (Mestrando em Mestrado Nacional Profissional em Ensino de Física do Polo 28)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; NEVES, P. P.; SOLTAU, S. B..  Participação em banca de Gabriel da Silva Macedo. Redes neurais aplicadas na otimização de sistemas semicondutores. 2019. Exame de qualificação (Mestrando em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, ANIBAL T</b>; LEMES, N. H. T.; FERREIRA, J. C..  Participação em banca de Camila Assis Tavares. Uso da rede neural fracionária de Hopfield na solução de problemas inversos em química. 2019. Exame de qualificação (Mestrando em Química)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, ANIBAL T.</b>; I. Camps Rodrigues; NEVES, P. P..  Participação em banca de Gabriel Marinho Machado. Aproximaçãop de massa efetiva aplicada à perovskitas híbridas de baixa dimensionalidade. 2018. Exame de qualificação (Mestrando em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUEZ, I. C.; <b>BEZERRA, ANIBAL T.</b>; SILVEIRA, N. J. F..  Participação em banca de Roberto Tavares Madeira. Interação de nanotubos de boro-nitrogênio com metais pesados: estudo de primeiros princípios. 2018. Exame de qualificação (Mestrando em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; NEVES, P. P.; OIVEIRA, E. T. M..  Participação em banca de Gilson José Rodrigues. Incorporação  do Mn no óxido semicondutor magnético diluído ZnO via síntese química - Método Pechini Modificado. 2017. Exame de qualificação (Mestrando em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, H. B.; <b>BEZERRA, Anibal Thiago</b>; NEVES, P. P..  Participação em banca de Paulo Henrique Gomes. Preparação e caracterização estrutural de TiO2:Co:Sb nanoestruturado. 2016. Exame de qualificação (Mestrando em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, H. B.; <b>BEZERRA, Anibal Thiago</b>; MAMANI, N. C..  Participação em banca de Luis Renato Valério. Desenvolvimento de Materiais Nanoestruturados para Aplicações em Novos Dispositivos. 2015. Exame de qualificação (Mestrando em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, ANIBAL T</b>; NEVES, P. P.; SOLTAU, S. B..  Participação em banca de João Paulo de Araújo Cruz.Uma proposa para o uso do Traker para a análise espectroscópica de baixo custo..
+							2019. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; BRESSAN, P. H.; OLIVEIRA, H. M. B..  Participação em banca de Adriana Aparecida de Ávila.ViewDef VR: A utilização da Realidade Virtual para exibição dos defeitos da visão.
+							2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUEZ, I. C.; <b>BEZERRA, Anibal Thiago</b>; SILVEIRA, N. J. F..  Participação em banca de Andrilene Celina Alves.Modelagem Computacional de Complexos nanotubos/aminoácidos.
+							2019. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; I. Camps Rodrigues; JUSTINIANO, A. R..  Participação em banca de Ygor Lacerda.ESTUDO DAS PROPRIEDADES ÓTICAS E DE TRANSPORTE EM CÉLULAS SOLARES DE BANDA INTERMEDIÁRIA.
+							2019. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; RODIGUES, D. S.; MAGALHAES, C. S..  Participação em banca de Lucas Marques Fagundes Silva.Modelagem farmacocinética da biodistribuição de nanopartículas magnéticas via equações diferenciais ordinárias.
+							2019. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; I. Camps Rodrigues; Toti, Frederico Augusto.  Participação em banca de João Victor de Almeida.Análise de Células Solares de Bnada Intermediária à partir do Método Fourier Grid Hamiltonian.
+							2019. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUSTINIANO, A. R.; SOLTAU, S. B.; <b>BEZERRA, ANIBAL T.</b>.  Participação em banca de Monique Marques de Brito.Caracterização de estrelas variáveis no Observatório Astronômico da Universidade Federal de Alfenas.
+							2018. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; NEVES, P. P.; T. Magnavitta.  Participação em banca de Gabriel Marinho Machado.Obtenção de pós nanoestruturados de ZnO dopado com Co conjugando os métodos de Pechini e moagem mecanoquímica.
+							2017. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; SORPRESO, T. P..  Participação em banca de Débora Marques dos Santos.Mulheres na licenciatura em física: permanência limitada.
+							2017. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUEZ, I. C.; <b>BEZERRA, Anibal Thiago</b>; SILVEIRA, N. J. F..  Participação em banca de Mariana da Silva Ribeiro.Propriedades Eletrônicas de nanotubos de carbono funcionalizados desordenados.
+							2016. Trabalho de Conclusão de Curso (Graduação em Química)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, H. B.; <b>BEZERRA, Anibal Thiago</b>; MAMANI, N. C..  Participação em banca de Paulo Henrique Xavier.Preparação de cerâmicas nanoestruturadas de Ca3Co4O9 para aplicação em dispositivos termoelétricos.
+							2015. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="186"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BEZERRA, Anibal Thiago</b>; DUARTE, U. R.; MARTINS, M.. Professor de Física IFMG - Formiga.
+							2019. Instituto Federal  Minas Gerais. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUEZ, I. C.; <b>BEZERRA, Anibal Thiago</b>; SILVEIRA, N. J. F.; Oliveira, A J; SALGADO, R. M.. Professor das Disciplinas de Matemática para os cursos de Física e Ciência da Computação - Edial 134/2017.
+							2017. Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="187">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="188"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Workshop Escola de Computação e Informação Quântica - WECIQ 2022. Subspace-Search Variational Quantum Eigensolver (SSVQE) as a tool in materials science, a benchmark. 2022. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Society for Mathematical Biology Annual Meeting.A Bayesian Framework for Mathematical Modeling of In Vivo Pharmacokinetic Profiles of Magnetic Particles.
+							2021. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Virtual Society for Mathematical Biology Annual Meeting.Gastric Emptying and Orocaecal Transit Analyses of Diabetic and Control Individuals Through Deep Neural Networks.
+							2021. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Integrado UNIFAL-MG.Geral.
+							2015. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The 12th International Conference on Intersubband Transitions in Quantum Wells. Negative photoconductance in a multiple quantum well structure. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Congresso de Iniciação Científica da UFSCar. XXI Congresso de Iniciação Científica da UFSCar. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">31st International Conference on the Physics of semiconductortor. Strong electric field infrared photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Conference on Physics Semiconductor. Strong electric field infrared photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Conference on Superlattices, Nanostructures andand Nanodevices. Voltage controlled spin polarization in p-type GaAs/AlAs double barrier structures. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Conference on Superlattices, Nanostructures andand Nanodevices. Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Conference on Superlattices, Nanostructures andand Nanodevices. Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIIII Semana da Física da UFSCar. Resolução da equação de Schrödinger dependente do tempo numericamente pelo método split-operator. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop on Infrared Technology. Theorical studies of a multiple quantum well structure under bias working as an infrared photodetector. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Giambiagi School - Low dimensional condensed matter. Spin effects studies in a p-type resonant tunneling diode. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Congresso de iniciação Científica da UFSCar. ESTUDO DAS PROPRIEDADES ÓTICAS E DE TRANSPORTE DE HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE COM PONTOS QUÂNTICOS. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Congresso de Iniciação Científica da UFSCar. FORMAÇÃO DE TRÍONS EM DIODOS DE DUPLA BARREIRA DO TIPO P-I-N. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana de Física da UFSCar. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Congresso de iniciação científica da UFSCar. ESTUDO DE COMPLEXOS EXCITÔNICOS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Congresso de Iniciação Científica da UFSCar. EFEITO TUNEL RESSONANTE EM HETEROESTRUTURAS DE DUPLA BARREIRA COM PONTOS QUÂNTICOS. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Física da UFSCar. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="189"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8478305453281130" target="_blank" tabindex="190">BEZERRA, ANIBAL T</a></b>; I. Camps Rodrigues . Pint of Science 2019 - Alfenas. 2019. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="191">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="192"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/7615714763847868" tabindex="193"><img src="images/curriculo/logolattes.gif"></a>Tiago Vitor Lopes. Estudo de primeiros princípios de sistemas cristalinos nano estruturados.
+						Início: 2022.
+						Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="194"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/5221863351791074" tabindex="195"><img src="images/curriculo/logolattes.gif"></a>Raphael Cesar de Souza Pimenta. Compuação Quântica Aplicada à Materiais.
+							2022.
+						
+					Dissertação  (Mestrado em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas, . Orientador: Anibal Thiago Bezerra. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/9806548647159907" tabindex="196"><img src="images/curriculo/logolattes.gif"></a>Hiago Maurílio Lopes Carvalho. Teoria do Funcional Densidade (DFT) aplicada a diferentes estruturas de liga de ouro (Au) e prata (Ag) para análise de propriedades dielétricas.
+							2021.
+						
+					Dissertação  (Mestrado em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Anibal Thiago Bezerra. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/6438374644753396" tabindex="197"><img src="images/curriculo/logolattes.gif"></a>Gabriel da Silva Macedo. REDES NEURAIS ARTIFICIAIS APLICADAS NA OTIMIZAÇÃO DE PROPRIEDADES DE SISTEMAS SEMICONDUTORES CONTENDO POÇOS QUÂNTICOS.
+							2020.
+						
+					Dissertação  (Mestrado em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas, . Orientador: Anibal Thiago Bezerra. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/9906430445327093" tabindex="198"><img src="images/curriculo/logolattes.gif"></a>Gabriel Marinho Machado. Estudo da não parabolicidade de banda em perovskitas hibridas..
+							2019.
+						
+					Dissertação  (Mestrado em Física - UFLA - UFSJ - UNIFAL)  - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. Orientador: Anibal Thiago Bezerra. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Vitor Lopes.
+							Teoria do Funcional de Densidade (DFT) aplicada na obtenção de propriedades optoeletrônicas de ligas de ouro e alumínio para aplicações plasmônicas.
+							2020.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renan Pereira Araújo.
+							Teoria do Funcional de Densidade (DFT) aplicada na obtenção de propriedades optoeletrônicas de peroviskitas híbridas.
+							2020.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Raphel Cesar de Sousa Pimenta.
+							Qiskit aplicado ao ensino de conceitos b ?asicos de informa ?c ?ao e computa ?c ?ao qu?antica.
+							2019.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cássio Henrique de Souza Marculino.
+							Estudo das propriedades óticas e de transporte em diodos de tunelamento ressonante, por meio da solução da equação de Schrödinger-Poisson..
+							2019.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Marques Fagundes Silva.
+							Modelagem farmacocinéticada biodistribuição de nanopartículas magnéticas via equa- çõesdiferenciais ordinárias.
+							2018.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ygor Lacerda Batista da Silva.
+							Dinâmica dos processos de transições inter e intersubbandas de células solares de baixa dimensionalidade via método Split Operator.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Victor Almeida.
+							Fourier Grid Hamiltonian aplicado ao estudo das propriedades ópticas e de transporte de células solares de banda intermediária simuladas computacionalmente usando a linguagem Julia.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas,
+							Fundação de Amparo à Pesquisa do Estado de Minas Gerais. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Vitor Lopes.
+							Teoria do Funcional de Densidade (DFT) aplicada na obtenção de propriedades optoeletrônicas de ligas de ouro e alumínio para aplicações plasmônicas.
+							2020.
+							Iniciação Científica. (Graduando em Física)  - Universidade Federal de Alfenas,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Victor de Almeida.
+							Efeito da aproximação de banda não parabólica nas propriedades óticas e de transporte de células solares de banda intermediária..
+							2018.
+							Iniciação Científica. (Graduando em Física)  - Universidade Federal de Alfenas,
+							Fundação de Amparo à Pesquisa do Estado de Minas Gerais. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cassio Henrique de Souza Marculino.
+							Dinâmica de processos óticos e de transporte em células solares semicondutoras.
+							2018.
+							Iniciação Científica. (Graduando em Física)  - Universidade Federal de Alfenas,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ygor Lacerda Batista da Silva.
+							Dinâmica dos processos de transições inter e intersubbandas de células solares de baixa dimensionalidade via método Split Operator.
+							2017.
+							Iniciação Científica. (Graduando em Física)  - Universidade Federal de Alfenas. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Victor de Almeida.
+							Fourier Grid Hamiltonian aplicado ao estudo das  propriedades ópticas e de transporte de células solares de banda intermediária  simuladas computacionalmente usando a linguagem Julia..
+							2017.
+							Iniciação Científica. (Graduando em Física)  - Universidade Federal de Alfenas. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ygor Lacerda Batista da Silva.
+							Obtenção de propriedades óticas de células solares usando a linguagem Julia.
+							2016.
+							Iniciação Científica. (Graduando em Física)  - Universidade Federal de Alfenas,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Anibal Thiago Bezerra.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 24/01/2023 às 10:48:11</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8478305453281130" target="_blank" class="button" tabindex="199"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="200"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="201">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos" tabindex="14">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="16">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="17">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="19">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa" tabindex="20">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico" tabindex="21">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="22">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="24">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="26">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="27">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="28">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="29">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="30">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="31">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="32">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="34">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="35">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="36">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="37">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="38">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="39">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="40">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="41">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="42">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="44">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="46">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="47">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="48">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="49">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="50">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="51">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="52">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="53">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="54">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="55">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="56">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="57">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos" tabindex="59">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos" tabindex="60">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas" tabindex="62">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento" tabindex="63">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="65">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="66">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-citacoes" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Citacoes" tabindex="68">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes" tabindex="69">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes" tabindex="70">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes" tabindex="71">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="9pos" style="z-index: 1010; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4130051H9&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="73">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

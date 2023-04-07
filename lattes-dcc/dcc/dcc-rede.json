@@ -1,0 +1,27 @@
+{
+"nodes":[
+{ "name":"Eduardo Gomes Salgado", "idlattes":"2363460036599181", "rotulo":"[Sem rotulo]", "collaborationrank":1.70253026485 },
+{ "name":"Eliseu Cesar Miguel", "idlattes":"6883421018811339", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Fellipe Guilherme Rey de Souza", "idlattes":"8889388173781632", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Flavio Barbieri Gonzaga", "idlattes":"1310310705488241", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Humberto Cesar Brandao de Oliveira", "idlattes":"3832045632369639", "rotulo":"[Sem rotulo]", "collaborationrank":1.70857989788 },
+{ "name":"Luiz Eduardo da Silva", "idlattes":"5459510407019521", "rotulo":"[Sem rotulo]", "collaborationrank":0.798072755337 },
+{ "name":"Marcelo Lacerda Rezende", "idlattes":"6453091384982419", "rotulo":"[Sem rotulo]", "collaborationrank":0.512519538403 },
+{ "name":"Mariane Moreira de Souza", "idlattes":"9682825029495702", "rotulo":"[Sem rotulo]", "collaborationrank":0.695274591446 },
+{ "name":"Nelson Jose Freitas da Silveira", "idlattes":"6853382226977684", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Paulo Alexandre Bressan", "idlattes":"0231239253253477", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Ricardo Menezes Salgado", "idlattes":"8918198224706238", "rotulo":"[Sem rotulo]", "collaborationrank":0.798072755337 },
+{ "name":"Rodrigo Martins Pagliares", "idlattes":"1194178136211401", "rotulo":"[Sem rotulo]", "collaborationrank":0.511342465878 },
+{ "name":"Tomas Dias Sant'Ana", "idlattes":"1722873559734250", "rotulo":"[Sem rotulo]", "collaborationrank":1.27360749245 }
+],
+"links":[
+{ "source":0, "target":6, "value":1.0 },
+{ "source":0, "target":11, "value":1.0 },
+{ "source":0, "target":12, "value":3.0 },
+{ "source":4, "target":5, "value":7.0 },
+{ "source":4, "target":7, "value":6.0 },
+{ "source":4, "target":10, "value":7.0 },
+{ "source":5, "target":10, "value":4.0 },
+{ "source":11, "target":12, "value":1.0 }
+]
+}

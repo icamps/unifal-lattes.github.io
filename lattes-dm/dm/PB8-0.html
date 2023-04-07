@@ -1,0 +1,743 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Matemática</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Matemática</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2000,
+1],
+[2001,
+5],
+[2002,
+9],
+[2003,
+5],
+[2004,
+10],
+[2005,
+13],
+[2006,
+4],
+[2007,
+3],
+[2008,
+10],
+[2009,
+14],
+[2010,
+10],
+[2011,
+5],
+[2012,
+21],
+[2013,
+23],
+[2014,
+19],
+[2015,
+7],
+[2016,
+25],
+[2017,
+16],
+[2018,
+12],
+[2019,
+25],
+[2020,
+15],
+[2021,
+13],
+[2022,
+10]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 275<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AFINI, D. C. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Investigando índices de massa corporal com a utilização de planilhas eletrônicas: uma experiência com cenários para investigação na formação inicial de futuros professores de matemática</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cardoso, R.F. ; QUILLES QUEIROZ, C.R.O.. <b>Identificação de Grupos Fuchsianos Aritméticos em Ordens dos Quatérnios</b>. 2022. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cardoso, R.F. ; QUILLES QUEIROZ, C.R.O.. <b>Identificação de Grupos Fuchsianos Aritméticos em Ordens dos Quatérnios com Aplicações na Construção de Códigos Quânticos Topológicos</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORDEIRO, M. R. ; QUILLES QUEIROZ, C.R.O. ; Ferreira Dias, D. ; Marinho, M.V.. <b>Minas for Science: Participação, Impacto Familiar e Incentivo nas Ciências Exatas para a vida acadêmica</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>dos Santos, José Paulo Carvalho. <b>Equações Diferenciais de Ordem Fracionária no Estudo de Epidemias</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, A. J. ; TOTI, M. C. S. ; SILVA, G. H. G.. <b>PERMANÊNCIA NO ENSINO SUPERIOR: SUPORTE À APRENDIZAGEM DOS CONTEÚDOS DE MATEMÁTICA BÁSICA</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>QUILLES QUEIROZ, C.R.O.; Vieira, V.L. ; Albuquerque, C.D. ; Palazzo Júnior, Reginaldo ; La Guardia, G.G. ; OLIVEIRA, A. J. ; Lima, L.B.. <b>Ordens dos Quatérnios Maximais Derivadas de Tesselações mais Densas</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>QUINTINO, E. O. ; LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Estudantes negros em cursos superiores de exatas da UNIFAL-MG: ocupação das vagas e implicações para a Educação Matemática</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos; VIJAYAKUMAR, V.. <b>Existence of asymptotically almost automorphic solutions for neutral integro-differential equations</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA JUNIOR, E. A. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Microagressões raciais no Ensino Superior: Procedimentos da adaptação instrumental para a cultura brasileira</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cardoso, R.F. ; QUILLES QUEIROZ, C.R.O.. <b>Quatérnios: propriedades algébricas, geométricas e aplicações</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Caseca, F.T.C. ; QUILLES QUEIROZ, C.R.O.. <b>Códigos quânticos topológicos</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DE OLIVEIRA, ANDERSON JOSÉ. <b>Determinação dos geradores do grupo fuchsiano associados à quantização do canal C_2,8</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>DE OLIVEIRA, ANDERSON JOSÉ; SILVA, N. H. ; GOECKING, L. B.. <b>Matemática e Cidadania: Tecnologias da Informação Aplicadas no Estudo de Distâncias e Consumo de Combustíveis Fósseis</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Domigues, M.A. ; QUILLES QUEIROZ, C.R.O. ; Ferreira Dias, D. ; CORDEIRO, M. R. ; Marinho, M.V.. <b>Oficina Milionários: relato da experiência em uma escola pública</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>dos Santos, José Paulo C. <b>Resolvent operators and applications in fractional integro-differential equations</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>dos Santos, José Paulo C. <b>Um Lema de Barbalat e estabilidade assintótica global para um sistema epidemiológico de ordem fracionária</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>dos Santos, José Paulo Carvalho. <b>Continuation of mild solution for abstract fractional integro-differential equations</b>. 2021. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Gusmão, M.G. ; QUILLES QUEIROZ, C.R.O.. <b>Códigos Geometricamente Uniformes sobre Anéis Quocientes de Inteiros Gaussianos</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Melo Souza, A. ; QUILLES QUEIROZ, C.R.O. ; Ferreira Dias, D. ; CORDEIRO, M. R. ; Marinho, M.V.. <b>A Matemática nas Oficinas Multidisciplinares do Projeto Minas for Science</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Teoria da Codificação: Álgebra Linear Aplicada à Teoria dos Códigos Corretores de Erros</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>QUILLES QUEIROZ, C.R.O.; Palazzo Júnior, Reginaldo. <b>Construção de Códigos Geometricamente Uniformes Hiperbólicos</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SILVA JUNIOR, E. A. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Microagressões no ensino superior no âmbito das ciências exatas</b>. 2021. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARDOSO, R. F. ; NEVES, S. M. F. C. ; LOPES, Ronaldo André. ; JULIO, REJANE SIQUEIRA ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Projeto Laboratório de Ensino em Educação Matemática na formação de professores</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARDOSO, R. F. ; NEVES, S. M. F. C. ; LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, REJANE SIQUEIRA. <b>Criação de cenários para investigação remotamente com pessoas idosas em situação de isolamento social</b>. 2020. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cardoso, T.C.F. ; Blasco, A.C. ; Pereira, L.V.A. ; Silva Maria, V.M. ; Silva, L.E.C. ; Almeida de Oliveira, F. ; Megda, L.M. ; Ferreira Dias, D. ; Marinho, M.V. ; CORDEIRO, M. R. ; QUEIROZ, C.R.O.Q. ; Queiroz, R.S. ; Miranda, D.M.A.R.. <b>Minas for Science: Química, Nutrição e Escolas na Oficina Saborosa</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>dos Santos, José Paulo C.; MONTEIRO, E. ; LEMES, N. H. T. ; VIEIRA, G. B. ; RODRIGUES, D. S.. <b>Estabilidade assintótica global de um modelo da dengue de ordem fracionária</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>A Lei de Cotas na UNIFAL-MG: Ocupação das vagas e impacto na área de Ciências Exatas de 2014 a 2019</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Moraes, A.A. ; Rocha, T.A. ; CORDEIRO, M. R. ; Ferreira Dias, D. ; Marinho, M.V. ; QUEIROZ, C.R.O.Q. ; Azzola, A.F. ; Jordão, T.A.O. ; Blasco, A.C. ; Pereira, L.V.A. ; Codignole Rocha, P.H. ; Esteves Lemos, P.H. ; Cardoso, T.C.F. ; Frenhan, M.S.C.. <b>Gincana Ambiental: Mostra Temática do Projeto ?Minas for Science?</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>NEVES, S. M. F. C. ; CARDOSO, R. F. ; LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, REJANE SIQUEIRA. <b>Projeto Conversas Matemáticas: educação matemática com pessoas idosas através de ações extensionistas</b>. 2020. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Estruturas Algébricas Aplicadas na Caracterização do Código Genético</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>QUEIROZ, C.R.O.Q.. <b>Conversas com coordenações de cursos, direção e comunidade acadêmica</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>QUILLES QUEIROZ, C.R.O.; CORDEIRO, M. R. ; Ferreira Dias, D. ; Marinho, M.V. ; Martins, A.G. ; Silva Bastos, H.M. ; Souza, M. ; Frenhan, M.S.C. ; Azevedo, W.. <b>Minas for Science</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>QUINTINO, E. O. ; LOPES, Ronaldo André. ; da SILVA, GUILHERME HENRIQUE GOMES. <b>A LEI DE COTAS NA UNIVERSIDADE FEDERAL DE ALFENAS: UMA ANÁLISE DA TAXA DE OCUPAÇÃO DAS VAGAS EM 2019</b>. 2020. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>QUINTINO, E. O. ; LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Acesso de estudantes público-alvo da Lei de Cotas na UNIFAL-MG em 2019: implicações para a educação matemática inclusiva</b>. 2020. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>QUINTINO, E. O. ; LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>As ações afirmativas na Universidade Federal de Alfenas: uma análise da taxa de ocupação das vagas em 2019</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Silveira, L ; Costa Gomes, B. ; Almeida, I.H.B. ; Silva Bastos, H.M. ; QUEIROZ, C.R.O.Q. ; Ferreira Dias, D. ; Marinho, M.V. ; CORDEIRO, M. R. ; Nogueira, M.G. ; Barbosa Pereira, M.E. ; Vieira Silva, S. ; Silva do Carmo, V.R.. <b>Visita a Usina Nuclear de Angra dos Reis</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Trindade, I.T. ; Melo Souza, A. ; Adão, J.P.F. ; Moura, G.A.O. ; Azevedo de Almeida, L.M. ; Cruz, L.H.N. ; QUEIROZ, C.R.O.Q. ; Ferreira Dias, D. ; Marinho, M.V. ; CORDEIRO, M. R.. <b>Ampliação do Conhecimento Digital nas Escolas, desde a Evolução do Celular ao Desenvolvimento de Aplicativos</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ABREU, T. F. ; LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Um panorama sobre o tratamento da integração social e acadêmica de estudantes beneficiários de ações afirmativas no Brasil</b>. 2019. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Abreu, T.F. ; OLIVEIRA, A. J. ; QUILLES QUEIROZ, C.R.O.. <b>Conexões entre Geometria Hiperbólica e as Modulações PSK e QAM no Processo de Transmissão da Informação</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Costa Gomes, B. ; Rocha, T.A. ; Souza Bem, T.S. ; Silva Maria, V.M. ; Marques Dias, S. ; Almeida de Oliveira, F. ; Souza, M. ; QUILLES QUEIROZ, C.R.O. ; Ferreira Dias, D. ; Marinho, M.V. ; CORDEIRO, M. R.. <b>Minas for Science na Escola Estadual Judith Vianna</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ferreira, José C.; Júlio, R. S.. <b>CONSTRUINDO SEU FRACTAL: EXPERIÊNCIAS A PARTIR DE OFICINAS</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GOECKING, L. B.; Simone Albino da Silva. <b>EXTENSÃO UNIVERSITÁRIA: DIRETRIZES DA EXTENSÃO E SUBMISSÃO DE PROPOSTAS</b>. 2019. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GUSMAO, M. G. ; COSTA, B. V. ; SILVA, GUILHERME HENRIQUE GOMES DA ; PAIVA, M. H. O.. <b>Utilizando a escala Cuisenaire no Ensino Fundamental</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LOPES, Ronaldo André. ; da SILVA, GUILHERME HENRIQUE GOMES. <b>O impacto das ações afirmativas no ingresso e permanência de estudantes do curso de matemática da UNIFAL-MG</b>. 2019. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LOPES, Ronaldo André. ; FIGUEIREDO, N. N. ; CARMO, T. P. ; VITAL, M. V. S. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, R. S.. <b>Projeto Conversas Matemáticas: atividades investigativas com pessoas idosas no âmbito da UNAPI</b>. 2019. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>O Impacto da ações afirmativas no ingresso e permanência de futuros professores de matemática da UNIFAL-MG</b>. 2019. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>O IMPACTO DAS AÇÕES AFIRMATIVAS NO INGRESSO E PERMANÊNCIA DE ESTUDANTES DO CURSO DE LICENCIATURA EM MATEMÁTICA DA UNIFAL-MG</b>. 2019. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Compreendendo o impacto das ações afirmativas no curso de Licenciatura em Matemática da UNIFAL-MG</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>UMA ANÁLISE DO IMPACTO DAS AÇÕES AFIRMATIVAS NO CURSO DE LICENCIATURA EM MATEMÁTICA DA UNIFAL-MG</b>. 2019. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Melo Souza, A. ; Silveira, L ; Ferreira Cardoso, G. ; Fernandes, J.T. ; Fernandes dos Santos, M.E. ; Azevedo de Almeida, L.M. ; Cruz, L.H.N. ; Azevedo, W. ; Ferreira Dias, D. ; QUILLES QUEIROZ, C.R.O. ; Marinho, M.V. ; CORDEIRO, M. R.. <b>Minas for Science: oficina de Astronomia na Escola Estadual Professor Viana</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Uma Introdução aos Códigos Corretores de Erros</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>OLIVEIRA, A. J.; OLIVEIRA, A. N.. <b>Aplicação de códigos corretores de erros no processo de geração de sequências de DNA</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>OLIVEIRA, A. N. ; DE OLIVEIRA, ANDERSON JOSE. <b>Análise do Algoritmo de Geração de Sequências de DNA via Códigos Corretores de Erros</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>QUILLES QUEIROZ, CATIA; OLIVEIRA, A. J.. <b>Álgebra Linear Aplicada a Códigos Corretores de Erros</b>. 2019. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>REIS, C. M. ; DACIOLI, J. R. ; GOECKING, L. B. ; DE OLIVEIRA, ANDERSON JOSE ; BEIJO, L. A.. <b>Matemática e Cidadania: tecnologias da informação aplicadas no estudo do consumo consciente de água</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Rocha, T.A. ; Azzola, A.F. ; Benedetti, A.V.V. ; Gomes, J.G. ; Jordão, T.A.O. ; Adão, J.P.F. ; Martins, A.G. ; SOARES, M. ; QUILLES QUEIROZ, C.R.O. ; Ferreira Dias, D. ; Marinho, M.V. ; CORDEIRO, M. R.. <b>Oficina Perfumada: mostra temática do projeto ?Minas For Science'</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Rocha, T.A. ; Melo Souza, A. ; Silveira, L ; Martins, A.G. ; Azzola, A.F. ; Benedetti, A.V.V. ; Jordão, T.A.O. ; Adão, J.P.F. ; Gomes, J.G. ; QUILLES QUEIROZ, C.R.O. ; CORDEIRO, M. R. ; Ferreira Dias, D. ; Marinho, M.V.. <b>Oficina Perfumada na Escola Estadual Professor Levindo Lambert: uma ação do Projeto Minas for Science</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>SILVA, N. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, REJANE SIQUEIRA. <b>CONTRIBUIÇÕES PARA A FORMAÇÃO INICIAL DE PROFESSORES DE MATEMÁTICA ENGAJADOS EM UM PROJETO EXTENSIONISTA DIRECIONADO AO PÚBLICO IDOSO</b>. 2019. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>SILVA, R. J. ; MORENO, A. L.. <b>Diagnóstico da Doença de Parkinson via Rede Neural Fast ART Euclidiana</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>SILVA, Sandra Maria da ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Microagressões relacionadas ao coneúdo matemático e a formação de futuras pedagogas de um curso na modalidade a distância</b>. 2019. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Silveira, L ; Rocha, T.A. ; Blasco, A.C. ; Pereira, L.V.A. ; Cardoso, T.C.F. ; Codignole Rocha, P.H. ; Esteves Lemos, P.H. ; Frenhan, M.S.C. ; QUILLES QUEIROZ, C.R.O. ; Ferreira Dias, D. ; Marinho, M.V. ; CORDEIRO, M. R.. <b>Oficina de Perfume na Escola Estadual Dr. Emílio Silveira: uma ação do projeto Minas for Science</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Silveira, L ; Rocha, T.A. ; Nogueira, M.G. ; Barbosa Pereira, M.E. ; Vieira Silva, S. ; Silva do Carmo, V.R. ; Silva Bastos, H.M. ; QUILLES QUEIROZ, C.R.O. ; Ferreira Dias, D. ; Marinho, M.V. ; CORDEIRO, M. R.. <b>Oficina de Astronomia na Escola Polivalente: uma ação do projeto Minas for Science</b>. 2019. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DE OLIVEIRA, ANDERSON JOSÉ; PALAZZO JR., REGINALDO. <b>Caracterização algébrica e geométrica de um canal C2,4 através de equações diferenciais fuchsianas</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERNANDES, R. S. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Laboratório de Ensino em Educação Matemática na formação de professores</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERREIRA, J. C. <b>A matemática influi e depende da tecnologia</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERREIRA, J. C. ; JULIO, R. S.. <b>Construindo seu fractal</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LOPES, Ronaldo André. ; ABREU, T. F. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Uma análise das ações afirmativas no ingresso e permanência do estudante beneficiado</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Estruturas Algébricas Aplicadas na Modelagem do Código Genético</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JR., REGINALDO. <b>Fuchsian group generators associated with the C_2,8 channel quatization</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>QUILLES QUEIROZ, C.R.O.; PALAZZO JUNIOR, R.. <b>Construction of Geometrically Uniform Hyperbolic Signal Space Codes</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Políticas de ações afirmativas no ensino superior e equidade: qual o papel da Educação Matemática?</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA; JULIO, R. S. ; MELO, A. ; SILVA, R. N. ; FERNANDES, R. S. ; SILVA, N.. <b>Conversas Matemática no Programa Aberto à Terceira Idade (UNATI) como veículo de inclusão social</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SILVA, R. N. ; MELO, A. ; SILVA, N. ; FERNANDES, R. S. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, R. S.. <b>Conversas Matemáticas no âmbito do Programa Universidade Aberta à Terceira Idade (UNATI) da UNIFAL-MG</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SOUZA, Andiara Cristina de ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Contribuições das tecnologias digitais educacionais para o desenvolvimento da noção de adição por estudantes com transtorno do espectro autista</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cordeiro Pinheiro, C.F. ; QUILLES QUEIROZ, C.R.O. ; CORDEIRO, M. R.. <b>Jovens e álcool: uma proposta interdisciplinar para a conscientização do consumo de bebidas alcóolicas</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERREIRA, J. C. <b>Completude do conjunto de números reais e decomposição de operadores em valores singulares</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>JULIO, R. S.; FERREIRA, J. C.. <b>O CÍRCULO QUADRADO COMO POSSIBILIDADE DE DISCUTIR MATEMÁTICA E FILOSOFIA DA MATEMÁTICA</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>JULIO, R. S. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>A FORMAÇÃO MATEMÁTICA DE FUTUROS PEDAGOGOS ANTES DE INGRESSAREM NO CURSO DE PEDAGOGIA</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Lima Antunes, A.K. ; QUILLES QUEIROZ, C.R.O.. <b>Tesselações no Plano Hiperbólico</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MONTEIRO, E. <b>XI Encontro Mineiro de Equações Diferencias</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Noronha de Oliveira, A. ; QUILLES QUEIROZ, C.R.O.. <b>Modelagem Matemática de Tratamentos Oncológicos</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Noronha de Oliveira, A. ; QUILLES QUEIROZ, C.R.O.. <b>Estudo do Desempenho de Tratamentos Oncológicos via Modelagem Matemática</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Noronha de Oliveira, A. ; QUILLES QUEIROZ, C.R.O. ; ARAUJO, S. A. ; CORDEIRO, M. R.. <b>Atividade pedagógica relacionando conceitos matemáticos com esportes olímpicos</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Caracterização da região fundamental para a uniformização de curvas algébricas planares via EDOs fuchsianas</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Uniformização de Curvas Algébricas Planares via EDOs Fuchsianas no Estudo de Sistemas de Comunicação</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>QUILLES QUEIROZ, C.R.O.; PALAZZO JUNIOR, R.. <b>Códigos quase-perfeitos geometricamente uniformes derivados de grafos sobre anéis de inteiros</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SILVA, B. B. ; SILVA, N. ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Educação Matemática e atividades investigativas com pessoas idosas: contribuições para o 'raciocínio' e a interação social</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SILVA, Sandra Maria da ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>A educação matemática na formação de futuros pedagogos de um curso na modalidade a distância</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SOUZA, Andiara Cristina de ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Tecnologias Digitais da Informação e Comunicação no processo inicial de alfabetização matemática de um estudante autista</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Souza, F. S. ; Cordeiro Pinheiro, C.F. ; QUILLES QUEIROZ, C.R.O. ; CORDEIRO, M. R.. <b>A Matemática em Casa: uma atividade diferenciada</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANTUNES, A. K. L. ; SANTOS, T. C. ; MORENO, A. L.. <b>Jogos e Materiais Manipuláveis no Ensino de Matemática</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARAUJO, S. A. ; CORDEIRO, M. R. ; QUILLES QUEIROZ, C.R.O.. <b>Uso do Quincunx em Atividade no Ensino de Probabilidade</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>COSTA, M. S. ; MORENO, A. L.. <b>Evidenciando Resultados de um Evento que Desmistifica a Matemática</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERREIRA, J. C. <b>Traceability of positive integral operators: a reproducing kernel point of view</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERREIRA, J. C. <b>On positive and trace class integral operators</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GONCALVES, D. O. ; RAMOS, A. C. ; MORENO, A. L.. <b>O uso de materiais manipuláveis no ensino-aprendizagem de Geometria Analítica Plana</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GUIMARAES, E. F. S. ; PAULA, P. J. ; CORDEIRO, M. R. ; QUILLES QUEIROZ, Cátia R. de O.. <b>O interdisciplinar e o lúdico no ensino de Química</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LOPES, M. M. ; NUNES, D. M. ; MORENO, A. L.. <b>Xadrez: Desafios e Ensino de Matemática</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MENDES, L. F. ; MORENO, A. L.. <b>Introdução ao GeoGebra para Professores: um recurso tecnológico para o ensino de Matemática</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MORENO, ANGELA L.; LOPES, M. M.. <b>Introdução à Análise Funcional</b>. 2016. Desenvolvimento de material didático ou instrucional - Apostila</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>NOGUEIRA, D. L. ; DE PAULA, P. J. ; MORENO, A. L.. <b>Trabalhando a Educação Financeira na Escola</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>NOGUEIRA, V. G. S. ; MORENO, A. L.. <b>Trigonometria: uma perspectiva de ensino público</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>NUNES, D. M. ; MARTINS, A. C. R. ; MORENO, A. L.. <b>A importância da avaliação diagnóstica para o sucesso de uma intervenção didática</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>OLIVEIRA, A. N. ; MORENO, A. L.. <b>Utilização de softwares no ensino de Geometria: Um mapeamento sistemático</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>PONTES, M. A. ; NOGUEIRA, D. L. ; MARTINS, A. C. R. ; MORENO, A. L.. <b>A Utilização do Jogo para a Educação Financeira</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>RAMOS, A. C. ; GONCALVES, D. O. ; CABRAL, D. C. P. ; VIEIRA, J. P. G. ; SILVA, N. ; FERNANDES, R. S. ; ARAUJO, S. A. ; QUILLES QUEIROZ, Cátia R. de O.. <b>Metologias Diferenciadas para o Ensino de Matemática. 2016</b>. 2016. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ROLINO, J. V. ; MORENO, A. L.. <b>Tendência histórico-crítica e o ensino-aprendizagem de progressões</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SANTOS, JOSÉ PAULO C. DOS; MONTEIRO, E. ; VIEIRA, G. B.. <b>Global Stability of Fractional of SIR Epidemic Models</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SANTOS, T. C. ; ANTUNES, A. K. L. ; MORENO, A. L.. <b>Projeto Leitura: Embarque nesta viagem</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>SILVA, B. B. ; LOPES, M. M. ; MORENO, A. L.. <b>Aprendendo Matemática Financeira com o Jogo</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Equity in the higher education: the role of mathematics education faced with affirmative actions</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Ações afirmativas no ensino superior e educação matemática: discutindo a questão da permanência do estudante</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Ações afirmativas no ensino superior</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>SILVA, H. B. ; MORENO, A. L.. <b>Analisando Jogos Didáticos de Geometria Analítica Plana</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>SOUZA, A. P. ; VIEIRA, J. P. G. ; MORENO, A. L.. <b>Aprendendo com o Cubo Mágico</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Aplicações de Ferramentas da Matemática e da Física no Mapeamento do Código Genético</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>The relatioship between Riemann surface and Fuchsian Differential Equation with the aim at coding of geodesics</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PALAZZO JUNIOR, R. ; OLIVEIRA, A. J.. <b>Fuchsian Differential Equations and the relations with the associated surfaces to the Farey tesselations</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PAULA, P. J. ; Leite, L.V. ; Silva, C.F. ; SANTOS, C. S. ; Cordeiro Pinheiro, C.F. ; Moreira, D.C.C. ; GUIMARAES, E. F. S. ; Paula, E.R. ; Silva, H.M. ; Nascimento, L.D. ; Corrêa, M.E. ; ARAUJO, S. A. ; Polisel Junior, S.A. ; Souza, T. ; Oliveira, T.A. ; QUILLES QUEIROZ, C.R.O. ; CORDEIRO, M. R.. <b>Casa Ciência: um centro de divulgação científica</b>. 2015. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SILVA, G. H. G. <b>Equity in access to higher education: the role of mathematics education in the face of affirmative action policies for underrepresented groups</b>. 2015. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Ações afirmativas, ensino superior e educação matemática</b>. 2015. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Ações afirmativas e ensino superior: Possibilidades para estudantes da rede pública de ensino</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AFINI, D. C. ; SOUZA JUNIOR, J. C. ; CARDOSO, A.. <b>Pavimentações do plano e quasicristais: uma proposta interdisciplinar para o ensino de geometria plana</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>dos Santos, José Paulo C.; RIBEIRO, F. V.. <b>Um estudo sobre as ideias iniciais do Cálculo Fracionário</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>dos Santos, José Paulo C.; VALENTIM, M. A. C.. <b>Um estudo sobre o modelo dinâmico da doença toxoplasmose</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GIRALDELLO, A. G. C. ; BATISTA, N. A. M. ; CARDOSO, A.. <b>A Matemática dos códigos</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MATOSO, D. E. C. ; QUILLES QUEIROZ, C.R.O.. <b>Análise da Codificação Genética da Leucemia Linfocítica Crônica através de Códigos Corretores de Erros</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MATOSO, D. E. C. ; QUILLES QUEIROZ, C.R.O.. <b>Análise da Codificação Genética da Sequência da Cadeia ? da TCR Através de Códigos Corretores de Erros</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Moreira, A. ; QUILLES QUEIROZ, C.R.O.. <b>Ensino de Sistemas Lineares através do Software Geogebra Escola Pública x Escola Particular</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Um estudo sobre equações diferenciais fuchsianas e as relações com as superfícies associadas às tesselações de Farey</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>OLIVEIRA, H. M. P. ; CARDOSO, A.. <b>Determinando os zeros de uma função: uma intervenção na educação básica</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>QUILLES QUEIROZ, Cátia R. de O.; BENEDITO, C. W. O. ; INTERLANDO, J. C. ; PALAZZO JUNIOR, R.. <b>Hyperbolic Lattices with Complete Labeling Derived from f4g; 4gg Tessellations</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>ROLINO, J. V. ; AFINI, D. C. ; SOUZA JUNIOR, J. C.. <b>Aprendendo progressões aritmética e geométrica com juros simples e compostos</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SANTOS, C. S. ; SOUZA, R. N. ; SOUZA JUNIOR, J. C.. <b>A Copa do Mundo no GeoGebra: em campo com os quadriláteros</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SILVA, G. H. G. <b>Ações Afirmativas e Educação Matemática: Estratégias Pedagógicas de Permanência no Cenário Universitário</b>. 2014. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SILVA, G. H. G. <b>Equidade no ensino superior brasileiro: discutindo o papel da educação matemática frente às políticas de ações afirmativas para grupos miinoritários</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SILVA, G. H. G. <b>Extensão Universitária: que possíveis conexões com a educação matemática</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Cenários para investigação na sala de aula: possibilidades e imprevistos em um ambiente computacinoal</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SILVA, J. A. ; MORENO, A. L. ; Minussi, C. R.. <b>Rede Neural ART Euclidiana com Treinamento Continuado</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>TOMAZ, B. C. M. ; PONTES, M. A. ; MORENO, A. L.. <b>Análise crítica de jogos educacionais sobre trigonometria e a importância dos jogos no ensino</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>VALENTIM, M. A. C. ; SOUZA JUNIOR, J. C. ; LIMA, D. C.. <b>Matrizes e animações: uma aplicação no ensino médio</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AFINI, D. C. ; SOUZA JUNIOR, J. C.. <b>Mosaicos, Pavimentações do Plano e o Ensino da Geometria</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AFINI, D. C. ; SOUZA JUNIOR, J. C. ; CARDOSO, A.. <b>Explorando o SuperLogo na formação inicial de professores de matemática por meio da construção de pavimentações do plano: aprendendo com a sua criatividade</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DANTAS, S. C. ; JULIO, R. S.. <b>O uso de objetos de aprendizagem em um processo de produção de significados sobre trigonometria</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERREIRA, J. C. <b>On Mercer-like kernels: theory and applications</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GIRALDELLO, A. G. C. ; BATISTA, N. A. M. ; CARDOSO, A.. <b>Tabuada Legal: um jogo sério para o ensino de multiplicações</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>J. <b>C. Ferreira. A matemática pura e aplicada no ensino superior</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>J. <b>C. Ferreira. On reproducing properties of Mercer-like kernels</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>José C. <b>Ferreira. Uma conversa sobre matemática</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MATOSO, D. E. C. ; QUILLES QUEIROZ, C.R.O.. <b>Modelos de Codificação Genética e Genômica gerados através de Códigos Corretores de Erros</b>. 2013. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ODORICO, E. K. ; SOUZA JUNIOR, J. C.. <b>Corrida no ciclo trigonométrico: reflexões de uma professora em formação no desenvolvimento do jogo</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Applications of fuchsian differential equations in the study of communication between two liver cells</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Polynomial Representation of Codons by Galois Field Extensions and Labeling in the Study of the Genetic Code</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Análise Algébrica do Código Genético através da Representação Polinomial dos Códons</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>OLIVEIRA, H. M. P. ; CARDOSO, A. ; SOUZA JUNIOR, J. C.. <b>Funções Trigonométricas em Videoaulas: Possível contribuição para a aprendizagem</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>QUILLES QUEIROZ, Cátia R. de O.; BENEDITO, C. W. O. ; INTERLANDO, J. C. ; PALAZZO JUNIOR, R.. <b>Maximal Quaternion Orders Derived from {4g,4g} Tessellations</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SANTOS, C. S. ; CARDOSO, A. ; SACRAMENTO, M. M.. <b>Algebrização:reflexões sobre uma prática</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SANTOS, JOSÉ PAULO C. <b>DOS. Equações Integro-diferenciais neutras de ordem fracionária</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SANTOS, JOSÉ PAULO C. <b>DOS. Introdução ao Cálculo de Ordem Fracionária</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SILVA, G. H. G. <b>O software Geogebra e o trabalho com atividades investigativas na formação de professores</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>SILVA, G. H. G. <b>Ações afirmativas no ensino superior e sua relação com a Educação Matemática</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>SILVA, G. H. G. <b>Investigando Funções com o software Geogebra: possibilidades para a formação docente</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>SILVA, G. H. G. <b>Políticas de cotas nas Universidades Brasileiras e seus reflexos na Educação Matemática</b>. 2013. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>SILVA, J. A. ; MORENO, A. L.. <b>Análise dos Parâmetros da Rede Neural ART Fuzzy Modificada</b>. 2013. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, S. A. ; José C. Ferreira, J. C. Ferreira. <b>Diagonalização de Operadores e Aplicações</b>. 2012. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DALBEN, A. ; CASTRO, J. F. C. ; BORGES, M. ; JULIO, R. S.. <b>Os efeitos da meritocracia nas escolas de Chicago: o que o Brasil deveria aprender</b>. 2012. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DIAS, M. M. A. ; José C. Ferreira, J. C. Ferreira. <b>Introdução aos Espaços de Hilbert</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GIRALDELLO, A. G. C. ; LEITE, F. ; QUILLES QUEIROZ, C.R.O. ; JULIO, R. S.. <b>Relato de Experiências em Sala de Aula com a Utilização de Jogos no Ensino de Matemática: Fazendinha das Porcentagens</b>. 2012. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>JESUS, E. S. ; GIRALDELLO, A. G. C. ; SANTOS, C. S. ; ODORICO, E. K. ; LEITE, F. ; QUILLES QUEIROZ, C.R.O. ; JULIO, R. S.. <b>Jogos no Ensino de Matemática</b>. 2012. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>José C. Ferreira, J. C. Ferreira; MENEGATTO, V. A.. <b>On Hilbert space reproducing properties of the usual fourier transform</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LEITE, F. ; GIRALDELLO, A. G. C. ; JESUS, E. S. ; QUILLES QUEIROZ, C.R.O. ; Julio, R.S.. <b>Construindo Porcentagens: Jogo da Fazendinha</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MATOSO, D. E. C. ; QUILLES QUEIROZ, C.R.O.. <b>Existência de Códigos Corretores de Erros Associados às Sequências de DNA</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MATOSO, D. E. C. ; QUILLES QUEIROZ, C.R.O.. <b>Códigos Corretores de Erros associados às sequências de DNA</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MONTEIRO, E. <b>VI Encontro Mineiro de Equações Diferenciais</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>ODORICO, E. K. ; NUNES, D. M. ; MOREIRA, A. ; OLIVEIRA, H. M. P. ; CARDOSO, A.. <b>Análise do não uso do laboratório de informática nas escolas públicas</b>. 2012. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ODORICO, E. K. ; SANTOS, C. S. ; JESUS, E. S. ; QUILLES QUEIROZ, C.R.O. ; Julio, R.S.. <b>Jogo no Ensino de Matemática: Enigma da divisão</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>ODORICO, E. K. ; SANTOS, C. S. ; QUILLES QUEIROZ, C.R.O. ; JULIO, R. S.. <b>Intervenções em Sala de Aula com a Utilização de Jogos no Ensino de Matemática: Enigmas da Divisão</b>. 2012. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Análise do Código Genético Através de Ferramentas Matemáticas e de Engenharia</b>. 2012. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Análise Algébrica do Código Genético através da Soma entre códons</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>PIERINI, L. M. ; VALENTIM, M. A. C. ; CARDOSO, A.. <b>Brinquedos Numéricos: um jogo para o ensino dos conjuntos numéricos</b>. 2012. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>QUILLES QUEIROZ, C.R.O.; PALAZZO JUNIOR, R.. <b>Codes over Graphs Derived from Quotient Rings of the Quaternion Orders</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ROLINO, J. V. ; Silva, H. T ; VIEIRA, G. B. ; SOUZA JUNIOR, J. C.. <b>Aritmética e o número mágico</b>. 2012. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SILVA, G. H. G. <b>Grupos de Estudo: uma proposta para formação inicial de professores</b>. 2012. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>SILVA, J. A. ; MORENO, A. L.. <b>Análise dos parâmetros da Rede Neural ART Euclidiana Modificada utilizando a clusterização de pontos do plano</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>SILVA, J. A. ; MORENO, A. L.. <b>Diagnóstico de Câncer via rede neural ART Fuzzy Modificada e ART Euclidiana Modificada</b>. 2012. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, A. J.; PALAZZO JUNIOR, R.. <b>Análise Algébrica do Código Genético através do Diagrama de Hasse e do Reticulado Booleano</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>QUEIROZ, C.R.O.Q.. <b>Oficina Desafios, Conquistas e Ferramentas da Matemática na EAD</b>. 2011. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>QUEIROZ, C.R.O.Q. ; PALAZZO JUNIOR, R.. <b>Geometrically Uniform Hyperbolic Codes Derived from Graphs over Quaternion Orders</b>. 2011. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>QUEIROZ, C.R.O.Q. ; PALAZZO JUNIOR, R.. <b>Geometrically Uniform Quasi-Perfect Codes Derived from Graphs over Integer Rings</b>. 2011. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>REIS, N. T. P. ; MENDES, A. C. S. C. ; JULIO, R. S. ; LEITE, G. C. ; CHAVASCO, J. K.. <b>Tenda da Saúde</b>. 2011. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARDOSO, A.; SOUZA JUNIOR, J. C. ; OLIVEIRA, M. J. R.. <b>Fractais e Progressões Geométricas</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CSIZMAR, T. F. N. ; CARDOSO, A.. <b>Aprendizagem de Funções mediante apoio de programas de Geometria Dinâmica</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERREIRA, J. C.; MENEGATTO, V. A.. <b>An extension of Mercer's theorem via reproducing kernel Hilbert spaces</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MATOS, A. R. ; CARDOSO, A. ; SOUZA JUNIOR, J. C.. <b>Um olhar sobre o ensino de funções e propostas alternativas usando novas tecnologias</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MORENO, A. L.; Minussi, C. R.. <b>Análise da Estabilidade Transitória de Sistemas de Energia Elétrica usando uma Rede Neural ART Euclidiana & ARTMAP com Treinamento Continuado</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>QUILLES, C. R. O.; PALAZZO JUNIOR, R.. <b>Quasi-Perfect Geometrically Uniform Codes Derived from Graphs over Gaussian Integer Rings</b>. 2010. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos. <b>Resolvent Operator for Integro-differential Equationas and Applictions to Partial Functional Differential Equations</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, G. H. G. <b>Sistema Dinâmicos Discretos Caóticos</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, G. H. G. <b>Contribuições de um grupo de estudos na formação inicial de professores de Matemática</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, G. H. G.; PENTEADO, M.G.. <b>Grupos de estudo na formação inicial de professores de Matemática</b>. 2010. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, J. C.; MENEGATTO, V. A.. <b>Positive integral operatirs and the Schatten classes</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>Faces da Extensão Universitária na UNIFAL-MG</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>JULIO, R. S.; MENDES, A. C. S. C. ; OLIVEIRA, B. D. ; CARVALHO, B. B. ; JARDIM, L. L. C. Z. ; JORDANI, M. X. ; SILVA, M. M. ; PICASSO, M. Q. ; RANIERO, M. ; SANTOS, M. R.. <b>Tambores de Maracatu</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>JULIO, R. S.; MINCATO, R. L. ; SENE, R. P.. <b>INFORMÁTICA NA ESCOLA E NO TELECENTRO DE PILAR-PB</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>JULIO, R. S.; SANTOS, N. P. ; BARRETO, M. N.. <b>Origami na Prática de Professores</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MORENO, A. L.; Minussi, C. R.. <b>Análise da estabilidade transitória de sistemas de sistemas elétricos usando uma rede neural ART Euclideana & ARTMAP</b>. 2009. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>OLIVEIRA, M. J. R. ; CARDOSO, A. ; SOUZA JUNIOR, J. C.. <b>Desenvolvimento de página web para o ensino e aprendizagem de Matemática</b>. 2009. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>QUILLES, C. R. O. <b>Minicurso Matemática Financeira</b>. 2009. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ROCHA, F. B. <b>Continuidade no Ponto de Vista de Espaços Métricos</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ROCHA, F. B.; SANTOS, P. D. J. P. C.. <b>Continuidade no ponto de vista de Espaços métricos</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SANTOS, N. P. ; BARRETO, M. N. ; JULIO, R. S.. <b>Origami no Ensino de Matemática: uma possibilidade</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SILVA, G. H. G. <b>O trabalho docente com geometria dinâmica em uma perspectiva investigativa</b>. 2009. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SILVA, G. H. G. <b>Grupos de estudos na elaboração de atividades de geometria dinâmica</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SILVA, G. H. G.; PENTEADO, M.G.. <b>O trabalho com geometria dinâmica em uma perspectiva investigativa</b>. 2009. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, J. C.; MENEGATTO, V. A.. <b>A connection between two concepts of positive definiteness</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>José Claudinei Ferreira; MENEGUETTE JUNIOR, M. ; NOGUEIRA, J. R. ; MEIRA, S. A.. <b>Order stars e métodos lineares de passos múltiplos: Estudo de algumas propriedades</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>JULIO, R. S. <b>Uma leitura da produção de significados para "dimensão"</b>. 2008. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>JULIO, R. S. <b>Dimensão em contextos diferenciados: uma leitura de produção de significados</b>. 2008. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ROCHA, F. <b>B.; SANTOS, P. D. J. P. C. . Teorema de Fourier</b>. 2008. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ROCHA, F. <b>B.. Teorema de Fourier</b>. 2008. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos; HERNANDEZ, E. ; Diagana, Toka. <b>Existence of Asymptotically Almost Automorphic Solutions to Neutral Integro-Differential Equations</b>. 2008. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, G. H. G. <b>A Informática e o Trabalho Docente: a Geometria numa Perspectiva Investigativa</b>. 2008. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, G. H. G. <b>Reflexão sobre a Nova Proposta Curricular do Estado de São Paulo: São Paulo faz escola</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SOUZA JUNIOR, J. C.; Costa, T. D. M.. <b>Utilização de Software de Geometria Dinâmica no Ensino de Matemática</b>. 2008. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>José Claudinei Ferreira; MENEGATTO, V. A.. <b>Positividede Definita e Transformada de Fourier</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>José Claudinei Ferreira; MENEGATTO, V. A.. <b>Decaimento de autovalores de operadores integrais com núcleo positivos definidos e suaves</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Ferramentas de Análise de Gestão</b>. 2007. Guia de Estudos da Disciplina Ferramentas de Análise de Gestão</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R.. <b>Order Stars e Métodos Numéricos de Passos Múltiplos</b>. 2006. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>A produção de significados matemáticos e não-matemáticos para Dimensão</b>. 2006. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>JULIO, R. S. <b>A produção de Significados para Dimensão</b>. 2006. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>JULIO, R. S. <b>A Produção de Significados para "Dimensão"</b>. 2006. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GOECKING, L. <b>B.. Teoria dos Grafos</b>. 2005. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>José Claudinei Ferreira; MENEGUETTE JUNIOR, M. ; NOGUEIRA, J. R.. <b>Order Stars e Métodos Numéricos de Passos Múltiplos: estudo de algumas propriedades</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>José Claudinei Ferreira; MENEGUETTE JUNIOR, M. ; NOGUEIRA, J. R.. <b>Um estudo dos métodos de Bernoulli e do quociente de diferenças, para a localização de raízes de polinômios</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R.. <b>Order Stars e Métodos Numéricos Lineares de Passos Múltiplos</b>. 2005. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R.. <b>Order Stars e Métodos Numéricos Lineares de Passos Múltiplos: estudo de algumas propridades</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R.. <b>Teoria da estabilidade fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias</b>. 2005. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R.. <b>Order Stars e métodos lineares de passos múltiplos: estudo de algumas propriedades</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R. ; VERGA, J.. <b>Estudo Numérico de Imagens Fractais</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R.. <b>Matemática Escolar e Diversidade Cultural</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>QUILLES, C. R. O. <b>Uma nota sobre discriminante mínimo</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>QUILLES, C. R. O. <b>Discriminante mínimo de subcorpos de Q(\zeta_{p^{r}})</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos; HERNANDEZ, E.. <b>Resultados de existência para uma equação abstrata integro-diferencial com retardamento não limitado</b>. 2005. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos; HERNANDEZ, E.. <b>Famílias N-resolventes e aplicações a equações integro-diferenciais</b>. 2005. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>José Claudinei Ferreira; FREITAS, A. C. ; GOIS, E. R. C. ; NOGUEIRA, J. R.. <b>Estudo da teoria da estabilidade fraca para métodos lineares de passos múltiplos, no modo de previsão e correção</b>. 2004. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R.. <b>Teoria da estabilidade fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias</b>. 2004. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R.. <b>Encontrando um método linear de k passos que seja ótimo</b>. 2004. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>José Claudinei Ferreira; NOGUEIRA, J. R. ; FREITAS, A. C.. <b>O estudo de um modelo matemático para um relacionamento amoroso</b>. 2004. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>JULIO, R. <b>S.; DETONI, A R. ; CLARETO, S. M. . VII EPEM</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>JULIO, R. S.; AGUIAR, F. R. ; DETONI, A R.. <b>I Mostra de Graduação e Pós-Graduação da UFJF: XI Seminário de Iniciação Científica</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R. ; AGUIAR, F. R.. <b>I Mostra de Trabalhos de Graduação e Pós-Graduação da UFJF: XI Seminário de Iniciação Científica</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MONTEIRO, E.; CAVALCANTI, V. N. D.. <b>Topologia Limite Indutivo</b>. 2004. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MORENO, A. L.; FEDERSON, M.. <b>Dicotomia exponencial e admissibilidade em equações diferenciais com impulsos</b>. 2004. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos. <b>Operador resolvente para equações integro-diferenciais em espaços de Banach</b>. 2004. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MONTEIRO, E.; CAVALCANTI, V. N. D.. <b>Topologia Limite Indutivo</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MONTEIRO, E.; CAVALCANTI, V. N. D.. <b>Topologia Limite Indutivo</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>QUILLES, C. R. O. <b>Uma nota sobre códigos cíclicos</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>QUILLES, C. R. O. <b>Sobre códigos cíclicos</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>QUILLES, C. R. O. <b>Códigos cíclicos sobre corpos finitos</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Levcovitz ; SOUZA JUNIOR, J. C.. <b>Ideais Maximais da Álgebra de Weyl</b>. 2002. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MONTEIRO, E.; CAVALCANTI, V. N. D.. <b>O Problema de Sturm - Liouville - Uma Abordagem Fraca</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MONTEIRO, E.; CAVALCANTI, V. N. D.. <b>O Problema de Sturm - Liouville - Uma Abordagem Fraca</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MORENO, A. L.; BONOTTO, E. M. ; FÜRKOTTER, M.. <b>Revisão e Aprofundamento dos Conteúdos da Disciplina Funções de Variável Complexa. Estágio não obrigatório</b>. 2002. Relatório de pesquisa</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MORENO, A. L.; RODRIGUES José Carlos. <b>Resolução da Equação de Richards através do Método dos Elementos FINITOS com implementação no MATLAB</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MORENO, A. L.; RODRIGUES José Carlos. <b>O estudo da equação de Richards através do Método dos elementos Finitos com implementação no MATLAB. Iniciação Científica</b>. 2002. Relatório de pesquisa</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>QUILLES, C. R. O. <b>Uma nota sobre códigos lineares</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>QUILLES, C. R. O. <b>Uma introdução aos códigos lineares</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>QUILLES, C. R. O. <b>Códigos lineares sobre corpos finitos</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MONTEIRO, E.; MATSUSHITA, A. M.. <b>As Equações de Cauchy-Riemann</b>. 2001. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MONTEIRO, E.; MATSUSHITA, A. M.. <b>As Equações de Cauchy-Riemann</b>. 2001. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MORENO, A. L.; RODRIGUES José Carlos. <b>Resolução da Equação de Richards através do Método dos Elementos FINITOS com implementação no MATLAB</b>. 2001. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MORENO, A. L.; RODRIGUES José Carlos. <b>Aprimoramento da teoria básica de grupos. Estágio não obrigatório</b>. 2001. Relatório de pesquisa</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>QUILLES, C. R. O. <b>Códigos Binários</b>. 2001. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MORENO, A. L.; GABRIEL, L. R. A.. <b>Volume Determinado pelo Hiperbolóide Híbrido de Carga em Operações de Refino de Óleo Vegetal</b>. 2000. Apresentação de Trabalho/Outra</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 09:52:12<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

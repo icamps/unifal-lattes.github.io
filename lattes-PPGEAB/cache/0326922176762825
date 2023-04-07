@@ -1,0 +1,3215 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Davi Butturi Gomes)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0326922176762825" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="13" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="22" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="25" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="58" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador" tabindex="61" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="64" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="67" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4283048E6"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Davi Butturi Gomes</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/0326922176762825</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">0326922176762825</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 14/02/2023</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ecologia pela UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho" (2008), mestrado em Biometria pela UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho" (2011) e doutorado em Ciências (Estatística e Experimentação Agronômica) pela USP - Universidade de São Paulo (2015). Atualmente é professor adjunto da Universidade Federal de São João del-Rei (UFSJ) em Minas Gerais. Tem experiência na área de Probabilidade e Estatística Aplicadas, com ênfase em modelagem estatística e estatística computacional, atuando principalmente nos seguintes temas: Modelos Lineares Generalizados e Extensões e Ecologia Estatística.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="69">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Davi Butturi Gomes</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BUTTURI-GOMES, D.;BUTTURI, D.;BUTTURI-GOMES, DAVI;D., BUTTURI-GOMES;GOMES, DAVI BUTTURI;DAVI, BUTTURI-GOMES</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/0326922176762825</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Orcid iD </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><a class="icons-aviso titBottom icons-aviso-help icon-cor" href="javascript:void(0)" rel="tooltip" title="O que é ORCID? ORCID é uma organização independente sem fins lucrativos que fornece um identificador persistente - um ORCID iD - que distingue de outros pesquisadores e um mecanismo para conjuntos de resultados e atividades de pesquisa ao seu ID. O ORCID está bem localizado em editores, financiadores, instituições e outros serviços relacionados à pesquisa. Saiba mais em orcid.org " style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" tabindex="70">?</a> <img src="./images/v2/icone_orcid.png" style="width: 15px; margin-right: 10px;"><a href="http://orcid.org/0000-0002-8398-533X" tabindex="71">http://orcid.org/0000-0002-8398-533X</a></div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="72">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal de São João Del-Rei, Departamento de Matemática e Estatística. <br class="clear">Praça Frei Orlando 170<br class="clear">Centro<br class="clear">36307352 - São João del Rei, MG - Brasil<br class="clear">Telefone: (32) 33792356</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="73">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Agronomia (Estatística e Experimentação Agronômica)<span class="ajaxCAPES" data-param="&amp;codigoCurso=33002037008P1&amp;nivelCurso=D"> (Conceito CAPES 4)</span>. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">Título: Métodos estatísticos aplicados ao teste de Salmonella/microssoma: modelos, seleção e suas implicações<a class="tooltip-oasis" target="_blank" style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" href="http://oasisbr.ibict.br/vufind/Record/USP_4aec0613d18202a9dc6936a4c6f1e2df" tabindex="74"><img src="./images/v2/logo-oasisbr-circulo.png" style="width: 15px; margin-right: 0px; vertical-align: bottom">
+					<span>				   
+					     <img src="./images/v2/logo-oasisbr.png"><br><br>
+					     <p align="justify">O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações.</p>		    
+					 </span>			
+					  </a>, Ano de obtenção: 2015. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/6218697913992042" tabindex="75"><img src="images/curriculo/logolattes.gif"></a>Prof. Dr. Silvio Sandoval Zocchi. <br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: Modelos não-lineares generalizados; Modelos lineares generalizados vetoriais; Distribuição de Skellam; Teste de Ames.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Biológicas / Área: Ecologia / Subárea: Ecotoxicologia. <br class="clear">Grande Área: Ciências Biológicas / Área: Genética / Subárea: Mutagenese. <br class="clear">Setores de atividade: Pesquisa e desenvolvimento científico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Biometria<span class="ajaxCAPES" data-param="&amp;codigoCurso=33004064083P2&amp;nivelCurso=M"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	<br class="clear">Título: Agregação e viés em medidas de diversidade: uma abordagem computacional intensiva.<a class="tooltip-oasis" target="_blank" style="font-weight:bold;font-size:+1;color:blue;position:relative;top:-3px;" href="http://oasisbr.ibict.br/vufind/Record/UNSP_3093e6cc15b78a3d0349d03ba235a5aa" tabindex="76"><img src="./images/v2/logo-oasisbr-circulo.png" style="width: 15px; margin-right: 0px; vertical-align: bottom">
+					<span>				   
+					     <img src="./images/v2/logo-oasisbr.png"><br><br>
+					     <p align="justify">O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações.</p>		    
+					 </span>			
+					  </a>, Ano de Obtenção: 2011.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/9377772041367252" tabindex="77"><img src="images/curriculo/logolattes.gif"></a>Prof. Dr. Miguel Petrere Junior.<br class="clear">Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear">Palavras-chave: Indices de diversidade; Inferência estatística; Agregação espacial.<br class="clear">Grande área: Ciências Biológicas<br class="clear">Grande Área: Ciências Biológicas / Área: Ecologia / Subárea: Ecologia de Comunidades. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Probabilidade e Estatística Aplicadas. <br class="clear">Setores de atividade: Pesquisa e desenvolvimento científico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ecologia. <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	<br class="clear">Título: Avaliação dos efeitos dos inseticidas Malation e Fipronil sobre a viabilidade e regeneração de Girardia tigrina (Platyhelminthe, Tricladida). <br class="clear">Orientador: Profa. Dra. Maria Aparecida Marin-Morales. <br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado" tabindex="78">
+<h1 tabindex="0">Pós-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">Universidade Federal de Alfenas, UNIFAL/MG, Brasil.
+		
+	<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Estatistica bayesiana. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Teoria de Valor Extremo. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="79">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Introdução à Programação utilizando Linguagem C.  (Carga horária: 48h). <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">II Workshop on Longitudinal and Incomplete Data.  (Carga horária: 30h). <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Alguns Tópicos Importantes de Teoria Assintótitca.  (Carga horária: 6h). <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelos de Equações Estruturais.  (Carga horária: 6h). <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tópicos Especiais em Biomatemática.  (Carga horária: 15h). <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos Matemáticos em Biologia de Populações II.  (Carga horária: 60h). <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Implementação de Ensaios Ecotoxicológicos.  (Carga horária: 3h). <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introdução ao Sistema Computacional R.  (Carga horária: 12h). <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação de Agrotoxicos por Equivalencia.  (Carga horária: 4h). <br class="clear">Sociedade Brasileira de Toxicologia, SBTOx, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Darwin e Deus - uma sumula do conflito.  (Carga horária: 3h). <br class="clear">Sociedade Brasileira de Genética, SBG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Comunidades Bentonicas Marinhas.  (Carga horária: 5h). <br class="clear">Sociedade Brasileira de Ecologia, SBE*, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ecologia de Manguezais - Fluxo de Nutrientes.  (Carga horária: 5h). <br class="clear">Sociedade Brasileira de Ecologia, SBE*, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vazementos de Oleo no Mar.  (Carga horária: 8h). <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bioecologia de Aves Marinhas.  (Carga horária: 8h). <br class="clear">Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="80">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Santa Cecília, UNISANTA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2020 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor permanente em PPG, Enquadramento Funcional: Professor permanente em PPG</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor permanente do Programa e Pós-Graduação em Sustentabilidade de Ecossistemas Costeiros e Marinhos (PPGECOMAR)</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador colaborador</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de São João Del-Rei, UFSJ, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2020 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Departamento de Matemática e Estatística. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Subchefe.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento, Departamento de Matemática e Estatística. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="#LP_Probabilidade e Estatística Aplicadas" tabindex="81">Probabilidade e Estatística Aplicadas</a><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2022 - 12/2022</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ecologia, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística Aplicada à Ecologia<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2019 - 12/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística e Probabilidade Aplicada à Computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2019 - 12/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Modelos Probabilísticos Aplicados à Engenharia de Produção<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2019 - 07/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Psicologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2019 - 07/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Métodos Estatísticos Aplicados à Engenharia de Produção<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2019 - 07/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Educação na Diversidade e o Meio Ambiente<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2018 - 12/2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Educação na Diversidade e o Meio Ambiente<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2018 - 12/2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Modelos Probabilísticos aplicados à Engenharia de Produção<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - 12/2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Elétrica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Probabilidade e Estatística<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - 12/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística e Probabilidade Aplicadas à Computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - 07/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Tópicos especiais em estatística: estatística experimental<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - 07/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Introdução à estatística<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - 07/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Psicologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística II<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Alfenas, UNIFAL/MG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor colaborador</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Docente colaborador no Programa de Pós-Graduação em Estatística Aplicada e Biometria</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor convidado, Carga horária: 30</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador de Pós-Doutorado, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2017 - 12/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Estatística Aplicada e Biometria, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Introdução aos Modelos Lineares Generalizados<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2016 - 02/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística Básica<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2016 - 02/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento, Conselho de Ensino, Pesquisa e Extensão. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="#LP_Probabilidade e Estatística Aplicadas" tabindex="82">Probabilidade e Estatística Aplicadas</a><br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade de São Paulo, USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Estagiário, Carga horária: 6</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Estagiário, Carga horária: 6</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2011 - 12/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento, Campus Luiz de Queiroz. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="#LP_Probabilidade e Estatística Aplicadas" tabindex="83">Probabilidade e Estatística Aplicadas</a><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Agronômica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Cálculo II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2013 - 12/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Abi - Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Bioestatística<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 03/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento, Instituto de Biociências - Campus de Botucatu. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="#LP_Probabilidade e Estatística Aplicadas" tabindex="84">Probabilidade e Estatística Aplicadas</a><br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="85">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Probabilidade e Estatística Aplicadas" tabindex="86"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Probabilidade e Estatística Aplicadas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Bioestatística, medidas de diversidade, ecologia estatística. </div>
+</div><a name="LP_Probabilidade e Estatística Aplicadas" tabindex="87"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Probabilidade e Estatística Aplicadas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Análise de dados categóricos, contagens, superdispersão, modelos lineares generalizados, modelos não-lineares generalizados, modelos lineares generalizados vetoriais. </div>
+</div><a name="LP_Probabilidade e Estatística Aplicadas" tabindex="88"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Probabilidade e Estatística Aplicadas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Inferência bayesiana, Análise de dados categóricos, Contagens, Teoria do Valor Extremo. </div>
+</div><a name="LP_Probabilidade e Estatística Aplicadas" tabindex="89"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Probabilidade e Estatística Aplicadas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Ecologia estatística, análise de dados categóricos, modelos lineares generalizados e extensões.. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="90">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Análise de dados categóricos e Teoria de Valores Extremos: aspectos teóricos e práticos" tabindex="91"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise de dados categóricos e Teoria de Valores Extremos: aspectos teóricos e práticos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Uma vez que o potencial de aplicação da modelagem estatística para dados categóricos é uma medida estratégica em diversas áreas como as ciências sociais e econômicas, psicologia, ecologia, biologia e engenharias, investigar o potencial e a limitação da classe de modelos lineares generalizados e suas extensões se faz amplamente necessário. Além disso, a Teoria de Valores Extremos, útil para a predição de máximos (ou mínimos) de fenômenos naturais ou artificiais, e sua interface com a análise de dados categóricos ainda foi pouco explorada na literatura específica. Assim, este trabalho terá como objetivos: (i) utilizar a classe de modelos lineares generalizados e suas extensões na análise de dados provenientes de diversas áreas do conhecimento; (ii) utilizar, similarmente, a Teoria de Valores Extremos; e (iii) ampliar o conhecimento sobre a análise de dados categóricos extremais.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Davi Butturi Gomes - Coordenador.<br class="clear"></div>
+</div><a name="PP_Uma abordagem computacional intensiva para a estimação e testes de hipóteses sobre o índice de agregação de Morisita" tabindex="92"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uma abordagem computacional intensiva para a estimação e testes de hipóteses sobre o índice de agregação de Morisita<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Ainda que subjetivamente, a percepção de que organismos vivos de diferentes taxa se apresentam de forma agregada no tempo e no espaço é um padrão notado desde os primeiros estudos em ecologia de populações. Para mensurar o nível de agregação, uma questão com potencial aplicação, por exemplo, à pesca e ao manejo de agroecossitemas, alguns métodos foram propostos, como os índices de retalhamento (patchiness) e o de ajuntamento médio (mean crowding); entretanto as investigações sobre as propriedades estatísticas de tais medidas ainda são escassas. Isto pode ser devido ao fato de que as distribuições de contágio, tanto de mistura quanto de composição, combinadas com os processos pontuais, responsáveis pelos padrões espaciais observáveis em populações ecológicas, gerem dificuldades, do ponto de vista matemático, para quantificar a agregação de forma mais aprofundada e analítica. De fato, na área da Estatística, há pouca relação claramente estabelecida entre processos estocásticos mais sofisticados (do que uma simples amostra aleatória) e as distribuições de contágio, que desempenham um papel fundamental no estabelecimento de modelos discretos úteis. Assim, este projeto tem como objetivos (i) obter estimadores, pontuais e intervalares, para as medidas de agregação populacional supondo diferentes distribuições de contágio; (ii) construir testes de hipóteses relacionados; (iii) avaliar as distribuições empíricas das medidas de agregação e, se disponíveis, as distribuições exatas; e (iv) estudar o comportamento das inferências realizadas em diversos cenários realistas de Ecologia de Populações, incluindo diferentes formas de fragmentos de estudo, influência de borda, intensidade e forma do processo (densidade populacional e homogeneidade), e esforço e método amostrais. Para tanto, diferentes métodos da estatística clássica e computacional (máxima verossimilhança, método delta, bootstrap não-paramétrico, simulações de Monte Carlo) serão aplicados, eventualmente tendo os resultados confrontados com a análise de dados reais observados.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Davi Butturi Gomes - Integrante / Miguel Petrere Jr - Coordenador.<br class="clear">Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio
+										financeiro.</div>
+</div><a name="PP_Abordagem bayesiana para distribuição de valores extremos discretos" tabindex="93"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Abordagem bayesiana para distribuição de valores extremos discretos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Recentemente, alguns estudos envolvendo valores extremos discretos foram desenvolvidos, muito embora a abordagem bayesiana com relação à estimação e inferência não tenha sido amplamente considerada. Além disso, alguns tipos de dados de relevância econômica e ambiental podem ser entendidos como extremos discretos, como a ocorrência inesperada de períodos de seca ou de altas temperaturas. Assim, este projeto visa expandir a teoria e aplicação da estatística bayesiana no referido contexto por meio de estudos de simulação de dados de extremos discretos (números máximos de dias sem chuva), para a avaliação do desempenho de estimadores pontuais e intervalares de Bayes, bem como da bondade de ajuste das distribuições generalizadas de valores extremos, em diferentes cenários. Nosso cenário inicial para as simulações será obtido a partir de um conjunto de dados da ocorrência de veranicos.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Davi Butturi Gomes - Integrante / Luiz Alberto Beijo - Coordenador.<br class="clear">Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa.</div>
+</div><a name="PP_Métodos estatísticos aplicados ao teste de Salmonella/microssoma: modelos, seleção e suas implicações" tabindex="94"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos estatísticos aplicados ao teste de Salmonella/microssoma: modelos, seleção e suas implicações<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O teste de Salmonella/microssoma é um ensaio biológico amplamente utilizado para avaliar o potencial mutagênico de substâncias que podem colocar em risco a saúde humana e a qualidade ambiental. A variável resposta é constituída pela contagem do número de colônias revertentes em cada placa, entretanto geralmente há dois efeitos confundidos, o de toxicidade e o de mutagenicidade. Alguns modelos foram propostos para a análise dos dados desses experimentos, que nem sempre apresentam bons ajustes e não consideram explicitamente interações. Há, ainda, poucas plataformas computacionais disponíveis que integram todas essas propostas e forneçam critérios para a seleção adequada de um modelo. Além disso, geralmente é difícil comparar os efeitos de diferentes substâncias sobre as várias linhagens da bactéria, então medidas com interpretação biológica direta são necessárias. Neste trabalho, foram investigadas as propriedades dos preditores dos modelos tradicionais, bem como o comportamento das distribuições amostrais dos estimadores dos parâmetros desses modelos, na presença de diversos níveis de superdispersão. Também, foram realizados experimentos com as linhagens TA98 e TA100 da bactéria, expostas aos inseticidas, metabolizados e não-metabolizados, Fipronil e Tiametoxam, dois agroquímicos bastante utilizados no Brasil. Aos dados desses experimentos foram ajustados diversos modelos, tanto aqueles tradicionalmente utilizados, quanto novos modelos, alguns baseados na regressão de Skellam e outros com interações explícitas. Para tal, foi obtida uma nova classe de modelos chamada de modelos não-lineares vetoriais generalizados e foi desenvolvido um pacote computacional em linguagem R, intitulado ?ames?, para o ajuste, diagnóstico e seleção de modelos. Por fim, foram propostas medidas de interesse biológico, baseadas nos modelos selecionados, para avaliação de risco e do comprometimento do material genético e intervalos de confiança bootstrap paramétrico foram obtidos. Dentre os modelos tradicionais, aqueles cujas distribuições amostrais dos estimadores possuem melhor aproximação normal foram os de Bernstein, Breslow e Myers. Estes resultados forneceram um critério prático para a seleção de modelos, particularmente nas situações em que as medidas de AIC e de bondade de ajuste, os testes de razão de verossimilhanças e a análise de resíduos ou são pouco informativos ou simplesmente não podem ser aplicados. A partir dos modelos selecionados, pode-se concluir que a interação do fator de metabolização é significativa para a linhagem TA98 exposta ao Fipronil, tanto com relação aos efeitos tóxicos quanto aos efeitos mutagênicos; que o mecanismo de ação do Tiametoxam sobre a linhagem TA98 é completamente diferente quando o produto está metabolizado; e que, para a linhagem TA100, não houve efeito de metabolização considerando ambos os agroquímicos. Baseando-se nas medidas propostas, pode-se concluir que o Tiametoxam oferece os maiores riscos de contaminação residual, ainda que o Fipronil apresente os maiores índices de mutagenicidade.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (1) . <br class="clear"><br class="clear">Integrantes: Davi Butturi Gomes - Integrante / Silvio Sandoval Zocchi - Coordenador.<br class="clear">Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa.</div>
+</div><a name="PP_Agregação e viés em medidas de diversidade: uma abordagem computacional intensiva" tabindex="95"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agregação e viés em medidas de diversidade: uma abordagem computacional intensiva<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: É bastante comum no estudo de ecologia de comunidades o uso de índices de diversidade. Historicamente, os principais índices são os derivados por Shannon e por Simpson. Atualmente, existe uma família de índices, derivada da entropia de Tsallis, que inclui os índices supracitados. Igualmente importantes para descrever os padrões observados na natureza, são os modelos de distribuição de espécie/abundância. Sabe-se também que a amostragem em comunidades naturais geralmente é realizada por quadratins e que as populações das espécies na natureza exibem um padrão agregado de distribuição espacial, ao invés de uma distribuição aleatória. Esta dissertação tem como objetivo central avaliar os possíveis efeitos que a estrutura da comunidade imposta por meio de modelos clássicos, como as séries logarítmica e geométrica e a distribuição lognormal, que a agregação populacional e que o método de amostragem (por quadratins ou aleatória de indivíduos) podem ter sobre a estimação dos índices da família de Tsallis. Foram realizadas simulações baseadas no método modificado de Thomas (seguindo outros estudos na área), nas quais foram gerados diferentes cenários, representando comunidades naturais, com os três tratamentos: (i) distribuição de espécie/abundância, (ii) nível de agregação populacional e (iii) método de amostragem. Então foi verificado o desempenho dos métodos de estimação de máxima verossimilhança (EMV), jackknife e bootstrap. O desempenho desses métodos foi medido pelo viés percentual calculado em relação ao parâmetro populacional, pela amplitude do intervalo de confiança e também pela porcentagem de casos em que o intervalo de confiança cobriu o verdadeiro valor do parâmetro populacional. Foi observado que o EMV, em todos os cenários, produziu estimativas mais enviesadas do que os métodos intensivos de estimação. Também se notou que a distribuição geométrica é o modelo de espécie/abundância, entre os avaliados, que menos causa efeito sobre o viés nas estimativas, sobretudo na estimação da riqueza de espécies. Com relação aos níveis de agregação populacional, observou-se que raios de dispersão intermediários foram aqueles enviesaram menos os estimadores. Por fim, a análise da forma de amostragem demonstrou fraco efeito do tamanho do quadratim sobre o viés nas estimativas de diversidade, porém tal forma de amostragem fere consideravelmente o pressuposto de amostragem aleatória de indivíduos. De maneira geral, o método jackknife se mostrou mais preciso do que o método bootstrap e, para índices que abordam a riqueza de espécies, também se mostrou mais acurado. Entretanto, para índices de diversidade que enfocam a dominância dentro das comunidades, é bastante recomendado o uso do método bootstrap.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (1)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Davi Butturi Gomes - Integrante / Miguel Petrere Jr - Coordenador.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div><a name="PP_Avaliação dos Inseticidas Malation e Fipronil sobre a Regeneração e Viabilidade de Girardia tigrina (Platyhelminthe, Tricladida)" tabindex="96"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação dos Inseticidas Malation e Fipronil sobre a Regeneração e Viabilidade de Girardia tigrina (Platyhelminthe, Tricladida)<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste trabalho foram realizados testes de toxicidade e avaliação dos efeitos sub letais dos inseticidas malation e fipronil, sobre o sistema teste de Girardia tigrina, usando para estas analises diversas metodologias. Para avaliação da letalidade dos produtos, planárias adultas foram expostas a diversas concentrações diferentes dos dois inseticidas. Todos os ensaios foram realizados em duplicata, mantidos ao abrigo da luz, a uma temperatura 24-26ºC e tiveram a duração de 96h, com observações a cada 24h. Os resultados foram avaliados, estatisticamente, pelos testes ?U? de Mann-Whitney, Spearman-Karber, ANOVA e correlação de Pearson. Os efeitos sobre o sistema-teste, nas diferentes concentrações testadas, variaram de acordo com o tempo de exposição. A CE50, dada pelo teste de Spearman-Karber, foi de 12,5mg/L para o malation e 13,4mg/L para o fipronil. Quanto aos testes de sub letalidade, foram realizadas análises do potencial de regeneração; histológicas, para avaliação do comprometimento dos tecidos; e o ?ensaio do cometa?, para detecção de dano no DNA. Os espécimes seccionados e expostos aos inseticidas demonstraram, entre outros efeitos, um retardo no desenvolvimento dos blastemas regenerativos. As análises histológicas demonstraram que planárias expostas a concentrações mais baixas dos inseticidas possuem maiores danos tanto nos tecidos como em certos tipos celulares. Por meio do ensaio do cometa, foram registrados danos significativos no DNA para todos os tratamentos, quando comparados com o teste controle. Os danos observados neste trabalho podem decorrer em alterações na reprodução, levando a uma diminuição na eficiência competitiva e, conseqüentemente, na chance de sobrevivência destes organismos.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Davi Butturi Gomes - Integrante / Maria Aparecida Marin Morales - Coordenador.<br class="clear">Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Bolsa.<br class="clear">Número de produções C, T &amp; A: 4</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosEnsino" tabindex="97">
+<h1 tabindex="0">Projetos de ensino</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Introdução à Teoria de Valores Extremos" tabindex="98"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introdução à Teoria de Valores Extremos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Ensino. <br class="clear">Alunos envolvidos: Graduação: (2) . <br class="clear"><br class="clear">Integrantes: Davi Butturi Gomes - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="MembroCorpoEditorial" tabindex="99">
+<h1 tabindex="0">Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Sigmae</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="100">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IOP Conference Series. Earth and Environmental Science (Online)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Ecological Indicators</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Statistical Software</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: JOURNAL OF CLEANER PRODUCTION</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Energy, Ecology and Environment</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Energy, Ecology and Environment</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Energy, Ecology and Environment</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2020 - 2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Engenharia Sanitária e Ambiental</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2021 - 2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: BRAZILIAN JOURNAL OF BIOMETRICS</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="101">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Probabilidade e Estatística Aplicadas. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Ecologia / Subárea: Ecologia Quantitativa. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="102">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="103">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="104"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="105"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="106"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">PELIZARI, GISELE PIRES</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2022</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s2179-975x2321" target="_blank" tabindex="107"></a>PELIZARI, GISELE PIRES ; VAZ, ARIANE ALMEIDA ; <b>BUTTURI-GOMES, DAVI</b> ; SMITH, WELBER SENTEIO . Leaf breakdown in a tropical stream: comparison between the exotic Eucalyptus grandis and two native species. ACTA LIMNOLOGICA BRASILIENSIA (ONLINE)<sup></sup>, v. 34, p. e12, 2022. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1590/s2179-975x2321&amp;issn=2179975X&amp;volume=34&amp;issue=&amp;paginaInicial=e12&amp;titulo=Leaf breakdown in a tropical stream: comparison between the exotic Eucalyptus grandis and two native species&amp;sequencial=1&amp;nomePeriodico=ACTA LIMNOLOGICA BRASILIENSIA (ONLINE)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">MOREIRA, WAGNER ELIAS DE MELO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2022</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.33448/rsd-v11i8.31182" target="_blank" tabindex="108"></a>MOREIRA, WAGNER ELIAS DE MELO ; GIAROLA, LUCIANE TEIXEIRA PASSOS ; <b>BUTTURI-GOMES, DAVI</b> ; MELLO, JORGE LUIZ DE CARVALHO ; SOUZA, DIBA MARIA SEBBA TOSTA DE . Multidimensional analysis of frailty in older people of a Brazilian community: a cross-sectional study. RESEARCH, SOCIETY AND DEVELOPMENT<sup></sup>, v. 11, p. e51711831182, 2022. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.33448/rsd-v11i8.31182&amp;issn=25253409&amp;volume=11&amp;issue=&amp;paginaInicial=e51711831182&amp;titulo=Multidimensional analysis of frailty in older people of a Brazilian community: a cross-sectional study&amp;sequencial=2&amp;nomePeriodico=RESEARCH, SOCIETY AND DEVELOPMENT" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.752</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">DE LIMA, FRANCIELLY ALCÂNTARA</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2022</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1371/journal.pone.0252695" target="_blank" tabindex="109"></a>DE LIMA, FRANCIELLY ALCÂNTARA ; <b>BUTTURI-GOMES, DAVI</b> ; DAS NEVES PANTOJA, MARCELA HELENA ; MARTINELLI-LEMOS, JUSSARA MORETTO . Larval dispersal of Brachyura in one of the largest estuarine/marine systems in the world. PLoS One<sup><img id="19326203_3" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="19326203" original-title="PLoS One (1932-6203)<br />Fator de impacto (JCR 2021): 3.752"></sup>, v. 17, p. e0252695, 2022. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1371/journal.pone.0252695&amp;issn=19326203&amp;volume=17&amp;issue=&amp;paginaInicial=e0252695&amp;titulo=Larval dispersal of Brachyura in one of the largest estuarine/marine systems in the world&amp;sequencial=3&amp;nomePeriodico=PLoS One" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.755</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BARROS, DANIELA</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00027-021-00782-y" target="_blank" tabindex="110"></a>BARROS, DANIELA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="111">PETRERE JÚNIOR, M.</a> ; CASTELLO, LEANDRO ; SANTOS, PAULO BRASIL ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="112">BUTTURI-GOMES, D.</a></b> ; ISAAC, VICTORIA JUDITH . Hydrologic variability effects on catches of Prochilodus nigricans in the lower Amazon. AQUATIC SCIENCES<sup><img id="10151621_4" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="10151621" original-title="AQUATIC SCIENCES (1015-1621)<br />Fator de impacto (JCR 2021): 2.755"></sup>, v. 83, p. 22, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s00027-021-00782-y&amp;issn=10151621&amp;volume=83&amp;issue=&amp;paginaInicial=22&amp;titulo=Hydrologic variability effects on catches of Prochilodus nigricans in the lower Amazon&amp;sequencial=4&amp;nomePeriodico=AQUATIC SCIENCES" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000618332900001&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">3</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.166</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">LIMA, FRANCIELLY ALCÂNTARA DE</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.rsma.2021.101960" target="_blank" tabindex="113"></a>LIMA, FRANCIELLY ALCÂNTARA DE ; <b>BUTTURI-GOMES, DAVI</b> ; MARTINELLI-LEMOS, JUSSARA MORETTO . Megalopa bloom of Panopeus lacustris (Decapoda: Panopeidae) on the Amazon Continental Shelf. REGIONAL STUDIES IN MARINE SCIENCE<sup><img id="23524855_5" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="23524855" original-title="Regional Studies in Marine Science (2352-4855)<br />Fator de impacto (JCR 2021): 2.166"></sup>, v. 47, p. 101960, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.rsma.2021.101960&amp;issn=23524855&amp;volume=47&amp;issue=&amp;paginaInicial=101960&amp;titulo=Megalopa bloom of Panopeus lacustris (Decapoda: Panopeidae) on the Amazon Continental Shelf&amp;sequencial=5&amp;nomePeriodico=REGIONAL STUDIES IN MARINE SCIENCE" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BARROS, LAURA ROBERTA SARMENTO DE</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.33448/rsd-v10i14.21733" target="_blank" tabindex="114"></a>BARROS, LAURA ROBERTA SARMENTO DE ; BARRELLA, WALTER ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="115">PETRERE JÚNIOR, M.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="116">BUTTURI-GOMES, D.</a></b> . Missing seashells: a subtle detail of an inadequate policy. RESEARCH, SOCIETY AND DEVELOPMENT<sup></sup>, v. 10, p. e130101421733, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.33448/rsd-v10i14.21733&amp;issn=25253409&amp;volume=10&amp;issue=&amp;paginaInicial=e130101421733&amp;titulo=Missing seashells: a subtle detail of an inadequate policy&amp;sequencial=6&amp;nomePeriodico=RESEARCH, SOCIETY AND DEVELOPMENT" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">6.263</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BUTTURI-GOMES, D.;BUTTURI, D.;BUTTURI-GOMES, DAVI;D., BUTTURI-GOMES;GOMES, DAVI BUTTURI;DAVI, BUTTURI-GOMES</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ecolind.2019.105736" target="_blank" tabindex="117"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="118">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="119">PETRERE JÚNIOR, M.</a> . Edge influence and population aggregation: On point and interval statistical performances of Morisita patchiness index estimators in different sampling schemes. ECOLOGICAL INDICATORS<sup><img id="1470160X_7" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="1470160X" original-title="ECOLOGICAL INDICATORS (1470-160X)<br />Fator de impacto (JCR 2021): 6.263"></sup>, v. 108, p. 105736, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.ecolind.2019.105736&amp;issn=1470160X&amp;volume=108&amp;issue=&amp;paginaInicial=105736&amp;titulo=Edge influence and population aggregation: On point and interval statistical performances of Morisita patchiness index estimators in different sampling schemes&amp;sequencial=7&amp;nomePeriodico=ECOLOGICAL INDICATORS" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000493902400056&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">6.263</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">CARMINATTO, AMANDA APARECIDA</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ecolind.2019.105728" target="_blank" tabindex="120"></a>CARMINATTO, AMANDA APARECIDA ; ROTUNDO, MATHEUS MARCOS ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="121">BUTTURI-GOMES, D.</a></b> ; BARRELLA, WALTER ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="122">PETRERE JÚNIOR, M.</a> . Effects of habitat complexity and temporal variation in rocky reef fish communities in the Santos estuary (SP), Brazil. ECOLOGICAL INDICATORS<sup><img id="1470160X_8" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="1470160X" original-title="ECOLOGICAL INDICATORS (1470-160X)<br />Fator de impacto (JCR 2021): 6.263"></sup>, v. 108, p. 105728, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.ecolind.2019.105728&amp;issn=1470160X&amp;volume=108&amp;issue=&amp;paginaInicial=105728&amp;titulo=Effects of habitat complexity and temporal variation in rocky reef fish communities in the Santos estuary (SP), Brazil&amp;sequencial=8&amp;nomePeriodico=ECOLOGICAL INDICATORS" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000493902400049&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">7</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">6.424</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">JANAINA, ALVES KLEIN</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.envsci.2020.02.025" target="_blank" tabindex="123"></a>JANAINA, ALVES KLEIN ; MIGUEL, PETRERE ; <b>DAVI, BUTTURI-GOMES</b> ; BARRELLA, WALTER . Textile sustainability: A Brazilian etiquette issue. ENVIRONMENTAL SCIENCE &amp; POLICY<sup><img id="14629011_9" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="14629011" original-title="ENVIRONMENTAL SCIENCE &amp; POLICY (1462-9011)<br />Fator de impacto (JCR 2021): 6.424"></sup>, v. 109, p. 125-130, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.envsci.2020.02.025&amp;issn=14629011&amp;volume=109&amp;issue=&amp;paginaInicial=125&amp;titulo=Textile sustainability: A Brazilian etiquette issue&amp;sequencial=9&amp;nomePeriodico=ENVIRONMENTAL SCIENCE &amp; POLICY" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000534365100013&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">7</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.815</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BARROS, DANIELA DE FRANÇA</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.fishres.2020.105643" target="_blank" tabindex="124"></a>BARROS, DANIELA DE FRANÇA ; PETRERE, MIGUEL ; LECOURS, VINCENT ; <b>BUTTURI-GOMES, DAVI</b> ; CASTELLO, LEANDRO ; ISAAC, VICTORIA JUDITH . Effects of deforestation and other environmental variables on floodplain fish catch in the Amazon. FISHERIES RESEARCH<sup><img id="01657836_10" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="01657836" original-title="FISHERIES RESEARCH (0165-7836)<br />Fator de impacto (JCR 2021): 2.815"></sup>, v. 230, p. 105643, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.fishres.2020.105643&amp;issn=01657836&amp;volume=230&amp;issue=&amp;paginaInicial=105643&amp;titulo=Effects of deforestation and other environmental variables on floodplain fish catch in the Amazon&amp;sequencial=10&amp;nomePeriodico=FISHERIES RESEARCH" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000553385900021&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">11</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.655</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">CAMPOS, I. M. C.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2020</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4025/actascitechnol.v42i1.44456" target="_blank" tabindex="125"></a>CAMPOS, I. M. C. ; NOGUEIRA, D. A. ; FERREIRA, E. B. ; <b>BUTTURI-GOMES, D.</b> . Comparison of tests on covariance structures of normal populations. ACTA SCIENTIARUM. TECHNOLOGY (ONLINE)<sup><img id="18078664_11" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="18078664" original-title="ACTA SCIENTIARUM-TECHNOLOGY (1807-8664)<br />Fator de impacto (JCR 2021): 0.655"></sup>, v. 42, p. e44456, 2020. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.4025/actascitechnol.v42i1.44456&amp;issn=18078664&amp;volume=42&amp;issue=&amp;paginaInicial=e44456&amp;titulo=Comparison of tests on covariance structures of normal populations&amp;sequencial=11&amp;nomePeriodico=ACTA SCIENTIARUM. TECHNOLOGY (ONLINE)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">OLER, JULIANA RODRIGUES LARROSA</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.14808/sci.plena.2019.111201" target="_blank" tabindex="126"></a>OLER, JULIANA RODRIGUES LARROSA ; AMOROZO, MARIA CHRISTINA DE MELLO ; MONTEIRO, REINALDO ; <b>BUTTURI-GOMES, DAVI</b> . Etnobotânica de plantas tóxicas como subsídio para campanhas de prevenção de acidentes: um estudo de caso em Cananéia, São Paulo, Brasil.. SCIENTIA PLENA<sup></sup>, v. 15, p. 1-5, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.14808/sci.plena.2019.111201&amp;issn=18082793&amp;volume=15&amp;issue=&amp;paginaInicial=1&amp;titulo=Etnobotânica de plantas tóxicas como subsídio para campanhas de prevenção de acidentes: um estudo de caso em Cananéia, São Paulo, Brasil.&amp;sequencial=12&amp;nomePeriodico=SCIENTIA PLENA" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">VAZ, ADRIANE ALMEIDA</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5007/2175-7925.2019v32n3p51" target="_blank" tabindex="127"></a>VAZ, ADRIANE ALMEIDA ; VAZ, ARIANE ALMEIDA ; PELIZARI, GISELE PIRES ; <b>GOMES, DAVI BUTTURI</b> ; SMITH, WELBER SENTEIO . Colonização de folhas por invertebrados aquáticos em um riacho tropical: há diferenças entre espécies nativas e Eucalyptus grandis (Hill ex Maiden) nas épocas chuvosa e seca?. Biotemas<sup></sup>, v. 32, p. 51-64, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.5007/2175-7925.2019v32n3p51&amp;issn=21757925&amp;volume=32&amp;issue=&amp;paginaInicial=51&amp;titulo=Colonização de folhas por invertebrados aquáticos em um riacho tropical: há diferenças entre espécies nativas e Eucalyptus grandis (Hill ex Maiden) nas épocas chuvosa e seca?&amp;sequencial=13&amp;nomePeriodico=Biotemas" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">7.001</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">CORDEIRO, TAYNARA CRISTINA</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2018</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.marpolbul.2018.01.054" target="_blank" tabindex="128"></a>CORDEIRO, TAYNARA CRISTINA ; BARRELLA, WALTER ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="129">BUTTURI-GOMES, D.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="130">PETRERE JÚNIOR, M.</a> . A modeling approach for reposition dynamics of litter composition in coastal areas of the city of Santos, Sao Paulo, Brazil. MARINE POLLUTION BULLETIN<sup><img id="0025326X_14" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="0025326X" original-title="MARINE POLLUTION BULLETIN (0025-326X)<br />Fator de impacto (JCR 2021): 7.001"></sup>, v. 128, p. 333-339, 2018. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.marpolbul.2018.01.054&amp;issn=0025326X&amp;volume=128&amp;issue=&amp;paginaInicial=333&amp;titulo=A modeling approach for reposition dynamics of litter composition in coastal areas of the city of Santos, Sao Paulo, Brazil&amp;sequencial=14&amp;nomePeriodico=MARINE POLLUTION BULLETIN" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000430645600038&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">9</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.409</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BUTTURI-GOMES, DAVI</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2018</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00704-018-2684-1" target="_blank" tabindex="131"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="132">BUTTURI-GOMES, DAVI</a></b>; BEIJO, LUIZ ALBERTO ; AVELAR, FABRICIO GOECKING . On modeling the maximum duration of dry spells: a simulation study under a Bayesian approach. THEORETICAL AND APPLIED CLIMATOLOGY<sup><img id="0177798X_15" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="0177798X" original-title="THEORETICAL AND APPLIED CLIMATOLOGY (0177-798X)<br />Fator de impacto (JCR 2021): 3.409"></sup>, v. 1, p. 1-10, 2018. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s00704-018-2684-1&amp;issn=0177798X&amp;volume=1&amp;issue=&amp;paginaInicial=1&amp;titulo=On modeling the maximum duration of dry spells: a simulation study under a Bayesian approach&amp;sequencial=15&amp;nomePeriodico=THEORETICAL AND APPLIED CLIMATOLOGY" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000475737500092&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">6.263</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BUTTURI-GOMES, D.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ecolind.2016.08.054" target="_blank" tabindex="133"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="134">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="135">PETRERE, M.</a> ; GIACOMINI, HENRIQUE C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5722715501415634" target="_blank" tabindex="136">ZOCCHI, S. S.</a> . Statistical performance of a multicomparison method for generalized species diversity indices under realistic empirical scenarios. Ecological Indicators<sup><img id="1470160X_16" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="1470160X" original-title="ECOLOGICAL INDICATORS (1470-160X)<br />Fator de impacto (JCR 2021): 6.263"></sup>, v. 72, p. 545-552, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.ecolind.2016.08.054&amp;issn=1470160X&amp;volume=72&amp;issue=&amp;paginaInicial=545&amp;titulo=Statistical performance of a multicomparison method for generalized species diversity indices under realistic empirical scenarios&amp;sequencial=16&amp;nomePeriodico=Ecological Indicators" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000398426200054&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">4</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1016/j.ecolind.2016.08.054&amp;md5=0f351691a0541ab5dfdf1bcbef63d531" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">D., BUTTURI-GOMES</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5132/eec.2016.01.06" target="_blank" tabindex="137"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="138">D., BUTTURI-GOMES</a></b>; K.C.S., FURQUIM ; M.I., CARMARGO-MATIAS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6712127307223557" target="_blank" tabindex="139">M.A., MARIN-MORALES</a> . Morpho-histochemistry analysis of freshwater planarians Girardia tigrina (Girard, 1850) exposed to sublethal concentrations of Malathion insecticide. Ecotoxicology and Environmental Contamination<sup></sup>, v. 11, p. 33-43, 2016. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.5132/eec.2016.01.06&amp;issn=23179643&amp;volume=11&amp;issue=&amp;paginaInicial=33&amp;titulo=Morpho-histochemistry analysis of freshwater planarians Girardia tigrina (Girard, 1850) exposed to sublethal concentrations of Malathion insecticide&amp;sequencial=17&amp;nomePeriodico=Ecotoxicology and Environmental Contamination" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">CASTANHA, RODRIGO FERNANDES</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1808-1657000112013" target="_blank" tabindex="140"></a>CASTANHA, RODRIGO FERNANDES ; ANGELIS, DEJANIRA DE FRANCESCHI DE ; <b>BUTTURI-GOMES, DAVI</b> ; ANGELIS, DERLENE ATTILI DE . Evaluation of the Atibaia River water quality using Lecane bulla as a test organism. Arquivos do Instituto Biológico (Online)<sup></sup>, v. 82, p. 01-07, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1590/1808-1657000112013&amp;issn=18081657&amp;volume=82&amp;issue=&amp;paginaInicial=01&amp;titulo=Evaluation of the Atibaia River water quality using Lecane bulla as a test organism&amp;sequencial=18&amp;nomePeriodico=Arquivos do Instituto Biológico (Online)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">6.263</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BUTTURI-GOMES, DAVI</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ecolind.2013.10.004" target="_blank" tabindex="141"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="142">BUTTURI-GOMES, DAVI</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="143">JUNIOR, MIGUEL PETRERE</a> ; GIACOMINI, HENRIQUE C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2767494720646648" target="_blank" tabindex="144">JUNIOR, PAULO DE MARCO</a> . Computer intensive methods for controlling bias in a generalized species diversity index. Ecological Indicators<sup><img id="1470160X_19" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="1470160X" original-title="ECOLOGICAL INDICATORS (1470-160X)<br />Fator de impacto (JCR 2021): 6.263"></sup>, v. 37, p. 90-98, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.ecolind.2013.10.004&amp;issn=1470160X&amp;volume=37&amp;issue=&amp;paginaInicial=90&amp;titulo=Computer intensive methods for controlling bias in a generalized species diversity index&amp;sequencial=19&amp;nomePeriodico=Ecological Indicators" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000329385300010&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">11</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1016/j.ecolind.2013.10.004&amp;md5=8fb83c612ad3796d844398c202131bb8" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">4</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">JOSE, J. Vieira</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span>JOSE, J. Vieira ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1541690930832179" target="_blank" tabindex="145">REZENDE, R.</a> ; MARQUES, P. A. A. ; <b>BUTTURI-GOMES, D.</b> ; GONCALVES, A. C. A. . CONTINUIDADE ESPACIAL DA TAXA DE INFILTRAÇÃO BÁSICA DE ÁGUA EM TRÊS SOLOS DO NOROESTE DO ESTADO DO PARANÁ. Rama : Revista em Agronegócio e Meio Ambiente<sup></sup>, v. 3, p. 517-532, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=19819951&amp;volume=3&amp;issue=&amp;paginaInicial=517&amp;titulo=CONTINUIDADE ESPACIAL DA TAXA DE INFILTRAÇÃO BÁSICA DE ÁGUA EM TRÊS SOLOS DO NOROESTE DO ESTADO DO PARANÁ&amp;sequencial=20&amp;nomePeriodico=Rama : Revista em Agronegócio e Meio Ambiente" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.351</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">MARCHETTI, FÁBIO FRATTINI</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s12231-013-9246-3" target="_blank" tabindex="146"></a>MARCHETTI, FÁBIO FRATTINI ; MASSARO, LUIZ ROBERTO ; AMOROZO, MARIA CHRISTINA DE MELLO ; <b>BUTTURI-GOMES, DAVI</b> . Maintenance of Manioc Diversity by Traditional Farmers in the State of Mato Grosso, Brazil: A 20-Year Comparison. Economic Botany<sup><img id="00130001_21" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="00130001" original-title="ECONOMIC BOTANY (0013-0001)<br />Fator de impacto (JCR 2021): 2.351"></sup>, v. xxx, p. xxxx, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s12231-013-9246-3&amp;issn=00130001&amp;volume=xxx&amp;issue=&amp;paginaInicial=xxxx&amp;titulo=Maintenance of Manioc Diversity by Traditional Farmers in the State of Mato Grosso, Brazil: A 20-Year Comparison&amp;sequencial=21&amp;nomePeriodico=Economic Botany" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000328624100003&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">6</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1007/s12231-013-9246-3&amp;md5=665cc474640909c23c03579998e0bf21" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">3</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="147"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUIMARAES, A. C. ; OLIVEIRA, M. S. ; <b>BUTTURI-GOMES, DAVI</b> ; COSTA, B. D. ; PEREIRA, E. B. ; COTA, V. R. ; CALOMENI, M. R. ; DANTAS, E. H. M. . The impact of adapted physical exercise on brain waves of institutionalized and non-institutionalized elderly. In: V Congreso Nacional de Actividad Fisica y XII Congreso Internacional de Motricidad y Ejercicio Fisico, 2019, Bogotá. Anais do V Congreso Nacional de Actividad Fisica y XII Congreso Internacional de Motricidad y Ejercicio Fisico. Bogotá, 2019. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="148">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5722715501415634" target="_blank" tabindex="149">ZOCCHI, S. S.</a> . Assimetria e curtose em modelos não-lineares generalizados: estudos de simulação envolvendo os preditores para o teste de Salmonella/microssoma. In: 59ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria, 2014, Ouro Preto. Revista da Estatística da Universidade Federal de Ouro Preto, 2014. v. 3. p. 227-231. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="150">BUTTURI-GOMES, D.</a></b>; FERNANDES, T. C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6712127307223557" target="_blank" tabindex="151">MARIN-MORALES, M. A.</a> . A utilização de modelos multinomiais na Ecotoxicologia: ajuste aos dados preliminares do ensaio do cometa em Girardia tigrina. In: 57ª Reunião Anual da RBras, 2012, Piracicaba. Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (57:2012:Piracicaba,SP). Piracicaba: Divisão de Biblioteca - Esalq/USP, 2012. v. 1. p. 71-71. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMOROZO, M. C. M. ; OLER, J. R. L. ; MARCHETTI, F.F. ; MASSARO JR., L. R. ; <b>BUTTURI-GOMES, D.</b> . A manuntenção de etnovariedades de mandioca por agricultores tradicionais. 1. Uma comparação entre comunidades na Baixada Cuiabana, MT, Brasil. In: X Congresso de Ecologia e I Simpósio de Sustentabilidade, 2011, São Lourenço - MG. Anais do X Congresso de Ecologia e I Simpósio de Sustentabilidade, 2011. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMOROZO, M. C. M. ; MARCHETTI, F.F. ; MASSARO JR., L. R. ; OLER, J. R. L. ; <b>BUTTURI-GOMES, D.</b> . A manuntenção de etnovariedades de mandioca por agricultores tradicionais. 2. Uma comparação preliminar em duas épocas (1992,2010) em comunidades de Santo Antonio do Leverger, MT, Brasil. In: X Congresso de Ecologia e I Simpósio de Sustentabilidade, 2011, São Lourenço - MG. Anais do X Congresso de Ecologia e I Simpósio de Sustentabilidade, 2011. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLER, J. R. L. ; <b>BUTTURI-GOMES, D.</b> ; AMOROZO, M. C. M. . A utilização do índice unificado de Tsallis para mensurar a diversidade em etnobotânica: um estudo preliminar de plantas alimentícias em quintais do distrito de Rubião Junior (Botucatu, SP, Brasil). In: IX Congresso de Ecologia do Brasil, 2009, São Lourenço. Anais do IX Congresso de Ecologia do Brasil, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="152"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, E. B. ; <b>BUTTURI-GOMES, D.</b> . Análise de contagens bivariadas utilizando modelos correlacionados por níveis. In: 66ª Reunião Anual da RBras, 2022, Florianópolis. Anais da 66ª Reunião Anual da RBras, 2022. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOREIRA, W. E. M. ; GIAROLA, L. T. P. ; <b>BUTTURI-GOMES, D.</b> ; MELLO, J. L. C. ; SOUZA, D. M. S. T. . FUNCIONALIDADE MULTIDIMENSIONAL DE IDOSOS INSTITUCIONALIZADOS E DA COMUNIDADE. In: XXII Congresso Brasileiro de Geriatria e Gerontologia, 2021. Anais do XXII Congresso Brasileiro de Geriatria e Gerontologia, 2021. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOREIRA, W. E. M. ; GIAROLA, L. T. P. ; <b>BUTTURI-GOMES, D.</b> ; MELLO, J. L. C. ; MAIA, P. R. ; SOUZA, D. M. S. T. . AVALIAÇÃO DA VULNERABILIDADE CLÍNICO FUNCIONAL DE IDOSOS INSTITUCIONALIZADOS E DA COMUNIDADE. In: II CONGRESSO BRASILEIRO ONLINE DE SAÚDE E ENVELHECIMENTO HUMANO, 2021. ANAIS DO II CONGRESSO BRASILEIRO ONLINE DE SAÚDE E ENVELHECIMENTO HUMANO, 2021. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, M. P. V. ; <b>BUTTURI-GOMES, D.</b> . Ajuste da distribuição generalizada de valores extremos aos máximos da produção de aço bruto. In: I Reunião Mineira de Matemática, 2021. Anais da I Reunião Mineira de Matemática, 2021. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="153">BUTTURI-GOMES, D.</a></b>; ROCHA, E. B. . Bayesian inference for bivariate counts in a 2x3 completely random design: preliminary results. In: 63a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria, 2018, Curitiba. Anais do 63ª Reunião Anual da RBras, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="154">BUTTURI-GOMES, D.</a></b>; ROCHA, E. B. . Performance of diagnostics measures using INLA: a simulation study for count regression. In: First Conference on Statistics and Data Science, 2018, Salvador. Book of Abstracts of the First Conference on Statistics and Data Science, 2018. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. S. ; FERREIRA, E. B. ; <b>BUTTURI-GOMES, D.</b> . Teste t sequencial e a decisão sobre o coeficiente de determinação (R²). In: XV MGEST - Encontro Mineiro de Estatística, 2017, Belo Horizonte. Anais do XV MGEST, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="155">BUTTURI-GOMES, D.</a></b>; MARTINS, N. S. ; CAPELARO, L. S. . Inferência bayesiana para dados de contagem de um experimento em blocos casualizados. In: 62ª Reunião Anual da RBras e 17º SEAGRO, 2017, Lavras. Anais do 62ª Reunião Anual da RBras e 17º SEAGRO, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. S. ; <b>BUTTURI-GOMES, D.</b> ; FERREIRA, E. B. . Estudo de simulação para testes t sequenciais de Rushton: alguns resultados preliminares. In: 62ª Reunião Anual da RBras e 17º SEAGRO, 2017, Lavras. Anais do 62ª Reunião Anual da RBras e 17º SEAGRO, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, T. B. ; BEIJO, L. A. ; <b>BUTTURI-GOMES, D.</b> ; MARQUES, R. A. G. . Modelagem estatística não-estacionária do risco-Brasil máximo semestral. In: 62ª Reunião Anual da RBras e 17º SEAGRO, 2017, Lavras. Anais do 62ª Reunião Anual da RBras e 17º SEAGRO, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="156">BUTTURI-GOMES, D.</a></b>; BEIJO, L. A. ; AVELAR, F. G. . Desempenho da distribuição GEV para extremos de contagem com superdispersão. In: 62ª Reunião Anual da RBras e 17º SEAGRO, 2017, Lavras. Anais do 62ª Reunião Anual da RBras e 17º SEAGRO, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, N. S. ; <b>BUTTURI-GOMES, DAVI</b> ; LOPES, O. P. . Performance evaluation of different genotypes of Eucalyptus for pulp and paper production. In: XIV Encontro Mineiro de Estatística, 2016, Varginha. Anais do XIV Encontro Mineiro de Estatística, 2016. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="157">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5722715501415634" target="_blank" tabindex="158">ZOCCHI, S. S.</a> . Um estudo de simulação sobre como a escolha da função de variância afeta a assimetria e a curtose das distribuições amostrais dos estimadores em modelos não-lineares generalizados. In: I Workshop on Experimental Statistics e IV Encontro dos Alunos do PPg em Agronomia (Estatística e Experimentação Agronômica), 2014, Piracicaba. Anais do I Workshop on Experimental Statistics e IV Encontro dos Alunos do PPg em Agronomia (Estatística e Experimentação Agronômica), 2014. v. 1. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="159">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5722715501415634" target="_blank" tabindex="160">ZOCCHI, S. S.</a> . Métodos estatísticos aplicados ao teste de Salmonella/microssoma no contexto dos modelos não lineares generalizados. In: Encontro dos Alunos do Programa de Pós-Graduação em Estatística e Experimentação Agronômica, 2013, Piracicaba. Anais do III Encontro dos Alunos do Programa de Pós-Graduação em Estatística e Experimentação Agronômica, 2013. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLER, J. R. L. ; <b>BUTTURI-GOMES, D.</b> ; AMOROZO, M. C. M. . Comparing agrobiodiversity conservation in a traditional community and in a rural settlement: a case study at Porto Estrela, Mato Grosso, Brazil.. In: 13th Congress of the International Society of Ethnobiology, 2012, Montpellier. Exploring the linkages between biodiversity, rural food systems and institutions within diverse landscapes, 2012. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLER, J. R. L. ; AMOROZO, M. C. M. ; <b>BUTTURI-GOMES, D.</b> . Critérios para escolha do acervo de etnovariedades de mandioca - MANIHOT ESCULENTA CRANTZ (Euphorbiaceae) por agricultores de pequena escala em Mato Grosso - Brasil: um estudo de caso. In: 62º Congresso Nacional de Botânica, 2011, Fortaleza. Anais do 62º Congresso Nacional de Botânica, 2011. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOURA, L. C. ; PADUA, C. ; <b>BUTTURI, D.</b> . Patchy Mosaics of Calathea Communis Wand &amp; S. Vieira (Marantaceae) and Natural Regeneration in Atlantic Forest Carlos Botelho State Park, SP, Brazil. In: Getting Post 2010 Biodiversity Targets Right, 2010, Bragança Paulista, SP. Abstracts of Getting Post 2010 Biodiversity Targets Right, 2010. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOURA, L. C. ; PADUA, C. ; <b>BUTTURI-GOMES, D.</b> . Regeneração Natural no Mosaico de Manchas de Calathea communis Wand &amp; S. Vieira (Marantaceae) em Mata Ombrófila Densa (Parque Estadual Carlos Botelho, SP).. In: 61º Congresso Nacional de Botânica, 2010, Manaus, AM. Anais do 61º Congresso Nacional de Botânica, 2010. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Castanha, R.F. ; ATTILI-ANGELIS, D. ; Angelis, D.F. ; <b>BUTTURI-GOMES, D.</b> . AVALIAÇÃO DA QUALIDADE DAS ÁGUAS DO RIO ATIBAIA ATRAVÉS DE ENSAIOS ECOTOXICOLÓGICOS UTILIZANDO Lecane bulla (ROTIFERA). In: XVI Congresso Brasileiro Toxicologia, 2009, Belo Horizonte. Brazilian Journal of Toxicology, 2009. v. 22. p. 13-13. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="161">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6712127307223557" target="_blank" tabindex="162">MARIN-MORALES, M. A.</a> . AVALIAÇÕES DOS EFEITOS DE DOSES SUB-LETAIS DOS INSETICIDAS MALATION E FIPRONIL SOBRE A REGENERAÇÃO DE GIRARDIA TIGRINA (PLATYHELMINTHE, TRICLADIDA).. In: X Congresso Brasileiro de Ecotoxicologia, 2008. X Congresso Brasileiro de Ecotoxicologia, 2008. v. 1. p. 278-278. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="163">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6712127307223557" target="_blank" tabindex="164">MARIN-MORALES, M. A.</a> . AVALIAÇÃO DOS EFEITOS DO INSETICIDA FIPRONIL SOBRE A VIABILIDADE DE GIRARDIA TIGRINA (PLATYHELMINTHE, TRICLADIDA).. In: X Congresso Brasileiro de Ecotoxicologia, 2008. X Congresso Brasileiro de Ecotoxicologia, 2008. v. 1. p. 278-278. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="165">BUTTURI-GOMES, D.</a></b>; OLER, J. R. L. . A eficácia dos mecanismos de defesa de plantas do cerrado sobre o comportamento forrageiro da saúva-limão. In: XVII Congresso da Sociedade Botânica de São Paulo, 2008, Guarulhos-SP. Anais do XVII Congresso da Sociedade Botânica de São Paulo, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PERARO, A. B. ; PACIFICO, E. S. ; <b>BUTTURI-GOMES, D.</b> ; OLER, J. R. L. . Ecologia Comportamental do Tubarão-Lixa no Aquário de Santos-SP. In: XX Semana Nacional de Oceanografia, 2008, Arraial do Cabo-RJ. Anais da XX Semana Nacional de Oceanografia, 2008. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="166">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6712127307223557" target="_blank" tabindex="167">MARIN-MORALES, M. A.</a> . Avaliação dos efeitos do inseticida Malation sobre a viabilidade de Girardia tigrina (Tricladida). In: XV Congresso Brasileiro de Toxicologia, 2007, Buzios. Revista Brasileira de Toxicologia. São Paulo: Sociedade Brasileira de Toxicologia, 2007. v. 20. p. 177-177. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="168"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="169">BUTTURI-GOMES, D.</a></b>. Bases matemáticas da estatística pesqueira. 2021. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="170">BUTTURI-GOMES, D.</a></b>. Inferência Multimodelo: um estudo de caso na dispersão larval de caranguejos. 2021. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="171">BUTTURI-GOMES, D.</a></b>. Estatística aplicada à Pesca: um estudo de caso. 2020. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="172">BUTTURI-GOMES, D.</a></b>. Problemas Estatísticos e Matemáticos em Ecologia de Populações: tópicos em agregação e efeito de borda. 2017. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="173">BUTTURI-GOMES, D.</a></b>. Bioestatística e Ecotoxicologia: problemas e soluções. 2015. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="174">BUTTURI-GOMES, D.</a></b>. Importância do estudo de cálculo para Ecologia. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="175"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente" tabindex="176"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="177">BUTTURI-GOMES, D.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5722715501415634" target="_blank" tabindex="178">ZOCCHI, S. S.</a> . ames: statistical solutions for Ames test data. 2015. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos" tabindex="179"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="180">BUTTURI-GOMES, D.</a></b>. Consultor ad-hoc. 2020. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="181">BUTTURI-GOMES, D.</a></b>. Parecerista ad hoc. 2020. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="182"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="183">BUTTURI-GOMES, D.</a></b>. Primeiros passos no software R. 2018. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="184">BUTTURI-GOMES, D.</a></b>. Introdução ao Software R. 2017. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="185">BUTTURI-GOMES, D.</a></b>. Estatística aplicada à microbiologia: noções em R. 2017. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="186">BUTTURI-GOMES, D.</a></b>. Estatística aplicada à microbiologia: noções em R. 2016. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="187">BUTTURI-GOMES, D.</a></b>. Bioestatística. 2011. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="188">BUTTURI-GOMES, D.</a></b>. Tópicos em Ecologia Estatística. 2011. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="189">BUTTURI-GOMES, D.</a></b>; ALVES, F. D. . Anais do 1º Simpósio de Pós-Graduação em Geografia do Estado de São Paulo. 2008. (Editoração/Anais). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="190">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="191"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, E. B.; BEHRENS, J. H.; SILVA, W. R.; <b>DAVI, BUTTURI-GOMES</b>.  Participação em banca de Daiana Barbosa Mequelino. EMOÇÕES E LEMBRANÇAS ASSOCIADAS AO CONSUMO DE CAFÉ EM AMBIENTES EVOCADOS VIA INTERNET. 2022. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AVELAR, FABRICIO GOECKING; REIS, C. J.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Valdeline de Paula Mequelino Ferreira. Previsão da temperatura máxima de Lavras-MG: comparação da normal climatológica com a teoria de valores extremos. 2022. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DAVI, BUTTURI-GOMES</b>; OLIVEIRA, I. R. C.; FERREIRA, E. B.; DELFINO, A. C. S..  Participação em banca de Marcos Vilela Garcia. MODELO MULTINOMIAL, INFERÊNCIA MULTIMODELO E VALIDAÇÃO CRUZADA: UMA APLICAÇÃO. 2022. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GIACOMINI, HENRIQUE C.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9377772041367252" target="_blank" tabindex="192">PETRERE JÚNIOR, M.</a>; FERREIRA, F. C.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Laura Roberta Sarmento de Barros. AS CONCHAS DA PRAIA DE SANTOS (BRASIL): RIQUEZA, ABUNDÂNCIA, DIVERSIDADE E OS IMPACTOS DEVIDO ÀS LIMPEZAS PERIÓDICAS MANUAIS E MECÂNICAS. 2021. Dissertação (Mestrado em Sustentabilidade de Ecossistemas Costeiros e Marinhos) - Universidade Santa Cecília. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTTURI-GOMES, DAVI</b>; GARRONE NETO, D.; FONSECA, G. F. C.; FERREIRA, F. C..  Participação em banca de Cristal Coelho Gomes. Modelos de abundância e distribuição espacial no estudo de populações de peixes de riacho. 2019. Dissertação (Mestrado em Biodiversidade Marinha e Costeira) - Universidade Federal de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DELFINO, A. C. S.; MALACARNE, A.; <b>BUTTURI-GOMES, D.</b>; RODRIGUES, L. L. M..  Participação em banca de Lilian Flaviane de Deus. A contribuição dos jogos no ensino e aprendizagem de probabilidade. 2018. Dissertação (Mestrado em Programa de Mestrado Profissional em Matemática em Rede Nacional) - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NOGUEIRA, D. A.; FERREIRA, E. B.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Isabella Marianne Costa Campos. Comparação de testes sobre estruturas de covariância de populações normais. 2018. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, E. B.; OLIVEIRA, M. S.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Cássia de Souza Santos. Análise sequencial e o Ajuste de Mapas de Preferência. 2018. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BEIJO, L. A.; NOGUEIRA, D. A.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Gisele Carolina Almeida. Uma abordagem bayesiana para a modelagem dos ventos máximos em Sorocaba-SP e Bauru-SP. 2018. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, E. B.; BEHRENS, J. H.; SILVA, W. R.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Daiana Barbosa Mequelino. EMOÇÕES E LEMBRANÇAS ASSOCIADAS AO CONSUMO DE CAFÉ EM AMBIENTES EVOCADOS VIA INTERNET. 2022. Exame de qualificação (Mestrando em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTTURI-GOMES, D.</b>; OLIVEIRA, I. R. C.; FONSECA, N. M. S..  Participação em banca de Marcos Vilela Garcia. UMA APLICAÇÃO DO MODELO MULTINOMIAL: INFERÊNCIA MULTIMODELO E VALIDAÇÃO CRUZADA. 2021. Exame de qualificação (Mestrando em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AVELAR, F. G.; <b>BUTTURI-GOMES, D.</b>; LISKA, G. R..  Participação em banca de Nalva Aparecida Martins Batista. MOMENTOS-L NA ESTIMAÇÃO DOS PARÂMETROS DA DISTRIBUIÇÃO GENERALIZADA DE VALORES EXTREMOS. 2020. Exame de qualificação (Mestrando em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, E. B.; OLIVEIRA, M. S.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Cássia de Souza Santos. Análise sequencial e o Ajuste de Mapas de Preferência. 2018. Exame de qualificação (Mestrando em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, E. B.; DIAS, A.; <b>BUTTURI-GOMES, DAVI</b>.  Participação em banca de Tatiane Gomes de Araújo. Testes Monte Carlo para autovalores na verificação de consenso multivariado em painéis sensoriais. 2018. Exame de qualificação (Mestrando em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NOGUEIRA, D. A.; FERREIRA, E. B.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Isabella Marianne Costa Campos. Desempenho de testes para comparação de estruturas de matrizes de covariância. 2017. Exame de qualificação (Mestrando em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BEIJO, L. A.; <b>BUTTURI-GOMES, DAVI</b>; MARQUES, R. A. G.; MARCHON, C. H..  Participação em banca de Pablo Cescon Portes. Modelagem bayesiana dos níveis máximos de IPCA. 2016. Exame de qualificação (Mestrando em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, D. C. R.; <b>BUTTURI-GOMES, D.</b>; PEREIRA, R. B. D..  Participação em banca de Wellerson Filipe Barbosa Queiroz.Avaliação da satisfação dos clientes de uma unidade da maior franquia de sorvetes do Brasil: Uma adaptação do modelo SERVPERF.
+							2021. Trabalho de Conclusão de Curso (Graduação em Engenharia de Produção)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTTURI-GOMES, DAVI</b>; DELFINO, A. C. S..  Participação em banca de Graciene Ferreira de França.ESTATÍSTICA APLICADA À CLIMATOLOGIA: UMA CARACTERIZAÇÃO DOS VERANICOS NO MUNICÍPIO DE TRIUNFO-PE.
+							2019. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALERIO, V. P.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Juliana da Silva Teruel.Contando Raízes.
+							2018. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTTURI-GOMES, D.</b>; ROCHA, R. C..  Participação em banca de Benedito Monteiro Neto.Funções Logarítmica e Exponencial: aplicações à Estatística.
+							2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTTURI-GOMES, D.</b>; OLIVEIRA, M. S.; ROCHA, R. C..  Participação em banca de Romário Pires.Análise do desempenho preditivo da distribuição generalizado de valor extremo para dados de contagem: um estudo de caso.
+							2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTTURI-GOMES, DAVI</b>; VALERIO, V. P..  Participação em banca de Eric Buba.Estatística aplicada à climatologia: uma caracterização dos veranicos no município Itapetim-PE.
+							2018. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENEZES, S. V. L. R.; <b>BUTTURI-GOMES, D.</b>.  Participação em banca de Marçal Quintino Ferreira.Da queda livre às órbitas planetárias.
+							2017. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DELFINO, A. C. S.; <b>BUTTURI-GOMES, D.</b>; NAPOLITANO, F..  Participação em banca de Ana Cláudia de Paiva.Análise de superífice de resposta em um experimento de fresamento por interpolação helicoidal.
+							2017. Trabalho de Conclusão de Curso (Graduação em Engenharia de Produção)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, R. C.; <b>BUTTURI-GOMES, D.</b>; GIAROLA, L. T. P..  Participação em banca de Denise de Assis Paiva.Análise das séries de índices de violência contra a mulher na região de São João del-Rei.
+							2017. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTTURI-GOMES, D.</b>; DELFINO, A. C. S..  Participação em banca de Ioná Mendes Niz.Os Teoremas de Pitágoras e de Bayes: uma perspectiva histórica e aplicações.
+							2017. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="193"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMPOS, P. M.; GIAROLA, L. T. P.; <b>BUTTURI-GOMES, DAVI</b>. CPD Nº055 - PROCESSO SELETIVO SIMPLIFICADO PARA CONTRATAÇÃO DE PROFESSOR SUBSTITUTO.
+							2019. Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="194">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="195"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7º CONGRESSO DE PESQUISA E EXTENSÃO do Centro Universitário Presidente Tancredo de Almeida Neves. 2022. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Reunião Mineira de Matemática.Inferência Multimodelo: um estudo de caso na dispersão larval de caranguejos. 2021. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Encontro Nacional de Pós-graduação.
+							2020. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">First Conference on Statistics and Data Science.Performance of diagnostics measures using INLA: a simulation study for count regression. 2018. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I WPROFMAT.Primeiros passos no software R. 2018. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">62ª Reunião Anual da RBras e 17º SEAGRO. Desempenho da distribuição GEV para extremos de contagem com superdispersão. 2017. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Simpósio de Microbiologia Aplicada.
+							2017. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2nd International Conference on Agriculture and Biological Sciencesces. Reviewer of ABS2016. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Encontro Mineiro de Estatística.Performance evaluation of different genotypes of Eucalyptus for pulp and paper production.
+							2016. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">How to Write for and Get Published in Scientific Journals (Workshop). 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">59ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Assimetria e curtose em modelos não-lineares generalizados: estudos de simulação envolvendo os preditores para o teste de Salmonella/microssoma. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop on Experimental Statistics e IV Encontro dos Alunos do PPg em Agronomia (Estatística e Experimentação Agronômica).Um estudo de simulação sobre como a escolha da função de variância afeta a assimetria e a curtose das distribuições amostrais dos estimadores em modelos não-lineares generalizados.
+							2014. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro dos Alunos do Programa de Pós-Graduação em Estatística e Experimentação Agronômica.Métodos estatísticos aplicados ao teste de Salmonella/microssoma no contexto dos modelos não lineares generalizados.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">57ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras).A utilização de modelos multinomiais na Ecotoxicologia: ajuste aos dados preliminares do ensaio do cometa em Girardia tigrina. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">19º SIICUSP - Simpósio Internacional de Iniciação Científica da USP.Avaliador de pôsteres.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro do PROCAD/NF e I Encontro dos Alunos do PPGEEA/ESALQ/USP.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Workshop e I Simpósio de Ecotoxicologia.Mini-Curso: "Bioestatística".
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Congresso Brasileiro de Ecotoxicologia. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Congresso Brasileiro de Toxicologia. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Semana de Estudos da Ecologia. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">52º Congresso Brasileiro de Genética. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop de Ecotoxicologia. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simposio da Biologia Vegetal - Ed 2006.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Semana de Estudos da Ecologia. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Semana da Biologia Marinha e do Gerenciamento Costeiro. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Congresso de Ecologia do Brasil. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Semana de Estudos da Ecologia. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="196"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="197">BUTTURI-GOMES, D.</a></b>. III Workshop de Ecotoxicologia. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0326922176762825" target="_blank" tabindex="198">BUTTURI-GOMES, D.</a></b>. II Workshop de Ecotoxicologia. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="199">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="200"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andréia do Carmo de Oliveira. Desempenho da Mistura de Distribuições a Priori na Predição de Veranicos Discretos Máximos.
+						Início: 2021.
+						Dissertação (Mestrado em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Campos. Análise de fatores ambientais sobre a produtividade de sistemas agrícolas convencionais e agroecológicos familiares no sul do entorno do Parque Nacional da Chapada Diamantina, Bahia, Brasil.
+						Início: 2022. Tese (Doutorado em DOUTORADO EM CIÊNCIAS AMBIENTAIS)  - Universidade Santa Cecília, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="201"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcos Vilela Garcia. MODELO MULTINOMIAL, INFERÊNCIA MULTIMODELO E VALIDAÇÃO CRUZADA: UMA APLICAÇÃO.
+							2022.
+						
+					Dissertação  (Mestrado em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas, . Orientador: Davi Butturi Gomes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/3727908182662003" tabindex="202"><img src="images/curriculo/logolattes.gif"></a>Laura Roberta Sarmento de Barros. AS CONCHAS DA PRAIA DE SANTOS (BRASIL): RIQUEZA, ABUNDÂNCIA, DIVERSIDADE E OS IMPACTOS DEVIDO ÀS LIMPEZAS PERIÓDICAS MANUAIS E MECÂNICAS.
+							2021.
+						
+					Dissertação  (Mestrado em Sustentabilidade de Ecossistemas Costeiros e Marinhos)  - Universidade Santa Cecília, . Orientador: Davi Butturi Gomes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Claudiana Goulart dos Reis. Espacialização da probabilidade de ocorrência de veranicos em municípios de MG: uma abordagem Bayesiana.
+							2020.
+						
+					Dissertação  (Mestrado em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. Coorientador: Davi Butturi Gomes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Otávio de Oliveira Pala. Revisitando a estimação do Coeficiente de Determinação.
+							2019.
+						
+					Dissertação  (Mestrado em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas, . Coorientador: Davi Butturi Gomes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thaís Brenda Martins. Análise dos máximos de risco de mercado via Inferência Bayesiana.
+							2018.
+						
+					Dissertação  (Mestrado em Estatística Aplicada e Biometria)  - Universidade Federal de Alfenas, . Coorientador: Davi Butturi Gomes. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Graciene Ferreira de França.
+							ESTATÍSTICA APLICADA À CLIMATOLOGIA: UMA CARACTERIZAÇÃO DOS VERANICOS NO MUNICÍPIO DE TRIUNFO-PE.
+							2019.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. Orientador: Davi Butturi Gomes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Benedito Monteiro Neto.
+							Funções Logarítmica e Exponencial: aplicações à Estatística.
+							2018.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. Orientador: Davi Butturi Gomes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eric Buba.
+							Estatística aplicada à climatologia: uma caracterização dos veranicos no município Itapetim-PE.
+							2018.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. Orientador: Davi Butturi Gomes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Romário Pires.
+							Análise do desempenho preditivo da distribuição generalizado de valor extremo para dados de contagem: um estudo de caso.
+							2018.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. Orientador: Davi Butturi Gomes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ioná Mendes Niz.
+							Os Teoremas de Pitágoras e de Bayes: uma perspectiva histórica e aplicações.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Federal de São João Del-Rei. Orientador: Davi Butturi Gomes.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcus Paulo Vargas de Oliveira.
+							Análise da previsão de demanda da produção brasileira de aço bruto com auxílio de ferramentas estatísticas.
+							2021.
+							Iniciação Científica. (Graduando em Engenharia de Produção)  - Universidade Federal de São João Del-Rei,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Davi Butturi Gomes.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 18/03/2023 às 9:54:20</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0326922176762825" target="_blank" class="button" tabindex="203"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="204"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="205">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="14">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="15">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa" tabindex="18">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial" tabindex="19">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico" tabindex="20">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="21">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="23">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosEnsino" tabindex="24">Projetos de ensino</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="26">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="27">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="28">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="29">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="30">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="31">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="32">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="34">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="35">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="36">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="37">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="38">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="39">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="40">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="41">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="42">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="44">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="46">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="47">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="48">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="49">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="50">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="51">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="52">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="53">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="54">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="55">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="56">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="57">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos" tabindex="59">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos" tabindex="60">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas" tabindex="62">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento" tabindex="63">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="65">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="66">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4283048E6&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="68">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

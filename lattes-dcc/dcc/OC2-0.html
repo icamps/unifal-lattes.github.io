@@ -1,0 +1,275 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2005,
+1],
+[2006,
+1],
+[2007,
+2],
+[2008,
+4],
+[2009,
+3],
+[2010,
+1],
+[2013,
+1],
+[2014,
+4],
+[2015,
+4],
+[2016,
+5],
+[2017,
+6],
+[2018,
+5],
+[2019,
+1],
+[2020,
+4],
+[2021,
+3],
+[2022,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 48<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6130342702026486">Adriana Alves de Oliveira</a>. <b>ANÁLISE DE CERTIFICAÇÕES ISO 13485 NOS PAÍSES DO CONTINENTE AMERICANO</b>. Dissertação (Mestrado em Biotecnologia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1708803444746662">Igor Caetano Silva</a>. <b>ANÁLISE E APERFEIÇOAMENTO DE MODELOS INTELIGENTES PARA DETECÇÃO DE LÂMPADAS DE ILUMINAÇÃO PÚBLICA</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Maira Fernanda Alves Bueno. <b>ESTUDO DE CASO: GESTÃO DE DESENVOLVIMENTO DE NOVOS PRODUTOS COSMÉTICOS EM UMA EMPRESA DE PEQUENO PORTE</b>. Dissertação (Mestrado em BIOTECNOLOGIA) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5306403222607471">Franciely Aparecida Lopes</a>. <b>Caracterização do licenciamento ambiental em Minas Gerais e os reflexos da utilização dos critérios locacionais</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7050520712371006">Frederico Augusto Massote Bonifácio</a>. <b>Licenciamento Ambiental Municipal em Minas Gerais: uma análise da Região Sul do Estado</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4305060187776235">Pablo José Freitas</a>. <b>Viabilidade econômica e análise de risco dos sistemas de produção de leite a pasto e compost barn no sul de Minas Gerais</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Economia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>José Ricardo Miotto Gabrielli. <b>Avaliação da sustentabilidade sócioeconômica e ambiental em propriedades rurais de Minas Gerais pelo método ISA</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Economia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0723630735882349">Luciano Ribeiro Rodrigues</a>. <b>Autuações ambientais lavradas pela Polícia de Meio Ambiente no Sul de Minas Gerais</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0782155054675081">Rodolfo Cabral Marcelino</a>. <b>Desenho de fármacos in silico para marcadores moleculares em alvos de SARS-Cov-2.</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3762147809473636">Sergio Nunes Ludovico</a>. <b>PREVISÃO DE INDICADORES DIÁRIOS DE PREÇOS NO MERCADO FUTURO DE COMMODITIES AGRÍCOLAS UTILIZANDO APRENDIZAGEM DE MÁQUINA</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3509177477960858">José Borges de Carvalho</a>. <b>Rede de cooperativas e associações de catadores de materiais recicláveis como organização no tratamento de resíduos sólidos urbanos</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1772752279137976">Daniella Rita de Carvalho Souza</a>. <b>Identificação das práticas sustentáveis em empresas alimentícias</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Janaína de Fátima Corsini. <b>Bioinformática Estrutural Aplicada ao Desenho de Fármacos aos Marcadores Apoptóticos BIRC7, MDM2, TP53, Identificados em Vários Tipos de Câncer.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8132001904822730">Luís Gustavo Gutierrez Gebin</a>. <b>ABORDAGENS INTELIGENTES PARA ESTIMAR A PRODUÇÃO DE ENERGIA EÓLICA</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9838312181366102">Saulo Rocha Leite</a>. <b>Estudo sobre a viabilidade econômica para implantação de uma unidade sustentável de coleta e separação de resíduos sólidos</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8314891642965637">Victor Silveira Gomes</a>. <b>MODELOS BASEADOS EM APRENDIZADO DE MÁQUINA PARA GERAÇÃO DE SÉRIES SINTÉTICAS DO SETOR ELÉTRICO</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2293564491200582">Aline Aparecida Silva Pereira</a>. <b>Índice de sustentabilidade na atividade mineral</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1523666921740772">Allyson de Freitas</a>. <b>Seleção de fornecedores verdes na cadeia de Suprimentos: estudo de caso com decisão multicriterial</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8188353615194095">Augusto Duarte Alvarenga</a>. <b>Aplicação do método de tomada de decisão na gestão integrada de resíduos sólidos urbanos</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8940440883936877">Claudio Vieira Castro</a>. <b>Impactos socioambientais do Programa Certifica Minas Café em lavouras cafeeiras do Sul de Minas Gerais</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Jurandir Alves Cunha. <b>Magnetismo Virtual: um Sistema Virtual que Auxilie os Professores no Ensino de Magnetismo</b>. Dissertação (Mestrado em Ensino de Física) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7912902709071655">Tatiane Cristine dutra</a>. <b>Desenvolvimento de um modelo de simulação para análise de risco e viabilidade econômica da cafeicultura mineira</b>. Dissertação (Mestrado em GESTÃO PÚBLICA E SOCIEDADE) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9263324208592908">Bethânia Oliveira de Brito</a>. <b>Modelagem Inteligente para Análise de Séries de Vazões Afluentes</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8218586415327244">Icaro Alves Pinto</a>. <b>Identificação in silico de inibidores da via Wnt canônica em células de adenocarcinoma mamário humano triplo-negativo.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Janaina Mara de Assis Dias. <b>Avaliação da Sustentabilidade de países em nível mundial</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Pablo Ferreira das Chagas. <b>Análise da expressão de RNAs não codificantes Longos T-UCRs em Câncer.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3434371171169198">Suzana Eda Hikichi</a>. <b>Análise da difusão da emissão de certificações ISO 14001 nos países do continente Americano</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, UNIFAL-MG. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6951686123297861">Anézio Eugênio de Faria Junior</a>. <b>O impacto da expansão da Unifal-MG na economia de Alfenas, Minas Gerais.</b>. Dissertação (Mestrado em GESTÃO PÚBLICA E SOCIEDADE) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4822662006342502">Diene Eiry da Silva</a>. <b>Estudo de alternativas para geração de renda e preservação ambiental em pequenas propriedades rurais</b>. Dissertação (Mestrado em Desenvolvimento e Tecnologias Sociais) - Universidade Federal de Itajubá, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7213939581780258">Fábio de Oliveira Neves</a>. <b>Análise do Sistema de Gestão Ambiental (ISO 14001) no continente americano</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Tuanan da Costa Lourenço. <b>Simulação computacional de líquidos iônicos de interesse em tecnologia limpa.</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6847033932450068">Janael da Silva Alves</a>. <b>Influência de um time de futebol em uma economia local: investimentos públicos e a percepção da população.</b>. Dissertação (Mestrado em GESTÃO PÚBLICA E SOCIEDADE) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mateus Neves Barreto. <b>Modelagem para Previsão da Curva de Carga Crítica</b>. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Tatiane Costa Leite. <b>Análise dos fatores determinantes para o sucesso no lançamento de produtos de empresas de base tecnológica: comparação entre o sucesso e o fracasso no lançamento do primeiro e do segundo produto</b>. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Itajubá, . 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4831979408534465">Thiago Castilho</a>. <b>Estudo Computacional de Doenças Negligenciadas e Interação com Drogas.</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Edgar Fonseca Franco Júnior. <b>Análise de Entradas Para Modelos de Previsão de Carga Elétrica</b>. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Jean Douglas Moura dos Santos. <b>CONFIABILIDADE INTER E INTRAVALIADORES NA MENSURAÇÃO ANGULAR GONIOMETRICA E FOTOGRAMETRIA DIGITAL</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3324028422133616">Alex Trindade Barbosa</a>. <b>Avaliação da assistência estudantil na UNIFAL-MG no período de 2009 a 2014</b>. Dissertação (Mestrado em GESTÃO PÚBLICA E SOCIEDADE) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Daiane Nascimento Alves. <b>ESTUDO DA QUALIDADE DE VIDA E DO COMPORTAMENTO DO SISTEMA NERVOSO AUTÔNOMO EM PACIENTES OBESOS MÓRBIDOS SUBMETIDOS À CIRURGIA BARIÁTRICA</b>. Dissertação (Mestrado em Bioengenharia) - Universidade de Vale do Paraíba, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Heberton Campos Neves Vieira de Souza. <b>Falhas inevitáveis no arranjo geométrico durante o remodelamento ósseo que determinam uma perda óssea irreversível : um estudo por simulações Monte Carlo</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2009.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2683038816412183">Antônio Marcos Rodrigues e Silva</a>. <b>Análise do ensino de Teoria Econômica nos cursos de Engenharia de Produção em seus aspectos curriculares</b>. Dissertação (Mestrado em Mestrado em Engenahria de Produção) - Universidade Federal de Itajubá, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ariane Hidalgo Mansano Pletsch. <b>Estudo comparativo da modulação autonômica da frequência cardíaca em repouso de idodos hipertensos, diabéticos e saudáveis</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Giovani Arnaldo Pacetti. <b>ANÁLISE DO COMPORTAMENTO DO SISTEMA NERVOSO AUTÔNOMO DE ALUNOS DO CURSO DE FORMAÇÃO EM CONTROLE DE TRÁFEGO AÉREO DURANTE A PRÁTICA SIMULADA DE NÃO RADAR</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade de Vale do Paraíba, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Juliana Leal Ribeiro Cantalino. <b>Estudo do Efeito da Mobilização Craniana Sobre O Sistema Nervoso Autônomo Através Da Variabilidade Da Frequência Cardíaca,</b>. Dissertação (Mestrado em Engenharia Biomédica) - Universidade do Vale do Paraíba, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aneirson Francisco da Silva. <b>Utilização da programação multiobjetiva para gestão de custos em um usina sucroalcooleira</b>. Dissertação (Mestrado em Mestrado em Engenharia de Produção) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fernanda Cristina Corrêa. <b>Desenvolvimento de instrumentação inteligente para escoamento bifásico óleo-gás.</b>. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Estadual de Campinas, Petrobras - Petróleo Brasileiro S/A. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Lívio Agnew Bacci. <b>Combinação de métodos de séries temporais para previsão da demanda interna de café no Brasil</b>. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3618093901290179">Kascilene Gonçalves Machado</a>. <b>Análise do desempenho dos fundos de renda fixa e referenciado DI no período de 2005 a 2007</b>. Dissertação (Mestrado em Mestrado em Engenharia de Produção) - Universidade Federal de Itajubá, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 10:47:01<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

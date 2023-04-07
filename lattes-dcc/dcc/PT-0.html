@@ -1,0 +1,325 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de produção técnica'}, 
+series: [{data: [[2000,
+1],
+[2001,
+2],
+[2002,
+3],
+[2003,
+6],
+[2004,
+1],
+[2005,
+5],
+[2006,
+7],
+[2007,
+10],
+[2008,
+5],
+[2009,
+5],
+[2010,
+1],
+[2011,
+2],
+[2012,
+3],
+[2013,
+8],
+[2014,
+5],
+[2016,
+1],
+[2017,
+1],
+[2018,
+2],
+[2020,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de produção técnica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 70<br>
+                    
+                    
+                    <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Economista dá dicas sobre gastos durante a pandemia no EPTV 1. 2020. (Programa de rádio ou</b>. 2020.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Economista+dá+dicas+sobre+gastos+durante+a+pandemia+no+EPTV+1.+2020.+(Programa+de+rádio+ou">busca Google</a> |            <a href="http://www.bing.com/search?q=Economista+dá+dicas+sobre+gastos+durante+a+pandemia+no+EPTV+1.+2020.+(Programa+de+rádio+ou">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, Eduardo G. <b>ISO 9001:2015 Aplicações em farmácias e laboratórios</b>. 2018. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=ISO+9001:2015+Aplicações+em+farmácias+e+laboratórios">busca Google</a> |            <a href="http://www.bing.com/search?q=ISO+9001:2015+Aplicações+em+farmácias+e+laboratórios">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Silveira, NJF. <b>Parecerista dos Cursos de Ciência da Computação</b>. 2018. Avaliação Guia do Estudante<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+dos+Cursos+de+Ciência+da+Computação">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+dos+Cursos+de+Ciência+da+Computação">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, Eduardo Gomes. <b>ISO 9001:2015 Aplicações em farmácias e laboratórios</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=ISO+9001:2015+Aplicações+em+farmácias+e+laboratórios">busca Google</a> |            <a href="http://www.bing.com/search?q=ISO+9001:2015+Aplicações+em+farmácias+e+laboratórios">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MARTINEZ, M. R. ; SALGADO, Eduardo Gomes. <b>Gestão de projetos: premissas e aplicações do PMBOK</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Gestão+de+projetos:+premissas+e+aplicações+do+PMBOK">busca Google</a> |            <a href="http://www.bing.com/search?q=Gestão+de+projetos:+premissas+e+aplicações+do+PMBOK">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Marcelo Lacerda Rezende. 2014; Tema: Aulas de Economia. (Rede</b>. 2014.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Marcelo+Lacerda+Rezende.+2014;+Tema:+Aulas+de+Economia.+(Rede">busca Google</a> |            <a href="http://www.bing.com/search?q=Marcelo+Lacerda+Rezende.+2014;+Tema:+Aulas+de+Economia.+(Rede">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>A Curva de Possibilidade de produção</b>. 2014. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=A+Curva+de+Possibilidade+de+produção">busca Google</a> |            <a href="http://www.bing.com/search?q=A+Curva+de+Possibilidade+de+produção">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Taxa de câmbio, importação e exportação</b>. 2014. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Taxa+de+câmbio,+importação+e+exportação">busca Google</a> |            <a href="http://www.bing.com/search?q=Taxa+de+câmbio,+importação+e+exportação">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Mercado de Bens e Serviços</b>. 2014. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mercado+de+Bens+e+Serviços">busca Google</a> |            <a href="http://www.bing.com/search?q=Mercado+de+Bens+e+Serviços">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Governo e Política Pública</b>. 2014. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Governo+e+Política+Pública">busca Google</a> |            <a href="http://www.bing.com/search?q=Governo+e+Política+Pública">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Investimento em Alta Frequência. 2013; Tema: High-Frequency</b>. 2013.Blog<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Investimento+em+Alta+Frequência.+2013;+Tema:+High-Frequency">busca Google</a> |            <a href="http://www.bing.com/search?q=Investimento+em+Alta+Frequência.+2013;+Tema:+High-Frequency">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Oferta e demanda</b>. 2013. Desenvolvimento de material didático ou instrucional - Videoaula<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Oferta+e+demanda">busca Google</a> |            <a href="http://www.bing.com/search?q=Oferta+e+demanda">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Teoria Monetária</b>. 2013. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Teoria+Monetária">busca Google</a> |            <a href="http://www.bing.com/search?q=Teoria+Monetária">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Estruturas de mercado</b>. 2013. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Estruturas+de+mercado">busca Google</a> |            <a href="http://www.bing.com/search?q=Estruturas+de+mercado">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Inflação</b>. 2013. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Inflação">busca Google</a> |            <a href="http://www.bing.com/search?q=Inflação">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Economia a dois fatores: famílias e empresas</b>. 2013. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Economia+a+dois+fatores:+famílias+e+empresas">busca Google</a> |            <a href="http://www.bing.com/search?q=Economia+a+dois+fatores:+famílias+e+empresas">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Introdução à Economia</b>. 2013. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+à+Economia">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+à+Economia">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SANT' ANA, T. D. <b>Boas Práticas em EAD</b>. 2013. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Boas+Práticas+em+EAD">busca Google</a> |            <a href="http://www.bing.com/search?q=Boas+Práticas+em+EAD">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Blog do Prof. Humberto Brandão. 2012; Tema: Inovação</b>. 2012.Blog<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Blog+do+Prof.+Humberto+Brandão.+2012;+Tema:+Inovação">busca Google</a> |            <a href="http://www.bing.com/search?q=Blog+do+Prof.+Humberto+Brandão.+2012;+Tema:+Inovação">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Home do Prof. Humberto Brandão. 2012; Tema:</b>. 2012.Site<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Home+do+Prof.+Humberto+Brandão.+2012;+Tema:">busca Google</a> |            <a href="http://www.bing.com/search?q=Home+do+Prof.+Humberto+Brandão.+2012;+Tema:">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Algoritmos em Grafos</b>. 2012. Desenvolvimento de material didático ou instrucional - Disciplina de graduação em vídeo aulas<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Algoritmos+em+Grafos">busca Google</a> |            <a href="http://www.bing.com/search?q=Algoritmos+em+Grafos">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>O comércio que virou lazer. 2011. (Programa de rádio ou</b>. 2011.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=O+comércio+que+virou+lazer.+2011.+(Programa+de+rádio+ou">busca Google</a> |            <a href="http://www.bing.com/search?q=O+comércio+que+virou+lazer.+2011.+(Programa+de+rádio+ou">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>A atração das feiras: pesquisa mostra que o comércio ao ar livre agrega consumo, cultura e confraternização. 2011. (Programa de rádio ou</b>. 2011.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=A+atração+das+feiras:+pesquisa+mostra+que+o+comércio+ao+ar+livre+agrega+consumo,+cultura+e+confraternização.+2011.+(Programa+de+rádio+ou">busca Google</a> |            <a href="http://www.bing.com/search?q=A+atração+das+feiras:+pesquisa+mostra+que+o+comércio+ao+ar+livre+agrega+consumo,+cultura+e+confraternização.+2011.+(Programa+de+rádio+ou">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Revisão de Artigos: Simpósio Brasileiro de Pesquisa Operacional</b>. 2010. Revisão de Artigos<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Revisão+de+Artigos:+Simpósio+Brasileiro+de+Pesquisa+Operacional">busca Google</a> |            <a href="http://www.bing.com/search?q=Revisão+de+Artigos:+Simpósio+Brasileiro+de+Pesquisa+Operacional">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GONZAGA, F. B. <b>Configurando um Servidor Proxy no Linux usando o Squid</b>. 2009. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Configurando+um+Servidor+Proxy+no+Linux+usando+o+Squid">busca Google</a> |            <a href="http://www.bing.com/search?q=Configurando+um+Servidor+Proxy+no+Linux+usando+o+Squid">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>CAPES/UAB/UNIFAL-MG - Plano de trabalho anual para a oferta de cursos a distância em 2010</b>. 2009.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2010">busca Google</a> |            <a href="http://www.bing.com/search?q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2010">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>CAPES/UAB/UNIFAL-MG - Plano de trabalho anual para a oferta de cursos a distância em 2009</b>. 2009.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2009">busca Google</a> |            <a href="http://www.bing.com/search?q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2009">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>REZENDE, Marcelo Lacerda; AZEVEDO, L. ; REZENDE, E. G.. <b>Organização local e hábitos de consumo: estudo das feiras livres da região sul de Minas Gerais</b>. 2009. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Organização+local+e+hábitos+de+consumo:+estudo+das+feiras+livres+da+região+sul+de+Minas+Gerais">busca Google</a> |            <a href="http://www.bing.com/search?q=Organização+local+e+hábitos+de+consumo:+estudo+das+feiras+livres+da+região+sul+de+Minas+Gerais">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>REZENDE, Marcelo Lacerda; REZENDE, E. G. ; HERNANDES, P. R.. <b>CAPES/UAB/UNIFAL-MG Plano Anual de Capacitação em EaD para a Unifal-MG - 2010</b>. 2009.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CAPES/UAB/UNIFAL-MG+Plano+Anual+de+Capacitação+em+EaD+para+a+Unifal-MG+-+2010">busca Google</a> |            <a href="http://www.bing.com/search?q=CAPES/UAB/UNIFAL-MG+Plano+Anual+de+Capacitação+em+EaD+para+a+Unifal-MG+-+2010">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANHA, E. A. ; MORENO, R. ; REZENDE, Marcelo Lacerda. <b>Plano de ação do programa de pré-incubação da UNIFEI - 2008</b>. 2008.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Plano+de+ação+do+programa+de+pré-incubação+da+UNIFEI+-+2008">busca Google</a> |            <a href="http://www.bing.com/search?q=Plano+de+ação+do+programa+de+pré-incubação+da+UNIFEI+-+2008">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Revisão de Artigos: Simpósio Brasileiro de Pesquisa Operacional</b>. 2008. Revisão de Artigos<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Revisão+de+Artigos:+Simpósio+Brasileiro+de+Pesquisa+Operacional">busca Google</a> |            <a href="http://www.bing.com/search?q=Revisão+de+Artigos:+Simpósio+Brasileiro+de+Pesquisa+Operacional">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SALGADO, E. G. <b>Curso de Formação de Auditores da Qualidade</b>. 2008. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Formação+de+Auditores+da+Qualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Formação+de+Auditores+da+Qualidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SALGADO, E. G. <b>Curso e Interpretação dos Requisitos da NBR ISO 9001:2000</b>. 2008. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+e+Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+e+Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SALGADO, R. M. <b>JAVA Básico</b>. 2008. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=JAVA+Básico">busca Google</a> |            <a href="http://www.bing.com/search?q=JAVA+Básico">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; MESQUITA, Rafael Vargas ; VASCONCELOS, Germano Crispim. <b>Um Arcabouço de Métodos Estatísticos para o Ajuste Paramétrico de Sistemas Estocásticos</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Um+Arcabouço+de+Métodos+Estatísticos+para+o+Ajuste+Paramétrico+de+Sistemas+Estocásticos">busca Google</a> |            <a href="http://www.bing.com/search?q=Um+Arcabouço+de+Métodos+Estatísticos+para+o+Ajuste+Paramétrico+de+Sistemas+Estocásticos">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SALGADO, E. G. <b>Auditoria da Qualidade baseado na NBR 17025:2005</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Auditoria+da+Qualidade+baseado+na+NBR+17025:2005">busca Google</a> |            <a href="http://www.bing.com/search?q=Auditoria+da+Qualidade+baseado+na+NBR+17025:2005">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SALGADO, E. G. <b>Interpretação dos Requisitos da NBR ISO 9001:2000. 2007</b>. 2007. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000.+2007">busca Google</a> |            <a href="http://www.bing.com/search?q=Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000.+2007">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SALGADO, E. G. <b>Formação de Auditores Internos da Qualidade. 2007</b>. 2007. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+de+Auditores+Internos+da+Qualidade.+2007">busca Google</a> |            <a href="http://www.bing.com/search?q=Formação+de+Auditores+Internos+da+Qualidade.+2007">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SALGADO, E. G. <b>Gestão de Projetos</b>. 2007. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Gestão+de+Projetos">busca Google</a> |            <a href="http://www.bing.com/search?q=Gestão+de+Projetos">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SALGADO, E. G. <b>Curso de Formação de Auditor da filosofia 5S</b>. 2007. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Formação+de+Auditor+da+filosofia+5S">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Formação+de+Auditor+da+filosofia+5S">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SALGADO, E. G. <b>Curso de Formação de Auditor da Qualidade</b>. 2007. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Formação+de+Auditor+da+Qualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Formação+de+Auditor+da+Qualidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SALGADO, E. G. <b>Curso de Formação de Auditores Internos da Qualidade</b>. 2007. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Formação+de+Auditores+Internos+da+Qualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Formação+de+Auditores+Internos+da+Qualidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SALGADO, E. G. <b>Curso de Interpretação dos Requisitos da NBR ISO 9001:2000</b>. 2007. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SALGADO, E. G. <b>Curso de Interpretação dos Requisitos da NBR ISO 9001:2000</b>. 2007. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Interpretação+dos+Requisitos+da+NBR+ISO+9001:2000">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>da Silveira, NJF. <b>Modelagem Estrutural de Proteínas</b>. 2006. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Modelagem+Estrutural+de+Proteínas">busca Google</a> |            <a href="http://www.bing.com/search?q=Modelagem+Estrutural+de+Proteínas">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>da Silveira, NJF. <b>Informática Biomédica: do paciente às metodologias computacionais</b>. 2006. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Informática+Biomédica:+do+paciente+às+metodologias+computacionais">busca Google</a> |            <a href="http://www.bing.com/search?q=Informática+Biomédica:+do+paciente+às+metodologias+computacionais">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; VENDRAMIN, L.. <b>Processo de Gerência de Configuração</b>. 2006.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Processo+de+Gerência+de+Configuração">busca Google</a> |            <a href="http://www.bing.com/search?q=Processo+de+Gerência+de+Configuração">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Determinação dos potenciais de crescimento econômico da região sul de Minas a partir da análise fatorial</b>. 2006. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Determinação+dos+potenciais+de+crescimento+econômico+da+região+sul+de+Minas+a+partir+da+análise+fatorial">busca Google</a> |            <a href="http://www.bing.com/search?q=Determinação+dos+potenciais+de+crescimento+econômico+da+região+sul+de+Minas+a+partir+da+análise+fatorial">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SALGADO, E. G. <b>Ação corretiva e preventiva. 2006</b>. 2006. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Ação+corretiva+e+preventiva.+2006">busca Google</a> |            <a href="http://www.bing.com/search?q=Ação+corretiva+e+preventiva.+2006">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SALGADO, E. G.; Silva, C. E. S.. <b>Gerenciamento de Projetos. 2006</b>. 2006. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Gerenciamento+de+Projetos.+2006">busca Google</a> |            <a href="http://www.bing.com/search?q=Gerenciamento+de+Projetos.+2006">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Silva, C. E. S. ; SALGADO, E. G.. <b>Gerenciamento de Projetos. 2006</b>. 2006. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Gerenciamento+de+Projetos.+2006">busca Google</a> |            <a href="http://www.bing.com/search?q=Gerenciamento+de+Projetos.+2006">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. G. <b>Estágio em Lean Manufacturing</b>. 2005.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Estágio+em+Lean+Manufacturing">busca Google</a> |            <a href="http://www.bing.com/search?q=Estágio+em+Lean+Manufacturing">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SALGADO, R. <b>M.. MATLAB Básico. 2005</b>. 2005. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=M..+MATLAB+Básico.+2005">busca Google</a> |            <a href="http://www.bing.com/search?q=M..+MATLAB+Básico.+2005">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SALGADO, R. <b>M.. Introdução ao MATLAB. 2005</b>. 2005. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=M..+Introdução+ao+MATLAB.+2005">busca Google</a> |            <a href="http://www.bing.com/search?q=M..+Introdução+ao+MATLAB.+2005">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SALGADO, R. M. <b>Sistemas Inteligentes Aplicados em Engenharia. 2005</b>. 2005. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Sistemas+Inteligentes+Aplicados+em+Engenharia.+2005">busca Google</a> |            <a href="http://www.bing.com/search?q=Sistemas+Inteligentes+Aplicados+em+Engenharia.+2005">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SALGADO, R. M. <b>Introdução ao Software MATLAB. 2005</b>. 2005. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+ao+Software+MATLAB.+2005">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+ao+Software+MATLAB.+2005">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. <b>G.. Estágio em Qualidade</b>. 2004.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=G..+Estágio+em+Qualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=G..+Estágio+em+Qualidade">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Introdução ao Mercado de Capitais e Mercados Futuros - UNIFEI - Universidade Federal de Itajubá</b>. 2003. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+ao+Mercado+de+Capitais+e+Mercados+Futuros+-+UNIFEI+-+Universidade+Federal+de+Itajubá">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+ao+Mercado+de+Capitais+e+Mercados+Futuros+-+UNIFEI+-+Universidade+Federal+de+Itajubá">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Fundamentos de Mercados Futuros e Opções. UNIFEI - Universidade Federal de Itajubá</b>. 2003. Desenvolvimento de material didático ou instrucional - Apostila para Curso de Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Fundamentos+de+Mercados+Futuros+e+Opções.+UNIFEI+-+Universidade+Federal+de+Itajubá">busca Google</a> |            <a href="http://www.bing.com/search?q=Fundamentos+de+Mercados+Futuros+e+Opções.+UNIFEI+-+Universidade+Federal+de+Itajubá">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SALGADO, E. <b>G.. Estágio em Qualidade</b>. 2003.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=G..+Estágio+em+Qualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=G..+Estágio+em+Qualidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SALGADO, R. <b>M.. MATLAB e Aplicações. 2003</b>. 2003. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=M..+MATLAB+e+Aplicações.+2003">busca Google</a> |            <a href="http://www.bing.com/search?q=M..+MATLAB+e+Aplicações.+2003">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SALGADO, R. M. <b>MATLAB e Aplicações</b>. 2003. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=MATLAB+e+Aplicações">busca Google</a> |            <a href="http://www.bing.com/search?q=MATLAB+e+Aplicações">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SANT' ANA, T. D. <b>Linux Avançado - Configuração</b>. 2003. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Linux+Avançado+-+Configuração">busca Google</a> |            <a href="http://www.bing.com/search?q=Linux+Avançado+-+Configuração">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Introdução ao Mercado de Capitais e Mercados Futuros - UNIFEI - Universidade Federal de Itajubá</b>. 2002. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+ao+Mercado+de+Capitais+e+Mercados+Futuros+-+UNIFEI+-+Universidade+Federal+de+Itajubá">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+ao+Mercado+de+Capitais+e+Mercados+Futuros+-+UNIFEI+-+Universidade+Federal+de+Itajubá">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Introdução ao Mercado de Capitais e Mercados Futuros - FAI - Faculdade de Administração e Informática</b>. 2002. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+ao+Mercado+de+Capitais+e+Mercados+Futuros+-+FAI+-+Faculdade+de+Administração+e+Informática">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+ao+Mercado+de+Capitais+e+Mercados+Futuros+-+FAI+-+Faculdade+de+Administração+e+Informática">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SALGADO, R. M. <b>Introdução ao MATLAB</b>. 2002. Desenvolvimento de material didático ou instrucional - Ensino de Software | Computação Científica<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+ao+MATLAB">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+ao+MATLAB">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, R. <b>M.; ALVES, Margareth da Silva . MATLAB e aplicações</b>. 2001.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=M.;+ALVES,+Margareth+da+Silva+.+MATLAB+e+aplicações">busca Google</a> |            <a href="http://www.bing.com/search?q=M.;+ALVES,+Margareth+da+Silva+.+MATLAB+e+aplicações">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SANT' ANA, T. D. <b>Desenvolvimento de Aplicações Delphi/Kilix</b>. 2001. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Desenvolvimento+de+Aplicações+Delphi/Kilix">busca Google</a> |            <a href="http://www.bing.com/search?q=Desenvolvimento+de+Aplicações+Delphi/Kilix">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SANT' ANA, T. D. <b>Programação Avançada em Delphi</b>. 2000. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Programação+Avançada+em+Delphi">busca Google</a> |            <a href="http://www.bing.com/search?q=Programação+Avançada+em+Delphi">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Silveira, NJF. Parecerista dos cursos de Ciência da Computação. <b>2017</b>. 0. Avaliação Guia do Estudante<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=2017">busca Google</a> |            <a href="http://www.bing.com/search?q=2017">busca Bing</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 10:47:01<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

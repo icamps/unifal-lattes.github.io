@@ -1,0 +1,345 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Estatística</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Estatística</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2005,
+1],
+[2006,
+3],
+[2007,
+7],
+[2008,
+9],
+[2009,
+1],
+[2010,
+3],
+[2013,
+6],
+[2014,
+4],
+[2015,
+4],
+[2016,
+6],
+[2017,
+5],
+[2018,
+10],
+[2019,
+8],
+[2020,
+6],
+[2021,
+3],
+[2022,
+7]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 83<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Resende Nogueira Reis. <b>Bebida vegetal fermentada à base de jabuticaba (Myrciaria cauliflora): uma estratégia para aliar tecnologia e fornecimento de bioativos no contexto da longevidade</b>. Dissertação (Mestrado em NUTRIÇÃO E LONGEVIDADE) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9443157788202585">DAIANA BARBOSA MEQUELINO</a>. <b>EMOÇÕES E LEMBRANÇAS ASSOCIADAS AO CONSUMO DE CAFÉ EM AMBIENTES EVOCADOS VIA INTERNET</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1377737274047962">Gabriel Baldasso</a>. <b>COMPORTAMENTO DO CONSUMIDOR BRASILEIRO DE ALIMENTOS NA PANDEMIA DE COVID-19: UM ESTUDO VIA MINERAÇÃO DE TEXTO</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8897773821703545">Giovani Festa Paludo</a>. <b>Estatística Aplicada à Vantagem de Casa no Futebol</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Marcos Teixeira Alves. <b>Inferência Bayesiana para os parâmetros de modelos de escolha</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Marcos Vilela Garcia. <b>MODELO MULTINOMIAL, INFERÊNCIA MULTIMODELO E VALIDAÇÃO CRUZADA: UMA APLICAÇÃO</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Rafaela da Silva Gomes. <b>Obesidade e rotulagem de alimentos com a utilização de regressões quantílicas: um estudo da macrorregião sul do estado de Minas Gerais</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3705381782937920">Matheus de Souza Costa</a>. <b>AVALIAÇÃO DE DIFERENTES PRIORIS NA ESTIMAÇÃO DOS PARÂMETROS DA DISTRIBUIÇÃO GEV E NA PREDIÇÃO DE QUANTIS EXTREMOS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0398043709289958">Sandra Valéria Coelho da Silva</a>. <b>ANÁLISE BAYESIANA DA PRECIPITAÇÃO MÁXIMA DE PETRÓPOLIS-RJ</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Yaciled Paola Miranda Lopez. <b>ANÁLISES BAYESIANA DA ABORDAGEM DE MODELOS MISTOS PARA UM ESTUDO CROSSOVER 2 × 2 COM MEDIDAS REPETIDAS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Pró-Reitoria de Pós-Graduação da UNIFAL-MG. 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8263948217533597">Claudiana Goulart dos Reis</a>. <b>Espacialização da probabilidade de ocorrência de veranicos extremos em regiões de Minas Gerais: uma abordagem Bayesiana</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3088917031121064">Iasmine Queiroga de Paula</a>. <b>Proposição de um teste para a detecção de fadiga sensorial</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Nalva Aparecida Martins Batista. <b>Momentos-L na estimação dos parâmetros da Distribuição Generalizada de Valores Extremos</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>, <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0324062698138486">RAFAELA DA SILVA GOMES</a>. <b>MODELAGEM DA OBESIDADE E FATORES RELACIONADOS À ROTULAGEM UTILIZANDO REGRESSÃO QUANTÍLICA INCONDICIONAL</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Saditt Rocio Robles Colonia. <b>Explorando a variação genética de características contínuas e binárias de bovinos leiteiros sob abordagem Bayesiana</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Sérgio Nunes Ludovico. <b>Previsão de indicadores diários de preços de Commodities Agrícolas utilizando Aprendizagem de Máquina</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alberto Frank Lázaro Aguirre. <b>Modelagem de temperatura máxima não estacionária de Piracicaba (SP): uma abordagem Bayesiana</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Pró-Reitoria de Pós-Graduação da UNIFAL-MG. 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2885714064854451">Ana Beatriz dos Anjos Cardoso</a>. <b>CAFÉ: EMOÇÕES, HÁBITOS, PREFERÊNCIAS, ASPECTOS SENSORIAIS E EXTRÍNSECOS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Dayana Alejandra Orozco Blanco. <b>TREINAMENTO DE PROVADORES NA ANÁLISE SENSORIAL DE CAFÉS ESPECIAIS E AVALIAÇÃO DAS PAPILAS GUSTATIVAS</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7567273289451194">Josiane dos Santos Alves</a>. <b>Otimização do tamanho amostral na análise da qualidade de sementes de soja: uma abordagem Bayesiana</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>, <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8432979041466377">Luiz Henrique Marra da Silva Ribeiro</a>. <b>Modelagem Bayesiana do número de emissões da ISO 9001 nos países do Continente Americano e nas regiões e estados brasileiros</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5770791208849986">Luiz Otávio de Oliveira Pala</a>. <b>Teste sequencial para o coeficiente de determinação baseado na distribuição Beta</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lídia Rodrigues Dionísio Oliveira. <b>INVESTIGAÇÃO DAS MOTIVAÇÕES INTRÍNSECAS NA APRENDIZAGEM DE FÍSICA NO ENSINO MÉDIO</b>. Dissertação (Mestrado em Mestrado Nacional Profissional em Ensino de Física ? MNPEF (ProFis)) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5886956823665889">Yaciled Paola Miranda Lopez</a>. <b>Abordagem bayesiana para um delineamento crossover 2×2 com medidas repetidas: um estudo de simulação e dados reais</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alex Trindade Barbosa. <b>Avaliação do programa nacional de assistência estudantil na Universidade Federal de Alfenas</b>. Dissertação (Mestrado em GESTÃO PÚBLICA E SOCIEDADE) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1063394358717854">Cássia de Souza Santos</a>. <b>Mapas de preferência sequenciais</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5957462549313265">Daiane de Oliveira Gonçalves</a>. <b>Modelos de sobrevida aplicados a dados de câncer</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>, <a href="http://lattes.cnpq.br/3374954104030940">Natalia da Silva Martins Fonseca</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5651723181683352">Gisele Carolina Almeida</a>. <b>Uma abordagem Bayesiana para a modelagem dos ventos extremos de Sorocaba-SP e Bauru-SP</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>, <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5121987889047234">Isabella Marianne Costa Campos</a>. <b>Comparação de testes sobre estruturas de covariância de populações normais</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Lara Barbosa da Silveira. <b>ORDENAÇÃO DA QUALIDADE DE PROCESSOS MULTIVARIADOS: UMA APLICAÇÃO EM LINHAS DE LEITE</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Luis Gustavo Gutierrez Gebin. <b>Abordagens inteligentes para estimar a produção de energia eólica</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9193053770723688">Tatiane Gomes de Araujo</a>. <b>Versão bootstrap de testes de autovalores para inferir sobre o consenso multivariado de painéis sensorais</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8098214758215178">Thaís Brenda Martins</a>. <b>Análise de máximos de risco Brasil e resseguros: uma abordagem Bayesiana</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Victor Silveira Gomes. <b>Modelagem Inteligente para Seleção de Variáveis e Classificação em Dados Relacionados a Saúde</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8629264032561327">Alberto Frank Lázaro Aguirre</a>. <b>Modelagem de valores extremos não estacionários: uma abordagem bayesiana</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Claudio Vieira Castro. <b>Impactos socioambientais em propriedades certificadas pelo Programa CERTIFICA MINAS CAFÉ</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Isabela Pagani Heringer de Miranda. <b>Análise de Painel aplicada a dados de fadiga muscular pacientes com e sem c?ancer tratados com enxergames</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>, <a href="http://lattes.cnpq.br/3374954104030940">Natalia da Silva Martins Fonseca</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Isabella Marianne Costa Campos. <b>Desempenho de testes para comparação de estruturas de matrizes de covariância</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0385508203904821">Pablo Cescon Portes</a>. <b>Modelagem Bayesiana dos índices máximos do índice de preços ao consumidor</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>, <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bethânia Oliveira de Brito. <b>Modelagem Inteligente para análise de séries de vazões e afluentes</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cristiane Costa da Fonseca Cintra. <b>Isoterma de adsorção de Langmuir com estruturas de erros autorregressivos regulares e irregulares</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>, <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Dialison Teixeira de Carvalho. <b>Abordagem Bayesiana da Isoterma de Langmuir</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7234726629069856">LAÍS BRAMBILLA STORTI FERREIRA</a>. <b>TESTE DE AUTOVALORES MONTE CARLO GENERALIZADO PARA DETECTAR UNIDIMENSIONALIDADE MULTIVARIADA EM PAINÉIS SENSORIAIS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9808310940421979">Adriana Dias</a>, <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7083340960201058">PÓRTYA PISCITELLI CAVALCANTI</a>. <b>PROPOSTA DE ALGORITMOS PARA AUMENTO DE DADOS VIA ARQUÉTIPOS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Roger dos Santos Nogueira. <b>Precisão e acurácia dos estimadores de máxima verossimilhança dos parâmetros da distribuição Gumbel não estacionária.</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>, <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bruna de Oliveira Gonçalves. <b>Teste de Student-Newman-keuls Bootstrap: proposta, avaliação e aplicação em dados de produtividade da graviola</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0237223107725054">Helen Maria Pedrosa de Oliveira</a>. <b>Comparação de testes para a igualdade de médias sob heterocedasticidade</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6395348780321180">Mariana Moreira Gonçalves Santos</a>. <b>Testes de hipóteses frequentista e bayesiano para a razão áurea via simulação Monte Carlo</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6886514520601172">Fabrício Goecking Avelar</a>, <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9647176058610268">Michelle Aparecida Corrêa</a>. <b>Distribuição Normal de Kumaraswamy bivariada</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, universidade federal de alfenas. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6505881046067958">JOSÉ MURILO CALIXTO VAZ</a>. <b>PROPORÇÃO ÁUREA EM MODELOS BIOLÓGICOS</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4157530204814295">Marcela Costa Rocha</a>. <b>Testes baseados em Correlação Canônica para avaliar a consonância de painéis sensoriais</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Mônica Maria de Jesus Silva. <b>AVALIAÇÃO DA ANSIEDADE E DEPRESSÃO NA GRAVIDEZ</b>. Dissertação (Mestrado em ENFERMAGEM) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Suzana Eda Hikichi. <b>Análise e difusão de certificações ISO14001 dos países do Continente Americano</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fábio de Oliveira Neves. <b>Caracterização e modelagem do Sistema de Gestão Ambiental (ISO 14001) no continente americando</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5912367932152735">José Márcio Martins Júnior</a>. <b>Análise de Arquétipos: introdução à teoria e aplicações</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Michelle Aparecida Corrêa. <b>Distribuição Normal de Kumaraswamy bivariada e aplicação</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2013.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7083340960201058">Pórtya Piscitelli Cavalcanti</a>. <b>Concentração de metais em um córrego urbano no município de Alfenas-MG: caracterização e modelagem bayesiana</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Rafael Lemos Bastos. <b>Inferência aplicada ao Índice de Qualidade Sensorial</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0475414808099577">Telma Lucas Franco Faria</a>. <b>Violência doméstica contra a mulher no município de Guaxupé, MG - Brasil</b>. Dissertação (Mestrado em ENFERMAGEM) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriano Ribeiro Guerra. <b>Atributos de solo sob coberturas vegetais presentes em sistema silvipastoril em Lavras - MG</b>. Dissertação (Mestrado em Engenharia Florestal) - Universidade Federal de Lavras, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Debora Kono Taketa Moreira. <b>Extrudados expandidos de arroz, soja e gergelim para uso em barras alimentícias</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Luiz Carlos de Almeida Rodrigues. <b>Citogenotoxicidade da água e sedimento do Córrego dos Oliveiras, Alfenas-MG: um estudo temporal e espacial</b>. Dissertação (Mestrado em Ciências Ambientais) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8194104388434526">Luiz Alberto Beijo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Margarita Rosa C. Cabral Sanchez. <b>Quantificação de Vitamina B12 e Isoflavonas no extrato de soja enriquecido com prebióticos e fermentado com probióticos</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andréa Paolucci de Paiva. <b>Estudos Tecnológico, químico, físico-químico e sensorial de barras alimentícias elaboradas com produto e resíduos agroindustriais</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fabrícia de Matos Oliveira Fernandes. <b>Proposta de um modelo logístico de três parâmetro a partir da teoria da resposta ao intem: uma aplicação em dados do vestibular da Universidade Federal de Lavras</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Jack Robson da Silva. <b>Otimização do processo de torração do café pelo monitoramento de parâmetros e propriedades físicas e sensoriais</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Juciane de Abreu Ribeiro. <b>Estudos químicos e bioquímicos do ycon (smallanthus sonchifolius) in natura e processado e influência do seu consumo sobre níveis glicemicos e lipídeos fecais de ratos</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mirlaine Rotoly de Freitas. <b>Aspectos conservacionistas e éticos da relação entre homem e ambiente: percepção ambiental através da triangulação de métodos de pesquisa</b>. Dissertação (Mestrado em Engenharia Florestal) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Richardson Coimbra Borges. <b>Controle Estatístico da qualidade no ensino a distância: um estudo de caso na Universidade Federal de Lavras - UFLA</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Simone Soares Lima Jardim. <b>ANÁLISE DO PADRÃO ESPACIAL DA MORTALIDADE INFANTIL UTILIZANDO GEOESTATÍSTICA</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Suzana Chitarra Lema. <b>Qualidade de pimentão armazenado sob refrigeração em atmosfera modificada</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Vanessa Andretta. <b>Percepção Ambiental dos alunos do curso de Especialização em Ecoturismo da Universidade Federal de Lavras</b>. Dissertação (Mestrado em Engenharia Florestal) - Universidade Federal de Lavras, . 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Isabel de Sousa Amorim. <b>Teste de hipótese para determinar a consonância de um painelsensorial.</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Jonas Guimaraes e Silva. <b>Características físicas, físico-químicas e sensoriais do queijo Minas artesanal da Canastra</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, . 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Juliana Souza Gonçalves Dias. <b>LEVEDURA E/OU MONENSINA ASSOCIADOS À CANA-DE-AÇÚCAR NA ALIMENTAÇÃO DE VACAS LEITEIRAS</b>. Dissertação (Mestrado em Ciência Animal) - Universidade José do Rosário Vellano, . 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luciana do Nascimento Lanchote. <b>Mapas depreferência e análise generalizadade Procrustes na análise de dados hedônicos aplicados a pesquisa mercadológica.</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, . 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Osvaldo Martins de Souza. <b>Proposta de modelos para estimação de renda familiar.</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, . 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Rafael Vargas Mesquita dos Santos. <b>Definicao de um processo de medicao de software baseado na filosofia estatistica do seis sigma e no CMMI</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, . 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Sheila Andrade Abrahão. <b>Qualidade da bebida e atividade antioxidante do café in vivo e in vitro</b>. Dissertação (Mestrado em Ciências dos Alimentos) - Universidade Federal de Lavras, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Charles Shalimar Felippe da Silva. <b>Medição e Análise Estatística na Melhoria de Processos de Software</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, . 2006.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Hélio Henrique Vilela. <b>Cultivares De Milho Ensiladas Em Diferentes Estádios De Maturidade</b>. Dissertação (Mestrado em Ciência Animal) - Universidade José do Rosário Vellano, . 2006.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Quintiliano Siqueira Schroden Nomelini. <b>Racionalizacao no Controle Estatistico de Processo (CEP) em uma manufatura de autopecas: um enfoque seis sigma</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2006.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9965398009651936">Eric Batista Ferreira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Silva, R.B V. <b>Robustez de testes de homogeneidade de covariâncias assintóticos e bootstrap para populações multivariadas</b>. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2005.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3858924778362309">Denismar Alves Nogueira</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 10:14:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

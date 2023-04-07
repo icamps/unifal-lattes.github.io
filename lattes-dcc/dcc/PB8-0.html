@@ -1,0 +1,403 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[1998,
+1],
+[2001,
+5],
+[2002,
+8],
+[2003,
+6],
+[2004,
+3],
+[2005,
+4],
+[2006,
+2],
+[2008,
+1],
+[2009,
+10],
+[2010,
+12],
+[2011,
+5],
+[2012,
+3],
+[2013,
+4],
+[2014,
+9],
+[2015,
+15],
+[2016,
+9],
+[2017,
+6],
+[2018,
+2],
+[2019,
+2],
+[2021,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 108<br>
+                    
+                    
+                    <div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SANT' ANA, T. D. <b>Estratégia de oferta de serviços digitais para as Instituições de Ensino Superior</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>A Ciência Econômica no nosso cotidiano</b>. 2019. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Estruturação da cadeia produtiva do marolo em Minas Gerais</b>. 2019. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda; DUTRA, T. C.. <b>Estudo da viabilidade econômica e risco das regiões produtoras de café em Minas Gerais com modelo de Monte Carlo</b>. 2018. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SOUZA, F. G. R. ; PAGLIARES, R. M. ; PEREIRA, D. P. ; HIRATA, C. M. ; Nadjm-Tehrani, S.. <b>WebSTAMP: a web application for STPA & STPA-Sec</b>. 2018. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Eliseu C. Miguel; Fernando Carvalho ; Bruno Morgan ; Murilo Calado ; Ítalo Cunha ; Sérgio V. A. Campos. <b>Join rate improvements in P2P live streaming based on topological aspects during Flash Crowds (Doc 50)</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Eliseu C. Miguel; Ítalo Cunha ; Cristiano M. Silva ; Fernando Carvalho ; Sérgio V. A. Campos. <b>Resource-constrained P2P Streaming Overlay Construction for Efficient Joining Under Flash Crowds (Doc 51)</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PEREIRA, D. P. ; HIRATA, C. M. ; PAGLIARES, R. M. ; LEMOS, F. L.. <b>STPA-Sec: System Theoretic Process Analysis for Security of Flight Management System - MIT STAMP Workshop - Cambridge - USA</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANT' ANA, T. D. <b>Apresentação da Matriz Andifes de Orçamento de Custeio e Capital (OCC)</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANT' ANA, T. D. <b>Gestão Orçamentária e Financeira das Universidades Federais</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SANT' ANA, T. D. <b>Mesa Redonda MEC/ANDIFES/FORPLAD/FORDHOV</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Eliseu C. Miguel; Ítalo Cunha ; Sérgio V. A. Campos. <b>Ingressos em Redes P2P para Vídeo ao Vivo (Doc 48)</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>GONZAGA, F. B.; BARBOSA, VALMIR C. ; XEXÉO, GERALDO B. ; SOUZA, G. C.. <b>A ferramenta de busca por fórmulas matemáticas</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HABERMANN, H. ; GONZAGA, F. B. ; OLIVEIRA, R. M. ; SOUZA, G. C.. <b>Estudo da frequência de mudanças de fórmulas na biblioteca Wikipedia</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>OLIVEIRA, R. M. ; GONZAGA, F. B. ; SOUZA, G. C. ; HABERMANN, H.. <b>Extensão para pesquisa de fórmulas matemáticas presentes em páginas da Internet</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Taxa de câmbio e inflação no Brasil</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SANT' ANA, T. D. <b>Sistema de Informatização do Plano de Desenvolvimento Institucional - ForPDI</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANT' ANA, T. D. <b>Eficiência e Qualidade na Ocupação das Vagas Discentes nas Universidades Federais</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SANT' ANA, T. D. <b>Planejamento, Orçamento e Sistemas Estruturantes do Governo</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SOUZA, G. C. ; GONZAGA, F. B. ; HABERMANN, H. ; OLIVEIRA, R. M.. <b>Aplicativo Android para a ferramenta de busca matemática SearchOnMath</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Brandão, Humberto. <b>Introdução à Inteligência Artificial para utilização em Algorithm Trading</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Brandão, Humberto; CASTILHO, DOUGLAS. <b>Sistemas Inteligentes aplicados em High-Frequency Trading</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Brandão, Humberto; CASTILHO, DOUGLAS ; SILVA, EVERTON. <b>Técnicas de Inteligência Computacional aplicadas em Negociações de Alta Frequência na BMFBOVESPA</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GONZAGA, F. B. <b>SearchOnMath - A ferramenta de busca por fórmulas matemáticas</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>NABETO, L. O. ; AVILA, A. A. ; OLIVEIRA, H. A. ; BORGES, R. S. ; REZENDE, Marcelo Lacerda. <b>Desenvolvimento de um software auxiliar para o ensino do Modelo de Oferta e Demanda</b>. 2015. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PAGLIARES, R. M.; LEMOS, F. ; HIRATA, C.M.. <b>Understanding STAMP/STPA through a daily life example - MIT STAMP Workshop - Cambridge - USA</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANT' ANA, T. D. <b>Governança Corporativa nas Universidades Federais</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SANT' ANA, T. D. <b>Orçamento, Matriz OCC e Matriz PNAES</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SANT' ANA, T. D. <b>Empreendedorismo e Inovação</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SANT' ANA, T. D. <b>Gestão Orçamentária e Financeira das Universidades Federais</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SANT' ANA, T. D. <b>Gestão Orçamentária das Universidades Federais Orçamento Público Federal e Matriz OCC</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SANT' ANA, T. D. <b>Assistência Estudantil</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SANT' ANA, T. D. <b>O Financiamento sustentável da Universidade Federal</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SILVA, EVERTON ; Brandão, Humberto ; CASTILHO, DOUGLAS ; PEREIRA, ADRIANO. <b>A Binary Ensemble Classifier for High-Frequency Trading</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SILVA, T. O. ; REZENDE, Marcelo Lacerda ; MARTINEZ, M. R.. <b>Ensino à distância pelo Observatório de Gestão Hospitalar - 'Gestão de projetos: premissas e aplicações do PMBOK'</b>. 2015. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Brandão, H. <b>Inteligência ?Computacional ?aplicada em Negociações de Alta Frequência na BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Brandão, H. <b>Investimento em Alta Frequência para a BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Brandão, H. <b>Investimento em Alta Frequência para a BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Brandão, H.; Braz, D. D. C. ; Silva, E. J.. <b>Computational Intelligence applied for High-Frequency Trading</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Brandão, Humberto. <b>Computational Intelligence applied for High-Frequency Trading in BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FARIA JUNIOR, A. E. ; REZENDE, Marcelo Lacerda. <b>Impactos econômicos e financeiros da expansáo da Unifal-MG para o município de Alfenas</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GONZAGA, F. B.; BARBOSA, VALMIR C. ; XEXÉO, GERALDO B.. <b>SearchOnMath - A ferramenta de busca por fórmulas matemáticas</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MOREIRA, MARIANE; DOS SANTOS, JEFERSSON A. ; VELOSO, ADRIANO. <b>Learning to Rank Similar Apparel Styles with Economically-Efficient Rule-Based Active Learning</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Silva, E. J. ; Braz, D. D. C. ; PEREIRA, ADRIANO ; Brandão, H.. <b>A Neural Network Based Approach to Support the Market Making Strategies in High-Frequency Trading</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>da Silveira, NJF. <b>Bioinformática Estrutural</b>. 2013. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mendes, J. ; Brandão, H.. <b>Ciência sem Fronteiras (CsF)</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; Mitra, G.. <b>An Artificial Intelligence Approach to Construct High Frequency Trading Strategies</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VIANA, T. C. T. ; HORNINK, G. G. ; SANT' ANA, T. D.. <b>Planejamento Estratégico na Gestão Universitária: o Processo de Elaboração de um Plano de Desenvolvimento Institucional sob a Perspectiva dos Modelos Gerencial e Societal de Administração Pública</b>. 2013. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>PAGLIARES, R. M. <b>Autor de diversas vídeo aulas gratuitas sobre tecnologia Java SE e Java EE</b>. 2012. Desenvolvimento de material didático ou instrucional - Vídeo-Educacional</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>PAGLIARES, R. M. <b>Conteudista -CAPES/UAB</b>. 2012. Desenvolvimento de material didático ou instrucional - vídeo educacional</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SIQUEIRA, T. G. ; VILLALVA, M. G. ; GAZOLI, J. R. ; SALGADO, R. M.. <b>Analysis of Ensemble Models in the Medium Term Hydropower Scheduling</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>PAGLIARES, R. M. <b>Scrum: métodos ágeis para a gestão de projetos</b>. 2011. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SALGADO, R. M. <b>Tendências e Perspectivas da Gestão do Conhecimento: Um Caso Prático no Setor Elétrico do Brasil</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SANT' ANA, T. D. <b>Inovação</b>. 2011. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Saraiva, LA ; Rodrigues IC ; Veloso, MP ; da Silveira, NJF. <b>BIOINFORMATICS APPROACH OF CYCLIN-DEPENDENT KINASES 1 AND 3 COMPLEXED WITH INHIBITORS</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SILVEIRA, L. A. ; SALGADO, E. G.. <b>IV Jornada Científica da UNIFAL-MG</b>. 2011. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BARRETO, M. N. ; SALGADO, R. M. ; FRANCO, E. F. ; Ohishi, T.. <b>Classificação de Padrões para Escoamento via Modelos Inteligentes</b>. 2010. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, P. V. S. D. ; da Silveira, NJF ; Omote, D ; Gouvêa, CMCP. <b>Approach applied in the computational Discovery of new phytochemical present in medicinal plants, with Terapeutic Potential in Head and Neck Cancer</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>LIMA, M. D. C. ; Salgado, R. M.. <b>Aplicação das técnicas de Support Vector Machines para previsão de séries de energéticas</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Matsui QYP ; Mota, AJ ; Back-Brito GN ; Pereira, DB ; da Silveira, NJF ; Mittmann J. <b>Sexagem e sequenciamento parcial do gene CHD-1/Z de Mimus Saturninus Taxidermizado</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PAGLIARES, R. M. <b>Programação Orientada a Objetos e Linguagem de Programação Java</b>. 2010. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PAGLIARES, R. M. <b>Autor de mais de 150 vídeo aulas (em média, 15min cada) sobre diversos temas, incluindo: princípios de design e design patterns, product owners Scrum, Análise e projeto orientado a objetos e Controle de versões distribuído com Git</b>. 2010. Desenvolvimento de material didático ou instrucional - Vídeo-Aulas - Devmedia</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SALGADO, R. M.; Moreira, M. O. ; Ohishi, T.. <b>Sistema Inteligente Baseado em Ensemble para Previsão de Séries Temporais de Carga Elétrica</b>. 2010. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Saraiva, LA ; da Silveira, NJF ; Rodrigues IC ; Silva, JMSF ; Santos, PG ; Santos, MH ; Veloso, MP. <b>Molecular docking of natural pharmacologically active xanthones with human serum albumin and bovine serum albumin, main protein transporters in plasma</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Saraiva, LA ; da Silveira, NJF ; Rodrigues IC ; Silva, JMSF ; Santos, PG ; Veloso, MP. <b>Docking Molecular de xantomonas naturais farmacologicamente ativas com HSA, principal proteína humana de transporte sanguíneo</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Saraiva, LA ; Veloso, MP ; Rodrigues IC ; da Silveira, NJF. <b>Structural Bioinformatics approach of cyclin-dependent kinases 1 and 3 complexed with inhibitors</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Saraiva, LA ; Veloso, MP ; Rodrigues IC ; da Silveira, NJF. <b>Computational approach to new anticancer drug developments using bioinformatics to structural analysis of molecular markers in HNSCC</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SILVA, R. A. ; de Assis, GF ; da Silveira, NJF. <b>Prediction of segmentes in proteins using LMProt algoritm</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARNEIRO ; PORTO ; BALBINO ; VINCE ; SOUZA, Mariane Moreira de ; Paula, M.. <b>Inclusão Digital para Pessoas com Necessidades Especiais</b>. 2009. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>da Silveira, NJF. <b>Métodos Computacionail Aplicados em Bioinformática</b>. 2009. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GONZAGA, F. B. <b>Computação das nuvens: o que muda na sua vida profissional e pessoal?</b>. 2009. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GONZAGA, F. B. <b>Busca Matemática: Panorama atual e perspectivas futuras</b>. 2009. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Inteligência Artificial: Passado, Presente e Futuro</b>. 2009. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Inteligência Artificial</b>. 2009. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANT' ANA, T. D. <b>Mitos e Realidade na Eduação à Distância</b>. 2009. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SANT' ANA, T. D. <b>Implementação de Aplicações Distribuídas</b>. 2009. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SANT' ANA, T. D. <b>Mercado de Trabalho ou Área Acadêmica, qual seguir?</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SANT' ANA, T. D. <b>Mostra: Trabalho de Conclusão de Curso</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; CUNHA, A. S. ; MATEUS, G. R.. <b>Um Algoritmo Híbrido Baseado na Geração de Colunas para o Problema de Roteamento de Veículos com Janela de Tempo</b>. 2008. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; VASCONCELOS, Germano Crispim ; ALVARENGA, Guilherme Bastos. <b>A Multi-Start Simulated Annealing Algorithm for the Vehicle Routing Problem with Time Windows</b>. 2006. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Mesa redonda: Alternativas para o desenvolvimento regional</b>. 2006. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MACIEL, Diego Cunha ; SILVA, Rosimeire Figueiredo da ; SANT' ANA, T. D. ; Silva, L. E.. <b>Implementação do Algoritmo de Roteamento no E. T. (Emulador TCP/IP)</b>. 2005. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; ALVARENGA, Guilherme Bastos ; VASCONCELOS, Germano Crispim. <b>Algoritmo Evolucionário no Tratamento do Problema de Roteamento de Veículos com Janela de Tempo</b>. 2005. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; VASCONCELOS, Germano Crispim ; ALVARENGA, Guilherme Bastos. <b>Uma Abordagem Evolucionária para o Problema de Roteamento de Veículos com Janela de Tempo</b>. 2005. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Silva, L. E. ; MACIEL, Diego Cunha ; SILVA, Rosimeire Figueiredo da ; ARJA, W. P. ; SANT' ANA, T. D.. <b>Implementação de um Sistema de Visão Computacional para um Jogo de Xadrex</b>. 2005. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, L. A. ; SANT' ANA, T. D.. <b>Implementação de um Controle Dinâmico de Banda para Provedores de Serviço Internet</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Palestra: Pesquisa de Orçamento Familiar: Como as Famílias Itajubenses Gastam sua Renda - FACESM - Faculdade de Ciências Sociais Aplicadas do Sul de Minas</b>. 2004. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, D. F. ; COUTINHO, R. M. B. P. ; SANT' ANA, T. D.. <b>R2D - Ferramenta para Auxiliar no Ensino/Aprendizagem da Camada IP</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, L. A. ; SANT' ANA, T. D.. <b>Implementação de um Sistema de Detecção de Intrusão Baseado em Host</b>. 2003. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, L. A. ; SANT' ANA, T. D.. <b>Implementação de um Sistema de Detecção de Intrusão Baseado em Host</b>. 2003. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MIRANDA, J. C. ; SANT' ANA, T. D.. <b>Sifaces - Simulador de Interfaces para Comunicação de Dados</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANT' ANA, T. D. <b>Computação Paralela: aspectos sobre Desenvolvimento de Programas Paralelos</b>. 2003. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANT' ANA, T. D. <b>Computação Paralela: aspectos sobre implementação, teste e depuração de programas paralelos</b>. 2003. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, L. E. <b>Criptografia: Teoria e Ferramenta</b>. 2003. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DIAS, G. C. ; SILVA, A. Q. ; SANT' ANA, T. D. ; ANA, T. D. S. ; MOREIRA, E. M.. <b>Estudo Comparativo entre Tecnologias de Middleware RMI e Corba</b>. 2002. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>PAGLIARES, R. M. <b>XML: Towards Database Integration</b>. 2002. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SANT' ANA, T. D. <b>Implementação de uma Máquina Virtual Paralela como solução para resolução de problemas que exigem grande poder computacional</b>. 2002. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANT' ANA, T. D. <b>Estruturação da Rede dos Laboratórios de Informática da UNINCOR</b>. 2002. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SILVA, L. E. <b>Criptografia: Teoria e Ferramentas</b>. 2002. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, L. E. <b>Criptografia: Teoria e Ferramentas</b>. 2002. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, L. E. <b>Criptografia: Conceitos e Aplicações</b>. 2002. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SOARES, T. L. L. ; CHAIB, R. G. ; SANT' ANA, T. D.. <b>Estudo de Redes Corporativas e Propostas de Otimização e Implantação de Serviços em uma Rede Heterogênea</b>. 2002. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE FILHO, A. F. ; MOREIRA, E. M. ; SANT' ANA, T. D.. <b>Avaliação do Uso da Língua Internacional Neutra: Esperanto, em Problemas de Processamento Automático de Línguas Naturais</b>. 2001. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FREITAS, E. A. ; BELLI, J. ; NORONHAROCHA, V. ; MOREIRA, E. M. ; SANT' ANA, T. D.. <b>Avaliação do Uso de Agentes Móveis para o Desenvolvimento de Aplicações Paralelas</b>. 2001. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MELO, C. B. ; BARBOSA, H. C. ; MEDEIROS, R. H. ; MOREIRA, E. M. ; SANTANA, R. H. C. ; SANT' ANA, T. D.. <b>Projeto de um Depurador para Programas Paralelos</b>. 2001. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Seminário Centrais de Cargas e Portais de Logística na Internet - ESALQ/USP</b>. 2001. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SILVA, A. Q. ; DIAS, G. C. ; OLIVEIRA, A. D. ; ALVES JUNIOR, J. C. M. ; MOREIRA, E. M. ; SANT' ANA, T. D.. <b>Ambiente Integrado para o Desenvolvimento de Aplicações Paralelas</b>. 2001. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Seminário: O Uso da Informática na Agropecuária: O Caso dos Suinocultores da Zona da Mata de Minas Gerais - UFV - Universidade Federal de Viçosa</b>. 1998. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 10:47:01<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

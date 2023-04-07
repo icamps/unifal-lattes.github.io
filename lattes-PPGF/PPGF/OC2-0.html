@@ -1,0 +1,379 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2003,
+1],
+[2005,
+3],
+[2006,
+4],
+[2007,
+4],
+[2008,
+2],
+[2010,
+1],
+[2011,
+2],
+[2012,
+4],
+[2013,
+2],
+[2014,
+7],
+[2015,
+5],
+[2016,
+13],
+[2017,
+10],
+[2018,
+7],
+[2019,
+9],
+[2020,
+12],
+[2021,
+8],
+[2022,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 98<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Christiane Pereira. <b>Estudo sobre a Cinética e os Mecanismos de Crescimento ?Bottom-up? de Nanopartículas de Ouro via Pulsos Laser Altamente Focalizados</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3980645829400310">Elves Silva Moreira</a>. <b>CONGRUÊNCIAS EM RELATIVIDADE GERAL E CONSEQUÊNCIAS COSMOLÓGICAS</b>. Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4937965723746020">Érico Goulart de Oliveira Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gabryelly Monyque Machado. <b>Efeitos da geometria do espaço na caminhada de cupins</b>. Dissertação (Mestrado em Mestrado em Física em Associação UFSJ-UFLA-UNIFAL) - Universidade Federal de São João Del-Rei, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9428416479663144">Leticia Ribeiro de Paiva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5221863351791074">Raphael Cesar de Souza Pimenta</a>. <b>Compuação Quântica Aplicada à Materiais</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0217015026515658">Crislayne Aparecida Modesto Reis</a>. <b>Processo de contato de múltiplas espécies</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2091568617999217">Marcelo Martins de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Eduani de Cássia Souza Teodoro. <b>O ensino de empreendedorismo na educação profissional e tecnológica: uma proposta para além do senso comum</b>. Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3697495590985027">Rafael Felipe Coelho Neves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gabriel Volino da Silva. <b>Propriedades algébricas dos tensores de Faraday e Weyl</b>. Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4937965723746020">Érico Goulart de Oliveira Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Guilherme Fernandes Cárias Barbosa. <b>Aplicações de Álgebra Linear na Compressão de Imagens</b>. Dissertação (Mestrado em PROFMAT - Mestrado Profissional em Matemática) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9806548647159907">Hiago Maurílio Lopes Carvalho</a>. <b>Teoria do Funcional Densidade (DFT) aplicada a diferentes estruturas de liga de ouro (Au) e prata (Ag) para análise de propriedades dielétricas</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7868828064676031">Juan Carlos Sumire Esquia</a>. <b>Stueckelberg a la Utiyama</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8073303573679522">Rodrigo Rocha Cuzinatto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Luana Aparecida de Barros. <b>Subdifusão em insetos sociais</b>. Dissertação (Mestrado em Mestrado em Física em Associação UFSJ-UFLA-UNIFAL) - Universidade Federal de São João Del-Rei, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9428416479663144">Leticia Ribeiro de Paiva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1309373274619373">Wallison Luiz Anicezio Campanelli</a>. <b>Calibração de um Detector de Nêutrons no Âmbito do Experimento SBND</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7507841142527331">Carlos Henrique Domingues dos Santos</a>. <b>IMPLEMENTAÇÃO DE TÉCNICAS EXPERIMENTAIS PARA A CARATERIZAÇÃO DAS RESPOSTAS ÓPTICAS LINEARES E NÃO LINEARES DE NANOMATERIAIS SEMICONDUTORES</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Deborah Sampaio Antunes de Oliveira. <b>Efeitos de simetrias da equação de Lindblad no transporte</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5740024134033082">Felipe Augusto Oliveira Silveira</a>. <b>Propriedades dinâmicas de um modelo bouncer em campo não homogêneo</b>. Dissertação (Mestrado em Física da Matéria Condensada) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6110042881038336">Denis Gouvêa Ladeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6438374644753396">Gabriel da Silva Macedo</a>. <b>REDES NEURAIS ARTIFICIAIS APLICADAS NA OTIMIZAÇÃO DE PROPRIEDADES DE SISTEMAS SEMICONDUTORES CONTENDO POÇOS QUÂNTICOS</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2387431254472136">Luis Ricardo Pereira Mucciaroni</a>. <b>OPTICAL SETUP FOR LASER MICROFABRICATION: DEVELOPMENT OF PHOTONIC DEVICES</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Marina Gonçalves. <b>Educação Financeira como Estratégia na Formação Integral dos Estudantes da Educação Profissional e Tecnológica</b>. Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3697495590985027">Rafael Felipe Coelho Neves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6640232793768858">Michelle Leifeld</a>. <b>CINÉTICA DE FOTODEGRADAÇÃO DO POLÍMERO MEH-PPV POR ESPECTROSCOPIA UV-VISÍVEL EM TEMPO REAL ? APLICAÇÃO EM DOSIMETRIA 3D</b>. Dissertação (Mestrado em CIÊNCIA E ENGENHARIA DE MATERIAIS) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Paulo Humberto Rezende. <b>FERRAMENTAS DIGITAIS PARA O ENSINO-APRENDIZAGEM DE TRIGONOMETRIA E ELETROMAGNETISMO NO CURSO TÉCNICO EM ELETROTÉCNICA SUBSEQUENTE</b>. Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3697495590985027">Rafael Felipe Coelho Neves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Públio Rwany Batista Ribeiro do Vale. <b>O efeito dos termos de superfície no decaimento raro do píon no modelo de Nambu-Jona-Lasínio</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Robeto Madeira. <b>Interação de Nanotubos de Nitreto de Boro com Metais Pesados: Estudo de Primeiros Princípios</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1048504721932307">Silas Guida Vilhena</a>. <b>Ondas Gravitacionais no Modelo de Starobinsky de Ordem Superior</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8073303573679522">Rodrigo Rocha Cuzinatto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Wallace Luis da Silva. <b>Transições de fase descontínuas em modelos de reações químicas</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2091568617999217">Marcelo Martins de Oliveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andréia Carvalho Padilha. <b>Obtenção de nanopartículas fluorescentes de quitosana para potencial aplicação biomédica</b>. Dissertação (Mestrado em CIÊNCIA E ENGENHARIA DE MATERIAIS) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8363293767542766">Edgar Paulino Mamani Lopez</a>. <b>Estados Fundamentais de uma Cadeia Unidimensional Dimerizada Supercondutora</b>. Associação Ampla (UFSJ, UFLA, UNIFAL).) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9906430445327093">Gabriel Marinho Machado</a>. <b>Estudo da não parabolicidade de banda em perovskitas hibridas.</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7235424140939267">Isaac Max Pereira</a>. <b>Independência de Ambiguidades no modelo de Nambu-Jona-Lasínio</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Universidade Federal de São João Del-Rei. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Lidiana. <b>ARMAZENAMENTO ÓPTICO REVERSÍVEL EM FILMES GUESTHOST CONTENDO COMPOSTOS AZOAROMÁTICOS EM FORMA DE V DISPERSOS EM UMA MATRIZ DE POLIMETILMETACRILATO</b>. Dissertação (Mestrado em CIÊNCIA E ENGENHARIA DE MATERIAIS) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Luiz Fernando Pinheiro Ramos. <b>Modelagem Matemática para Previsão de Jogos de Futebol</b>. Dissertação (Mestrado em PROFMAT - Mestrado Profissional em Matemática) - Universidade Federal de São João Del-Rei, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Nelma Aparecida Fernandes Lopes. <b>Avaliação da Utilização de Ferramentas de Simulação Computacionais no Ensino de Eletricidade e Eletromagnetismo em uma Escola Pública Estadual de Minas Gerais</b>. em Ensino de Física) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6985613045320268">Túlio de Almeida Moreira Ferreira</a>. <b>Bifurcações e Caos em Sistemas Biológicos</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2091568617999217">Marcelo Martins de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3189016459956475">Wagno César e Silva</a>. <b>Fatores de Forma no Modelo Espectral de Quarks SU(3)f</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bruna Muniz Peres. <b>Efeito Aharonov-Bohm na Eletrodinâmica Generalizada</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6416243191442405">Dominique Lopes Ramos</a>. <b>Aplicação do Aprendizado de Máquina na Procura por Matéria Escura no LHC</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei, Universidade Federal de São João Del Rei. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1514453602141346">Maria Aline Barros do Vale</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Hugo Metz. <b>Desenvolvimento de um protoboard com elementos resistivos orgânicos</b>. em Ensino de Física) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5161660188380421">Marcos Vinicius dos Santos</a>. <b>Neutrino Interaction and Detection in the SBND Experiment</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7386244848291169">Marlon Nunes Gonzaga</a>. <b>Desordem congelada no processo de contato em subredes</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2091568617999217">Marcelo Martins de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Silvana Camargo de Castro. <b>A PARTICIPAÇÃO FEMININA NOS CURSOS INTEGRADOS NO CAMPUS BRAGANÇA PAULISTA DO IFSP: DESAFIOS E AVANÇOS DAS MENINAS NA ÁREA DE EXATAS.</b>. Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3697495590985027">Rafael Felipe Coelho Neves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7031503842377495">Thiago Bissiatte Monteiro</a>. <b>Difusão Anômala de um Fluido em conduto com superfícies planas via Cálculo Fracionário</b>. Dissertação (Mestrado em Programa de Pós-Gradução em Física) - Universidade Federal de São João del Rei, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0487113229071944">Adélcio Carlos de Oliveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3703432311039072">Adriano Sérgio Torres Figueiredo Silva</a>. <b>Difusão Quântica</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0487113229071944">Adélcio Carlos de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1345951126343014">Alfredo Vinícius Andrade Guimarães</a>. <b>Invariância à transformação de Chan e o Modelo Nambu-Jona-Lasínio</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cézar Augusto Garófalo Carneiro. <b>Probabilidades no futebol</b>. Dissertação (Mestrado em PROFMAT - Mestrado Profissional em Matemática) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9753423351398790">Diego Augusto Frizo</a>. <b>Soluções da Eletrodinâmica Generalizada em Espaços-Tempo Curvos</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Felipe Damas Melo. <b>Limites da Massa do Neutrino Pesado de Majorana nas Produções pp- lep, N e pp--lep, N, jet no LHC a 14TeV</b>. Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1514453602141346">Maria Aline Barros do Vale</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7947299462681693">George Brian dos Reis</a>. <b>Interpretando o Espectro de Absorção de Dois Fótons em Nanocristais Semicondutores de CuInS2</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Igor Pereira Vieira. <b>Versão quântica da igualdade de Jarzynski, estudo de modelo de interação entre radiação e matéria em meio não linear</b>. Dissertação (Mestrado em PPGF) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marcelo Assis de Faria Ribeiro. <b>Validação do Modelo Geométrico Computacional do Experimento NEUTRINOS ANGRA</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Nicolas Ribeiro Bertini. <b>Formalismo Pós-Newtoniano Parametrizado e Extensões da Relatividade Geral</b>. Dissertação (Mestrado em Física) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5354129714719077">Júnior Diniz Toniato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7179720346302573">Wanderson Geraldo Knupp</a>. <b>Estudo teórico-experimental da interação de nanotubos de carbono com carboapatita</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1539031724189300">Clícia Naldoni de Souza</a>. <b>Eletrodinâmica de Podolsky Aplicada à Cosmologia</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8073303573679522">Rodrigo Rocha Cuzinatto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6900483130650896">Danilo José de Lima</a>. <b>Monopólos Magnéticos na Eletrodinâmica de Ordem Superior</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7437976888724293">Eduardo Messias de Morais</a>. <b>Ajustes dos Parâmetros Cosmológicos de um Modelo de Unificação de Matéria Escura e Energia Escura</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8073303573679522">Rodrigo Rocha Cuzinatto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8043286825467803">Farley Silva Flausino</a>. <b>Nova Formulac?a?o de Ferramentas de Estati?stica Multivariada com Incertezas Experimentais</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gilson Vieira Soares. <b>Caracterização de Osciladores Mecânicos no Espaço dos Parâmetros de Controle</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6110042881038336">Denis Gouvêa Ladeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GLADYS JULIETH CASTIBLANCO QUIROGA. <b>ON THE SYNERGETIC INTERACTIONS BETWEEN TERMITE SOLDIERS AND WORKERS</b>. Dissertação (Mestrado em Entomologia) - Universidade Federal de Viçosa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9428416479663144">Leticia Ribeiro de Paiva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9545899186934466">Igor Pereira Vieira</a>. <b>TEOREMAS DE FLUTUAÇÃO NO CONTEXTO DA ELETRODINÂ?MICA QUÂ?NTICA DE CAVIDADES</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0487113229071944">Adélcio Carlos de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7520248542757602">Lucas Oliveira Quintino</a>. <b>Neutrinos de Supernova</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Marco Antônio Martins. <b>Dinâmica da família quadrática</b>. Dissertação (Mestrado em PROFMAT) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6110042881038336">Denis Gouvêa Ladeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7659443408776211">Maria Helena Passos Marques</a>. <b>Horizontes e Termodinâmica de Buracos Negros Carregados Acoplados à Eletrodinâmica Não-linear de Euler-Heisenberg</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8873149632621307">Marllos Eustaquio Fonseca Fernandes</a>. <b>Inferência Bayesiana na determinação do ângulo de mistura theta_13, no experimento Double Chooz</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Pablo Magallanes. <b>Impacto da distribuição inicial de energia das colisões centrais e periféricas de íons pesados relativísticos nas propriedades geométricas e na distribuição final de partículas</b>. Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2425549033248106">Fernando Gonçalves Gardim</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Tiago de Oliveira. <b>Princípio de d'Alembert e Equações de Lagrange</b>. Dissertação (Mestrado em PROFMAT) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6110042881038336">Denis Gouvêa Ladeira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5041577291358551">Bruno da Fonseca Gonçalves</a>. <b>O efeito dos termos de superfície no modelo de Nambu-Jona-Lasínio</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5859772357477134">Bruno de Oliveira Campos</a>. <b>Utilização de simulações computacionais no ensino de Física, na área da Mecânica</b>. em Ensino de Física) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2428823231702842">Eduardo Antônio dos Reis</a>. <b>Modelo Espectral de Quarks SU(3)</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8295131406039324">Filipe dos Santos Batista</a>. <b>Estudo do Aumento da Supercondutividade em Sistemas Multi-Bandas Devido a Mistura Anti-Simetrica de Orbitais</b>. Associação Ampla (UFSJ, UFLA, UNIFAL).) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7000508951288786">Washington de Almeida Pereira</a>. <b>Docking de fragmentos aplicados no desenvolvimento de inibidores da Tirosina Quinasse da LMC</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Daniela Presotti Vitor. <b>O teorema de Monty Hall e o cálculo da aproximação de Pi como fator de estímulo ao ensino da Probabilidade</b>. Dissertação (Mestrado em PROFMAT - Mestrado Profissional em Matemática) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6810440610482536">Fernando Roberto de Andrade</a>. <b>Limites sobre os parâmetros associados à torção na produção de pares de quarks top no LHC a 8 TeV e a 13 TeV</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1514453602141346">Maria Aline Barros do Vale</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4358350479981228">Josiane Oliveira Rezende</a>. <b>Limite Clássico nas Relações de Flutuação do Trabalho e da Energia Livre</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0487113229071944">Adélcio Carlos de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Juliane de Oliveira Ganem Achtschin. <b>Modelo para dinâmica de preços no mercado de ações baseado em equações diferenciais estocásticas não lineares</b>. Dissertação (Mestrado em Modelagem Matemática e Computacional) - Centro Federal de Educação Tecnológica de Minas Gerais, . 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0487113229071944">Adélcio Carlos de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Jáder José de Carvalho. <b>Um estudo da transição BCS-BEC em um modelo quiral relativístico e seu limite não relativístico</b>. Dissertação (Mestrado em Física e Química de Materiais) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7767720735788659">Pâmela Talita do Couto</a>. <b>Métodos Numéricos e Estatísticos Aplicados à Modelagem de um Reator em Batelada Anaeróbio, no Tratamento de Drenagem Ácida de Mina</b>. Dissertação (Mestrado em CIÊNCIA E ENGENHARIA AMBIENTAL) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Simão Paulo Silva. <b>Busca por um campo de torção em colisões pp_e+e- + X com sqrt{s}=8 TeV no ATLAS/LHC</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1514453602141346">Maria Aline Barros do Vale</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1765134242325847">Mateus Antônio Resende</a>. <b>Diagrama de Fases a Temperatura Finita de um Gás de Férmions Desbalanceado em Duas Dimensoes Espaciais</b>. Dissertação (Mestrado em Programa de Pós Graduação em Física) - Universidade Federal de Sao Joao del Rei, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2202100561413773">Mirele Bastos</a>. <b>Modelagem computacional de nanofiltros orgânicos e sintéticos: um estudo de primeiros princípios</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5859772357477134">Bruno de Oliveira Campos</a>. <b>Estudo das propriedades eletrônicas, ópticas e de transporte de nanofitas de SnO2</b>. Dissertação (Mestrado em Física) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Dimas Medeiros Júnior. <b>MODELAMENTO MATEMÁTICO E COMPUTACIONAL DA SUSPENSÃO MOTOPROPULSOR VEICULAR PARA INSTALAÇÃO DE UM MOTOR TRÊS CILINDROS</b>. Dissertação (Mestrado em Modelagem Matemática e Computacional) - Centro Federal de Educação Tecnológica de Minas Gerais, . 2012.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0487113229071944">Adélcio Carlos de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1481276383743867">Leonardo Bruno Federico</a>. <b>Estudo computacional de novos inibidores de acetilcolinesterase, planejados como candidatos a fármacos para o tratamento da doença de Alzheimer</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0069697138404546">Polyanna Guimarães e Miranda</a>. <b>Efeitos de alvo finito em espalhamentos atômicos na presença de confinamento anisotrópico</b>. Dissertação (Mestrado em Física e Química de Materiais) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2706768463638642">Anderson de Jesus Pereira</a>. <b>Efeito de uma barreira cinética em modelos de crecimento de interface com mobilidade limitada</b>. Dissertação (Mestrado em Fisica Aplicada) - Universidade Federal de Viçosa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4536440727635518">Sidiney Geraldo Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0843974355606163">Lucas Alves de Souza</a>. <b>Diagrama de Fases de um Sistema Assimétrico de Átomos Fermiônicos Frios em Duas Dimensões Espaciais</b>. Dissertação (Mestrado em Mestrado Multidisciplinar) - Universidade Federal de Sao Joao del Rei, Universidade Federal de São João del Rei. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9811352883792475">José Erinaldo da Fonseca</a>. <b>Modelos Contínuos para Gelos de Spins Bidimensionais</b>. Dissertação (Mestrado em Multidisciplinar Em Física Química e Neurociências) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Daniela Cristina Ribeiro. <b>Pesquisa Operacional e Mercado Financeiro</b>. Dissertação (Mestrado em Modelagem Matemática e Estatística Aplicada) - Universidade Vale do Rio Verde de Três Corações, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2229943659950616">Luellerson Carlos Ferreira</a>. <b>A Anomalia Quiral no Modelo Espectral de Quarks</b>. Dissertação (Mestrado em Multidisciplinar Em Física Química e Neurociências) - Universidade Federal de São João Del-Rei, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Almeira Sampson. <b>Princípio Variacional de Schwinger em Espaços Curvos</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Estadual Paulista, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7351868831731827">Fernando Jesus de Oliveira</a>. <b>O Modelo de Gross-Neveu como uma Teoria Efetiva para o Poliacetileno: Efeitos a Densidade Finita</b>. Dissertação (Mestrado em Multidisciplinar Em Física Química e Neurociências) - Universidade Federal de São João Del-Rei, . 2007.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>, <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>John Alexander Bedoya. <b>Formalismo de Schwinger para Trajetórias Temporalmente Fechadas</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Estadual Paulista, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Vânia Maria dos Santos. <b>Propriedades Analíticas de Funções de Vértice no Espaço Euclidiano e sua Aplicação ao Fator de Forma Eletromagnético do Pion</b>. Dissertação (Mestrado em Mestrado Multidisciplinar) - Universidade Federal de Sao Joao del Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Flávio Heleno Graciano. <b>Propriedades Geométrico-estruturais do Acelerador de Fermi</b>. Dissertação (Mestrado em Modelagem Matemática e Estatística Aplicada) - Universidade Vale do Rio Verde de Três Corações, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5827627505892127">Ruth Maria Oliveira Chaves</a>. <b>Propriedades Geométricas de Modelos Presa-Predador com Efeitos de Competição</b>. Dissertação (Mestrado em Modelagem Matemática e Estatística Aplicada) - Universidade Vale do Rio Verde de Três Corações, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Silvana Teodoro Resende. <b>Distribuição de Massa e Campo Gravitacional Galácticos na Aproximação Newtoniana</b>. Dissertação (Mestrado em Modelagem Matemática e Estatística Aplicada) - Universidade Vale do Rio Verde de Três Corações, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3911300468731477">Suelainy Silveira Tavares</a>. <b>Modelo de Duas Espécies Interagentes com Efeitos de Dispersão e Migração</b>. Dissertação (Mestrado em Modelagem Matemática e Estatística Aplicada) - Universidade Vale do Rio Verde de Três Corações, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Claudio Wagner Morais. <b>Influência da Assimetria de Massa na Hipótese de Salam para a Homoquiralidade Biomolecular</b>. Dissertação (Mestrado em Multidisciplinar Em Física Química e Neurociências) - Universidade Federal de São João Del-Rei, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2005.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>, <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Danilo Jimenez Rezende. <b>Teleparalelismo: Formulação Hamiltoniana e Estrutura de Vínculos</b>. Dissertação (Mestrado em Física) - Universidade Estadual Paulista Júlio de Mesquita Filho, Fundação de Amparo à Pesquisa do Estado de São Paulo. 2005.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2604084987168049">Vânia Maria dos Santos</a>. <b>Propriedades analíticas de funções de vértice no espaço Euclidiano e sua aplicação ao fator de forma eletromagnético do píon</b>. Dissertação (Mestrado em Multidisciplinar Em Física Química e Neurociências) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Hosane Aparecida Tarôco. <b>Aplicação de Modelos de Gás de Rede em Teoria Quântica de Campos à Deposição Eletroquímica</b>. Dissertação (Mestrado em Pós Graduação Multidisciplinar Em Física Química e) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 24/01/2023 11:50:28<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

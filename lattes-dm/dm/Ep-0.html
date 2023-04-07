@@ -1,0 +1,971 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Matemática</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Matemática</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[1997,
+2],
+[1999,
+2],
+[2000,
+8],
+[2001,
+8],
+[2002,
+16],
+[2003,
+12],
+[2004,
+13],
+[2005,
+19],
+[2006,
+9],
+[2007,
+12],
+[2008,
+10],
+[2009,
+18],
+[2010,
+12],
+[2011,
+18],
+[2012,
+18],
+[2013,
+28],
+[2014,
+18],
+[2015,
+12],
+[2016,
+15],
+[2017,
+25],
+[2018,
+18],
+[2019,
+36],
+[2020,
+15],
+[2021,
+11],
+[2022,
+30],
+[2023,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 386<br>
+                    
+                    
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>XXVI Escola de Álgebra. 2023. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>29 SIICUSP - Simpósio Internacional de Iniciação Científica e Tecnológica da da USP.Trabalhos em Álgebra. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Brazilian Symposium on Fractional Calculus.Continuation of mild solution for abstract fractional integro-differential equations. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ciclo de debates: matemática licenciatura.Educação Matemática Crítica. 2022. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Congresso Internacional de Mulheres em STEAM. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I ENCONTRO MINEIRO DO PROFMAT. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Workshop do PROFMAT/UNIFAL-MG. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Workshop do PROFMAT/UNIFAL-MG. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop do PROFMAT/UNIFAL-MG.Mesa redonda "O PROFMAT nas Instituições Mineiras". 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Workshop de Matemática e Matemática Aplicada. Equações Diferenciais de Ordem Fracionária no Estudo de Epidemias. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IX Congresso Ibero-Americano de Educação Matemática (IX CIBEM). Permanências, mudanças e possibilidades na formação relacionada à(s) matemática(s) em cursos de Pedagogia. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>RTAA - Representation Theory of Algebras and Applications.O estudo da estrutura das (co)homologias de Hochschild da classe de álgebras de dimensão finita A com: Hom_{A-A} (DA,A)=0. 2022. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Seminário 30 anos do Modelo dos Campos Semânticos.Ler alunos da Educação Básica: o caso do subprojeto Matemática do programa Residência Pedagógica. 2022. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Seminários A5.Teoria Tilting: um exemplo na Categoria de Módulos. 2022. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>V Congresso de Projetos de Apoio à Permanência de Estudantes de Graduação da Unicamp (V PAPE-G), em conjunto com o II Seminário Internacional de Serviços de Apoio aos Estudantes da Unifesp (II SISAE)AE). Permanência no Ensino Superior: Suporte à Aprendizagem dos Conteúdos de Matemática Básica. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VI SEMAT - Semana da Matemática.Mesa Redonda - ?A Licenciatura em Matemática na UNIFAL-MG: trajetória e perspectivas?. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VI SEMAT. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VI SEMAT.Trabalho. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VI Workshop Escola de Computação e Informação Quântica (WECIQ 2022).Presidente da Comissão Organizadora. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>VI Workshop Escola de Computação e Informação Quântica - WECIQ 2022. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>VIII Simpósio Integrado UNIFAL-MG. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XIII Simpósio de Álgebra.O estudo da estrutura da cohomologia de Hochschild da classe de álgebras de dimensão finita A com: Hom_{A-A} (DA,A)=0. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XIV Encontro Nacional de Educação Matemática ? Educação Matemática, Escola e Docência: o que nos trouxe Ubiratan D?Ambrósio.O uso do Google Formulários durante o ensino remoto: uma experiência no Ensino Médio. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XIV Encontro Nacional de Educação Matemática ? Educação Matemática, Escola e Docência: o que nos trouxe Ubiratan D?Ambrósio.Quando não se sabe que Matemática será encontrada em um curso de Pedagogia. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XIV Encontro Nacional de Educação Matemática ? Educação Matemática, Escola e Docência: o que nos trouxe Ubiratan D?Ambrósio.Uma leitura a partir de pesquisas bibliográficas sobre a relação de estudantes e seus familiares com as práticas escolares e a disciplina de Matemática. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XIV Encontro Nacional de Educação Matemática. Avaliador de trabalhos. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XIV Encontro Nacional de Educação Matemática. Coordenador de grupo de discussão. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XIV Encontro Nacional de Educação Matemática.Microagressões raciais no Ensino Superior: Procedimentos da adaptação instrumental para a cultura brasileira. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XLI CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Caracterização da Superfície de Riemann Associada aos Coeficientes de Equações Diferenciais Fuchsianas. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XLI Congresso Nacional de Matemática Aplicada e Computacional. Ordens dos Quatérnios Maximais Derivadas de Tesselações mais Densas. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XV Congress GAFEVOL 2022. Existence of asymptotically almost automorphic solutions for neutral integro-differential equations. 2022. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>50 years of Functional Differential Equations at ICMC. Resolvent operators and applications in fractional integro-differential equations. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>9º CBEU - Congresso Brasileiro de Extensão Universitária: Redes para Promover e Defender os Direitos Humanos. A FORMAÇÃO TRANSDISCIPLINAR DO PROFESSOR DO CURSINHO POPULAR: O RELATO DE UM LICENCIANDO EM MATEMÁTICA. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>9º CBEU - Congresso Brasileiro de Extensão Universitária: Redes para Promover e Defender os Direitos Humanos. UMA INTERVENÇÃO DE GEOMETRIA ANALÍTICA COM O USO DO GEOGEBRA E SUBSIDIADA PELA TEORIA DOS CAMPOS CONCEITUAIS,. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro Mineiro de Educação Matemática.Microagressões no ensino superior no âmbito das ciências exatas. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>IX Semana da EAD Grupo Unis. Teoria da Codificação: Álgebra Linear Aplicada à Teoria dos Códigos Corretores de Erros. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Meninas nas Exatas: por Elas para Todos. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>VII Simpósio Integrado da UNIFAL-MG.ESTRUTURAS ALGÉBRICAS UTILIZADAS NA CONSTRUÇÃO DE CÓDIGOS BCH E APLICAÇÕES NA ANÁLISE DE FENÔMENOS MUTACIONAIS. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>VIII Seminário Internacional de Pesquisa em Educação Matemática. Comitê de avaliação de trabalhos. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Webinários da ABC - Ed 33 Educação Infantil. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XL CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Determinação dos geradores do grupo fuchsiano associados à quantização do canal C_{2,8}. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XL Congresso Nacional de Matemática Aplicada e Computacional - CNMAC 2021. Construção de Códigos Geometricamente Uniformes Hiperbólicos. 2021. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3º Encontro de Biomatemática.Análise Mutacional da Enzima Mitocondrial ATP6 via Códigos Corretores de Erros. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encuentro Internacional de investigación en Educación Matemática. A Lei de Cotas na Universidade Federal de Alfenas: uma análise da taxa de ocupação das vagas em 2019. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I ERMAC - Encontro Regional de Matemática Aplicada e Computacional. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I ERMAC MS - Encontro Regional de Matemática Aplicada e Computacional - l.ANÁLISE DO DIAGRAMA DE HASSE ASSOCIADO AO ROTULAMENTO B DO CODIGO GENÉTICO. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Simpósio Brasileiro Mulheres em STEM.Minas for Science. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Encontro Nacional de Educação Matemática Inclusiva. Criação de cenários para investigação remotamente com pessoas idosas em situação de isolamento social. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Encontro Nacional de Educação Matemática Inclusiva. Mesa Redonda - MR 7 - Diferença, Diversidade, Inclusão e as (In)tolerâncias. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>III Encontro de Biomatemática. Estabilidade assintótica global de um modelo da dengue de ordem fracionária. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>International Symposium on Information Theory. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VI Simpósio Integrado da UNIFAL-MG.CARACTERIZAÇÃO DO CÓDIGO GENÉTICO POR MEIO DO DIAGRAMA DE HASSE ASSOCIADO AO ROTULAMENTO A. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI Simpósio Integrado da Universidade Federal de Alfenas.Projeto Conversas Matemáticas: educação matemática com pessoas idosas através de ações extensionistas. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VIII Semana da EAD do Grupo Unis. Estruturas Algébricas Aplicadas na Caracterização do Código Genético. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>X ERMAC-RS Encontro Regional de Matemática Aplicada e Computacional.ANÁLISE DAS PROPRIEDADES FÍSICO-QUÍMICAS DOS AMINOÁCIDOS POR MEIO DAS DISTÂNCIAS DE HAMMING ASSOCIADAS AO ROTULAMENTO B DO CÓDIGO GENÉTICO. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XI Semana de Matemática do Pontal. Cenários para investigação: possibilidades para o desenvolvimento da matematica em ambientes formais e não formais de ensino. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XII Simpósio de Álgebra.Álgebras PHI. 2020. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1st Joint Meeting Brazil-France. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>3º Workshop do Programa de Pós-Graduação em Estatística Aplicada e Biometria.Análise do Algoritmo de Geração de Sequências de DNA via Códigos Corretores de Erros. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Conference of collaborators of IME-USP in representations of algebras and related topics.Hochschild cohomology groups of trivial extensions of one-way algebras. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CONSTELAÇÃO FAMILIAR: A SIMETRIA OCULTA DO AMOR. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Extensão: Articulação com o Ensino e a Pesquisa nos desafios da curricularização.Extensão: Articulação com o Ensino e a Pesquisa nos desafios da curricularização. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Conferência das Licenciaturas da Unifal-MG - I CONLIC2019. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Encontro Nacional de Educação Matemática Inclusiva. Microexclusões e suas implicações na educação matemática inclusiva. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Encontro Regional de Matemática Aplicada e Computacional - ERMAC 2019.Aplicação de códigos corretores de erros no processo de geração de sequências de DNA. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Congresso de Educação e 32ª Semana Pedagógica. UMA ANÁLISE DO IMPACTO DAS AÇÕES AFIRMATIVAS NO CURSO DE LICENCIATURA EM MATEMÁTICA DA UNIFAL-MG. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Simpósio Internacional de Educação em Ciências.Utilizando a escala Cuisenaire no Ensino Fundamental. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Colóquio de Pesquisa em Educação Matemática Crítica. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Introdução à Visão Sistêmica no Contexto Educacional.Introdução à Visão Sistêmica no Contexto Educacional. 2019. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IV Simpósio Integrado UNIFAL - MG.Apresentação virtual. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Seminário: Aplicações de Estruturas Algébricas na Modelagem do Código Genético. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Seminários em Matemática. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>V Congresso Internacional Unis - O Mundo em Disrupção. Uma Introdução aos Códigos Corretores de Erros. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>V Semana da Matemática da UNIFAL-MG.O impacto da ações afirmativas no ingresso e permanência de futuros professores de matemática da UNIFAL-MG. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>V SEMAT - Semana da Matemática.Álgebra Linear Aplicada a Códigos Corretores de Erros. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>V SEMAT: As diferentes possibilidades de formação e de atuação de profissional da área de Matemática. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>V SEMAT: As diferentes possibilidades de formação e de atuação de profissional da área de Matemática. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>V SEMAT: As diferentes possibilidades de formação e de atuação de profissional da área de Matemática. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>V Simpósio Integrado da Universidade Federal de Alfenas.Compreendendo o impacto das ações afirmativas no curso de Licenciatura em Matemática da UNIFAL-MG. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>V Simpósio Integrado UNIFAL -MG.Matemática e Cidadania. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>V Simpósio Integrado UNIFAL-MG.Minas for Science na Escola Estadual Judith Vianna. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>V Simpósio Integrado UNIFAL-MG.Minas for Science: oficina de Astronomia na Escola Estadual Professor Viana. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>V Simpósio Integrado UNIFAL-MG.o ESTUDO DA CARACTERIZAÇÃO GEOMÉTRICA E ALGÉBRICA DOS ROTULAMENTOS DO CÓDIGO GENÉTICO. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>V Simpósio Integrado UNIFAL-MG.Oficina de Astronomia na Escola Polivalente: uma ação do projeto Minas for Science. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>V Simpósio Integrado UNIFAL-MG.Oficina de Perfume na Escola Estadual Dr. Emílio Silveira: uma ação do projeto Minas for ScienceNCE. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>V Simpósio Integrado UNIFAL-MG.Oficina Perfumada na Escola Estadual Professor Levindo Lambert: uma ação do Projeto Minas for Science. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Winter Course - Derived categories and applications. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XIII Encontro Nacional de Educação Matemática. Microagressões relacionadas ao coneúdo matemático e a formação de futuras pedagogas de um curso na modalidade a distância. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XIII Encontro Nacional de Educação Matemática. Microexclusões em contextos da educação matemática inclusiva. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>XIII Encontro Nacional de Educação Matemática.CONSTRUINDO SEU FRACTAL: EXPERIÊNCIAS A PARTIR DE OFICINAS. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XIII Encontro Nacional de Educação Matemática.EDUCAÇÃO MATEMÁTICA E LITERATURA INFANTIL. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>XXXIV Congresso Nacional de Matemática Aplicada e Computacional - CNMAC 2019. Matemática e Cidadania: tecnologias da informação aplicadas no estudo do consumo consciente de água. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XXXIX CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Análise do Algoritmo de Geração de Sequências de DNA via Códigos Corretores de Erros. 2019. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Encontro Brasileiro de Estudantes de Pós-Graduação em Educação Matemática. Pesquisa em Educação Matemática e Relações étnico-raciais. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Extensão Universitária: conceitos e avaliação.Extensão Universitária: conceitos e avaliação,. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura, Aplicada e Estatística. Caracterização algébrica e geométrica de um canal C2,4 através de equações diferenciais fuchsianas. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IV Simpósio Integrado da UNIFAL-MG.Laboratório de Ensino em Educação Matemática na Formação de Professores. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>IV Simpósio Integrado UNIFAL-MG.Matemática e Cidadania. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IX SEMAT - Semana da Matemática e Educação Matemática.Educação Matemática Crítica e Preocupações urgentes: a questão dos grupos sub-representados na universidade brasileira. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Latin American Week on Coding and Information ? LAWCI. Construction of Geometrically Uniform Hyperbolic Signal Space Codes. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LAWCI - Latin American Week on Coding and Information. Fuchsian group generators associated with the C_2,8 channel quantization. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Palestra: Modelagem matemática do crescimento e tratamento tumoral. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Semana Nacional de Ciência e Tecnologia (SNCT): Sul de Minas Gerais.Matemática e Cidadania. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Seminários em Matemática. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V EMAP - Encontro de Matemática do Agreste Pernabucano. Conversas Matemática no Programa Aberto à Terceira Idade (UNATI) como veículo de inclusão social. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V EMAP - Encontro de Matemática do Agreste Pernabucano. Educação Matemática Crítica e Preocupações urgentes: equidade, inclusão e diversidade. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>V ENCOSMAT - Encontro Sul Matogrossense de Matemática.Estruturas Algébricas Aplicadas na Modelagem do Código Genético. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VII Seminário Interncional de Pesquisa em Educação Matemática (SIPEM). Políticas de ações afirmativas no ensino superior e equidade: qual o papel da Educação Matemática?. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VII SIPEM (Seminário Internacional de Pesquisa em Educação Matemática).Práticas Matemáticas na formação e na atuação profissional de engenheiros. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXV Escola de Álgebra. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXXVIII Congresso Nacional de Matemática Aplicada e Computacional. Aplicações de Elementos de Geometria Hiperbólica em Sistemas de Comunicação. 2018. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Conference in Representation Theory of the Americas to celebrate the 70 birthday of Professor Edward Green. Phia algebras. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>III Congresso Internacional e V Semana da Ead (Grupo Unis). Métodos de Pesquisa Operacional e Cálculo Numérico aplicados à resolução de problemas. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Simpósio Integrado da UNIFAL-MG.Avaliador de trabalhos. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>III Simpósio Integrado UNIFAL-MG.Avaliação de trabalhos. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Simpósio Integrado UNIFAL-MG.Modelagem Matemática de Tratamentos Oncológicos. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IV ENSET - Quarto Encontro Sanjoanense de Engenharia e Tecnologia do Campus da Unesp de São João da Boa Vista.Minicurso - Introdução ao Latex. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV SEMAT - Semana da Matemática. Modelagem do código genético através de elementos da extensão de Galois GF(2^6). 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV SEMAT: Ensino- Aprendizagem de Matemática com Curiosidade e Diversão.Tesselações no Plano Hiperbólico. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IV SEMAT: Ensino-Aprendizagem de Matemática com Curiosidade e Diversão. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>O direito à educação no contexto atual: reformas e alternativas. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Semana Nacional de Ciência e Tecnologia. Noções de Álgebra Linear Aplicada. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Simpósio de Matemática da FCT/UNESP.Completude do conjunto de números reais e decomposição de operadores em valores singulares. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Two Days Meeting.Phia algebras. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VI Jornada da Informação.Caracterização da região fundamental para a uniformização de curvas algébricas planares via EDOs fuchsianas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VII Congresso Internacional de Ensino da Matemática. A formação matemática de futuros pedagogos antes de ingressarem no curso de Pedagogia. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VII Congresso Internacional de Ensino da Matemática. O círculo quadrado como possibilidade de discutir matemática e filosofia da matemática. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VII Congresso Internacional de Ensino de Matemática (CIEM). A formação Matemática de futuros pedagogos antes de ingressarem no curso de pedagogia. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VII Jornada da Informação.Códigos quase-perfeitos geometricamente uniformes derivados de grafos sobre anéis de inteiros. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>VII Jornada da Informação.Uniformização de Curvas Algébricas associadas a Equações Diferenciais Fuchsianas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XI - EMED / Encontro Mineiro de Equações Diferenciais. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XI EMED - Encontro Mineiro de Equações Diferenciais.Equações Diferenciais Fuchsianas Associadas a Sistemas de Comunicação Através da Uniformização de Curvas Algébricas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XI Encontro de Formação de Professores - 11o FIMAQUI.Potencialidades pedagógicas com o software Geogebra. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XI Semana da Matemática da UFSJ. Introdução aos Códigos Corretores de Erros. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXXVII Congresso Nacional de Matemática Aplicada e Computacional - CNMAC 2017. Matemática para Cidadania: trabalhando conceitos matemáticos analisando a conta de água. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXXVII Congresso Nacional de Matemática Aplicada e Computacional. Uniformização de Curvas Algébricas Planares via EDOs Fuchsianas no Estudo de Sistemas de Comunicação. 2017. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13th International Congress on Mathematics Education. Equity in the higher education: the role of mathematics education faced with affirmative actions. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARTA V - Advances in Representation Theory of Algebras. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CIMPA School - Homological Methods, Rep Theory and Cluster Algebrasras. Piecewise hereditary incidence algebra. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CNMAC 2016 ? XXXVI Congresso Nacional de Matemática Aplicada e Computacional. http://2016.cnmac.org.br/. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Colóquio de Pesquisas em Educação Matemática Crítica.Políticas de ações afirmativas e educação matemática". 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura e Aplicada. Determinação de grupos fuchsianos casados a constelações de sinais através da uniformização de curvas algébricas planares. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura e Aplicada. On positive and trace class integral operators. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>II Simpósio Integrado UNIFAL-MG.Avaliador de trabalhos. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IV Jornada da Informação.Conexões entre Séries de Farey, Superfícies de Riemann e Equações Diferenciais Fuchsianas. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Jornada de representações de álgebras. Projeto Temático - Estruturas algébricas e suas representações re.Álgebras de incidência hereditárias por partes. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>X ENAMA.Traceability of positive integral operators: a reproducing kernel point of view. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XII Encontro Nacional de Educação Matemática (XII ENEM). Ações afirmativas no ensino superior e educação matemática: discutindo a questão da permanência do estudante. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XVIII Encontro Nacional de Ensino de Química.O interdisciplinar e o lúdico no ensino de Química. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXIV Escola de Álgebra. Piecewise hereditary incidence álgebras. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXVI Congresso Nacional de Matemática Aplicada e Computacional. Proposta de otimização para o roteiro histórico-iconográfico da cidade de Natal-RN. 2016. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Colombian Workshop on Coding Theory (CWC). The relationship between Riemann surface and Fuchsian Differential Equation with the aim at coding of geodesics. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Congresso Internacional. Aplicação de Ferramentas Matemáticas na Resolução de Problemas Biológicos. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Simpósio Integrado UNIFAL-MG.Casa Ciência: um centro de divulgação científica. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II Workshop em Álgebra e Teoria de Códigos.Superfícies de Riemann associadas a coeficientes de equações diferenciais fuchsianas. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Semana da Matemática e II Workshop de Estatística Aplicada e Biometria. Apenas participação, sem apresentação. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>III Semana da Matemática e II Workshop de Estatística Aplicada e Biometria. Dialogando sobre o Curso de Licenciatura em Matemática da Unifal-MG. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>III Semana da Matemática e II Workshop em Estatística Aplicada e Biometria da Unifal-MG. Forma Multilinear e Determinante. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lourdes Casal Lecture - Roberto Zurbano Lecture. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Semana de Ciência e Tecnologia da UNIFAL-MG: Edição 2015. 2015. (Exposição).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SP Coding and Information School. Fuchsian Differential Equations and the relations with the associated surfaces to the Farey tesselations. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Teja Arboleta's "Ethic Man" for International Educational Week. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V SHIAM - Seminário Nacional de Histórias e investigação de/em Aulas de Matemática/ed.Ações afirmativas, ensino superior e educação matemática. 2015. (Seminário).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>30 anos da PPGEM. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>4º EIEMAT - Escola de Inverno de Educação Matemática. Atividades Investigativas com o Geogebra. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>4º EIEMAT - Escola de Inverno de Educação Matemática. Cenários para investigação na sala de aula: possibilidades e imprevistos em um ambiente computacional. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Colóquio Internacional Justiça, Política e Sociedade.Equidade no ensino superior brasileiro: discutindo o papel da educação matemática frente às políticas de ações afirmativas para grupos miinoritários. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Conference on Ring Theory dedicated to the 60th birthday of Professor Eduardo Marcoscos. Incidence piecewise hereditary algebras. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Dia da Aproximação.On reproducing kernel Hilbert spaces. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Fórum Inclusão e Diversidade. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Higher Education Access and Inclusion: Transnational Lessons for Research, Po. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura e Aplicada. On reproducing kernel Hilbert spaces and approximation. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Jornada da Informação.Equações Diferenciais Fuchsianas e sua Relação com Tesselações de Farey, Sistemas Dinâmicos e Estrutura das Células Hepáticas. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Workshop de Estatística Aplicada e Biometria. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IX Conference GAFEVOL. Existence of solutions for a fractional neutral integro-differential equations with unbounded delay. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Programa de verão 2014, PGMAC UEL.Aproximação de soluções de equações integrais de Volterra em espaços de Hilbert de reprodução.. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Seminário de Iniciação Científica - SIC/2014.Análise da Codificação Genética da Leucemia Linfocítica Crônica através de Códigos Corretores de Erros. 2014. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VI Jornada de Álgebra 2014 UFPR-UFRGS-UFSC-UFSM-FURG-UEMEM. Álgebras de incidência hereditárias por partes. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VII COPENE 2014 - Congresso Brasileiro de Pesquisadores Negros. Ações Afirmativas e Educação Matemática: Estratégias Pedagógicas de Permanência no Cenário Universitário. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXIII Escola de Álgebra. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXXV CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Um estudo sobre equações diferenciais fuchsianas e as relações com as superfícies associadas às tesselações de Farey. 2014. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>(Third Iberoamerican Workshop on Orthogonal Polynomials and Applications) I Encontro do Grupo de Jovens Pesquisadores em Teoria da Aproximação e Polinômios Ortogonais.On reproducing properties of Mercer-like kernels. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2013 Information Theory and Applications Workshop. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2013 North American School of Information Theory. Maximal Quaternion Orders Derived from {4g,4g} Tessellations. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>2º Congresso de Jóvenes Investigadores de la RSME. On Mercer-like kernels: theory and applications. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Advanced Topics in Genomics and Cell Biology. Applications of fuchsian differential equations in the study of communication between two liver cells. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Atividade Inaugural de Verão do ano de 2013 - Programa de Pós-Graduação em Educação Matemática - UNESP Rio Claro. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CIMPA-UNESCO-MESR-MINECO-BRAZIL Research School on ?Algebraic and Geometric Aspects of Representation Theory?. Homomorfismos entre os módulos regulares sobre uma álgebra hereditária selvagem. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Como as crianças aprendem: a relação dialética entre cultura, crianças e professores na ed. infantil. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fóruns Permanentes: Acesso ao ensino superior no Brasil: equidade e desigualdade social. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fóruns permanentes: Inclusão e diversidade: políticas atuais e desafios para o futuro. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Congresso de Matemática Aplicada e Computacional da Região Centro-Oeste - I CMAC Centro-Oeste. Análise Algébrica do Código Genético através da Representação Polinomial dos Códons. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ICMC Summer Meeting on Differential Equations 2013. Resolvent operators for fractional integro-differential equations and applications. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II Congresso Brasileiro de Informática na Educação. Explorando o SuperLogo na formação inicial de professores de matemática por meio da construção de pavimentações do plano: aprendendo com a sua criatividade. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>II Semana da Matemática da Unifal-MG. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>II Semana da Matemática da Unifal-MG.Minicurso Linguagem Matemática. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>II Semanda da Matemática Unifal-MG. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Matemática e Estatística do Planeta Terra. Uma conversa sobre matemática. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>North American School of Information Theory. Polynomial Representation of Codons by Galois Field Extensions and Labeling in the Study of the Genetic Code. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Semana Cultural e Tecnológica do IFSUDEMINAS. A matemática pura e aplicada no ensino superior. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Semana de Tecnologia, Educação e Responsabilidade Social.Matemática Aplicada a Problemas Biológicos. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>V Simpósio de Álgebra da UFPR. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>VII CIBEM - Congresso Iberoamericano de Educación Matemática. Políticas de cotas nas Universidades Brasileiras e seus reflexos na Educação Matemática. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>VII Cogresso Iberoamericano de Educación Matemática. O uso de objetos de aprendizagem em um processo de produção de significados sobre trigonometria. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XI Encontro Nacional de Educação Matemática.. Corrida no ciclo trigonométrico: reflexões de uma professora em formação no desenvolvimento do jogo.. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XI Encontro Nacional de Educação Matemática.. Funções Trigonométricas em Videoaulas: Possível contribuição para a aprendizagem.. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XI Encontro Nacional de Educação Matemática.. Mosaicos, Pavimentações do Plano e o Ensino da Geometria.. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XI ENEM - Encontro Nacional de Educação Matemática. O software Geogebra e o trabalho com atividades investigativas na formação de professores. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XXI Congresso Interno de Iniciação Científica da Unicamp. Avaliador de trabalhos de iniciação científica. 2013. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2o Simpósio Nacional sobre a Síndrome da Imunodeficiência Adquirida. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>40º Encontro Regional Sudeste de Pró-Reitores de Extensão de Instituições Públicas Brasileiras de Educação Superior d. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Encontro de Análise Funcional e Teoria da Aproximação de Uberlândia. Núcleos Positivos Definidos e Espaços de Hilbert de Reprodução. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>RELME - Reunião Latino Americana de Educação Matemática. Grupos de Estudo: uma proposta para formação inicial de professores. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Seminário Modelo dos Campos Semânticos e Educação Matemática: 20 anos de de história. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VI Bienal da Sociedade Brasileira de Matemática. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>VI Bienal da Sociedade Brasileira de Matemática. Códigos Corretores de Erros associados às sequências de DNA. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>VI Bienal da Sociedade Brasileira de Matemática. Participação em Minicursos e Oficina. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>VI Bienal da Sociedade Brasileira de Matemática.. Geometria Dinâmica em 3D.. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VI ENAMA - Encontro Nacional de Análise Matemática e Aplicações.On Hilbert space reproducing properties of the usual fourier transform. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI Encontro Mineiro de Equações Diferenciais.Existência de Soluções para um problema de quarta ordem assintoticamente linear quando a não-linearidade cruza autovalores. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VII Seminário de Extensão.Intervenções em sala de aula com utilização de jogos no ensino de matemática: enigmas da divisão. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VII Seminário de Extensão.Relato de Experiências em sala de aula com a utilização de jogos no ensino de matemática: fazendinha das porcentagens. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XII Encontro Estadual da ANPAE-SP/VIII Encontro Regional da ANPAE Sudeste.Os efeitos da meritocracia nas escolas de Chicago: o que o Brasil deveria aprender. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XX Congresso Interno de Iniciação Científica da Unicamp. Avaliador de Trabalhos de Iniciação Científica. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXVII Seminário do Curso de Engenharia Elétrica.Análise do Código Genético Através de Ferramentas Matemáticas e de Engenharia. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXXIV CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Análise Algébrica do Código Genético através da Soma entre códons. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXXIV Congresso Nacional de Matemática Aplicada e Computacional. Codes over Graphs Derived from Quotient Rings of the Quaternion Orders. 2012. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2011 IEEE Information Theory Workshop (ITW 2011). 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>3rd International Castle Meeting on Coding Theory and Applications.Geometrically Uniform Quasi-Perfect Codes Derived from Graphs over Integer Rings.. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>A elaboração e submissão de projetos em atendimento a editais na perspectiva do ensino, da pesquisa e da extensão. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Congresso de Matemática Aplicada e Computacional da Região Sudeste - I CMAC Sudeste. Análise Algébrica do Código Genético através do Diagrama de Hasse e do Reticulado Booleano. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Congresso de Matemática Aplicada e Computacional da Região Sudeste. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Semana da Matemática da Unifal-MG. Avaliação apresentação trabalhos. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Semana da Matemática da Unifal-MG.Demistificando o determinante de uma Matriz. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Semana da Matemática da Unifal-MG.Uma introdução à Teoria dos Grafos. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Semana da Matemática.Oficina de Origami. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IEEE Information Theory Workshop. Participação em Palestras. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Workshop sobre Boas Práticas em Educação a Distância. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III Encontro Internacional de Linguagem, Cultura e Cognição. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IV Jornada Científica e XIII Mostra de Extensão da Unifal-MG. Avaliação de Projetos na área de Matemática. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>The 10th International Conference on Finite Fields and their Applications. Geometrically Uniform Hyperbolic Codes Derived from Graphs over Quaternion Orders. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>V ENAMA.On reproducing properties of Mercer-like kernels. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VII Colóquio Nacional/ IV Colóquio Internacional Wittgenstein: Wittgenstein e a Epistemologia. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VIII Congresso Brasileiro de Ensino Superior a Distância - ESUD 2011. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VIII Congresso de Ensino Superior a Distância. 2011. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>4° Encontro de Formação de Educadores.Sistema Dinâmicos Discretos Caóticos. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Workshop sobre Boas Práticas em Educação a Distância. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>II Colóquio Regional EAD. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>III Jornada Científica da Unifal-MG. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Jornada de Iniciação Científica da Unifal.Um olhar sobre o ensino de funções e propostas alternativas usando novas tecnologias. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>III SHIAM - Seminário de Histórias e Investigações de / em aulas de matemática.Grupos de estudo na formação inicial de professores de Matemática. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>International Symposium on Information Theory.Quasi-Perfect Geometrically Uniform Codes Derived from Graphs over Gaussian Integer Rings. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV ENAMA. An extension of Mercer's theorem via reproducing kernel Hilbert spaces. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>X Encontro Nacional de Educação Matemática: educação matemática, cultura e diversidade.História da matemática em livros didáticos de primeira a quarta série (ou do primeiro ao quinto ano): um estudo preliminar. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>X Encontro Paulista de Educação Matemática.Contribuições de um grupo de estudos na formação inicial de professores de Matemática. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XI International Conference on Engineering and Technology Education - INTERTECH'2010. Análise da Estabilidade Transitória de Sistemas de Energia Elétrica usando uma Rede Neural ART Euclidiana & ARTMAP com Treinamento Continuado. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXXIII Congresso Nacional de Matemática Aplicada e Computacional - CNMAC. Fractais e Progressões Geométricas. 2010. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>27 Colóquio Brasileiro de Matemática. Positive integral operatirs and the Schatten classes. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>4º Congresso Brasileiro de Extensão Universitária. Tambores de Maracatu. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>69 SBA.Integral operators defined by positive definite kernels and the Schatten p-classes. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ciclo de debates Consumo Consciente e Sustentável: um enfoque mu multidisciplinar.Permacultura: noções, conceitos e práticas. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Encontro Sul-Americano em Representações de Álgebras. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Encontro de Rondonistas.INFORMÁTICA NA ESCOLA E NO TELECENTRO DE PILAR-PB. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Simpósio Nacional de Ensino de Ciência e Tecnologia - SINECT.O trabalho com geometria dinâmica em uma perspectiva investigativa. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>II Jornada de Iniciação Científica da Unifal.Teoria dos Fractais e Aplicações. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II SEMINÁRIO DE FORMAÇÃO DE PROFESSORES.O potencial didático dos fractais. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Seminário Nacional sobre Formação de Professores.Origami na Prática de Professores. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Encontro de Educação Matemática de Ouro Preto. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IX Encontro de pesquisa em educação da região sudeste - Anpedinha.O trabalho docente com geometria dinâmica em uma perspectiva investigativa. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Seminário Brasileiro de Análise.Análise da Estabilidade Transitória de Sistemas Elétricos usando uma Rede Neural ART Euclideana & ARTMAP. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>V Encontro Mineiro de Educação Matemática.Origami no Ensino de Matemática: uma possibilidade. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>V Reunião Anual de Professores do Projeto Rondon. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>X Congresso Estadual Paulista sobre formação de educadores. Grupos de estudos na elaboração de atividades de geometria dinâmica. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XI Mostra de Extensão da Unifal-MG.Desenvolvimento de página WEB para o ensino e aprendizagem de Matemática. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XI Mostra de Extensão.Faces da Extensão Universitária na UNIFAL-MG. 2009. (Outra).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>EPEM - Encontro Paulista de Educação Matemática.Atividades Investigativas Utilizando o Geogebra. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Colóquio de Educação Matemática Inclusiva. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>II Colóquio de Educação Matemática.A Violência Escolar e o Professor de Matemática. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II ENAMA.A connection between two concepts of positive definiteness. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II SHIAM - Seminário de Histórias e Investigações de/em aulas de Matemática. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IV Bienal da Sociedade Brasileira de Matemática. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV Bienal da Sociedade Brasileira de Matemática. Utilização de Software de Geometria Dinâmica no Ensino de Matemática. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV Mini-Simpósio Métodos Topológicos em Equações Diferenciais. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jornada Científica da Unifal.Utilização de softwares de Geometria Dinâmica no Ensino de Matemática. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XII Encontro Brasileiro de Estudantes de Pós-Graduação em Educação Matemática.A Informática e o Trabalho Docente: a Geometria numa Perspectiva Investigativa. 2008. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>15º Evinci.Introdução às Variedades Diferenciais. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Encontro de Formação de Educadores. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1º Seminário de Formação de Professores. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1º Seminário sobre Formação de Professores (As licenciaturas em foco: formação e atuação profissional dos professores).A formação de professores para as ciências exatas: Desafios e Perspectivas. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>26º Colóquio Brasileiro de Matemática. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>26º Colóquio Brasileiro de Matemática. Positivide Definida e Transformada de Fourier. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I ENAMA - Encontro nacional de análise matemática e aplicações. Decaimento de autovalores de operadores integrais com núcleos positivos definidos e suaves. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I SEMINÁRIO DE FORMAÇÃO DE PROFESSORES.Experiências com o SuperLogo. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Jornada Paranaense dos Grupos PET - Conhecimento em Debate.Atividades do grupo PET - Matemática. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Symposium on Partial Differential Equations. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IX ENEM - Encontro Nacional de Educação Matemática. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Primeiro Seminário sobre Formação de Professores.Mini-Curso: Arte e Geometria. 2007. (Seminário).</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Foz2006. Involuções em Álgebras de Incidência. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Colóquio de Educação Matemática.A Produção de Significados para "Dimensão". 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ICMC-Summer Meeting in Differential Equations-2006 Chapter. ICMC-Summer Meeting in Differential Equations-2006 Chapter. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IV SEMANA DA MATEMÁTICA.Topologia e Geometria Fractal. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mini-Simpósio de Iniciação Científica.Order Stars e Métodos Numéricos de Passos Múltiplos. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>X Ebrapem-Encontro Brasileiro de Estudantes de Pós-Graduação em Educação Matemática.A Produção de Significados para Dimensão. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>X Semana de Engenharia Elétrica.X Semana de Engenharia Elétrica. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XIX Escola de Álgebra.Involuções em Álgebras de Incidência. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXIX Congresso Nacional de Matemática Aplicada e Computacional. 2006. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13º Evinci.Cadeias de Markov Ergódicas. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>13º Simpósio internacional de Iniciação Científica da USP.Order Stars e Métodos Numéricos Lineares de Passos Múltiplos. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>25o Colóquio Brasileiro de Matemática. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>25º Colóquio Brasileiro de Matemática. Order Stars e Métodos Numéricos de Passos Múltiplos: um estudo de algumas propriedades. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>2ª Semana da Matemática - UNIFEOB. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ENEPE-Encontro de Ensino, Pesquisa e Extensão da Unoeste.Estudo Numérico de Imagens Fractais. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I SEMANA DA MATEMÁTICA.O poder da Matemática. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Semana da Matemática.Progressões e Matemática Financeira. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ICMC-Summer Meeting in Differential Equations-2005 Chapter. ICMC-Summer Meeting in Differential Equations-2005 Chapter. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III SEMANA DA MATEMÁTICA.Trabalho realizado por aluno na aulas de Informática: Fractais. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV FAFGRAD - Fórum de Atividades Formativas da Graduação.I Brincando de Matemático. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mini-Simpósio de Iniciação Científica.Teoria da estabilidades fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Semana da Matemática.Equações a diferenças e aplicações. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Seminários CLE Auto-organização. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XI Encontro Baiano de Educação Matemática: matemática e diversidade cultural.XI EBEM (Encontro Baiano de Educação Matemática). 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XIII Semana da Matemática. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXII Simpósio Brasileiro de Telecomunicações.Discriminante mínimo de subcorpos de Q(\zeta_{p^{r}}). 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXVIII Congresso Nacional de Matemática Aplicada e Computacional. Uma nota sobre discriminante mínimo. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XXVIII-CNMAC. Um estudo dos métodos de Bernoulli e do quociente de diferenças para a localização de raízes de polinômios. 2005. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12º Evinci.Matrizes Estocásticas. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>12º SIICUSP-Simpósio Internacional de Iniciação Científica da USP.Estudo da teoria da estabilidade fraca para métodos lineares de passos múltiplos, no modo de previsão e correção. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1ª Semana da Matemática - UNIFEOB. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>56ª Reunião Anual da SBPC. Espaços Localmente Convexos. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CNMAC-Congresso Nacional de Matemática Aplicada e Computacional. Encontrando um método linear de k passos que seja ótimo. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ENEPE-Encontro Anual de Pesquisa Institucional.Teoria da estabilidade fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Mostra de Graduação e Pós Graduação da UFJF: XI Seminário de Iniciação Científica.I Mostra de Graduação e Pós-Graduaçõa da UFJF:XI Seminário de Iniciação Científica. 2004. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>ICMC-Summer Meeting inDifferential Equations-Chapter 2004. ICMC-Summer Meeting in Differential Equations-2004 Chapter. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II SEMANA DA MATEMÁTICA.Trabalho realizado pelo alunos de Informática: Projeto Calendário. 2004. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Simpósio de Foramação de Professores de Juiz de Fora.II Simpósio de Formação de Professores de Juiz de Fora. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Matemática na Escola: conteúdos e contextos.VII EPEM (Encontro Paulista de Educação Matemática). 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Summer Meeting in Differential. Summer Meeting in Differential. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XVIII Escola de Álgebra. 2004. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>24 Colóqio Brasileiro de Matemática.24 Colóquio Brasileiro de Matemática. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>24º Colóquio Brasileiro de Matemática. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Simpósio de Formação de Professores de Juiz de Fora.I Simpósio de Formação de Professores de Juiz de Fora. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I-Escola Brasileira de Equações Diferenciais. I-Escola Brasileira de Equações Diferenciais. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Simpósio de Matemática para a Graduação. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Summer Meeting in Differential. Summer Meeting in Differential. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Workshop do programa de aperfeiçoamento de ensino - PAE.Workshop do programa de aperfeiçoamento de ensino - PAE. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Workshop do Programa de Aperfeiçoamento de Ensino-PAE.Workshop do Programa de Aperfeiçoamento de Ensino-PAE. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>X Semana de Matemática e III Semana de Matemática Industrial. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XV Congresso de Iniciação Científica da Unesp. Sobre códigos cíclicos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XV Semana da Matemática. Códigos Cíclicos sobre Corpos Finitos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXVI Congresso Nacional de Matemática Aplicada e Computacional. Uma nota sobre códigos cíclicos. 2003. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>29º Colóquio de incentivo à pesquisa. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro Brasileiro de Topologia. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro de Álgebra 2002-MAT / UFMG. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ERMAC - 2002.Encontro Regional de Matemática Aplicada e Computacional. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ERMAC-Encontro Regional de matemática Aplicada. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Qualitative Theory of Differential Equations. Qualitative Theory of Differential Equations. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Semana da Matemática. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Semana da Matemática.Semana da Matemática. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XIV Congresso de iniciação cientifica. Códigos lineares sobre corpos finitos. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XIV Congresso de Iniciação Científica. XIV Congresso de Iniciação Científica. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XIV Semana da Matemática e Reunião Regional da Sociedade Brasileira de Matemática. Uma nota sobre códigos lineares. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XIV Semana da Matemática. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XVII ESCOLA DE ÁLGEBRA. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XVII Escola de Álgebra. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XVII Escola de Álgebra. D-simple rings and maximal ideals of the Weyl algebra. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXV Congresso Nacional de Matemática Aplicada e Computacional. XXV Congresso Nacional de Matemática Aplicada e Computacional. 2002. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>23 Colóquio Brasileiro de Matemática. 23 Colóquio Brasileiro de Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>23º Colóquio Brasileiro de Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro de Álgebra. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Semana da Matemática.Semana da Matemática. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XIII Congresso de Iniciação Ciêntifica. Códigos Binários. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XIII Semana da Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XIII Semana da Matemática. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXIII Colóquio Brasileiro de Matemática. XXIII Colóquio Brasileiro de Matemática. 2001. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fórum de Ciências da Faculdade de Ciências e Tecnologia ? 5ª Reunião de Iniciação Científica.Fórum de Ciências da Faculdade de Ciências e Tecnologia. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>IV Colóquio de Pesquisa e Pós-graduação em Matemática Aplicada. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Reunião Regional da Sociedade Brasileira de Matemática.Reunião Regional da Sociedade Brasileira de Matemática. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Semana da Matemática.Semana da Matemática. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XI Semana da Educação ? Semana da Pedagogia: O Universo em Desconstrução.XI Semana da Educação ? Semana da Pedagogia: O Universo em Desconstrução. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XII Semana da Matemática. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XII Semana da Matemática. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXVII Colóquio de Incentivo à Pesquisa. 2000. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>22° Colóquio Brasileiro de Matemática. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Seminários da Pós-graduação.Os duais de hipersuperfícies genéricas. 1999. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Second Panamerican Workshop on Applied and Computational Mathematic. Second Panamerican Workshop on Applied and Computational Mathematic. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>XX Congresso Nacional de Matemática Aplicada e Computacional. XX Congresso Nacional de Matemática Aplicada e Computacional. 1997. (Congresso).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 09:52:13<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

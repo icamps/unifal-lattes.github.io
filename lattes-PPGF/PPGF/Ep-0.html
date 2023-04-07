@@ -1,0 +1,1205 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[1989,
+2],
+[1993,
+1],
+[1994,
+3],
+[1995,
+4],
+[1996,
+3],
+[1997,
+4],
+[1998,
+3],
+[1999,
+5],
+[2000,
+9],
+[2001,
+5],
+[2002,
+14],
+[2003,
+26],
+[2004,
+26],
+[2005,
+43],
+[2006,
+32],
+[2007,
+31],
+[2008,
+29],
+[2009,
+30],
+[2010,
+27],
+[2011,
+37],
+[2012,
+32],
+[2013,
+15],
+[2014,
+15],
+[2015,
+23],
+[2016,
+17],
+[2017,
+12],
+[2018,
+11],
+[2019,
+7],
+[2020,
+6],
+[2021,
+17],
+[2022,
+9]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 498<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Animal Behaviour Live: Annual Online Conference 2022.Scale-free movement patterns in termites. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro de Outono da Sociedade Brasileira de Física.oral. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Workshop do Programa de Pós-Graduação em Física da Associação UNIFAL-MG/UFSJ. Co-varying Physical Couplings. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>III Workshop do Programa de Pós-Graduação em Física UFSJ-UNIFAL.Física, cupins e a maternidade na ciência. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Quark Matter 2022. Extracting Effective Viscosities from heavy ion collisions. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VI Workshop Escola de Computação e Informação Quântica - WECIQ 2022. Subspace-Search Variational Quantum Eigensolver (SSVQE) as a tool in materials science, a benchmark. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XLII Encontro Nacional de Física de Partículas e Campos.Aharonov-Bohm Effect in the Podolsky?s Generalized Electrodynamics. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XVIII ? Brazilian School of Cosmology and Gravitation.Bouncing Horizons in Euler-Heisenberg Black Holes. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXIX Reunião de Trabalho sobre Interações Hadrônicas,.Termodinâmica e hidrodinâmica da matéria fortemente interagente. 2022. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>"Opportunities of OO and pO collisions at the LHC". 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>16TH GRANADA SEMINAR: NEW FRONTIERS IN NONEQUILIBRIUM STATISTICAL PHYSICS. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>18º Congresso Nacional de Meio Ambiente de Poços de Caldas. PROJEÇÃO DA GERAÇÃO DE RESÍDUOS SÓLIDOS URBANOS EM POÇOS DE CALDAS ATÉ 2040POR MEIO DE MODELOS MATEMÁTICOS POPULACIONAIS. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro de Outono da Sociedade Brasileira de Física. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia (II CoBICET). Estimativa dos parâmetros físicos de buracos negros binários através de suas ondas gravitacionais. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia. MODELOS POPULACIONAIS APLICADOS AO SUL DE MINAS GERAIS. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LIDINE 2021: LIght Detection In Noble Elements. Simulating and Validating the X-ARAPUCA light sensors. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>NuFact 21 The 22nd International Workshop on Neutrinos from Acceleratorstors. Simulating the ARAPUCA - DUNE's next generation light sensors. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>NuFact 21 The 22nd International Workshop on Neutrinos from Acceleratorstors. Status of the Short-Baseline Near Detector at Fermilab. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Society for Mathematical Biology Annual Meeting.A Bayesian Framework for Mathematical Modeling of In Vivo Pharmacokinetic Profiles of Magnetic Particles. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Virtual Society for Mathematical Biology Annual Meeting.Gastric Emptying and Orocaecal Transit Analyses of Diabetic and Control Individuals Through Deep Neural Networks. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Weak Interactions and Neutrinos 2021. Status of the Short-Baseline Near Detector at Fermilab. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Workshop on Sociophysics: Social Phenomena from a Physics Perspective. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>X EFRAS: Physics School Roberto A. Salmeron.Covariant c-flation: a variational approach. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XLI Encontro Nacional de Física de Partículas e Campos.Understanding the correlation between mean transverse momentum and anisotropic flow in heavy-ion collisions. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XLIV Reunião de Trabalho sobre Física Nuclear no Brasil. Effective Viscosities for Anisotropic Flows. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XV International Workshop in Hadron Physics. Measuring the speed of sound of the quark-gluon plasma in ultracentral nucleus-nucleus collisions. 2021. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2020 JETSCAPE Online School. 2020. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>43ª RASBQ. Understanding the photobleaching mechanisms of MEH-PPV. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fala Ciência 2020. 2020. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Encontro sobre Divulgação e Ensino de F??sica de Part??culas IPPOG Brasil.?V??deos Curtos com Tekokuaba?. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>NORDITA Advanced Winter School on Theoretical Cosmology. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XLIII Reunião de Trabalho sobre Física Nuclear no Brasil. Revealing QCD thermodynamics in ultrarelativistic nuclear collisions. 2020. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>100 anos do eclipse de Sobral. Ondas Gravitacionais e Buracos Negros. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Festival Internacional Pint of Science Alfenas.Um gato e um átomo radiativo entram num bar.... 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Joint ICTP-Trieste/ICTP-SAIFR School on Observational Cosmology. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Minicourse on Quantum Gravity from QFT Perspective. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>The 6th Conference of the Polish Society on Relativity. Solar system analysis of a polynomial class of Palatini f(R) gravity. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Verão Quântico 2019. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XL Encontro Nacional de Física de Partículas e Campos. Higher-order modified Starobinsky inflation. 2019. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Encontro Mineiro de Física Estatística e Computacional. Jarzynski Equality for Quantum Sytems. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro Mineiro de Física Estatística e Computacional.-. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Hydro Music. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>III Congreso Nacional Peruano de Estudiantes de Farmacia y Bioquímica. El pollo molecular. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Congreso Nacional Peruano de Estudiantes de Farmacia y Bioquímica. Es el acoplamiento molecular el Santo Grial de la biologia Estructural?. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IV José Plínio Baptista School of Cosmology. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>th International Conference on Optical, Optoelectronic and Photonic Materials and Applications. Interpreting the two-photon absorption spectrum of Copper Indium Disulfide Quantum dots. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXI Encontro Nacional de Modelagem Computacional e IX Encontro de Ciência e Tecnologia de Materiais. SOLUCÇÃO NUMÉRICA DA EQUAÇÃO DE LANDAU-LEVICH PARA ALTURA DE FILMES FINOS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXXIX Encontro Nacional de Física de Partículas e Campos.Analytic Study of Cosmological Perturbations in a Unified Model of Dark Matter and Dark Energy with a Sharp Transition. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XXXIX Encontro Nacional de Física de Partículas e Campos.Dual Symmetry and Magnetic Monopoles in Generalized Electrodynamics. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXXIX Encontro Nacional de Física de Partículas e Campos.Scalar-multi-tensorial approach to f (R, ??1 R, ..., ??1 ...??n R) theories of gravity in Einstein frame: a metric approach. 2018. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>9ª JORNADA CIENTÍFICA E TECNOLÓGICA E 6º SIMPÓSIO DA PÓS-GRADUAÇÃO DO IFSULDEMINAS,.SiMULAÇÕES NUMÉRICAS DE HIPERTERMIA COM NANOPARTÍCULAS MAGNÉTICAS ATRAVÉS DE MEIO POROSO. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>APS March Meeting. Temporal disorder in discontinuous absorbing phase transitions. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro Nacional de Física da Matéria Condensada.A Two-band Model for p-wave Superconductivity. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro Nacional de Física Estatística.The advantage of being slow: The quasineutral contact process. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Simpósio de Física Teórica GIFT.Analytic construction of perturbations in unified models with sharp transition. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Workshop em Matemática e Matemática Aplicada. MODELOS DE DIFUSÃO APLICADOS À ELETRODIÁLISE. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>INTERNATIONAL CONFERENCE ON PHOTONIC ELECTRONIC AND ATOMIC COLLISIONS. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV Semana da Física da UFES-Alegre.Ondas Gravitacionais. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>McGill-Dartmouth Cosmology Day. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>POSMOL 2017 - XX International Symposium on Electron-Molecule Collisions and Swarms.Electron scattering by phenol and furfural: experimental measurements of the cross sections. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Quark Matter 2017. Hydrodynamic Predictions for Mixed Harmonic Correlations in 200 GeV Au+Au Collisions. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Verão Quântico 2017. 2017. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3º Eddic.Travessia - Em busca do Constituinte Fundamental. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>6th International Conference on Structural Biology. In silico development of new acetylcholinesterase inhibitors. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>6th International Conference on Structural Biology. Is molecular docking the holy grail of computational modeling?. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>8ª JORNADA CIENTÍFICA E TECNOLÓGICA E 5º SIMPÓSIO DA PÓS-GRADUAÇÃO DO IFSULDEMINAS,. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Audiência Pública: Problemas e Desafios dos Campi Fora das Sedes das Universidades Federais do Brasil.O Campus de Poços de Caldas da UNIFAL-MG. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Collective Motion 2016.Effects of social interactions in termite exploratory behaviour. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Encontro de Física 2016. Excited State Intramolecular Proton Transfer of a pi-conjugated Salicylidene Chromophore: An Experimental and Theoretical Study. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Encontro de Física 2016. Observational Constraints toa Phenomenological f(R,DR)-model. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Encontro de Física 2016.Effects of temporal disorder in low dimensional absorbing phase transitions. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Encontro de Física 2016.Improving the mapping of inital eccentricy of heavy-ion collisions using linear and cubic response. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Encontro Nacional de Física da Matéria Condensada. "Electron scattering by phenol and furfural". 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>FQAL16 - Físico-Química na América Latina. Electron scattering by biomolecules from biomass. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II Encontro em Modelagem Matemática e Computacional do Crescimento Tumoral - Escola de Verão do.?Nanoterapias anticâncer: contribuições de modelos multiescala?. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>III José Plínio Baptista Scholl of Cosmology. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Seminário Plano Diretor Participativo da Unicamp. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XIII Workshop em Física Molecular e Espectroscopia (WFME). Experimental differential cross sections for electron impact excitation of the electronic bands of furfural. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXXVI Encontro Nacional de Física de Partícula e Campos. Using Neutrinos to Monitor Nuclear Reactors: the Angra Neutrino Experiment, Simulation and Detector Status. 2016. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>14th World Congress on Anaerobic Digestion. Statistical Concepts Behind the Modeling of a Bioreactor. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>14th World Congress on Anaerobic Digestion. Uncertainties Sources and Magnitudes on the Turbidimetric Determination of Sulfate. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>17º Brazilian Workshop on Semiconductor Physics. Dresselhaus spin orbit effects on transport properties of polytypic nanowires. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>20th International Conference on Magnetism. Induced p-wave Superfluidity in Imbalanced Fermi Gases in a Synthetic Gauge Field. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>7ª JORNADA CIENTÍFICA E TECNOLÓGICA E 4º SIMPÓSIO DA PÓS-GRADUAÇÃO DO IFSULDEMINAS,. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Art/LArSoft Course. 2015. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Black Holes and their Analogues: 100 years of General Relativity. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Encontro Nacional de Física Estatística.Lévy flights and self-similar exploratory behavior of termite workers. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>EPSRC Meeting on Interdisciplinary Applications of Statistical Physics. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>EPSRC Meeting on Non-equilibrium statistical physics and emergence in biological systems. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>GR 100 in Rio. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Escola de Pós-Graduação ICT.Cosmologia como aplicação do princípio de conservação da energia. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>I Simpósio Integrado UNIFAL-MG.Geral. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>I Workshop de Educação em Engenharia de Minas. 2015. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>III - SEMAFIS.Mesa Redonda " Os Programas de Pós Graduação na Área de Física da UFSJ. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>III Semana Acadêmica da Física..Complexidade em Sistemas Biológicos. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>MOL2NET, International Conference on Multidisciplinary Sciences. In Silico Design of New Drugs for Myeloid Leukemia. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIV Brazil MRS Meeting. Investigation of the Nonlinear Absorption Spectrum of All-Trans Retinoic Acid by Using the Steady and Transient Two-Photon Absorption Spectroscopy. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XVII Escola de Verão Jorge André Swieca Física Nuclear Teórica.Mapeando o estado inicial das colisões de íons pesados. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXIX Semana Acadêmica da Biologia.Física + Biologia = ?. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXVIII Encontro da Sociedade Brasileira de Química MG. Electronic properties of disordered functionalized carbon nanotubes. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXXVI Encontro Nacional de Física de Partícula e Campos. Experimento Neutrinos Angra: Status da Simulação. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XXXVI Encontro Nacional de Física de Partículas e Campos.Observational constraints to a unified cosmological model. 2015. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>APS March Meeting.Spin transport on parallel coupled nanowires with Rashba spin-orbit interaction. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Brazilian School of Cosmology and Gravitation. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cosmologia Perturbativa.Minicurso de 18 horas ministrado pelo Prof. Dr. Léo Gouvêa Medeiros (UFRN) entre 17 e 26/09/2014. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ICRA 10. The Geometric Scalar Gravitation and a Cosmological Scenario. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II José Plínio Baptista School of Cosmology.The Geometric Scalar Theory of Gravity. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>International Conference on Strongly Correlated Electron Systems. Induced P-wave Superfluidity in Three-Dimensional Imbalanced Fermi Gases. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>International sustainability Days "Euro-Ibsa".Semiconductor nanostructures: fundamental and applied research aiming an efficient technology.. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IX Encontro Mineiro de Física. A LEI DE TITIUS-BODE APLICADA A SISTEMAS EXOPLANETA?RIOS. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IX Encontro Mineiro de Física. Testes Clássicos Da Relatividade Geral Descritos por uma Solução Esfericamente Simétrica Baseada em Branas. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IX Encontro Mineiro de Física. VI?NCULOS OBSERVACIONAIS PARA UM MODELO FENOMENOLO?GICO TIPO F(R,DR). 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IX Encontro Mineiro de Física.RESPOSTA DO FLUXO ANISOTRÓPICO ÀS PROPRIEDADES GEOMÉTIRCAS DAS COLISÕES DE ÍONS PESADOS. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MRS Fall. Investigating the Linear and Nonlinear Optical Properties of water-soluble CdTe QDs Synthesized by the One-Pot Method. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XVII Encontro de Modelagem Computacional, V Encontro Ciência e Tecnologia de Materiais. MODELO DE VIGA CAPACITIVA DE SEÇÃO CONSTANTE. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXXVII Encontro Nacional de Física da Matéria Condensada. Induced P-wave Superfluidity in Three-species Fermi Gases. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXVII Encontro Nacional de Física da Matéria Condensada.Multi-species contact process. 2014. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13th World Congress on Anaerobic Digestion. Model and simulation of the autotrophic denitrification of synthetic wastewater, using elemental sulphur as electron donor, considering a Gompertz model for biomass growth. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>5th INPE Advance Course: An Overview of Cosmology in the Era Of Large Telescopes. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>5º Verão Quântico. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Kick-off Meeting - HelmHoltz Virtual Institute. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LISHEP - International School on High Energy Physics. Angra Project: Status and Perspectives. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SECAP.Introdução a Vibrações Mecânicas. 2013. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Symposium In Honor Of Ron Dickman's 60th Birthday: Equilibrium, Non-Equilibrium and Complex Systems. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Symposium: Equilibrium, Nonequilibrium and Complex Systemss. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>The 12th International Conference on Intersubband Transitions in Quantum Wells. Negative photoconductance in a multiple quantum well structure. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Topology and Nonequilibrium in Low-Dimensional Electronic Systems.Spin transport properties of parallel coupled nano-wires. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI Encontro de Modelagem Computacional, IV Encontro de Ciência e Tecnologia dos Materiais e III Encontro Regional de Matemática e Computacional. THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XII Encontro da SBPMAT. A Comprehensive Study of Structure-Property Relationships for Two-photon Absorbing Triarylamine Molecules Containing Trifluoromethyl. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XVII Escola de Verão Jorge André Swieca de Partículas e Campos.Non-Adiabatic Solution to the Time Dependent Quantum Harmonic Oscillator. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XVII Escola de Verão Jorge André Swieca de Partículas e Campos.Schwarzschild and de Sitter solutions from the argument by Lenz and Sommerfeld. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXI Congresso de Iniciação Científica da UFSCar. XXI Congresso de Iniciação Científica da UFSCar. 2013. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13th Marcell Grossmann Meeting.A novel aspect of analogue models. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>31st International Conference on the Physics of semiconductortor. Strong electric field infrared photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>40 Encontro Regional Sudeste de Pró-reitores de Extensão de Instituições Públicas Brasileiras de Ensino Superior. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>APS March Meeting. Tuning the hole mobility in InP semiconductor nanowires. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Conhecendo a Unifal-MG: Atividades Integradas no Campus Poços de Caldas.Observação do Céu. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Encontro Nacional de Estudantes de Pós Graduação em Física 2012.Um novo aspecto de modelos análogos. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Fórum de Educação 2012 Blackboard. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop do Programa de Mestrado em Física UNIFAL-UFLA-UFSJ. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Workshop do Programa de Mestrado em Física. Teorias de gauge a la Utiyama, Gravitação e Cosmologia. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>International Conference on Physics Semiconductor. Strong electric field infrared photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures and Nanodevices. Electronic Transparency Tuning of Twin-Plane 1D Superlattices by Strain Fields. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures andand Nanodevices. Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures andand Nanodevices. Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures andand Nanodevices. Voltage controlled spin polarization in p-type GaAs/AlAs double barrier structures. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>International Conference on the Physics of Semiconductors. Electronic Transparency Tuning of Twin-Plane 1D Superlattices by Strain Fields. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>International Conference on the Physics of Semiconductors. Tuning the hole mobility in InP semiconductor nanowires. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>IV Semana do PIEPEX e III Semana do BICE.IV Semana do PIPEX e III Semana do BICE. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>IV Semana do PIEPEX.A Física no Lançamento de Foguetes Artesanais. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Latin American Optical and Photonics Conference. Influence of Conformational Change Induced by Solvent on the Two-photon Absorption Spectrum of Poly(3,6 phenanthrene). 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Mario Novello's 70th Anniversary Symposium. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Mário Novello's 70th Anniversary Symposium.Implantação do Centro de Divulgação Científica e Tecnológica da UNIFAL. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Quark Matter 2012. Mapping the hydrodynamic response to the initial geometry. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Semana Nacional de Ciência e Tecnologia. Observação do Céu com Telescópios. 2012. (Feira).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>VIII International Workshop on Neutrinos-Nucleus Interaction on the Few-GeV Region.. How much does the MSW contributes to the reactor antineutrino anomaly?. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>VIIII Semana da Física da UFSCar. Resolução da equação de Schrödinger dependente do tempo numericamente pelo método split-operator. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XI Brazilian MRS Meeting. Polarization Effect on the Two-photon Absorption of a Chiral Compound. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XII Hadron Physics. Heavy Meson Spectrum in an Semi-Analytical approach to the Static Quark Potential. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XV Brazilian School of Cosmology and Gravitation. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XVth Brazilian School of Cosmology and Gravitation. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XXV International Conference on Neutrino Physics and Astrophysics. Stronger limits for the Violation of Equivalence Principle from atmospheric neutrino data. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XXXV Encontro Nacional de Física da matéria Condensada. Combined Experimental and Theoretical Study on the One- and two-photon Absorption Properties of a novel Class of Phenylacetylene and Azoaromatic Compounds. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XXXVI Encontro Nacional de Física da matéria Condensada. Two-photon absorption of ZnS quantum dots: interpreting the nonlinear spectrum. 2012. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>8th Friedmann Seminar. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro de Física 2011. Dynamics of an accelerator of charged particles. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro de Física 2011.Classical Limit of Quantum Mechanics. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro de Física 2011.Non-Adiabatic Solution to the Parametric Quantum Harmonic Oscillator. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Encontro de Física 2011: Integração da Física na América Latina. Linear and nonlinear optical properties of chiral compounds: a theoretical-experimental study. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Encontro em Gravitação e Cosmologia Quântica. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Grav 11. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Congresso Mineiro de Ensino Superior. Reativação do Observatório Astronômico de Poços de Caldas. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Encontro de Física.SIS model on a Voronoi Triangulation. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Jornada Científica do Bacharelado Interdisciplinar em Ciência e Tecnologia. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I WORKSHOP DE CIÊNCIA, INOVAÇÃO E MODELAGEM DOS MATERIAIS. Movimento Browniano, princípios básicos e aplicações. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Workshop de Física-Matemática. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II Simpósio do Centro Oncológico Hospital São Sebastião. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ISMD 2011. Fluctuation in Initial Conditions and Anisotropic Flows. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>IV Jornada Científica e XIII Mostra de Extensão da Unifal-MG. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>IV Jornada Científica e XIII Mostra de Extensão da Unifal-MG.Cálculo de Regge e a Gravitação Universal. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>IV Jornada Científica e XIII Mostra de Extensão da Unifal-MG.Fundamentos Teóricos da Lei de Tittius-Bode. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>IV Jornada Científica e XIII Mostra de Extensão da Unifal-MG.Modelos de Universo Inflacionário. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>IX Workshop em Física Molecular e Espectroscopia. Caracterização de Feixes Eletrônicos Monoenergéticos de Baixíssimas Energias. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>NEWSPIN2 - International Winter School and Workshop. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Primeira Reunião Argentino-Brasileira de Gravitação, Astrofísica Relativística e Cosmologia.Contribuições para o programa de gravitação análoga. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Projeto PTA - Ambientação discente.Reflexões sobre atividades de Extensão. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Summer school on Quantum Matter: Foundations and New Trends. Inbalanced Fermi Gases in Two Dimensions. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Summer school on Quantum Matter: Foundations and New Trends. Some Phases of a Cold Imbalanced Fermi Gas in Two Spatial Dimensions. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Superconductivity: 100 years young.Algumas Fases de um Gás Frio de Átomos Fermiônicos Desbalanceados em Duas Dimensões Espaciais. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>V Reunião Anual do ICRA.Uma invariância inesperada das equações de Maxwell. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Workshop em Física-Matemática. Fluxo de calor assimétrico. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Workshop on Infrared Technology. Theorical studies of a multiple quantum well structure under bias working as an infrared photodetector. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>WPCF 2011. Connection between initial-state eccentricities and the Fourier coefficients of the resulting flows. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>X Encontro da SBPMAT. Linear and nonlinear optical properties of the thiophene-phenylene-based oligomer and polymer. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>X Latin American Workshop and Symposium on Anaerobic Digestion.Mathematical modeling of an horizontal-flow anaerobic immobilized biomass (HAIB) reactor treating acid mine drainage. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XIII Mostra de Extensão. Realização da Semana Nacional de Ciência e Tecnologia no Centro de Divulgação Científica e Tecnológica (CDCT) da UNIFAL. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>XIII Mostra de Extensão.Montagem e Treinamento Com Telescópios do Observatório Astronômico de Poços de Caldas. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XIV Encontro Nacional de Astronomia. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>XVI Escola de Verão Jorge André Swieca de Partículas e Campos.Aceleração Cósmica de Ordem Superior. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XXIX Encontro de Físicos do Norte e Nordeste.On the Structural Stability of the Logistic Prey-predator System. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XXXIV Encontro Nacional de Física da Matéria Condensada (Encontro de Física 2011). First principle study of Cu2ZnSn(SexS{1-x})4 alloys properties. 2011. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12CAM - FAPERJ Summer School. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>19th INTERNATIONAL LASER PHYSICS WORKSHOP. Two-photon absorption cross-section spectra of carotenoids compounds. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1a Semana da Escrita Científica do IFSC. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>6th International Conference of the Brazilian Association for Bioinformatics and Computational Biology. Modelling cancer treatment through chimeric polymers nanoparticles. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Amazonian School on Quantum Theory and Applications.Light Cone Deformations in Non-linear Electro-dynamics. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Fronties in optics. Polarization-dependent two-photon absorption of ?-conjugated molecules. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GR 19 meeting. Causal Surfaces Non-Linear Electrodynamics. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Encontro Nacional da Rede Nacional de Nanobiotecnologia Aplicada à Defesa.Quantum effects in electronic properties of semiconductor nanowires. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Simposium Mario Novello on Bouncing Models. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Workshop do Projeto Pedagógico do Bacharelado Interdisciplinar em Ciência e Tecnologia.Relatoria do Grupo de Trabalho da área de Ciências Naturais. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Escola Avançada de Óptica e fotônica. Polarization-dependent two-photon absorption of bio-molecules. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IV Reunião Anual do ICRA.Superfícies causais na Eletrodinâmica Não-Linear. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Latin American Optics Photonics conference (LAOP). Temperature dependence of the two-photon absorption of carotenoids. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Quantum Gases Beyond Equilibrium.Pairing in Imbalanced Fermi Gases. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>The INT@20. The Future of Nuclear Physics and its Intersections. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VII Seminário Sobre Leitura e Produção no Ensino Superior.Mesa-redonda: ?A produção científica nas áreas de Exatas e da Saúde?. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VIII Workshop em Física Molecular e Espectroscopia. Implantação de um espectrômetro de perda de energia de elétrons de baixas energias para estudo de moléculas. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XII Escola Brasileira de Estrutura Eletrônica.The Effects of a Zeeman Magnetic Field on Doped Trans-Polyacetylene. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XII Giambiagi School - Low dimensional condensed matter. Spin effects studies in a p-type resonant tunneling diode. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XII J. J. Giambiagi Winter School.Quantum effects in electronic properties of semiconductor nanowires. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XII Mostra de Extensão.Produção Acadêmica em Extensão Universitária. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XIV Brazilian School of Cosmology and Gravitation. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XIV workshop da pós-graduação do IFSC. Caracterização espectral do processo de absorção de dois fótons de compostos quirais. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXXI Encontro Nacional de Física de Partículas e Campos.Diagrama de Fases de um Gás Desbalanceado de Férmions em Duas Dimensões. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXXIII Encontro Nacional de Fisica da Materia Condensada.A model for the immune response in the virotherapy of cancer. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XXXIII Encontro Nacional de física da materia condensada. Two-photon absorption cross-section in Y-shaped molecules. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XXXIII Encontro Nacional de Física da Matéria Condensada. Decoherence and Irreversibility: the role of the effective Hilbert space size. 2010. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2nd Conference on Drug Development for the Third World: From Computational Molecular Biology to Experimental Approaches.Influence of conformational polymorphism in the receptor-ligand complex formation. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ano Internacional da Astronomia.Nó local: Poços de Luz Celeste. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Colóquio no Centro Brasileiro de Pesquisas Físicas, CBPF.Formação de Pares em Superfluidos Fermiônicos Desbalanceados. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro Nacional de Física da Matéria Condensada.Effects of the mean free path and slippery in a model for the aggregation of particles in superfluid media. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Fifith International School on Field Theory and Gravitation. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Fundamental Problems in Statistical Physics XII. Contact Process with Sublattice Symetry Breaking. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Calouro Cidadão. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop Perspectives in Field Theory.Descrição do QGP através do modelo de Quase-Partícula. 2009. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Calouro Cidadão. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Reuniao Anual do ICRA.Sobre a ação da luz em si mesma. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>International Conference on Advanced Materials. Investigation of the Degenerate Two-Photon Absorption Cross-Section in all-trans Retinal: Nonlinear Spectrum and Molecular Structure. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Maratona da Via Láctea.O que é Astronomia?. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Panomara da Óptica. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Plasmonic Day. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Segunda Escola de Viena: do Colapso do Sistema Tonal à Elaboração do Dodecafonismo. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Semana de Ciência e Tecnologia.40 Anos do Homem na Lua. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Semana Nacional de Ciência e Tecnologia.Estudo de Viabilidade e Aplicação da energia Solar Fotovoltaica na Iluminação Pública. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Simposio Interdisciplinar Fisica + Bioinformatica. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Simpósio Interdisciplinar Física+Bioinformática.Multiscale modelling for the virotherapy of avascular pappilary tumours. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>V Semana da Física.Formei, o que fazer?. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Workshop e Escola Avançada em Nanoplasmônica. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XI Latin American Workshop on Nonlinear Phenomena. Universality Class of the Contact Process with Random Dilution. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XI Latin American Workshop on Nonlinear Phenomena.Multiscale modelling for the virotherapy of avascular papillary tumors. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XI Latin American Workshop on Nonlinear Phenomena.Scaling laws for aggregation process of wandering particles with correlated walks. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XIII workshop da pos-graduação em física do IFSC. Absorção de dois fótons degenerada de compostos carotenóides: Espectro não linear e cálculos teóricos. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XIV Brazilian Workshop on Semiconductor Physics. Strain induced optical channels with Markov and non-Markovian natures in semiconductor quantum wires. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XXX Encontro Nacional de Física de Partículas e Campos. Diagrama de Fases de um Gás de Férmions Desbalanceado em Duas Dimensões. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XXXII Encontro Nacional de Física da Materia Condensada. Multiphoton absorption spectra of ZnO. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XXXII Encontro Nacional de Física da Materia Condensada. Two-photon absorption spectra of all-trans retinal. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XXXII Encontro Nacional de Física da Matéria Condensada. 2009. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3ª Mostra Estadual de Ciência e Inovação.Buracos Negros Acústicos. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>4º Simpósio Brasileiro em Química Medicinal. BrazMedChem 2008.Influence of conformational polymorphism in the receptor-ligand complex formation. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>4º Simpósio Brasileiro em Química Medicinal. BrazMedChem 2008.Molecular modeling of prenilated benzophenones extracted from seeds of Rheedia Brasiliensis. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>4º Simpósio Brasileiro em Química Medicinal. BrazMedChem 2008.Powder diffraction analyses of crystalline forms of fluconazole, nimesulidum and mebendazole. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>7th Alexander Friedmann International Seminar on Gravitation and Cosmology.Galactic Nonlinear Dynamical Model.. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>8th International Conference on Clifford Algebras and their Applications. Variational Formulation for Quaternionic Quantum Mechanics. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Amazonian School on Quantum Theory and Applications.Modelos Análogos Acústicos a Sistemas Gravitacionais. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Black Holes: Theoretical, Mathematical and Computational aspects. Interacting Constituents in Cosmology. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Coference on Computional Physics 2008. Contact Process on a Voronoi triangulation. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Colóquio no Programa de Pós Graduação em Física da UERJ.Formação de Pares em Superfluidos Fermiônicos Desbalanceados. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Encontro Nacional de Física da Matéria Condensada.Scaling laws in a model for cell movement and aggregation in culture. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Hot and Dense Matter in the RHIC - LHC Era. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>I SEPROSUL - BA.MathCad aplicado à Engenharia. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>II Escola Avançada de Óptica e Fotônica. Estudo de processos ópticos não lineares em filmes finos de compostos orgânicos utilizando Varredura-Z reflexiva. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>II Reuniao Anual do ICRA.Classificação de Regimes Não-Lineares na Eletrodiniamica. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>International Conference on Strongly Correlated Electron Systems. Asymmetrically Doped 1-Dimensional Trans-Polymers. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>IV Semana de Física da UESC.Relações de Incerteza, aspéctos Filosóficos e Científicos. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Quark Matter 2008. Thermodynamics of Quasi-Particle at finite chemical potential. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Seminários Gerais do Departamento de Física da UFMG.Formação de Pares em Superfluidos Fermiônicos Desbalanceados. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Workshop de Fisica Biologica do Programa de Doutorado Associado em Fisica UFJF/UFV.Um modelo multiescala para viroterapia do cancer. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Workshop on Relativistic Dynamics of Graphene. 2008. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XII Workshop da Física.Estudo do processo de absorção de dois fótons no retinal. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XIII Brasilian School of Cosmology and Gravitation - BSCG. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XIIIth Brazilian School on Cosmology and Gravitation. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXXI Encontro Nacional da Matéria Condensada. Correspondence Principle and Uncertain Relatios. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XXXI Encontro Nacional de Fisica da Materia Condensada.A multiscale model for avascular tumor growth in a hypoxic scenario. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XXXI Encontro Nacional de Física da Materia Condensada. Estudo de processos ópticos não lineares em filmes finos de compostos orgânicos utilizando Varredura-Z reflexiva. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XXXI Encontro Nacional de Física da Matéria Condensada.Calculation of the thermal resistance and temperature distribution in InGaAsN/GaAs semiconductor lasers. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XXXI Encontro Nacional de Física da Matéria Condensada.O Processo de Contato em uma Rede de Voronoi-Delaunay. 2008. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10o Sicem.Estudo das propriedades Hemocompatíveis do Poliglicerol dendrítico por Ressonãncia de Plásmon de Superície. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bardeen-Cooper-Schrieffer Theory of Superconductivity @ 50. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BIOMAT - International Symposium on Mathematical and Computational Biology.Multiscale modelling for the virotherapy of avascular tumor. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BIOMAT 2007 - International Symposium on Mathematical and Computational Biology.Scaling laws in a model for cell movement and aggregation in culture. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cesare Lattes Meeting on Gamma Ray Bursts. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Encontro Nacional de Física da Maéeria Condensada.Uncorrelated Mound Growth in Interface Model with Biased Diffusion. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Conferência de Cosmologia, Relatividade e Astrofísica.Estabilidade da Estrutura Conforme na Cosmologia. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Reuniao Anual do ICRA.Excitações do Tensor de Weyl na Cosmologia. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Conference on Computational and Mathematical Population Dynamics. Multiscale modelling for the virotherapy of avascular tumor. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Latin American Conference in Statistcal Physics and Interdisciplinary Aplications. On the Simulating of Stochastic Processes with Absorbing States. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Escola de Cosmologia e Gravitação. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Logic and Time (in honor of Kurt Gödel). 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>QCD Under Extreme Conditions - 2º Rio-Saclay Meeting. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Second Latin American School and Conference of Statistical Physics and Interdisciplinary Applications. Multiscale modelling for the virotherapy of avascular tumor. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Seminários do Programa de Pós-Graduação em Física do Instituto de Física da UFF.Formação de Pares em Superfluidos Fermiônicos Assimétricos. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Statphys 23. Classical and Quantum Harmonic Chain with Alternate Masses and Self-Consistent Reservoirs: Properties of the Heat Conductivity. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Summer School on Particle Physics. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>V Brazilian Meeting on Simulational Physics.Contact process on small-world networks. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>V Brazilian Meeting on Simulational Physics.Relaxation and screening breakdown in the diffusion-limited aggregation model. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Workshop on Atomic Quantum Fluids.Pairing in Asymmetrical Fermion Superfluids. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>X Latin American Workshop on Nonlinear Phenomena.Symmetry break in ferromagnetic electrocrystallization: the interplay between dipolar interactions and Laplacian growth. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XI Workshop da Física. Investigação de processos não lineares em filmes finos de compostos orgânicos. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XIV Escola de Verão Jorge André Swieca de Partículas e Campos. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XIV Escola de Verão Jorge André Swieca De Partículas e Campos.Modelo de Quase-Partícula para um Plasma de Glúons. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XV Congresso de iniciação Científica da UFSCar. ESTUDO DAS PROPRIEDADES ÓTICAS E DE TRANSPORTE DE HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE COM PONTOS QUÂNTICOS. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XV Congresso de Iniciação Científica da UFSCar. FORMAÇÃO DE TRÍONS EM DIODOS DE DUPLA BARREIRA DO TIPO P-I-N. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XXIII IUPAP International Conference on Statistical Physics. Moment Ratios for the Pair Contact Process with Diffusion. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XXVII Encontro Nacional de Física de Partículas e Campos.Termodinâmica de Plasma de Quase-Glúons. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XXX Congresso Paulo Leal Ferreira de Física Teórica. Simetrias de FRW e dS. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XXX Congresso Paulo Leal Ferreira. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XXX Encontro Nacional de Física da Matéria Condensada. O Processo de Contato em uma Rede de Voronoi-Delaunay. 2007. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Encontro de Jovens Pesquisadores - IFGW - UNICAMP.O Problema do Neutrino Solar. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro Nacional de Física de Partículas e Campos. Falhas Numéricas e o Problema do Neutrino Solar. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FOURTH INTERNATIONAL SCHOOL ON FIELD THEORY AND GRAVITATION. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fourth International School on Field Theory and Gravitation.Formulação Variacional da Mecânica Quântica, Covariância e a Base de Estados. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Fourth International School on Field Theory and Gravitation.Primeval symmetry breaking: Killing fields for FRW. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Heavy and Light Quark Differences in Jet Quenching Simulation at LHC. LISHEP 2006 - Workshop on Collider Physics. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Escola de Física Computacional Moderna. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IAG-LENAC XIII Advanced School of Astrophysics. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ICMP - International Congress on Mathematical Physics. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Semana de Física - UFSCar - Mini-curso Spintrônica. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Semana de Física da UFSCar. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III Escola de Interações Fundamentais. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IVth International Conference on Quarks and Nuclear Physics. IVth International Conference on Quarks and Nuclear Physics. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Probing Torsion Action Effects at LHC.XXVI Physics in Collision. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Topics on Mathematical Physics. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VI Ciclo de Mini-Cursos e Palestras do Programa de Pós-Graduação em Física da UNESP de Guaratinguetá.Superfluidos Fermiônicos Assimétricos. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VI Escola do CBPF. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Workshop de Física e Astrofísica de Neutrinos.Falhas Numéricas e o Problema do Neutrino Solar: Quando o Runge-Kutta-Felberg Não Funciona. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Workshop Waves in Fluids. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>World Polymer Congress - Macro 2006. Study of the blood compatibility of polyglycerol dendrimer by using surface plasmon resonance sensor. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XII - Brazilian School of Cosmology and Gravitation - BSCG. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XIIth Brazilian School of Cosmology and Gravitation. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XIV Congresso de Iniciação Cientifica - UFSCar - Mini-curso Computabilidade. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XIV Congresso de Iniciação Científica da UFSCar. EFEITO TUNEL RESSONANTE EM HETEROESTRUTURAS DE DUPLA BARREIRA COM PONTOS QUÂNTICOS. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XIV Congresso de iniciação científica da UFSCar. ESTUDO DE COMPLEXOS EXCITÔNICOS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XVI Congresso de Iniciação Cientifica. Simulação Computacional do Dipalmitoilfosfatidilcolina (DPPC) e sua Interação com Fármaco via Dinâmica Molecular. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XXIX Congresso Paulo Leal Ferreira de Física Teórica. Aplicação da teoria de gauge de segunda ordem: a massa do fóton. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XXIX Encontro Nacional de Física da Matéria Condensada.Aggregation in a mixture of Brownian and ballistic wandering particles. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XXIX Encontro Nacional de Física da Matéria Condensada.Anisotropy effects in an extended Eden model. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XXIX Encontro Nacional de Física da Matéria Condensada.Molecular Dynamics Simulation of Dipalmitoyilphosphatidylcholine Lipid Monolayers. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XXVII Encontro Nacional de Física de Partículas e Campos.Relativistic Effective Lagrangean for the Nambu-Jona-Lasinio Model with Heavy Quarks. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XXXII Reunião Anual da Sociedade Astronômica Brasileira.On the Lagrangian Densities of the Gauge Formulation for Higher Order Gravity. 2006. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. XI International Conference on Hadron Spectroscopy. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>100 Years of Relativity: International Conference on Classical and Quantum Aspects of Gravity and Cosmology. Electromagnetic Field in Lyra Manifold: A First Order Approach. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Effects of excitonic complex formation in resonant tunneling diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Influence of minority carrier transport in the optical properties of double barrier resonant tunneling diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Asymmetries in the Littlest Higgs Model. I Latin American Workshop on High Energy Phenomenology. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Características dos Jatos Hadrônicos em Colisões Ultra-Relativísticas de Íons Pesados.V Encontro Regional da SBF-MG. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Colisões Ultra-Relativística de Íons Pesados no LHC.IV Congresso de Producao Cientifica da UFSJ. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Encontro Nacional de Física de Partículas e Campos. A Exclusão de Modelos Pré-KamLAND Como Única Fonte pra o Desaparecimento de Neutrinos Solares e de Reatores. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fast Simulation of Jet Quenching in ultra-relativistic heavy ion collisions at LHC. XXVI Encontro Nacional de Física de Partículas e Campos. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>First INPE Advanced Course. A Roadmap for Cosmology. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Heavy Charged Lepton Simulation at ATLAS/LHC. XXVI Encontro Nacional de Física de Partículas e Campos. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Semana de Física - UFSCar - Mini-curso Relatividade-A Cosmologia do Início do Universo. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>I Semana de Física - UFSCar - Mini-curso Óptica: Lasers e suas aplicações. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>I Semana de Física da UFSCar. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>III Workshop Brasileiro de Gravitação e Cosmologia. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>III Workshop Brasileiro em Gravitação e Cosmologia.Campos Spinoriais e Geometria de Lyra. 2005. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>III Workshop Brasileiro em Gravitação e Cosmologia.Quebra de simetria primordial: campos de Killing para FRW. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>III Workshop on Mathematical Methods and Modeling of Biophysical Phenomena. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>IV Brazilian Meeting in Simulational Physics.Quasi-Stationary Simulation of the Pair Contact Process with Diffusion. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>IV Brazilian Meeting on Simulational Physics.A Immune System as a Complex System; Morphological Transitions in a DLD-like model. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>IV Brazilian Meeting on Simulational Physics.Diffusion effects in a deposition growth model in 1+1 and 2+1 dimensions. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>IV Brazilian Meeting on Simulational Physics.Wolf-Villain and Das Sarmas-Tamborenea growth models revisited. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>IV Dia Informativo sobre Carreiras.A Física e as Profissões. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>New neutral gauge boson properties at muon colliders.XIII Escola de Verão Jorge Andre Swieca. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>New Trends in Quantum Gravity. 2005. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>On a signature for the Littlest Higgs model. XXVI Encontro Nacional de Física de Partículas e Campos. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>On a Z' signature at next high energy eletron-positron colliders. XXVI Encontro Nacional de Física de Partículas e Campos. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>On New Gauge Boson Signals According to the Littlest Higgs Model in Future e+e- Colliders. I Latin American Workshop on High Energy Phenomenology. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>School and Workshop on Structure and Function of Complex Networks. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Summer School on Particle Physics. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>V Encontro Regional da Sociedade Brasileira de Fisica.Transiçao morfologica num modelo DLD. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>VI Encontro de Jovens Pesquisadores.Uma Introdução 'a Teoria Geral de Gauge de Utiyama. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>VII Mostra de Física e Astronomia/ I Feira de Ciências 'Física Ondulatória e Mecânica Quântica'/ I Encontro de Professores de Física e Ciências. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Workshop on Pairing in Fermionic Systems.Phase Transition in Asymmetrical Fermion Superfluids. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Workshop on Quantitative Ecology. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XII Seminário de Iniciação Científica da Universidade Federal de São João del-Rei.Efeito dos mecanismos de conexões não-sinápticas sobre a sincronização neuronal. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XIII Encontro de Fisicos do Norte Nordeste. XIII Encontro de Fisicos do Norte Nordeste. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XIII Escola de Verão Jorge André Swieca De Partículas e Campos.Modelos para seção de choque total na QCD. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>XXVI Encontro Nacional de Física de Partículas e Campos.Teoria de Gauge de Segunda Ordem. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XXVIII Congresso Paulo Leal Ferreira de Física Teórica. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XXVIII Encontro Nacional de Física da Matéria Condensada.Diffusion effects in a deposition growth model in $1+1$ and $2+1$ dimensions.. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>XXVIII Encontro Nacional de Física da Matéria Condensada.Transição Morfológica no modelo DLD. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>XXXI Reunião Anual da SAB. Simetrias em Modelos Cosmológicos. 2005. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. IX Hadron Physics. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>56o Reunião Anual da SBPC. Modelagem Matemática de Burstings Epileptiformes em tecidos neuronais. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Brazilian Young Physicist´s Tournamente. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro Nacional de Física de Partículas e Campos. Introdução à Oscilação de Neutrinos, no Vácuo e na Matéria. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Encontro Nacional de Física de Partículas e Campos. Revisão sobre os Efeitos do Meio Solar na Evolução dos Neutrinos: Uma Abordagem via Teoria de Campos. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Escola Brasileira de Mecânica e Estatística 2004. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Escola Brasileira de Mecânica Estatística e Workshop de Mecânica Estatística.Escola Brasileira de Mecanica Estatistica e Workshop de Mecanica Estatistica. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Escola Brasileira de Mecânica Estatística EBME-2004. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Estrutura do espaço-tempo. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Estudo sobre as propriedades de novos bosons de gauge. XXV Encontro Nacional de Física de Partículas e Campos. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Fourth International Winter Conference on Mathematical Methods in Physics. Scalar and Vector Massive Fields in Lyra's Manifold. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ICTP Summer School in Cosmology and Astroparticle Physics. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II Escola de Cosmologia e Gravitação. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>II Escola de Cosmologia e Gravitação. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>III Dia Informativo sobre Carreiras.A Física e as Profissões. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Novos bósons de gauge neutros em colisores de múons.III Congresso de Producao Científica da UFSJ. 2004. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Propriedades de novos bósons de gauge neutros em colisores de múons.XXII Seminário de Iniciacão Científica da Universidade Federal de Ouro Preto. 2004. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Second International Conference on Fundamental Interactions. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XI - Brazilian School of Cosmology and Gravitation - BSCG. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XIth Brazilian School of Cosmology and Gravitation. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XIII Semana de Iniciação Científica da UFMG.Transição Morfológica no modelo DLD. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XIX INTERNATIONAL CONFERENCE ON ATOMIC PHYSICS. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XXVII Encontro Nacional de Fisica da Materia Condensada.Theoretical studies of transport and optical properties of double barrier resonant tunneling diodes. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXVII Encontro Nacional de Física da Matéria Condensada.Efeito de um campo no modelo DLA. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXVII Encontro Nacional de Física da Matéria Condensada.Simulando o estado quase estacionário em processos estocásticos com estados absorventes. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XXVII Encontro Nacional de Física da Matéria Condensada.Simulação de Efeitos de Difusão em Processos de Deposição de Partículas. 2004. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Encontro Nacional de Física Teórica e Computacional.Formulação Variacional da Mecânica Quântica: Covariância e a Escolha dos Estados de Base. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>II Dia Informativo sobre Carreiras.A Física e as Profissões. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>II Simpósio Brasileiro de Engenharia Física.II Simpósio Brasileiro de Engenharia Física. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IV Encontro Regional da Sociedade Brasileira de Física em Minas Gerais. Encontro Regional de Física. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>IV Encontro Regional da Sociedade Brasileira de Física.Modelagem Matemática de Burstings Epileptifomres em Tecidos Neuronais. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>New heavy charged leptons at future high energy electron-positron colliders. XXIV Encontro Nacional de Física de Partículas e Campos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>New neutral gauge bosons in minimal left-right symmetrical models. XXIV Encontro Nacional de Física de Partículas e Campos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>PASI 2003. PAN AMERICAN ADVANCED STUDIES INSTITUTE. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Percolation Through Ageing Towards Physics. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Seminários do Grupo de Teoria Nuclear do LBNL.Phase Separation in Asymmetrical Fermion Superfluids. 2003. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Tenth Marcel Grossmann Meeting. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Third International School on Field Theory and Gravitation. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Third International School on Field Theory and Gravitation. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Third Stig Lundqvist Conference on Advancing Frontiers of Condensed Matter Physics: Fundamental Interactions and Excitations in Confined Systems. Third Stig Lundqvist Conference on Advancing Frontiers of Condensed Matter Physics: Fundamental Interactions and Excitations in Confined Systems. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Topics in Heavy Ion Collisions.Topics in Heavy Ion Collisions. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Transplanckian Physics. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Workshop sobre Simulação e Modelagem em Nanoestruturas.Workshop sobre Simulação e Modelagem em Nanoestruturas. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XI Escola de Verão Jorge André Swieca de Física Nuclear Teórica. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XI Seminário de Iniciação Científica da Universidade Federal de São João del-Rei.Modelagem Matemática de Burstings Epileptiformes em Tecidos Neuronais. 2003. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXII Escola de Verão Jorge André Swieca de Partículas e Campos. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXIV Encontro Nacional de Física de Partículas e Campos.XXIV Encontro Nacional de Física de Partículas e Campos. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXVI Congresso Paulo Leal Ferreira de Física Teórica. Representação do Operador Momentum em Variedades Riemannianas: Densidades Tensoriais na Abordagem Variacional. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Matéria Condensada. Encontro de Física da Matéria Condençada. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Matéria Condensada.Distribuições quase estacionárias de probabilidade para modelos de catálise heterogênea. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Matéria Condensada.XXVI Encontro Nacional de Física da Matéria Condensada. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>§ I Encontro Pós-Graduandos e Recém Doutores em Física. Encontro Pós-Graduandos e Recém Doutores em Física. 2003. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Bienal da Sociedade Brasileira de matemática. Desigualdades de correlação em modelos de Percolação de elos. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Dia Informativo sobre Carreiras.A Física e as Profissões. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Workshop Brasileiro de Gravitação e Cosmologia. 2002. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Primeiro Workshop Brasileiro de Gravitação e Cosmologia.A equação de estado de um sistema com interação e o modelo padrão. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Rumos da Física Estatística no Brasil - Escala e Complexidade.Equações de estado em altas energias: aplicação à cosmologia. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Seminários da Pós-Graduação em Física, Química e Neurociências da UFSJ.Teoria Quantica de Campos a Temperatura Finita: Uma Introducao aos Aspectos Basicos. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Seminários do Programa de Pós-Graduação em Física da UNESP de Guaratinguetá.A Necessidade da Ressomação da Expansão Perturbativa em Teoria Quântica de Campos a Temperatura Finita. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Simpósio Rumos da Física Estatística no Brasil..Princípio Variacional de Schwinger e Mecânica Estatística: Cavidades Ressonantes e Átomos Frios. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>VIII Escola de Verão André Swieca Óptica Quântica e Óptica Não-linear. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Workshop Nova Física do Espaço.A estatística de Fermi aplicada ao período pré-nucleossíntese. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>X Brazilian School of Cosmology and Gravitation. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXIII Encontro Nacional de Física de Partículas e Campos.XXIII Encontro Nacional de Física de Partículas e Campos. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXV Congresso Paulo Leal Ferreira de Física Teórica. Princípio Variacional de Schwinger, Espalhamento e sistemas Quânticos à Temperatura Finita. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXV Congresso Paulo Leal Ferreira. Estudo sobre elementos de linha de modelos cosmológicos. 2002. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Escuela Latinoamericana de Fisica XXXIII. Escola Latinoamericana de Física. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>XXII Encontro Nacional de Física de Partículas e Campos.B-Field Formalism for the Free Electromagnetic Field. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada.A cellular automata model for democratic voting. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada.XXIV Encontro Nacional de Física da Matéria Condensada. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XXVII Reunião Anual da Sociedade Astronômica Brasileira.Correlação Entre as Atividades Explosivas e as Características das Regiões Ativas do Sol. 2001. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>52a Reunião Anual da SBPC. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Edição 52 da Reunião Anual da SBPC.Determinação da densidade de filmes pelo método de flutuação. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro Nacional de Física de Partículas e Campos. Espectro de um Fluido Politropo: Uma Abordagem Estatística. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>V ENAPET.Atividades do Grupo PET/Física UFMG. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XXI Encontro Nacional de Física de Partículas e Campos.Mecânica Quântica Quaterniônica a la Schwinger. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XXI Encontro Nacional de Física de Partículas e Campos.XXI Encontro Nacional de Física de Partículas e Campos. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXIII Congresso Paulo Leal Ferreira de Física Teórica. Cinemática Quântica a la Schwinger. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Matéria Condensada.Cluster-Cluster Aggregation Model with Particle Division. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Matéria Condensada.XXIII Encontro Nacional de Física da Matéria Condensada. 2000. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>51a Reunião Anual da SBPC. 1999. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>7º Simpósio de Iniciação Científica da USP; 1st International Symposium of Science Initiation.Determinação da densidade de filmes pelo método de flutuação. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>9th Brazilian Workshop on Semiconductor Physics.9th Brazilian Workshop on Semiconductor Physics. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IV ENAPET.As atividades do Grupo PET-Física no Observário Astronômico da Serra da Piedade. 1999. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Tópicos em Física Teórica. 1999. (Outra).</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Escola sobre Eletrônica Mesoscópica.Escola sobre Eletrônica Mesoscópica. 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>XIX Encontro Nacional de Física de Partículas e Campos.XIX Encontro Nacional de Física de Partículas e Campos. 1998. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XXI Encontro Nacional de Física da Matéria Condensada.XXI Encontro Nacional de Física da Matéria Condensada. 1998. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1ra Escola de inverno. Física da Matéria Condensada.1ra Escola de inverno. Física da Matéria Condensada. 1997. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Introdução à Astronomia e Astrofísica. 1997. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Nanoestructura'97. Reunión de sistemas de baja dimensionalidad y sus aplicaciones.Nanoestructura'97. Reunión de sistemas de baja dimensionalidad y sus aplicaciones. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Symposium on Laser and their Applications.Symposium on Laser and their Applications. 1997. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>48 Reunião Anual da SBPC - 3 Jornada Nacional de Iniciação Científica.Estrutura Fractal de Neurônios e Terminais Axônicos. 1996. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aspectos Genéticos do Autismo. 1996. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XIX Encontro Nacional de Física da Matéria Condensada.Padroes tipo DBM na Morfogenese Neuronal. 1996. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>47 Reunião Anual da SBPC - 2 Jornada Nacional de Iniciação Científica.Efeito do Alcool Sobre os Neuronios: Uma Analise via Dimensao Fractal. 1995. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>V Encuentro Latinoamericano sobre Óptica, Láseres y sus aplicaciones.V Encuentro Latinoamericano sobre Óptica, Láseres y sus aplicaciones. 1995. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XVI Encontro Nacional de Física de Partículas e Campos.XVI Encontro Nacional de Física de Partículas e Campos. 1995. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XVIII Encontro Nacional de Física da Matéria Condensada.Efeito do Alcool Sobre os Neuronios: Uma Analise via Dimensao Fractal. 1995. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Encontro da Sociedade Mineira de Engenheiros. Encontro da Sociedade Mineira de Engenheiros. 1994. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro da Sociendade Mineira de Engenheiros. Encontro da Sociedade Mineira de Engenheiros. 1994. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XV Encontro Nacional de Física de Partículas e Campos.XV Encontro Nacional de Física de Partículas e Campos. 1994. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1993"><h3 class="year">1993</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>XIV Encontro Nacional de Física de Partículas e Campos.XIV Encontro Nacional de Física de Partículas e Campos. 1993. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1989"><h3 class="year">1989</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Simpósio Franco-Brasileiro sobre Cálculo de Campos Elétricos e Magnéticos.II Simpósio Franco-Brasileiro sobre Cálculo de Campos Elétricos e Magnéticos. 1989. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>IV Congresso da Sociedade Brasileira de Microeletrônica. IV Congresso da Sociedade Brasileira de Microeletrônica. 1989. (Congresso).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 24/01/2023 11:50:28<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

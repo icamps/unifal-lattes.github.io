@@ -1,0 +1,2191 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Érico Goulart de Oliveira Costa)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4937965723746020" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="13" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="20" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="22" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="55" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador" tabindex="58" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="61" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="64" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4771826P1"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Érico Goulart de Oliveira Costa</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/4937965723746020</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">4937965723746020</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 05/09/2022</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Física (bacharelado) pela Universidade Federal de Viçosa (2002), mestrado em Física pelo Centro Brasileiro de Pesquisas Físicas (2004) e doutorado em Física pelo Centro Brasileiro de Pesquisas Físicas (2008). Recentemente, realizou um Pós-Doutorado no Department of Applied Mathematics and Theoretical Physics (DAMTP), Cambridge, UK, sendo colaborador do prof. G.W. Gibbons. Tem experiência na área de Física Teórica, com ênfase em Relatividade Geral e Sistemas Não-Lineares, atuando principalmente nos seguintes temas: análise geométrica aplicada `a teoria de campos, modelos análogos de gravitação, geometrias emergentes e sólitons topológicos. Interessa-se por problemas da física-matemática na interface entre geometria diferencial, topologia das variedades e equações diferenciais parciais não-lineares. Atualmente é professor adjunto na UFSJ, Campus Alto Paraopeba em Ouro Branco.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="66">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Érico Goulart de Oliveira Costa</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Goulart, E.;GOULART, E;GOULART, ÉRICO;DE OLIVEIRA COSTA, ÉRICO GOULART;GOULART, ERICO</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/4937965723746020</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="67">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal de São João Del-Rei. <br class="clear">Rod.: MG 443, KM 7 Ouro Branco<br class="clear">Campus Alto Paraopeba<br class="clear">36420000 - Ouro Branco, MG - Brasil<br class="clear">Telefone: (031) 37497300<br class="clear">URL da Homepage: <a target="blank" href="https://ufsj.edu.br/cap/" tabindex="68">https://ufsj.edu.br/cap/</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="69">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Relatividade Geral e Cosmologia. <br class="clear">Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil.
+		
+	<br class="clear">Título: Excitações do tensor de Weyl na cosmologia e questões de estabilidade, Ano de obtenção: 2008. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/5205000061462210" tabindex="70"><img src="images/curriculo/logolattes.gif"></a>Mário Novello. <br class="clear">Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear">Palavras-chave: equacoes quasi-maxwellianas; Sistemas Dinâmicos; Formação de Estruturas.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. <br class="clear">Setores de atividade: Pesquisa e desenvolvimento científico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Relatividade Geral e Cosmologia. <br class="clear">Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil.
+		
+	<br class="clear">Título: A Aceleração do Universo e a Eletrodinâmica Não-Linear, Ano de Obtenção: 2004.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/5205000061462210" tabindex="71"><img src="images/curriculo/logolattes.gif"></a>Mário Novello.<br class="clear">Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear">Palavras-chave: Eletrodinâmica Não-Linear; Fator de Escala; Born-Infeld.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. <br class="clear">Setores de atividade: Pesquisa e desenvolvimento científico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Física bacharelado. <br class="clear">Universidade Federal de Viçosa, UFV, Brasil.
+		
+	<br class="clear">Título: Aspectos Geométricos do Cálculo Diferencial Absoluto. <br class="clear">Orientador: Afrânio Rodrigues Pereira. <br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de Minas Gerais, FAPEMIG, Brasil. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado" tabindex="72">
+<h1 tabindex="0">Pós-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">Department of Applied Mathematics and Theoretical Physics, Cambridge, DAMTP, Grã-Bretanha.
+		
+	<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Geometria e Topologia / Especialidade: Topologia das Variedades. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Relatividade e Gravitação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">(ICRAbr/CBPF) Instituto de Cosmologia Relatividade e Astrofísica / CBPF, ICRABR/CBPF, Brasil.
+		
+	<br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro / CAPES, FAPERJ / CAPES, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Propriedades Mecânicas e Acústicas da Matéria Condensada. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise / Especialidade: Equações Diferenciais Parciais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil.
+		
+	<br class="clear">Bolsista do(a): Instituto de Cosmologia Relatividade e Astrofísica / CBPF, ICRA/CBPF-DTI7A, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="73">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="74">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>International Center for Theoretical Physics, ICTP-SAIFR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Pesquisador Visitante, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidad de Santiago de Chile, USACH, Chile.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Cientista Visitante, Enquadramento Funcional: Bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de pesquisa científica e atividades de colaboração.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>International Center for Relativistic Astrophysics, ICRANET, Itália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Cientista Visitante, Enquadramento Funcional: Bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de pesquisa científica e atividades de colaboração.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidad Nacional de Córdoba - Argentina, UNC, Argentina.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Cientista Visitante, Enquadramento Funcional: Bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de pesquisa científica e colaborações.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Instituto de Astronomía y Física del Espacio, CONICET, Argentina.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Cientista Visitante, Enquadramento Funcional: Bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de pesquisa científica e colaborações.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>International Center for Relativistic Astrophysics Network, ICRANET, Itália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Cientista Visitante, Enquadramento Funcional: Bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de pesquisa científica e colaborações.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>International Center for Relativistic Astrophysics Network, ICRANET, Itália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Cientista Visitante, Enquadramento Funcional: Bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de pesquisa científica e colaborações.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de São João Del-Rei, UFSJ, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto 1, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecatrônica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fenômenos mecânicos<br class="clear">Fenômenos ondulatórios, fluidos e termodinâmica<br class="clear">Fenômenos eletromagnéticos<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="75">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Geometric Wave Equations in the Theory of Topological Solitons" tabindex="76"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Geometric Wave Equations in the Theory of Topological Solitons<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto investiga equações diferenciais parciais hiperbólicas para campos tomando valores em variedades Riemannianas. Equações desse tipo aparecem em diversos setores da física-matemática, como na física nuclear, teorias de Yang-Mills, teoria de cordas, relatividade geral, elasto-dinâmica e magnetismo. Em certas situações, elas admitem sólitons topológicos de diversas naturezas e vem sendo estudadas em detalhes recentemente. Combinando técnicas de topologia algébrica, geometria diferencial e análise de EDPs, nós exploramos teorias do tipo Wave Maps, Skyrme, Faddeev-Niemi, modelos integráveis e AFZ.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Mestrado acadêmico: (2) . <br class="clear"><br class="clear">Integrantes: Érico Goulart de Oliveira Costa - Integrante / Enrique Reyes Garcia - Coordenador / Daniel Pons Rubio - Integrante / Miguel Bezares - Integrante / Gonzalo Melchisedec - Integrante.<br class="clear"></div>
+</div><a name="PP_Nonlinear Electrodynamics as a Symmetric Hyperbolic System" tabindex="77"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nonlinear Electrodynamics as a Symmetric Hyperbolic System<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto investiga a coerência do problema de Cauchy e a emergência de singularidades para teorias não-lineares do eletromagnetismo. Utilizamos o formalismo de fibrados desenvolvido por R. Geroch para sistemas simétrico-hiperbólicos de primeira ordem e exploramos técnicas geométricas típicas da relatividade geral no estudo de ondas, variedades características, descontinuidades, raios, shocks e blow-ups.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Doutorado: (2) . <br class="clear"><br class="clear">Integrantes: Érico Goulart de Oliveira Costa - Integrante / Oscar Reula - Coordenador / Federico Leon Carrasco - Integrante / Fernando Abalos - Integrante.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="78">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Canadian Journal of Physics (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Classical and Quantum Gravity (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Annalen der Physik</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: PHYSICS LETTERS B</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: JOURNAL OF MATHEMATICAL PHYSICS</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="79">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Relatividade e Gravitação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Física Clássica e Física Quântica; Mecânica e Campos. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral/Especialidade: Métodos Matemáticos da Física. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise/Especialidade: Equações Diferenciais Parciais. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Geometria e Topologia/Especialidade: Geometria Diferencial. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="80">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="81">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="82"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="83"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="84"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">5.407</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GOULART, ÉRICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2022</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.105.024021" target="_blank" tabindex="85"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="86">GOULART, ÉRICO</a></b>; BERGLIAFFA, SANTIAGO ESTEBAN PEREZ . Nonlinear electrodynamics nonminimally coupled to gravity: Symmetric-hyperbolicity and causal structure. Physical Review D<sup><img id="24700029_1" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="24700029" original-title="PHYSICAL REVIEW D (2470-0029)<br />Fator de impacto (JCR 2021): 5.407"></sup>, v. 105, p. 024021, 2022. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.105.024021&amp;issn=24700029&amp;volume=105&amp;issue=&amp;paginaInicial=024021&amp;titulo=Nonlinear electrodynamics nonminimally coupled to gravity: Symmetric-hyperbolicity and causal structure&amp;sequencial=1&amp;nomePeriodico=Physical Review D" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.873</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1142/S0219887821500389" target="_blank" tabindex="87"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="88">Goulart, E.</a></b>; OTTONI, J. E. . Spacetime foliations, quaternions and knotted light. INTERNATIONAL JOURNAL OF GEOMETRIC METHODS IN MODERN PHYSICS<sup><img id="02198878_2" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="02198878" original-title="INTERNATIONAL JOURNAL OF GEOMETRIC METHODS IN MODERN PHYSICS (0219-8878)<br />Fator de impacto (JCR 2021): 1.873"></sup>, v. 18, p. 2150038, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1142/S0219887821500389&amp;issn=02198878&amp;volume=18&amp;issue=&amp;paginaInicial=2150038&amp;titulo=Spacetime foliations, quaternions and knotted light&amp;sequencial=2&amp;nomePeriodico=INTERNATIONAL JOURNAL OF GEOMETRIC METHODS IN MODERN PHYSICS" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.853</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GOULART, ÉRICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/1361-6382/ac08a9" target="_blank" tabindex="89"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="90">GOULART, ÉRICO</a></b>; BITTENCOURT, EDUARDO . Space and time ambiguities in vacuum electrodynamics. Classical and Quantum Gravity<sup><img id="13616382_3" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="13616382" original-title="CLASSICAL AND QUANTUM GRAVITY (1361-6382)<br />Fator de impacto (JCR 2021): 3.853"></sup>, v. 38, p. 145029, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/1361-6382/ac08a9&amp;issn=13616382&amp;volume=38&amp;issue=&amp;paginaInicial=145029&amp;titulo=Space and time ambiguities in vacuum electrodynamics&amp;sequencial=3&amp;nomePeriodico=Classical and Quantum Gravity" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.971</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BITTENCOURT, EDUARDO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2021</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevA.104.043523" target="_blank" tabindex="91"></a>BITTENCOURT, EDUARDO ; KLIPPERT, RENATO ; DA SILVA, DIEGO RENAN ; <b>GOULART, ÉRICO</b> . Spherical symmetry and nonmagnetic dielectrics in analog models of gravity. PHYSICAL REVIEW A<sup><img id="24699934_4" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="24699934" original-title="PHYSICAL REVIEW A (2469-9934)<br />Fator de impacto (JCR 2021): 2.971"></sup>, v. 104, p. 043523, 2021. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevA.104.043523&amp;issn=24699934&amp;volume=104&amp;issue=&amp;paginaInicial=043523&amp;titulo=Spherical symmetry and nonmagnetic dielectrics in analog models of gravity&amp;sequencial=4&amp;nomePeriodico=PHYSICAL REVIEW A" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000711808000005&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.331</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">COSTA E SILVA, W</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/1751-8121/ab213c" target="_blank" tabindex="92"></a>COSTA E SILVA, W ; <b>GOULART, E</b> ; OTTONI, J E . On spacetime foliations and electromagnetic knots. Journal of Physics A-Mathematical and Theoretical<sup><img id="17518113_5" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="17518113" original-title="Journal of Physics A-Mathematical and Theoretical (1751-8113)<br />Fator de impacto (JCR 2021): 2.331"></sup>, v. 52, p. 265203, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/1751-8121/ab213c&amp;issn=17518113&amp;volume=52&amp;issue=&amp;paginaInicial=265203&amp;titulo=On spacetime foliations and electromagnetic knots&amp;sequencial=5&amp;nomePeriodico=Journal of Physics A-Mathematical and Theoretical" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000470814900003&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">5</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">5.407</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GOULART, ERICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.100.125001" target="_blank" tabindex="93"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="94">GOULART, ERICO</a></b>; PINTO-NETO, NELSON . Geometrical hypotheses underlying wave functions and their emerging dynamics. PHYSICAL REVIEW D<sup><img id="24700010_6" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="24700010" original-title="PHYSICAL REVIEW D (2470-0010)<br />Fator de impacto (JCR 2021): 5.407"></sup>, v. 100, p. 125001, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.100.125001&amp;issn=24700010&amp;volume=100&amp;issue=&amp;paginaInicial=125001&amp;titulo=Geometrical hypotheses underlying wave functions and their emerging dynamics&amp;sequencial=6&amp;nomePeriodico=PHYSICAL REVIEW D" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.958</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2016</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1209/0295-5075/115/10004" target="_blank" tabindex="95"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="96">Goulart, E.</a></b>. Nonlinear electrodynamics is skilled with knots. Europhysics Letters (Print)<sup><img id="02955075_7" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="02955075" original-title="EPL (0295-5075)<br />Fator de impacto (JCR 2021): 1.958"></sup>, v. 115, p. 10004, 2016. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1209/0295-5075/115/10004&amp;issn=02955075&amp;volume=115&amp;issue=&amp;paginaInicial=10004&amp;titulo=Nonlinear electrodynamics is skilled with knots&amp;sequencial=7&amp;nomePeriodico=Europhysics Letters (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000384457600004&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">9</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1209/0295-5075/115/10004&amp;md5=beaa60163368101abbfc9ea85355c0e2" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">5.407</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">BEZARES, MIGUEL</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.94.084011" target="_blank" tabindex="97"></a>BEZARES, MIGUEL ; <b>GOULART, ÉRICO</b> ; PALOMERA, GONZALO ; PONS, DANIEL J. ; REYES, ENRIQUE G. . From Hopf fibrations to exotic causal replacements. PHYSICAL REVIEW D<sup><img id="24700010_8" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="24700010" original-title="PHYSICAL REVIEW D (2470-0010)<br />Fator de impacto (JCR 2021): 5.407"></sup>, v. 94, p. 084011, 2016. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.94.084011&amp;issn=24700010&amp;volume=94&amp;issue=&amp;paginaInicial=084011&amp;titulo=From Hopf fibrations to exotic causal replacements&amp;sequencial=8&amp;nomePeriodico=PHYSICAL REVIEW D" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">4.643</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.91.045033" target="_blank" tabindex="98"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="99">Goulart, E.</a></b>. Nontrivial causal structures engendered by knotted solitons. Physical Review. D, Particles, Fields, Gravitation, and Cosmology<sup><img id="15507998_9" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="15507998" original-title="PHYSICAL REVIEW D (1550-7998)<br />Fator de impacto (JCR 2014): 4.643"></sup>, v. 91, p. 045033, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.91.045033&amp;issn=15507998&amp;volume=91&amp;issue=&amp;paginaInicial=045033&amp;titulo=Nontrivial causal structures engendered by knotted solitons&amp;sequencial=9&amp;nomePeriodico=Physical Review. D, Particles, Fields, Gravitation, and Cosmology" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000351747700008&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">4.643</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ABALOS, FERNANDO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.92.084024" target="_blank" tabindex="100"></a>ABALOS, FERNANDO ; CARRASCO, FEDERICO ; <b>GOULART, ÉRICO</b> ; REULA, OSCAR . Nonlinear electrodynamics as a symmetric hyperbolic system. Physical Review. D, Particles, Fields, Gravitation, and Cosmology<sup><img id="15507998_10" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="15507998" original-title="PHYSICAL REVIEW D (1550-7998)<br />Fator de impacto (JCR 2014): 4.643"></sup>, v. 92, p. 084024, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.92.084024&amp;issn=15507998&amp;volume=92&amp;issue=&amp;paginaInicial=084024&amp;titulo=Nonlinear electrodynamics as a symmetric hyperbolic system&amp;sequencial=10&amp;nomePeriodico=Physical Review. D, Particles, Fields, Gravitation, and Cosmology" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000362494800002&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">20</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.469</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1063/1.4936147" target="_blank" tabindex="101"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="102">Goulart, E.</a></b>. Characteristic analysis for integrable soliton models on two-dimensional target spaces. Journal of Mathematical Physics<sup><img id="00222488_11" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="00222488" original-title="JOURNAL OF MATHEMATICAL PHYSICS (0022-2488)<br />Fator de impacto (JCR 2021): 1.469"></sup>, v. 56, p. 113513, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1063/1.4936147&amp;issn=00222488&amp;volume=56&amp;issue=&amp;paginaInicial=113513&amp;titulo=Characteristic analysis for integrable soliton models on two-dimensional target spaces&amp;sequencial=11&amp;nomePeriodico=Journal of Mathematical Physics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000366056700039&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1063/1.4936147&amp;md5=03bf3fbe470c84cc11d337dbc955e19a" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GIBBONS, G.'W.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.89.105008" target="_blank" tabindex="103"></a>GIBBONS, G.'W. ; <b>Goulart, E.</b> . Inspecting baby Skyrmions with effective metrics. Physical Review. D, Particles, Fields, Gravitation, and Cosmology<sup><img id="15507998_12" src="/buscatextual/images/curriculo/jcr.gif" style="display: none" class="ajaxJCR" data-issn="15507998"></sup>, v. 89, p. 105008, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.89.105008&amp;issn=15507998&amp;volume=89&amp;issue=&amp;paginaInicial=105008&amp;titulo=Inspecting baby Skyrmions with effective metrics&amp;sequencial=12&amp;nomePeriodico=Physical Review. D, Particles, Fields, Gravitation, and Cosmology" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000336071700003&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">7.28</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">NOVELLO, M</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/1475-7516/2014/01/E01" target="_blank" tabindex="104"></a>NOVELLO, M ; BITTENCOURT, E ; MOSCHELLA, U ; <b>GOULART, E</b> ; SALIM, J.M ; TONIATO, J.D . Erratum: Geometric scalar theory of gravity. Journal of Cosmology and Astroparticle Physics<sup><img id="14757516_13" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="14757516" original-title="JOURNAL OF COSMOLOGY AND ASTROPARTICLE PHYSICS (1475-7516)<br />Fator de impacto (JCR 2021): 7.28"></sup>, v. 2014, p. E01-E01, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/1475-7516/2014/01/E01&amp;issn=14757516&amp;volume=2014&amp;issue=&amp;paginaInicial=E01&amp;titulo=Erratum: Geometric scalar theory of gravity&amp;sequencial=13&amp;nomePeriodico=Journal of Cosmology and Astroparticle Physics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000331134400001&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">5</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/1475-7516/2014/01/e01&amp;md5=8d98b8f03f0a5dca5ad41e565f6d0030" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">4</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">7.28</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">NOVELLO, M</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/1475-7516/2013/06/014" target="_blank" tabindex="105"></a>NOVELLO, M ; BITTENCOURT, E ; MOSCHELLA, U ; <b>GOULART, E</b> ; SALIM, J.M ; TONIATO, J.D . Geometric scalar theory of gravity. Journal of Cosmology and Astroparticle Physics<sup><img id="14757516_14" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="14757516" original-title="JOURNAL OF COSMOLOGY AND ASTROPARTICLE PHYSICS (1475-7516)<br />Fator de impacto (JCR 2021): 7.28"></sup>, v. 2013, p. 014-014, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/1475-7516/2013/06/014&amp;issn=14757516&amp;volume=2013&amp;issue=&amp;paginaInicial=014&amp;titulo=Geometric scalar theory of gravity&amp;sequencial=14&amp;nomePeriodico=Journal of Cosmology and Astroparticle Physics" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000321200100014&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">21</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/1475-7516/2013/06/014&amp;md5=e4058b8842242c2b4a4faa03a25a81ad" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">5</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.853</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GOULART, E</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0264-9381/30/15/155020" target="_blank" tabindex="106"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="107">GOULART, E</a></b>; FALCIANO, F T . Disformal invariance of Maxwell?s field equations. Classical and Quantum Gravity (Print)<sup><img id="02649381_15" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="02649381" original-title="CLASSICAL AND QUANTUM GRAVITY (0264-9381)<br />Fator de impacto (JCR 2021): 3.853"></sup>, v. 30, p. 155020, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/0264-9381/30/15/155020&amp;issn=02649381&amp;volume=30&amp;issue=&amp;paginaInicial=155020&amp;titulo=Disformal invariance of Maxwell?s field equations&amp;sequencial=15&amp;nomePeriodico=Classical and Quantum Gravity (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000321692600021&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">13</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/0264-9381/30/15/155020&amp;md5=c8ed6ecbc6e637d912f494a7a85b3bfc" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">8</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.853</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.;GOULART, E;GOULART, ÉRICO;DE OLIVEIRA COSTA, ÉRICO GOULART;GOULART, ERICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0264-9381/29/8/085011" target="_blank" tabindex="108"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="109">Goulart, E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7214193952056222" target="_blank" tabindex="110">F. T. Falciano</a> . A new symmetry of the relativistic wave equation. Classical and Quantum Gravity (Print)<sup><img id="02649381_16" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="02649381" original-title="CLASSICAL AND QUANTUM GRAVITY (0264-9381)<br />Fator de impacto (JCR 2021): 3.853"></sup>, v. 29, p. 085011, 2012. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/0264-9381/29/8/085011&amp;issn=02649381&amp;volume=29&amp;issue=&amp;paginaInicial=085011&amp;titulo=A new symmetry of the relativistic wave equation&amp;sequencial=16&amp;nomePeriodico=Classical and Quantum Gravity (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000302637500013&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">9</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/0264-9381/29/8/085011&amp;md5=296fbaba8336bb179622ce86d7103db6" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">5</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.;GOULART, E;GOULART, ÉRICO;DE OLIVEIRA COSTA, ÉRICO GOULART;GOULART, ERICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5402/2012/260951" target="_blank" tabindex="111"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="112">Goulart, E.</a></b>. Mimicking General Relativity with Newtonian Dynamics. ISRN Mathematical Physics<sup></sup>, v. 2012, p. 260951, 2012. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.5402/2012/260951&amp;issn=20904673&amp;volume=2012&amp;issue=&amp;paginaInicial=260951&amp;titulo=Mimicking General Relativity with Newtonian Dynamics&amp;sequencial=17&amp;nomePeriodico=ISRN Mathematical Physics" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.;GOULART, E;GOULART, ÉRICO;DE OLIVEIRA COSTA, ÉRICO GOULART;GOULART, ERICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0264-9381/28/24/245008" target="_blank" tabindex="113"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="114">Goulart, E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5205000061462210" target="_blank" tabindex="115">M. Novello</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7214193952056222" target="_blank" tabindex="116">F. T. Falciano</a> ; TONIATO, J. . Hidden geometries in nonlinear theories: a novel aspect of analogue gravity. Classical and Quantum Gravity (Print)<sup><img id="02649381_18" src="/buscatextual/images/curriculo/jcr.gif" style="display: none" class="ajaxJCR" data-issn="02649381"></sup>, v. 28, p. 245008, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/0264-9381/28/24/245008&amp;issn=02649381&amp;volume=28&amp;issue=&amp;paginaInicial=245008&amp;titulo=Hidden geometries in nonlinear theories: a novel aspect of analogue gravity&amp;sequencial=18&amp;nomePeriodico=Classical and Quantum Gravity (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000298348900008&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">12</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/0264-9381/28/24/245008&amp;md5=511f5067935f6d67ceb398e510b0b12b" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">12</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.;GOULART, E;GOULART, ÉRICO;DE OLIVEIRA COSTA, ÉRICO GOULART;GOULART, ERICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.84.105027" target="_blank" tabindex="117"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="118">Goulart, E.</a></b>; Bergliaffa, Santiago . Effective metric in nonlinear scalar field theories. Physical Review. D, Particles, Fields, Gravitation, and Cosmology<sup><img id="15507998_19" src="/buscatextual/images/curriculo/jcr.gif" style="display: none" class="ajaxJCR" data-issn="15507998"></sup>, v. 84, p. 105027, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.84.105027&amp;issn=15507998&amp;volume=84&amp;issue=&amp;paginaInicial=105027&amp;titulo=Effective metric in nonlinear scalar field theories&amp;sequencial=19&amp;nomePeriodico=Physical Review. D, Particles, Fields, Gravitation, and Cosmology" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000297158800010&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">8</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1103/physrevd.84.105027&amp;md5=a50785498968dd111535133f24e52a3c" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">8</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Arias, E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1103/PhysRevD.83.125022" target="_blank" tabindex="119"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="120">Goulart, E.</a></b>; Arias, E. ; Krein, G. ; Menezes, G. ; Svaiter, N. . Scalar quantum field theory in disordered media. Physical Review. D, Particles, Fields, Gravitation, and Cosmology<sup><img id="15507998_20" src="/buscatextual/images/curriculo/jcr.gif" style="display: none" class="ajaxJCR" data-issn="15507998"></sup>, v. 83, p. 125022, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1103/PhysRevD.83.125022&amp;issn=15507998&amp;volume=83&amp;issue=&amp;paginaInicial=125022&amp;titulo=Scalar quantum field theory in disordered media&amp;sequencial=20&amp;nomePeriodico=Physical Review. D, Particles, Fields, Gravitation, and Cosmology" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000291890100008&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">13</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1103/physrevd.83.125022&amp;md5=586296c6829d63d7920889b6ec21ccb9" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">8</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">NOVELLO, M.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span>NOVELLO, M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="121">Goulart, E.</a></b> . Beyond analog gravity: the case of exceptional dynamics. Classical and Quantum Gravity (Print)<sup><img id="02649381_21" src="/buscatextual/images/curriculo/jcr.gif" style="display: none" class="ajaxJCR" data-issn="02649381"></sup>, v. 28, p. 145022, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=02649381&amp;volume=28&amp;issue=&amp;paginaInicial=145022&amp;titulo=Beyond analog gravity: the case of exceptional dynamics&amp;sequencial=21&amp;nomePeriodico=Classical and Quantum Gravity (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000291789300022&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">15</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/0264-9381/28/14/145022&amp;md5=aadfff439b4f104d3f0208ebd78500ea" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">11</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.475</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GOULART, ÉRICO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1142/s0217751x10050573" target="_blank" tabindex="122"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="123">GOULART, ÉRICO</a></b>; FALCIANO, FELIPE TOVAR . GEOMETRICAL PROPERTIES OF ELECTROMAGNETIC TIDAL FORCES. International Journal of Modern Physics A<sup><img id="0217751X_22" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="0217751X" original-title="INTERNATIONAL JOURNAL OF MODERN PHYSICS A (0217-751X)<br />Fator de impacto (JCR 2021): 1.475"></sup>, v. 25, p. 5383-5398, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1142/s0217751x10050573&amp;issn=0217751X&amp;volume=25&amp;issue=&amp;paginaInicial=5383&amp;titulo=GEOMETRICAL PROPERTIES OF ELECTROMAGNETIC TIDAL FORCES&amp;sequencial=22&amp;nomePeriodico=International Journal of Modern Physics A" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.475</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1142/s0217751x0904628x" target="_blank" tabindex="124"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="125">Goulart, E.</a></b>; FALCIANO, F. T. . FORMAL ANALOGIES BETWEEN GRAVITATION AND ELECTRODYNAMICS. International Journal of Modern Physics A<sup><img id="0217751X_23" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="0217751X" original-title="INTERNATIONAL JOURNAL OF MODERN PHYSICS A (0217-751X)<br />Fator de impacto (JCR 2021): 1.475"></sup>, v. 24, p. 4589, 2009. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1142/s0217751x0904628x&amp;issn=0217751X&amp;volume=24&amp;issue=&amp;paginaInicial=4589&amp;titulo=FORMAL ANALOGIES BETWEEN GRAVITATION AND ELECTRODYNAMICS&amp;sequencial=23&amp;nomePeriodico=International Journal of Modern Physics A" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000270691900008&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">7</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1142/s0217751x0904628x&amp;md5=78396b4bfd947275854b1e54d72d34c6" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">5</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">DE OLIVEIRA COSTA, ÉRICO GOULART</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0264-9381/26/13/135015" target="_blank" tabindex="126"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="127">DE OLIVEIRA COSTA, ÉRICO GOULART</a></b>; PEREZ BERGLIAFFA, SANTIAGO ESTEBAN . A classification of the effective metric in nonlinear electrodynamics. Classical and Quantum Gravity (Print)<sup><img id="02649381_24" src="/buscatextual/images/curriculo/jcr.gif" style="display: none" class="ajaxJCR" data-issn="02649381"></sup>, v. 26, p. 135015, 2009. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/0264-9381/26/13/135015&amp;issn=02649381&amp;volume=26&amp;issue=&amp;paginaInicial=135015&amp;titulo=A classification of the effective metric in nonlinear electrodynamics&amp;sequencial=24&amp;nomePeriodico=Classical and Quantum Gravity (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000267139100015&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">13</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/0264-9381/26/13/135015&amp;md5=c20cf1be20564867b192af140f34b07b" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">7</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.202</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ANTUNES, V.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1134/s0202289309030013" target="_blank" tabindex="128"></a>ANTUNES, V. ; <b>Goulart, E.</b> ; NOVELLO, M. . Gravitational waves in singular and bouncing FLRW universes. Gravitation &amp; Cosmology (Print)<sup><img id="02022893_25" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="02022893" original-title="Gravitation &amp; Cosmology (0202-2893)<br />Fator de impacto (JCR 2021): 1.202"></sup>, v. 15, p. 191-198, 2009. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1134/s0202289309030013&amp;issn=02022893&amp;volume=15&amp;issue=&amp;paginaInicial=191&amp;titulo=Gravitational waves in singular and bouncing FLRW universes&amp;sequencial=25&amp;nomePeriodico=Gravitation &amp; Cosmology (Print)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.202</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Goulart, E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1134/s0202289308040051" target="_blank" tabindex="129"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="130">Goulart, E.</a></b>; NOVELLO, M. . Cosmological stability of Weyl conformal tensor. Gravitation &amp; Cosmology (Print)<sup><img id="02022893_26" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="02022893" original-title="Gravitation &amp; Cosmology (0202-2893)<br />Fator de impacto (JCR 2021): 1.202"></sup>, v. 14, p. 321-326, 2008. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1134/s0202289308040051&amp;issn=02022893&amp;volume=14&amp;issue=&amp;paginaInicial=321&amp;titulo=Cosmological stability of Weyl conformal tensor&amp;sequencial=26&amp;nomePeriodico=Gravitation &amp; Cosmology (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000267290900005&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">3</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">M. Novello</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0264-9381/24/11/015" target="_blank" tabindex="131"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5205000061462210" target="_blank" tabindex="132">M. Novello</a> ; J. Salim ; S. Bergliafa ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="133">Goulart, E.</a></b> . Cosmological Effects of Nonlinear Electrodynamics. Classical and Quantum Gravity (Print)<sup><img id="02649381_27" src="/buscatextual/images/curriculo/jcr.gif" style="display: none" class="ajaxJCR" data-issn="02649381"></sup>, v. 24, p. 3021-3036, 2007. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1088/0264-9381/24/11/015&amp;issn=02649381&amp;volume=24&amp;issue=&amp;paginaInicial=3021&amp;titulo=Cosmological Effects of Nonlinear Electrodynamics&amp;sequencial=27&amp;nomePeriodico=Classical and Quantum Gravity (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000246688400017&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">71</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1088/0264-9381/24/11/015&amp;md5=7cd9efe5dde93f5c2bf8791af47b5a65" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">41</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos" tabindex="134"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5205000061462210" target="_blank" tabindex="135">M. Novello</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="136">Goulart, E.</a></b> . Eletrodinâmica Não-Linear: causalidade e efeitos cosmológicos. 1. ed. São Paulo: Editora Livraria da Física, 2010. v. 1. 112p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas" tabindex="137"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="138">Goulart, E.</a></b>. Vida longa à Reunião Argentino-Brasileira de Gravitação, Astrofísica e Cosmologia. Cosmos &amp; Contexto, Meio Digital, 15 jan.  2012. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="139"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1142/9789814623995_0314" target="_blank" tabindex="140"></a>TONIATO, JÚNIOR D. ; <b>GOULART, ÉRICO</b> ; NOVELLO, MARIO ; FALCIANO, FELIPE T. . A NOVEL ASPECT OF ANALOGUE GRAVITY. In: Proceedings of the MG13 Meeting on General Relativity, 2015, Stockholm University. The Thirteenth Marcel Grossmann Meeting. p. 1912. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BITTENCOURT, E ; <b>Goulart, E.</b> . Geometric Scalar Gravity. In: Subatomic particles, Nucleons, Atoms, Universe: Processes and Structure : International conference in honor of Ya. B. Zeldovich 100th Anniversary., 2014, Minsk. Nonlin.Phenom.Complex Syst. 17 (2014) no.4, 349-351. v. 17. p. 349-351. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="141">Goulart, E.</a></b>. Selected Studies on Effective Geometries. In: Primeira Reunião Argentino-Brasileira de Gravitação, Astrofísica e Cosmologia, 2012, Foz do Iguaçú. Gravitation, Relativistic Astrophysics, and Cosmology. Cambridge: Cambridge University Press, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="142">Goulart, E.</a></b>. Gravidade em Baixas Dimensões. In: Simpósio de Iniciação Científica, 1999, Viçosa. IX Simpósio de Ininiciação Científica, 1999. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="143"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="144">DE OLIVEIRA COSTA, ÉRICO GOULART</a></b>. Formal aspects of knotted light. 2019. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="145">Goulart, E.</a></b>. Análise Geométrica na Teoria Clássica de Campos. 2016. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="146">Goulart, E.</a></b>. Effective geometries in the theory of topological solitons. 2015. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="147">Goulart, E.</a></b>. Knotted lines of forces in electrodynamics. 2015. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="148">GOULART, E</a></b>. Inspecting Baby-Skyrmions with effective metrics. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="149">Goulart, E.</a></b>. On nonlinear wave maps. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="150">Goulart, E.</a></b>. Geometric wave equations in the theory of topological solitons. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="151">Goulart, E.</a></b>. Nontrivial Causal Structures Engendered by Knotted Solitons. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="152">GOULART, E</a></b>. Effective geometries in nonlinear field theory. 2013. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="153">Goulart, E.</a></b>; FALCIANO, F T . A hidden symmetry of Maxwell's field equations. 2013. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="154">Goulart, E.</a></b>; FALCIANO, F. T. ; TONIATO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5205000061462210" target="_blank" tabindex="155">M. Novello</a> . Effective metrics. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="156">Goulart, E.</a></b>. Uma invariância inesperada das equações de Maxwell. 2011. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="157">Goulart, E.</a></b>. Superfícies características na eletrodinâmica não-linear. 2011. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="158">Goulart, E.</a></b>; S. E. P. Bergliaffa . Light cone deformations in nonlinear electrodynamics. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="159">Goulart, E.</a></b>; S. E. P. Bergliaffa . Causal hyper-surfaces in nonlinear electrodynamics. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="160">Goulart, E.</a></b>. Gravidade artificial. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="161">Goulart, E.</a></b>. Sobre a geometria de raios escalares. 2009. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="162">Goulart, E.</a></b>. Rotas para a gravidade artificial. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="163">Goulart, E.</a></b>. Classificação de regimes não-lineares na eletrodinâmica. 2008. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="164">Goulart, E.</a></b>. Estabilidade da estrutura conforme na cosmologia. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="165">Goulart, E.</a></b>. Estabilidade do tensor de Weyl na cosmologia. 2007. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="166"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos" tabindex="167"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="168">Goulart, E.</a></b>; PEREIRA, A. R. . Sólitons topológicos do modelo sigma não linear acoplados com a gravidade 3D. 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="169">Goulart, E.</a></b>; PEREIRA, A. R. . Gravidade em Baixas Dimensões. 2000. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="170"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="171">Goulart, E.</a></b>. Modelos Análogos de Gravitação. 2011. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5205000061462210" target="_blank" tabindex="172">M. Novello</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="173">Goulart, E.</a></b> . Fundamentos de Relatividade Geral. 2010. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bergliaffa, Santiago ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5205000061462210" target="_blank" tabindex="174">M. Novello</a> ; PINTO NETO, N. ; MOSQUERA, H. ; SALIM, J. M. ; FABRIS, J. ; OLIVEIRA, L. A. ; MAKLER, M. ; JORAS, S. E. ; LORENCI, V. ; <b>Goulart, E.</b> . Programa Mínimo de Cosmologia. 2010. (Editoração/Livro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="175">Goulart, E.</a></b>. Programa Mínimo de Cosmologia. 2010.
+							(Revisão Técnica).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="176">Goulart, E.</a></b>. Fundamentos de Cosmologia Relativista. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoArtisticaCultural" tabindex="177"></a><br class="clear"><div class="inst_back">
+<b>Produção artística/cultural</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtesVisuais" tabindex="178"></a>Artes Visuais</b>
+</div>
+<a name="artesVisuais" tabindex="179"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="180">Goulart, E.</a></b>. Desenhos e Ilustrações Técnicas para a revista eletrônica "Cosmos &amp; Contexto nº8". 2012. Desenho. </div>
+</div>
+<br class="clear">
+<a name="artesVisuais" tabindex="181"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="182">Goulart, E.</a></b>; LESSA, B. . O mundo em que vivemos. 2012. Instalação. </div>
+</div>
+<br class="clear">
+<a name="artesVisuais" tabindex="183"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="184">Goulart, E.</a></b>. Desenhos e Ilustrações Técnicas para o livro "Do Big Bang ao Universo Eterno" - de  Mário Novello. 2010. Desenho. </div>
+</div>
+<br class="clear">
+<a name="artesVisuais" tabindex="185"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="186">Goulart, E.</a></b>. Desenhos e Ilustrações Técnicas para o cartaz, camisa e folder da  "XIII Brazilian School of Cosmology and Gravitaion". 2008. Desenho. </div>
+</div>
+<br class="clear">
+<a name="artesVisuais" tabindex="187"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="188">Goulart, E.</a></b>. Desenhos e Ilustrações Técnicas para o poster comemorativo  "História da Cosmologia: do século vinte ao vinte e um". 2007. Desenho. </div>
+</div>
+<br class="clear">
+<a name="artesVisuais" tabindex="189"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="190">Goulart, E.</a></b>. Desenhos e Ilustrações Técnicos para o livro "O que é Cosmologia" - de Mário Novello. 2006. Desenho. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="191">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="192"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOTA, A. L.; DIAS, E. W.; BRITO, L. C. T.; <b>DE OLIVEIRA COSTA, ÉRICO GOULART</b>.  Participação em banca de Públio Rwany B. R. do Vale. O efeito dos termos de superfície no decaimento raro do píon no modelo de Nambu-Jona-Lasínio". 2020. Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, L. G.; <b>DE OLIVEIRA COSTA, ÉRICO GOULART</b>; SANTOS, G. B..  Participação em banca de Wellington Lorena da Silva. Equações de Jacobi em Uma Família de Variedades Lorentzianas Intrinsicamente Planas. 2019. Dissertação (Mestrado em Matemática) - Universidade Federal de Itajubá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, A. C.; LEMOS, H. C. F.; PEREIRA, E. A.; <b>DE OLIVEIRA COSTA, ÉRICO GOULART</b>.  Participação em banca de Igor Pereira Vieira. Versão Quântica da Igualdade de Jarzynski: estudo de modelo de interação entre radiação e matéria em meio não-linear. 2018. Dissertação (Mestrado em Física) - Universidade Federal de São João Del-Rei. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="193">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="194"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro em Gravitação e Cosmologia Quântica. 2011. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Grav 11. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Reunião Anual do ICRA.Uma invariância inesperada das equações de Maxwell.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Amazonian School on Quantum Theory and Applications.Light Cone Deformations in Non-linear Electro-dynamics. 2010. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GR 19 meeting. Causal Surfaces Non-Linear Electrodynamics. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Symposium Mario Novello on Bouncing Models.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Reunião Anual do ICRA.Superfícies causais na Eletrodinâmica Não-Linear.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Brazilian School of Cosmology and Gravitation. 2010. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Reuniao Anual do ICRA.Sobre a ação da luz em si mesma.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Segunda Escola de Viena: do Colapso do Sistema Tonal à Elaboração do Dodecafonismo. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Reuniao Anual do ICRA.Classificação de Regimes Não-Lineares na Eletrodiniamica.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Brasilian School of Cosmology and Gravitation - BSCG. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cesare Lattes Meeting on Gamma Ray Bursts. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Conferência de Cosmologia, Relatividade e Astrofísica.Estabilidade da Estrutura Conforme na Cosmologia. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Reuniao Anual do ICRA.Excitações do Tensor de Weyl na Cosmologia.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Logic and Time (in honor of Kurt Gödel). 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FOURTH INTERNATIONAL SCHOOL ON FIELD THEORY AND GRAVITATION.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII - Brazilian School of Cosmology and Gravitation - BSCG. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estrutura do espaço-tempo.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Escola de Cosmologia e Gravitação.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI - Brazilian School of Cosmology and Gravitation - BSCG. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tenth Marcel Grossmann Meeting. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Transplanckian Physics.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="195"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4937965723746020" target="_blank" tabindex="196">Goulart, E.</a></b>. 8th Friedmann Seminar. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="197">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="198"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Passile Catalayu. Métricas efetivas na eletrodinâmica não-linear.
+						Início: 2020.
+						Dissertação (Mestrado profissional em Física)  - Universidade Federal de São João Del-Rei. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano G. de Lima. Aproximação de campo fraco na relatividade geral.
+						Início: 2020.
+						Dissertação (Mestrado profissional em Física)  - Universidade Federal de São João Del-Rei. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/9768360230719166" tabindex="199"><img src="images/curriculo/logolattes.gif"></a>Istenio Nunes de Morais. Buracos Negros na formulação de Kerr-Schild.
+						Início: 2020.
+						Dissertação (Mestrado profissional em Física)  - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="200"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/3980645829400310" tabindex="201"><img src="images/curriculo/logolattes.gif"></a>Elves Silva Moreira. CONGRUÊNCIAS EM RELATIVIDADE GERAL E CONSEQUÊNCIAS COSMOLÓGICAS.
+							2022.
+						
+					Dissertação  (Mestrado em Física)  - Universidade Federal de São João Del-Rei, . Orientador: Érico Goulart de Oliveira Costa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Volino da Silva. Propriedades algébricas dos tensores de Faraday e Weyl.
+							2021.
+						
+					Dissertação  (Mestrado em Física)  - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Érico Goulart de Oliveira Costa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Volino da Silva.
+							Geometrias emergentes em sistemas não lineares.
+							2019.
+							Iniciação Científica. (Graduando em Engenharia Mecatrônica)  - Universidade Federal de São João Del-Rei,
+							Fundação de Amparo à Pesquisa do Estado de Minas Gerais. Orientador: Érico Goulart de Oliveira Costa.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Meison David Leite da Rocha.
+							Teoria dos nós aplicada `a física.
+							2019.
+							Iniciação Científica. (Graduando em Engenharia Civil)  - Universidade Federal de São João Del-Rei. Orientador: Érico Goulart de Oliveira Costa.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Emanuel Monção Lima.
+							Análise geométrica na teoria clássica de campos.
+							2019.
+							Iniciação Científica. (Graduando em Engenharia Mecatrônica)  - Universidade Federal de São João Del-Rei,
+							Fundação de Amparo à Pesquisa do Estado de Minas Gerais. Orientador: Érico Goulart de Oliveira Costa.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 24/01/2023 às 11:29:08</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4937965723746020" target="_blank" class="button" tabindex="202"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="203"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="204">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="14">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="15">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico" tabindex="18">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="19">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="21">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="23">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="24">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="25">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="26">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="27">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="28">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="29">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="30">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="31">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="32">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="34">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="35">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="36">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="37">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="38">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="39">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="40">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="41">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="42">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="44">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="46">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="47">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="48">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="49">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="50">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="51">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="52">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="53">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="54">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos" tabindex="56">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos" tabindex="57">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas" tabindex="59">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento" tabindex="60">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="62">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="63">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4771826P1&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="65">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

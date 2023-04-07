@@ -1,0 +1,233 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Física</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Física</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2004,
+1],
+[2005,
+1],
+[2009,
+1],
+[2010,
+1],
+[2014,
+3],
+[2016,
+1],
+[2017,
+1],
+[2018,
+2],
+[2019,
+4],
+[2021,
+3],
+[2022,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 32<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Roberto, Artur Justiniano; BUENO, Samuel ; ALVES, J. C. P. ; SILVA, J. C. ; OLIVEIRA, L. M. S.. <b>II SEMINÁRIOS DE ASTRONOMIA E ASTROFÍSICA</b>. 2022. Congresso</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BEZERRA, A. T. ; ROBERTO J., A. J. ; SOLTAU, S. B. ; CAMPS, I. ; TOTI, F. A. ; NEVES, P. P. ; ARRUDA, T. J. ; DOS SANTOS, E. C.. <b>I Encontro do Mestrado Nacional Profissional em Ensino de Física (MNPEF)</b>. 2021. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BEZERRA, A. T. ; ROBERTO J., A. J. ; SOLTAU, S. B. ; CAMPS, I. ; TOTI, F. A. ; NEVES, P. P. ; ARRUDA, T. J. ; DOS SANTOS, E. C.. <b>V Semana Acadêmica da Física - V SAF</b>. 2021. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>TOTI, Fredrerico Augusto; MARINELI, F. ; GOMES, A. D. T. ; LIMA, G. S. ; NEVES, J. A. ; HENRIQUE, A. B.. <b>II Enccontro Sul Mineiro de Ensino de Física (comitê Científico)</b>. 2021. Congresso</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BEZERRA, ANIBAL T; I. Camps Rodrigues. <b>Pint of Science 2019 - Alfenas</b>. 2019. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Camps, I.; S. B. Soltau ; A. T. Bezerra ; M. R. Cordeiro ; PISSETTI, F. ; SALGADO, I. ; BRITO, L. ; PEREIRA, M.. <b>Festival Internacional Pint of Science Alfenas</b>. 2019. Festival</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>COLOMBO JUNIOR, P. D. ; LEITE, D. A. R. ; OVIGLI, D. F. B. ; TOTI, F. A. ; MARTINS, R. S. ; USTRA, S. R. V. ; CAETANO, T. C.. <b>I Encontro Mineiro de Ensino de Física</b>. 2019. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ROBERTO J., A. J.; SILVA, J. C.. <b>1º Ciclo de Seminários de Astronomia e Astrofísica da UNIFAL-MG</b>. 2019. Congresso</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>A. T. Bezerra ; Artur Justiniano Roberto Junior ; S. B. Soltau ; Camps, I. ; F. A. Toti. <b>IV Semana Acadêmica de Física</b>. 2018. Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORDEIRO, M. ; Camps, I. ; PISSETTI, F. ; BRITO, L. ; SALGADO, I.. <b>Festival Internacional Pint of Science Alfenas</b>. 2018. Festival</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B. ; TOTI, F. A.. <b>Introdução ao Latex para Físicos</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BEZERRA, A. T. ; TOTI, Fredrerico Augusto. <b>III Semana da Física</b>. 2016. Outro</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, H. B. ; VALE, M. A. B. ; SOUZA, S. M. ; MARROQUIM, F. ; HICKEL, G. R. ; BOSELLI, M. A. ; SORPRESO, Thirza Pavan ; FARIA, A. J. ; MELO, C. A. M. ; SILVA, D. J. P. ; COLLADO, E. A. G. ; GARDIM, F. G. ; VALDIVIESSO, G. A. ; VIVAS, M. G. ; HIRANO, L. A. ; CUZINATTO, R. R. ; CAETANO, T. C. ; MOREIRA, C. C.. <b>IX Encontro Mineiro de Física</b>. 2014. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>H. B. de CARVALHO; S. M. de Souza ; M. A. B. do Vale. <b>IX Encontro Mineiro de Física - EMiF</b>. 2014. Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>TOTI, Fredrerico Augusto; PIERSON, A. H. C. ; FRANCA, D. H. S. S.. <b>O papel da contextualização nos Exames Nacionais do Ensino Médio: uma análise a partir da área de Ciências Naturais e suas Tecnologias</b>. 2014. Outro</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>C. Wisniewski ; H. B. de CARVALHO ; J. M. Morbec ; P. P. Neves. <b>I Semana da Física</b>. 2010. Outro</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>M. A. Boselli ; I. C da Cunha Lima ; E. A. A. E. Silva ; H. B. de CARVALHO ; D. Rocco. <b>Segunda Oficina de Ouro Preto sobre Fenômenos Relacionados ao Spin</b>. 2009. Outro</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>H. B. de CARVALHO; J. G. de Souza ; J. B. A. Leite. <b>I Escola de Física do Vale da Eletrônica</b>. 2005. Outro</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ROBERTO J., A. J.; ASSSUNPCAO, R.. <b>Seminário - Astronomia Aplicada ao Ensino de Ciências</b>. 2004. Outro</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AVERSI-FERREIRA, Tales Alexandre. I Semana Científico-cultural da enfermagem. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AVERSI-FERREIRA, Tales Alexandre. XI Encontro de Biologia da UEG. 2001. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Mir, M.. I Jornada Cientifica da Unifal. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Mir, M.. II JORNADA CIENTÍFICA DA UNIFAL-MG. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>NEVES, P. P.. II Jornada Ciêntifica da UNIFAL-MG. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SOLTAU, S. B.. Feira de Ciências Itinerante Portátil. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SOLTAU, S. B.. I Encontro do MNPEF. 2021. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SOLTAU, S. B.. II Ciclo de Palestras Física & Tecnologia. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SOLTAU, S. B.. III Ciclo de Palestras Física & Tecnologia: as mulheres na Ciência. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SOLTAU, S. B.. Pint of Science Brasil. 2019. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SOLTAU, S. B.. V Semana Acadêmica da Física. 2021. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>TOTI, F. A.. I Seminário Institucional de Residência Pedagógica. 2019. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>TOTI, F. A.. II Seminário de Estágios de Jataí. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 09:45:56<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

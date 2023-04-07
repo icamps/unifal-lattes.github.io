@@ -1,0 +1,973 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Instituto de Ciências Exatas</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Instituto de Ciências Exatas</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[1991,
+3],
+[1992,
+2],
+[1993,
+1],
+[1994,
+2],
+[1995,
+7],
+[1996,
+7],
+[1997,
+19],
+[1998,
+13],
+[1999,
+17],
+[2000,
+34],
+[2001,
+43],
+[2002,
+45],
+[2003,
+52],
+[2004,
+61],
+[2005,
+70],
+[2006,
+62],
+[2007,
+63],
+[2008,
+54],
+[2009,
+88],
+[2010,
+78],
+[2011,
+83],
+[2012,
+79],
+[2013,
+72],
+[2014,
+51],
+[2015,
+47],
+[2016,
+40],
+[2017,
+58],
+[2018,
+43],
+[2019,
+64],
+[2020,
+40],
+[2021,
+43],
+[2022,
+38],
+[2023,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 1380<br>
+                    
+                    <center>Página: <a href="Ep-0.html">1</a> &nbsp;<b>2</b> &nbsp;</center>
+                    <div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>59. &nbsp;</td> <td>XXIII Congresso Nacional de Laticínios. AVALIAÇÃO DAS VARIÁVEIS FÍSICO-QUÍMICAS DO LEITE DE RAÇA HOLANDESA E MESTIÇO SOB CONDIÇÕES DE ANÁLISE DO LEITE RECÉM-ORDENHADO E REFRIGERADO NO CEFET-RP, NO ANO DE 2005. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>XXIX Congresso Nacional de Matemática Aplicada e Computacional. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>XXIX Encontro Nacional de Física da Matéria Condensada. Evidence os SPIN-polarized Current through a p-i-n GaAs/AlAs Resonant Tunneling Device. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>XXXVIII Simpósio Brasileiro de Pesquisa Operacional.Uma Proposta Para Um Sistema de Knowledge Discovery in Databases-KDD Utilizando Arquitetura Dirigida à Componentes. 2006. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>11th International Meeting on ferroeletricity.Epitaxial grown and dielectric properties of PZT thin films obtained by a chemical method. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Effects of excitonic complex formation in resonant tunneling diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Influence of minority carrier transport in the optical properties of double barrier resonant tunneling diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Voltage-controlled Hole Spin Injection in Nonmagnetic Resonant Tunneling Diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>13º Evinci.Cadeias de Markov Ergódicas. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>13º Simpósio internacional de Iniciação Científica da USP.Order Stars e Métodos Numéricos Lineares de Passos Múltiplos. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>25o Colóquio Brasileiro de Matemática. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>25º Colóquio Brasileiro de Matemática. Order Stars e Métodos Numéricos de Passos Múltiplos: um estudo de algumas propriedades. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>2ª Semana da Matemática - UNIFEOB. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>50a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. varios. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CBRN-Congresso Brasileiro de Redes Neurais. Agrupamento Nebuloso Aplicado à Previsão de Carga a Curto Prazo. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ciclo de seminários sobre educação e trabalho.Ciclo de Seminários sobre Educação e Trabalho da Universidade Estadual Paulista Júlio de Mesquita Filho. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>encontro nacional de engenharia de Produção. Mapeamento dos processos em serviços: estudo de caso em duas pequenas empresas da área de saúde. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ENEPE-Encontro de Ensino, Pesquisa e Extensão da Unoeste.Estudo Numérico de Imagens Fractais. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Estatistica Experimental: uma abordagem fundamentada no planejamento e no uso de recursos computacionais. 2005. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Fórum Permanente de Extensão: "Parceria entre Universidade e Escolas Básicas". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I Encontro Norte Nordeste de Pesquisa Operacional.I Encontro Norte Nordeste de Pesquisa Operacional. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>I SEMANA DA MATEMÁTICA.O poder da Matemática. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>I Semana da Matemática.Progressões e Matemática Financeira. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>I Semana de Física da UFSCar. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>I Semana de Tecnologia da FATEC.Bioinformática. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>I Seminário de teses e dissertações do PPGE.I Seminário de dissertações e tese do programa de pós-graduação em Educação da Universidade Federal de São Carlos. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>I Simpósio do Dia do Leite. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>I Workshop Carpe Diem do Departamento de Ciencia da Computacao da Universidade Federal de Lavras. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>I Workshop Carpe Diem do Departamento de Ciencia da Computacao da Universidade Federal de Lavras.Analise Sensorial no R. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>ICMC-Summer Meeting in Differential Equations-2005 Chapter. ICMC-Summer Meeting in Differential Equations-2005 Chapter. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>III SEMANA DA MATEMÁTICA.Trabalho realizado por aluno na aulas de Informática: Fractais. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>III Semana Técnica CEFET-RP. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>International Council on Education for Teaching. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>IV FAFGRAD - Fórum de Atividades Formativas da Graduação.I Brincando de Matemático. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>IV Semana da Física Médica, DFM, FFCLRP-USP. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>IX Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos.IX Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos, da Universidade de São Paulo, de 18 a 21 de Outubro de 2005.. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Mini-curso: Técnicas de Modelagem Computacional. 2005. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Mini-Simpósio de Iniciação Científica.Teoria da estabilidades fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>PALESTRA - Astronomia e Cosmologia.PALESTRA. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Palestra - Astronomia no Dia a Dia.PALESTRA. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Palestra: ""Atividades de experimentação como meio para abordagem de aspectos da cultura científica em aulas de física. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Palestra: "A educação de adultos na perspectiva da educação continuada". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Palestra: "Condições de Produção da Leitura e Implicações para o Ensino da Física na Universidade". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Palestra: "Discurso e ensino de ciências: implicações para uma leitura de imagem". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Palestra: "Ensinar e Aprender Ciências no Ensino Fundamental com Atividades Investigativas". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Palestra: "Projetos de ciências para primeira e quarta séries: o calendário e a medida do tempo". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Palestra: "Resolução de Problemas e Estratégia de Projetos: a experiência da USP leste". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Participação no curso:Bioinformatica: do sequenciamento a funcao biologica. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Participação no Minicurso Extatística experimental: uma abordagem fundamentada no planejamento e no uso de recursos computacionais da 50ª SEACRO.Participação no Minicurso Extatística experimental: uma abordagem fundamentada no planejamento e no uso de recursos computacionais. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Participação no minicurso Técnicas de Modelagem Computacional.Participação no minicurso Técnicas de Modelagem Computacional. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>RBRAS e SEAGRO.50ª Reunião Anual da Região Brasileira da sociedade Internacional de Biometria - RBRAS e 11º Simpósio de Estatística Aplicada à Experimentação Agronômica - SEAGRO. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>SBAI - Simpósio Brasileiro de Automação Inteligente. Um Sistema Especialista Aplicado à Previsão de Carga em Curto Prazo. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Semana da Matemática.Equações a diferenças e aplicações. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Seminários CLE Auto-organização. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Simpósio de Engenharia de Produção.Contribuição do Gerenciamento de Projetos na implementação de um Sistema de Gestão da Qualdiade. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Simpósio de Pesquisa Operacional e Logística da Marinha. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>The American Crystallographic Association Annual Meeting. Single crystal structure characterization of iron Ludwigite from 294 to 15K.. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>V ENPEC - Encontro Nacional de Pesquisa em Educação em Ciências.Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Weimig'2005.Weimig'2005 - Workshop em Educação em Computação e Informática do Estado de Minas Gerais. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>XI Encontro Baiano de Educação Matemática: matemática e diversidade cultural.XI EBEM (Encontro Baiano de Educação Matemática). 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>XI Jornada de Iniciação Científica de Alfenas.XI Jornada de Iniciação Científica de Alfenas - MG, com apresentação de trabalhos, cursos, palestras, seminários, entre outros.. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>XI SEAGRO - Simposio de Estatistica Aplicada a Experimentacao Agronomica. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>XIII Semana da Matemática. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>XIV Congresso dos Pós-Graduandos da UFLA. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>XVI Simpósio Nacional de Ensino de Física.Contribuições de Dúvidas, Concordâncias e Discordâncias na Compreensão do Imaginário de Licenciandos em Física. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>XVII REUNIÃO DA SOCIEDADE BRASILEIRA DE CRISTALOGRAFIA.A influênica da adição de Yb sobre as fases cristalinas do PLZT 9/65/35. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>XVII REUNIÃO DA SOCIEDADE BRASILEIRA DE CRISTALOGRAFIA.Análise microestrutural da hidroxiapatita Ca10(PO4)6(OH)2. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>XXII Congresso Nacional de Laticínios. varios. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>XXII Simpósio Brasileiro de Telecomunicações.Discriminante mínimo de subcorpos de Q(\zeta_{p^{r}}). 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>XXVIII Congresso Nacional de Matemática Aplicada e Computacional. Uma nota sobre discriminante mínimo. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>XXVIII Encontro Nacional de Física da Matéria Condensada. Influência do substrato de deposição na texturização de filmes finos de PZT (PbZr0:20Ti0:80O3). 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>XXVIII-CNMAC. Um estudo dos métodos de Bernoulli e do quociente de diferenças para a localização de raízes de polinômios. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>XXXI reunião anual da sociedade astronômica brasileira. XXXI reunião anual da sociedade astronômica brasileira. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>XXXVII Simpósio Brasileiro de Pesquisa Operacional.XXXVII Simpósio Brasileiro de Pesquisa Operacional. 2005. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Estatística aplicada. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>12º Evinci.Matrizes Estocásticas. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>12º SIICUSP-Simpósio Internacional de Iniciação Científica da USP.Estudo da teoria da estabilidade fraca para métodos lineares de passos múltiplos, no modo de previsão e correção. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>16ª SINAPE.Simpósio Nacional de Probabilidade Estatística. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>1ª Semana da Matemática - UNIFEOB. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>1° Festival do Software Livre - FESTSOL. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>1º Latin American Protein Society Meeting. Structural Bioinformatics Applied to the Study of Protein Targets from Mycobacterium tuberculosis Genome. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>2° Congresso Internacional de Iniciação Científica - COINT - SEMESP. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>49 Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>49a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 49a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>49ª Reunião Anual da Região Brasileira da sociedade Internacional de Biometria - RBRAS.49ª Reunião Anual da Região Brasileira da sociedade Internacional de Biometria - RBRAS. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>4° Congresso Nacional de Iniciação Científica - CONIC - SEMESP. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>56ª Reunião Anual da SBPC. Espaços Localmente Convexos. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>5a Semana da Computação da FAGOC. Software para a Exploração de Falhas de Segurança em Sistemas Operacionais. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>CNMAC-Congresso Nacional de Matemática Aplicada e Computacional. Encontrando um método linear de k passos que seja ótimo. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Conferência: "Grupos de Reflexão e Estudos Pedagógicos: uma alternativa para orientação pedagógica do trabalho escolar". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Congresso Brasileiro de Automática - 2004. Agrupamento de Curvas de Demanda. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Curso de Extensão Fórum Nacional Luterano de Educação. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Debate .NET J2EE.Debate .NET J2EE. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>ENEPE-Encontro Anual de Pesquisa Institucional.Teoria da estabilidade fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>FAGOC 500.Software para a Exploração de Falhas de Segurança em Sistemas Operacionais. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Fórum Latino-Americano de Plantas Ornamentais - Encontro da Academia Brasileira de Arte Floral. Fórum Latino-Americano de Plantas Ornamentais. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>I Mostra de Graduação e Pós Graduação da UFJF: XI Seminário de Iniciação Científica.I Mostra de Graduação e Pós-Graduaçõa da UFJF:XI Seminário de Iniciação Científica. 2004. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>I Oficina de teoria do LNLS. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>ICMC-Summer Meeting inDifferential Equations-Chapter 2004. ICMC-Summer Meeting in Differential Equations-2004 Chapter. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>II encontro de matemática.O uso do software R na matemática e estatística. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>II encontro de matemática.Pós-graduação Lato e Stricto sensu. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>II Mostra de Produção Científica da UNIPAC.Pesquisa eleitoral na cidade de Rodeiro. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>II SEMANA DA MATEMÁTICA.Trabalho realizado pelo alunos de Informática: Projeto Calendário. 2004. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>II Simpósio de Foramação de Professores de Juiz de Fora.II Simpósio de Formação de Professores de Juiz de Fora. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>III Congresso de Administração. Análise da gestão de empresas do terceiro setor em Itajubá. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>III Semana da Física Médica, DFM, FFCLRP-USP. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>International Conference on Bioinformatics and Computational Biology. DBMODELING: a Database of Protein Structural Models from Mycobacterium tuberculosis. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>IV Congresso Nacional de Iniciação Científica. Interface gráfica para compiladores gratuitos baseados em linha de comando disponíveis na internet. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>LDSD2004 ? International Conference on Low Dimensional Structures and Devices. Hole-Spin Dependent Tunneling in p-type Double-Barrier Diodes. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Matemática na Escola: conteúdos e contextos.VII EPEM (Encontro Paulista de Educação Matemática). 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>OBI'2004.VI Olimpíada Brasileira de Informática. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Oficinas de Astronomia.Oficinas de Astronomia. 2004. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Palestra.O uso da estatística na graduação e pós-graduação da universidade federal de lavras. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Palestra.Proposta e avaliação de critérios de convergência para o método de Monte Carlo via Cadeias de Markov: casos Uni e Multivariados. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Palestra: "Discurso científico e discurso escolar: de quem e para quem?". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Palestra: "Discurso e (re)significação e construção de conhecimento em História". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Palestra: "Geociência, ensino fundamental e educação ambiental". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Participação no Minicurso: Tópicos de Análise e Programação estatística em Ambientes R no XIII Congresso de Pós-graduandos da UFLA.. Participação no Minicurso: Tópicos de Análise e Programação estatística em Ambientes R. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>PD 30 Anos.A Caverna Digital e sua Utilização na Sociedade Moderna. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>SECICOM - Semana da Ciência da Computação. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Simposium on Virtual Reality. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Simpósio Nacional de Probabilidade e Estatística.Simpósio Nacional de Probabilidade e Estatística. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Sispot 2004 -Encontro de pesquisadores em Sistemas de potência. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Summer Meeting in Differential. Summer Meeting in Differential. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>VIII Simpósio de Atualização em Genética e Melhoramento de Plantas. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>XIII Congresso de Pós-graduação da UFLA. XIII Congresso de Pós-graduação da UFLA. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>XIII Congresso dos Pós-Graduandos da UFLA. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>XIII Congresso dos Pós-Graduandos da UFLA.. XIII Congresso dos Pós-Graduandos da UFLA.. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>XIV Reunião Anual de Usuário do LNLS. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>XIV Reunião Anual de Usuários do LNLS.. XIV Reunião Anual de Usuários do LNLS, 09 a 11 de fevereiro de 2004.. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>XVIII Escola de Álgebra. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>XXIV Congresso da Sociedade Brasileira da Computação. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>XXVII Encontro Nacional de Fisica da Materia Condensada.Theoretical studies of transport and optical properties of double barrier resonant tunneling diodes. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>XXVII Encontro Nacional de Física da Matéria Condensada. Montagem Experimental para Estudo de Desmagnetização e Relaxação Magnética: Time-Resolved Magneto-Optical Kerr Effect. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>XXVII Encontro Nacional de Física da Matéria Condensada.XXVII Encontro Nacional de Física da Matéria Condensada, realizado de 04 a 08 de maio de 2004, em Poços de Caldas, MG.. 2004. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Estatística aplicada. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>. Congresso de Laticínios. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>10o SEAGRO - Simposio de Estatistica Aplicada a Experimentacao Agronomica. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>10o Simpósio de Estatística Aplicada a Experimentação Agronômica (SEAGRO) e da 48a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBRAS).10 Simpósio de Estatística Aplicada a Experimentação Agronômica (SEAGRO) e da 48 Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBRAS). 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>24 Colóqio Brasileiro de Matemática.24 Colóquio Brasileiro de Matemática. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>24º Colóquio Brasileiro de Matemática. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>48a Reuniao da Regiao Brasileira da Sociedade Internacional de Biometria. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>4a Semana da Computação da FAGOC. Interface gráfica para compiladores gratuitos baseados em linha de comando disponíveis na internet. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>A Geração da Energia Hidroelétrica no Brasil. 2003. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Conferencia Latino Americana de Informatica (Doc 9). Utilização de Máquinas de Estado Abstratas em Aplicações de Inteligência Artificial e Jogos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Encontro de Ex-Alunos do Departamento de Matemática - Prata da Casa.Fundamentos em Neurocomputação. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Escola de Computação de Alto Desempenho para Sistemas Complexos.Bioinformatics Study of Cyclin-Dependent Kinase 5 Complexed with Roscovitine. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>I Mostra de Produção Científica da UNIPAC.Critérios Alfabéticos de Optimalidade. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>I Mostra de Produção Científica da UNIPAC.Grafos Designs. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Simpósio de Formação de Professores de Juiz de Fora.I Simpósio de Formação de Professores de Juiz de Fora. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I Workshop Internacional Brasil-Japão. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I-Escola Brasileira de Equações Diferenciais. I-Escola Brasileira de Equações Diferenciais. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>II Simpósio Brasileiro de Engenharia Física.II Simpósio Brasileiro de Engenharia Física. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Participante do curso:Linguagem de programação C++ (atualização)..Participante do curso:Linguagem de programação C++ (atualização).. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Participação em Minicurso:Delineamento de Análise de Experimentos de Expressão Gênica no 10º Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO).Participação em Minicurso: Delineamento de Análise de Experimentos de Expressão Gênica.. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Participação no Minicurso: Análise Multivariada no 10º Simpósio de estatística Aplicada à Experimentação Agronômica..Minicurso: Análise Multivariada. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Participação no minicurso: Computer-intensive statistical melthods in biology and environmental science no 10º SEAGRO.Participação no minicurso: Computer-intensive statistical melthods in biology and environmental science. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Participação no minicurso: In introductory course on stochastic processes no 10º Simpósio de Estatística Aplicada à Experimentação Agronômica.Participação no minicurso: In introductory course on stochastic processes. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Primeiro Processo Seletivo de Avaliação Única - PROUNI de 2004 da Universidade Federal de Lavras (UFLA). 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Programa e Resumos do 10º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica & 46a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 10º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica & 48a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>ProQuality SRC - Qualidade nas pequenas empresas de Software. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>SBBq. Bioinformatics Study of Cyclin-Dependent Kinase 5 Complexed with Roscovitine. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>SECICOM - Semana da Ciência da Computação. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Semana da Ciência da COmputação. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Simpósio de Matemática para a Graduação. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Summer Meeting in Differential. Summer Meeting in Differential. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Third Stig Lundqvist Conference on Advancing Frontiers of Condensed Matter Physics: Fundamental Interactions and Excitations in Confined Systems. Third Stig Lundqvist Conference on Advancing Frontiers of Condensed Matter Physics: Fundamental Interactions and Excitations in Confined Systems. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>VI Symposium on Virtual Reality.Visualização de Alto Desempenho - utilizando componentes convencionais. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>VII Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos.VII Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos, da Universidade de São Paulo, de 22 a 26 de setembro de 2003.. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>WorkShop de Educação em Computação e Informática do Estado de Minas Gerais.Weimig'2003 - WorkShop em Educação em Computação e Informática do Estado de Minas Gerais. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Workshop do programa de aperfeiçoamento de ensino - PAE.Workshop do programa de aperfeiçoamento de ensino - PAE. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Workshop do Programa de Aperfeiçoamento de Ensino-PAE.Workshop do Programa de Aperfeiçoamento de Ensino-PAE. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Workshop sobre Simulação e Modelagem em Nanoestruturas.Workshop sobre Simulação e Modelagem em Nanoestruturas. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>X Semana de Matemática e III Semana de Matemática Industrial. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XII Congresso de Pós-Graduação da UFLA. XII Congresso de Pós-Graduação da UFLA. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XII Congresso dos Pós-Graduandos da UFLA. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>XIII Congresso de Pós-graduação da UFLA. Alternativas multivariadas para avaliar a convergência do Monte Carlo via Cadeias de Markov. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>XIII Reunião Anual de Usuários do LNLS. XIII Reunião Anual de Usuários do LNLS, 17 a 18 de fevereiro de 2003.. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>XLI Congresso Brasileiro de Economia e Sociologia Rural. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>XV Congresso de Iniciação Científica da Unesp. Sobre códigos cíclicos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>XV Semana da Matemática. Códigos Cíclicos sobre Corpos Finitos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>XVI Reunião da SBCr.Effect of Stress on 3YTZ-Al2O3 Composites. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>XX Congresso Nacional de Laticínios. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>XXVI Congresso Nacional de Matemática Aplicada e Computacional. Uma nota sobre códigos cíclicos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Materia Condensada. Resultados preliminares de uma transição de fase da Ludwigita Fe3O2BO3 a baixa temperatura.. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Matéria Condensada..XXVI Encontro Nacional de Física da Matéria Condensada, realizado de 06 a 10 de maio de 2003, em Caxambu, MG.. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Matéria Condensada.XXVI Encontro Nacional de Física da Matéria Condensada. 2003. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Iniciação Científica. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Seminário Inciação Científica. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Seminário Inciação Científica. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>.Simpósio de Bovinocultura de leite. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>22° Congresso da Sociedade Brasileira de Computação. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>29º Colóquio de incentivo à pesquisa. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>3 Sinleite - Simpósio Internacional em Bovinocultura de leite. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>3a Semana da Computação da FAGOC. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>47 Reunião Anual da região Brasileira da Sociedade Internacional de Biometria. Análise bayesiana para o problema de Behrens-Fisher por meio de simulação Monte Carlo. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>47 Reunião Anual da Sociedade Brasileira da Sociedade Internacional de Biometria. 47a Reunião Anual da Sociedade Brasileira da Sociedade Internacional de Biometria. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>47a Reuniao da Regiao Brasileira da Sociedade Internacional de Biometria. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>47a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>: IV Encontro Mineiro de Estatística - IV MGEST..IV Encontro Mineiro de Estatística - IV MGEST.. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Encontro Brasileiro de Topologia. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Encontro de Álgebra 2002-MAT / UFMG. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>ERMAC - 2002.Encontro Regional de Matemática Aplicada e Computacional. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ERMAC-Encontro Regional de matemática Aplicada. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Fórum Brasileiro de Educação Física e Ciências do Esporte e V Simpósio Mineiro de Ciências do Esporte.Perfil do Vo2max em alunos ingressos na Escola Agrotécnica Federal de Rio Pomba-MG. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>II SisPot - Encontro dos Pesquisadores em Sistemas de Potência. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>IMIGRA2002. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>IV Semana de Engenharia Mecatrônica. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Pré-Congresso de Alunos e (Seus) Professores, Hemocentro-RP, USP.Identificação de núcleos de células usando corantes naturais (sob orientação do Prof. Luciano do Nascimento Mesquita). 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Qualitative Theory of Differential Equations. Qualitative Theory of Differential Equations. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Semana da Matemática. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Semana da Matemática.Semana da Matemática. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Simpósio Brasileiro de Redes de Computadores. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>V Seminário de Avaliação do PBIICT/FAPEMIG. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>V Workshop de Computação.Commodity Clusters for Immersive Projection Environments. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>VIII Semana de Informática - UFV (Doc 40). 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Workshop do Instituto Milênio I - Estudo multidisciplinar de materiais poliméricos.Workshop do Instituto Milênio I - Estudo multidisciplinar de materiais poliméricos. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Workshop on Molecular Modeling in Biophysics. Comparative Modeling: Problems and Solutions Using MODELLER. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XI Congresso de Pós-Graduação da UFLA. XI Congresso de Pós-Graduação da UFLA. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>XII Reunião Anual de Usuários do LNLS. XII Reunião Anual de Usuários do LNLS, 04 a 05 de fevereiro de 2002.. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XII Reunião Anual de Usuários do LNLS.Análise da estrutura da Ludwigita Fe3O2BO3, por difração de raios X em monocristais, abaixo de 144K. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>XIV Congresso de iniciação cientifica. Códigos lineares sobre corpos finitos. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XIV Congresso de Iniciação Científica. XIV Congresso de Iniciação Científica. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XIV Semana da Matemática e Reunião Regional da Sociedade Brasileira de Matemática. Uma nota sobre códigos lineares. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XIV Semana da Matemática. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>XVII ESCOLA DE ÁLGEBRA. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XVII Escola de Álgebra. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XVII Escola de Álgebra. D-simple rings and maximal ideals of the Weyl algebra. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada.XXV Encontro Nacional de Física da Matéria Condensada, realizado de 07 a 11 de maio de 2002, em Caxambu, MG.. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>XXV Congresso Nacional de Matemática Aplicada e Computacional. XXV Congresso Nacional de Matemática Aplicada e Computacional. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>XXV Encontro Nacional de Física da Matéria Condensada. Microstructure, Magnetic and Electrical Properties of Co Films on Si: Thermal, Thickness and Roughness Dependence. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>XXVIII Reuniao Anual da Sociedade Astronomica Brasileira. XXVIII Reuniao Anual da Sociedade Astronomica Brasileira. 2002. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Estatística aplicada. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>. Congresso de Iniciação Científica. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>. Congresso Pós-Graduação. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>.Encontro de Estatística. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>.Simpósio de bovinocultura de leite. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>.Simpósio de Doenças de Plantas. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>23 Colóquio Brasileiro de Matemática. 23 Colóquio Brasileiro de Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>23º Colóquio Brasileiro de Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>2a Semana da Computação da FAGOC. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>46a Reunião Anual da RBRAS - 9o SEAGRO. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>46a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria & 9º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica.. 46a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria & 9º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica.. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>46a Reunião da RBRAS e 9o SEAGRO. Reunião Anual da RBRAS e SEAGRO. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>7ª Semana da Informática da Universidade Federal de Viçosa. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>9 Simpósio de Estatística Aplicada à Experimentação Agronômica e 46 Reunião Anual da Região Brasileira da Sociedade de Biometria.9 Simpósio de Estatística Aplicada à Experimentação Agronômica e 46 Reunião Anual da Região Brasileira da Sociedade de Biometria. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Encontro de Álgebra. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I Simpósio sobre controle e doenças de plantas: Manejo Integrado de Doenças e Pragas de Hortaliças. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I Workshop on Metastable and Nanostructured Materials. Microstructure and magnetic properties of Co films on Si: Thickness and roughness dependence. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>II Oficina de Física Moderna do IFGW. 2001. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>II Simpósio de Forragicultura e Pastagens.Organização. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>III Brazilian School of Magnetism Jorge André Swieca. Microstructure and Magnetic Properties of Co Films on Si: Thermal and Thickness Dependence. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>III Encontro Mineiro de Estatística - III MGEST..III Encontro Mineiro de Estatística - III MGEST.. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>III MGEST - Encontro Mineiro de Estatística.III Encontro Mineiro de Estatística. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>III Encontro Mineiro de Estatística.Encontro Mineiro de Estatística. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Semana da Ciência da Computação. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Semana da Matemática.Semana da Matemática. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Seminário de Avaliação do PIBIC/CNPq - UFLA. 2001. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Seminários dos Estudantes da Pós Gradução do Instituto de Física de São Carlos, da Universidade De São Paulo.Participação dos Seminários dos Estudantes da Pós Gradução do Instituto de Física de São Carlos, da Universidade De São Paulo, através de palestra ministrada no dia 23 de outubro de 2001 sob o título: Síntese e Caracterização de Filmes finos de Metaborato de Bário. 2001. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>V Workshop de Auxiliares de Ensino do IFGW. 2001. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>V Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos..V Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos, da Universidade de São Paulo, de 29 a 31 de Agosto de 2001.. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>VI Semana de Física. 2001. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>X Congresso da Pós-Graduação da UFLA. Congresso da Pós-Graduação. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>X Congresso de Pós Graduação de UFLA.. X Congresso de Pós Graduação de UFLA. Período : 19 a 23 de novembro de 2001.. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>X Congresso de Pós-Graduação da UFLA. X Congresso de Pós-Graduação da UFLA. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XI Simpósio de Iniciação Científica.MATLAB e Aplicações. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>XIII Congresso de Iniciação Ciêntifica. Códigos Binários. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XIII Semana da Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XIII Semana da Matemática. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XIV Congresso de Iniciação Científica da UFLA, CICESAL; IX Seminário de Avaliação do PIBIC/CNPq e IV Seminário de Avaliação do PBIICT/ FAPEMIG. XIV Congresso de Iniciação Científica da UFLA, CICESAL; IX Seminário de Avaliação do PIBIC/CNPq e IV Seminário de Avaliação do PBIICT/ FAPEMIG. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>XXII Congresso Brasileiro de Aplicações de Vácuo na Indústria e na Ciência.. XXII Congresso Brasileiro de Aplicações de Vácuo na Indústria e na Ciência - XXII CBRAVIC. 25 a 27 de jullho de 2001.. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XXIII Colóquio Brasileiro de Matemática. XXIII Colóquio Brasileiro de Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada. Evidences of modulate structure in iron ludwigites Fe3O2BO3. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada..XXIV Encontro Nacional de Física da Matéria Condensada, realizado de 15 a 19 de maio de 2001, em São Lourenço, MG.. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada.XXIV Encontro Nacional de Física da Matéria Condensada. 2001. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. SECAL. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>10th Brazilian Workshop on Semiconductor Physics. Carrier Dynamics Investigated by Time Resolved Optical Spectroscopy. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>12th Symposium on Computer Architecture and High Performance Computing. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>13th Brazilian Symposium on Computer Graphics and Image Processing. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>14 Simpósio Nacional de Probabilidade Estatística - SINAPE.14 Simpósio Nacional de Probabilidade Estatística - SINAPE. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>1a Semana da Computação da FAGOC. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>45a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Fórum de Ciências da Faculdade de Ciências e Tecnologia ? 5ª Reunião de Iniciação Científica.Fórum de Ciências da Faculdade de Ciências e Tecnologia. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Simpósio de Forragicultura e Pastagens.I Simpósio de Forragicultura e Pastagens. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Encontro Mineiro de Educação Matemática - SBEM. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Colóquio de Pesquisa e Pós-graduação em Matemática Aplicada. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IV Encontro da Sociedade Brasileira de Crescimento de Cristais..IV Encontro da Sociedade Brasileira de Crescimento de Cristais, realizado de 12 a 14 de novembro de 2000.. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IV Workshop de Auxiliares de Ensino do IFGW. 2000. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>IX Congresso da Pós-Graduação. Congresso da Pós-Graduação. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Olimpíada Brasileira de Informática.Olimpíada Brasileira de Informática. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Reunião Regional da Sociedade Brasileira de Matemática.Reunião Regional da Sociedade Brasileira de Matemática. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Semana da Matemática.Semana da Matemática. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>V Reunião Regional da Sociedade Brasileira de Matemática.Introdução aos Espaços de Hilbert. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>V Semana da Física. 2000. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>VII Seminário Latino Americano de Análises por Técnicas de Raios-X..VII Seminário Latino Americano de Análises por Técnicas de Raios-X, realizado de 19 a 24 de novembro de 2000, São Pedro, SP, Brasil.. 2000. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>X Reunião Anual de Usuários do LNLS.Análise da estrutura da Ludwigita Fe3O2BO3 por difração de raios X em função da temperatura. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>X Simpósio de Iniciação Científica.Introdução aos Espaços de Hilbert. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XI Semana da Educação ? Semana da Pedagogia: O Universo em Desconstrução.XI Semana da Educação ? Semana da Pedagogia: O Universo em Desconstrução. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XII Semana da Matemática. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XII Semana da Matemática. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XIII Congresso de Iniciação Científica da UFLA, CICESAL; VIII Seminário de Avaliação do PIBIC/CNPq e III Seminário de Avaliação do PBIICT/ FAPEMIG. XIII Congresso de Iniciação Científica da UFLA, CICESAL; VIII Seminário de Avaliação do PIBIC/CNPq e III Seminário de Avaliação do PBIICT/ FAPEMIG. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XVI Semana de Ciências Agrárias e Tecnológicas de Lavras. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XVI Semana de Ciências Agrárias e Tecnológicas de Lavras.. XVI Semana de Ciências Agrárias e Tecnológicas de Lavras.. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Materia Condensada. Current-voltage and X-ray measurements in Fe3O2BO5. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Materia Condensada. Eletron Deslocalization and magnetism in the Fe3O2BO3. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Matéria Condensada..XXIII Encontro Nacional de Física da Matéria Condensada, realizado de 9 a 13 de maio de 2000, em São Lourenço, MG.. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Matéria Condensada.XXIII Encontro Nacional de Física da Matéria Condensada. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>XXVI Reuniao da Sociedade Astronomica Brasileira. XXVI Reunião Anual da Sociedade Astronômica Brasileira. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XXVII Colóquio de Incentivo à Pesquisa. 2000. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Semana de Agronomia. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Extensão e Programas de estágio. 1999. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Forum Diretrizes Curriculares. 1999. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1º Encontro de Informática na Educação Matemática de Viçosa. 1999. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>22° Colóquio Brasileiro de Matemática. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>8 SEAGRO e 44 RBRAS.8 Simpósio de Estatística Aplicada à Experimentação Agronômica e 44 Reunião Anual da Região Brasileira da Sociedade de Biometria. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>9th Brazilian Workshop on Semiconductor Physics.9th Brazilian Workshop on Semiconductor Physics. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Agrosoft 99 - Feira e Congresso de Agroinformática. Uso da Informática na Agricultura Mineira: Perfil do Usuário e Estado da Arte. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Forum de Diretrizes Currilculares e Reformulação do Curso de Agronomia da UFLA. 1999. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Seminário de Extensão e Programas de Estágio. 1999. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Simpósio de Produção de Gado de Corte - SIMCORTE.I Simpósio de Produção de Gado de Corte - SIMCORTE. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IV Semana de Agronomia - O papel do profissional de Ciências Agrárias frente às novas tecnologias. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Seminários da Pós-graduação.Os duais de hipersuperfícies genéricas. 1999. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>V Semana de Informática (Doc 10).Uma Solução Intranet utilizando Java. 1999. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>V Semana de Informática - UFV (Doc 40). 1999. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XII Congresso de Iniciação Científica da UFLA, CICESAL; VII Seminário de Avaliação do PIBIC/CNPq e II Seminário de Avaliação do PBIICT/ FAPEMIG. XII Congresso de Iniciação Científica da UFLA, CICESAL; VII Seminário de Avaliação do PIBIC/CNPq e II Seminário de Avaliação do PBIICT/ FAPEMIG. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXV Reuniao Anual da Sociedade Astronomica Brasileira. XXV Reunião Anual da Sociedade Astronômica Brasileira. 1999. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>.Leite longa vida. 1998. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>13o CBECIMAT - Congresso Brasileiro de Engenharia e Ciências dos Materiais. 13o CBECIMAT - Congresso Brasileiro de Engenharia e Ciências dos Materiais,. 1998. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Controle de Qualidade de Leite Longa Vida. 1998. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Escola sobre Eletrônica Mesoscópica.Escola sobre Eletrônica Mesoscópica. 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Feira Nacional do Livro Da UNiversidade Federal de Moto grosso do sul..I Feira Nacional do Livro Da Universidade Federal de Moto grosso do sul, realizado de 28 a 30 de outubro de 1998. 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Escola Regional de Informática-SBC (Doc 40). 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV Semana de Informática - UFV (Doc 40). 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Modalidades Operacionais - Os Mercados Derivativos. 1998. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>VII Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB)..VII Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB), 22 a 25 de setembro de 1998.. 1998. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Workshop Internacional Tecnologia da Informação e Gestão de Cadeias Produtivas em Agribusiness. 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXI Encontro Nacional de Física da Matéria Condensada. Structural Analysis of Multi-phase zeolitic mineral. 1998. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXI Encontro Nacional de Física da Matéria Condensada.XXI Encontro Nacional de Física da Matéria Condensada. 1998. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXIV reuniao Anual da Sociedade Astronomica Brasileira. XXIV Reunião Anual da Sociedade Astronômica Brasileira. 1998. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>.Bebidas lácteas e sorvetes. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Pizza Cheese. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Tecnologia de Laticínios. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1ra Escola de inverno. Física da Matéria Condensada.1ra Escola de inverno. Física da Matéria Condensada. 1997. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>1º Encontro de Matemática - DMA/UFV. 1997. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Agrosoft 97 - Feira e Congresso de Agroinformática. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Estabilizantes e emulsificantes na produção de bebidas lácteas e sorvetes. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>III Semana de Informática - UFV (Doc 40). 1997. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IX Seminário Internacional de Política Agrícola. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Nanoestructura'97. Reunión de sistemas de baja dimensionalidad y sus aplicaciones.Nanoestructura'97. Reunión de sistemas de baja dimensionalidad y sus aplicaciones. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Second Panamerican Workshop on Applied and Computational Mathematic. Second Panamerican Workshop on Applied and Computational Mathematic. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Seminário Internacional sobre Pizza Cheese. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Sessão anual de seminários sobre gravatição e relatividade. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Simpósio de Tecnologia Laticinista. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Symposium on Laser and their Applications.Symposium on Laser and their Applications. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VI Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB)..VI Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB), setembro de 1997.. 1997. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XX Congresso Nacional de Matemática Aplicada e Computacional. XX Congresso Nacional de Matemática Aplicada e Computacional. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXVII Reuniao Anual da Sociedade Astronomica Brasileira. XXVIII Reuniao Anual da Sociedade Atronomica Brasileira. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XXVIII Reuniao Anual da Sociedade Atronomica Brasileira. XXVIII Reuniao Anual da Sociedade Atronomica Brasileira. 1997. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>.Tecnologia de Laticínos. 1996. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>II Encontro Divital de Tecnologia de Laticínios. 1996. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>VII Escola de Inverno - Fisica UFMG. 1996. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VIII Coloquio Brasileiro de Dinamica Orbital.VIII Coloquio Brasileiro de Dinamica Orbital. Caos e Fractais no PRTC. 1996. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>VIII Seminário Internacional de Política Agrícola. 1996. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Workshop on Structural Characterization of Polymers by X-ray Scattering,.Workshop on Structural Characterization of Polymers by X-ray Scattering,. 1996. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXIII Reuniao Anual da Sociedade Astronomica Brasileira. XXIII Reuniao Anual da Sociedade Astronomica Brasileira. 1996. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Laticínios. 1995. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Instrumental English. 1995. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Partnership in dairy industry. 1995. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Symposium on the development of partnership programmes in the dairy industry. 1995. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Teaching English in large classes - it can work!. 1995. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>V Encuentro Latinoamericano sobre Óptica, Láseres y sus aplicaciones.V Encuentro Latinoamericano sobre Óptica, Láseres y sus aplicaciones. 1995. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XIII Congresso Nacional de Laticínios. 1995. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Semana de Informática - UFV (Doc 40). 1994. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>II Semana de Informática - UFV (Doc 40).Minicurso de Computação Gráfica. 1994. (Outra).</td></tr>
+            </table></div><div id="dv-year-1993"><h3 class="year">1993</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Seminário de Agroecologia e Desenvolvimento. 1993. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1992"><h3 class="year">1992</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Simpósio de Iniciação Científica. 1992. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Seminário de Agroecologia e Desenvolvimento. 1992. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1991"><h3 class="year">1991</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Simpósio de Iniciação Científica. 1991. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Simpósio Mineiro de Iniciação Científica. 1991. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV Seminário Internacional de Política Agrícola. 1991. (Seminário).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 11:03:39<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

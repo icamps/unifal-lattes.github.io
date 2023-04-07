@@ -1,0 +1,281 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Estatística</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Estatística</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2001,
+1],
+[2006,
+2],
+[2007,
+3],
+[2009,
+1],
+[2011,
+3],
+[2012,
+1],
+[2013,
+1],
+[2014,
+2],
+[2015,
+1],
+[2016,
+1],
+[2017,
+1],
+[2019,
+3],
+[2022,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 54<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B.; SILVA, V. S. P.. <b>2o Simpósio de Métodos Quantitativos - 2o SIMEQ</b>. 2022. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, WANDERSON ROBERTO DA ; Ferreira, E.B.. <b>Elabore e Publique Artigos de Impacto</b>. 2022. Outro</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MARTINS, N. S.; GONCALVES, D. O.. <b>Introdução ao LaTeX</b>. 2019. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MARTINS, N. S.; PETRINI, J.. <b>Introdução ao Software R</b>. 2019. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PÁSCOA, M. A. R. de ; LUIZ, A. J. B. ; DEMETRIO, C. G. B. ; ROSSONI, D. F. ; HASHIMOTO, E. M. ; Ferreira, E.B. ; ROCHA, E. B. ; SILVA, F. F. e ; OLIVEIRA, F. L. P. ; SILVA, G. L. ; ROSA, G. J. M. ; PIEPHO, H. ; MUNIZ, J. A. ; GOMES, J. B. F. ; NAKAMURA, L. R. ; TRINCA, L. A. ; PESCIM, R. R.. <b>64ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 18º Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO)</b>. 2019. Congresso</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIAR, D. A. T. ; MARTINS, N. S.. <b>V Encontro de Qualidade de Vida e Promoção à Saúde do Servidor e Comemoração do Dia do Servidor Público da Unifal-MG</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>RODRIGUES, L. L. M. ; NOGUEIRA, D. A. ; PIRES, D. M. ; FERREIRA, E. B. ; PEREIRA, G. A. ; COSTA, L. ; GONÇALVES, L. R. ; VELOSO, M. V. S. ; MARTINS, N. S. ; SOUZA, P. R. R. ; GOMES, R. A. M.. <b>XIV Encontro Mineiro de Estatística</b>. 2016. Congresso</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BEIJO, Luiz Alberto; DIAS, A. ; AVELAR, F. G. ; NOGUEIRA, Denismar Alves ; MONTEIRO, E. ; SOUZA JR, J. C.. <b>III Semana da Matemática e II Workshop de Estatística Aplicada e Biometria da Unifal-MG</b>. 2015. Congresso</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>NOGUEIRA, Denismar Alves ; BEIJO, L A. ; MONTEIRO, E.. <b>I Workshop de Estatística Aplicada e Biometria da UNIFAL-MG</b>. 2014. Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>VIEIRA, M. T. ; MONTENEGRO, L. C. C. ; REIS, R. L. ; BRITO, N. L. C. ; SCALON, J. D. ; OLIVEIRA, M. S. ; OLIVEIRA, F. L. P. ; FARIA, P. N. ; FERREIRA, E. B. ; CARNEIRO, A. P. S.. <b>XIII Encontro Mineiro de Estatística</b>. 2014. Outro</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BITTENCOURT, Flávio; VIEIRA JUNIOR, D. S.. <b>Evento de extensão Dia do Físico</b>. 2013. Outro</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MARTINS, N. S.; LOBOS, C. M. V.. <b>II Encontro dos Alunos do Programa de Estatística e Experimentação Agronômica</b>. 2012. Outro</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BITTENCOURT, Flávio; VIEIRA JUNIOR, D. S. ; Antonow, L. M. ; Matos, S. L. B.. <b>II Encontro Científico de Educação Matemática</b>. 2011. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERREIRA, E. B.; MORENO, A. L. ; MIRANDA, A. J. ; FERREIRA, J. C. ; NOGUEIRA, D. A. ; ALVES, E. V. ; AVELAR, F. G. ; SOUZA JUNIOR, J. C. de ; SANTOS, J. P. C. dos ; GOECKING, L. B. ; BEIJO, L. A.. <b>I Semana da Matemática da Unifal-MG</b>. 2011. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gamerman, D. ; Brighenti, C.R.G. ; Ferreira, C.S. ; Oliveira, D.C.R. ; Alves, D.D.S.M. ; NOGUEIRA, D. A. ; Cirilo, M.A. ; Martins Filho, S. ; SÁFADI, Thelma. <b>X Encontro Mineiro de Estatística - Comissão Científica</b>. 2011. Outro</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MARTINS, N. S.; MATHEUS, D. A.. <b>ENESTE</b>. 2009. Outro</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DIAS, A.; MOREIRA,J.P.M. <b>III Simpósio do Dia do Leite: "Aproveitamento de soro e tratamento de resíduos na indústria de laticínios"</b>. 2007. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DIAS, A.; MOREIRA,J.P.M ; FONTES, E. A. F. ; SILVA, V. R. O.. <b>1º Fórum Regional de Laticínios: "Avanços na Legislação de Produtos Lácteos: Qualidade e Adaptação Tecnológica"</b>. 2007. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, R. R, ; DIAS, A.. <b>Como registrar um laticínio e seus produtos no IMA e SIF</b>. 2007. Outro</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BITTENCOURT, F. ; DIAS, A.. <b>Técnicas de Amostragem Aplicadas à Indústria de Alimentos</b>. 2006. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DIAS, A.; MOREIRA,J.P.M ; FONTES, E. A. F. ; SILVA, V. R. O.. <b>1º Encontro Regional de Laticínios:</b>. 2006. Outro</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>NOGUEIRA, D. A.; SÁFADI, Thelma. <b>III Encontro Mineiro de Estatística</b>. 2001. Congresso</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AVELAR, F. G.. VII Encontro Mineiro de Estatística. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BEIJO, LA. 59ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Beijo, Luiz A.. I Semana da Matemática da Unifal-MG. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BEIJO, Luiz Alberto. 10º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica & 46a Reunião Anual da RBRAS - Região. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BEIJO, Luiz Alberto. XI Congresso de Pós-Graduação da UFLA. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BEIJO, Luiz Alberto. XII Congresso dos Pós-Graduandos da UFLA. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BEIJO, Luiz Alberto. XIII Congresso dos Pós - Graduandos da Universidade Federal de Lavras. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BEIJO,L.A.. XXVI SIMPÓSIO DE ENGENHARIA DE PRODUÇÃO. 2019. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>BITTENCOURT, Flávio. I Encontro de Matemática. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>BITTENCOURT, Flávio. II Encontro da Matemática. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>BITTENCOURT, Flávio. Membro da Comissão Organizadora do III ECEM. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Denismar Alves Nogueira. II Semana da Matemática da Unifal-MG. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>FALCO, G. P.. Avaliadora de trabalhos científicos. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>FALCO, G. P.. Avaliadora de trabalhos científicos. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>FALCO, G. P.. Semana da Administração das Faculdades Integradas do Instituto Vianna Júnior. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>FERREIRA, E. B.. Avaliação de trabalhos científicos apresentados na 57a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>FERREIRA, E. B.. Coordenação da sessão de apresentação de trabalhos poster. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>FERREIRA, E. B.. Semana da voz - Trate sua voz com carinho. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>FERREIRA, E. B.. XV Congresso de Pós-graduandos da UFLA. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>FERREIRA, E. B.. XV Congresso dos Pos-Graduandos da Universidade Federal de Lavras - A Pos-Graduacao como processo de Educacao. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>FERREIRA, E. B.. XX Congresso Nacional de Laticínios. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>FERREIRA, E. B.. XXI Congresso Nacional de Laticinios. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>FERREIRA, E. B.. XXII Congresso Nacional de Laticinios. 2005. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>FERREIRA, E. B.. XXIII Congresso Nacional de Laticinios. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>MARTINS, N. S.. 57ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras). 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>NOGUEIRA, D. A.. 10o Simpósio de Estatística Aplicada a Experimentação Agronômica (SEAGRO) e da 48a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>NOGUEIRA, D. A.. I Simpósio de Forragicultura e Pastagens. 2000. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>NOGUEIRA, D. A.. I Workshop de Estatística Aplicada e Biometria. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>NOGUEIRA, D. A.. II Simpósio de Forragicultura e Pastagens. 2001. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>NOGUEIRA, D. A.. III Simpósio de Forragicultura e Pastagens. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>NOGUEIRA, D. A.. XI Congresso de Pós-graduação da UFLA. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Nogueira, Denismar Alves. I Semana da Matemática da Unifal-MG. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 10:15:00<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

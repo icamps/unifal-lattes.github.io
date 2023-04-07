@@ -1,0 +1,3758 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Thirza Pavan Sorpreso)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="download.do?metodo=apresentar&amp;idcnpq=3940703666349048" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="13" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="21" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="23" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador" tabindex="56" _megamenupos="5pos"><span></span>Inovação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador" tabindex="71" _megamenupos="6pos"><span></span>Educação e Popularização de C &amp; T</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="86" _megamenupos="7pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador" tabindex="89" _megamenupos="8pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="92" _megamenupos="9pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="95" _megamenupos="10pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4123469D6"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Thirza Pavan Sorpreso</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/3940703666349048</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">3940703666349048</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 03/03/2021</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Licenciada em Física pela Universidade Estadual de Campinas (2004), mestre em Educação pela Universidade Estadual de Campinas (2008) e Doutora em Educação pela Universidade Estadual de Campinas (2013). Tem experiência na área de Física e seu Ensino, atuando principalmente nos seguintes temas: formação inicial de professores; ensino de física; ciência, tecnologia e sociedade; história da ciência e escola básica.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="97">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Thirza Pavan Sorpreso<img src="/buscatextual/images/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SORPRESO, Thirza Pavan</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/3940703666349048</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="98">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="99">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Educação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33003017001P2&amp;nivelCurso=D"> (Conceito CAPES 5)</span>. <br class="clear">Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear">Título: Energia Nuclear Mediante o Enfoque Ciência, Tecnologia e Sociedade na Formação Inicial de Professores de Física, Ano de obtenção: 2013. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/6593952657486300" tabindex="100"><img src="images/curriculo/logolattes.gif"></a>Maria José Pereira Monteiro de Almeida. <br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear">Palavras-chave: Ensino de Física; Ensino Médio; formação incial de professores; energia nuclear; CTS.<br class="clear">Grande área: Ciências Humanas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Educação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33003017001P2&amp;nivelCurso=M"> (Conceito CAPES 5)</span>. <br class="clear">Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear">Título: ORGANIZAÇÃO DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR PARA O ENSINO MÉDIO, Ano de Obtenção: 2008.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/6593952657486300" tabindex="101"><img src="images/curriculo/logolattes.gif"></a>Maria José Pereira Monteiro de Almeida.<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: formação incial de professores; Ensino Médio; Ensino de Física.<br class="clear">Grande área: Ciências Humanas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura Em Física. <br class="clear">Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação interrompida em 1997 em engenharia química. <br class="clear">Universidade Bandeirante de São Paulo, UNIBAN, Brasil.
+		
+	<br class="clear">Ano de interrupção: 1997</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante em Técnico em Cerâmica. <br class="clear">Escola SENAI Mário Amato, SENAI, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="102">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Energia Brasil:geração usos para sustentabilidade.  (Carga horária: 4h). <br class="clear">Sociedade Brasileira de Física, SBF, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Analogias e Modelos no Ensino de Ciências.  (Carga horária: 8h). <br class="clear">Associação Brasileira de Pesquisa em Educação em Ciências, ABRAPEC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitores para o Museu Exploratório de Ciências.  (Carga horária: 43h). <br class="clear">Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">As Linguagens e a Investigação do Ensino de Ciênci.  (Carga horária: 16h). <br class="clear">Associação Brasileira de Pesquisa em Educação em Ciências, ABRAPEC, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="103">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Alfenas, UNIFAL/MG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professora do Magistério Superior, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Instituto de Ciências Exatas (Icex). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Vice-coordenação do curso de licenciatura em Física.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Ciências Exatas (Icex). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do Colegiado do Curso de Ciência da Computação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Ciências Exatas (Icex). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Núcleo de Física do Instituto de Ciências Exatas.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Nacional Profissional em Ensino de Física, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos em Teorias de Aprendizagem<br class="clear">Marcos no Desenvolvimento da Física<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Pesquisa e Pós-graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Colegiado Local do Mestrado Nacional Profissional em Ensino de Física - MNPEF.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estágio Curricular Supervisionado I, II, III, IV<br class="clear">Física I e II<br class="clear">Introdução aos Conceitos da Física<br class="clear">Laboratório de Física I, III, IV<br class="clear">Laboratórios de Ensino de Física I, II, III e IV<br class="clear">Pesquisa em Ensino de Física I e II<br class="clear">TCC I e II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2016 - 01/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do Núcleo das Licenciaturas.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - 07/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Instituto de Ciências Exatas (Icex). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenadora do Curso de Licenciatura em Física.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2016 - 02/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Banca do Processo Seletivo para Remanejamento Interno entre Cursos.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2016 - 02/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Banca do Processo Seletivo para Obtenção de Novo Título e Transferência Externa.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2015 - 08/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Comissão para Revisão do Regulamento dos Cursos de Graduação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Banca do Processo Seletivo para Obtenção de Novo Título e Transferência Externa.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Banca do Processo Seletivo para Remanejamento Interno entre Cursos.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Comissão de Acompanhamento de Egressos do Curso de Física - Licenciatura.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2015 - 02/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-reitoria de Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Banca de Transferência Externa e Obtenção de Novo Título.
+				
+				</div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Federal do Maranhão, UFMA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Colaboradora PPCEM</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2015 - 05/2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Programa de pós-graduação em ensino de Ciências e Matemática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Abordagem em Ciência, Tecnologia e Sociedade<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: estágio, Enquadramento Funcional: estágio docente, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio Docente. Disciplina "Conhecimento em Física Escolar"</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: estagiária, Enquadramento Funcional: estágio docente, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Estágio Docente - PED
+Disciplina "Conhecimento em Física Escolar"</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: Estágio Docente, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Estágio Docente - PED
+Disciplina "Conhecimento em Física Escolar"</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: Estágio Docente, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina "Conhecimento em Física Escolar" - Faculdade de Educação</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: estágio docente, Carga horária: 3</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina: Prática de Ensino de Física e Estágio Supervisionado - Programa de Estágio Docente (PED) - Faculdade de Educação</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: auxiliar didático, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina: Didática Aplicada ao Ensino de Física - Programa de Apoio Didático (PAD) - Faculdade de Educação</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: auxiliar didático, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina: Física Geral 2 - Programa de Apoio Didático (PAD) - Instituto de Física Gleb Wataghin</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: auxiliar didático, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina: Física Geral 2 - Programa de Apoio Didático (PAD) - Instituto de Física Gleb Wataghin</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: auxiliar didático, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina: Física Experimental - Programa de Apoio Didático (PAD) - Instituto de Física Gleb Wataghin</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 12/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento, Faculdade de Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="#LP_Discurso Científico e outros Discursos" tabindex="104">Discurso Científico e outros Discursos</a><br class="clear"><a href="#LP_Ensino de Física" tabindex="105">Ensino de Física</a><br class="clear"><a href="#LP_Formação de Professores" tabindex="106">Formação de Professores</a><br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Centro Universitário Salesiano São Paulo, UNISAL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professora de Física e Cálculo, Carga horária: 30</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Escola Técnica de Campinas, ETEC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professora de Fundamentos de Física e Química, Carga horária: 2</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Escola Estadual Professor Adalberto Prado e Silva, EE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: OFA, Enquadramento Funcional: Professora de Física, Carga horária: 12</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: OFA, Enquadramento Funcional: Professora de Física e Matemática, Carga horária: 20</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Escola Estadual Orosimbo Maia, EE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: OFA, Enquadramento Funcional: Professora de Física, Carga horária: 6</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Colégio Rio Branco - Campinas, CRB - CAMPINAS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Auxiliar de Laboratório de Física e Química, Carga horária: 40</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Museu Exploratório de Ciências, MC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Monitora</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Cursinho Popular Machado de Assis, -, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professora de Física</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Faculdade Comunitária de Santa Bárbara, FAC-SBO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Temporário, Enquadramento Funcional: Professora - Curso de Extensão, Carga horária: 4</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Empresa Philips do Brasil, PHILIPS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiária Técnica em Cerâmica, Carga horária: 40</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1997 - 1/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Empresa Philips do Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear">Técnico em Cerâmica. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Ferroxdure LTDA, FERROXDURE LTDA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiária, Enquadramento Funcional: Estagiária Técnica em Cerâmica</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>J. M. Sarlo, J. M. SARLO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Técnica em Cerâmica</div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="107">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Discurso Científico e outros Discursos" tabindex="108"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Discurso Científico e outros Discursos</div>
+</div><a name="LP_Ensino de Física" tabindex="109"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino de Física</div>
+</div><a name="LP_Formação de Professores" tabindex="110"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formação de Professores</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="111">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Utilização da divulgação científica com enfoque CTS para abordagem da nanociência e da física nuclear na educação de jovens e adultos" tabindex="112"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Utilização da divulgação científica com enfoque CTS para abordagem da nanociência e da física nuclear na educação de jovens e adultos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esse projeto visa o desenvolvimento de atividades na formação de professores que possibilitem a reflexão dos futuros profissionais sobre a Educação de Jovens e Adultos por meio do desenvolvimento e a aplicação de unidades de ensino em situações reais de sala de aula de forma a identificarmos as necessidades e possibilidades tanto dos estudantes quanto dos professores. Nosso referencial metodológico se fundamenta na Análise de Discurso já que procuramos compreender o funcionamento de alguns elementos constituintes dos discursos enunciados em situações concretas de ensino.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (2)  / Mestrado profissional: (1) . <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Integrante / Maria Consuelo Alves Lima - Coordenador / Elisiany dos Santos Brito - Integrante / Jairo Veras Alves - Integrante / Everton Eduardo Xavier Ferreira - Integrante.<br class="clear">Financiador(es): Fundação de Amparo à Pesquisa ao Desenvolv. Científico e Tecnológico - MA - Auxílio
+										financeiro.</div>
+</div><a name="PP_A Física Brasileira em seu contexto Sócio-Histórico-Tecnológico" tabindex="113"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A Física Brasileira em seu contexto Sócio-Histórico-Tecnológico<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nesse projeto objetivamos compreender as especificidades e rumos seguidos pela Física Brasileira tendo como condição de produção o cenário sócio-histórico-tecnológico do país. Utilizamos como referencial as pesquisas CTS que têm sido desenvolvidas na América Latina e que nos fundamentam na consideração de que a Ciência não é neutra e sim produção de sujeitos históricos, dessa forma incorporando e sendo influenciada por elementos provenientes do contexto social e tecnológico do qual fazem parte esses sujeitos. Acreditamos que a veiculação da produção científica brasileira compreendida em seu contexto é um aspecto importante a ser mediado na escola básica, possibilitando aos estudantes uma visão crítica do papel social da ciência em nosso país. Nesse sentido, um dos resultados pretendidos é a produção de materiais instrucionais que possam ser mediados no ensino de física nas escolas brasileiras.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Coordenador / SILVA, Leandro Londero da - Integrante / Maria Consuelo Alves Lima - Integrante / Daniela Louzeiro Nunes Souza - Integrante.<br class="clear"></div>
+</div><a name="PP_Produção De Conhecimentos Escolares Nas Ciências Da Natureza: conteúdos, estratégias e recursos" tabindex="114"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção De Conhecimentos Escolares Nas Ciências Da Natureza: conteúdos, estratégias e recursos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de investigações em escolas públicas nas disciplinas da área de educação em ciências.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Integrante / Maria José Pereira Monteiro de Almeida - Coordenador / Pedro da Cunha Pinto Neto - Integrante / SILVA, Leandro Londero da - Integrante / DAVID, Elias - Integrante / Ricardo Henrique de Almeida Dias - Integrante / André Coelho da Silva - Integrante / José Márcio Lima Oliveira - Integrante.<br class="clear"></div>
+</div><a name="PP_POSIÇÕES E PRÁTICAS DOCENTES SOBRE O FUNCIONAMENTO DE CONTEÚDOS, ESTRATÉGIAS E RECURSOS DIDÁTICOS NA FÍSICA ESCOLAR" tabindex="115"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">POSIÇÕES E PRÁTICAS DOCENTES SOBRE O FUNCIONAMENTO DE CONTEÚDOS, ESTRATÉGIAS E RECURSOS DIDÁTICOS NA FÍSICA ESCOLAR<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pretende-se contribuir para a produção/sistematização de conhecimentos sobre as relações entre conteúdos, recursos didáticos e estratégias de ensino e produzir/analisar recursos adequados ao trabalho em sala de aula em condições de produção específicas.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2)  / Doutorado: (4) . <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Integrante / Maria José Pereira Monteiro de Almeida - Coordenador / Roberto Nardi - Integrante / Glória Lúcia Magalhães - Integrante / SILVA, Leandro Londero da - Integrante / Cezar Cavanha Babichak - Integrante / Ricardo Henrique de Almeida Dias - Integrante / André Coelho da Silva - Integrante / José Márcio Lima Oliveira - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name="PP_Interpretações Sobre Energia em Simulações e Animações da Internet" tabindex="116"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Interpretações Sobre Energia em Simulações e Animações da Internet<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto busca a contribuição de estudantes do Ensino Médio no estudo de recursos voltados para o Ensino de Física (animações e simulações relacionadas ao tema Energia ) e a compreensão do imaginário dos mesmos, em especial no que diz respeito à motivação, interesse, dificuldades, facilidades, na abordagem da Física.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Integrante / Maria José Pereira Monteiro de Almeida - Coordenador / Janiz Fernanda Bezerra - Integrante / Nara Leme - Integrante.<br class="clear"></div>
+</div><a name="PP_Recursos de Física Moderna e Contemporânea na Mídia - PICjr" tabindex="117"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Recursos de Física Moderna e Contemporânea na Mídia - PICjr<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto cuja finalidade é fazer com que estudantes do ensino médio participem da elaboração de pesquisas cujo objetivo é a elaboração de unidades de ensino destinadas àquele nível escolar. Para tal estarão contribuindo na revisão crítica de recursos relativos à Física Moderna e Contemporânea (FMC) existentes na mídia. Pretende-se que os alunos levantem e sintetizem notícias ou temas relacionados a FMC que têm sido divulgados na TV, internet, filmes e jornais impressos nos últimos cinco anos. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (2) . <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Integrante / Maria José Pereira Monteiro de Almeida - Coordenador / SILVA, Leandro Londero da - Integrante / DAVID, Elias - Integrante / Aline Moreno Oliveira - Integrante / Janiz Fernanda Bezerra - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Outra.</div>
+</div><a name="PP_Produção do ensino, saberes cotidianos e científicos no imaginário de estudantes universitários" tabindex="118"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção do ensino, saberes cotidianos e científicos no imaginário de estudantes universitários<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Preocupados com as formas pelas quais as chamadas "disciplinas das licenciaturas" e as disciplinas de conteúdo têm sido trabalhadas na Universidade e como têm participado do processo de formação profissional dos estudantes licenciados e de outros cursos, os pesquisadores envolvidos neste projeto propõem-se à realização de um conjunto de estudos de caso centrados nas condições concretas de produção do ensino em disciplinas sob sua responsabilidade, considerando os múltiplos aspectos que interferem na elaboração e na preparação dos conteúdos pelo professor, nos procedimentos para mediação desses conteúdos e como os estudantes apropriam-se, prática, discursiva e cognitivamente dos conhecimentos postos em circulação nas aulas e os elaboram. Dado que tais aspectos envolvem as especificidades das ciências e de seu ensino, a valorização social das diferentes profissões e das ciências envolvidas em sua formação, os currículos que orientam a formação e o valor atribuído às disciplinas que os compõem, as teorias relativas ao ensino-aprendizado e as relações concretas que se produzem na dinâmica da aula entre professor, alunos e materiais de ensino, procura-se, no estudo proposto, focalizar a aula como lócus de um complexo processo de produção de sentidos, instaurado, materializado, constituído e mediado pela linguagem, cuja aproximação analítico-interpretativa pode ser feita com as contribuições da análise do discurso (Orlandi, 1987 e Pêcheux, 1988), da teoria da enunciação (Bakhtin,1986) e da concepção de mediação semiótica formulada por Vygotsky (1989,1984). De acordo com esses referenciais, os processos envolvidos na aula são examinados do ponto de vista do fluxo das enunciações, considerando-se a posição de poder dos sujeitos nelas envolvidos, o jogo de imagens recíprocas estabelecido entre os interlocutores, as formações discursivas (Orlandi, 1987), a dialogia e os gêneros de discurso (Bakhtin, 1992) nelas inscritos. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Integrante / Maria José Pereira Monteiro de Almeida - Integrante / Roseli Aparecida Cação Fontana - Coordenador / Roberto Nardi - Integrante / Pedro da Cunha Pinto Neto - Integrante / Fernanda Cátia Bozeli - Integrante / Salete Linhares Queiroz - Integrante / Henrique Cézar da Silva - Integrante / Pedro Wagner Gonçalves - Integrante / Yara Kulaif - Integrante / Denise Bacci - Integrante / Suzani Cassiani de Souza - Integrante / Gláucia Lopes - Integrante / Glória Lúcia Magalhães - Integrante / Cláudio Borges da Silva - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="119">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Physicae (APGF) (1679-9569)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Ciência &amp; Ensino (Online)</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="120">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="121">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="122">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="123"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="124"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="125"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.217</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SORPRESO, Thirza Pavan</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="126">SORPRESO, Thirza Pavan</a></b>; SILVA, R. D. ; LIMA, M. C. A. ; LONDERO, L. . Abordagem CTS da Energia Nuclear na Educação de Jovens e Adultos. Enseñanza de las Ciencias<sup><img id="21746486_1" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="21746486" original-title="Ensenanza de Las Ciencias (2174-6486)<br />Fator de impacto (JCR 2021): 1.217"></sup>, v. n.extr., p. 4799-4804, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21746486&amp;volume=n.extr.&amp;issue=&amp;paginaInicial=4799&amp;titulo=Abordagem CTS da Energia Nuclear na Educação de Jovens e Adultos&amp;sequencial=1&amp;nomePeriodico=Enseñanza de las Ciencias" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">1.217</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">LONDERO, L.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span>LONDERO, L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="127">SORPRESO, Thirza Pavan</a></b> . A NATUREZA DAS CIÊNCIAS NA FORMAÇÃO DE PROFESSORES DE FÍSICA POR MEIO DO DRAMA BIOGRÁFICO ?MARIE CURIE, UNE FEMME SUR LE FRONT?. Enseñanza de las Ciencias<sup><img id="21746486_2" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="21746486" original-title="Ensenanza de Las Ciencias (2174-6486)<br />Fator de impacto (JCR 2021): 1.217"></sup>, v. n.ext., p. 3741-3746, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21746486&amp;volume=n.ext.&amp;issue=&amp;paginaInicial=3741&amp;titulo=A NATUREZA DAS CIÊNCIAS NA FORMAÇÃO DE PROFESSORES DE FÍSICA POR MEIO DO DRAMA BIOGRÁFICO ?MARIE CURIE, UNE FEMME SUR LE FRONT?&amp;sequencial=2&amp;nomePeriodico=Enseñanza de las Ciencias" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SILVA, Leandro Londero da</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span>SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="128">SORPRESO, Thirza Pavan</a></b> ; MOSINAHTI, G. . Notícias científicas no Ensino de Física: um estudo na formação de professores.. Revista de Enseñanza de la Física<sup></sup>, v. 27, p. 229-237, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=03267091&amp;volume=27&amp;issue=&amp;paginaInicial=229&amp;titulo=Notícias científicas no Ensino de Física: um estudo na formação de professores.&amp;sequencial=3&amp;nomePeriodico=Revista de Enseñanza de la Física" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SORPRESO, Thirza Pavan</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="129">SORPRESO, Thirza Pavan</a></b>; SILVA, Leandro Londero da ; PEREIRA, G. A. S. . Conhecimentos físicos manifestados por alunos após o uso do recurso fílmico do gênero herói e heroína.. Revista de Enseñanza de la Física<sup></sup>, v. 27, p. 61-67, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=03267091&amp;volume=27&amp;issue=&amp;paginaInicial=61&amp;titulo=Conhecimentos físicos manifestados por alunos após o uso do recurso fílmico do gênero herói e heroína.&amp;sequencial=4&amp;nomePeriodico=Revista de Enseñanza de la Física" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SILVA, Leandro Londero da</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="130">SORPRESO, Thirza Pavan</a></b> ; SANTOS, D.M. . Mulheres na licenciatura em Física: uma permanência limitada. Revista de la Facultad de Ciencia y Tecnologia<sup></sup>, v. Extraord., p. 381, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=01213814&amp;volume=Extraord.&amp;issue=&amp;paginaInicial=381&amp;titulo=Mulheres na licenciatura em Física: uma permanência limitada&amp;sequencial=5&amp;nomePeriodico=Revista de la Facultad de Ciencia y Tecnologia" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ALMEIDA, Maria José Pereira Monteiro de</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="131">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="132">SORPRESO, Thirza Pavan</a></b> . Dispositivo analítico para compreensão da leitura de diferentes tipos textuais: exemplos referentes à Física. Pro-Posições (UNICAMP. Impresso)<sup></sup>, v. 22, p. 1-12, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=01037307&amp;volume=22&amp;issue=&amp;paginaInicial=1&amp;titulo=Dispositivo analítico para compreensão da leitura de diferentes tipos textuais: exemplos referentes à Física&amp;sequencial=6&amp;nomePeriodico=Pro-Posições (UNICAMP. Impresso)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://www.scielo.org/applications/scielo-org/php/citedScielo.php?lang=pt&amp;pid=S0103-73072011000100008" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/scielo.png"><span class="numero-citacao" data-tipo-ordenacao="2">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">ALMEIDA, Maria José Pereira Monteiro de</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="133">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="134">SORPRESO, Thirza Pavan</a></b> . Memória e Formações Discursivas nas Interpretações de Estudantes de Licenciatura. Revista Brasileira de Pesquisa em Educação em Ciências<sup></sup>, v. 10, p. 1-16, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=18065104&amp;volume=10&amp;issue=&amp;paginaInicial=1&amp;titulo=Memória e Formações Discursivas nas Interpretações de Estudantes de Licenciatura&amp;sequencial=7&amp;nomePeriodico=Revista Brasileira de Pesquisa em Educação em Ciências" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SORPRESO, Thirza Pavan</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="135">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="136">ALMEIDA, Maria José Pereira Monteiro de</a> . DISCURSOS DE LICENCIANDOS EM FÍSICA SOBRE A QUESTÃO NUCLEAR NO ENSINO MÉDIO: FOCO NA ABORDAGEM HISTÓRICA. Ciência e Educação (UNESP)<sup></sup>, v. 16, p. 37-60, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=15167313&amp;volume=16&amp;issue=&amp;paginaInicial=37&amp;titulo=DISCURSOS DE LICENCIANDOS EM FÍSICA SOBRE A QUESTÃO NUCLEAR NO ENSINO MÉDIO: FOCO NA ABORDAGEM HISTÓRICA&amp;sequencial=8&amp;nomePeriodico=Ciência e Educação (UNESP)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SILVA, Leandro Londero da</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="137">SORPRESO, Thirza Pavan</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="138">ALMEIDA, Maria José Pereira Monteiro de</a> . IMAGINÁRIO DE ALUNOS DE LICENCIATURA EM FÍSICA SOBRE ALGUMAS QUESTÕES RELATIVAS AO ENSINO DESSA DISCIPLINA. Revista de la Facultad de Ciencia y Tecnologia<sup></sup>, v. 25, p. 249-255, 2009. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=01213814&amp;volume=25&amp;issue=&amp;paginaInicial=249&amp;titulo=IMAGINÁRIO DE ALUNOS DE LICENCIATURA EM FÍSICA SOBRE ALGUMAS QUESTÕES RELATIVAS AO ENSINO DESSA DISCIPLINA&amp;sequencial=9&amp;nomePeriodico=Revista de la Facultad de Ciencia y Tecnologia" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SORPRESO, Thirza Pavan</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="139">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="140">ALMEIDA, Maria José Pereira Monteiro de</a> . ASPECTOS DO IMAGINÁRIO DE LICENCIANDOS EM FÍSICA NUMA SITUAÇÃO ENVOLVENDO A RESOLUÇÃO DE PROBLEMAS E A QUESTÃO NUCLEAR. Caderno Brasileiro de Ensino de Física<sup></sup>, v. 25, p. 77-98, 2008. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=16772334&amp;volume=25&amp;issue=&amp;paginaInicial=77&amp;titulo=ASPECTOS DO IMAGINÁRIO DE LICENCIANDOS EM FÍSICA NUMA SITUAÇÃO ENVOLVENDO A RESOLUÇÃO DE PROBLEMAS E A QUESTÃO NUCLEAR&amp;sequencial=10&amp;nomePeriodico=Caderno Brasileiro de Ensino de Física" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos" tabindex="141"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="142">SORPRESO, Thirza Pavan</a></b>; LIMA, M. C. A. (Org.) . Questões de ensino de ciência e tecnologia em discussão. 1. ed. São Luís: Edufma, 2018. v. 1. 282p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados" tabindex="143"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="144">SORPRESO, Thirza Pavan</a></b>; Lobo, SNB . A abordagem CTS no contexto da educação matemática: uma proposta ao Curso de Hospedagem do IFMA. In: Lima, MCA; Marques, CVVCO; Sorpreso, TP. (Org.). Questões de ensino de ciência e tecnologia em discussão. 1ed.São Luís: Edufma, 2018, v. 1, p. 19-43. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="145">ALMEIDA, Maria José Pereira Monteiro de</a> ; SILVA, M. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="146">SORPRESO, Thirza Pavan</a></b> ; FONTES, G. L. . Energia Nuclear em aulas sobre sobre questões ambientais. In: Almeida, M.J.P.M.; Zancul, M. C. S.; Pinto Neto, P. C.. (Org.). Escola Básica e Universidade: parcerias e produção de conhecimento nas Ciências da Natureza. 1ed.Campinas: Librun, 2015, v. 1, p. 20-32. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="147"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="148">SORPRESO, Thirza Pavan</a></b> . Relações de Gênero Manifestadas por Alunos do Ensino Médio Quando da Utilização de Heróis e Heroínas de Produções Fílmicas no Ensino de Física. In: V Congresso Brasileiro de Educação, 2015, Bauru. Anais do V Congresso Brasileiro de Educação. Bauru: Editora da Unesp, 2015. v. 1. p. 2321-2328. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="149">SORPRESO, Thirza Pavan</a></b> ; SANTOS, D.M. . Mulheres na licenciatura em Física: uma permanência limitada.. In: VI Congreso Internacional sobre Formación de Profesores de Ciencias, 2014, Bogotá. Anais do VI Congreso Internacional de Formación de Profesores, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="150">SORPRESO, Thirza Pavan</a></b> ; SANTOS, D.M. . Entenderam meninas?. In: XV Encontro de Pesquisa em Ensino de Física, 2014, Maresias. Anais do XV Encontro de Pesquisa em Ensino de Física, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, A. C. ; SANTOS, D.M. ; SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="151">SORPRESO, Thirza Pavan</a></b> . O Potencial de uma Atividade Experimental com Materiais de Baixo Custo para Evidenciar Sentidos Produzidos por Estudantes de Ensino Médio sobre Máquinas Térmicas. In: V Encontro Nacional das Licenciaturas, 2014, Natal. Anais do V Encontro Nacional das Licenciaturas, 2014. v. 1. p. sp-sp. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="152">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="153">ALMEIDA, Maria José Pereira Monteiro de</a> . Interpretação de Licenciandos em Física sobre a Abordagem CTS numa Atividade de Leitura. In: XIX Simpósio Nacional de Ensino de Física, 2011, Manaus. Atas do XIX SNEF, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="154">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="155">SORPRESO, Thirza Pavan</a></b> . IDENTIFICAÇÃO DE ASPECTOS DAS RELAÇÕES ENTRE CIÊNCIA, TECNOLOGIA E SOCIEDADE NAS INTERPRETAÇÕES DE LICENCIANDOS EM FÍSICA AO LEREM UM TEXTO DE DIVULGAÇÃO CIENTÍFICA. In: II Seminário Ibero-Americano Ciência-Tecnologia-Sociedade no Ensino de Ciências, 2010, Brasília. Anais do II Seminário Ibero-Americano Ciência-Tecnologia-Sociedade no Ensino de Ciências, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="156">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="157">ALMEIDA, Maria José Pereira Monteiro de</a> . RELAÇÕES ENTRE REPRESENTAÇÃO EDUCACIONAL E A POSSIBILIDADE DE PRÁTICAS CTS NO DISCURSO DE LICENCIANDOS EM FÍSICA. In: II Seminário Ibero-Americano Ciência-Tecnologia-Sociedade no Ensino de Ciências, 2010, Brasília. Anais do II Seminário Ibero-Americano Ciência-Tecnologia-Sociedade no Ensino de Ciências, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="158">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="159">SORPRESO, Thirza Pavan</a></b> ; SILVA, Leandro Londero da . Estudo do funcionamento de artigos científicos sobre ciência tecnoglogia e sociedade na formação inicial de professores de física.. In: VIII Jornadas Latinoamericanas de Estudios Sociales de la Ciencia y la Tecnología, 2010, Buenos Aires. Actas de las VIII jornadas Latinoamericanas de Estudios Sociales de La Ciencia y la Tecnología. Ciencia y tecnología para la inclusión social, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="160">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="161">ALMEIDA, Maria José Pereira Monteiro de</a> . Obstáculos para utilização da abordagem CTS no ensino de física em nível médio nos discursos de licenciandos em física. In: VIII Jornadas Latinoamericanas de Estudios Sociales de la Ciencia y la Tecnología, 2010, Buenos Aires. Actas de las VIII jornadas Latinoamericanas de Estudios Sociales de La Ciencia y la Tecnología. Ciencia y tecnología para la inclusión social, 2010. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="162">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="163">ALMEIDA, Maria José Pereira Monteiro de</a> ; BABICHAK, C. C. . CONDIÇÕES DE PRODUÇÃO INICIAIS DE ESTUDANTES DE LICENCIATURA SOBRE A FÍSICA MODERNA E CONTEMPORÂNEA. In: XII Encontro de Pesquisa em Ensino de Física, 2010, Águas de Lindóia. Anais do XII Encontro de Pesquisa em Ensino de Física, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/CONTEÚDOS E ESTRATÉGIAS NA ORGANIZAÇÃO DE EPISÓDIOS DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR NA FORMAÇÃO INICIAL DE PROFESSORES DE FÍSICA: foco no imaginário dos estudantes" target="_blank" tabindex="164"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="165">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="166">ALMEIDA, Maria José Pereira Monteiro de</a> ; SILVA, Leandro Londero da . CONTEÚDOS E ESTRATÉGIAS NA ORGANIZAÇÃO DE EPISÓDIOS DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR NA FORMAÇÃO INICIAL DE PROFESSORES DE FÍSICA: foco no imaginário dos estudantes. In: 10 Conferencia Interamericana de Enseñaza de la Física, 2009, Medellín. 10 Conferencia Interamericana de Enseñaza de la Fisica, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="167">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="168">SORPRESO, Thirza Pavan</a></b> . PERSPECTIVAS PARA INSERÇÃO DE ELEMENTOS DE FÍSICA QUÂNTICA NO ENSINO MÉDIO A PARTIR DE UMA DISCIPLINA DE FORMAÇÃO INICIAL. In: 10 Conferencia Interamericana de Enseñaza de la Física, 2009, Medellín. 10 Conferencia Interamericana de Enseñaza de la Fisica, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="169">SORPRESO, Thirza Pavan</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="170">ALMEIDA, Maria José Pereira Monteiro de</a> . Imaginário de Alunos de Licenciatura em Física Sobre Algumas Questões Relativas ao Ensino dessa Disciplina. In: Congreso Internacional sobre Formación de Profesores, 2009, Bogotá. Atas do Cuarto Congreso Internacional sobre Formación de Profesores, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="171">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="172">ALMEIDA, Maria José Pereira Monteiro de</a> ; SILVA, Leandro Londero da . Contribuições da Análise de Discurso para a Compreensão de Textos Produzidos por Licenciandos em Física. In: VII Encontro Nacioal de Pesquisa em Educação em Ciências, 2009, Florianópolis. Atas do VII Enpec, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="173">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="174">SORPRESO, Thirza Pavan</a></b> . CTS em Aulas de Física no Ensino Médio: Indícios de Dificuldades em Discursos de Estudantes de Licenciatura. In: III Simpósio Nacional de Tecnologia e Sociedade, 2009, Curitiba. Atas do III Simpósio Nacional de Tecnologia e Sociedade, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="175">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="176">ALMEIDA, Maria José Pereira Monteiro de</a> . Condições de produção do ensino de física em escolas do interior paulista e a formação docente. In: V ENCONTRO DE PESQUISADORES EM ENSINO DE CIÊNCIAS, 2006, Bauru. Atas do V Encontro de Pesquisa em Ensino de Ciências. Bauru: ABRAPEC, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="177"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="178">SORPRESO, Thirza Pavan</a></b>; ALVES, A. C. . O POTENCIAL DE UMA ATIVIDADE COM DIVULGAÇÃO CIENTÍFICA NA EXPLICITAÇÃO DE CONCEPÇÕES DE ESTUDANTES SOBRE CONCEITOS DE ELETROMAGNETISMO. In: VI Encontro Nacional das Licenciaturas e V Seminário Nacional do PIBID, 2016, Curitiba. Anais do Encontro Nacional das Licenciaturas (ENALIC), Seminário Nacional do PIBID, Encontro Nacional de Coordenadores do PIBID. Cascavel: Unioeste, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; SERZEDELLO, M. ; GALINDO, M. A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="179">SORPRESO, Thirza Pavan</a></b> . As Questões de Gênero na História da Ciência Física: o caso de 'Newton for Ladies'. In: XVI Encontro Nacional de Educação em Ciências, 2015, Lisboa. Caderno de Resumos do XVI Encontro Nacional de Educação em Ciências, 2015. v. 1. p. 396-399. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, G. A. S. ; SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="180">SORPRESO, Thirza Pavan</a></b> . O grau de popularidade dos heróis, heroínas e vilões de produções fílmicas entre alunos do Ensino Médio.. In: 67a Reunião Anual da SBPC, 2015, São Carlos. Caderno de Resumos da 67a Reunião Anual da SBPC, 2015. v. 1. p. sn-sn. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="181">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="182">ALMEIDA, Maria José Pereira Monteiro de</a> . Energia Nuclear mediante o enfoque Ciência, Tecnologia e Sociedade na formação inicial de professores de Física. In: VIII Seminário de Teses e Dissertações em Andamento da Faculdade de Educação - Unicamp, 2012, Campinas. Caderno de Resumos. Campinas: FE/Unicamp, 2012. p. 65-66. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="183">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="184">ALMEIDA, Maria José Pereira Monteiro de</a> . RECURSOS PARA A CONSTITUIÇÃO DE UMA UNIDADE DE ENSINO CTS SOBRE A ENERGIA NUCLEAR. In: Encontro de Física 2011 e XIII EPEF, 2011, Foz do Iguaçu. XIII Encontro de Pesquisa em Ensino de Física, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nascimento, Silvania ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="185">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="186">SORPRESO, Thirza Pavan</a></b> . "A energia nuclear no Brasil e a polêmica sobre as usinas de Angra ". In: VII Esocite - Jornadas Latino-Americanas de Estudos Sociais das Ciências e das Tecnologias, 2008, Rio de Janeiro. Caderno de Resumos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="187">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="188">ALMEIDA, Maria José Pereira Monteiro de</a> . "Aspectos dos Discursos da Mídia e Suas Possíveis Interferências nos Discursos de Licenciandos em Física: foco nas relações entre Ciência, Tecnologia e Sociedade". In: VII Esocite - Jornadas Latino-Americanas de Estudos Sociais das Ciências e das Tecnologias, 2008, Rio de Janeiro. Caderno de Resumos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="189">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="190">ALMEIDA, Maria José Pereira Monteiro de</a> . ?Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente. In: I Colóquio Internacional de Análise de Discurso, 2006, São Carlos. -. São Carlos: UFSC, 2006. v. 1. p. 182-183. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="191"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="192">SORPRESO, Thirza Pavan</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="193">ALMEIDA, Maria José Pereira Monteiro de</a> . A inclusão de Conteúdos de Física Moderna e Contemporânea nos Currículos Escolares: os discursos de licenciandos. In: IX Colóquio Luso Brasileiro sobre Questões curriculares: debater o currículo e seus campos, 2010, Cidade do Porto. IX Colóquio Luso Brasileiro sobre Questões curriculares: debater o currículo e seus campos - Livro de Resumos. Cidade do Porto: Legis Editora, 2010. p. 303-304. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BABICHAK, C. C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="194">SORPRESO, Thirza Pavan</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="195">ALMEIDA, Maria José Pereira Monteiro de</a> . O Paradoxo de Einstein, Podolsky &amp; Rosen na formação inicial de professores de física. In: 1st Latin American Conference of the International, History, Philosophy, and Science Teaching Group, 2010, São Sebastião. Caderno de Resumos da 1st Latin American Conference of the International, History, Philosophy, and Science Teaching Group, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="196">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="197">ALMEIDA, Maria José Pereira Monteiro de</a> . Elaboração de Episódio de Ensino Tratando da Questão Nuclear: relações entre abordagens e conteúdos. In: XVIII Simpósio Nacional de Ensino de Física, 2009, Vitória. XVIII Simpósio Nacional de Ensino de Física, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="198">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="199">ALMEIDA, Maria José Pereira Monteiro de</a> . Utilização da Análise de Discurso para enfocar a relação entre forma e conteúdo no planejamento do ensino de física. In: II Colóquio Internacional de Análise do Discurso, 2009, São Carlos - SP. Caderno de Resumos, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="200">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="201">ALMEIDA, Maria José Pereira Monteiro de</a> . ?A Construção de um Episódio de Ensino com Abordagem Ciência, Tecnologia, Sociedade e Ambiente e o Imaginário de Licenciandos em Física. In: XVII Simpósio Nacional de Ensino de Física, 2007, São Luís. -, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="202">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="203">ALMEIDA, Maria José Pereira Monteiro de</a> . Linguagens na Física e no Seu Ensino: Compreendendo o Imaginário de Licenciandos em Física. In: no VI Encontro Nacional de Pesquisa em Educação em Ciências, 2007, Florianópolis. Caderno de Resumo do VI Enpec, 2007. p. 300-300. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="204">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="205">SORPRESO, Thirza Pavan</a></b> . Contribuições de Dúvidas, Concordâncias e Discordâncias na Compreensão do Imaginário de Licenciandos em Física. In: XVI Simpósio Nacional de Ensino de Física, 2005, Rio de Janeiro. Programa de Resumos XV I Simpósio Nacional de Ensino de Física. São Paulo: Sociedade Brasileira de Física, 2005. p. 175-176. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="206">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="207">ALMEIDA, Maria José Pereira Monteiro de</a> . Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente. In: V Encontro Nacional de Pesquisa em Educação em Ciências, 2005, Bauru. Programa de Resumos do V Encontro Nacional de Pesquisa em Educação em Ciências. Bauru: ABRAPEC, 2005. p. 148-148. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="208"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="209">SORPRESO, Thirza Pavan</a></b>; SILVA, R. D. ; LIMA, M. C. A. ; LONDERO, L. . Abordagem CTS da Energia Nuclear na Educação de Jovens e Adultos. 2017. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, G. A. S. ; SILVA, Leandro Londero da ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="210">SORPRESO, Thirza Pavan</a></b> . Conhecimentos físicos manifestados por alunos após o uso do recurso fílmico do gênero herói e heroína. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="211">SORPRESO, Thirza Pavan</a></b>. Demandas e Possibilidades para o Ensino de Física na Escola Básica Frente ao Plano Nacional de Educação. 2015. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="212">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="213">ALMEIDA, Maria José Pereira Monteiro de</a> . Análise do Funcionamento de uma Unidade de Ensino sobre Energia Nuclear com Abordagem CTS. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="214">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="215">ALMEIDA, Maria José Pereira Monteiro de</a> . Energia Nuclear Mediante o Enfoque Ciência, Tecnologia e Sociedade na Formação Inicial de Professores de Física. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="216">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="217">ALMEIDA, Maria José Pereira Monteiro de</a> . Interpretação de Licenciandos em Física sobre a Abordagem CTS numa Atividade de Leitura. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="218">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="219">ALMEIDA, Maria José Pereira Monteiro de</a> . RECURSOS PARA A CONSTITUIÇÃO DE UMA UNIDADE DE ENSINO CTS SOBRE A ENERGIA NUCLEAR. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="220">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="221">SORPRESO, Thirza Pavan</a></b> . IDENTIFICAÇÃO DE ASPECTOS DAS RELAÇÕES ENTRE CIÊNCIA, TECNOLOGIA E SOCIEDADE NAS INTERPRETAÇÕES DE LICENCIANDOS EM FÍSICA AO LEREM UM TEXTO DE DIVULGAÇÃO CIENTÍFICA. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="222">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="223">ALMEIDA, Maria José Pereira Monteiro de</a> . RELAÇÕES ENTRE REPRESENTAÇÃO EDUCACIONAL E A POSSIBILIDADE DE PRÁTICAS CTS NO DISCURSO DE LICENCIANDOS EM FÍSICA. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="224">SORPRESO, Thirza Pavan</a></b>; BABICHAK, C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="225">ALMEIDA, Maria José Pereira Monteiro de</a> . CONDIÇÕES DE PRODUÇÃO INICIAIS DE ESTUDANTES DE LICENCIATURA SOBRE A FÍSICA MODERNA E CONTEMPORÂNEA. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="226">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="227">ALMEIDA, Maria José Pereira Monteiro de</a> ; SILVA, Leandro Londero da . CONTEÚDOS E ESTRATÉGIAS NA ORGANIZAÇÃO DE EPISÓDIOS DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR NA FORMAÇÃO INICIAL DE PROFESSORES DE FÍSICA: foco no imaginário dos estudantes. 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="228">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="229">SORPRESO, Thirza Pavan</a></b> . PERSPECTIVAS PARA INSERÇÃO DE ELEMENTOS DE FÍSICA QUÂNTICA NO ENSINO MÉDIO A PARTIR DE UMA DISCIPLINA DE FORMAÇÃO INICIAL. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="230">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="231">ALMEIDA, Maria José Pereira Monteiro de</a> . Utilização da Análise de Discurso para enfocar a relação entre forma e conteúdo no planejamento do ensino de física. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="232">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="233">ALMEIDA, Maria José Pereira Monteiro de</a> . Elaboração de Episódios de Ensino Tratando da Questão Nuclear: relações entre abordagens e conteúdos. 2009. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="234">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="235">ALMEIDA, Maria José Pereira Monteiro de</a> . "Aspectos dos Discursos da Mídia e Suas Possíveis Interferências nos Discursos de Licenciandos em Física: foco nas relações entre Ciência, Tecnologia e Sociedade". 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="236">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="237">ALMEIDA, Maria José Pereira Monteiro de</a> . ?A Construção de um Episódio de Ensino com Abordagem Ciência, Tecnologia, Sociedade e Ambiente e o Imaginário de Licenciandos em Física". 2007. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="238">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="239">ALMEIDA, Maria José Pereira Monteiro de</a> . "A Construção de um Episódio de Ensino com Abordagem: Ciência, Tecnologia, Sociedade e Ambiente e o Imaginário de Licenciandos em Física". 2007. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="240">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="241">ALMEIDA, Maria José Pereira Monteiro de</a> . Linguagens na Física e no Seu Ensino: Compreendendo o Imaginário de Licenciandos em Física. 2007. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="242">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="243">ALMEIDA, Maria José Pereira Monteiro de</a> . ?Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente?. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="244">SORPRESO, Thirza Pavan</a></b>. Imaginário de licenciandos em física sobre os limites e possibilidades de inclusão da Física Nuclear no Ensino Médio. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="245">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="246">ALMEIDA, Maria José Pereira Monteiro de</a> . ?Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente?. 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="247">ALMEIDA, Maria José Pereira Monteiro de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="248">SORPRESO, Thirza Pavan</a></b> . ?Contribuições de Dúvidas, Concordâncias e Discordâncias na Compreensão do Imaginário de Licenciandos em Física?. 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="249"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos" tabindex="250"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="251">SORPRESO, Thirza Pavan</a></b>. Revista Tecne, Episteme, Didaxis n45. 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="252">SORPRESO, Thirza Pavan</a></b>. Ensino de Ciências: relatos e pesquisas no panorama piauense. 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="253">SORPRESO, Thirza Pavan</a></b>. III Congresso Nacional de Formação de &nbsp;Professores e XIII Congresso Estadual Paulista sobre Formação de Educadores. 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="254">SORPRESO, Thirza Pavan</a></b>. Encontro de Física 2016 - SBF. 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="255">SORPRESO, Thirza Pavan</a></b>. Avaliação de projetos de pesquisa edital 004/2015 UNIFEI. 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="256">SORPRESO, Thirza Pavan</a></b>. XV Encontro de Pesquisa em Ensino de Física. 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="257">SORPRESO, Thirza Pavan</a></b>. XXI Simpósio Nacional de Ensino de Física. 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="258">SORPRESO, Thirza Pavan</a></b>. XX Simpósio Nacional de Ensino de Física. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="259">SORPRESO, Thirza Pavan</a></b>. XVIII Congresso Interno de Iniciação Científica - UNICAMP. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="260">SORPRESO, Thirza Pavan</a></b>. Parecer da leitura de memoriais de formação do Curso de Especialização em Gestão Educacional. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="261">SORPRESO, Thirza Pavan</a></b>. Parecer em artigo periódico Caderno Brasileiro de Ensino de Física. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="262">SORPRESO, Thirza Pavan</a></b>. Parecer da Leitura de Memorial de Conclusão de Curso - programam especial para formação de professores em exercício da região metropolitana de campinas (proesf). 2005. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="263"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="264">SORPRESO, Thirza Pavan</a></b>. Filosofia da Ciência e o Papel da Experimentação no Ensino. 2016. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="265">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="266"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, M. C. A.; MALEIROS, A.P.S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="267">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Rayane de Jesus Santos Melo. EJA nas licenciaturas em matemática de São Luiz (MA): os discursos sobre a estrutura curricular. 2017. Dissertação (Mestrado em Programa de pós-graduação em ensino de Ciências e Matemática) - Universidade Federal do Maranhão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STUCHI, A. M.; PRUDENCIO, C. A. V.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="268">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Carlos Alberto Gonçalves da Silva. Educação CTS: concepções e práticas de professores de Biologia da rede Estadual de ensino em Jequié - BA. 2016. Dissertação (Mestrado em Educação em Ciências e Matemática) - Universidade Estadual de Santa Cruz. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAGALHAES, C. S.; STUDART FILHO, N.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="269">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Jean Louis Landim Vilela. Laboratórios de Óptica para alunos do Ensino Médio das Escolas Públicas: montagem e avaliação de aprendizagem. 2016. Dissertação (Mestrado em Mestrado Nacional Profissional em Ensino de Física) - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. F.; MONTEIRO, I. C. C.; MONTEIRO, M. A. A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="270">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Rafael Schepper Gonçalves. Projetos Temáticos e Enfoque CTS na Educação Básica: caracterização dos trabalhos apresentados por autores brasileiros, espanhóis e portugueses nos Seminários Ibero-Americanos de CTS. 2014. Dissertação (Mestrado em Ensino de Ciências) - Universidade Federal de Itajubá. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORDEIRO, M. R.; BARRO, M. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="271">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Karina Caixeta Scalco. O uso de representações visuais para o ensino do conteúdo de forças intermoleculares. 2017. Tese (Doutorado em Química)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, M. C. A.; FERNANDES, D. N.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="272">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Rayane de Jesus Santos Melo. Formação Inicial de Professores de Matemática para EJA em instituições Públicas de ensino superior do município de São Luis. 2017. Exame de qualificação (Mestrando em Programa de pós-graduação em ensino de Ciências e Matemática)  - Universidade Federal do Maranhão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STUCHI, A. M.; PRUDENCIO, C. A. V.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="273">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Carlos Alberto Gonçalves da Silva. Educação CTS: concepções e práticas de professores de Biologia da rede Estadual de ensino em Jequié - BA. 2015. Exame de qualificação (Mestrando em Educação em Ciências e Matemática)  - Universidade Estadual de Santa Cruz. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="274">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Isabella Silva de Souza.Preparação e caracterização estrutural de cerâmicas de ZnO:Sn e ZnO:Sb.
+							2018. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, M. C. A.; GUERINI, S. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="275">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Joelma Sousa dos Santos.Uso de vídeo como recurso didático para o ensino e aprendizagem da Física.
+							2017. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal do Maranhão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LONDERO, L.; MARIANO, A. L. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="276">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Débora Marques Santos.Mulheres na licenciatura em Física: uma permanência limitada.
+							2017. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAGALHAES, C. S.; CORDEIRO, M. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="277">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Dayanne Cristina Carvalho.O ensino de química aos alunos do Ensino Fundamental: A água.
+							2017. Trabalho de Conclusão de Curso (Graduação em Química)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARRO, M. R.; TOTI, F. A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="278">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Marcello Henrique da S. Cavalcanti/Matheus Marques Ribeiro.Planejamento de uma sequência didática sobre energia elétrica na perspectiva da Ciência, Tecnologia e Sociedade (CTS).
+							2017. Trabalho de Conclusão de Curso (Graduação em Química)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRESSAN, P. A.; GONZAGA, F. B.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="279">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Vitor Alencar Siqueira."EASYCINE RA: realidade aumentada para auxílio no estudo de cinemática".
+							2016. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da; DRIGO FILHO, E.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="280">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Rafael Gombrade.A Transposição Didática da Física de Partículas Elementares em Manuais Escolares.
+							2016. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Estadual Paulista Júlio de Mesquita Filho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="281">SORPRESO, Thirza Pavan</a></b>; ROBERTO J., A. J.; TOTI, F. A..  Participação em banca de Thalles Abreu Mezêncio.Tornando a Aprendizagem Significativa: a prática experimental no ensino de Física do Ensino Médio.
+							2016. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LONDERO, L.; SERZEDELO, M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="282">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Willian Henrique da Silva Pereira.Uma análise da apresentação da Física produzida no Brasil nas coleções didáticas de Física do PNLD (2015-2017).
+							2016. Trabalho de Conclusão de Curso (Graduação em Abi - Física)  - Universidade Estadual Paulista Júlio de Mesquita Filho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Leandro Londero da; ROBERTO J., A. J.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="283">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Johnny Gonçalves Pereira.O panorama das pesquisas sobre o ensino da teoria da relatividade especial e geral.
+							2014. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="284">SORPRESO, Thirza Pavan</a></b>; SOLTAU, S. B.; ROBERTO J., A. J..  Participação em banca de Guilherme Almeida de Souza Pereira.Das produções hollywoodianas ao contexto escolar: super-heróis, vilões e o ensino de Física.
+							2014. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOREIRA, R. A.; ROBERTO J., A. J.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="285">SORPRESO, Thirza Pavan</a></b>.  Participação em banca de Livia Pereira Tomaz de Souza e Sandra Mara da Costa."Campo Elétrico e potencial elétrico: conteúdos analisados em seis livros didáticos adotados pela rede estadual de ensino do município de Alfenas-MG".
+							2014. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Física)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="286">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="287"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Congreso Internacional sobre Investigación en Didáctica de las Ciencias. Abordagem CTS da Energia Nuclear na Educação de Jovens e Adultos. 2017. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">19 Reunión de Educación en Física.Conhecimentos físicos manifestados por alunos após o uso do recurso fílmico do gênero herói e heroína. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Maranhense de Ensino de Física.Demandas e Possibilidades para o Ensino de Física na Escola Básica Frente ao Plano Nacional de Educação.
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Maranhense de Ensino de Física.A contribuição da Pós-Graduação para a formação docente: da educação básica ao ensino superior.
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso das Instituições Universitárias Salesianas no Brasil. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Colóquio Internacional de Análise de Discurso.Energia Nuclear Mediante o Enfoque Ciência, Tecnologia e Sociedade na Formação Inicial de Professores de Física. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro Nacional das Licenciaturas/II Seminário Nacional do PIBID.ASPECTOS DA FÍSICA NUCLEAR NA FORMAÇÃO INICIAL DE PROFESSORES DE FÍSICA.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Seminário de Teses e Dissertações em Andamento da Faculdade de Educação - Unicamp.Energia Nuclear mediante o enfoque Ciência, Tecnologia e Sociedade na formação inicial de professores de Física. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Seminario Ibérico/III Seminario Iberoamericano CTS en la enseñanza de las Ciencias ?Ciencia, Tecnología y Sociedad en el futuro de la enseñanza de las ciencias?.Análise do Funcionamento de uma Unidade de Ensino sobre Energia Nuclear com Abordagem CTS. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Física 2011 e XIII EPEF.RECURSOS PARA A CONSTITUIÇÃO DE UMA UNIDADE DE ENSINO CTS SOBRE A ENERGIA NUCLEAR.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Livro de Ciências dos Anos Iniciais: o que se aprende avaliando". 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "O Processo de Avaliação dos Livros Didáticos de Química do PNLD 2012". 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra "Telefone sem fio - Possíveis leituras dos diálogos entre os Programas Oficiais de Ensino e os Professores das Séries Iniciais do Ensino Fundamental". 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Simpósio Nacional de Ensino de Física.Interpretação de Licenciandos em Física sobre a Abordagem CTS numa Atividade de Leitura.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1st Latin American Conference of the International History, Philosophy, and Science Teaching Group. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8th International Conference for The History of Science in Science Education. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro do Programa de Apoio Didático e do Programa de Estágio Docente.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário Ibero-Americano Ciência-Tecnologia-Sociedade no Ensino de Ciências.IDENTIFICAÇÃO DE ASPECTOS DAS RELAÇÕES ENTRE CIÊNCIA, TECNOLOGIA E SOCIEDADE NAS INTERPRETAÇÕES DE LICENCIANDOS EM FÍSICA AO LEREM UM TEXTO DE DIVULGAÇÃO CIENTÍFICA/ RELAÇÕES ENTRE REPRESENTAÇÃO EDUCACIONAL E A POSSIBILIDADE DE PRÁTICAS CTS NO DISCURSO DE. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Estudo de Possibilidades do Funcionamento de Tendências da Educação em Física no ensino da nanociência/nanotecnologia". 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Instrumentos Científicos Ontem e Hoje". 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Reflexões Sobre a Formação Humanística nos Cursos Superiores de Tecnologia". 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário: "Desafios Constantes da Secretaria Municipal de Educação: questões políticas". 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Encontro de Pesquisa em Ensino de Física.CONDIÇÕES DE PRODUÇÃO INICIAIS DE ESTUDANTES DE LICENCIATURA SOBRE A FÍSICA MODERNA E CONTEMPORÂNEA.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">10 CONFERENCIA INTERAMERICANA DE ENSÑANZA DE LA FÍSICA.CONTEÚDOS E ESTRATÉGIAS NA ORGANIZAÇÃO DE EPISÓDIOS DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR NA FORMAÇÃO INICIAL DE PROFESSORES DE FÍSICA: foco no imaginário dos estudantes. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">17 Congresso de Leitura. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Colóquio Internacional de Análise do Discurso.Utilização da Análise de Discurso para enfocar a relação entre forma e conteúdo no planejamento do ensino de física. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "A Argumentação na Educação em Ciências". 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Concepção e Implantação dos Cursos de Licenciatura da Universidade Federal do ABC". 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Divulgação Científica - contexto acadêmico e social". 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "História da Ciência &amp; Tecnologia na aprendizagem pública de Ciência: contributos para uma interligação". 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Reunião Latino-Americana sobre Ensino de Física. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Simpósio Nacional de Ensino de Física.Elaboração de Episódio de Ensino Tratando da Questão Nuclear: relações entre abordagens e conteúdos..
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">60ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Os Propósitos dos Museus de Ciências: análise de discurso de diretores de museus da cidade de Belo Horizonte". 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário: "O jogo como um agente transformador do estudar". 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Ciência e Arte nas Férias. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Esocite - Jornadas Lationamericanas de Estudos Sociais da Ciência e da Tecnologia.Aspectos dos Discursos da Mídia e Suas Possíveis Interferências nos Discursos de Licenciandos em Física: foco nas relações entre Ciência, Tecnologia e Sociedade.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Questões à Educação postas pelas transformações atuais da sociedade". 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Encontro Nacional de Pesquisa em Educação em Ciências.?Linguagens na Física e no Seu Ensino: Compreendendo o Imaginário de Licenciandos em Física.?.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Simpósio Nacional de Ensino de Física.A Construção de um Episódio de Ensino com Abordagem Ciência, Tecnologia, Sociedade e Ambiente e o Imaginário de Licenciandos em Física.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Colóquio Internacional de Análise de Discurso.Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum Permanente de Extensão: "Parceria entre Universidade e Escolas Básicas". 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: ""Atividades de experimentação como meio para abordagem de aspectos da cultura científica em aulas de física. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "A educação de adultos na perspectiva da educação continuada". 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Condições de Produção da Leitura e Implicações para o Ensino da Física na Universidade". 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Discurso e ensino de ciências: implicações para uma leitura de imagem". 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Ensinar e Aprender Ciências no Ensino Fundamental com Atividades Investigativas". 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Projetos de ciências para primeira e quarta séries: o calendário e a medida do tempo". 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Resolução de Problemas e Estratégia de Projetos: a experiência da USP leste". 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V ENPEC - Encontro Nacional de Pesquisa em Educação em Ciências.Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Simpósio Nacional de Ensino de Física.Contribuições de Dúvidas, Concordâncias e Discordâncias na Compreensão do Imaginário de Licenciandos em Física.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conferência: "Grupos de Reflexão e Estudos Pedagógicos: uma alternativa para orientação pedagógica do trabalho escolar". 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Extensão Fórum Nacional Luterano de Educação. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Discurso científico e discurso escolar: de quem e para quem?". 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Discurso e (re)significação e construção de conhecimento em História". 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: "Geociência, ensino fundamental e educação ambiental". 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Oficina de Física Moderna do IFGW. 2001. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Workshop de Auxiliares de Ensino do IFGW. 2001. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Workshop de Auxiliares de Ensino do IFGW. 2000. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="288"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, H. B. ; VALE, M. A. B. ; SOUZA, S. M. ; MARROQUIM, F. ; HICKEL, G. R. ; BOSELLI, M. A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="289">SORPRESO, Thirza Pavan</a></b> ; FARIA, A. J. ; MELO, C. A. M. ; SILVA, D. J. P. ; COLLADO, E. A. G. ; GARDIM, F. G. ; VALDIVIESSO, G. A. ; VIVAS, M. G. ; HIRANO, L. A. ; CUZINATTO, R. R. ; CAETANO, T. C. ; MOREIRA, C. C. . IX Encontro Mineiro de Física. 2014. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="290">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="291"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUILHERME ALMEIDA DE SOUZA PEREIRA. O ENSINO DIVERSIFICADO DO TEMA ENERGIA: UMA PROPOSTA DE ENSINO BASEADA NA TRÍADE CIÊNCIA, TECNOLOGIA E SOCIEDADE.
+						Início: 2017.
+						Dissertação (Mestrado profissional em Mestrado Nacional Profissional em Ensino de Física)  - Universidade Federal de Alfenas. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rayssa Aparecida de Souza. ENSINO DE CIÊNCIAS POR MEIO DA APRENDIZAGEM BASEADA EM PROJETOS (ABP) NO ENSINO FUNDAMENTAL.
+						Início: 2018. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Alfenas. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sebastião Vitor de Brito. Análise de um Material Didático para o Ensino de Ciências na EJA/EM.
+						Início: 2015. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Física)  - Universidade Federal de Alfenas. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="292"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Everton Correa Ferreira. Atividades de Experimentação como Resolução de Problemas Fundamentadas pela Teoria de Bachelard.
+							2017.
+						
+					Dissertação  (Mestrado em Mestrado Nacional Profissional em Ensino de Física)  - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Thirza Pavan Sorpreso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/4446027976620960" tabindex="293"><img src="images/curriculo/logolattes.gif"></a>Everton Eduardo Xavier Ferreira. Desenvolvimento de uma proposta de ensino de Nanociência e Nanotecnologia para Ensino Médio com enfoque CTS.
+							2016.
+						
+					Dissertação  (Mestrado em Mestrado Nacional Profissional em Ensino de Física)  - Universidade Federal de Alfenas, . Orientador: Thirza Pavan Sorpreso. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rosival Donizete da Silva.
+							Abordagem CTS da energia nuclear na educação de jovens e adultos.
+							2019.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Thirza Pavan Sorpreso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Claudemir Donizette da Costa.
+							Um periscópio de baixo custo como experimento de Física Ótica no Ensino Médio.
+							2019.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Thirza Pavan Sorpreso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Taniê Mariah de Oliveira Procópio.
+							Ensino de ciências nas séries iniciais: uma proposta de Física para crianças utilizando a abordagem experimental.
+							2018.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Thirza Pavan Sorpreso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camila Bianca Silva Caldas.
+							AS HISTÓRIAS EM QUADRINHOS NOS LIVROS DIDÁTICOS DE FÍSICA APROVADOS PELO PROGRAMA NACIONAL DO LIVRO DIDÁTICO PARA O ENSINO MÉDIO.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Física)  - Universidade Federal de Alfenas. Orientador: Thirza Pavan Sorpreso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thalles Abreu Mezêncio.
+							Tornando a aprendizagem Significativa: a Prática Experimental no Ensino de Física no Nível Médio..
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Física)  - Universidade Federal de Alfenas. Orientador: Thirza Pavan Sorpreso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Almeida de Souza Pereira.
+							Das produções hollywoodianas ao contexto escolar:super-heróis, vilões e o ensino de Física.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Alfenas. Orientador: Thirza Pavan Sorpreso.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PotencialInovacao" tabindex="294">
+<h1 tabindex="0">Inovação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetosPesquisaPI" tabindex="295"></a><br class="clear"><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_A Física Brasileira em seu contexto Sócio-Histórico-Tecnológico" tabindex="296"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A Física Brasileira em seu contexto Sócio-Histórico-Tecnológico<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nesse projeto objetivamos compreender as especificidades e rumos seguidos pela Física Brasileira tendo como condição de produção o cenário sócio-histórico-tecnológico do país. Utilizamos como referencial as pesquisas CTS que têm sido desenvolvidas na América Latina e que nos fundamentam na consideração de que a Ciência não é neutra e sim produção de sujeitos históricos, dessa forma incorporando e sendo influenciada por elementos provenientes do contexto social e tecnológico do qual fazem parte esses sujeitos. Acreditamos que a veiculação da produção científica brasileira compreendida em seu contexto é um aspecto importante a ser mediado na escola básica, possibilitando aos estudantes uma visão crítica do papel social da ciência em nosso país. Nesse sentido, um dos resultados pretendidos é a produção de materiais instrucionais que possam ser mediados no ensino de física nas escolas brasileiras.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Thirza Pavan Sorpreso - Coordenador / SILVA, Leandro Londero da - Integrante / Maria Consuelo Alves Lima - Integrante / Daniela Louzeiro Nunes Souza - Integrante.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA" tabindex="297">
+<h1 tabindex="0">Educação e Popularização de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="LivrosCapitulosEPCTA" tabindex="298"></a><br class="clear"><div class="inst_back">
+<b>Livros e capítulos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="299">SORPRESO, Thirza Pavan</a></b>; LIMA, M. C. A. (Org.) . Questões de ensino de ciência e tecnologia em discussão. 1. ed. São Luís: Edufma, 2018. v. 1. 282p . </div>
+</div>
+<br class="clear">
+<a name="ApresentacoesTrabalhoEPCTA" tabindex="300"></a><br class="clear"><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="301">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="302">ALMEIDA, Maria José Pereira Monteiro de</a> . Análise do Funcionamento de uma Unidade de Ensino sobre Energia Nuclear com Abordagem CTS. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3940703666349048" target="_blank" tabindex="303">SORPRESO, Thirza Pavan</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6593952657486300" target="_blank" tabindex="304">ALMEIDA, Maria José Pereira Monteiro de</a> . Energia Nuclear Mediante o Enfoque Ciência, Tecnologia e Sociedade na Formação Inicial de Professores de Física. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 20/03/2023 às 11:02:31</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=3940703666349048" target="_blank" class="button" tabindex="305"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="306"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="307">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="14">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="15">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa" tabindex="18">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico" tabindex="19">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="20">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="22">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="24">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="25">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="26">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="27">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="28">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="29">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="30">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="31">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="32">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="34">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="35">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="36">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="37">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="38">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="39">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="40">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="41">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="42">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="44">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="45">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="46">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="47">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="48">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="49">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="50">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="51">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="52">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="53">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="54">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="55">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-potencialInovacao" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#PatentePI" tabindex="57">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI" tabindex="58">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI" tabindex="59">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI" tabindex="60">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI" tabindex="61">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI" tabindex="62">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI" tabindex="63">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI" tabindex="64">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI" tabindex="65">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI" tabindex="66">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI" tabindex="67">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI" tabindex="68">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI" tabindex="69">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI" tabindex="70">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-educacaoPopularizacaoCTA" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA" tabindex="72">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA" tabindex="73">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA" tabindex="74">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA" tabindex="75">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA" tabindex="76">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA" tabindex="77">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA" tabindex="78">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA" tabindex="79">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA" tabindex="80">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA" tabindex="81">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA" tabindex="82">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA" tabindex="83">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA" tabindex="84">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA" tabindex="85">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos" tabindex="87">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos" tabindex="88">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas" tabindex="90">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento" tabindex="91">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="9pos" style="z-index: 1010; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="93">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="94">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="10pos" style="z-index: 1011; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4123469D6&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="96">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

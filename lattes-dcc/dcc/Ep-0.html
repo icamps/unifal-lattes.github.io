@@ -1,0 +1,687 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[1991,
+3],
+[1992,
+2],
+[1993,
+1],
+[1994,
+2],
+[1996,
+1],
+[1997,
+4],
+[1998,
+4],
+[1999,
+4],
+[2000,
+7],
+[2001,
+4],
+[2002,
+9],
+[2003,
+14],
+[2004,
+18],
+[2005,
+9],
+[2006,
+15],
+[2007,
+3],
+[2008,
+8],
+[2009,
+17],
+[2010,
+22],
+[2011,
+19],
+[2012,
+10],
+[2013,
+7],
+[2014,
+6],
+[2015,
+13],
+[2016,
+7],
+[2017,
+15],
+[2018,
+6],
+[2019,
+7],
+[2020,
+2],
+[2021,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 240<br>
+                    
+                    
+                    <div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Congresso Internacional Movimentos Docentes, IV SEPAD e II PRATIC. 2021. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia. Atualização e Expansão da Biblioteca de Fragmentos do Software MB-Isoster.. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>XL Encontro Nacional de Engenharia de Produção (ENEGEP WEB 2020). Gestão de Riscos e Resiliência de cadeias de suprimentos em crises globais. 2020. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1a Reunião 2019 do Fórum Nacional de Pró-Reitores de Planejamento e de Administração das Instituições Federais de Ensino Superior (Forplad).Validação do ForRisco. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Jornada Adacêmica 2019.Gestão de Projetos. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PUBSIC Conference 2019 (Innovation in Public Services and Public Policy). ForRisco Methodology and the empiricism of risk management in Brazilian High-Level Educational Institutions. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PUBSIC Conference 2019. ForRisco Methodology and the empiricism of risk management in Brazilian High-Level Educational Institutions. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>X-Meeting. Building New Molecules by Bioisosteric Replacement using MB-Isoster Program.. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>X-Meeting. COMPUTATIONAL APPROACH OF NSCLC MARKERS APPLIED TO DRUG DESIGN AGAINST PD-L1 AND HOMOLOGY MODELING BY TUSC2 (FUS1). 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>X-Meeting. MOLECULAR MODELING METHODS APPLIED TO THE STUDY OF STAPHYLOCOCCUS AUREUS TARGET PROTEINS. 2019. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3º International Congress on Information and Communication Technology. Risk Managment in the Public Sector: A proposed reference model and tool survey. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Fórum de Pró-Reitores de Planejamento e Administração.Gestão de Risco - Desenvolvimento do Software. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV FÓRUM NACIONAL DE PRÓ-REITORES DE PLANEJAMENTO E ADMINISTRAÇÃO.Painel 3: ForRisco ? lançamento do livro, apresentação do software e da capacitação on-line. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>O Modelo ForRisco: Curso de Capacitação.O Modelo ForRisco: Curso de Capacitação. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Pink Day - Mary Kay.Palestrante - Consultoria de Imagem e Estilo Pessoal. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Third International Congress on Information and Communication Technology (ICICT-2018). Risk Management in the Public Sector: A Proposed Reference Model and Tool Survey. 2018. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>14th European Mediterranean & Middle Eastern Conference on Information Systems (EMCIS). Perception of Enterprise Risk Management in Brazilian Higher Education Institutions. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>14th European Mediterranean & Middle Eastern Conference on Information Systems. ?Perception of Enterprise Risk Management in Brazilian HigherEducation Institutions?. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>28th DEXA Conferences and Workshops. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>3ª Semana de Inovação em Gestão Pública. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>4º Reunião do Fórum Nacional de Pró-Reitores de Planejamento e de Administração das Instituições Federais de Ensino Superior (Forplad).Gestão de Riscos na Universidade Federal de Alfenas.. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>6th International Conference on Electronic Government and the Information Systems Perspective (EGOVIS 2017). Strategic Planning in the Public Sector: How can Brazilian Public Universities Transform Their Management, Computerise Processes and Improve Monitoring?. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BIOTECNOLOGIA - UNIFAL/MG - 10 ANOS - Desafios e Conquistas. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Brazilian-International Congress of Genetics. The LincRNA Ultra-Conserved UC.112 and UC.160 are associated with childhood T-Cell acute lymphoblastic leukemia.. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Workshop do Programa de Pós-Graduação em Ciências Biológicas.Identificação de Candidatos Vacinais em potencial para Trichosporon asahii Baseada na Tecnologia de Vacinologia Reversa. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II FÓRUM NACIONAL DE PRÓ-REITORES DE PLANEJAMENTO E ADMINISTRAÇÃO. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>The 22nd IEEE Symposium on Computers and Communications. Resource-constrained P2P Streaming Overlay Construction for Efficient Joining Under Flash Crowds. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VI Semana Acadêmica de Ciência da Computação. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXII Simpósio Nacional de Ensino de Física.Ensino de Astronomia com Dispositivos Móveis Utilizando Ambiente Tridimensional. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXII Simpósio Nacional de Ensino de Física.MobTracker: um Aplicativo de Captura de Dados para o Ensino de Física. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXV Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos.Join rate improvements in P2P live streaming based on topological aspects during Flash Crowds. 2017. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Encontro Regional Sudeste 2016 do FONAPRACE.Conjuntura Nacional da Assistência Estudantil nas IFES. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Workshop do Programa de Pós-Graduação em Ciências Biológicas.Mesa-redonda: Biologia do Câncer.. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV Semana Acadêmica da Física.O uso de Dispositivos Eletrônicos no Ensino de Física. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>V Semana Acadêmica da Ciência da Computação. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>V Semana Acadêmica da Ciência da Computação. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VI COEN. Mini-curso: Gerenciamento de Projetos. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>WORKSHOP DE REDES P2P, DINÂMICAS, SOCIAIS E ORIENTADAS A CONTEÚDO (WP2P+).Ingressos em Redes P2P para Vídeo ao Vivo. 2016. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10o Congresso Brasileiro de Gestão da Inovação e do Desenvolvimento de Produtos ? CBGDP. Métodos de tomada de decisão no Processo de Desenvolvimento de Produtos - Mini Curso. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2 DataStorm Summer School.2 DataStorm Summer School. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2015 IEEE International Joint Conference on Neural Networks. A Binary Ensemble Classifier for High-Frequency Trading. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>22ND INNOVATION & PRODUCT DEVELOPMENT MANAGEMENT CONFERENCE. Fuzzy Front End in New Product development: Does size matter?. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Annual Research Staff Conference. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Annual University of Glasgow Learning and Teaching Conference. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Circuito NidusTec de Criação de Startups. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Cultura Empreendedora - Prof. José Alberto Aranha (Endeavor). 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Workshop Sobre Tecnologias Móveis na Educação. DigiAtlas: Dispositivos Móveis Auxiliando o Ensino Multidisciplinar de Questões Ambientais. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>International Conference on Production Research - ICPR23. ICPR23. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Semana Acadêmica da Ciência da Computação. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>STAMP Workshop.Understanding STAMP/STPA through a daily life example. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V COEN - Congresso das Engenharias. Gerenciamento de Projetos - Métodos de Tomada de Decisão. 2015. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2014 IEEE International Joint Conference on Neural Networks. A Neural Network Based Approach to Support the Market Making Strategies in High-Frequency Trading. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Escola Brasileira de Ensino de Física. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Semana Acadêmica da Ciência da Computação. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>International Conference on Multimedia Retrieval. Learning to Rank Similar Apparel Styles with Economically-Efficient Rule-Based Active Learning. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>International Conference on Quality Engineering and Management. Reasons, benefits and difficulties associated with ISO 9001 certification for sugar and ethanol companies. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IV Semana Acadêmica da Ciência da Computação. 2014. (Outra).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>22nd International Conference on Production Research (ICPR 22). Prioritization of critical success factors in managing the product development process of Biotechnology companies.. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>9º Congresso Brasileiro de Gestão de Desenvolvimento de Produto. Priorização dos Fatores Críticos de Sucesso no Pré Desenvolvimento. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Congresso Brasileiro de Alimentação para Coletividade ? CONBAC. Nutrição Inteligente. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IV Ciclo de Palestra em Biotecnologia.Biotecnologia: Registro no conselho profissional. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Market Microstructure Liquidity & Trading Workshop.An Artificial Intelligence Approach to Construct High Frequency Trading Strategies. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>U.S. Agricultural Policy in a Global Context Conference. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXXIII Encontro Nacional de Engenharia de Produção. A certificação ISO 9001 no continente Americano: análise estatística. 2013. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2012 IEEE Power & Energy Society General Meeting. Analysis of ensemble models in the medium term hydropower scheduling. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro Mineiro de Engenharia de Produção.Palestrante em mini-curso: Formação de Auditores Internos (4 horas). 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Forum de Inclusão, Diversidade e Acessibilidade na Educação: As fronteiras entre o Discurso Educacional e a Prática Docente.Inclusão Digital. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II SEMMOP - Seminário das Engenharias Mecânica, de Mobilidade e de Produção. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II SEMMOP - Seminário das Engenharias Mecânica, de Mobilidade e de Produção.A importância do Processo de desenvolvimento de produtos (PDP): casos práticos. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II SEMMOP - Seminário das Engenharias Mecânica, de Mobilidade e de Produção.ISO 9001:2008: casos práticos. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>III Jornada Científica de Biotecnologia da UNIFAL-MG. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Workshop sobre Registro e Proteção de Cultures no Brasil. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XIV Symposium on Virtual Reality. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XXX Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos. TraceMetrics - Uma ferramenta para a obtenção de medidas de interesse no ns-3. 2012. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2ª Semana de Ciência e Economia e 3ª Semana do PIEPEX.Gestão de projetos. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Building Insights Breaking Boundaries.Treinamento Elsevier nas bases de dados SciVerse ScienceDirect, SciVese Scopus e Compendex. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>II Semana Acadêmica da Ciência da Computação.Diferentes Carreiras Para o Profissional da Computação. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II Semana Acadêmica de Ciência da Computação. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Congresso Internacional Six Sigma e evento acoplado VII Workshop GESITI. Tendências e perspectivas da gestão do conhecimento: um caso prático no setor elétrico do Brasil. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IV Jornada Científica da UNIFAL-MG.Estudo da implementação do sistema de gestão da qualidade baseado na NBR ISO 9001 em um laboratório de uma instituição pública federal. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV Jornada Científica e XIII Mostra de Extensão da UNIFAL-MG,.Inclusão Digital para Pessoas com Necessidades Especiais. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV Jornada de Iniciação Científica da Universidade Federal de Alfenas.Um Ambiente Computacional baseado em jogos para facilitar o aprendizado de pessoas com necessidades especiais. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SCRUM: Método Ágil para Gestão de Projetos. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VII Semana Tecnológica no Instituto Federal de Educação e Tecnologia do Sul de Minas - Campus Machado.Gestão da Qualidade em Biotecnologia. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VIII Congresso Brasileiro de Ensino Superior a Distância. Estatística semipresencial: um estudo com base na visão do professor, tutor e das atividades na plataforma virtual de aprendizagem. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Workshop on Synthetic Biology and Robotics. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>X-Meeting. Bioinformatics Approach of cyclin-dependent kinases 1 and 3 complexed with inhibitors. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>X-Meeting. Bioinformatics Practical Course. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>X-Meeting. Validation of Molecular Dinamics on Experiments of New Drogs Identification.. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XIII Mostra de Extensão da Universidade Federal de Alfenas.Instituto Girassol - Inclusão Digital para Pessoas com Necessidades Especiais. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XLIII Simpósio Brasileiro de Pesquisa Operacional. Modelo Baseado em Combinação de Previsores Para Previsão de Séries Temporais de Carga Elétrica. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXXI Encontro Nacional de Engenharia de Produção. Apresentação de Poster. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XXXI Encontro Nacional de Engenharia de Produção.Palestra Nacional - Sistemas de gestão da qualidade - ISO9001:2008. 2011. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2010 IEEE World Congress on Computational Intelligence. Cosine Function applied to the Inertia Control in the Particle Swarm Optimization. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>56. Congresso Brasileiro de Genética. Sexagem e sequenciamento parcial do Gene CDH1/Z de Mimus Saturninus Taxidermizado. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CCIS 2010. Prediction of Segments in Proteins using LMProt Algoritm.. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>COMISSÃO DE ESTUDOS DE PREVISÃO E ACOMPANHAMENTO DA CARGA - CEPAC.Modelo de Previsão de Carga por Barramento. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Encontro de Capacitação Sobre Execução Orçamentária e Financeira da UAB. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II ciclo de palestras em Biotecnologia.Bioinformática estrutural: métodos e aplicações. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Jornada Científica de Biotecnologia. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>III Congresso Internacional Software Livre e Governo Eletrônico. Desenvolvimento e Gestão de um Curso Utilizando o Ambiente Moodle. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Congresso Internacional Software Livre e Governo Eletrônico. Mysql. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Encontro Nacional de Coordenadores da Universidade Aberta do Brasil - UAB. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Encontro Regional de Coordenadores da Região Sudeste - Universidade Aberta do Brasil (UAB). 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III Jornada Científica da Unifal-MG. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>III Jornada Científica da Unifal-MG.Aplicação das técnicas de Support Vector Machines para previsão de séries de energéticas. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>III Jornada Científica da Unifal-MG.SPARSE: UMA ABORDAGEM PARA ENSINO DE ENGENHARIA DE SOFTWARE BASEADA EM JOGOS E SIMULAÇÃO. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>III Jornada Científica da Unifal-MG.UM MUNDO MAIS QUE ESPECIAL: UM AMBIENTE PARA O APRENDIZADO DE PESSOAS COM NECESSIDADES ESPECIAIS. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SB-Meeting. COMPUTATIONAL APPROACH TO NEW ANTICANCER DRUG DEVELOPMENTS USING BIOINFORMATICS TO STRUCTURAL ANALYSIS OF MOLECULAR MARKERS IN HNSCC.. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SisPot 2010 - Encontro de Pesquisadores em Sistemas de Potência.Metodologia Agregada para Previsão de Carga por Barramento. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>The 1st International Conference on Bioinformatics SOIBIO.. Prediction of Segments in Protein Using LMProt algoritm.. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XLII Simpósio Brasileiro de Pesquisa Operacional.Clusterização em Redes Sociais através do Simulated Annealing Não-Monotônico. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXX Congresso da Sociedade Brasileira de Computação - XVIII Workshop sobre Educação em Computação (WEI). Aprendizagem de Lógica de Programação Utilizando Programação por Demonstração. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXX ENEGEP. Dificuldades encontradas em projetos de implementação da ISO 9001:2008 em empresas de base tecnológica incubadas. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXXIII Congresso Nacional de Matemática Aplicada e Computacional. Tracemetrics - Uma ferramenta para a validação matemática de simuladores de redes de computadores. 2010. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>47 Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural. Hábitos de consumo: uma abordagem dos consumidores da feira livre de Alfenas, MG. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ENECOMP 2009 (Doc 38). 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Encontro Internacional do Sistema Universidade Aberta do Brasil.Avaliação de processo seletivo para alunos de um curso de especialização modalidade à distância. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Semana Acadêmica da Ciência da Computação UNIFAL-MG).Debatedor na mesa redonda - Mercado de Trabalho ou Área Acadêmica?. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Semana Acadêmica da Ciência da Computação. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Semana Acadêmica da Ciência da Computação.Busca Matematica: Panorama Atual e Perspectivas Futuras. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Semana Acadêmica da Ciência da Computação.Mercado de Trabalho ou Área Acadêmica, Qual Seguir?. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Semana Acadêmica da Ciência da Computação.Métodos Computacionais Aplicados em Bioinformática. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Encontro Nacional de Coordenadores UAB. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Encontro Regional de Coordenadores da Região Sudeste do Sistema Universidade Aberta do Brasil. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Jornada de Iniciação Científica da Unifal.Tracemetrics - Uma ferramenta para a validação matemática de simuladores de redes de computadores. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PSCE - Power System Conference Exposition. An Aggregate Model Applied To The Short-Term Bus Load Forecasting Problem. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Simpósio Brasileiro de Computação Gráfica e Processamento de Imagens. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>X Mostra de Extensão da Universidade Federal de Alfenas.Inclusão Digital para Pessoas com Necessidades Especiais. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XLI Simpósio Brasileiro de Pesquisa Operacional.Sigm-Tree: Otimização de Árvores Sintáticas Aplicadas à Classificação de Padrões. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XX Jornada de Informática da Unifenas.Computaçao nas nuvens: o que muda na sua vida profissional e pessoal?. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXIX Encontro Nacional de Engenharia de Produção. Seleção de um modelo de processo de desenvolvimento de produto para indústria de base tecnológica do ramo eletroeletrônico. 2009. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>23th ACM Symposium on Applied Computing.A Vehicular Waiting Time Heuristic for Dynamic Vehicle Routing Problem.. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Encontro Nacional de Coordenadores das IES, do Sistema Universidade Aberta do Brasil. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Formação de Professores no Ambiente Moodle. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fórum X3D Earth. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Curso de Inverno de Bioinformática. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IBM System Z - Virtualização e Linux (40 horas). 2008. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II MoodleMoot Brasil. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XL Simpósio Brasileiro de Pesquisa Operacional.Um Algoritmo Híbrido Baseado na Geração Heurística de Colunas para o Problema de Roteamento de Veículos com Janela de Tempo. 2008. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Workshop da Pós-Graduação, IX Mostra de Extensão e XII Jornada da Iniciação Científica de Alfenas (Doc 24).Desenvolvimento e implementação de software para otimização de nova metodologia de atenção farmacêutica. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>International Workshop on Telecommunications -- IWT. Proportional Differentiated Services based on a Single Composite Metric. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XXV Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos. Escalonador de Métrica Única Combinada para a implementação dos Serviços Proporcionais Diferenciados. 2007. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>7a Semana da Computação da FAGOC. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Congresso ABIPTI - Associação Brasileira das Instituições de Pesquisa Tecnológica. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Congresso Brasileiro de Automática - 2006. Máquinas de Vetores Suporte para Previsão de Carga à Curto Prazo. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Global Dialogues on Emerging Science and Technology (GDEST).Molecular Markers Identification on HNSCC using Data from Different Experimental Techniques. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Fórum Econômico da FACESM.Alternativas para um desenvolvimento regional compatível com a política econômica brasileira e com o cenário mundial. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IEEE PES - Transmission and Distribuition Conference and Exposition. Short-Term Load Forecasting Using Support Vector Machines. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Semana de Sistemas UNIPAC.SiscomPM - Um sistema de comunicação segura entre COPOM e viaturas policias via wireless. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>In-Silico Analysis of Proteins Celebrating the 20th anniversary of Swiss-Prot. DBMODELING: A database of structural models of proteins. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IV WorkShop GESITI - Gestão dos Sistemas e Tecnologias de Informação Aplicados em Organizações. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IX Simpósio Brasileiro de Redes Neurais.A Multi-Start Simulated Annealing Algorithm for the Vehicle Routing Problem with Time Windows. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Simpósio de Engenharia de Produção. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Workshop IGDP - Inovação e Sistemas PLM. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>X Encontro Latino Americano de Iniciação Científica e VI Encontro Lationo Americano de Pós Graduação. Informática Biomédica: do paciente às metodologias computacionais. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XLIV Congresso da Sociedade Brasileira de Economia e Sociologia Rural. Modelagem ARIMA na previsão do preço da arroba do boi gordo. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXVIII Simpósio Brasileiro de Pesquisa Operacional.Uma Proposta Para Um Sistema de Knowledge Discovery in Databases-KDD Utilizando Arquitetura Dirigida à Componentes. 2006. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CBRN-Congresso Brasileiro de Redes Neurais. Agrupamento Nebuloso Aplicado à Previsão de Carga a Curto Prazo. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>encontro nacional de engenharia de Produção. Mapeamento dos processos em serviços: estudo de caso em duas pequenas empresas da área de saúde. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Encontro Norte Nordeste de Pesquisa Operacional.I Encontro Norte Nordeste de Pesquisa Operacional. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Semana de Tecnologia da FATEC.Bioinformática. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SBAI - Simpósio Brasileiro de Automação Inteligente. Um Sistema Especialista Aplicado à Previsão de Carga em Curto Prazo. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Simpósio de Engenharia de Produção.Contribuição do Gerenciamento de Projetos na implementação de um Sistema de Gestão da Qualdiade. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Simpósio de Pesquisa Operacional e Logística da Marinha. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Weimig'2005.Weimig'2005 - Workshop em Educação em Computação e Informática do Estado de Minas Gerais. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXXVII Simpósio Brasileiro de Pesquisa Operacional.XXXVII Simpósio Brasileiro de Pesquisa Operacional. 2005. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1° Festival do Software Livre - FESTSOL. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Latin American Protein Society Meeting. Structural Bioinformatics Applied to the Study of Protein Targets from Mycobacterium tuberculosis Genome. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2° Congresso Internacional de Iniciação Científica - COINT - SEMESP. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>4° Congresso Nacional de Iniciação Científica - CONIC - SEMESP. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>5a Semana da Computação da FAGOC. Software para a Exploração de Falhas de Segurança em Sistemas Operacionais. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Congresso Brasileiro de Automática - 2004. Agrupamento de Curvas de Demanda. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Debate .NET J2EE.Debate .NET J2EE. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FAGOC 500.Software para a Exploração de Falhas de Segurança em Sistemas Operacionais. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Congresso de Administração. Análise da gestão de empresas do terceiro setor em Itajubá. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>International Conference on Bioinformatics and Computational Biology. DBMODELING: a Database of Protein Structural Models from Mycobacterium tuberculosis. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Congresso Nacional de Iniciação Científica. Interface gráfica para compiladores gratuitos baseados em linha de comando disponíveis na internet. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>OBI'2004.VI Olimpíada Brasileira de Informática. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PD 30 Anos.A Caverna Digital e sua Utilização na Sociedade Moderna. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SECICOM - Semana da Ciência da Computação. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Simposium on Virtual Reality. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Sispot 2004 -Encontro de pesquisadores em Sistemas de potência. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VIII Simpósio de Atualização em Genética e Melhoramento de Plantas. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXIV Congresso da Sociedade Brasileira da Computação. 2004. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>4a Semana da Computação da FAGOC. Interface gráfica para compiladores gratuitos baseados em linha de comando disponíveis na internet. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>A Geração da Energia Hidroelétrica no Brasil. 2003. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Conferencia Latino Americana de Informatica (Doc 9). Utilização de Máquinas de Estado Abstratas em Aplicações de Inteligência Artificial e Jogos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro de Ex-Alunos do Departamento de Matemática - Prata da Casa.Fundamentos em Neurocomputação. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Escola de Computação de Alto Desempenho para Sistemas Complexos.Bioinformatics Study of Cyclin-Dependent Kinase 5 Complexed with Roscovitine. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Workshop Internacional Brasil-Japão. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Primeiro Processo Seletivo de Avaliação Única - PROUNI de 2004 da Universidade Federal de Lavras (UFLA). 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>ProQuality SRC - Qualidade nas pequenas empresas de Software. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SBBq. Bioinformatics Study of Cyclin-Dependent Kinase 5 Complexed with Roscovitine. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SECICOM - Semana da Ciência da Computação. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Semana da Ciência da COmputação. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VI Symposium on Virtual Reality.Visualização de Alto Desempenho - utilizando componentes convencionais. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>WorkShop de Educação em Computação e Informática do Estado de Minas Gerais.Weimig'2003 - WorkShop em Educação em Computação e Informática do Estado de Minas Gerais. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XLI Congresso Brasileiro de Economia e Sociologia Rural. 2003. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>22° Congresso da Sociedade Brasileira de Computação. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>3a Semana da Computação da FAGOC. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>II SisPot - Encontro dos Pesquisadores em Sistemas de Potência. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IMIGRA2002. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>IV Semana de Engenharia Mecatrônica. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Simpósio Brasileiro de Redes de Computadores. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>V Workshop de Computação.Commodity Clusters for Immersive Projection Environments. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>VIII Semana de Informática - UFV (Doc 40). 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Workshop on Molecular Modeling in Biophysics. Comparative Modeling: Problems and Solutions Using MODELLER. 2002. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2a Semana da Computação da FAGOC. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>7ª Semana da Informática da Universidade Federal de Viçosa. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Semana da Ciência da Computação. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XI Simpósio de Iniciação Científica.MATLAB e Aplicações. 2001. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12th Symposium on Computer Architecture and High Performance Computing. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>13th Brazilian Symposium on Computer Graphics and Image Processing. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1a Semana da Computação da FAGOC. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II Encontro Mineiro de Educação Matemática - SBEM. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Olimpíada Brasileira de Informática.Olimpíada Brasileira de Informática. 2000. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>V Reunião Regional da Sociedade Brasileira de Matemática.Introdução aos Espaços de Hilbert. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>X Simpósio de Iniciação Científica.Introdução aos Espaços de Hilbert. 2000. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Encontro de Informática na Educação Matemática de Viçosa. 1999. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Agrosoft 99 - Feira e Congresso de Agroinformática. Uso da Informática na Agricultura Mineira: Perfil do Usuário e Estado da Arte. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>V Semana de Informática (Doc 10).Uma Solução Intranet utilizando Java. 1999. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>V Semana de Informática - UFV (Doc 40). 1999. (Outra).</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Escola Regional de Informática-SBC (Doc 40). 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>IV Semana de Informática - UFV (Doc 40). 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Modalidades Operacionais - Os Mercados Derivativos. 1998. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Workshop Internacional Tecnologia da Informação e Gestão de Cadeias Produtivas em Agribusiness. 1998. (Outra).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Encontro de Matemática - DMA/UFV. 1997. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Agrosoft 97 - Feira e Congresso de Agroinformática. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Semana de Informática - UFV (Doc 40). 1997. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IX Seminário Internacional de Política Agrícola. 1997. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>VIII Seminário Internacional de Política Agrícola. 1996. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Semana de Informática - UFV (Doc 40). 1994. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>II Semana de Informática - UFV (Doc 40).Minicurso de Computação Gráfica. 1994. (Outra).</td></tr>
+            </table></div><div id="dv-year-1993"><h3 class="year">1993</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Seminário de Agroecologia e Desenvolvimento. 1993. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1992"><h3 class="year">1992</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Simpósio de Iniciação Científica. 1992. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Seminário de Agroecologia e Desenvolvimento. 1992. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1991"><h3 class="year">1991</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Simpósio de Iniciação Científica. 1991. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Simpósio Mineiro de Iniciação Científica. 1991. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV Seminário Internacional de Política Agrícola. 1991. (Seminário).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 10:47:01<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

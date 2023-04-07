@@ -1,0 +1,1173 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Estatística Aplicada e Biometria (PPGEAB)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Estatística Aplicada e Biometria (PPGEAB)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[1995,
+6],
+[1996,
+2],
+[1997,
+8],
+[1998,
+2],
+[1999,
+9],
+[2000,
+8],
+[2001,
+19],
+[2002,
+16],
+[2003,
+18],
+[2004,
+20],
+[2005,
+25],
+[2006,
+34],
+[2007,
+34],
+[2008,
+23],
+[2009,
+18],
+[2010,
+19],
+[2011,
+28],
+[2012,
+24],
+[2013,
+28],
+[2014,
+22],
+[2015,
+18],
+[2016,
+17],
+[2017,
+25],
+[2018,
+16],
+[2019,
+12],
+[2020,
+7],
+[2021,
+9],
+[2022,
+18]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 485<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>66ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras).Biplots: O que são? Onde vivem? Do que se alimentam?. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>7º CONGRESSO DE PESQUISA E EXTENSÃO do Centro Universitário Presidente Tancredo de Almeida Neves. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AULA INAUGURAL DOS CURSOS DE PRÁTICAS DE LETRAMENTO E ALFABETIZAÇÃO E MÍDIAS NA EDUCAÇÃO.O Novo Normal e a Nova EaD. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Brazilian Symposium on Fractional Calculus.Continuation of mild solution for abstract fractional integro-differential equations. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Elabore e Publique Artigos de Impacto.Qualidade das publicações científicas: considerações de um editor. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I ENCONTRO MINEIRO DO PROFMAT. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Workshop do PROFMAT/UNIFAL-MG. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop do PROFMAT/UNIFAL-MG.Mesa redonda "O PROFMAT nas Instituições Mineiras". 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Workshop de Matemática e Matemática Aplicada. Equações Diferenciais de Ordem Fracionária no Estudo de Epidemias. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Workshop do Programa de Pós-graduação em Física.Generalizing Metropolis Monte Carlo algorithm for Ising Model applied to nanostructures. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Seminários do PPGNL.Publish or Perish: um programa gratuito para recuperar e analisar citações acadêmicas. 2022. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V Congresso de Projetos de Apoio à Permanência de Estudantes de Graduação da Unicamp (V PAPE-G), em conjunto com o II Seminário Internacional de Serviços de Apoio aos Estudantes da Unifesp (II SISAE)AE). Permanência no Ensino Superior: Suporte à Aprendizagem dos Conteúdos de Matemática Básica. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VI SEMAT - Semana da Matemática.Mesa Redonda - ?A Licenciatura em Matemática na UNIFAL-MG: trajetória e perspectivas?. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VI SEMAT. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VI Workshop Escola de Computação e Informação Quântica (WECIQ 2022).Presidente da Comissão Organizadora. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VI WORKSHOP ESCOLA DE COMPUTAÇÃO E INFORMAÇÃO QUÂNTICA.Magnetic and thermodynamic properties of quantum spin nanostructures. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XLI CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Caracterização da Superfície de Riemann Associada aos Coeficientes de Equações Diferenciais Fuchsianas. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XV Congress GAFEVOL 2022. Existence of asymptotically almost automorphic solutions for neutral integro-differential equations. 2022. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>38th International Society for Animal Genetics Conference. Imputation to whole-genome sequence by using a small reference population. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>50 years of Functional Differential Equations at ICMC. Resolvent operators and applications in fractional integro-differential equations. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CONE 2021 - Congresso de Estatística. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Reunião Mineira de Matemática. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Reunião Mineira de Matemática.Inferência Multimodelo: um estudo de caso na dispersão larval de caranguejos. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II ENEAT em casa.Minicurso - Análise de dados em Python. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IX Semana da EAD Grupo Unis. Teoria da Codificação: Álgebra Linear Aplicada à Teoria dos Códigos Corretores de Erros. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>VII Simpósio Integrado da UNIFAL-MG.ESTRUTURAS ALGÉBRICAS UTILIZADAS NA CONSTRUÇÃO DE CÓDIGOS BCH E APLICAÇÕES NA ANÁLISE DE FENÔMENOS MUTACIONAIS. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XL CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Determinação dos geradores do grupo fuchsiano associados à quantização do canal C_{2,8}. 2021. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3º Encontro de Biomatemática.Análise Mutacional da Enzima Mitocondrial ATP6 via Códigos Corretores de Erros. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I ERMAC MS - Encontro Regional de Matemática Aplicada e Computacional - l.ANÁLISE DO DIAGRAMA DE HASSE ASSOCIADO AO ROTULAMENTO B DO CODIGO GENÉTICO. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Encontro de Biomatemática. Estabilidade assintótica global de um modelo da dengue de ordem fracionária. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IX Encontro Nacional de Pós-graduação. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>VI Simpósio Integrado da UNIFAL-MG.CARACTERIZAÇÃO DO CÓDIGO GENÉTICO POR MEIO DO DIAGRAMA DE HASSE ASSOCIADO AO ROTULAMENTO A. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VIII Semana da EAD do Grupo Unis. Estruturas Algébricas Aplicadas na Caracterização do Código Genético. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>X ERMAC-RS Encontro Regional de Matemática Aplicada e Computacional.ANÁLISE DAS PROPRIEDADES FÍSICO-QUÍMICAS DOS AMINOÁCIDOS POR MEIO DAS DISTÂNCIAS DE HAMMING ASSOCIADAS AO ROTULAMENTO B DO CÓDIGO GENÉTICO. 2020. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3º Workshop do Programa de Pós-Graduação em Estatística Aplicada e Biometria.Análise do Algoritmo de Geração de Sequências de DNA via Códigos Corretores de Erros. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>64ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 18º Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). Análise de dados sensoriais no software R. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Extensão: Articulação com Ensino e a Pesquisa nos desafios da curricularização. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Conferência das Licenciaturas da Unifal-MG - I CONLIC2019. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Encontro Regional de Matemática Aplicada e Computacional - ERMAC 2019.Aplicação de códigos corretores de erros no processo de geração de sequências de DNA. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Seminários em Matemática. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>V Congresso Internacional Unis - O Mundo em Disrupção. Uma Introdução aos Códigos Corretores de Erros. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>V SEMAT - Semana da Matemática.Álgebra Linear Aplicada a Códigos Corretores de Erros. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>V SEMAT: As diferentes possibilidades de formação e de atuação de profissional da área de Matemática. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>V Simpósio Integrado UNIFAL-MG.o ESTUDO DA CARACTERIZAÇÃO GEOMÉTRICA E ALGÉBRICA DOS ROTULAMENTOS DO CÓDIGO GENÉTICO. 2019. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI Workshop em Análise de Sobrevivência e Aplicações. Utilização do modelo Weibull na descrição do tempo até a cura de hanseníase: uma abordagem Bayesiana. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXXIX CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Análise do Algoritmo de Geração de Sequências de DNA via Códigos Corretores de Erros. 2019. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>23° SINAPE. Um estudo da sobrevida de pacientes com câncer de mama. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>23º Simpósio Nacional de Probabilidade e Estatística. MODELAGEM DE VENTOS EXTREMOS EM BAURU-SP: UMA ABORDAGEM BAYESIANA. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>63a Reunião Anual da Região Brasileiera da Sociedade Internacional de Biometria. Amostragem sequencial na detecção preferência por refrigerantes sabor guaraná entre consumidores de Alfenas, MG. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>63a. Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Python para usuários de R. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>63ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras). Comparação de testes sobre estruturas de covariância de populações normais. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>63ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Influência da previdência fechada e do envelhecimento populacional da previdência aberta. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>63ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Níveis de retorno para valores máximos de temperatura de Piracicaba-SP. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>First Conference on Statistics and Data Science.Performance of diagnostics measures using INLA: a simulation study for count regression. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Semana de Estatística do DES (UFLA).Python para usuários de R. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I WPROFMAT.Primeiros passos no software R. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura, Aplicada e Estatística. Caracterização algébrica e geométrica de um canal C2,4 através de equações diferenciais fuchsianas. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IV Simpósio Integrado UNIFAL-MG.Matemática e Cidadania. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>LAWCI - Latin American Week on Coding and Information. Fuchsian group generators associated with the C_2,8 channel quantization. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>R Day - Encontro Nacional de Usuários do R.ExpDes e ExpDes.pt: pacotes R para análise de experimentos. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>V ENCOSMAT - Encontro Sul Matogrossense de Matemática.Estruturas Algébricas Aplicadas na Modelagem do Código Genético. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXXVIII Congresso Nacional de Matemática Aplicada e Computacional. Aplicações de Elementos de Geometria Hiperbólica em Sistemas de Comunicação. 2018. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13a Conferência Python Brasil. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>62a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 17o Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). Agrupamento dos municípios do Sul/Sudoeste de Minas Gerais em relação ao envelhecimento populacional. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>62ª RBRAS e 17º SEAGRO. Abordagem Bayesiana na previsão da ocorrência de ventos extremos em Lavras-MG. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>62ª RBRAS e 17º SEAGRO. Estimação dos parâmetros da Distribuição Gumbel no estudo de eventos extremos. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>62ª Reunião Anual da RBras e 17° SEAGRO. Inferência Bayesiana para dados de contagem de um experimento em blocos casualizados. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>62ª Reunião Anual da RBras e 17º SEAGRO. Desempenho da distribuição GEV para extremos de contagem com superdispersão. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>62ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e 17º Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). Modelos de medidas repetidas aplicados a um experimento de pacientes com câncer tratados com exergames. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop on Omics Strategies Applied to Livestock Science.Genomic Selection from DNAseq data. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Congresso Internacional e V Semana da Ead (Grupo Unis). Métodos de Pesquisa Operacional e Cálculo Numérico aplicados à resolução de problemas. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Simpósio Integrado da UNIFAL-MG.Avaliador de trabalhos. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV ENSET - Quarto Encontro Sanjoanense de Engenharia e Tecnologia do Campus da Unesp de São João da Boa Vista.Minicurso - Introdução ao Latex. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IV SEMAT - Semana da Matemática. Modelagem do código genético através de elementos da extensão de Galois GF(2^6). 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IV WorkShop Estatística Aplicada e Biometria. Análise de valores extremos sob o enfoque Bayesiano. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>PyCon 2017 Conference. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Semana Nacional da Ciência e Tecnologia da Unifal-MG: edição 2017. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Simpósio de Matemática da FCT/UNESP.Completude do conjunto de números reais e decomposição de operadores em valores singulares. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VI Jornada da Informação.Caracterização da região fundamental para a uniformização de curvas algébricas planares via EDOs fuchsianas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VII Jornada da Informação.Uniformização de Curvas Algébricas associadas a Equações Diferenciais Fuchsianas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>VIII Simpósio de Microbiologia Aplicada. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XI - EMED / Encontro Mineiro de Equações Diferenciais. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XI EMED - Encontro Mineiro de Equações Diferenciais.Equações Diferenciais Fuchsianas Associadas a Sistemas de Comunicação Através da Uniformização de Curvas Algébricas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XI Semana da Matemática da UFSJ. Introdução aos Códigos Corretores de Erros. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XV Encontro Mineiro de Estatística.Como publicar artigos de qualidade em Estatística e Estatística Aplicada. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XV MGEST - Encontro Mineiro de Estatística. Análise Bayesiana na previsão de ventos extremos em Sorocaba-SP. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXXVII Congresso Nacional de Matemática Aplicada e Computacional. Uniformização de Curvas Algébricas Planares via EDOs Fuchsianas no Estudo de Sistemas de Comunicação. 2017. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>22° SINAPE. Determinação do Tempo de vida útil de berinjelas minimamente processadas. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2nd International Conference on Agriculture and Biological Sciencesces. Reviewer of ABS2016. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Workshop em Bioestística.Modelos e inferência para um experimento em blocos causalizados para o numero de vagens em soja. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura e Aplicada. Determinação de grupos fuchsianos casados a constelações de sinais através da uniformização de curvas algébricas planares. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura e Aplicada. On positive and trace class integral operators. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Simpósio Integrado UNIFAL-MG.Avaliador de trabalhos. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>III Congresso de Ciências Sociais Aplicadas e VIII Semana do Programa Integrado de Ensino, Pesquisa e Extensão. Estrutura do mercado de trabalho no Sul/Sudoeste de MG: uma análise de agrupamento. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV Jornada da Informação.Conexões entre Séries de Farey, Superfícies de Riemann e Equações Diferenciais Fuchsianas. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Modelos de regressão para dados de contagem. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Workshop on Categorical Dta Analysis. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>X ENAMA.Traceability of positive integral operators: a reproducing kernel point of view. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XIV Encontro Mineiro de Estatística. MODELAGEM DO ÍNDICE MÁXIMO DE RISCO-BRASIL. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XIV Encontro Mineiro de Estatística. O envelhecimento populacional nos municípios do Sul/Sudoeste de Minas: análise de agrupamento usando componentes principais. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XIV Encontro Mineiro de Estatística.Modelagem de dados longitudinais aplicados a pacientes com e sem câncer tratados com exergames. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XIV Encontro Mineiro de Estatística.Modelagem do índice máximo de Risco_Brasil. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XIV Encontro Mineiro de Estatística.Performace evaluation of different genotypes os Eucalyptus for pulp and paper productiobn. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXXVI Congresso Nacional de Matemática Aplicada e Computacional. Proposta de otimização para o roteiro histórico-iconográfico da cidade de Natal-RN. 2016. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>60ª RBras e 16º SEAGRO. Avaliação de métodos para estimação dos parâmetros da distribuição Gumbel. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>60ª RBras e 16º SEAGRO. Introdução à análise de valores extremos no R. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>60ª RBras e 16º SEAGRO. Teste de Student-Newman-Keuls Bootstrap: proposta e avaliação. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>60ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria e 16º Simpósio de Estatística Aplicada à Experimentação Agronômica,. Introdução à análise de valores extremos no R. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>61º Congresso Brasileiro de Genética. Genomic selection for milk quality and health traits in a Holstein cow population. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ciclo de Palestras em Bioestatística aplicada as Ciências da Saúde. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>How to Write for and Get Published in Scientific Journals (Workshop). 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Colombian Workshop on Coding Theory (CWC). The relationship between Riemann surface and Fuchsian Differential Equation with the aim at coding of geodesics. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Congresso Internacional. Aplicação de Ferramentas Matemáticas na Resolução de Problemas Biológicos. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Workshop em Álgebra e Teoria de Códigos.Superfícies de Riemann associadas a coeficientes de equações diferenciais fuchsianas. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Semana da Matemática e II Workshop de Estatística Aplicada e Biometria da Unifal-MG. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III Semana da Matemática e II Workshop de Estatística Aplicada e Biometria da Unifal-MG. Como os softwares simulam dados?. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>III Semana da Matemática e II Workshop de Estatística Aplicada e Biometria. Apenas participação, sem apresentação. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>III Semana da Matemática e II Workshop em Estatística Aplicada e Biometria da Unifal-MG. Forma Multilinear e Determinante. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Inova FAPEMIG. ExpDes: estatística confiável a custo zero. 2015. (Feira).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SP Coding and Information School. Fuchsian Differential Equations and the relations with the associated surfaces to the Farey tesselations. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Uso do Shiny para o ensino de estatística. 2015. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VII Seminário da Rede Brasileira de Monitoramento e Avaliação. 2015. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10th World Congress of Genetics Applied to Livestock Production. Genome-wide association study for milk unsaturated fatty acids in Brazilian Holstein cows. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>51ª Reunião Anual da Sociedade Brasileira de Zootecnia. Genetic parameters for milk fatty acids content in a Holstein cattle population. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>59a Reunião da Região Brasileira da Sociedade Internacional de Biometria. Algumas Estatísticas para Avaliar a Consonância de Painéis Sensoriais: Uma aplicação usando o software R. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>59ª Reunião Anual da Regional Brasileira da Sociedade Internacional de Biometria - RBRAS. Modelagem do número de patentes nos países americanos via regressão múltipla. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>59ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria - RBRAS. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>59ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Assimetria e curtose em modelos não-lineares generalizados: estudos de simulação envolvendo os preditores para o teste de Salmonella/microssoma. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Dia da Aproximação.On reproducing kernel Hilbert spaces. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Congresso Brasileiro de Jovens Pesquisadores em Matemática Pura e Aplicada. On reproducing kernel Hilbert spaces and approximation. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Congresso de Ciências Sociais Aplicadas e VI Semana do Programa Integrado de Ensino, Pesquisa e Extensão. A decisão de ter filhos: uma visão socioeconômica das taxas de fecundidade. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Jornada da Informação.Equações Diferenciais Fuchsianas e sua Relação com Tesselações de Farey, Sistemas Dinâmicos e Estrutura das Células Hepáticas. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Workshop de Estatística Aplicada e Biometria. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Workshop de Estatística Aplicada e Biometria.Introdução ao Latex. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>I Workshop on Experimental Statistics e IV Encontro dos Alunos do PPG em Agronomia (Estatística e Experimentação Agronômica ).Modelagem de dados multivariados por meio de cópulas. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>I Workshop on Experimental Statistics e IV Encontro dos Alunos do PPg em Agronomia (Estatística e Experimentação Agronômica).Um estudo de simulação sobre como a escolha da função de variância afeta a assimetria e a curtose das distribuições amostrais dos estimadores em modelos não-lineares generalizados. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>IX Conference GAFEVOL. Existence of solutions for a fractional neutral integro-differential equations with unbounded delay. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Programa de verão 2014, PGMAC UEL.Aproximação de soluções de equações integrais de Volterra em espaços de Hilbert de reprodução.. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>V Conferencia de la Asociación Latinoamericana y del Caribe para el Desarollo Humano y el Enfoque de las Capacidades. El programa Bolsa Família en Brasil empodera las mujeres?. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIII Encontro Mineiro de Estatística. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XIII Encontro Mineiro de Estatística.Normalidade em modelos mistos usando um método de transformação nos dados. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXXV CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Um estudo sobre equações diferenciais fuchsianas e as relações com as superfícies associadas às tesselações de Farey. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXXV Congresso Nacional de Matemática Aplicada e Computacional (XXXV CNMAC). Avaliação de testes de hipóteses para identificação de proporção áurea. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXXV Congresso Nacional de Matemática Aplicada e Computacional. Qualidade do ajuste da isoterma de Freundlich e Langmuir-Freundlich. 2014. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>(Third Iberoamerican Workshop on Orthogonal Polynomials and Applications) I Encontro do Grupo de Jovens Pesquisadores em Teoria da Aproximação e Polinômios Ortogonais.On reproducing properties of Mercer-like kernels. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2º Congresso de Jóvenes Investigadores de la RSME. On Mercer-like kernels: theory and applications. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>3º Workshop Internacional: Genômica aplicada à pecuária. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>50ª Reunião da Sociedade Brasileira de Zootecnia. Genomic-wide association analysis for somatic cells score in Holstein cows. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>58a Reunião da Região Brasileira da Sociedade Internacional de Biometria. SensoMineR: um pacote R para Sensometria. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>58ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria e 15º Simpósio de Estatística Aplicada à Experimentação Agronômica,. Avaliação do poder e taxas de erro do tipo I de testes de detecção de outliers via simulação. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>58ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria e 15º Simpósio de Estatística Aplicada à Experimentação Agronômica. Análises uni e multivariada dos gastos dos alunos da UNIFAL-MG em Alfenas. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Advanced Topics in Genomics and Cell Biology. Applications of fuchsian differential equations in the study of communication between two liver cells. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Encontro dos Alunos do Programa de Pós-Graduação em Estatística e Experimentação Agronômica.Métodos estatísticos aplicados ao teste de Salmonella/microssoma no contexto dos modelos não lineares generalizados. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Congresso de Matemática Aplicada e Computacional da Região Centro-Oeste - I CMAC Centro-Oeste. Análise Algébrica do Código Genético através da Representação Polinomial dos Códons. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Encontro português de Biometria e I Encontro Luso-Galaico de Biometria.Distribuição espacial de casos de dengue nos estados brasileiros. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ICMC Summer Meeting on Differential Equations 2013. Resolvent operators for fractional integro-differential equations and applications. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II Semana da Matemática da Unifal-MG. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>II Semana da Matemática da Unifal-MG. Fundamentos matemáticos do método de Gauss-Newton. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>II Semana da Matemática da Unifal-MG. Precisão e Acurácia no Ajuste de Modelo Não Linear. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>II Semana da Matemática da Unifal. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>III Encontro dos Alunos do Programa de Pós Graduação em Estatística e Experimentação Agronômica.O seguro rural e seus gargalos de implementação. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>III Simpósio de Geosestatística Aplicada em Ciências Agrárias.Estudo de dependência espacial do pH de latossolo vermelho na região de Tietê-SP. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Matemática e Estatística do Planeta Terra. Uma conversa sobre matemática. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>North American School of Information Theory. Polynomial Representation of Codons by Galois Field Extensions and Labeling in the Study of the Genetic Code. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Semana Cultural e Tecnológica do IFSUDEMINAS. A matemática pura e aplicada no ensino superior. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Semana de Tecnologia, Educação e Responsabilidade Social.Matemática Aplicada a Problemas Biológicos. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Workshop UFSCAR/USP. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XII Encontro Mineiro de Estatística e III Semana da Estatística. Modelagem estatística não-estacionária dos níveis mínimos de umidade relativa do ar em Piracicaba-SP. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XII Encontro Mineiro de Estatística e III Semana da Estatística.Sensometria. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XII Encontro Mineiro de Estatística e III Semana de Estatística.Desempenho de testes para homogeneidade de variâncias em delineamentos em blocos casualizados. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XII Encontro Mineiro de Estatística.Propriedades matemáticas e estatísticas das isotermas de adsorção de Langmuir e Freundlich e do método de Gauss-Newton. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XXI Congresso Interno de Iniciação Científica da Unicamp. Avaliador de trabalhos de iniciação científica. 2013. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>20o. SINAPE. Procedimento de comparações múltiplas bootstrap baseado na distribuição F. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2º Workshop Internacional de Genômica aplicada à Pecuária. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>57a Reunião da Região Brasileira da Sociedade Internacional de Biometria. Experimental Designs: um pacote R para análise de experimentos. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>57ª reunião Anual da RBras. Um estudo da variabilidade espacial de condutividade elétrica do solo. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>57ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras). Experimental Designs: um pacote R para análise de experimentos. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>57ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras).A utilização de modelos multinomiais na Ecotoxicologia: ajuste aos dados preliminares do ensaio do cometa em Girardia tigrina. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>57ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria - RBras. Função bayesiana em R para o problema de Behrens-Fisher multivariado. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>57ª Reunião Anual da Região Brasileira da Sociedade Internacional de de Biometria. Período de serviço de vacas mestiças gir-holandesas. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>57ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Tempos de retorno para valores mínimos de temperatura de Piracicaba-SP via distribuições de valores extremos. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Encontro dos alunos do Programa de pós Graduação em estatística e Experimentação Agronômica.Modelos espaço-temporais: construção da matriz de ponderação. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Encontro de Análise Funcional e Teoria da Aproximação de Uberlândia. Núcleos Positivos Definidos e Espaços de Hilbert de Reprodução. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SAS Day. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VI Bienal da Sociedade Brasileira de Matemática. Participação em Minicursos e Oficina. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VI ENAMA - Encontro Nacional de Análise Matemática e Aplicações.On Hilbert space reproducing properties of the usual fourier transform. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VI Encontro Mineiro de Equações Diferenciais.Existência de Soluções para um problema de quarta ordem assintoticamente linear quando a não-linearidade cruza autovalores. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Workshop on Longitudinal and Incomplete Data. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Workshop online Data Visualisation in R with ggplot2 and plyr. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XI Encontro Mineiro de Estatística. Ajuste de distribuições de valores extremos a dados de temperatura mínima de Piracicaba-SP. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XI Encontro Mineiro de Estatística. Risco de queda de idodos via modelo logístico. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XI Encontro Mineiro de Estatística. Tempos de retorno para valores mínimos de umidade do ar de Piracicaba-SP via distribuições de valores extremos. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XI Encontro Mineiro de Estatística.Análise geoestatística baseada no modelo Bernoulli: uma aplicação no risco familiar de Alfenas-MG. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XX Congresso Interno de Iniciação Científica da Unicamp. Avaliador de Trabalhos de Iniciação Científica. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XXVII Seminário do Curso de Engenharia Elétrica.Análise do Código Genético Através de Ferramentas Matemáticas e de Engenharia. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXXIV CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Análise Algébrica do Código Genético através da Soma entre códons. 2012. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>19º SIICUSP - Simpósio Internacional de Iniciação Científica da USP.Avaliador de pôsteres. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>56a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria e 14o Simpósio de Estatística Aplicada à Experimentação Agronômica. CEP-R: Um pacote R para o Controle Estatístico de Processo. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>56ª RBRAS e 14º SEAGRO. Análise de intervenção na modelagem e previsão de séries temporais: avaliação do impacto da gripe A em vendas de álcool em gel. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>56ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria e 14º Simpósio de Estatística Aplicada à Experimentação Agronômica. Influência da linearização na estimação dos parâmetros da isoterma de Freundlich. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>56ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria e 14º Simpósio de Estatística Aplicada à Experimentação Agronômica.Desempenho dos procedimentos para a comparações múltiplas em situação de erro normal assimétrico. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>56ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Procedimento de comparações múltiplas bootstrap para DIC em código R de forma direta. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>56° Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria e 14o SEAGRO. Análise bivariada de dados de temperatura média e umidade do ar aplicando a distribuição Normal. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>57º Congresso Brasileiro de Genética. Genetic groups as an alternative for uncertain parentage in sire evaluation. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Congresso de Matemática Aplicada e Computacional da Região Sudeste - I CMAC Sudeste. Análise Algébrica do Código Genético através do Diagrama de Hasse e do Reticulado Booleano. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Semana da Matemática da Unifal-MG.Demistificando o determinante de uma Matriz. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Semana da Matemática da Unifal-MG.Estudo do ajuste da distribuição generalizada de valores extremos a dados de temperatura mínima de Piracicaba-SP. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Semana da Matemática da Unifal-MG.Introdução ao Latex. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IEEE Information Theory Workshop. Participação em Palestras. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>II Encontro do PROCAD e I Encontro dos alunos do PPGEEA.Uma aplicação da metodologia de geoestatística em análise de séries temporais. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>II Encontro do PROCAD/NF e I Encontro dos Alunos do PPGEEA/ESALQ/USP. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>IV Workshop e I Simpósio de Ecotoxicologia.Mini-Curso: "Bioestatística". 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>V ENAMA.On reproducing properties of Mercer-like kernels. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VII ENCONTRO ESTATÍSTICO DO CONRE-3.. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Workshop in Honor of Prof. Pedro A. Morettin: Times series, Wavelets and Functional Data Analysis.Modelos autorregressivos de médias móveis espaço-temporais. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Workshop: Métodos de Estimação e Testes de Hipóteses. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>X Encontro Mineiro de Estatística. Influência da linearização na estimação dos parâmetros da isoterma de Langmuir e Freundlich. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>X Encontro Mineiro de Estatística. Modelo dinâmico polinomial na previsão de MP10 atmosférico em São José dos Campos-SP. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>X Encontro Mineiro de Estatística. Proposta de um teste para verificar a adequalidade do ajuste de modelos marginais. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>X Encontro Mineiro de Estatística. Teoria de Valores Extremos na análise de níveis máximos de NO2 nos munícipios de Sorocaba-SP e Cubatão-SP. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>X Encontro Mineiro de Estatística. Verificação de independência para dados diários de Dióxido de Nitrogênio nas cidades de Cubatão e Sorocaba-SP. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>X Encontro Mineiro de Estatística.Algoritmo para obtenção dos quantis da distribuição da amplitude estudentizada: uma proposta alternativa ao qtukey no R. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>X Encontro mineiro de Estatítica.Previsão para o rendimento de soja no Estado do Paraná. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XII Escola de Modelos de Regressão. R functions for analysing factorial schemes and fitting polynomial regression models in ANOVA. 2011. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>19º SIMPÓSIO NACIONAL DE PROBABILIDADE E ESTATÍSTICA. Comparação das distribuições Gama e Log-normal na predição da fragilidade: um estudo de simulação. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>19º Simpósio Nacional de Probabilidade e Estatítstica.Comparação das distribuições Gama e Log-normal na predição da frigilidade: um estudo de simulação. 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>55a Reunião da RBRAS e 15a Reunião da RARG. An alternative one parameter triangular distribution. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>55ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBRAS) e 15ª Reunião Anual da Região Argentina da Sociedade Internacional de Biometria (RARG). Aplicação de uma solução bayesiana para o problema de Behrens-Fisher multivariado. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Jornada Científica da Unifal-MG. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>III Jornada Científica da Unifal-MG. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>III Jornada Científica da UNIFAL-MG.Estudo da probabilidade de ocorrência de dias sem chuva via distribuição Poisson. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV ENAMA. An extension of Mercer's theorem via reproducing kernel Hilbert spaces. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IX Encontro Mineiro de Estatística. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Reunião Regional da Sociedade Brasileira para o Progresso da Ciência -SBPC.Uma visão prática sobre planejamento e análise de experimentos. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VIII Simpósio Brasileiro de Melhoramento Animal.Efeitos genéticos aditivos e não aditivos para características de produção de bovinos de corte compostos (Bos taurus x Bos indicus). 2010. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>X SEMANA DA MATEMÁTICA E II SEMANA DA ESTATÍSTICA. O Uso do Software R para resolver problemas de Estatística. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>X Semana da Matemática e II Semana da Estatística.Distribuição Generalizada de Valores Extremos. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>X Semana da Matemática e II Semana da Estatística.ExpDes: um pocote R para análise de experimentos. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXV Internacional Biometric Conference.http://www.rbras.org.br/~ibcfloripa2010/index.php?func=1# a. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXV International Biometric Conference e 55a RBRAS. Comparação dos Métodos de Estimação dos Parâmetros da Distribuição Gumbel. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXV International Biometric Conference. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XXV International Biometric Conference. Aplicação de uma solução bayesiana para o problema de Behrens-Fisher multivariado. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XXV International Biometric Conference. R functions for analysing split-plot schemes. 2010. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>17º Simpósio Internacional de Iniciação Científica da Universidade de São Paulo.Aplicação da regressão de cumeeira na predição de valores genéticos de bovinos de corte compostos (Bos taurus x Bos indicus). 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>27 Colóquio Brasileiro de Matemática. Positive integral operatirs and the Schatten classes. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>54ª RBRAS e 13º SEAGRO. Tempo até a cura de pacientes diagnosticados com hanseníase. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>54ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria - RBRAS e 13º Simpósio de Estatística aplicada à Experimentação Agronômica - SEAGRO. Solução bayesiana para o problema de Behrens-Fisher multivariado. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>54° RBRAS e 13° SEAGRO.Analise de associação bivariada para variavel resposta categorizada provenientes dos principais delineamentos amostrais. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>54° REUNIÃO ANAUL DA REGIÃO BRASILEIRA DA SOCIEDADE INTERNACIONAL DE BIOMETRIA E 13° SIMPÓSIO DE ESTATÍSTICA APLICADA À EXPERIMENTAÇÃO AGRONÔMICA.INTERAÇÃO ENTRE OS SOFTWARES MOODLE E R UTILIZANDO TECNOLOGIA JAVA PARA O ENSINO DE ESTATÍSTICA E MATEMÁTICA. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>69 SBA.Integral operators defined by positive definite kernels and the Schatten p-classes. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>8o Encontro Mineiro de Estatística.Um pouco da história dos censos. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fórum Mineiro de Estatística e Probabilidade. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fórum Mineiro de Estatística e Probabilidade: os 30 anos do curso de Estatística da UFMG. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Seminário Nacional sobre Formação de Professores.Introdução ao Latex. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>IX Semana da Matemática e I Semana da Estatística.Análise de dados de sobrevivência. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Jornada Científica da Universidade Federal de Alfenas-MG (2009).Distribuição Generalizada de valores extremos na análise de dados de poluição do ar na cidade de Paulínia e Cubatão. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VI Semana de Estatistica.Distribuição e correlaçao das raças na Regiao Metropolitana de Maringá. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XI Escola de Modeloes de Regressão. ANÁLISE BAYESIANA NO ESTUDO DO TEMPO DE RETORNO CHUVAS MÁXIMAS DE CARBONITA - MG. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XI Escola de Modelos de Regressão. Estimativas Pontuais Bootstrap e Intervalos de Credibilidade (sobre-risco e proteção) do Modelo de Regressão de Cox. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XI Escola de Modelos de Regressão.Assessing the relationship of climate variables and the acceptance of bait by ants via path analysis. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XX ENESTE.Censo Nikkei- um perfil dos descendentews nikkei na cidade de Maringa. 2009. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>16º Simpósio Internacional de Iniciação Científica da Universidade de São Paulo.Diagnóstico de multicolinearidade em modelos aditivo-dominante em uma população de bovinos de corte compostos (Bos tauruss x Bos indicus). 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>18º SIMPÓSIO NACIONAL DE PROBABILIDADE E ESTATÍSTICA. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>18º SINAPE- Simposio Nacional De Probabilidade e Estatistica. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1ª Reunião Paulista de Melhoramento de Plantas. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>25º Encontro sobre Temas de Genética e Melhoramento. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>41ºReuniao Regionalda ABE/ VI Jornada de Estatistica de Maringa/ V Semana de Estatistica.Um estudo de simulação para comparar tamanho de amostra pelo estimador da razão de chance e pela proporção. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>53a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Encontrando o número de classes de um histograma. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>53ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Estudo do tempo até aposentadoria dos servidores da Ufla via modelo de Cox. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>53° RBRAS - Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Avaliação do Tamanho Amostral na estimação dos Parâmetros da Isoterma de Langmuir. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>53° RBRAS - Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. Distribuição Generalizada de Valores Extremos no Estudo de Dados Climáticos Extremos: Uma Breve Revisão e Aplicação. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>9th Sensometrics Meeting. Generalized Procrustes Bootstrap regions for distinguishing skin cosmetic for market; Bootstrap inference in Generalized Procrustes analysis for evaluating samba schools in Brazilian carnival; Monte Carlo based test for the unidimensionality of a .... 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ciclo de palestras em Bioenergia. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II ENAMA.A connection between two concepts of positive definiteness. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>iV Bienal da Sociedade Brasileira de Matemática. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>IV Mini-Simpósio Métodos Topológicos em Equações Diferenciais. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Jornada Científica da Universidade Federal de Alfenas-MG (2008).Avaliação do número de concentrações na estimação dos parâmetros da isoterma de Langmuir. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Jornada Científica da Universidade Federal de Alfenas-MG (2008).Avaliação do número de concentrações na estimação dos parâmetros da isoterma de Langmuir. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Produção de conhecimento estatístico para difusão na Web: Sistema Galileu de educação estatística como estudo de caso. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>X Congresso Brasileiro de Ecotoxicologia. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XVII Congresso de Pós-graduação da UFLA, I Encontro de Engenharia de Sistemas, IV Workshop de Laser e Óptica na Agricultura.. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XVII Congresso de Pós-Graduação da UFLA. Ajuste do Modelo de Cox para o tempo até aposentadoria dos docentes da UFLA. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XVII CONGRESSO DE PÓS-GRADUAÇÃO DA UFLA. ANÁLISE DOS NÍVEIS EXTREMOS DE POLUIÇÃO DO AR POR MP10 EM CUBATÃO E PAULÍNEA. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XVII CONGRESSO DE PÓS-GRADUAÇÃO DA UFLA. INTERVALOS DE CREDIBILIDADE PARA A RAZÃO DE RISCOS DO MODELO DE COX, CONSIDERANDO ESTIMATIVAS PONTUAIS BOOTSTRAP. 2008. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>14° Encontro Nacional de Química Analítica - ENQA. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>15° Simpósio Internacional de Iniciação Científica da Universidade de São Paulo.Componentes de Variância e Parâmetros Genéticos de características categóricas em bovinos de corte compostos (Bos taurus x Bos indicus). 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>15° Simpósio Internacional de Iniciação Científica da Universidade de São Paulo.Efeitos genéticos aditivos raciais sobre características categóricas de bovinos de corte compostos (Bos taurus x Bos indicus). 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1ª Semana Acadêmica da UFLA. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>26º Colóquio Brasileiro de Matemática. Positivide Definida e Transformada de Fourier. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>44ª Reunião da Sociedade Brasileira de Zootecnia. Efeitos genéticos aditivos diretos e heteroses sobre características categóricas de bovinos de corte compostos (Bos taurus x Bos indicus). 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>52a Reuniao Anual da Regiao Brasileira da Sociedade Internacional de Biometria (RBRAS) e 12o Simposio de Estatistica Aplicada a Experimentacao Agronomica (SEAGRO). Análise com e sem uso de funções polinomiais no ajuste espacial de dados nas etapas iniciais de programas de seleção ? comparação via simulação. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>52a Reuniao Anual da Regiao Brasileira da Sociedade Internacional de Biometria (RBRAS) e 12o Simposio de Estatistica Aplicada a Experimentacao Agronomica (SEAGRO). ANÁLISE SENSORIAL DE FROZEN DESENVOLVIDO A PARTIR DE BIO-IOGURTES COM CASEINATO DE CÁLCIO SUPLEMENTADO COM INULINA E PROBIÓTICOS. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>52a Reuniao Anual da Regiao Brasileira da Sociedade Internacional de Biometria (RBRAS) e 12o Simposio de Estatistica Aplicada a Experimentacao Agronomica (SEAGRO). AVALIAÇÃO DE PARÂMETROS DE QUALIDADE EM AGUARDENTE DE CANA PRODUZIDAS NA REGIÃO CENTRAL DO RIO GRANDE DO SUL. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>52a Reuniao Anual da Regiao Brasileira da Sociedade Internacional de Biometria (RBRAS) e 12o Simposio de Estatistica Aplicada a Experimentacao Agronomica (SEAGRO). AVALIAÇÃO ESTATÍSTICA DE FONTES USADAS NA BRAQUITERAPIA INTRAVASCULAR: UMA APLICAÇÃO NÃO-PARAMÉTRICA. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>52a Reuniao Anual da Regiao Brasileira da Sociedade Internacional de Biometria (RBRAS) e 12o Simposio de Estatistica Aplicada a Experimentacao Agronomica (SEAGRO). O USO DA ESTATÍSTICA NÃO-PARAMÉTRICA E ANÁLISE DE AGRUPAMENTO NA DOSIMETRA COM IODO RADIOATIVO. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>52a Reuniao Anual da Regiao Brasileira da Sociedade Internacional de Biometria (RBRAS) e 12o Simposio de Estatistica Aplicada a Experimentacao Agronomica (SEAGRO). Sensometria: uma abordagem com enfase em Procrustes. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>52ª RBras e 12º SEAGRO. Distribuição Generalizada de Valores Extremos no Estudo de Temperatura Mínima. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>52ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria - RBRAS e 12º Simpósio de Estatística Aplicada à Experimentação Agronômica - SEAGRO. Aplicação dos testes de agrupamento de médias de Calinski & Corsten e de sua versão bootstrap em dados reais. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>53ª RBRas. Distribuição Generalizada de Valores Extremos no Estudo de Dados Climáticos Extremos: Uma Breve Revisão e Aplicação. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I ENAMA - Encontro nacional de análise matemática e aplicações. Decaimento de autovalores de operadores integrais com núcleos positivos definidos e suaves. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>II Symposium on Partial Differential Equations. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>II Workshop da Pós-Graduação, IX Mostra de Extensão e XII Jornada da Iniciação Científica de Alfenas.Estudo da Distribuição Log-Normal na precipitação de Piracicaba. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>III Semana da Química. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>IV Semana da Estatistica. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Modelos Mistos Aplicados.Modelos Mistos Aplicados. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Palestra de"Experiência Vivida - Estratégia de Recuperação de Organização de Saúde". 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Participação no minicurso: Modelos Lineares Generalizados e Extensões na 52ª SEAGRO.minicurso: Modelos Lineares Generalizados e Extensões na 52ª SEAGRO. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Particpação no minicurso Sensometria: uma bordagem com ênfase em procrustes.Particpação no minicurso Sensometria: uma bordagem com ênfase em procrustes. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Seminário Inquéritos populacionais: aspectos metodológicos, operacionais e éticos da ABRASCO. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>VII Encontro Mineiro de Estatísitca.ESTUDO DE TEMPERATURA MÉDIA E MÍNIMA PARA A REGIÃO DE PIRACICABA-SP. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>VII Encontro Mineiro de Estatística. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>VII Encontro Mineiro de Estatística. Análise Bayesiana no Estudo do Tempo de Retorno de Ventos Máximos em Piracicaba. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>VII Encontro Mineiro de Estatística.Análise da rotacionalidade de delineamentos equiradiais por meio de estudos de caso. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>VII Encontro Mineiro de Estatística.membro da comissão avaliadora. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XV Congresso Brasileiro de Toxicologia. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XVI Congresso de Pós-Graduação da UFLA. Aplicação dos testes de Calinski & Corsten e de sua versão bootstrap para agrupamento de médias. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>XVI Congresso de Pós-Graduação da UFLA. Terores de antinutrientes presentes em brotos de fabaceae para o consumo humano. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XVIII Semana de Estudos da Ecologia. 2007. (Outra).</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>17º Simpósio Nacional de Probabilidade e Estatítstica. Construção de uma Priori para os parâmetros da Distribuição Generalizada de Valores Extremos baseada em Quantis com Distribuição Gumbel. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>211th ordinary meeting of the British Region of the International Biometric Society. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>51a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBRAS). Comparação de testes para a homogeneidade de covariâncias: Erroo Tipo I e Pder. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>51ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras). 51ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras). 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>52º Congresso Brasileiro de Genética. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>8th Sensometrics Meeting. Conferencia Internacional de Sensometria. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Curso de Capacitação Didático-Pedagógico. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Debate Imagem, Educação e questão Étnica no Brasil ? O NEGRO: REFLEXÕES SOBRE A MAIORIA MINORIZADA. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Encontro de Estatística Aplicada. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Euclid's Elements. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Extensão ou Comunicação: reflexões sobre práticas de extensão Universitária ? CONEX. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Workshop de Ecotoxicologia. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>ICMC-Summer Meeting in Differential Equations-2006 Chapter. ICMC-Summer Meeting in Differential Equations-2006 Chapter. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>II Congresso de Extensao da UFLA - CONEX. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Launch Conference. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Mini-Simpósio de Iniciação Científica.Order Stars e Métodos Numéricos de Passos Múltiplos. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SEMIC - Seminário de Iniciação Científica da UNIFENAS.Correlação entre hipertensão arterial e periodontite. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SEMIC - Seminário de Iniciação Científica da UNIFENAS.Correlação entre hipertensão arterial e periodontite. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Simposio da Biologia Vegetal - Ed 2006. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Simpósio nacional de probabilidade e estatística - SINAPE.Alternativas multivariadas para avaliar a convergencia do monte carlo via cadeais de markov. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Some information about PostScript. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Analise descritiva de dados do inventario florestal de Minas Gerais para floresta estacional decidual. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Analise sensorial de paçoca. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Aplicacao da equacao de Michaelis-Menten utilizando a tecnica computacional "Bootstrap". 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Comparacoes multiplas multivariadas por metodos de Bootstrap. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Congresso de Pos-Graduandos. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Distribuicao amostral do coeficiente de correlacao entre altura e producao de uma populacao de plantas de soja. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Estimacao nao parametrica de curvas de sobrevivencia: uma aplicacao em entomologia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Introducao a teoria das copulas. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XV Congresso de Pos-Graduandos da Universidade Federal de Lavras. Modelagem e previsao do indice de acoes com governanca corporativa diferenciada Bovespa. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XV congresso de Pós-Graduandos da UFLA. Participante na qualidade de Consultor Ad-Hoc de trabalhos.. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XV Congresso de Pós-Graduandos da Universidade Federal de Lavras. XV Congresso de Pós-Graduandos da Universidade Federal de Lavras. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>XVII Semana de Estudos da Ecologia. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XXIII Congresso Nacional de Laticinios. 2006. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13º Simpósio internacional de Iniciação Científica da USP.Order Stars e Métodos Numéricos Lineares de Passos Múltiplos. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>25º Colóquio Brasileiro de Matemática. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>25º Colóquio Brasileiro de Matemática. Order Stars e Métodos Numéricos de Passos Múltiplos: um estudo de algumas propriedades. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>50a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. varios. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>50ª Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBras) e do 11º Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO). 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ENEPE-Encontro de Ensino, Pesquisa e Extensão da Unoeste.Estudo Numérico de Imagens Fractais. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Estatistica Experimental: uma abordagem fundamentada no planejamento e no uso de recursos computacionais. 2005. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop Carpe Diem do Departamento de Ciencia da Computacao da Universidade Federal de Lavras. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Workshop Carpe Diem do Departamento de Ciencia da Computacao da Universidade Federal de Lavras.Analise Sensorial no R. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ICMC-Summer Meeting in Differential Equations-2005 Chapter. ICMC-Summer Meeting in Differential Equations-2005 Chapter. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Semana da Biologia Marinha e do Gerenciamento Costeiro. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mini-curso: Técnicas de Modelagem Computacional. 2005. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mini-Simpósio de Iniciação Científica.Teoria da estabilidades fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Participação no curso:Bioinformatica: do sequenciamento a funcao biologica. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Participação no Minicurso Extatística experimental: uma abordagem fundamentada no planejamento e no uso de recursos computacionais da 50ª SEACRO.Participação no Minicurso Extatística experimental: uma abordagem fundamentada no planejamento e no uso de recursos computacionais. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Participação no minicurso Técnicas de Modelagem Computacional.Participação no minicurso Técnicas de Modelagem Computacional. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>RBRAS e SEAGRO.50ª Reunião Anual da Região Brasileira da sociedade Internacional de Biometria - RBRAS e 11º Simpósio de Estatística Aplicada à Experimentação Agronômica - SEAGRO. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Semana da Matemática.Equações a diferenças e aplicações. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>VII Congresso de Ecologia do Brasil. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XI SEAGRO - Simposio de Estatistica Aplicada a Experimentacao Agronomica. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XIV Congresso dos Pós-Graduandos da UFLA. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XIV Congresso dos Pós-Graduandos da Universidade Federal de Lavras. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XVI Semana de Estudos da Ecologia. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXII Congresso Nacional de Laticínios. varios. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXVIII-CNMAC. Um estudo dos métodos de Bernoulli e do quociente de diferenças para a localização de raízes de polinômios. 2005. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Estatística aplicada. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>12º SIICUSP-Simpósio Internacional de Iniciação Científica da USP.Estudo da teoria da estabilidade fraca para métodos lineares de passos múltiplos, no modo de previsão e correção. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>16ª SINAPE.Simpósio Nacional de Probabilidade Estatística. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>49 Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>49a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 49a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>49ª Reunião Anual da Região Brasileira da sociedade Internacional de Biometria - RBRAS.49ª Reunião Anual da Região Brasileira da sociedade Internacional de Biometria - RBRAS. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>56ª Reunião Anual da SBPC. Espaços Localmente Convexos. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CNMAC-Congresso Nacional de Matemática Aplicada e Computacional. Encontrando um método linear de k passos que seja ótimo. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ENEPE-Encontro Anual de Pesquisa Institucional.Teoria da estabilidade fraca para métodos numéricos de passos múltiplos para a resolução de equações diferenciais ordinárias. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fórum Latino-Americano de Plantas Ornamentais - Encontro da Academia Brasileira de Arte Floral. Fórum Latino-Americano de Plantas Ornamentais. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>ICMC-Summer Meeting inDifferential Equations-Chapter 2004. ICMC-Summer Meeting in Differential Equations-2004 Chapter. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>II encontro de matemática.O uso do software R na matemática e estatística. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II encontro de matemática.Pós-graduação Lato e Stricto sensu. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Palestra.O uso da estatística na graduação e pós-graduação da universidade federal de lavras. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Palestra.Proposta e avaliação de critérios de convergência para o método de Monte Carlo via Cadeias de Markov: casos Uni e Multivariados. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Participação no Minicurso: Tópicos de Análise e Programação estatística em Ambientes R no XIII Congresso de Pós-graduandos da UFLA.. Participação no Minicurso: Tópicos de Análise e Programação estatística em Ambientes R. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Simpósio Nacional de Probabilidade e Estatística.Simpósio Nacional de Probabilidade e Estatística. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIII Congresso de Pós-graduação da UFLA. XIII Congresso de Pós-graduação da UFLA. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XIII Congresso dos Pós-Graduandos da UFLA. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XIII Congresso dos Pós-Graduandos da UFLA.. XIII Congresso dos Pós-Graduandos da UFLA.. 2004. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Estatística aplicada. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>. Congresso de Laticínios. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>10o SEAGRO - Simposio de Estatistica Aplicada a Experimentacao Agronomica. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>10o Simpósio de Estatística Aplicada a Experimentação Agronômica (SEAGRO) e da 48a Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBRAS).10 Simpósio de Estatística Aplicada a Experimentação Agronômica (SEAGRO) e da 48 Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria (RBRAS). 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>48a Reuniao da Regiao Brasileira da Sociedade Internacional de Biometria. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I-Escola Brasileira de Equações Diferenciais. I-Escola Brasileira de Equações Diferenciais. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IT Conference Sucesu - MT. Sistema automático de geração de horários para UFLA utilizando algoritmos genéticos. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Participante do curso:Linguagem de programação C++ (atualização)..Participante do curso:Linguagem de programação C++ (atualização).. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Participação em Minicurso:Delineamento de Análise de Experimentos de Expressão Gênica no 10º Simpósio de Estatística Aplicada à Experimentação Agronômica (SEAGRO).Participação em Minicurso: Delineamento de Análise de Experimentos de Expressão Gênica.. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Participação no Minicurso: Análise Multivariada no 10º Simpósio de estatística Aplicada à Experimentação Agronômica..Minicurso: Análise Multivariada. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Participação no minicurso: Computer-intensive statistical melthods in biology and environmental science no 10º SEAGRO.Participação no minicurso: Computer-intensive statistical melthods in biology and environmental science. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Participação no minicurso: In introductory course on stochastic processes no 10º Simpósio de Estatística Aplicada à Experimentação Agronômica.Participação no minicurso: In introductory course on stochastic processes. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Programa e Resumos do 10º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica & 46a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 10º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica & 48a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Workshop do Programa de Aperfeiçoamento de Ensino-PAE.Workshop do Programa de Aperfeiçoamento de Ensino-PAE. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XII Congresso de Pós-Graduação da UFLA. XII Congresso de Pós-Graduação da UFLA. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XII Congresso dos Pós-Graduandos da UFLA. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XIII Congresso de Pós-graduação da UFLA. Alternativas multivariadas para avaliar a convergência do Monte Carlo via Cadeias de Markov. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XX Congresso Nacional de Laticínios. 2003. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Iniciação Científica. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Seminário Inciação Científica. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Seminário Inciação Científica. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>.Simpósio de Bovinocultura de leite. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>3 Sinleite - Simpósio Internacional em Bovinocultura de leite. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>47 Reunião Anual da região Brasileira da Sociedade Internacional de Biometria. Análise bayesiana para o problema de Behrens-Fisher por meio de simulação Monte Carlo. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>47 Reunião Anual da Sociedade Brasileira da Sociedade Internacional de Biometria. 47a Reunião Anual da Sociedade Brasileira da Sociedade Internacional de Biometria. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>47a Reuniao da Regiao Brasileira da Sociedade Internacional de Biometria. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>: IV Encontro Mineiro de Estatística - IV MGEST..IV Encontro Mineiro de Estatística - IV MGEST.. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ERMAC-Encontro Regional de matemática Aplicada. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Qualitative Theory of Differential Equations. Qualitative Theory of Differential Equations. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Semana da Matemática. 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V Seminário de Avaliação do PBIICT/FAPEMIG. 2002. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XI Congresso de Pós-Graduação da UFLA. XI Congresso de Pós-Graduação da UFLA. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XIV Semana da Matemática. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XV CICESAL/UFLA, 2002. XV Congresso de Iniciação Científica da Ufla (CICESAL). 2002. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Estatística aplicada. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>. Congresso de Iniciação Científica. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>. Congresso Pós-Graduação. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>.Encontro de Estatística. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>.Simpósio de bovinocultura de leite. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>.Simpósio de Doenças de Plantas. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>23 Colóquio Brasileiro de Matemática. 23 Colóquio Brasileiro de Matemática. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>46a Reunião Anual da RBRAS - 9o SEAGRO. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>46a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria & 9º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica.. 46a Reunião Anual da RBRAS - Região Brasileira da Sociedade Internacional de Biometria & 9º SEAGRO - Simpósio de Estatística Aplicada à Experimentação Agronômica.. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>9 Simpósio de Estatística Aplicada à Experimentação Agronômica e 46 Reunião Anual da Região Brasileira da Sociedade de Biometria.9 Simpósio de Estatística Aplicada à Experimentação Agronômica e 46 Reunião Anual da Região Brasileira da Sociedade de Biometria. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Simpósio sobre controle e doenças de plantas: Manejo Integrado de Doenças e Pragas de Hortaliças. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>II Simpósio de Forragicultura e Pastagens.Organização. 2001. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>III Encontro Mineiro de Estatística - III MGEST..III Encontro Mineiro de Estatística - III MGEST.. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>III MGEST - Encontro Mineiro de Estatística.III Encontro Mineiro de Estatística. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Seminário de Avaliação do PIBIC/CNPq - UFLA. 2001. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>X Congresso de Pós Graduação de UFLA.. X Congresso de Pós Graduação de UFLA. Período : 19 a 23 de novembro de 2001.. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>X Congresso de Pós-Graduação da UFLA. X Congresso de Pós-Graduação da UFLA. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIII Semana da Matemática. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XIV Congresso de Iniciação Científica da UFLA, CICESAL; IX Seminário de Avaliação do PIBIC/CNPq e IV Seminário de Avaliação do PBIICT/ FAPEMIG. XIV Congresso de Iniciação Científica da UFLA, CICESAL; IX Seminário de Avaliação do PIBIC/CNPq e IV Seminário de Avaliação do PBIICT/ FAPEMIG. 2001. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. SECAL. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>14 Simpósio Nacional de Probabilidade Estatística - SINAPE.14 Simpósio Nacional de Probabilidade Estatística - SINAPE. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Simpósio de Forragicultura e Pastagens.I Simpósio de Forragicultura e Pastagens. 2000. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Reunião Regional da Sociedade Brasileira de Matemática.Reunião Regional da Sociedade Brasileira de Matemática. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XII Semana da Matemática. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XIII Congresso de Iniciação Científica da UFLA, CICESAL; VIII Seminário de Avaliação do PIBIC/CNPq e III Seminário de Avaliação do PBIICT/ FAPEMIG. XIII Congresso de Iniciação Científica da UFLA, CICESAL; VIII Seminário de Avaliação do PIBIC/CNPq e III Seminário de Avaliação do PBIICT/ FAPEMIG. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XVI Semana de Ciências Agrárias e Tecnológicas de Lavras. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XVI Semana de Ciências Agrárias e Tecnológicas de Lavras.. XVI Semana de Ciências Agrárias e Tecnológicas de Lavras.. 2000. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Semana de Agronomia. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Extensão e Programas de estágio. 1999. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Forum Diretrizes Curriculares. 1999. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>8 SEAGRO e 44 RBRAS.8 Simpósio de Estatística Aplicada à Experimentação Agronômica e 44 Reunião Anual da Região Brasileira da Sociedade de Biometria. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Forum de Diretrizes Currilculares e Reformulação do Curso de Agronomia da UFLA. 1999. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Seminário de Extensão e Programas de Estágio. 1999. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Simpósio de Produção de Gado de Corte - SIMCORTE.I Simpósio de Produção de Gado de Corte - SIMCORTE. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IV Semana de Agronomia - O papel do profissional de Ciências Agrárias frente às novas tecnologias. 1999. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XII Congresso de Iniciação Científica da UFLA, CICESAL; VII Seminário de Avaliação do PIBIC/CNPq e II Seminário de Avaliação do PBIICT/ FAPEMIG. XII Congresso de Iniciação Científica da UFLA, CICESAL; VII Seminário de Avaliação do PIBIC/CNPq e II Seminário de Avaliação do PBIICT/ FAPEMIG. 1999. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>.Leite longa vida. 1998. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Controle de Qualidade de Leite Longa Vida. 1998. (Seminário).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>.Bebidas lácteas e sorvetes. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Pizza Cheese. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Tecnologia de Laticínios. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Estabilizantes e emulsificantes na produção de bebidas lácteas e sorvetes. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Second Panamerican Workshop on Applied and Computational Mathematic. Second Panamerican Workshop on Applied and Computational Mathematic. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Seminário Internacional sobre Pizza Cheese. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Simpósio de Tecnologia Laticinista. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XX Congresso Nacional de Matemática Aplicada e Computacional. XX Congresso Nacional de Matemática Aplicada e Computacional. 1997. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>.Tecnologia de Laticínos. 1996. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>II Encontro Divital de Tecnologia de Laticínios. 1996. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. Congresso de Laticínios. 1995. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>.Instrumental English. 1995. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>.Partnership in dairy industry. 1995. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Symposium on the development of partnership programmes in the dairy industry. 1995. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Teaching English in large classes - it can work!. 1995. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XIII Congresso Nacional de Laticínios. 1995. (Congresso).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 18/03/2023 09:56:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,1778 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Luiz Eduardo da Silva)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4767518A1&amp;idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="download.do?metodo=apresentar&amp;idcnpq=5459510407019521" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="17" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="20" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="22" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="55" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador" tabindex="57" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="60" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="63" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4767518A1"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Luiz Eduardo da Silva</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/5459510407019521</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">5459510407019521</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 12/12/2020</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Bacharelado Em Ciência da Computação pela Universidade Federal de São Carlos (1990), mestrado em Ciência da Computação pela Universidade Estadual de Campinas (1999) e doutorado em Engenharia Elétrica pela Universidade Federal de Itajubá (2012). Atualmente é professor da Universidade Federal de Alfenas. Tem experiência na área de Ciência da Computação, com ênfase em Processamento Gráfico (Graphics) e em Inteligência Artificial (artificial Inteligence), atuando principalmente nos seguintes temas: processamento de imagens, inteligência artificial e otimização.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="65">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Luiz Eduardo da Silva<img src="/buscatextual/images/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SILVA, L. E.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/5459510407019521</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="66">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal de Alfenas. <br class="clear">R. Gabriel Monteiro da Silva, 700<br class="clear">Centro<br class="clear">37130000 - Alfenas, MG - Brasil<br class="clear">Telefone: (35) 32991492<br class="clear">Fax: (35) 32991063<br class="clear">URL da Homepage: <a target="blank" href="http://www.bcc.unifal-mg.edu.br/luizedu" tabindex="67">www.bcc.unifal-mg.edu.br/luizedu</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="68">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&amp;codigoCurso=32003013001P0&amp;nivelCurso=D"> (Conceito CAPES 5)</span>. <br class="clear">Universidade Federal de Itajubá, UNIFEI, Brasil.
+		
+	<br class="clear">Título: Sistema Híbrido Metaheurístico baseado em Colônia de Formigas Paraconsistentes Aplicado a Problemas de Otimização em Redes Inteligentes, Ano de obtenção: 2012. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/1173620785883814" tabindex="69"><img src="images/curriculo/logolattes.gif"></a>Germano Lambert Torres. <br class="clear">Coorientador: Luiz Eduardo Borges da Silva. <br class="clear">Palavras-chave: Formiga Paraconsistente; Colônia de Formigas; Lógica Paraconsistente; Inteligência Artificial; Otimização.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Sistemas Elétricos de Potência / Especialidade: Transmissão da Energia Elétrica, Distribuição da Energia Elétrica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33003017005P8&amp;nivelCurso=M"> (Conceito CAPES 7)</span>. <br class="clear">Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear">Título: Algoritmo de Fotomosaico para Imagens Coloridas por Morfologia Matemática, Ano de Obtenção: 1999.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/8647239680081745" tabindex="70"><img src="images/curriculo/logolattes.gif"></a>Neucimar Jerônimo Leite.<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: Processamento de Imagens; Morfologia Matemática; Fotomosaico; Imagens Coloridas.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Setores de atividade: Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bacharelado Em Ciência da Computação. <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="71">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso Gestão Para Educação.  (Carga horária: 61h). <br class="clear">Centro Universitário do Sul de Minas, UNIS - MG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ambientes Virtuais de Aprendizagem.  (Carga horária: 40h). <br class="clear">Centro Universitário do Sul de Minas, UNIS - MG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="72">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Alfenas, UNIFAL-MG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, CEAD - Centro de Educação Aberta e a Distância. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador UAB.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado Em Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos<br class="clear">Compiladores<br class="clear">Estrutura de Dados I<br class="clear">Estrutura de Dados II<br class="clear">Introdução a Informática<br class="clear">Linguagens de Programação<br class="clear">LInguagens Formais e Autômatos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 08/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Universidade Federal de Alfenas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador de Curso.</div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Vale do Rio Verde de Três Corações, UNINCOR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 15</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2006 - 7/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Universidade Vale do Rio Verde de Três Corações. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2002 - 7/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Compiladores<br class="clear">Sistemas Distribuídos<br class="clear">Sistemas Operacionais<br class="clear">Estrutura de Dados<br class="clear">Teoria dos Grafos<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Centro Universitário do Sul de Minas, UNIS - MG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 9</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2002 - 7/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Gedup, Bacharelado em Ciência da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2000 - 7/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estrutura de Dados<br class="clear">Introdução a Ciência da Computação<br class="clear">Análise de Algoritmos<br class="clear">Linguagens e Técnicas de Programação I<br class="clear">Linguagens e Técnicas de Programação II<br class="clear">Software Básico I - Sistemas Operacionais<br class="clear">Software Básico II - Compiladores<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade José do Rosário Vellano, UNIFENAS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/1991 - 7/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado Em Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Linguagens e Técnicas de Programação II<br class="clear">Linguagens e Técnicas de Programação III<br class="clear">Tópicos Avançados em Processamento de Dados<br class="clear">Estrutura de Dados<br class="clear">Processamento de Imagens<br class="clear">Inteligência Artificial<br class="clear">Administração de Sistemas<br class="clear">Linguagens Formais e Compiladores<br class="clear">Teoria dos Grafos<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="73">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Desenvolvimento e avaliações de objetos de aprendizagem digitais educacionais" tabindex="74"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento e avaliações de objetos de aprendizagem digitais educacionais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto procura atender a uma necessidade visivelmente
+importante de promover a compreensão dos processos de
+ensino-aprendizagem relacionados com o uso das tecnologias da
+informação e comunicação digitais, assim como no desenvolvimento de
+objetivos de aprendizagem digitais que possibilitem incrementos e
+melhorias no processo de ensino-aprendizagem, por meio de novas
+ferramentas, métodos e linguagens.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (4) . <br class="clear"><br class="clear">Integrantes: Luiz Eduardo da Silva - Coordenador / Gabriel Gerber Hornink - Integrante / Paulo Romualdo Hernandes - Integrante / Adriana Oliveira Ferreira - Integrante / Paulo Alexandre Bressan - Integrante.<br class="clear"></div>
+</div><a name="PP_Teclado Virtual para Deficientes Físicos" tabindex="75"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Teclado Virtual para Deficientes Físicos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho tem como objetivo o desenvolvimento de um teclado virtual para deficientes físicos. O seu tema foi escolhido devido à sua importância social (Inclusão Digital de deficientes físicos no mercado de trabalho). Objetiva também a implementação de um hardware e de um programa que faça uma comunicação com o Windows, previsão de textos, manipulação do mouse e, possua um teclado numérico com a quantidade de teclas reduzidas.
+ 
+ Assim, tornando esforço do deficiente físico o mínimo possível para a realização de um trabalho.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Luiz Eduardo da Silva - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="76">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics). <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Inteligência Artificial. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="77">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="78">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="79"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="80"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="81"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SILVA, L. E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="82">SILVA, L. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1173620785883814" target="_blank" tabindex="83">TORRES, G. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8514450520201861" target="_blank" tabindex="84">SILVA, L. E. B.</a> ; SILVEIRA, T. ; SALGADO, R. M. ; OLIVEIRA, H. C. B. . Max Min Paraconsistent Ant Algorithm. ICIC Express Letters<sup></sup>, v. 8, p. 599, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=1881803X&amp;volume=8&amp;issue=&amp;paginaInicial=599&amp;titulo=Max Min Paraconsistent Ant Algorithm&amp;sequencial=1&amp;nomePeriodico=ICIC Express Letters" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.967</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">MACEDO, J. A.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tla.2013.6533971" target="_blank" tabindex="85"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="86">SILVA, L. E.</a></b>; MACEDO, J. A. ; CAMARGO, L. T. O. ; OLIVEIRA, H. C. B. ; SALGADO, R. M. . An Intelligent Decision Support System to Investment in the Stock Market. Revista IEEE América Latina<sup><img id="15480992_2" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="15480992" original-title="IEEE Latin America Transactions (1548-0992)<br />Fator de impacto (JCR 2021): 0.967"></sup>, v. 11, p. 812-819, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1109/tla.2013.6533971&amp;issn=15480992&amp;volume=11&amp;issue=&amp;paginaInicial=812&amp;titulo=An Intelligent Decision Support System to Investment in the Stock Market&amp;sequencial=2&amp;nomePeriodico=Revista IEEE América Latina" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000320720900018&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">4</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1109/tla.2013.6533971&amp;md5=badbd76e689fa2c944a436889176319b" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.513</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">SILVA, L. E.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-04843-2_41" target="_blank" tabindex="87"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="88">SILVA, L. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0259888450882117" target="_blank" tabindex="89">MARTINS, H. G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8563634195134747" target="_blank" tabindex="90">COUTINHO, M. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1173620785883814" target="_blank" tabindex="91">TORRES, G. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8514450520201861" target="_blank" tabindex="92">SILVA, L. E. B.</a> . The Convergence Control to the ACO Metaheuristic Using Annotaded Paraconsistent Logic. Lecture Notes in Computer Science<sup><img id="03029743_3" src="/buscatextual/images/curriculo/jcr.gif" class="ajaxJCR jcrTip" data-issn="03029743" original-title="LECTURE NOTES IN COMPUTER SCIENCE (0302-9743)<br />Fator de impacto (JCR 2004): 0.513"></sup>, v. 5821, p. 382-391, 2009. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/978-3-642-04843-2_41&amp;issn=03029743&amp;volume=5821&amp;issue=&amp;paginaInicial=382&amp;titulo=The Convergence Control to the ACO Metaheuristic Using Annotaded Paraconsistent Logic&amp;sequencial=3&amp;nomePeriodico=Lecture Notes in Computer Science" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1007/978-3-642-04843-2_41&amp;md5=d3686c40c7edf4956757b45fbb3fb8af" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="images/v2/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">2</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Silveira, Tiago</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4013/sct.2009.20.2.01" target="_blank" tabindex="93"></a>Silveira, Tiago ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3832045632369639" target="_blank" tabindex="94">Oliveira, Humberto César</a> ; Silva, Luiz Eduardo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8918198224706238" target="_blank" tabindex="95">Salgado, Ricardo</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="96">SILVA, L. E.</a></b> . Controle de inércia não monotônico na otimização por enxame de partículas. Scientia (Unisinos)<sup></sup>, v. 20, p. 69-82, 2009. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.4013/sct.2009.20.2.01&amp;issn=01041770&amp;volume=20&amp;issue=&amp;paginaInicial=69&amp;titulo=Controle de inércia não monotônico na otimização por enxame de partículas&amp;sequencial=4&amp;nomePeriodico=Scientia (Unisinos)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados" tabindex="97"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RUI, A. J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="98">SILVA, L. E.</a></b> . Aprendiendo y enseñando el uso de las tic para el conocimiento y la enseñanza de la historia medieval con alumnos del grado de historia de la UNIFAL-MG, Brasil. In: Antonio Rafael Fernández Paradas (ed. lit.), Mercedes Fernández Paradas (ed. lit.), Rafael Ravina Ripoll (ed. lit.), Luis Bayardo Tobar Pesántez (ed. lit.). (Org.). Humanidades y Ciencias Sociales Interrelaciones con las nuevas tecnologías en la sociedad del conocimiento. 1ed.: , 2019, v. 1, p. 191-206. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="99">SILVA, L. E.</a></b>; NOGUEIRA, L. A. G. ; BARBOSA, C. S. F. . Algumas reflexões e apresentação de propostas de programas de extensão para o ensino a distância. EXTENSÃOUNIVERSITÁRIANA EAD: Desafios e experiências da indissociabilidadeentre pesquisa, ensino e extensão. 1ed.: , 2019, v. , p. 17-. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="100">SILVA, L. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1173620785883814" target="_blank" tabindex="101">TORRES, G. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8918198224706238" target="_blank" tabindex="102">Salgado, Ricardo</a> ; OLIVEIRA, H. C. B. . Hybrid System Based in Ant Colony and Paraconsistent Logic. In: Emily C. Sun. (Org.). Behavior in Insects &amp; Computer Applications. Oxford: Nova Science Publishers Inc., 2010, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="103"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HORNINK, G. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="104">SILVA, L. E.</a></b> . Gestão de um centro de ensino a distância e o uso de tecnologias de informação e comunicação: estudo de caso de uma universidade pública federal no Brasil.. In: XIV Colóquio Internacional de Gestão Universitária - CIGU, 2014, Florianópolis. nais do XIV Colóquio Internacional de Gestão Universitária - CIGU. Florianópolis, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="105">SILVA, L. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1173620785883814" target="_blank" tabindex="106">TORRES, G. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0259888450882117" target="_blank" tabindex="107">MARTINS, H. G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8563634195134747" target="_blank" tabindex="108">COUTINHO, M. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8514450520201861" target="_blank" tabindex="109">SILVA, L. E. B.</a> ; NETO, J. C. . An Application of ACO in System Reconfiguration. In: 2010 IEEE PES Transmission and Distribution, 2010, New Orleans. 2010 IEEE PES Transmission and Distribution, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		SILVEIRA, T. ; OLIVEIRA, H. C. B. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="110">SILVA, L. E.</a></b> . Controle de Inércia para Fuga de Mínimos Locais de Funções Não-Lineares na Otimização por Enxame de Partículas. In: XXIX Congresso da Sociedade Brasileira da Computação, 2009, Bento Gonçalves. XXIX Congresso da Sociedade Brasileira da Computação, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="111">SILVA, L. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1173620785883814" target="_blank" tabindex="112">TORRES, G. L.</a> ; VIEIRA, W. S. ; SANTOS, C. R. ; CARMINATI, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0259888450882117" target="_blank" tabindex="113">MARTINS, H. G.</a> . Rede Neural Artificial Aplicada em um Reconhecimento Automático de Voz Independente do Locutor. In: VI Congress of Logic Applied to Technology, 2007, Santos. VI Congress of Logic Applied to Technology, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8514450520201861" target="_blank" tabindex="114">SILVA, L. E. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8577293854899248" target="_blank" tabindex="115">FARIA NETO, A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1173620785883814" target="_blank" tabindex="116">TORRES, G. L.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="117">SILVA, L. E.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0259888450882117" target="_blank" tabindex="118">MARTINS, H. G.</a> . Algoritmo para Fusão de Imagens usando Colônia de Formigas. In: VI Congress of Logic Applied to Technology, 2007, Santos. VI Congress of Logic Applied to Technology, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="119">SILVA, L. E.</a></b>; SANT'ANA, Tomás Dias ; MARTINS, Ronei Ximenes ; ROCHAS, Hélia Cardoso Gomes da . Curso Superior de Tecnologia em Informática:A Construção de Projeto Pedagógico Orientado paraCompetências.. In: WorkShop de Educação em Computação e Informática do Estado de Minas Gerais, 2004, Belo Horizonte. WorkShop de Educação em Computação e Informática do Estado de Minas Gerais, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="120">SILVA, L. E.</a></b>. SAP - SIstema para Administração de Projetos. In: 6a Jornada de Iniciação Científica de Alfenas, 2000, Alfenas. JICA - Jornada de Iniciação Científica de Alfenas, 2000. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="121"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHNEEDORF, J. M. ; HORNINCK, G. G. ; MACEDO, J. A. ; PAULA, M. M. V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="122">SILVA, L. E.</a></b> . Um aplicativo educacional para elaboração e simulação dinâmica de diagramas.. In: 1o. Encontro Internacional do Sistema Universidade Aberta do Brasil, 2009, Brasília. Anais do 1o. Encontro Internacional do Sistema Universidade Aberta do Brasil, 2009. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="123"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, T. ; OLIVEIRA, H. C. B. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="124">SILVA, L. E.</a></b> . Enxame de Partículas: Controle de Inércia Não-Monotônico para Fuga de Mínimos Locais na Otimização de Funções Não-Lineares. In: Simpósio Internacional de Iniciação Científica da USP, 2008, São Paulo. 16 SIICUSP, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACEDO, J. A. ; PAULA, M. M. V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="125">SILVA, L. E.</a></b> ; SCHNEEDORF, J. M. . Sisma: a software for dynamic simulation of metabolic pathways in biochemical education. In: XXXVII Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular (SBBq), 2008, Águas de Lindóia. Abstracts of the XXXVII Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular (SBBq), 2008. v. 1. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, N. M. ; MACEDO, J. A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="126">SILVA, L. E.</a></b> ; PAULA, M. M. V. ; SCHNEEDORF, J. M. . SISMA: um software para visualização dinâmica de mapas autocatalíticos. In: 60a. Reunião Anual da Sociedade Brasileira de Proteção à Ciências, SBPC, 2008, Campinas. Anais da 60a. Reunião Anual da Sociedade Brasileira de Proteção à Ciências, 2008. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="127">SILVA, L. E.</a></b>; REIS, Otávio Augusto de Queiroz . Teclado Virtual para Deficientes Físicos. In: 13o Simpósio Internacional de Iniciação Científica da USP, 2005, São Carlos. 13o Simpósio Internacional de Iniciação Científica da USP, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="128">SILVA, L. E.</a></b>. Implementação de uma Ferramenta para Geração Automática de Horário de Turmas e Professores Baseado na Teoria de Grafos. In: IV Encontro de Iniciação Científica da Universidade Vale do Rio Verde - MG, 2002, Três Corações, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="129">SILVA, L. E.</a></b>. Análise de Ferramentas Criptográficas para Prover um Ambiente Seguro para uma Votação Eletrônica Via Internet. In: 6a Jornada de Iniciação Científica de Alfenas, 2000, Alfenas. JICA - Jornada de Iniciação Científica de Alfenas, 2000. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos" tabindex="130"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="131">SILVA, L. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1173620785883814" target="_blank" tabindex="132">TORRES, G. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8514450520201861" target="_blank" tabindex="133">SILVA, L. E. B.</a> ; SILVEIRA, T. ; SALGADO, R. M. ; OLIVEIRA, H. C. B. . MAX -MIN PARACONSISTENT ANT ALGORITHM. ICIC Express Letters<sup></sup>, 2014. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="134"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="135">SILVA, L. E.</a></b>. Criptografia: Teoria e Ferramenta. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="136">SILVA, L. E.</a></b>. Criptografia: Teoria e Ferramentas. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="137">SILVA, L. E.</a></b>. Criptografia: Teoria e Ferramentas. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="138">SILVA, L. E.</a></b>. Criptografia: Conceitos e Aplicações. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="139"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente" tabindex="140"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHNEEDORF, J. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="141">SILVA, L. E.</a></b> ; PAULA, M. M. V. ; MACEDO, J. A. ; FERREIRA, N. M. . SISMA - Sistema de Simulações Metabólicas. 2008. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="142">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="143"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="144">SILVA, L. E.</a></b>.  Participação em banca de Fernanda Ribeiro Borges. Avaliação de Competências de Estudantes Universitários da Área de Saúde sobre Visita Domiciliar utilizando a ferramenta Curso Aberto Massivo Online. 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="145">SILVA, L. E.</a></b>; SERAPHIN, E; MORAES, C. H. V..  Participação em banca de Alexandre Santos Melotti. Geração de Conteúdo Procedural por Busca Inovativa de Nichos. 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAHER NETO, J.; MORAES, C. H. V.; ALMEIDA, R. M. A.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8563634195134747" target="_blank" tabindex="146">COUTINHO, M. P.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="147">SILVA, L. E.</a></b>.  Participação em banca de João Daher Neto. Hipercaixas delimitadoras na detecção de intrusos em redes de computadores. 2014. Dissertação (Mestrado em Ciência e Tecnologia da Computação) - Universidade Federal de Itajubá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOREIRA, E. M.; CARPINTEIRO, O. A. S.; COSTA JUNIOR, R. A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="148">SILVA, L. E.</a></b>.  Participação em banca de Roberto Ribeiro Rocha. Algoritmos de Particionamento em Banco de Dados Orientados a Grafos. 2013. Dissertação (Mestrado em Ciência e Tecnologia da Computação) - Universidade Federal de Itajubá. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="149">SILVA, L. E.</a></b>.  Participação em banca de Fernanda Ribeiro Borges. Avaliação de Competências de Estudantes Universitários da Área de Saúde sobre Visita Domiciliar utilizando a ferramenta Curso Aberto Massivo Online. 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="150">SILVA, L. E.</a></b>.  Participação em banca de Fernando Henrique Martins Baldance. Restruturação do Processo Interno de Comunicação em um Campus Avançado de Universidade Federal. 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="151">SILVA, L. E.</a></b>.  Participação em banca de Flávia de Oliveira. Avaliação de estratégias de ensino e aprendizagem para a formação interdisciplinar em saúde no cuidado integral ao hipertenso com apoio de tecnologias. 2013. Exame de qualificação (Mestrando em ENFERMAGEM)  - Universidade Federal de Alfenas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="152">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias.  Participação em banca de Sérgio Crisóstomo dos Reis. Pesquisa Bibliográfica: Alguns Aspectos Sobre a Busca Informatizada na Área de Saúde. 2005. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Docência do Ensino Superior)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="153">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias; ROCHA, Hélia Cardoso Gomes da.  Participação em banca de Francisco de Paula Paleta. Segurança no transporte de dados - Análise comparativa de protocolos. 2003. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="154">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias; ROCHA, Hélia Cardoso Gomes da.  Participação em banca de Adriano Ferreira Bueno. Objetos de Aprendizagem do Protocolo CSMA/CD de Redes Ethernet Padrão IEEE 802.3. 2003. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="155">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias; ROCHA, Hélia Cardoso Gomes da.  Participação em banca de Wesley Natanael Gallo. Projeto de um Controle Dinâmico de Banda para Provedores de Serviço Internet. 2003. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="156">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias; ROCHA, Hélia Cardoso Gomes da.  Participação em banca de Jair Lamounier Júnior. Estudo de Caso: Estruturação de Cabeamento para Empresa de Médio ou Pequeno Porte. 2003. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="157">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias; ROCHA, Hélia Cardoso Gomes da.  Participação em banca de Ana Márcia Reis Vilela. Relatório para Administração de Redes de Computadores em uma Instituição de Ensino Superior. 2003. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="158">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias; ROCHA, Hélia Cardoso Gomes da.  Participação em banca de Pablo Luiz Toledo. Um Estudo sobre Qualidade de Serviço (QoS) em Redes TCP/IP. 2003. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="159">SILVA, L. E.</a></b>; MARTINS, Ronei Ximenes; SANT'ANA, Tomás Dias; ROCHA, Hélia Cardoso Gomes da.  Participação em banca de José Eduardo Silva Gomes. Sistema de Telesupervisão via Fax-Modem. 2003. Monografia (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BERTOZZI, A. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="160">SILVA, L. E.</a></b>.  Participação em banca de Alexandre Dezem Bertozzi. Redes Locais Sem Fio WireLess - LAN. 2002. Monografia (Aperfeiçoamento/Especialização em Bacharelado em Ciência da Computação)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRITO, F. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="161">SILVA, L. E.</a></b>.  Participação em banca de Fabiano Castro de Brito. Implementação de um Servidor para Internet utilizando o Sistema Operacional Linux. 2002. Monografia (Aperfeiçoamento/Especialização em Bacharelado em Ciência da Computação)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REZENDE, L. M. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="162">SILVA, L. E.</a></b>.  Participação em banca de Luciane Madrid C. Rezende. Aplicativo para Administração de uma Rede Residencial. 2002. Monografia (Aperfeiçoamento/Especialização em Bacharelado em Ciência da Computação)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VICENTE, F. F. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="163">SILVA, L. E.</a></b>.  Participação em banca de Fábio Fernandes da Rocha Vicente. Implementação de um Sistema Distribuído Utilizando o Linux Virtual Server (LVS). 2002. Monografia (Aperfeiçoamento/Especialização em Bacharelado em Ciência da Computação)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, L. C. B.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="164">SILVA, L. E.</a></b>.  Participação em banca de Luciana Campos B. Pereira. Sistema Integrado para Gerenciamento de Computadores em Rede. 2002. Monografia (Aperfeiçoamento/Especialização em Bacharelado em Ciência da Computação)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, P. G.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="165">SILVA, L. E.</a></b>.  Participação em banca de Paulo Guilherme Pereira. Implementação de Dispositivos de Segurança com baixo custo em Empresas de Pequeno e Médio porte. 2002. Monografia (Aperfeiçoamento/Especialização em Bacharelado em Ciência da Computação)  - Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="166">SILVA, L. E.</a></b>.  Participação em banca de Fábio Eduardo Murarolli.Aplicativo Inteligente para Sugestão de Alimentos Saudáveis e Controle de Diabetes.
+							2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="167">SILVA, L. E.</a></b>.  Participação em banca de Daniel Elídio Mendes Júnior.Utilização do Algoritmo K-means na Segmentação e Classificação de Refeições.
+							2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="168">SILVA, L. E.</a></b>.  Participação em banca de Renata Faria de Oliveira.Shouderforce: um Exergame para Reabilitação Física Aplicando a Interatividade do Kinect com Biofeedback Visual.
+							2015. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="169"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Professor titular</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="170">SILVA, L. E.</a></b>. Processo Seletivo de Docentes. 2002. Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, F. A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="171">SILVA, L. E.</a></b>; LACERDA, A. M.. Análise de Algoritmos e Processamento de Imagens.
+							2016. Universidade Federal de Itajubá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="172">SILVA, L. E.</a></b>. Processo Seletivo Interno de Docentes.
+							2004. Centro Universitário do Sul de Minas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Avaliação de cursos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="173">SILVA, L. E.</a></b>. Comissão para Renovação de Reconhecimento do Curso de Bacharelado em Ciência da Computação da UNIFENAS.
+							2004. Universidade José do Rosário Vellano. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5459510407019521" target="_blank" tabindex="174">SILVA, L. E.</a></b>. Simpósio Internacional de Educação a Distância e Encontro de Pesquisadores em Educação a Distância.
+							2012.
+							Universidade Federal de São Carlos. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="175">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="176"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Weimig'2005.Weimig'2005 - Workshop em Educação em Computação e Informática do Estado de Minas Gerais. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OBI'2004.VI Olimpíada Brasileira de Informática. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WorkShop de Educação em Computação e Informática do Estado de Minas Gerais.Weimig'2003 - WorkShop em Educação em Computação e Informática do Estado de Minas Gerais. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="177">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas" tabindex="178"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fábio Fernandes da Rocha Vicente.
+							Implementação de um Sistema Distribuído Utilizando o Linux Virtual Server.
+							2002. 0 f.
+							Monografia. (Aperfeiçoamento/Especialização em Pós Graduação Em Redes de Computadores)  - Centro Universitário do Sul de Minas. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anderson Luis dos Santos Selenguini.
+							Sistema Autonomo para Jogar Xadrez, usando Robix e Morfologia Matemática.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal de Alfenas. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Everton Josué da Silva.
+							Ferramenta para auxilar no ensino de compiladores, programação e arquitetura de computadores.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal de Alfenas. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thales da Silva Coutinho.
+							Estudo e Implementação de Inteligência Artificial para Futebol de Robos.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal de Alfenas. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Julio Cesar Brito.
+							Ferramenta para Melhoramento e Restauração de Imagens Digitais.
+							2005. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação)  - Universidade Vale do Rio Verde de Três Corações. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maurício Pereira Maia.
+							Estudo e Implementação de um Sistema de Reconhecimento de Faces.
+							2005. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação)  - Universidade Vale do Rio Verde de Três Corações. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fabrício da Silva Valadares Xavier.
+							Desenvolvimento de um Laboratório Virtual baseado em PHP para Estudo de Criptografia RSA em Ambiente Internet.
+							2005. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Ciência da Computação)  - Universidade Vale do Rio Verde de Três Corações. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rogério Cristiano Lopes.
+							REPAC - Rede Privada dos Alunos de Computação.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado Em Ciência da Computação)  - Universidade José do Rosário Vellano. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roberto Luis de Freitas.
+							Especificação e Implementação de um Sistema de e-commerce Business-To-Business de Alta Disponibilidade.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado Em Ciência da Computação)  - Universidade José do Rosário Vellano. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Romeísa Soares da Mota.
+							Análise de Imagens Radiográficas por Morfologia Matemática.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado Em Ciência da Computação)  - Universidade José do Rosário Vellano. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Suzana de Sousa Freitas.
+							Visão Computacional para um Braço Mecânico Através de Processamento de Imagens.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado Em Ciência da Computação)  - Universidade José do Rosário Vellano. Orientador: Luiz Eduardo da Silva.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 20/03/2023 às 10:44:33</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=5459510407019521" target="_blank" class="button" tabindex="179"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="180"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="181">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="16">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="18">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="19">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="21">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="23">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="24">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="25">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="26">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="27">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="28">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="29">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="30">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="31">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="32">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="34">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="35">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="36">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="37">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="38">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="39">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="40">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="41">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="42">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="44">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="46">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="47">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="48">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="49">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="50">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="51">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="52">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="53">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="54">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos" tabindex="56">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas" tabindex="58">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento" tabindex="59">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="61">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="62">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4767518A1&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="64">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

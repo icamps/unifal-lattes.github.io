@@ -1,0 +1,2352 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Glaucia de Paula Falco)</title>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4404511957654050" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="15" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="18" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador" tabindex="22" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador" tabindex="24" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador" tabindex="57" _megamenupos="5pos"><span></span>Inovação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador" tabindex="72" _megamenupos="6pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador" tabindex="75" _megamenupos="7pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador" tabindex="78" _megamenupos="8pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="81" _megamenupos="9pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4126696P8"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Glaucia de Paula Falco</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/4404511957654050</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">4404511957654050</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 19/06/2022</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Economista e educadora. Doutora e Mestre em Engenharia Elétrica pela PUC-Rio. Especialista em Métodos Estatísticos Computacionais pela Universidade Federal de Juiz de Fora. Bacharel em Economia pela Universidade Federal de Juiz de Fora. Atuou como professora no Instituto de Ciências Exatas da Universidade Federal de Alfenas (UNIFAL -MG). Foi professora no Departamento de Engenharia de Produção da Universidade Federal de Juiz de Fora (UFJF). Trabalhou como pesquisadora do Laboratório de Inteligência Computacional Aplicada da PUC-Rio. Foi coordenadora e do curso de Economia no Instituto Vianna Júnior/ FGV e como professora, nesta instituição, nos cursos de Economia (Disciplinas de Econometria I e II), curso de Administração (Disciplinas de Estatística I e II) e Gestão Ambiental (Disciplina Economia Ambiental). Foi professora dos cursos de Administração, Ciências Contábeis e Engenharia de Produção na Faculdade Machado Sobrinho. Atuou com professora do curso de Graduação em Administração Pública, modalidade EAD, em Moçambique, do convênio entre a Universidade Federal de Juiz de fora - UFJF (Brasil) e Universidade Eduardo Mondlane -UEM (África) nas disciplinas de Métodos Quantitativos III e IV. Atuou como professora da pós-graduação latu sensu do MBA de Gestão Ambiental, no módulo Economia Ambiental, da Universidade Estácio de Sá, campus Juiz de Fora. Foi professora de Economia e Estatística Básica do terceiro ano do curso técnico de Formação Gerencial da parceria entre o SEBRAE e o Colégio Machado Sobrinho. É consultora nas áreas de economia, finanças e tendências de mercado desde 2014. Linha de pesquisa em Métodos de Apoio à decisão em Ciências Aplicadas com ênfase em Economia e Finanças com utilização de ferramentas como Modelos de Regressão, Análise de Séries Temporais, Estatística Multivariada, Sistemas Inteligentes Aplicados e Educação Estatística.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="83">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Glaucia de Paula Falco</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FALCO, G. P.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/4404511957654050</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="84">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="85">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&amp;codigoCurso=31005012011P5&amp;nivelCurso=D"> (Conceito CAPES 7)</span>. <br class="clear">Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	<br class="clear">Título: Valoração do Meio Ambiente: Uma Abordagem pela Teoria de Opções Reais, Ano de obtenção: 2010. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/8265116967095452" tabindex="86"><img src="images/curriculo/logolattes.gif"></a>Marley Maria  Bernardes Rebuzzi Vellasco. <br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: Meio Ambiente, Finanças, Estatística, Opções Reais; Incertezas.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Sociais Aplicadas / Área: Economia. <br class="clear">Grande Área: Engenharias / Área: Engenharia de Produção. <br class="clear">Setores de atividade: Eletricidade e gás; Agricultura, Pecuária, Produção Florestal, Pesca e Aqüicultura; Artes, cultura, esporte e recreação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&amp;codigoCurso=31005012011P5&amp;nivelCurso=M"> (Conceito CAPES 7)</span>. <br class="clear">Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	<br class="clear">Título: Técnicas Univariadas aperfeiçoadas para a previsão do consumo de carga elétrica de curtíssimo prazo, Ano de Obtenção: 2005.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/6992824817295435" tabindex="87"><img src="images/curriculo/logolattes.gif"></a>Reinaldo Castro Souza.<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: demanda energética; dados horários; ANNSTLF; Holt-Winters; Box &amp; Jenkins.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Metodos Estatisticos Computacionais.  (Carga Horária: 395h). <br class="clear">Universidade Federal de Juiz de Fora, UFJF, Brasil.
+		
+	<br class="clear">Título: O novo perfil de Cliente da Light. <br class="clear">Orientador: Reinaldo Castro e Souza. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciencias Econômicas. <br class="clear">Universidade Federal de Juiz de Fora, UFJF, Brasil.
+		
+	<br class="clear">Título: TEORIA DA EQUIVALÊNCIA RICARDIANA  VERSUS  TEORIA TRADICIONAL: UMA ANÁLISE EMPÍRICA PARA A ECONOMIA BRASILEIRA. <br class="clear">Orientador: Ricardo da Silva Freguglia. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="88">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Metodologia do Ensino Superior.  (Carga horária: 30h). <br class="clear">Fundação Getúlio Vargas, FGV, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="89">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Alfenas, UNIFAL/MG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2021 - 2021</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professora, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas lecionadas: Estatística Básica e Inferência.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Juiz de Fora, UFJF, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professora Temporária, Enquadramento Funcional: Departamento de Engenharia de Produção, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora Temporária para as disciplinas de Microeconomia, Gestão da Qualidade I e Gestão da Qualidade II.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Professora de Métodos Quantitativos III, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora do Curso de Graduação em Administração pública, na modadidade EAD, do convênio entre a Universidade Federal de Juiz de Fora (UFJF- Brasil) e Universidade Eduardo Mondlane (UEM - África). Elaboração de todo material didático da disciplina feita pela mesma.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Professora de Métodos Quantitativos IV, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora do Curso de Graduação em Administração pública, na modadidade EAD, do convênio entre a Universidade Federal de Juiz de Fora (UFJF- Brasil) e Universidade Eduardo Mondlane (UEM - África). Elaboração de todo o material didático da disciplina feita pela mesma.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: bolsista de projeto de extensão, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista do projeto de extensão 'Grupo de Conjuntura Econômica' promovido pela Faculdade de Economia e Administração.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Monitora-disciplina de Contabilidade Social</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitora pela segunda vez pelo Departamento de Análise Econômica da Faculdade de Economia e Administração da UFJF.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: bolsista de projeto de extensão, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista do projeto de extensão 'Grupo de Conjuntura Econômica' promovido pela Faculdade de Economia e Administração.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Monitora-disciplina de Contabilidade Social, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitora do departamento de Análise Econômica da Faculdade de Economia e Administração da UFJF,</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Faculdades Integradas Vianna Junior, FIVJ, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Professor titular, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas: Econometria I (curso Economia 02/2009 - 02/2014); Econometria II (curso Economia 02/2009 - 02/2014); Estatística II (curso de Administração e Economia 02/2011 - 02/2014); Introdução à Economia (curso de Economia 01/2010 - 02/2011); Economia Ambiental (curso de Gestão Ambiental 01/2013 - 02/2014).</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Coordenador do curso de Economia, Carga horária: 20</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Faculdade Machado Sobrinho, FMS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Professor horista, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas:
+ Macroeconomia (curso de Administração entre 02/2010 - 02/2015); Teoria econômica (curso de Engenharia de Produção 01/2011 - 02/2015 ); Estatística I (cursos de Administração e Ciências Contábeis 01/2014 -02/2015); Estatística II (cursos de Administração e Ciências Contábeis 01/2014 - 02/2015); Negócios Internacionais I (curso de Administração 01/2015 - 02/2015); Negócios Internacionais II (curso de Administração 01/2015 - 02/2015);</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Faculdade de Ciências Gerencias de Santos Dumont, FACIG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: Professor celetista, Carga horária: 8</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina ministrada:Métodos Quantitativos (curso de Administração). Professora licenciada no momento.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Métodos Quantitativos<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Colégio Machado Sobrinho - Juiz de Fora, MS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor celetista, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora de Economia (microeconomia e macroeconomia) e Estatística Básica do terceiro ano do Curso Técnico de Formação Gerencial da parceria entre o SEBRAE e o Colégio Machado Sobrinho (Juiz de Fora, MG).</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Pesquisadora bolsista, Enquadramento Funcional: Pesquisadora bolsista, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Participação em projeto de pesquisa para a empresa LIGHT - concessionária de energia, realizado pela PUC-RJ em 2003; Participação em projeto de pesquisa para a empresa EL PASO (empresa distribuidora de energia), realizado pela PUC-RJ em 2004. Pesquisadora do projeto 'Genesis: Geração de Energia Elétrica e Sistema Integrado de Suporte à Decisão'. Projeto realizado em parceria entre a PUC-Rio e o ONS (Operador Nacional do Sistema Elétrico).</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Estágio docente disciplina de Redes Neurais, Carga horária: 45</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Estácio de Sá, UES, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professora da pós graduação, Enquadramento Funcional: Professora convidada, Carga horária: 24</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Módulo da disciplina' Economia Ambiental' ministrado no 'MBA de Gestão Ambiental' nível pós-graduação latu sensu nos anos de 2012, 2013, 2015.</div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="90">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Avaliação da Demanda por Novos Cursos de Ensino Superior na Cidade de Juiz de Fora" tabindex="91"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação da Demanda por Novos Cursos de Ensino Superior na Cidade de Juiz de Fora<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Com o surgimento crescente de novas faculdades particulares e o acesso facilitado as mesmas
+por meio de políticas governamentais, observa-se uma grande competição entre os institutos de educação que oferecem vantagens aos alunos e, ao mesmo tempo, buscam um diferencial que os destaquem. Este trabalho pretende avaliar por quais cursos existem demandas de ensino superior ainda não atendidas em Juiz de Fora, a fim de fornecer informações que auxiliem a decisão sobre a implantação de novos cursos. Neste sentido, o estudo aqui proposto irá se valer de uma abordagem quantitativa e qualitativa. Foram apresentadas variáveis que permitem definir o perfil do entrevistado, como gênero, classe social e renda; como também variáveis sobre pretensão e habilidades do entrevistado. Os resultados expressam também alguns cruzamentos entre variáveis, subsidiando algumas considerações mais precisas. Por fim, além do curso de medicina, as engenharias denotam grande fatia dos pretensos a um curso superior em Juiz de Fora e região.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (10) . <br class="clear"><br class="clear">Integrantes: Glaucia de Paula Falco - Coordenador / Joyce Gonçalves Altaf - Integrante.<br class="clear"></div>
+</div><a name="PP_O perfil do estudante de ensino superior no Brasil e na Faculdade Machado Sobrinho/Juiz de Fora" tabindex="92"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">O perfil do estudante de ensino superior no Brasil e na Faculdade Machado Sobrinho/Juiz de Fora<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo da pesquisa é delinear o perfil do estudante de ensino superior no Brasil e na Faculdade Machado Sobrinho/JF.  A pesquisa irá coletar dados específicos do ensino superior no Brasil, inadimplência, expansão das faculdades particulares, dentre outras informações. Estes dados serão cruzados com os indicadores econômicos no pós-Plano Real: como PIB, inflação, desemprego, índice de Gini (desigualdade de renda), taxa de juros e políticas direcionadas para a educação como o PROUNI. Os dados poderão ser obtidos pelo IBGE, IPEADATA, INEP e MEC.
+Para delinear o perfil do aluno da Faculdade Machado Sobrinho, questionários socioeconômicos serão aplicados aos alunos da faculdade em todos os cursos. Como são muitas variáveis a serem analisadas, isso requer um tratamento multivariado dos dados. Entre os resultados esperados pretende-se observar a influência das diversas circunstâncias vividas pela economia brasileira no pós-Plano Real sobre a capacidade de consumo das famílias no que tange ao acesso às instituições de ensino superior privada. Finalmente, pretende-se ainda definir o perfil do aluno da Faculdade Machado Sobrinho por curso e o seu grau de sensibilidade aos acontecimentos econômicos.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Glaucia de Paula Falco - Coordenador / Luciano Pinheiro - Integrante.<br class="clear">Financiador(es): Faculdade Machado Sobrinho - Auxílio
+										financeiro.</div>
+</div><a name="PP_Desenvolvimento de uma metodologia para o cálculo de um índice de preços ao consumidor para Juiz de Fora (IPC-JF)" tabindex="93"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de uma metodologia para o cálculo de um índice de preços ao consumidor para Juiz de Fora (IPC-JF)<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Os índices de preços são construídos para atender diferentes finalidades. Seu objetivo é medir a variação nos preços dos principais produtos consumidos pelas famílias e também pelos diversos setores da economia. Para cumprir com esse objetivo, o Brasil conta atualmente com diferentes índices, tais como: IPCA, IPCA-15, INPC, IGP-10, IGP-M, IGP-DI, IPC-Fipe. Cada um destes índices é útil para uma situação específica. O IPCA (índice de preços ao consumidor amplo), por exemplo, é o índice oficial da economia brasileira e serve para acompanhamento das metas de inflação. O INPC é usado para corrigir os salários daqueles que ganham até 6 salários mínimos. O IGP-M serve para atualizar as tarifas de energia elétrica.
+Desde que o país adotou o regime de metas de inflação para condução da sua política monetária, em 1999, passou a existir uma grande preocupação e necessidade de se obter o máximo de informações possíveis a respeito da variação dos preços. A inflação corrente influencia a expectativa de inflação futura que determina as decisões de consumidores e empresários. No entanto, os índices são calculados a partir da coleta de preços de onze regiões metropolitanas: Belém, Belo Horizonte, Curitiba, Fortaleza, Porto Alegre, Recife, Rio de Janeiro, Salvador, São Paulo, Distrito Federal e Goiânia. O índice da inflação brasileira é obtido pela agregação dos índices calculados para estas regiões.
+Assim a cidade de Juiz de Fora não conhece a sua taxa de inflação e precisa tomar a inflação calculada para as cidades mencionadas como sendo a sua. Contudo, é extremamente relevante calcular um índice de inflação para a cidade, uma vez que, através deste índice será possível avaliar o impacto dos reajustes de preços sobre o custo de vida da população da cidade de Juiz de Fora. Esta informação é de suma importância para analisar a viabilidade de médios e grandes investimentos na cidade. Isso porque cada índice de preços tem uma metodologia diferente para o seu cálculo. Os métodos se diferenciam pelo período de coleta dos preços, a cesta considerada (mix de produtos e serviços) e a faixa de renda da população estudada.
+Desta forma, segundo os argumentos apresentados, um índice de preços (inflação), além de medir a variação nos preços dos produtos comercializados na cidade permite analisar como a variação dos preços vem afetando o mercado, possibilita definir os públicos mais e menos sensíveis às mudanças nos preços, o custo de vida das famílias para uma faixa de renda, delinear o perfil da população da cidade, dentre outras tantas informações relevantes que poderão ser extraídas. 
+Sendo assim, é importante a cidade ter o seu próprio índice de preços para que análises específicas para a economia local possam surgir a partir da metodologia adotada e do índice calculado. Estes dados serão extremamente úteis para as empresas locais e futuros investimentos.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (3) . <br class="clear"><br class="clear">Integrantes: Glaucia de Paula Falco - Coordenador.<br class="clear"></div>
+</div><a name="PP_Impactos econômicos da instalação de um shopping center em seu entorno: o caso do Shopping Independência em Juiz de Fora" tabindex="94"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Impactos econômicos da instalação de um shopping center em seu entorno: o caso do Shopping Independência em Juiz de Fora<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Juiz de Fora (JF), cidade localizada na Zona da Mata Mineira ? Brasil ? possui cerca de 600 mil habitantes aproximadamente, segundo dados do IBGE (Instituto Brasileiro de Geografia e Estatística, 2012). Além disso, JF é considerada uma das cidades brasileiras que possui melhor qualidade de vida e uma forte economia local. Um dos fatores que podem ajudar a explicar estes fatos é a sua localização entre os principais mercados consumidores do país: está a 184 Km do Rio de Janeiro, 272 Km de Belo Horizonte e 506 Km de São Paulo. Conforme dados da prefeitura da cidade, Juiz de Fora apresenta uma renda PIB per capita de R$ 6,2 mil sendo o setor comercial é predominate na economia local seguido pelo setor de serviços (Prefeitura de Juiz de Fora, 2012).
+Tais condições mencionadas vem atraindo para a cidade importantes investimentos nas últimas décadas, principalmente da indústria de metal-mecância. Também não é para a menos, a cidade cresceu em torno de 32% nos últimos 10 anos segundo dados do Estado de Minas (2012). Entre os grandes investimentos que a cidade recebeu destaca-se a construção so Shopping Independência, primeiro shopping de grande porte da cidade. Com a chegada da Shopping, inaugurado em 2008, estimava-se que 2 milhões de pessoas do entorno seriam atraídas para a cidade. 
+A fim de verificar o impacto econômico da chegada do Shopping Independência na região circunvizinha ao mesmo, a presente pesquisa teve por objetivo averiguar a intensidade do mesmo. Para tanto, o estudo desenvolveu-se em duas etapas. A primeira etapa ocorreu em 2007 (antes da inauguração do shopping) com a aplicação de um questionário em 157 estabelecimentos comerciais existentes em um trecho previamente selecionado próximo ao shopping. Nesta etapa, buscou-se verificar o tamanho do negócio dos estabelecimentos pesquisados e expectativas dos comerciantes quanto a instalação do shopping na região. 
+A segunda etapa da pesquisa foi realizada em 2011, após três anos de funcionamento do Shopping Indepedência na cidade. Nesta fase, dois questionários foram aplicados aos comerciantes do mesmo trecho selecionado na primeira etapa. O primeiro questionário destinava-se as empresas que haviam sido pesquisadas em 2007. O objetivo foi verificar se as expectativas iniciais das mesmas se confirmaram. Um segundo questionário foi feito para ser aplicado às  novas empresas, que não existiam em 2007, pretendendo observar a relevância que as mesmas davam ao Shopping na decisão de abrir a empresa na região de interesse.
+Os resultados mostraram que as expectativas dos comerciantes quanto ao aumento de clientes e de faturamento com a chegada do Shopping Independência não se confirmaram ou se confirmaram menos que o esperado. Observou-se um número de falências muito alto no período na área de pesquisa. Cerca de 81 empresas das que haviam sido pesquisadas em 2007 não existiam mais. Verificou-se também que a maioria das empresas que foram investigadas não pretendiam tomar qualquer medida com a chegada do Shopping. Por outro lado, averiguou-se que, para as novas empresas, estabelecidas depois de 2007, a presença do Shopping na região foi essencial ou relevante na decisão de abrir o negócio.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2) . <br class="clear"><br class="clear">Integrantes: Glaucia de Paula Falco - Integrante / Cid de Oliva Botelho Jr. - Integrante / Maria Helena Facirolli Sobrinho - Integrante / Rogério Silva de Mattos - Coordenador.<br class="clear"></div>
+</div><a name="PP_GENESIS: GERAÇÃO DE ENERGIA ELÉTRICA E SISTEMA INTEGRADO DE SUPORTE À DECISÃO" tabindex="95"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GENESIS: GERAÇÃO DE ENERGIA ELÉTRICA E SISTEMA INTEGRADO DE SUPORTE À DECISÃO<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo do projeto GENESIS: Geração de Energia Elétrica e Sistema Integrado de Suporte à Decisão é desenvolver um protótipo de apoio à decisão para o Planejamento centralizado da Operação energética do Sistema Interligado Nacional (SIN), capaz de oferecer uma solução para a programação hidrotérmica, em curto e médio prazo, que satisfaça os critérios definidos pelos decisores e agentes.
+O objetivo do planejamento centralizado da operação de um sistema hidrotérmico de geração de energia elétrica, como o brasileiro, é determinar uma estratégia de produção para cada usina do sistema, de forma a minimizar os custos variáveis ao longo do horizonte de planejamento. Incluem-se nestes custos os gastos com combustíveis das usinas termoelétricas,os eventuais intercâmbios entre os subsistemas e as penalidades pelo não atendimento à demanda. Assim, cabe ao planejamento e programação da operação determinar as metas de geração hidroelétrica e termoelétrica do SIN através
+dos estudos e etapas que antecedem a operação em tempo real do sistema, considerando incertezas, tais como as associadas às previsões de carga e afluências, e também restrições de caráter elétrico, operativo, ambiental e de aproveitamento de recursos, inerentes a cada etapa.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear"><br class="clear">Integrantes: Glaucia de Paula Falco - Coordenador / Marley Maria Bernardes Rebuzzi Vellasco - Integrante / Juan Guilhermo Lazo Lazo - Integrante / André Vargas Abs da Cruz - Integrante / Karla Tereza Figueiredo Leite - Integrante / Luciana Conceição Dias Campos - Integrante / Murilo Pereira Soares - Integrante / Yván Jesús Túpac Valdivia - Integrante / Marco Aurélio Cavalcanti Pacheco - Integrante.<br class="clear"></div>
+</div><a name="PP_Estimativa do novo perfil de consumo dos clientes residenciais da LIGHT. Projeto de P&amp;D#61, Ciclo 2001/2002" tabindex="96"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estimativa do novo perfil de consumo dos clientes residenciais da LIGHT. Projeto de P&amp;D#61, Ciclo 2001/2002<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Light, maior concessionária de energia elétrica do estado do Rio de Janeiro, assim como outras distribuidoras em todo o país, vem apresentando perdas que chegam a totalizar 20% da receita obtida. Ao mesmo tempo, as tarifas de energia para o consumidor tiveram grandes reajustes a fim de cobrir parte dos prejuízos das empresas do setor que se vêem obrigadas a aumentar seus preços. Conforme informações da ANEEL, nos últimos sete anos, as tarifas subiram 160%.
+Assim, este trabalho pretende investigar como a conjuntura brasileira na última década influenciou os hábitos de consumo energético do cliente residencial e também destacar algumas das principais características específicas do cliente da Light pertencente a cada uma das classes sociais A, B, C, D, E. A partir deste estudo será possível definir qual é o atual perfil desse consumidor após tantas turbulências no contexto do país. Dessa forma, a Light poderá melhor se programar para atender as necessidades presentes e futuras de seus clientes, reduzindo seus prejuízos.
+Inicialmente, ressalta-se que o período a ser enfatizado neste trabalho será o pós-Plano Real. A economia brasileira, desde a introdução da nova moeda, está sendo caracterizada tanto por conjunturas favoráveis quanto por circunstâncias de grandes dificuldades. Nessa discussão, a questão central que se coloca é que situações diferentes exigem a adoção de políticas distintas. Seja qual for o contexto econômico, as medidas que se fizerem necessárias e forem implementadas afetarão diretamente toda a sociedade. Logo, empresas e consumidores mudarão o seu comportamento se o ambiente em que tomam as suas decisões se alterar.
+O processo de estabilização econômica possibilitado pelo Plano Real, que eliminou com êxito a hiperinflação brasileira, permitiu a inserção do país de modo definitivo no mercado financeiro internacional. Se por um lado esse fato foi fundamental para manter a inflação sob controle, de uma outra perspectiva tornou o Brasil muito mais vulnerável as incertezas do cenário externo. 
+Salienta-se que essa é uma questão particularmente importante ao se considerar que o processo mundial de acumulação de capital não tem sido suficiente para sustentar o desempenho da economia global. Por conseqüência, há escassez de recursos para investimentos e este tem sido o fator de tensão do capitalismo atual que origina as crises financeiras de dimensões internacionais das quais a população brasileira e a maioria dos países são vítimas. Essas crises externas, bem como os fatores estruturais e políticos, interferem no processo de crescimento e de desenvolvimento da economia nacional. 
+Desde 1994, uma série de circunstâncias diferentes tais como aumento de renda, crises internacionais e políticas, racionamento, entre outras, podem ter afetado o comportamento do consumidor e a sua demanda energética. Observa-se que, nos anos recentes, houve uma retração no mercado consumidor. Em 2002, enquanto o consumo de energia elétrica foi reduzido em 10%, a oferta de energia aumentou 10%, segundo dados da ANEEL (agência nacional de energia elétrica). 
+Constatações como esta criam a necessidade de buscar compreender melhor o impacto desses acontecimentos citados sobre a posse média dos consumidores, de seus hábitos de consumo e, consequentemente, de sua demanda por energia. Estas análises são as bases de qualquer mudança de comportamento observada entre os clientes de energia e justificam o atual e novo perfil do consumidor residencial, alvo da investigação a ser realizada.
+Com esta finalidade o trabalho encontra-se dividido em três capítulos e uma conclusão final. No primeiro capítulo estuda-se a influência dos principais fatos ocorridos na conjuntura brasileira, a partir de 1994, sobre o consumo energético residencial do país. Em seguida, no capítulo II, discute-se a importância de dividir os indivíduos entre os cinco estratos sociais e. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Especialização: (1)  / Mestrado acadêmico: (1) . <br class="clear"><br class="clear">Integrantes: Glaucia de Paula Falco - Integrante / Luiz Felipe Moreira do Amaral - Integrante / Reinaldo Castro e Souza - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="MembroCorpoEditorial" tabindex="97">
+<h1 tabindex="0">Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Vianna Sapiens</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="98">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Probabilidade e Estatística. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Economia. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Gestão da Qualidade. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Gestão Empresarial. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="99">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PremiosTitulos" tabindex="100">
+<h1 tabindex="0">Prêmios e títulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2020</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprovada em concurso público magistério superior. 40 hs. Área: Conhecimentos em Gestão de Negócios, Instituto Federal de Educação Ciência e Tecnologia do Rio de Janeiro.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprovada em concurso de magistério superior. 20hs. Temporário., Departamento de Engenharia de Produção e Mecânica da UFJF (Universidade Federal de Juiz de Fora). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Patrona, Turma do curso de Ciências Econômicas da Faculdade Vianna Júnior em parceria com a FGV. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor artigo em Administração Estratégica de Marketing, CASI - Congresso de Administração Estratégica de Marketing. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprovada em concurso público de magistério superior na classe Assistente, 40hs. DE.Disciplina Econometria, Departamento de Economia da Universidade Federal Fluminense (UFF- Niterói). </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="101">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="102"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="103"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="104"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">1</span><span class="informacao-artigo" data-tipo-ordenacao="autor">ALTAF, J.G</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2016</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="105">ALTAF, J.G</a> ; ZANCANELLO, L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="106">FALCO, G. P.</a></b> . Aspectos Preponderantes para a Satisfação do Cliente: o Caso 25 de Março. Revista de Administração, Sociedade e Inovação<sup></sup>, v. 2, p. 67-86, 2016. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=24478156&amp;volume=2&amp;issue=&amp;paginaInicial=67&amp;titulo=Aspectos Preponderantes para a Satisfação do Cliente: o Caso 25 de Março&amp;sequencial=1&amp;nomePeriodico=Revista de Administração, Sociedade e Inovação" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">2</span><span class="informacao-artigo" data-tipo-ordenacao="autor">ALTAF, J. G.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>ALTAF, J. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="107">FALCO, G. P.</a></b> ; TROCCOLI, I.R ; CURZIO, P. H. ; CASTRO, D. R. . GESTÃO DA SATISFAÇÃO E FIDELIDADE DO CLIENTE: UM ESTUDO EM UMA INSTITUIÇÃO DE ENSINO SUPERIOR. Ciências Sociais em Perspectiva (Impresso)<sup></sup>, v. 13, p. 1-26, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=16779665&amp;volume=13&amp;issue=&amp;paginaInicial=1&amp;titulo=GESTÃO DA SATISFAÇÃO E FIDELIDADE DO CLIENTE: UM ESTUDO EM UMA INSTITUIÇÃO DE ENSINO SUPERIOR&amp;sequencial=2&amp;nomePeriodico=Ciências Sociais em Perspectiva (Impresso)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">3</span><span class="informacao-artigo" data-tipo-ordenacao="autor">FALCO, G. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="108">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="109">ALTAF, J.G</a> ; TROCCOLI, I.R ; VELLASCO, M. M. B. ; LAZO, J. G. L. . Teoria De Opções Reais: Uma Perspectiva Para A Valoração Econômica Do Meio Ambiente Sob Incerteza. Perspectiva Econômica (São Leopoldo. Online)<sup></sup>, v. 10, p. 29-38, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=1808575X&amp;volume=10&amp;issue=&amp;paginaInicial=29&amp;titulo=Teoria De Opções Reais: Uma Perspectiva Para A Valoração Econômica Do Meio Ambiente Sob Incerteza&amp;sequencial=3&amp;nomePeriodico=Perspectiva Econômica (São Leopoldo. Online)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">4</span><span class="informacao-artigo" data-tipo-ordenacao="autor">SOUZA, F.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>SOUZA, F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="110">FALCO, G. P.</a></b> ; ALTAF, J. G. ; TROCCOLI, I.R ; MIRANDA, M. . Satisfação dos clientes da clínica IOT em relação ao tempo de espera pela consulta médica.. Jornal Brasileiro de Economia da Saúde<sup></sup>, v. 6, p. 131-138, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=23591641&amp;volume=6&amp;issue=&amp;paginaInicial=131&amp;titulo=Satisfação dos clientes da clínica IOT em relação ao tempo de espera pela consulta médica.&amp;sequencial=4&amp;nomePeriodico=Jornal Brasileiro de Economia da Saúde" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">5</span><span class="informacao-artigo" data-tipo-ordenacao="autor">FALCO, G. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="111">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8265116967095452" target="_blank" tabindex="112">Vellasco, M.B.R</a> ; LAZO, J. G. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="113">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="114">TROCCOLI, I. R.</a> . A gestão socioambiental à luz das técnicas de valoração econômica do meio ambiente: uma análise do valor de uso indireto e do valor de existência. Revista Alcance ? Eletrônica<sup></sup>, v. 1, p. 22-37, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=1983716X&amp;volume=1&amp;issue=&amp;paginaInicial=22&amp;titulo=A gestão socioambiental à luz das técnicas de valoração econômica do meio ambiente: uma análise do valor de uso indireto e do valor de existência&amp;sequencial=5&amp;nomePeriodico=Revista Alcance ? Eletrônica" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">6</span><span class="informacao-artigo" data-tipo-ordenacao="autor">BOTELHO JR., C. O.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span>BOTELHO JR., C. O. ; FACIROLLI SOBRINHO, M. H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="115">FALCO, G. P.</a></b> ; MATTOS, R. S. . Impactos Econômicos da Instalação de um Shopping Center em seu entorno:o caso do Shopping Independência em Juiz de Fora. Heera (UFJF. Online)<sup></sup>, v. 8, p. 01-12, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=19800185&amp;volume=8&amp;issue=&amp;paginaInicial=01&amp;titulo=Impactos Econômicos da Instalação de um Shopping Center em seu entorno:o caso do Shopping Independência em Juiz de Fora&amp;sequencial=6&amp;nomePeriodico=Heera (UFJF. Online)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">7</span><span class="informacao-artigo" data-tipo-ordenacao="autor">FALCO, G. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="116">FALCO, G. P.</a></b>; ALTAF, J. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="117">TROCCOLI, I. R.</a> . Aspectos determinantes na classificação Capes: uma análise de cluster para programas de pós-graduação. Revista "Vianna Sapiens"<sup></sup>, v. 1, p. 1, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21773726&amp;volume=1&amp;issue=&amp;paginaInicial=1&amp;titulo=Aspectos determinantes na classificação Capes: uma análise de cluster para programas de pós-graduação&amp;sequencial=7&amp;nomePeriodico=Revista &quot;Vianna Sapiens&quot;" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">8</span><span class="informacao-artigo" data-tipo-ordenacao="autor">Raimundo, F. A.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span>Raimundo, F. A. ; ALTAF, J. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="118">FALCO, G. P.</a></b> ; TROCCOLI, I.R ; CURZIO, P. H. . GOSTEI, MAS SERÁ QUE VOLTO? A PERCEPÇÃO DO CONSUMIDOR EM SHOPPING CENTERS. Caderno Profissional de Administração da UNIMEP<sup></sup>, v. 3, p. 55-72, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=22375422&amp;volume=3&amp;issue=&amp;paginaInicial=55&amp;titulo=GOSTEI, MAS SERÁ QUE VOLTO? A PERCEPÇÃO DO CONSUMIDOR EM SHOPPING CENTERS&amp;sequencial=8&amp;nomePeriodico=Caderno Profissional de Administração da UNIMEP" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">9</span><span class="informacao-artigo" data-tipo-ordenacao="autor">FALCO, G. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2012</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="119">FALCO, G. P.</a></b>; VELLASCO, M. M. B. ; LAZO, J. L. ; ALTAF, J. G. ; Troccoli, I. R. . PERSPECTIVAS PARA O GERENCIAMENTO SUSTENTÁVEL DOS RECURSOS NATURAIS: UMA ANÁLISE DOS CONCEITOS DA IRREVERSIBILIDADE DA AÇÃO E DA FLEXIBILIDADE DA MUDANÇA. Rama : Revista em Agronegócio e Meio Ambiente<sup></sup>, v. 5, p. 39-59, 2012. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=19819951&amp;volume=5&amp;issue=&amp;paginaInicial=39-59&amp;titulo=PERSPECTIVAS PARA O GERENCIAMENTO SUSTENTÁVEL DOS RECURSOS NATURAIS: UMA ANÁLISE DOS CONCEITOS DA IRREVERSIBILIDADE DA AÇÃO E DA FLEXIBILIDADE DA MUDANÇA&amp;sequencial=9&amp;nomePeriodico=Rama : Revista em Agronegócio e Meio Ambiente" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">10</span><span class="informacao-artigo" data-tipo-ordenacao="autor">ALTAF, J.G</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="120">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="121">TROCCOLI, I. R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="122">FALCO, G. P.</a></b> ; LUQUEZE, M. A. O . Razões Estratégicas para a Adoção de um Operador Logístico: o caso Lafarge / Sucatrans. REUNA<sup></sup>, v. 16, p. 61-81, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21798834&amp;volume=16&amp;issue=&amp;paginaInicial=61&amp;titulo=Razões Estratégicas para a Adoção de um Operador Logístico: o caso Lafarge / Sucatrans&amp;sequencial=10&amp;nomePeriodico=REUNA" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">11</span><span class="informacao-artigo" data-tipo-ordenacao="autor">PAULA, D.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span>PAULA, D. ; Souza. G. F ; Fernandes, M. M ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="123">FALCO, G. P.</a></b> . A inflação na economia brasileira. Revista Vianna Sapiens<sup></sup>, v. Vol.2, p. 54-90, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21773726&amp;volume=Vol.2&amp;issue=&amp;paginaInicial=54&amp;titulo=A inflação na economia brasileira&amp;sequencial=11&amp;nomePeriodico=Revista Vianna Sapiens" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">12</span><span class="informacao-artigo" data-tipo-ordenacao="autor">FALCO, G. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="124">FALCO, G. P.</a></b>. O Perfil Econômico do Consumidor Residencial de Energia Elétrica no período entre 1994-2003. Revista Vianna Sapiens<sup></sup>, v. 1, p. 126-151, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21773726&amp;volume=1&amp;issue=&amp;paginaInicial=126&amp;titulo=O Perfil Econômico do Consumidor Residencial de Energia Elétrica no período entre 1994-2003&amp;sequencial=12&amp;nomePeriodico=Revista Vianna Sapiens" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">13</span><span class="informacao-artigo" data-tipo-ordenacao="autor">ALTAF, J.G</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="125">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="126">TROCCOLI, I. R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="127">FALCO, G. P.</a></b> ; DUSI, C. S. O. ; ALBUQUERQUE, D. M. ; DORNELAS, T. . Diversificação Estratégica: o caso de uma empresa familiar em Juiz de fora. Jornal Eletrônico das Faculdades Integradas Vianna Júnior<sup></sup>, v. Ano II, p. 1-30, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21761035&amp;volume=Ano II&amp;issue=&amp;paginaInicial=1&amp;titulo=Diversificação Estratégica: o caso de uma empresa familiar em Juiz de fora&amp;sequencial=13&amp;nomePeriodico=Jornal Eletrônico das Faculdades Integradas Vianna Júnior" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">14</span><span class="informacao-artigo" data-tipo-ordenacao="autor">FALCO, G. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="128">FALCO, G. P.</a></b>. Por que quantificar o meio ambiente?. Revista Vianna Sapiens<sup></sup>, v. 1, p. 1-28, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21773726&amp;volume=1&amp;issue=&amp;paginaInicial=1&amp;titulo=Por que quantificar o meio ambiente?&amp;sequencial=14&amp;nomePeriodico=Revista Vianna Sapiens" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">15</span><span class="informacao-artigo" data-tipo-ordenacao="autor">FALCO, G. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="129">FALCO, G. P.</a></b>; ALVIM, F.A ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="130">ALTAF, J.G</a> . Formação de cartéis e impactos econômicos. Revista Vianna Sapiens<sup></sup>, v. 1, p. 121-133, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21773726&amp;volume=1&amp;issue=&amp;paginaInicial=121&amp;titulo=Formação de cartéis e impactos econômicos&amp;sequencial=15&amp;nomePeriodico=Revista Vianna Sapiens" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia">16</span><span class="informacao-artigo" data-tipo-ordenacao="autor">ALTAF, J.G</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="131">ALTAF, J.G</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="132">FALCO, G. P.</a></b> ; ABDALLA, M.M . As influências do desenvolvimento sustentável para a recomendação de um local turístico: Corcovado-RJ. Revista Eletronica Machado Sobrinho<sup></sup>, v. 1, p. 2, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21789568&amp;volume=1&amp;issue=&amp;paginaInicial=2&amp;titulo=As influências do desenvolvimento sustentável para a recomendação de um local turístico: Corcovado-RJ&amp;sequencial=16&amp;nomePeriodico=Revista Eletronica Machado Sobrinho" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados" tabindex="133"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAMALHO, P. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="134">FALCO, G. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="135">TROCCOLI, I. R.</a> ; ALTAF, E. ; ALTAF, J. G. . Aramil Artefatos de Arame: uma análise da criação e mensuração da satisfação e fidelização dos clientes. In: Milton Francisco Oliveira. (Org.). Tópicos em Marketing. 1ed.Belo Horizonte: Poisson, 2018, v. 3, p. 18-31. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas" tabindex="136"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="137">FALCO, G. P.</a></b>. A inteligência computacional na valoração econômica do meio ambiente. Jornal o Globo, Site do Jornal O Globo, 06 jul.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="138">FALCO, G. P.</a></b>; MATTOS, R. S. ; BOTELHO JR., C. O. ; FACIROLLI SOBRINHO, M. H. . Comércio desperdiça potencial de shopping. Jornal Tribuna de Minas (caderno de Economia), Juiz de Fora e região. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="139">FALCO, G. P.</a></b>. O acompanhamento da conjuntura econômica é imprescindível para nortear as decisões do empresário.. Revista Conexão Sindicomercio-jf, n.19, p.10 (Coluna do Economista), Juiz de Fora, p. 10 - 10. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="140"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAMOS FILHO, F. O. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="141">ALTAF, J.G</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="142">FALCO, G. P.</a></b> ; SOARES JUNIOR, F. J. ; COSTA, D. V. F. . Produção de carvão vegetal na refinaria da fazenda Guaxupé: um modelo sustentável. (artigo 453). In: XXI Simpósio de Engenharia de Produção - SIMPEP, 2014, Bauru. Anais do XXI Simpósio de Engenharia de Produção, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARIAS, M. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="143">FALCO, G. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="144">ALTAF, J.G</a> ; SOARES JUNIOR, F. J. ; Troccoli, I. R. . Modelagem de curto prazo para o consumo residencial no Brasil: uma abordagem pelo método de Box&amp;Jenkins. (artigo 466). In: XXI Simpósio de Engenharia de Produção, 2014, Bauru. Anais do XXI Simpósio de Engenharia de Produção - SIMPEP, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="145">FALCO, G. P.</a></b>; ALTAF, J. G. ; SOARES JUNIOR, F. J. ; TROCCOLI, I.R ; COSTA, D. V. F. . Como mudanças no ambiente econômico afetam o consumo de energia: estudo de caso no estado do Rio de Janeiro. (artigo 944).. In: XXI Simpósio de Engenharia de Produção, 2014, Bauru. Anais do XXI Simpósio de Engenharia de Produção, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, D. S. ; Turolla, P. M ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="146">FALCO, G. P.</a></b> . Política Cambial e Saldo do Balanço de Pagamentos. (artigo 1032).. In: Simpósio de Engenharia de Produção, 2013, Bauru. Simpósio de Engenharia de Produção, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALTAF, J. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="147">FALCO, G. P.</a></b> ; SAD, D. ; Turolla, P. M . Satisfação de usuários de aparelhos de amplificação sonora individual, no programa de saúde auditiva do município de Juiz de Fora - MG (artigo 1057). In: XX Simpósio de Engenharia de Produção, 2013, Bauru. XX SIMPEP 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cúrzio, P. H. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="148">ALTAF, J.G</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="149">FALCO, G. P.</a></b> ; CASTRO, D. R. . Homossexualidade e Consumo: Grandes possibilidades para a indústria de entretenimento. In: 1º Congresso Certificadas FGV, 2012, Florianópolis. 1º Congresso Certificadas da FGV, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, D. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="150">FALCO, G. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="151">ALTAF, J.G</a> ; Cúrzio, P. H. A. . Satisfação do consumidor: O caso da Lanchonete Mary Milk". In: 1º Congresso Certificadas FGV, 2012, Florianópolis. 1º Congresso Certificadas FGV, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="152">ALTAF, J.G</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="153">FALCO, G. P.</a></b> ; SOUZA, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="154">TROCCOLI, I. R.</a> ; MIRANDA, M. . IOT: Análise da satisfação em relação ao binômio tempo de espera da consulta e prestação de serviços médicos.. In: CASI - Congresso de Administração, Sociedade e Inovação, 2012, Niterói. Anais do Casi: Congresso de Administração, Sociedade e Inovação., 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOTELHO JR., C. O. ; FACIROLLI SOBRINHO, M. H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="155">FALCO, G. P.</a></b> ; MATTOS, R. S. . Impactos Econômicos da instalação de um shopping center em seu entorno:o caso do shopping independência em Juiz de Fora. (Seção D4, p. 525 - 533). In: 18th APDR Congress held in University of Algarve, 2012, Faro. 18th APDR Congress Innovation and Regional Dynamics, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="156">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8265116967095452" target="_blank" tabindex="157">Vellasco, M.B.R</a> ; LAZO, J. G. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="158">ALTAF, J.G</a> ; Paschoalino, C. . Environmental Valuation: A Real Option. In: International Symposium on Environmental Science and Technology (2011 ISEST), 2011, Guangdong Province. 2011 International Symposium on Environmental Science and Technology, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="159">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="160">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="161">TROCCOLI, I. R.</a> . O perfil dos programas de pós-graduação no Brasil:uma análise para os programas em Engenharia Elétrica. In: VIII Simpósio de Excelência e Gestão em Tecnologia, 2011, Rezende. VIII SEGET, 2011. p. 1-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="162">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8265116967095452" target="_blank" tabindex="163">Vellasco, M.B.R</a> ; LAZO, J. G. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="164">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="165">TROCCOLI, I. R.</a> . Teoria de Opções Reais: uma perspectiva para a valoração econômica do meio ambiente sob incerteza. In: VIII Simpósio de Excelência em Gestão e Tecnologia, 2011, Rezende. VIII SEGET, 2011. p. 1-15. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABDALLA, M.M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="166">ALTAF, J.G</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="167">FALCO, G. P.</a></b> . Preditores de Intenção de Retorno às Feiras de Negócios: Um Estudo com o Público Visitante da VI Costa Verde Negócios de Angra dos Reis - RJ. In: XIII SEMEAD - Seminários em Administração FEA/USP, 2010, São Paulo. XIII SEMEAD, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="168">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="169">TROCCOLI, I. R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="170">FALCO, G. P.</a></b> ; ABDALLA, M.M . A aplicação de equipamentos mecânicos multifuncionais na redução de custos através da otimização do transporte nos canais de distribuição reversa - O caso Sucatrans Ltda. In: XIII SEMEAD - Seminários em Administração FEA/USP., 2010, São Paulo. XIII SEMEAD. Seminários em Administração, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="171">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8265116967095452" target="_blank" tabindex="172">Vellasco, M.B.R</a> ; LAZO, J. G. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="173">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="174">TROCCOLI, I. R.</a> . A gestão socioambiental à luz das técnicas de valoração econômica do meio ambiente: uma análise do valor de uso indireto e do valor de existência. In: VII SEGET - Simpósio de Excelência em Gestão de Tecnologia, 2010, Resende. VII SEGET- Simpósio de Excelência em Gestão de Tecnologia, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVIM, F.A ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="175">ALTAF, J.G</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="176">FALCO, G. P.</a></b> . Análise e descrição de cargos, programas de treinamento e desenvolvimento na percepção de gerentes de hotelaria em Juiz de Fora - MG. In: V Congresso de Administração da UFF - CADUFF, 2010, Volta Redonda. V Congresso de Administração da UFF, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="177">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8265116967095452" target="_blank" tabindex="178">Vellasco, M.B.R</a> ; LAZO, J. G. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="179">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="180">TROCCOLI, I. R.</a> . A GESTÃO SOCIOAMBIENTAL SUSTENTÁVEL DOS RECURSOS NATURAIS: UMA ANÁLISE DOS CONCEITOS DA IRREVERSIBILIDADE DA AÇÃO E DA FLEXIBILIDADE DA MUDANÇA. In: XVII Simpósio de Engenharia de Produção, 2010, Bauru - SP. XVII SIMPEP - Simpósio de Engenharia de Produção, 2010. p. 1-11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="181">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8265116967095452" target="_blank" tabindex="182">Vellasco, M.B.R</a> ; LAZO, J. G. L. ; DIAS, M. A. G. . Valoração de Recursos Ambientais e Crescimento Sustentável: Uma abordagem pela Teoria de Opções Reais. In: 47° Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural., 2009, Porto Alegre. Anais do 47° Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural., 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="183">FALCO, G. P.</a></b>; SOUZA, R. C. ; AMARAL, L. F. M. . O Perfil Econômico do Consumidor Residencial de Energia Elétrica. In: III Congresso Brasileiro de Eficiência Energética, 2009, Belém. Anais do III Congresso Brasileiro de Eficiência Energética, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="184"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="185">FALCO, G. P.</a></b>. A Inteligência Artificial como ferramenta que mudará o contexto de gestão. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PARENTE, R. L. ; ALTAF, J. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="186">FALCO, G. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="187">TROCCOLI, I. R.</a> . Distribuição da Renda Brasileira. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DRESCH, T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="188">FALCO, G. P.</a></b> . A gestão de riscos em empresas não financeiras brasileiras: o caso das alpargatas. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAD, D. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="189">FALCO, G. P.</a></b> . Administração de riscos financeiros e a teoria de opções reais. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CURZIO, P. H. ; ALTAF, J. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="190">FALCO, G. P.</a></b> ; CASTRO, D. R. . Homossexualidade e Consumo: Grandes possibilidades para a indústria de entretenimento.. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, D. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="191">FALCO, G. P.</a></b> ; ALTAF, J. G. ; CURZIO, P. H. . Satisfação do consumidor: o caso da lanchonete Mary Milk. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="192">FALCO, G. P.</a></b>; SOUZA, R. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="193">ALTAF, J.G</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4098098876460779" target="_blank" tabindex="194">TROCCOLI, I. R.</a> . Energia Elétrica: O perfil do Consumidor Residencial. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas" tabindex="195"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="196">FALCO, G. P.</a></b>; PINHEIRO, L. ; DUTRA, M. A. S. . O perfil do estudante de Ensino superior no Brasil e na Faculdade Machado Sobrinho/Juiz de Fora, 2010. (Prefácio, Pósfacio/Apresentação)&gt;. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="197"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas" tabindex="198"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="199">FALCO, G. P.</a></b>. População pagou mais de R$ 870 milhões em impostos ou tributos em 2013 em Juiz de Fora. 2013. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://globotv.globo.com/tv-integracao-triangulo-mineiro/mgtv-2-tv-integracao/v/populacao-pagou-mais-de-r-870-milhoes-em-impostos-ou-tributos-em-2013-em-juiz-de-fora/2803276/')"></div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="200"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="201">FALCO, G. P.</a></b>. Pesquisa de mercado por novos cursos de ensino superior na cidade de Juiz de Fora. 2014. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="202">FALCO, G. P.</a></b>. Impactos econômicos da instalação de um shopping center em seu entorno: o caso do Shopping Independência em Juiz de Fora. 2014. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="203">FALCO, G. P.</a></b>. Livro-texto módulo Economia Ambiental.
+							2013. (Desenvolvimento de material didático ou instrucional - Livro texto para MBA 'Gestão Ambiental' - Estácio de Sá - JF. Economia Ambiental). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="204">FALCO, G. P.</a></b>. Estimativa do novo perfil de consumo dos clientes residenciais da LIGHT. Projeto de P&amp;D#61, Ciclo 2001/2002. 2013. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="205">FALCO, G. P.</a></b>. Livro didático para o curso de EAD em Administração Pública do Convênio UFJF (Brasil) e UEM (África) em Métodos Quantitativos I.
+							2012. (Desenvolvimento de material didático ou instrucional - Material didático desenvolvido para o curso de EAD em Administração Pública do Convênio UFJF (Brasil). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="206">FALCO, G. P.</a></b>. Livro didático para o curso de EAD em Administração Pública do Convênio UFJF (Brasil) e UEM (África) em Métodos Quantitativos II.
+							2012. (Desenvolvimento de material didático ou instrucional - Material didático desenvolvido para o curso de EAD em Administração Pública do Convênio UFJF (Brasil). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="207">FALCO, G. P.</a></b>. A INFLAÇAO NA ECONOMIA BRASILEIRA. 2011. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="208">FALCO, G. P.</a></b>. O perfil do estudante de ensino superior da Faculdade Machado Sobrinho/Juiz de Fora. 2011. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="209">FALCO, G. P.</a></b>. Economia Ambiental. 2010. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="210">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="211"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HIPPERT, H. S.; VIEIRA, M. T.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="212">FALCO, G. P.</a></b>.  Participação em banca de Guilherme Guilhermino Neto. Métodos univariados e multivariados para previsão da demanda de energia elétrica em curto prazo:um estudo comparativo. 2014. Dissertação (Mestrado em Modelagem Computacional) - Universidade Federal de Juiz de Fora. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TAFNER, P. S. B.; AMARAL, R. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="213">FALCO, G. P.</a></b>.  Participação em banca de Luciano Pinheiro Sá. Educação superior no Brasil: uma análise dos determinantes de desempenho dos cursos superiores dos estudantes ENADE no ano de 2009. 2012. Dissertação (Mestrado em Economia Empresarial) - Universidade Candido Mendes. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="214">ALTAF, J.G</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="215">FALCO, G. P.</a></b>.  Participação em banca de Luciana Candida Zancanello.Aspectos preponderantes para Satisfação e fidelização do cliente:o caso da loja 25 de março.
+							2013. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JACOMETTI, E. J. E. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="216">FALCO, G. P.</a></b>.  Participação em banca de Guilherme de Assis Leal.Parcerias públicas -privadas no contexto brasileiro.
+							2013. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, M. A. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="217">FALCO, G. P.</a></b>.  Participação em banca de Juliana Pinhati Siqueira.Desalinhamentos cambiais:a taxa de câmbio brasileiro está em equilíbrio.
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALTAF, J. G.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="218">FALCO, G. P.</a></b>.  Participação em banca de Ana Cláudia de Oliveira Machado.Marketing na odontologia:uma análise do uso das ferramentas de marketing usadas pelos odontólogos de Juiz de Fora.
+							2012. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="219">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="220">ALTAF, J.G</a>.  Participação em banca de Jacqueline de Mello Moreira.O caso RMS Pneus: estratégias de sucesso em uma empresa familiar.
+							2012. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="221">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="222">ALTAF, J.G</a>.  Participação em banca de Paula Reis Ramalho.Satisfação do cliente: o estudo de caso Aramil.
+							2012. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="223">FALCO, G. P.</a></b>; ALTAF, J. G..  Participação em banca de Fernanda Sobreira de Souza.IOT: análise da satisfação em relação à prestação de serviços médicos..
+							2012. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="224">FALCO, G. P.</a></b>.  Participação em banca de Raphaela Rodrigues Santos.BNDES: Políticas e diretrizes para concessão de financiamento em contraposição ao caso Thyssenkrupp.
+							2012. Trabalho de Conclusão de Curso (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="225">FALCO, G. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4729992860551883" target="_blank" tabindex="226">ALTAF, J.G</a>.  Participação em banca de Digiane Piubello.Governança corporativa: aplicabilidade as melhores práticas e princípios em empresas de médio e pequeno porte..
+							2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="227">FALCO, G. P.</a></b>; ALTAF, J. G..  Participação em banca de Mariana Salgado de Almeida.Jovens empreendedores no Brasil: um estudo explicativo sobre.
+							2011. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="228">FALCO, G. P.</a></b>; SANTOS, F. A. A..  Participação em banca de Denis de Paula.Convergência de renda na América Latina: análise do período de 1981 a 2009.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="229">FALCO, G. P.</a></b>; ALTAF, J. G..  Participação em banca de Douglas Ribeiro de Castro.Satisfação do consumidor: o caso da lanchonete Mary Milk.
+							2010. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdades Integradas Vianna Junior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="230">FALCO, G. P.</a></b>; ALTAF, J. G..  Participação em banca de Laura Angélica Reis Pinto.Relatório de Estágio.
+							2010. Trabalho de Conclusão de Curso (Graduação em Administração)  - Faculdade Machado Sobrinho. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="231">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="232"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Encontro Mineiro de Engenharia de Produção e I Encontro Mineiro de Engenharia Mecânica.IX Encontro Mineiro de Engenharia de Produção e I Encontro de Mineiro de Engenharia Mecânica.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Simpósio de Engenharia de Produção. XX Simpósio de Engenharia de Produção. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="233"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="234">FALCO, G. P.</a></b>. Avaliadora de trabalhos científicos. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="235">FALCO, G. P.</a></b>. Avaliadora de trabalhos científicos. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404511957654050" target="_blank" tabindex="236">FALCO, G. P.</a></b>. Semana da Administração das Faculdades Integradas do Instituto Vianna Júnior. 2013. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="237">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas" tabindex="238"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariana Malta de Farias.
+							Mdelagem de curto prazo para o consumo residêncial no Brasil: uma abordagem pelo método BOX-Jenkins.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. Orientador: Glaucia de Paula Falco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jéssica Renata Oliveira.
+							Utilização e gestão de estoque da empresa: importância e objetivos.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. Orientador: Glaucia de Paula Falco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinícius Novais de Faria.
+							Ensaio do impacto da dívida pública na taxa de juros brasileira.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. Orientador: Glaucia de Paula Falco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Dresch Nogueira de Sá.
+							A gestão de riscos em empresas não financeiras: o caso da Alpargatas.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. Orientador: Glaucia de Paula Falco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vítor Lopes de Assis.
+							Mercado do leito no Brasil:uma análise dos fatores preponderantes para a previsão do preço do produto.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. Orientador: Glaucia de Paula Falco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Reginaldo Freitas Pena.
+							Políticas sociais no Brasil: Para combater a pobreza e para a inclusão social no período de 2003 a 2010.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. Orientador: Glaucia de Paula Falco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Luis Del Penho.
+							A evolução da indústria automobilística no Brasil.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Econômicas)  - Faculdades Integradas Vianna Junior. Orientador: Glaucia de Paula Falco.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PotencialInovacao" tabindex="239">
+<h1 tabindex="0">Inovação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetosPesquisaPI" tabindex="240"></a><br class="clear"><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_GENESIS: GERAÇÃO DE ENERGIA ELÉTRICA E SISTEMA INTEGRADO DE SUPORTE À DECISÃO" tabindex="241"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GENESIS: GERAÇÃO DE ENERGIA ELÉTRICA E SISTEMA INTEGRADO DE SUPORTE À DECISÃO<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo do projeto GENESIS: Geração de Energia Elétrica e Sistema Integrado de Suporte à Decisão é desenvolver um protótipo de apoio à decisão para o Planejamento centralizado da Operação energética do Sistema Interligado Nacional (SIN), capaz de oferecer uma solução para a programação hidrotérmica, em curto e médio prazo, que satisfaça os critérios definidos pelos decisores e agentes.
+O objetivo do planejamento centralizado da operação de um sistema hidrotérmico de geração de energia elétrica, como o brasileiro, é determinar uma estratégia de produção para cada usina do sistema, de forma a minimizar os custos variáveis ao longo do horizonte de planejamento. Incluem-se nestes custos os gastos com combustíveis das usinas termoelétricas,os eventuais intercâmbios entre os subsistemas e as penalidades pelo não atendimento à demanda. Assim, cabe ao planejamento e programação da operação determinar as metas de geração hidroelétrica e termoelétrica do SIN através
+dos estudos e etapas que antecedem a operação em tempo real do sistema, considerando incertezas, tais como as associadas às previsões de carga e afluências, e também restrições de caráter elétrico, operativo, ambiental e de aproveitamento de recursos, inerentes a cada etapa.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear"><br class="clear">Integrantes: Glaucia de Paula Falco - Coordenador / Marley Maria Bernardes Rebuzzi Vellasco - Integrante / Juan Guilhermo Lazo Lazo - Integrante / André Vargas Abs da Cruz - Integrante / Karla Tereza Figueiredo Leite - Integrante / Luciana Conceição Dias Campos - Integrante / Murilo Pereira Soares - Integrante / Yván Jesús Túpac Valdivia - Integrante / Marco Aurélio Cavalcanti Pacheco - Integrante.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes" tabindex="242">
+<h1 tabindex="0">Outras informações relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Doutora e Mestre em Engenharia Elétrica com ênfase em ferramentas estatísticas para análises quantitativa de dados. Economista.</pre>
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 20/03/2023 às 10:55:41</div><br class="clear"><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4404511957654050" target="_blank" class="button" tabindex="243"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="244"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="245">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos" tabindex="13">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes" tabindex="14">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao" tabindex="16">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar" tabindex="17">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional" tabindex="19">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial" tabindex="20">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao" tabindex="21">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa" tabindex="23">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="#ProducaoBibliografica" tabindex="25">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos" tabindex="26">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos" tabindex="27">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos" tabindex="28">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas" tabindex="29">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso" tabindex="30">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho" tabindex="31">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="32">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="33">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="34">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas" tabindex="35">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoTecnica" tabindex="36">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria" tabindex="37">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente" tabindex="38">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos" tabindex="39">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas" tabindex="40">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos" tabindex="41">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="42">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="43">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="44">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="45">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica" tabindex="46">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="47">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas" tabindex="48">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica" tabindex="49">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais" tabindex="50">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas" tabindex="51">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="#ProducaoArtisticaCultural" tabindex="52">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas" tabindex="53">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica" tabindex="54">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais" tabindex="55">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas" tabindex="56">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-potencialInovacao" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#PatentePI" tabindex="58">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI" tabindex="59">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI" tabindex="60">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI" tabindex="61">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI" tabindex="62">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI" tabindex="63">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI" tabindex="64">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI" tabindex="65">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI" tabindex="66">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI" tabindex="67">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI" tabindex="68">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI" tabindex="69">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI" tabindex="70">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI" tabindex="71">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos" tabindex="73">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos" tabindex="74">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas" tabindex="76">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento" tabindex="77">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho" tabindex="79">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes" tabindex="80">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="9pos" style="z-index: 1010; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&amp;id=K4126696P8&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="82">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

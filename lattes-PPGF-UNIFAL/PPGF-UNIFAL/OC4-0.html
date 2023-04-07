@@ -1,0 +1,235 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF-UNIFAL)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF-UNIFAL)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalho de conclusão de curso de graduação'}, 
+series: [{data: [[1996,
+1],
+[2010,
+2],
+[2011,
+1],
+[2013,
+4],
+[2014,
+4],
+[2015,
+5],
+[2016,
+2],
+[2017,
+4],
+[2018,
+1],
+[2019,
+6],
+[2020,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalho de conclusão de curso de graduação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 33<br>
+                    
+                    
+                    <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Nádia Nogues de Almeida. <b>Software para tratamento de dados de espalhamento de elétrons por alvos gasosos</b>. (Graduação em Engenharia de Computação) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3697495590985027">Rafael Felipe Coelho Neves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Renan Pereira Araújo. <b>Teoria do Funcional de Densidade (DFT) aplicada na obtenção de propriedades optoeletrônicas de peroviskitas híbridas</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Tiago Vitor Lopes. <b>Teoria do Funcional de Densidade (DFT) aplicada na obtenção de propriedades optoeletrônicas de ligas de ouro e alumínio para aplicações plasmônicas</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Luiza Fonseca Arêas. <b>Uso de docking de fragmentos na obtenção de novos inibidores de acetilcolinesterase</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0403363004900374">Andrilene Celina Alves</a>. <b>Estudos teóricos da modelagem computacional usando métodos semi-empíricos na interação dos aminoácidos com os nanotubos de carbono funcionalizados</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Arildo Júnior Maciel. <b>Determinação do perfil espacial de laseres</b>. (Graduação em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cássio Henrique de Souza Marculino. <b>Estudo das propriedades óticas e de transporte em diodos de tunelamento ressonante, por meio da solução da equação de Schrödinger-Poisson.</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Raphel Cesar de Sousa Pimenta. <b>Qiskit aplicado ao ensino de conceitos b ?asicos de informa ?c ?ao e computa ?c ?ao qu?antica</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Wilmar Puma Zamora. <b>Actividad antibacteriana del partenólido frente a cepas de Staphylococcus aureus ATCC®29213 y aproximación al mecanismo de interacción mediante métodos quimioinformáticos</b>. (Graduação em Química Farmaceutica) - Universidad Nacional de San Antonio Abad del Cusco, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Lucas Marques Fagundes Silva. <b>Modelagem farmacocinéticada biodistribuição de nanopartículas magnéticas via equa- çõesdiferenciais ordinárias</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Denis Henrique dos Santos Borges. <b>Cálculo das propriedades de transporte em nanotubos carboxilados</b>. (Graduação em Licenciatura em Física) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>João Victor Almeida. <b>Fourier Grid Hamiltonian aplicado ao estudo das propriedades ópticas e de transporte de células solares de banda intermediária simuladas computacionalmente usando a linguagem Julia</b>. (Graduação em Física) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Luis Henrique de Souza, Lukas Romano Primo Santos. <b>UTILIZAÇÃO DA ESPECTOFOTOMETRIA NO ESTUDO DO POLÍMERO MEH-PPV COMO DETECTOR DE RADIAÇÃO UV</b>. (Graduação em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ygor Lacerda Batista da Silva. <b>Dinâmica dos processos de transições inter e intersubbandas de células solares de baixa dimensionalidade via método Split Operator</b>. (Graduação em Física) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8478305453281130">Anibal Thiago Bezerra</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Maria Helena Passos Marques. <b>Formulações Clássicas da Cosmologia Newtoniana</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002033080997386">Cássius Anderson Miquele de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mariana da Silva Ribeiro. <b>Propriedades eletronicas dos nanotubos de carbono funcionalizados desordenados</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Luiz Gustavo Garbosa Costa. <b>ESTUDO DA INFLUENCIA DO COMPRIMENTO DE ONDA DA LUZ COM A EFICIÊNCIA DO PROCESSO CERVEJEIRO</b>. (Graduação em Engenharia Química) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mauro Fleury de Toledo Filho. <b>DESENVOLVIMENTO E AVALIAÇÃO DE MODELO PARA DESCRIÇÃO DE CONSUMO DE SUBSTRATO EM REATOR DE LEITO FLUIDIZADO USADO NO TRATAMENTO DE DRENAGEM ÁCIDA DE MINA</b>. (Graduação em Engenharia Química) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Rafael Tomazella Moraes. <b>ESTUDO DA INFLUENCIA DO COMPRIMENTO DE ONDA DA LUZ COM A EFICIÊNCIA DO PROCESSO CERVEJEIRO</b>. (Graduação em Engenharia Química) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Renato Martins Gouvêa. <b>Modelagem Computacional para o estudo do potencial microhidrelétrico do sistema de abastecimento de água da cidade de Poços de Caldas/MG</b>. (Graduação em Engenharia Ambiental e Urbana) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>TCC em grupo (nomes dos discentes em outras informações). <b>Transformação de Energia Gravitacional em Energia Luminosa</b>. (Graduação em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8073303573679522">Rodrigo Rocha Cuzinatto</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Carolina Esper Oliveira. <b>Eficiência Energética na Fermentação de Cervejas</b>. (Graduação em Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Matheus Martins Lopes. <b>Captação de energia solar através do efeito fotovoltaico: Um estudo na área proposta de instrumento de baixo custo para medição de radiação solar</b>. (Graduação em Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Pâmela Natalie Cabral. <b>ESTUDO SOBRE DOSÍMETROS DETECTORES DE RADIAÇÕES IONIZANTES</b>. (Graduação em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1312049227898761">Marcelo Gonçalves Vivas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>TCC em grupo (nomes dos discentes em outras informações). <b>Estudo da Física no Lançamento de Foguetes</b>. (Graduação em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8073303573679522">Rodrigo Rocha Cuzinatto</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Mayumi Kakazu e Aniele Julye Motzko. <b>Busca por novos inibidores para a doença de Chagas</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Laura Pascoini. <b>Docking molecular de candidatos a fármacos anticolinesterásicos</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gabriela Chagas Furtado. <b>Estudo do potencial microhidrelétrico de área urbanas</b>. (Graduação em Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Renato Martins Gouvêa. <b>Estudo do potencial microhidrelétrico de área urbanas</b>. (Graduação em Interdisciplinar em Ciência e Tecnologia) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4023778019418442">Gustavo do Amaral Valdiviesso</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Luíza Assin Squillace. Complexos inibidor enzima. Caso de estudo:Fukugetina- Tripsina. <b>Uma comparação entre Docking Rígido e Docking Flexível</b>. (Graduação em Bacharelado em Biotecnologia) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bruno de Oliveira Campos. <b>Análise térmica em laser VCSEL</b>. (Graduação em Licenciatura em Física) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mirele Bastos. <b>Modelagem computacional do complexo Catepsina G -Fukugetina</b>. (Graduação em Bacharelado em Química) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amaury Suárez Gómez. <b>Dependencia térmica de la eficiencia de converción en láseres de AlxGa1-xAs</b>. (Graduação em Física) - Facultad de Física Universidad de La Habana, . 1996.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732563704810366">Ihosvany Camps Rodríguez</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 24/01/2023 10:50:37<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
