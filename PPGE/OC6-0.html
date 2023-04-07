@@ -1,0 +1,459 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Orientações de outra natureza'}, 
+series: [{data: [[2004,
+1],
+[2005,
+8],
+[2006,
+17],
+[2007,
+7],
+[2010,
+1],
+[2011,
+5],
+[2012,
+9],
+[2013,
+3],
+[2014,
+8],
+[2015,
+8],
+[2016,
+15],
+[2017,
+19],
+[2018,
+9],
+[2019,
+12],
+[2020,
+6],
+[2021,
+5],
+[2022,
+6]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Orientações de outra natureza</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 139<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Buarque Caetano Garíglio Dumont. <b>Bolsista de Extensão do CECAMPE-UFU - polo de Belo Horizonte e Região Metropolitana</b>. (Pró-Reitoria de Extensão da UFU) - Universidade Federal de Minas Gerais, Fundo Nacional de Desenvolvimento da Educação. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Flávio Macieira. <b>Monitoria de Graduação</b>. (Abi - História) - Universidade Federal de Minas Gerais, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gláucia Fernandes Pinto. <b>Bolsista de Extensão do CECAMPE-UFU - polo de Belo Horizonte e Região Metropolitana</b>. (Pró-Reitoria de Extensão da UFU) - Universidade Federal de Minas Gerais, Fundo Nacional de Desenvolvimento da Educação. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luciana Gomes da Luz Silva. <b>Bolsista de Extensão do CECAMPE-UFU - polo de Belo Horizonte e Região Metropolitana</b>. (Pró-Reitoria de Extensão da UFU) - Universidade Federal de Minas Gerais, Fundo Nacional de Desenvolvimento da Educação. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Sebastiana Medeiros da Fonseca. <b>Bolsista de Extensão do CECAMPE-UFU - polo de Belo Horizonte e Região Metropolitana</b>. (Pró-Reitoria de Extensão da UFU) - Universidade Federal de Minas Gerais, Fundo Nacional de Desenvolvimento da Educação. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Yasmin dos Santos Louzano. <b>Cerveja com Ciência</b>. (Farmácia) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fabiana Roberta Alvarenga de Oliveira. <b>Monitoria na disciplina História do Brasil I</b>. (História) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ludymilla Moreira Morais. <b>Bolsista de Extensão Projeto Avaliando experiências educativas de defesa dos direitos humanos</b>. (Pedagogia) - Pró-Reitoria de Extensão UFMG, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Maria Victoria Rodrigues Morciani. <b>Cerveja com Ciência: bolsista de extensão</b>. Orientação de outra natureza - Pró-reitoria de Extensão/ Unifal-MG, Universidade Federal de ALfenas. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Márcio José dos Santos Filho. <b>Cerveja com Ciência: bolsista de extensão</b>. (Biotecnologia) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Vivian Santana de Almeida. <b>Cerveja com Ciência: voluntária em projeto de extensão</b>. Orientação de outra natureza - Pró-reitoria de Extensão/ Unifal-MG, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bianca Verola Costa. <b>Projeto de Extensão Conversas Matemáticas</b>. (Matemática) - Universidade Federal de Alfenas, Pró-Reitoria de Extensão UNIFAL-MG. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Edson Aparecido da Silva Júnior. <b>Monitoria de Matemática Elementar I</b>. (Matemática) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Guilherme Assis dos Reis. <b>Bolsista do Núcleo de Estudos Afro-brasileiros e Indígenas (NEABI/UNIFAL-MG)</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Pró-reitoria de Assuntos Estudantis. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Leticia Silva Ventura. <b>Monitoria</b>. (Abi - História) - Universidade Federal de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mariana Gabriela Gusmão. <b>Monitoria de Matemática Elementar I</b>. (Matemática) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Rafael Ferreira Cardoso. <b>Projeto de Extensão Conversas Matemáticas</b>. (Matemática) - Universidade Federal de Alfenas, Pró-Reitoria de Extensão UNIFAL-MG. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Clara Ribeiro Silva. <b>Bolsista Projeto de Extensão Universidade Aberta: diálogos comunitários</b>. (Graduação) - Pró-reitoria de Extensão da UNIFAL-MG, Pró-reitoria de Extensão da UNIFAL-MG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Evelyne Eliene da Silva Araújo. <b>A dimensão educativa das organizações juvenis</b>. (Ensino Médio) - Escola Estadual Judith Vianna, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FREDERICO BETHONICO MONTEIRO. <b>Monitoria</b>. (Abi - História) - Universidade Federal de Minas Gerais, UFMG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Leandro Henrique Cunha Fermino. <b>Bolsista de Extensão Projeto Universidade Aberta: diálogos comunitários</b>. (Graduação) - Pró-reitoria de Extensão da UNIFAL-MG, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Leandro Oliveira Domingos. <b>Bolsista de Extensão Projeto Universidade Aberta: diálogos comunitários</b>. (Graduação) - Pró-reitoria de Extensão da UNIFAL-MG, Pró-reitoria de Extensão da UNIFAL-MG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Lívia Furtado Borges. <b>Grupo de Estudos sobre a Juventude da UNIFAL-MG</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Milene Nascimento de Oliveira. <b>Bolsista Projeto de Extensão Universidade Aberta: diálogos comunitários</b>. (Graduação) - Pró-reitoria de Extensão da UNIFAL-MG, Pró-reitoria de Extensão da UNIFAL-MG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Nikolas Neves de Figueiredo. <b>Laboratório de ensino em Educação Matemática na formação de professores - 2019</b>. (Matemática) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ROBERTA ORNELAS OLIVEIRA. <b>Monitoria</b>. (Abi - História) - Universidade Federal de Minas Gerais, UFMG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Ronaldo Andre Lopes. <b>Laboratório de ensino em Educação Matemática na formação de professores</b>. (Matemática) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Thiago Franco de Carvalho Dias. <b>Pensando em códigos: desenvolvendo os princípios lógicos da computação</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, Pró-reitoria de Extensão/ Unifal-MG. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Vivian Santana de Almeida. <b>Cerveja com Ciência - da universidade à comunidade</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Fraga Dias. <b>Monitoria de Bioquímica</b>. (Odontologia) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Carolina Carvalho Pontes Borges. <b>Monitoria na disciplina Ciência da Cerveja</b>. (Química) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Glauco Amaral Geraldino. <b>Dispositivos móveis na obtenção de dados georreferenciados da Dengue, Zica e Chicungunya</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gloria Cristina Damas. <b>Desenvolvimento Humano e Humanização: aportes da Psicologia Histórico Cultural</b>. (Pedagogia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Isabela Barbosa de Oliveira. <b>A dimensão educativa das organizações juvenis</b>. Orientação de outra natureza - Escola Estadual Samuel Engel, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Mayara Hellen Lemes Rossato. <b>A dimensão educativa das organizações juvenis</b>. (Ciências Sociais) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Roberta Siqueira Fernades. <b>Laboratório de Ensino em Educação Matemática na formação de professores 2018</b>. (Matemática) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Taciane Camila Pereira. <b>Desenvolvimento Humano e Humanização: aportes da Psicologia Histórico Cultural</b>. (Pedagogia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Taciane Camila Pereira - PIBIC Jr. <b>Desenvolvimento Humano e Humanização: aportes da Psicologia Histórico Cultural</b>. (Biomedicina) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Carolina Silva Tibúrcio. <b>A formação de professores no contexto da diversidade e pressupostos inclusivos: um olhar para os formadores</b>. (Pedagogia) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruna Borges da Silva. <b>Conversas sobre matemática com idosos</b>. (Matemática) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Caio Luiz Bitencourt Reis. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Odontologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Denner Azevedo Rocha. <b>Projeto de Monitoria da disciplina Geometria Analítica do curso de Graduação em Biotecnologia</b>. (Biotecnologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ednaldo Florencio. <b>Monitoria de Estágio Supervisionado das Licenciaturas do IFMG - Campus Ouro Preto</b>. (Licenciatura de Geografia) - Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Gabriel Estevam Santos de Amorim. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Gustavo Alves Miguel. <b>Dispositivos móveis na obtenção de dados georreferenciados da Dengue, Zica e Chikungunya</b>. (Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Henrique dos Santos Wisniewski. <b>Pensando em Códigos</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jessica Cristina dos Santos. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Odontologia) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Jéssica Dutra Rodrigues. <b>Monitoria de Estágio Supervisionado das Licenciaturas do IFMG - Campus Ouro Preto</b>. (Licenciatura de Geografia) - Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais, Instituto Federal de Educação, Ciência e Tecnologia de MG. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Larissa de Fátima Ribeiro Simião. A dimensão educativa das organizações juvenis. <b>Estudo dos processos educativos não formais e da formação política no interior de organizações juvenis de uma universidade pública do interior de Minas Gerais.</b>. Emílio da Silviera, Alfenas-MG, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Lucas da Silva Fazio. <b>Pensando em códigos: desenvolvendo os princípios lógicos da computação</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, Pró-reitoria de Extensão/ Unifal-MG. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Marcela Felício de Oliveira Rodrigues. <b>Monitoria</b>. (História) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Mariana de Brito Alves. <b>Desenvolvimento Humano e Humanização: aportes da Psicologia Histórico Cultural</b>. (Pedagogia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Matheus Costa da Silva. <b>Sistemas georeferenciados aplicados ao ensino</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, Pró-reitoria de Extensão/ Unifal-MG. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Melissa Santos Nassif. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Enfermagem) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Nayara da Silva. <b>O Laboratório de Ensino em Educação Matemática na Formação de professores</b>. (Matemática) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Raphael Cesar de Souza Pimenta. <b>Projeto de Monitoria da disciplina Geometria Analítica do curso de Graduação em Física-Licenciatura</b>. (Física) - Universidade Federal de Alfenas, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Rubiana Chamorro. <b>Desenvolvimento Humano e Humanização: aportes da Psicologia Histórico Cultural</b>. (Pedagogia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alexandre Benedeti Gonçalves. <b>Dispositivos móveis na obtenção de dados georreferenciados da Dengue, Zica e Chikungunya</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Felipe Francisco Guerreiro. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Odontologia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gabriel Estevam de Amorim. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gabriel Ribeiro Paiva. <b>Pensando em Códigos: desenvolvimento de princípios de lógica computacional</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Hugo Luiz Camargo Pinto. <b>Pensando em Códigos: desenvolvimento de princípios de lógica computacional</b>. (Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Julia Comonian. <b>Compreensão Biopsicossocial do Desenvolvimento Infanto-juvenil</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Julia Oliveira Comonian. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Maria Cesione Damasceno. <b>Grupo de Estudos sobre a Juventude de Alfenas/MG</b>. (Ciências Sociais) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Naiane Silva Cardoso. <b>Monitoria de Bioquímica - turma Biomedicina</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Naiara Gravinea Perissinato. <b>Compreensão Biopsicossocial do Desenvolvimento Infanto-juvenil</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Paula Coró. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Enfermagem) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Priscila Caroline Salgado Perossi. <b>Compreensão biopsicossocial do Desenvolvimento Infanto-juvenil</b>. (Biomedicina) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Rubiana Chamorro. <b>Desenvolvimento Humano e Humanização: aportes da Psicologia Histórico Cultural</b>. (Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Vanessa da Silva Estevam. <b>Monitoria de Estágio Supervisionado das Licenciaturas do IFMG - Campus Ouro Preto</b>. Orientação de outra natureza - Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais, Instituto Federal de Educação, Ciência e Tecnologia de MG. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Vitoria Rufino de Oliveira. <b>Psicologia da Saúde: do modelo biomédico ao biopsicossocial</b>. (Nutrição) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cora Wallach Sanches. <b>As tecnologias móveis no auxílio aos cuidados animais</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Eric Mateus Rodrigues Temponi. <b>Princípios de desenvolvimento de aplicativos educacionais</b>. Emílio Silveira, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gabriella Gheti César:. <b>Monitoria da disciplina Antropologia e Educação</b>. (Pedagogia) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gedra Aparecida Santos Toledo. <b>Mediação: Interface Educação e Saúde</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Maria Cesione Damasceno. <b>Projeto de Extensão: Grupo de Estudos sobre a Juventude de Alfenas-MG</b>. (Ciências Sociais) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Paulo Henrique Sgarbi. <b>Monitoria de Bioquímica</b>. (Biomedicina) - Universidade Federal de Alfenas, Universidade Federal de ALfenas. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Silvia Leticia Rodrigues Ricomini. <b>Monitoria</b>. (História) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Tamires de Freitas Oliveira. <b>ImunoAção: aplicativo móvel como proposta de intervenção educacional</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alisson Vieira Gonçalves. <b>Antropologia IV</b>. (Ciências Sociais) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Luiza Cabral Lopes. <b>Programa Institucional de bolsas de iniciação à docência (PIBID): caracterização e análise do impacto na formação dos licenciandos em Minas Gerais</b>. (Pedagogia) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cora Wallach Sanches. <b>Uso das tecnologias da informação e comunicação no ensino</b>. Emílio Silveira, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Eder Dourado dos Santos. <b>Estudo sobre as justificativas de professores e futuros professores para o Ensino de Física na Educação Básica e a relação com o interesse/desinteresse dos alunos pela aprendizagem</b>. (Física) - Universidade Federal de Goiás, Sisu-MEC. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Marcelo de Souza. <b>Monitoria na Disciplina: Didática</b>. (Química) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Marcelo de Souza. <b>Monitoria na Disciplina: Didática</b>. Orientação de outra natureza - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Patrícia Mara de Oliveira. <b>Monitoria na Disciplina: Alfabetização e Letramento</b>. Orientação de outra natureza - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Priscila de Oliveira Batista. <b>Monitoria na Disciplina: Alfabetização e Letramento</b>. (Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Mariana Raniero. <b>Sistematização de dados ambientais para desenvolvimento de aplicativo educacional para dispositivos móveis</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Raphael Pereira Duarte. <b>Desenvolvimento de aplicativo educacional para dispositivos móveis para auxílio no controle da glicemia</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Saha Emilly da Silva Sacconi. <b>Tecnologias educacionais na escola: trabalhando a fragmentação no sul de Minas Gerais multidisciplinarmente</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Oliveira Ferreira. <b>Monitoria de Bioquímica</b>. (Ciências Biológicas) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Pereira. <b>Monitoria - Aprendizagem e desenvolvimento das pessoas com necessidades especiais</b>. (Pedagogia) - Universidade de Brasília, UnB - REUNI. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Cláudia Santana. <b>Monitoria - Aprendizagem e desenvolvimento das pessoas com necessidades especiais</b>. (Pedagogia) - Universidade de Brasília, UnB - REUNI. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Frederico Gonçalves de Araújo. <b>Monitoria da disciplina de Matemática II do curso Bacharelado em Ciência e Economia</b>. (Bacharelado Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Fábio Hideo Kunikawa Fonseca Silva. <b>Monitoria da disciplina Matemática II</b>. (Bacharelado Interdisciplinar em Ciência e Economia) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Jhonatan Thallisson Cabral Nery. <b>Parque da Ciência</b>. (Ciências da Computação) - Universidade Federal de Goiás, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Mariana Alkves de Melo. <b>Monitoria - Aprendizagem e desenvolvimento das pessoas com necessidades especiais</b>. (Pedagogia) - Universidade de Brasília, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marília de Fátima Frenhan. <b>Compreensão dos processos de aprendizagem em ambientes colaborativos de ensino a distância</b>. Orientação de outra natureza - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Vanessa Dias. <b>Monitoria - Aprendizagem e desenvolvimento das pessoas com necessidades especiais</b>. (Pedagogia) - Universidade de Brasília, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Jessica de Araújo. <b>Monitoria - Aprendizagem e Desenvolvimento das Pessoas om Necessidades Educacionais Especiais</b>. (Pedagogia) - Universidade de Brasília, Universidade de Brasília. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Marcos Augusto Xavier de Oliveira. <b>Projeto de Monitoria - Fatec Mogi Mirim - SP</b>. (Projetos Mecânicos) - FATEC - Faculdade de Tecnologia de Mogi Mirim (SP), . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Priscilla Rios. <b>Monitoria - Aprendizagem e Desenvolvimento das Pessoas om Necessidades Educacionais Especiais</b>. (Pedagogia) - Universidade de Brasília, Universidade de Brasília. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Talyta Souza Marcello. <b>Monitoria - Aprendizagem e Desenvolvimento das Pessoas om Necessidades Educacionais Especiais</b>. (Pedagogia) - Universidade de Brasília, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Thaís Cristina Fontes Cohen. <b>Orientação de monitoria na disciplina de Aprendizagem e Desenvolvimento das Pessoas com Necessidades Educacionais Especiais durante o 2º semestre de 2011.</b>. (Pedagogia) - Universidade de Brasília, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Reidner Ramos. <b>Elementos culturais locais no Ensino de Física</b>. (Licenciatura em Física) - Universidade Federal de Goiás, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Basani e Patrícia Moraes. <b>As consequencias do estado de passividade do aluno no processo de aprendizagem.</b>. (Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fabiana Silva. <b>O lúdico como instrumento de motivação no processo de ensino-aprendizagem das séries iniciais.</b>. (Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Marilaine C. F. Ferreira. <b>Inclusão: uma educação para todos.</b>. (Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Rosiane C. B. Sousa. <b>A importância do brincar na reabilitação da criança doente</b>. (Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Tiago Esteves Aranha. <b>Multiculturalismo e Ensino Religioso: reflexões a partir da análise de um caso</b>. (Pedagogia) - Universidade Federal de São Carlos, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Vanessa A. G. N. Costa. <b>Inclusão: competência e responsabilidade.</b>. (Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Vanessa R. S. Sbrici. <b>Impacto sócio-educacional dos Transtornos de Déficit de Atenção e Hiperatividade em crianças com idade entre 4 a 6 anos.</b>. (Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aila M Reco e Vanessa Sbrici. <b>Impacto socio-educacional dos transtornos de déficit de atenção e hiperatividade em crianças de 4 a 6 anos</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Claudemir Aparecido Canela. <b>A importância do ensino religioso no processo educacional do ensino fundamental.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Deise Faense. <b>Distúrbios Alimentares: comportamentos estimulados pelo meio social.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gisele Cantarero Loures. <b>A Comunicação Suplementar e/ou Alternativa para crianças com dificuldades de comunicação.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gisele Cantarero Loures. <b>A contribuição da Equoterapia no processo educacional de crianças com paralisia cerebral.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Jéssica Braido-Danyela Galharde. <b>O contexto histórico sobre o surgimento da creche.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Jéssica C Braido. <b>A influência dos contos de fadas no desenvolvimento psicológico da criança.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Karen Alves e Adriana Silva. <b>A importância do brincar para as crianças de 4 a 6 anos</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Laene M Silva. <b>A disciplina e o respeito às regras na sala de aula.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Marcia Aparecida Pereira. <b>Contribuições que podem favorecer a socialização de crianças com Síndrome de Rett.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Márcia A Pereiro e Lígia T Zenaro. <b>A importância do brincar e sugestões de como brincar com crianças portadoras da Síndrome de Rett</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Raquel Nunes Fuin. <b>A educação de superdotados: o professor como mediador do processo ensino-aprendizagem de alunos com altas habilidades.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Raquel Nunes Fuin. <b>A educação de superdotados: desmistificando conceitos e definições acerca do aluno com altas habilidades.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Sônia Rosa Lima. <b>A música na educação infantil.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Vanessa Costa e Marilaine Ferreira. <b>A criança especial no ensino regular</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Viviane Fraga Lameu Oliveira. <b>A utilização da música no cotidiano escolar como ferramenta auxiliar no processo ensino-aprendizagem.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Viviane Fraga Lameu Oliveira. <b>Música: um facilitador no processo ensino-aprendizagem</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Denise Fernandes Lima. <b>A trajetória da Educação de Crianças de 0 a 6 anos.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Juliana Alves Germinari. <b>Competência do docente da criança disléxica.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Julio Cesar Maia de Souza. <b>A história da deficiência mental vistano aspecto escolar no Brasil.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Lucimara Burin Galdeano Vardasca. <b>Comunicação Suplementar Alternativa como apoio ao professor para o desenvolvimento da linguagem.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Maristela de Souza Piovan. <b>A LDB e a Educação Especial.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Patrícia Luzia Souza Perry da Câmara. <b>A formação docente e a inclusão de alunos com necessidades educativas especiais.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Roseli Tiense Coloza. <b>Jogos tradicionais e jogos eletrônicos.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Viviane Fraga Lameu Oliveira. <b>A formação docente e a música: um facilitador no processo de ensino-aprendizagem.</b>. Orientação de outra natureza - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Hamilton Melo da Silva. <b>Os crimes de homicídio e lesão corporal culposos</b>. Orientação de outra natureza - Pontifícia Universidade Católica de Minas Gerais - Campus Poços de Caldas, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 19:01:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

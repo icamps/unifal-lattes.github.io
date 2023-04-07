@@ -1,0 +1,36 @@
+nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
+0,1707973773263725,Andre Luiz Sena Mariano,[Sem rotulo],,,0.7270899,90,29,2,18,19,1,21,0,1,14,8,'10,110,164'
+1,6396955256879565,Celso Ferrarezi Junior,[Sem rotulo],,,0.15,130,63,42,13,11,0,1,2,0,13,23,'10,110,164'
+2,0483616532104544,Claudia Gomes,[Sem rotulo],,,1.047838,123,41,3,21,31,4,23,0,0,6,39,'10,110,164'
+3,3768499838856176,Cristiane Fernanda Xavier,[Sem rotulo],,,0.39890763,39,13,2,5,14,1,4,0,0,2,9,'10,110,164'
+4,9670033909365792,Fabiana de Oliveira,[Sem rotulo],,,1.0,62,25,2,15,13,1,6,0,0,8,9,'10,110,164'
+5,5154949759339458,Frederico Augusto Toti,[Sem rotulo],,,1.0,59,10,1,9,20,5,14,0,0,8,2,'10,110,164'
+6,7615930937088442,Gabriel Gerber Hornink,[Sem rotulo],,,0.15,117,22,14,6,28,2,45,0,0,4,9,'10,110,164'
+7,5817829882396943,Guilherme Henrique Gomes da Silva,[Sem rotulo],,,1.0375288,91,32,2,9,34,0,14,0,0,5,11,'10,110,164'
+8,8888651090922749,Helena Maria dos Santos Felicio,[Sem rotulo],,,1.7535658,132,45,6,27,31,1,22,0,0,11,12,'10,110,164'
+9,8349741972184016,Juliana Miranda Filgueiras,[Sem rotulo],,,0.15,67,15,0,3,21,0,28,0,0,4,15,'10,110,164'
+10,3094025825865221,Keila Bossolani Kiill,[Sem rotulo],,,1.0539649,104,21,2,3,16,10,52,0,1,9,11,'10,110,164'
+11,4667459802757846,Luis Antonio Groppo,[Sem rotulo],,,0.15,223,103,28,47,28,0,17,0,0,47,52,'10,110,164'
+12,1615459773983790,Marcos Roberto de Faria,[Sem rotulo],,,1.0,49,14,0,4,12,1,18,0,0,9,13,'10,110,164'
+13,9989867717454257,Maria Emilia Almeida da Cruz Torres,[Sem rotulo],,,1.0,40,11,2,6,3,10,8,0,0,8,0,'10,110,164'
+14,8701722710780673,Natalino Neves da Silva,[Sem rotulo],,,1.0,89,22,7,24,16,5,15,0,0,8,9,'10,110,164'
+15,5381334650906335,Olavo Pereira Soares,[Sem rotulo],,,0.15,43,11,3,14,11,2,2,0,0,6,14,'10,110,164'
+16,6774743936781093,Paulo Romualdo Hernandes,[Sem rotulo],,,1.0,43,21,1,6,10,0,5,0,0,10,3,'10,110,164'
+17,1798884495942862,Rejane Siqueira Julio,[Sem rotulo],,,1.2328941,65,30,0,10,18,0,7,0,0,3,4,'10,110,164'
+18,0285349325152247,Silvia Ester Orru,[Sem rotulo],,,0.15,134,40,21,19,20,4,30,0,0,11,11,'10,110,164'
+19,7785849794300988,Sonia Aparecida Siquelli,[Sem rotulo],,,0.15,139,32,6,23,36,5,37,0,2,17,12,'10,110,164'
+20,1898701586881222,Vanessa Cristina Girotto Nery,[Sem rotulo],,,0.7482109,85,14,1,7,32,12,19,0,0,7,9,'10,110,164'
+edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,2,1.0
+0,8,4.0
+0,17,1.0
+2,8,8.0
+3,8,2.0
+3,10,2.0
+4,13,3.0
+5,14,1.0
+7,17,11.0
+8,10,2.0
+8,17,1.0
+10,20,4.0
+12,16,3.0

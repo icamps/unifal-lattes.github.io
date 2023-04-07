@@ -1,0 +1,759 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Monografia de conclusão de curso de aperfeiçoamento/especialização'}, 
+series: [{data: [[1998,
+5],
+[1999,
+4],
+[2002,
+2],
+[2003,
+10],
+[2004,
+15],
+[2005,
+5],
+[2006,
+8],
+[2007,
+2],
+[2008,
+16],
+[2009,
+15],
+[2010,
+14],
+[2011,
+74],
+[2012,
+39],
+[2013,
+25],
+[2014,
+11],
+[2015,
+16],
+[2016,
+28]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Monografia de conclusão de curso de aperfeiçoamento/especialização</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 289<br>
+                    
+                    
+                    <div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Cristina Aguiar de Lima da Costa. <b>A importância da participação da família na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Maria Pires Bueno. <b>A importância do trânsito na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Caroline Miranda Sampaio. <b>GÊNERO NA POLÍTICA DE ASSISTÊNCIA SOCIAL: UM OLHAR SOBRE OS CRAS DO DISTRITO FEDERAL</b>. (Aperfeiçoamento/Especialização em ESPECIALIZAÇÃO EM GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade de Brasília, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cleide Conceição Chanavat Oliveira. <b>Construção da Identidade e autonomia na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cássia de Paiva Lima e Silva. <b>Reflexos da violência na escola</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Dalber Emerson Silva. <b>A contribuição cultural afro-brasileira para a sociedade mineira atual</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Daniele Pereira dos Santos. <b>Jogos e brincadeiras na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Elaine Gischewski Costa. <b>A relação educação ambiental e ensino-aprendizagem</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fabiana Pelizário da Silva Santana. <b>Meio ambiente: água um elemento essencial à vida</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fernanda de Cássia do Nascimento Moraes. <b>Valores éticos e morais na escola</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Floraci Pereira dos Santos. DIFERENÇA, DESIGUALDADE E EDUCAÇÃO. <b>Evasão escolar sob a ótica da desigualdade</b>. (Aperfeiçoamento/Especialização em ESPECIALIZAÇÃO EM GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade de Brasília, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Jiliane Móvio Santana. <b>Rainha Ginga de Angola - resistência à dominação portuguesa e relações com a cutura afro-brasileira</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Kátia Dionísia Silva Oliveira. <b>Escola: ambiente propício para resgatar e vivenciar valores</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Luciana Silva Peters Soares. <b>Sobre a água</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Magna Aparecida da Silva. <b>A leitura no desenvolvimento da linguagem infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Maria Angélica Lopes Rodrigues. <b>ANÁLISE DO PAPEL DO SISTEMA DE COTAS PARA A COMUNIDADE NEGRA E OS AVANÇOS ECONÔMICOS E SOCIAIS DESTA POPULAÇÃO</b>. (Aperfeiçoamento/Especialização em ESPECIALIZAÇÃO EM GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade de Brasília, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Maria da Conceição Ribeiro Leandro. <b>A importância de se trabalhar a identidade na educação infantil e valorizar as diferenças humanas</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Maria de Fatima Ramos. <b>Construção da linguagem oral e escrita da criança na educação infantil através das parlendas</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Maria Donizete Ferreira. <b>A LEITURA COMO INSTRUMENTO NA FORMAÇAO DO ALUNO-LEITOR</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Michele de Oliveira Luna. <b>Educação Ambiental: ciclo, estados físicos e importância da água</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Márcia Aparecida da Silva. <b>Educação alimentar e nutricional</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Regina Aparecida Pereira de Souza. <b>A importãncia do trabalho com história para a alfabetização</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Rosa Maria de Souza. <b>A CONSTRUÇÃO DA ESCRITA DO NOME NA EDUCAÇÃO INFANTIL BRINCANDO É QUE SE APRENDE</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Suelaine Torres Nascimento. <b>CONSTRUÇÃO MORAL DA CRIANÇA: DESENVOLVIMENTO A PARTIR DAS RELAÇÕES HUMANAS.</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Vanderli da Silva. <b>A importância do trabalho com a literatura afro-brasileira no cotidiano da educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Vanisia Bernardes da Silva. <b>A importância da história na educação</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Verônica Alves de Araújo Casadei. <b>Leitura Reflexiva: apontando caminhos</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Vinicius Dias Cunha. <b>ANÁLISE SOCIAL E HISTÓRICA DO PROGRAMA DIVERSIDADE NA UNIVERSIDADE</b>. (Aperfeiçoamento/Especialização em ESPECIALIZAÇÃO EM GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade de Brasília, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Paula Rodrigues. <b>Plano de Intervenção pedagógica de jogos e brincadeiras na matemática</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Arlete Aparecida de Oliveira Pinto. <b>Brincadeiras e brinquedos como estratégia para a adaptação escolar</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Deira Aparecida de Oliveira Ferreira. <b>Brinquedoteca: o lúdico na aprendizagem na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Jovanca Mesquita Oliveira Reis. <b>Educação para o trânsito: noções de espaço e cidadania</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Juliana Isabel Abreu Genesi. <b>A educação ambiental no contexto da educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Luzia Clara Barbosa Zupa. <b>Escola infantil para que?</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lídia Cristiana Cardoso. <b>O brincar na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Maria José Pereira Carvalho. <b>Cidadania e Valores</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Marília Couto. <b>Maternal: experimentando novas sensações</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Monica Celeste Maddalena Ramos Dias. <b>Meio ambiente e cidadania no processo de formação docente e discente</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mônica Aparecida Reis. <b>A construção e a formação de valores básicos através das histórias e do lúdico</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Renata da Silva Chula. <b>Cantigas de roda e brincadeiras folclóricas</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Rosangela Cristina Lagata. <b>A criança e a educação na história</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Silvia Helena de Fátima. <b>O brincar na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Sônia Cardoso da Silveira. <b>A importância dos jogos e brincadeiras na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Tereza Betânia de Paiva Bueno. <b>Contação de histórias</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>: Marcia Prado de Souza Prasse. <b>EDUCAÇÃO E A VIDA EM SOCIEDADE</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Garcia Bernardes Oliveira. <b>Formação de pequenos leitores</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Cláudia Segantini Marques. <b>Preconceito Linguistico: implicações no processo de ensino-aprendizagem</b>. (Aperfeiçoamento/Especialização em Especializaçãoem PsicopedagogiaUniversidadeFUMEC) - Especialização em Psicopedagogia da Universidade FUMEC, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ANITA CARVALHO SANTOS. <b>PROGRAMA BRASIL ALFABETIZADO ? PBA, UM OLHAR SOB A INTERSEÇÃO GÊNERO, RAÇA E IDADE</b>. (Aperfeiçoamento/Especialização em GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade Aberta - UAB/UnB, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CARLA ANDRÉIA SIMÃO DOS SANTOS. <b>UM OLHAR CRÍTICO AO PLANO NACIONAL DE POLÍTICAS PÚBLICAS PARA MULHERES ? PNPPM EM ATENÇÃO AS MÃES DOS ALUNOS COM NECESSIDADES EDUCATIVAS ESPECIAIS</b>. (Aperfeiçoamento/Especialização em GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade Aberta - UAB/UnB, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Eviane Aparecida Coelho Fonseca. <b>O USO DE TECNOLOGIAS NO PROCESSO DE APRENDIZAGEM</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FRANCISCA BELKENIA FERNANDES SOUSA. <b>A DISCRIMINAÇÃO RACIAL NAS ESCOLAS PÚBLICAS DO DISTRITO FEDERAL: VIVÊNCIAS E REALIDADES</b>. (Aperfeiçoamento/Especialização em GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade Aberta - UAB/UnB, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Jeferson Candido. <b>Roda da Conscientização</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jorgia Aparecida Pereira. <b>Filosofar e educar</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>RITA DE CASSIA TENÓRIO MENDONÇA. <b>A INVISIBILIDADE DA MULHER NAS POLÍTICAS PÚBLICAS PARA AS PESSOAS COM DEFICIÊNCIA</b>. (Aperfeiçoamento/Especialização em GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade Aberta - UAB/UnB, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>ROSANGELA MARIA DA COSTA BARBOSA. <b>A TRAJETÓRIA DAS PROFESSORAS NEGRAS NO MAGISTÉRIO: DIFICULDADES E AVANÇOS</b>. (Aperfeiçoamento/Especialização em GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade Aberta - UAB/UnB, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Bortolin. <b>O lúdico na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Adriana Mansano. <b>Recreio Dirigido</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Aurelina Mendes Coelho. <b>A expressão corporal na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carolina Dorna. <b>Desenvolvendo a Capacidade de Atenção da Criança Hiperativa em Sala de Aula</b>. (Aperfeiçoamento/Especialização em Psicopedagogia Clínica e Institucional) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cristiane de Oliveira Rios Barbosa. <b>A importância da oralidade no processo de alfabetização</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Daniela Furtado Campos. <b>Exame Nacional do Ensino Médio como política pública de avaliação, certificação e seleção: contribuições pedagógicas da contextualização de questões de Física na prova de 2013</b>. (Aperfeiçoamento/Especialização em POLÍTICAS, GESTÃO E FINANCIAMENTO DA EDUCAÇÃO) - Universidade Federal de Goiás. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Edna Aparecida da Silva Bertolin. <b>Ortografia: refletindo sobre o ato de escrever quando o erro é indicador de aprendizagem</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Elen Robera Francischini Matricardi. <b>O corpo e o movimento no desenvolvimento infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Eloísa Guideroli Dela Marta. <b>A importância do lúdico na alfabetização</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Erica Cristina Ferreira de Assunção. <b>A escrita no ensino Fundamental</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Izabel Cristina Elias. <b>Gestão do tempo e do espaço para o trabalho com o movimento na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Janaina Aparecida de Araújo. <b>Compreendendo o processo de ensino e aprendizagem da linguagem oral e escrita na educação infantil através de propostas lúdicas</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Jeniffer Roberta de Lima. <b>A importância da estimulação através do brincar no desenvolvimento da criança de 3 anos</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Juliana da Penha Vieira. <b>Contribuições de Vygotsky para a Educação</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Marlene de Fátima Almeida Maia Damasceno. <b>A leitura além dos muros escolares: uma perspectiva inovadora</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Michele Valente Santicholi Nicolau. <b>Musicalização e aprendizagem no desenvolvimento infantil</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Nilton Carlos da Silva Brasil. <b>Avaliação no Processo Ensino-Aprendizagem Abordagem e Tendência na Escola de Ensino Fundamental e Médio.</b>. (Aperfeiçoamento/Especialização em Psicopedagogia Clínica e Institucional) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Norma Delmonte Godinho dos Santos. <b>Desenvolvimento do raciocínio lógico por meio de atividades de resolução de problemas</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Rosangela Maria Benatti. <b>Leitura e escrita: as aprendizagens de crianças através das histórias infantis</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Rosimeire Rocha Oliveira Fernandes. <b>Da palavra à ação: o livro e o teatro- uma relação prazerosa</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Shirley Helena de Souza. <b>O uso do tangram no ensino de geometria</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Suzana Balbino. <b>Poesia Musicada</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Sylvia Maria Simonassi da Silva. <b>A importância do recreio no ambiente escolar</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Vanessa Rusig da Silva. <b>Circulando de mãos dadas com ética na educação infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Viviane Chavans Bessa Costa. <b>Leitura e Literatura: encanto e aprendizagem com crianças</b>. (Aperfeiçoamento/Especialização em Educação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ADRIANO SOUZA SENKEVICS. <b>A COR OU RAÇA NO CENSO DA EDUCAÇÃO SUPERIOR: DESAFIOS PARA O MONITORAMENTO DA LEI 12.711/2012</b>. (Aperfeiçoamento/Especialização em ESPECIALIZAÇÃO EM GESTÃO DE POLÍTICAS PÚBLICAS EM GÊNERO E RAÇA) - Universidade de Brasília, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Cristina Parreira. <b>A importância de jogos e brincadeiras na educação educação infantil</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Maria Damasceno. <b>A formação de leitores na educação infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cassiana Damiana de Freitas. <b>A contação de histórias na Educação Infantil como processo de formação de leitores.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cleide da Costa Porto Costa Porto Correa. <b>Vivendo e concivendo no mundo da imaginação</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, Universidade Aberta do Brasil. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Cândida Patricia Nunes de Oliveira. <b>Projeto de Atendimento Pedagógico Diferenciado</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Célia Carvalho Parra Dias. <b>O estímulo à leitura na Educação Infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Célia Regina Gomes Senna da Silveira. <b>A história da Arca de Noé formando leitores do maternal II</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Célia Regina Maximiano. <b>A leitura nos anos iniciais do Ensino Fundamental</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Cíntia Maria Rosseto Pereira. <b>A importância da leitura na Educação Infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Daniela Diniz de Oliveira. <b>Brincando e Aprendendo com Palavras</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Deise Aparecida Castro. <b>Relações educativas: a importância da parceria escola-família</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Débora Cristina Correa Marcondes. <b>Estimulação psicomotora e desenvolvimento infantil</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Edna Amaral de Oliveira e Silva. <b>Quem conta um conto aprende tanto</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Helenice Fagundes Vilela e Silva. <b>Pelos caminhos da diversidade</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Katyane Lima Souza. <b>A inserção da literatura clássica por meio dos contos de fadas com foco primordialmente subjetivo: contextualização dos temas abordados para o desenvolvimento do letramento e alfabetização.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Latife Coutinho Marangoni. <b>Leitura de contos clássicos na aprendizagem de alunos do 5º ano.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Luana de Carvalho Ferreira. <b>A experiência de um Programa socioeducativo na formação de jovens</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Psicopedagogia EaD) - FUMEC VIRTUAL, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Magali dos Santos Maronez. <b>A inserção das novas tecnologias da informação no ensino fundamental</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Margarete Maria Calícia Propheta. <b>A formação de leitores a partir da descoberta da literatura infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Maria Aurora de Carvalho Anselmo da Costa. <b>A importância da leitura para o desenvolvimento da aprendizagem da criança.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Maria Valeria Dergam Quintan. <b>O brincar e as necessidades da brincadeira.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Mariana Cristina Pereira. <b>Leitura na Educação Infantil: A construção de pequenos leitores.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Marli de Oliveira. <b>O uso de computador no processo ensino aprendizagem no ensino fundamental</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Mirian Pires Magalhães. <b>A Deficiência mental na sala de aula do ensino fundamental: dificuldades e soluções</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Mércia Santana de Oliveira. <b>Bullying: comportamento agressivo e negativo</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Renata Reis Pereira. <b>BIBLIOTECA: uma proposta de integração entre literatura e as novas tecnologias E AS NOVAS TECNOLOGIAS DA EDUCAÇÃO</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Renato Leal de Souza. <b>A importância da educação física no processo de alfabetização do aluno na pré-escola</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Rosane C. F. Gonçalves. <b>A psicomotricidade e sua importância na educação infantil</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Rosemeire de Oliveira Mora Domeneghti. <b>Comunicação com função social: cartas ao leitor.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Rosilane Aparecida Silva. <b>A importância do desenvolvimento da oralidade na educação infantil</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Rosângela Carvalho Brandão Leme. <b>A violência no contexto escolar</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Régina Maria Anunciação Martins. <b>Atividades lúdicas no processo de aprendizagem de frações</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Sabrina Magalhães. <b>Informatização na educação infantil no município de Ribeirão Preto</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, CAPES/UAB. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Sandra Maria Leme Barbosa. <b>Estimulando e desenvolvendo os projetos de leitura na escola: vida e obra de Monteiro Lobato.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Sebastião Donizeti da Silva. <b>Práticas docentes na escola básica: o uso das novas tecnologias da informação e da comunicação</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Selma Leal de Oliveira. <b>Psicomotricidade e educação infantil: considerações necessárias</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Solange Dias de Oliveira. <b>Menina bonita do laço de fita.</b>. (Aperfeiçoamento/Especialização em Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Vilma Helena dos Reis Sousa. <b>Se ligue em você!</b>. (Aperfeiçoamento/Especialização em Formação de Professores) - Universidade Federal de Alfenas, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Manoela Garcia Orlando e Francieli Chiarato Ribas. <b>Formaçao Continuada de Professores no âmbito das políticas públicas e escolar</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Estadual de Ponta Grossa, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aletéia Cristina Gasparello Fernandez. <b>Jogos e brincadeiras: desenvolvimento moral, valores e princípios</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Carolina Faustino. <b>O PROFESSOR (A) (LEITOR (A) E SUA INFLUÊNCIA NA RELAÇÃO DO ALUNO A) COM A LEITURA</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ana Paula de Souza. <b>A aquisição da leitura e da escrita através da literatura infantil</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ana Paula Vieira Matos. <b>As questões de indisciplina sob a ótica dos jovens da EJA</b>. (Aperfeiçoamento/Especialização em PÓS-GRADUAÇÃO ESPECIALIZAÇÃO LATO SENSU ESPECEJJA) - Faculdade de Educação - UFMG, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Andréia Aparecida Caetano. <b>FUNDAMENTAÇÃO PEDAGÓGICA SOBRE A CONSTRUÇÃO DE CONHECIMENTOS POR MEIO DO JOGO DO TANGRAM</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Barbara Gonçalves dos Santos. <b>Maiores possibilidades de aproveitamento do ensino no ensino a distancia para alunos com distúrbios de aprendizagem</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Continuada e a) - Universidade Aberta - UAB/UnB, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Beatriz Correa da Silva Pereira. <b>ESPAÇO E FORMA NA EDUCAÇÃO INFANTIL</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Carla dos Santos Wille e Elizabete de Oliveira. <b>Gestão escolar e implantação da Lei 10.639/03</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Estadual de Ponta Grossa, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Ceily Cristina Bizerra de Almeida. <b>A EDUCAÇÃO DOS ALUNOS COM ALTAS HABILIDADES/SUPERDOTAÇÃO: DESAFIOS E POSSIBILIDADES</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Cirlene Aparecida Inácio de Resende. <b>Como lidar com o público jovem presente na EJA em suas diversidades e diferenças</b>. (Aperfeiçoamento/Especialização em PÓS-GRADUAÇÃO ESPECIALIZAÇÃO LATO SENSU ESPECEJJA) - Faculdade de Educação - UFMG, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Claudia Maria Zanini. <b>Alfabetização e letramento: repensando o ensino da leitura e da escrita</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Claudiana Helena Moreira. <b>O ENSINO DE MULTIPLICAÇÃO NAS SÉRIES INICIAIS DO ENSINO FUNDAMENTAL</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Cláudia Roberta Küll. <b>O valor do amor e as relações afetivas na atualidade: a visão dos adolescentes</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Célia Margarida de Araújo. <b>O preconceito e a discriminação enfrentados pelos alunos jovens da EJA</b>. (Aperfeiçoamento/Especialização em PÓS-GRADUAÇÃO ESPECIALIZAÇÃO LATO SENSU ESPECEJJA) - Faculdade de Educação - UFMG, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Daniela Maria Mussolin Valla Rei. <b>Preservação do Meio Ambiente e Conciência Ecológica</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Daniele da Cunha Pereira. <b>O ATENDIMENTO EDUCACIONAL REALIZADO NO ESPAÇO HOSPITALAR</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Ednéia Vasconcelos de Oliveira Faria. <b>As relações afetivas na dificuldade de aprendizagem da criança</b>. (Aperfeiçoamento/Especialização em Especialização em Psicopedagogia EaD) - Universidade FUMEC, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Elanice Maria Zeferino. <b>ALFABETIZAÇÃO E LETRAMENTO: AS ESTRATÉGIAS DE LEITURA DE CRIANÇAS NÃO ALFABETIZADAS</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Eliana Martins de Oliveira. <b>As tecnologias da informática no processo de alfabetização e letramento</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Elisa Silva. <b>Evolução da escrita</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Eva Aparecida de Moraes Silva. <b>UTILIZAÇÃO DE JOGOS NO ENSINO - APRENDIZAGEM DE MATEMÁTICA</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Gabriela Prudenciano Molina. <b>Valores na Educação</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Gercineide Maia de Sousa. <b>A Educação a Distância na Potencialização do Acesso a Saberes Culturais dos Acadêmicos com Deficiência Visual do Estado do Acre</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Continuada e a) - Universidade Aberta - UAB/UnB, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Gisela Cristina Moreira Furlan. <b>Avaliação: momento de reflexão sobre o processo de ensino e de aprendizagem</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Gisleine Cristina Mazzolin. <b>A Violência Escolar e o Papel do Professor Mediador e Comunitário</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Guilherme Vieira. <b>Imagem do livro didático e a construção da autoestima para os jovens estudantes negros e brancos da EJA</b>. (Aperfeiçoamento/Especialização em PÓS-GRADUAÇÃO ESPECIALIZAÇÃO LATO SENSU ESPECEJJA) - Faculdade de Educação - UFMG, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Hilcéia Ardila de Carvalho. <b>O interesse das crianças em estudar história</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Ivani de Souza. <b>A importância do currículo do primeiro ano do ensino fundamental:</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Jeane Maria de Melo Lima. <b>SISTEMA DE NUMERAÇÃO DECIMAL NA EDUCAÇÃO INFANTIL</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Jesuíno Junior Pires. <b>Considerações sobre o Conceito de Intencionalidade em Edmund Husserl</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Filosofia) - Faculdade Católica de Pouso Alegre, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Joselina Raimunda de Oliveira. <b>Evasão Escolar no curso do programa nacional de integração da educação profissional com a educação básica na modalidade de educação de jovens e adultos na formação inicial e continuada integrada com o ensino fundamental (PROEJA-FIC)</b>. (Aperfeiçoamento/Especialização em Especialização em Cursos de Especialização-Proeja) - Centro Federal de Educação Tecnológica de Minas Gerais, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Juliana Ramos Eler. <b>Dificuldade de Aprendizagem em Matemática: As perspectivas de professores e alunos em relação ao insucesso na Matemática</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Juliana Rossi Duci. <b>Um olhar sobre o professor readaptado e sua realidade profissional</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Jéssica Eloy. <b>A Importância da Literatura Infantil</b>. (Aperfeiçoamento/Especialização em Língua Portuguesa) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Kaytilane Andrade de Santana. <b>Gênero na educação infantil: uma reflexão sobre a prática dos educadores</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Larissa Ramos Lucas. <b>Leitura: caracterização do gênero e objetivos - aspectos cognitivos que contribuem no processo de leitura na Educação Infantil</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Lilian Silva de Carvalho. <b>EDUCAÇÃO ALIMENTAR: UNIÃO ENTRE CORPO SAUDÁVEL E CORPO BONITO</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Lúcia Cristina de Miranda. <b>O projeto político-pedagógico como instrumento de gestão democrática da escola: análise de uma experiência</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>M., A.; A., C.; R. C.; V., G.; R., M.;A., N. <b>Tecendo Histórias de EJA a partir das Juventudes e da Diversidade Étnico-Racial</b>. (Aperfeiçoamento/Especialização em PÓS-GRADUAÇÃO ESPECIALIZAÇÃO LATO SENSU ESPECEJJA) - Faculdade de Educação - UFMG, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Maria Cristina Bolela e Silva. <b>A prática docente alfabetizadora no primeiro ano do Ensino Fundamental</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Maria Eunice Rodrigues. <b>As jovens negras da EJA e o mercado de trabalho</b>. (Aperfeiçoamento/Especialização em PÓS-GRADUAÇÃO ESPECIALIZAÇÃO LATO SENSU ESPECEJJA) - Faculdade de Educação - UFMG, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Maria José Botelho. <b>Currículo de história e a vida do aluno</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Maria Lucia Colucci Izeppi. <b>EDUCAÇÃO ALIMENTAR, NUTRIÇÃO E ALIMENTAÇÃO: CONCEITOS E PRECONCEITOS</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Maria Madalena Abraão Macedo. <b>Alfabetização e letramento: uma análise a partir dos contributos de Magda Soares</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Maria Olívia de Camargo Bettencourt Gamb. <b>ÉTICA, VALORES E PARTICIPAÇÃO ESCOLAR</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Mariana Osterreicher Laporta Grosseli. <b>DOCÊNCIA: DESAFIOS E DIFICULDADES DE UMA PROFISSÃO EM PROCESSO DE DESVALORIZAÇÃO</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Marilene do Rocio Pistune Ferreira Bueno. <b>Formação continuada</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Estadual de Ponta Grossa, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Marlete Aparecida da Silva. <b>O ensino de Língua Estrangeira Inglês no curso de edificações do CEFET/MG no PROEJA</b>. (Aperfeiçoamento/Especialização em Especialização em Cursos de Especialização-Proeja) - Centro Federal de Educação Tecnológica de Minas Gerais, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Milena Barbosa Bento. <b>A formação docente e sua implicação na discriminação de gênero na escola</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Milene Martins O. Haber. <b>Alfabetização: em busca da perda de especificidade no processo de ensino da leitura e da escrita</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Mirze de Sousa Melo Freitas. <b>Educação a distância com ferramentas para a inclusão de Portadores de Necessidades Educacionais Especiais</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Continuada e a) - Universidade Aberta - UAB/UnB, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Nailsa Vieira Silva. <b>Analisando quais os fatores que influenciam para a desistência e a não finalização do curso de EAD especialização em desenvolvimento humano, educação e inclusão escolar no Distrito Federal</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Continuada e a) - Universidade Aberta - UAB/UnB, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Neusa Pereira de Assis. <b>Ocupação dos espaços pelos estudantes negros a partir da sala de aula</b>. (Aperfeiçoamento/Especialização em PÓS-GRADUAÇÃO ESPECIALIZAÇÃO LATO SENSU ESPECEJJA) - Faculdade de Educação - UFMG, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Nilza Palermo Vasconcellos. <b>Ecologia: educação ambiental</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Odila Peniano Pinheiro. <b>Uma análise das concepções de leitura dos professores</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Patrícia Pereira. <b>PAPEL DO PROFESSOR DE EDUCAÇÃO INFANTIL NA SOCIEDADE CONTEMPORÂNEA</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Rafaela Beatriz Nascimento. <b>O professor leitor na educação infantil: uma pesquisa acerca da leitura e literatura na pré-escola.</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Renata Cristina Silva Mello. <b>A perda da especificidade da alfabetização: suas causas e consequências</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Romilda Duarte. <b>Como tornar interesante o ensino de história nas séries iniciais?</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Rosana Cristina Cid Massari. <b>ESCOLA E FAMÍLIA: Uma parceria importante para a formação do cidadão</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Rosemary Teresa Bionês Marcolino. <b>O currículo de história e o livro didático</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Rosirene Sartório. <b>Uma experiência de Educação matemática, a partir do uso das novas tecnologias, em uma escola pública do interior do Estado de São Paulo</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Sabrina Amorin. <b>De diálogos a Tertúlias: cultura da oralidade na educação de adultos.</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação de Jovens e Ad) - Universidade Federal de São Carlos, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Sandra Aparecida de Souza. <b>História infantis e a aquisição da leitura e escrita</b>. (Aperfeiçoamento/Especialização em Teorias e práticas na educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Sandra Regina Negócio. <b>Alfabetização e Letramento: Qual a concepção dos professores?</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Simone Cristina Mello. <b>Representações Sociais de pais e professores sobre a pediculose no ensino fundamental (1º ao 6º ano) em uma escola pública do estado de São Paulo</b>. (Aperfeiçoamento/Especialização em Ética, Valores e Saúde na Escola) - Universidade de São Paulo. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Simão Pedro Lopes Rodrigues. <b>Reflexão sobre as limitações e possibilidades da atuação do docente no PROEJA</b>. (Aperfeiçoamento/Especialização em Especialização em Cursos de Especialização-Proeja) - Centro Federal de Educação Tecnológica de Minas Gerais, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Sueli Barbosa Matsushima. <b>Alfabetização em contexto de letramento</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Sueli da Silva Amorim. <b>Reflexões sobre a experiência de um professor de matemáticoa de um curso do PROEJA</b>. (Aperfeiçoamento/Especialização em Especialização em Cursos de Especialização-Proeja) - Centro Federal de Educação Tecnológica de Minas Gerais, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Tatiane Cecília da Silva. <b>Letramento e alfabetização: conceitos e práticas</b>. (Aperfeiçoamento/Especialização em Teorias e práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Tatiane Cristina de Carvalho. <b>Diversidade Cultural e cotidiano escolar</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Estadual de Ponta Grossa, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>Viviani Alvisi Verlotta de Mello. <b>Reflexões acercada Prática Avaliativa</b>. (Aperfeiçoamento/Especialização em Teorias e Práticas da Educação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Ângela Maria Marciel Bertolino. <b>PROEJA: conquista de espaços, acesso e permanência no CEFET/MG</b>. (Aperfeiçoamento/Especialização em Especialização em Cursos de Especialização-Proeja) - Centro Federal de Educação Tecnológica de Minas Gerais, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Mendes Cardoso. <b>O Psicopedagogo e suas intervenções mediadoras no processo de reabilitação do adolescente infrator</b>. (Aperfeiçoamento/Especialização em Especialização em Psicopedagogia EaD) - Universidade FUMEC, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Luciana M. da Cunha Zani. <b>Relação Ética entre Professor e o Psicopedagogo</b>. (Aperfeiçoamento/Especialização em Psicopedagogia Clínica e Institucional) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MAGNA MARIA MARQUES DE SOUZA. <b>EDUCAÇÃO INCLUSIVA POR MEIO DA ARTE NO ENSINO REGULAR</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MARIA APARECIDA DE MORAIS. <b>BURNOUT NOS DOCENTES ENVOLVIDOS NO TRABALHO DE INCLUSÃO DE ALUNOS ESPECIAIS NO ENSINO REGULAR DA REDE PÚBLICA</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MARIA ELISA REZENDE QUEIROZ TAKAHASHI. <b>A INCLUSÃO DE ALUNOS COM HISTÓRICO DE AGRESSÃO NO CONTEXTO ESCOLAR</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Mariene Gomes Botelho Valentim. <b>A TEORIA SÓCIO-INTERACIONISTA NO PROCESSO EDUCACIONAL DOS ALUNOS DA APAE DE IPATINGA-MG</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Marilene Herculano de Oliveira. <b>A ARTE DE INCLUIR: DESAFIOS E POSSIBILIDADES</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marilúcia Borges Maciel. <b>Sala de Recurso Multifuncional,</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MARISA SOARES ANDRADE. <b>CRENÇAS E ANSEIOS DE UM EDUCADOR NO PROCESSO INCLUSIVO DE ALUNOS COM PARALISIA CELEBRAL.</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MARLEI DA SILVA CAMPOS. <b>INCLUSÃO DE DOIS ALUNOS CADEIRANTES EM UMA ESCOLA REGULAR DA REDE MUNICIPAL DE IPATINGA</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Murilo C. Pereira. <b>Interacionismo e o Ensino de Química em Revista de Divulgação Científica</b>. (Aperfeiçoamento/Especialização em Docência do Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MÔNICA ANDRÉA ALVES SANTOS EMERICK. <b>O PROCESSO DE INCLUSÃO EDUCACIONAL E A FORMAÇÃO DOS PROFESSORES DO ENSINO REGULAR</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Desenvolvimento Humano,) - Universidade de Brasília, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Raquel Candida Torres. <b>A sociedade da informação e a produção/prática de leitura</b>. (Aperfeiçoamento/Especialização em Especialização em Psicopedagogia EaD) - Universidade FUMEC, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Tamiris Aparecida Magalhães. <b>Postura do Educador: A importância do contúdo na sua formação</b>. (Aperfeiçoamento/Especialização em Psicopedagogia Clínica e Institucional) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ane Glice Rocha Araújo. <b>O brincar na escola: diálogos com a gestão escolar</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão da Educação Básica) - Universidade Federal de Minas Gerais, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cecília Giudice Badari. <b>Gestão compartilhada, democracia na gestão escolar e parceria com a comunidade: um sucesso de muitas mãos</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cláudia Fernandes da Silva Souza. <b>Refleões sobre espaços e pessoas da escola</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Célia Alves Braga. <b>Reflexão crítica da construção do projeto político-pedagógico: limites e possibilidades</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão da Educação Básica) - Universidade Federal de Minas Gerais, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Elaine Pereira Soares Alves. <b>Pontos norteadores do projeto político-pedagógico</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão da Educação Básica) - Universidade Federal de Minas Gerais, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Izabel Cristina Prieto dos Santos. <b>Cidadania inclusiva: visão igualitária dos diferentes</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Janete Zilda Quaiati Slododian. <b>O processo ensino-aprendizagem e a gestão escolar frente a este desafio: dificuldade de aprendizagem e/ou esinagem?</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Maria Aparecida Dias Sousa. <b>Escola de tempo integral: desafios e possibilidades</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão da Educação Básica) - Universidade Federal de Minas Gerais, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Maria da Conceição Rocha Alves. <b>A construção do projeto político-pedagógico da escola: uma avaliação crítica</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão da Educação Básica) - Universidade Federal de Minas Gerais, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Monica de Lourdes de Abreu Martinez Lima. <b>Gestão democrática: a interação família-escola</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Rita de Cássia Dornelles Corrêa. <b>Gestão, família e professores frente à qualidade da educação</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Roseli Garcia Pires de Paula. <b>Os desafios da interação escola e família mediada pela gestão escolar</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Sueli Candido Lira Jonson. <b>A avaliação como objeto de transformação</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Tatiane Vieira Silva. <b>Conselho escolar e gestão democrática</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão da Educação Básica) - Universidade Federal de Minas Gerais, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Vera Lúcia Malfa. <b>Gestão democrática escolar: função da escola e sua relação com a comunidade</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Escolar) - Universidade Federal de São Carlos, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alcione Teodoro da Silva Bastos. <b>Ética e cidadania: a importância do gestor no resgate de valores dentro da unidade escolar</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alessandra Nunes Pereira. <b>Uma nova concepção de gestão: os desafios para a implantação da gestão democrática</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Gladys Dias. <b>Um estudo sobre as tendências sobre a gestão democrática</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Andreza Cristina Palmezano. <b>As políticas e condições para atuação docente: escola pública X escola privada</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Aparecida Talioli. <b>Qualidade de ensino e formação docente: um desafio para os educadores</b>. (Aperfeiçoamento/Especialização em Especialização em Supervisão Educacional) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Claudia Cristina da Silva Gonsales. <b>O papel do supervisor de ensino na formação continuada dos docentes</b>. (Aperfeiçoamento/Especialização em Especialização em Supervisão Educacional) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Conceição Ramos dos Santos. <b>O gestor escolar frente aos princípios de uma gestão democrática</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Evelin Biassi de Almeida. <b>A ação do supervisor escolar na alfabetização do ensino fundamental de nove anos</b>. (Aperfeiçoamento/Especialização em Especialização em Supervisão Educacional) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fabiana Aparecida Guevara. <b>A importância do gestor na inclusão social</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fabiana Bars. <b>Educação de Jovens e Adultos - conquistas e desafios da construção curricular na rede pública estadual</b>. (Aperfeiçoamento/Especialização em Especialização em Supervisão Educacional) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Luciana Crippa. <b>Gestão escolar democrática face aos desafios da contemporaneidade</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Luciana Renata de Toledo. <b>Uma escola que vai além do saber sistematizado, visando desenvolver o seu aluno como um ser social, participativo e reflexivo</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Maria Emília Zancheta Bulla. <b>Inclusão social: a lei e a prática no Brasil</b>. (Aperfeiçoamento/Especialização em Especialização em Administração Escolar) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Nanci Ferreira. <b>O papel do supervisor na formação de docentes</b>. (Aperfeiçoamento/Especialização em Especialização em Supervisão Educacional) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Reginaldo Inocenti. <b>A supervisão e a nova proposta curricular do Estado de São Paulo</b>. (Aperfeiçoamento/Especialização em Especialização em Supervisão Educacional) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Rosicleide Costa Scapim da Fonseca Carósio. <b>A supervisão educacional na busca da educação ideal</b>. (Aperfeiçoamento/Especialização em Especialização em Supervisão Educacional) - Faculdade de Educação São Luís, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alex Rodrigues Balestero. <b>A IMPORTÂNCIA DA TECNOLOGIA DE INFORMAÇÃO NA FORMAÇÃO DO PROFESSOR</b>. (Aperfeiçoamento/Especialização em Pós Graduação Em Docência no Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Swetlana Carneiro Rodrigues Arrigucci. <b>LÍNGUA / IDIOMA / DIALETO: DÉCONSTRUCTION SEM FRONTEIRAS</b>. (Aperfeiçoamento/Especialização em Pós Graduação Em Educação Especial) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Franco. <b>A dificuldade na escrita em dois momentos: a prática na sala de aula e a exigência do vestibular</b>. (Aperfeiçoamento/Especialização em Especialização Em Psicopedagogia) - Centro Universitário Salesiano de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Carolina Gomes de Freitas. <b>Orientação vocacional: o adolescente em processo de escolha</b>. (Aperfeiçoamento/Especialização em Especialização Em Psicopedagogia) - Centro Universitário Salesiano de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Antônio Carlos Gonzalez. <b>Segurança Pública: Resposabilidade Social e Compromisso Docente</b>. (Aperfeiçoamento/Especialização em Docência do Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Beatriz Bureno Pereira Muniz. <b>Formação do Professor: Cursos Noturnos e Diurnos</b>. (Aperfeiçoamento/Especialização em Docência do Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cristiano de Carvalho Baliero. <b>Interdisciplinaridade: Visão dos alunos da Graduação em Veterinária</b>. (Aperfeiçoamento/Especialização em Docência do Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Hélder Esteves. <b>O Bom Professor e o Bom Aluno da Graduação em Veterinária</b>. (Aperfeiçoamento/Especialização em Docência do Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>João Batista Zaratini. <b>Professor e sua Importância Social</b>. (Aperfeiçoamento/Especialização em Docência do Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marcos Alexandre Ivo. <b>O Professor da Veterinária e o Aluno com Necessidades Educativas Especiais</b>. (Aperfeiçoamento/Especialização em Docência do Ensino Superior) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fernanda Pexeiro. <b>Agressividade Infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Infantil) - Faculdades da Fundação de Ensino de Mococa, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Luciana Amaro Faion. <b>Afeto, carinho e brincadeira no alívio da dor.</b>. (Aperfeiçoamento/Especialização em Psicopedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Marcela Cardozo. <b>Qual a Contribuição da escola na Formação de uma Cidadão Participativo?</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Infantil) - Faculdades da Fundação de Ensino de Mococa, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Maria de Lourdes Scarcella. <b>Pensando a Infância e o Direito de Brincar: Uma Perspectiva na Ótica da educação Infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Infantil) - Faculdades da Fundação de Ensino de Mococa, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Vilma Ap. Carvalho Nascimento. <b>Inclusão: Uma Reflexão Necessária</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Infantil) - Faculdades da Fundação de Ensino de Mococa, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Flávia Catosso. <b>Inclusão de Deficientes na Rede Regular de Ensino</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Arytha Alana de Lemos. <b>As Contribuições da epistemologia Genética na Prática Educativa</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Eliana Rufino. Um olhar sobre o brincar: A importância do brincar para o desenvolvimento cognitivo da criança com Necessidades Educativas Especiais (D. <b>M.)</b>. (Aperfeiçoamento/Especialização em Educação Especial) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FABIANA ALVES DA CUNHA. <b>A INCLUSÃO E O AUTISMO: UMA NOVA PERSPECTIVA NA PRÁTICA EDUCATIVA</b>. (Aperfeiçoamento/Especialização em Educação Especial) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gabriela Caixeta Xavier. <b>A Concepção do Limite na Educação Infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Gisele Adriana Dante. <b>O desafio da inclusão social: princípios orientadores da implementação da Educação Inclusiva.</b>. (Aperfeiçoamento/Especialização em Especialização Em Psicopedagogia) - Centro Universitário Salesiano de São Paulo, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Isabel Cristina de Paula Armnado. <b>Cuidar e Cuidar</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Isabela Bedin Jacinto. <b>O regime de Progressão Continuada na Rede Pública</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jacina de Sousa. <b>A Importância do Brincar e do Brinquedo para as crianças de 0 a 6 anos</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Joelma Freitas da Fonseca. <b>Família e Escola</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Josiana Kenia Celino. <b>Alfabetização e Letramento</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Lilian Aparecida Hergert Cia. <b>Dificuldades psicopedagógicas para o aprendizado de uma segunda língua para adultos.</b>. (Aperfeiçoamento/Especialização em Especialização Em Psicopedagogia) - Centro Universitário Salesiano de São Paulo, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Luciane Cheavegati. <b>A Inclusão de Crianças Portadoras de Necessidades Educativas Especiais nas séries iniciais: Deficientes Físicos</b>. (Aperfeiçoamento/Especialização em Educação Especial) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Maria Cecília Teixeira. <b>O Professor como Referência</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Tatiane Lara Ferreira da Silva. <b>A Criança e o Computador</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cyntia de Sousa Espanha. <b>A Criança e o Desenho</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FABIANA ALVES DA CUNHA. <b>A INCLUSÃO E O AUTISMO: UMA NOVA PERSPECTIVA NA PRÁTICA EDUCATIVA</b>. (Aperfeiçoamento/Especialização em Educação Especial) - Universidade Metodista de Piracicaba, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Iolanda Cristina de Melo N. Brunharo. <b>As Ideologias Implícitas na Literatura Infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>JUSSARA ANTUNES ALMEIDA. <b>A FORMAÇÃO DO EDUCADOR E O ALUNO AUTISTA</b>. (Aperfeiçoamento/Especialização em Educação Especial) - Universidade Metodista de Piracicaba, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Lucileni Candido Ribeiro. <b>A Música e seu Papel no Contexto de Aprendizagem</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Miriam Marqueti. <b>O Desenvolvimento da Criança de 0 - 3 anos</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Renata Cristina de Resende. <b>A Importância do Jogos Na educação Infantil</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SABRINA CRISTINA STRABELLI. <b>INCLUSÃO E AS NECESSIDADE EDUCATIVAS ESPECIAIS: REALIADADE QUE NEM SEMPRE É PARA TODOS</b>. (Aperfeiçoamento/Especialização em Educação Especial) - Universidade Metodista de Piracicaba, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Sandra Maria Bento. <b>Contar Histórias às crianças de 0 a 6 anos</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Viviane Depintor Coelho. <b>Contribuição para os Docentes frente a Diversidade de Aprendizagem dos Alunos</b>. (Aperfeiçoamento/Especialização em Especialização em Educação) - Faculdades da Fundação de Ensino de Mococa, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cynara Albino Rabelo Reis. <b>Fracasso Escolar e Alfabetização: Causas e Providências</b>. (Aperfeiçoamento/Especialização em Especialização Em Educação) - Universidade Federal de Rondônia, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gilma Gomes. <b>Currículos Escolares: Solução ou Problema</b>. (Aperfeiçoamento/Especialização em Especialização Em Educação) - Universidade Federal de Rondônia, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aurelúcia Moura dos Santos. <b>Dificuldades apresentadas por falantes de língua portuguesa na conjugação de verbos irregulares.</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cecília de Oliveira Cavalcante Abichabki. <b>Alfabetização e Lingüística</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cláudia Nunes Pires Sanches. <b>Leitura e interpretação: causas do fracasso na escola</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Paulo Sarde Lopes. <b>A linguagem popular e sua influência no ensino de Língua Portuguesa</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1999.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Juserina Fátima Flores. <b>Formulação de enunciados em exercícios avaliativos</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Maria das Graças Xavier Rabelo Garcia. <b>O sujeito na análise sintática do português</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Maria de Fátima Amaral de Oliveira. <b>Análise sintática: o bicho papão das aulas de Língua Portuguesa</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Maria Goreth da Silva. <b>A Formação do Hábito de Leitura no Primeiro Grau</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Silvana Maria de Melo. <b>Estudo das estruturas predicativas e de adjunção no português</b>. (Aperfeiçoamento/Especialização em Especialização Em Língua Portuguesa) - Universidade Federal de Rondônia, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 07/04/2023 19:01:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
