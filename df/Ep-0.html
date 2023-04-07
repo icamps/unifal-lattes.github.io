@@ -1,0 +1,1061 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Física</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Física</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[1989,
+1],
+[1992,
+1],
+[1994,
+1],
+[1995,
+1],
+[1996,
+4],
+[1997,
+7],
+[1998,
+7],
+[1999,
+2],
+[2000,
+12],
+[2001,
+12],
+[2002,
+7],
+[2003,
+9],
+[2004,
+16],
+[2005,
+29],
+[2006,
+12],
+[2007,
+25],
+[2008,
+22],
+[2009,
+38],
+[2010,
+26],
+[2011,
+22],
+[2012,
+27],
+[2013,
+16],
+[2014,
+16],
+[2015,
+14],
+[2016,
+7],
+[2017,
+7],
+[2018,
+13],
+[2019,
+16],
+[2020,
+25],
+[2021,
+29],
+[2022,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 426<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>VI Workshop de Gravitação e Cosmologia em Natal. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>VI Workshop Escola de Computação e Informação Quântica - WECIQ 2022. Subspace-Search Variational Quantum Eigensolver (SSVQE) as a tool in materials science, a benchmark. 2022. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1a Escola de Inverno de Ensino de Física. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2021 Frontiers in Optics + Laser Conference - 2021 FiO LS. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2021 OSA Advanced Photonics Congress. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>2021 Quantum Information Measurement (QIM) Topical Meeting. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>5 Escola de Pesquisadores do Campus USP São Carlos. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>A democratização do acesso ao ensino superior: algumas reflexões sobre seus efeitos, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Como aprendem os alunos do ensino superior? Contribuições da Autorregulação da aprendizagem, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Como aprendem os alunos do ensino superior? Contribuições da Neurociência para a aprendizagem, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Coupling Defect Centers in Diamond to Fabry-Perot Microcavities, OSA Technical Group Webinar. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Desenho Universal para a aprendizagem: uma proposta de orientação dos planejamentos do ensino, da aprendizagem e da avaliação, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Ensino Híbrido: concepções teóricas e os efeitos no planejamento do ensino, da aprendizagem e da avaliação, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ensino Remoto x Ensino Presencial: os impactos no planejamento do ensino e da avaliação, UNIFAL-MG. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Estratégias e experiências no desenvolvimento pedagógico de disciplinas com turmas grandes e com alta retenção, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Hot nanophotonics: Light with a phase transition, OSA Technical Group Webinar. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Encontro do MNPEF. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>III Simpósio da Pós-Graduação em Física - UFV. 2021. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Metodologias Ativas: experiências. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Metodologias Ativas: introduções. 2021. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Os desafios do Ensino Remoto Emergencial nos relatórios de pesquisa ERE, UNIFAL-MG. 2021. (Exposição).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Os modelos de ingresso na universidade pública brasileira: a afiliação universitária e os processos de não-escolha, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Partilhando experiências sobre o processo avaliativo no ERE: construindo conhecimentos a partir das reflexões sobre a prática - Módulo I, UNIFAL-MG. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Partilhando experiências sobre o processo avaliativo no ERE: construindo conhecimentos a partir das reflexões sobre a prática - Módulo II, UNIFAL-MG. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Programas de acompanhamento discente como estratégias de apoio ao sucesso acadêmico, UNIFAL-MG. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Society for Mathematical Biology Annual Meeting.A Bayesian Framework for Mathematical Modeling of In Vivo Pharmacokinetic Profiles of Magnetic Particles. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>The 2021 Virtual Conference on Lasers and Electro-Optics - CLEO 2021. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>V Semana Acadêmica da Física. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Valorização da Docência - o papel da reflexão sobre a prática, UNIFAL-MG. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Virtual Society for Mathematical Biology Annual Meeting.Gastric Emptying and Orocaecal Transit Analyses of Diabetic and Control Individuals Through Deep Neural Networks. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XV International Workshop on Hadron Physics. 2021. (Outra).</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2020 OSA Advanced Photonics Congress. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>A preparação do estudante para assumir o protagonismo no processo de aprendizagem, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Audiência pública - ICEx - conversas com coordenações de cursos, direção e comunidade acadêmica, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Caminhos para o ensino mediado pela tecnologia digital, UNIFAL-MG. 2020. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Congresso GEN De Repente Professor Online. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Educação Mediada por Tecnologias Digitais - Moodle - Seminário de Abertura. 2020. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Encontro de Outono 2020 da Sociedade Brasileira de Física (SBF). Collective spontaneous emission of two point-dipole emitters near a plasmonic core-shell nanosphere. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Equilibrar o processo avaliativo em modelos de ensino mediados por tecnologias, UNIFAL -MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Experiências de transição do ensino presencial para o ensino mediado por tecnologias, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>GSuite: apresentação das ferramentas Classroom, Groups e Meet. 2020. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Encontro sobre Divulgação e Ensino de Física de Partículas - IPPOG Brasil. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Metaphotonics and Metasurfaces Empowered by Mie Resonances, OSA Technical Group Webinar. 2020. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>O perfil do alunado e seu impacto no ensino mediado por tecnologias, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>O valor pedagógico da interação professor e aluno e os impactos da ausência de feedback no processo de ensino e aprendizagem, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Oficina Planejamento do Ensino Remoto - Roteiro Didático. 2020. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Optical Metamaterials Based on Broken Symmetries, OSA Technical Group Webinar. 2020. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Os acordos pedagógicos que permitem o ensinar e aprender no ensino superior, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>OSA Imaging and Applied Optics Congress & Optical Sensors and Sensing Congress. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Painel Planejamento da Aprendizagem e do Processo Avaliativo. 2020. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Roda 2 - Metodologias avaliativas no ERE: boas práticas em avaliação formativa, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Roda de Conversa com Coordenações de Curso, UNIFAL-MG. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Rodas de Experiências: aprendizagens no ensino remoto emergencial. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Simposio Virtual Internacional de Saberes y Conocimiento. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>The 2020 Virtual Conference on Lasers and Electro-Optics - CLEO 2020. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XII Mostra Artística e Cultural da Unifenas. 2020. (Outra).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Encontro do Curso de Física, DF, UNIFAL-MG. 2019. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>39ª Reunião Nacional da ANPED (FORPRED). 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Conferência Ciência e Música - Einstein's Universe, Centro Cultural de Belém (CCB), Lisboa. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Constelação Familiar: A Simetria Oculta do Amor, UNIFAL-MG. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Em defesa da Universidade: ciência, internacionalização, inovação e investimentos no Brasil, UNIFAL-MG. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Encontro de Outono 2019 da Sociedade Brasileira de Física (SBF). Optical memory effects in disordered media with coated scatterers. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Encontro Regional Sudeste do Mestrado Nacional Profissional em Ensino de Física. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Extensão: Articulação com o Ensino e a Pesquisa nos desafios da curricularização, UNIFAL-MG. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Festival Internacional Pint of Science Alfenas.Um gato e um átomo radiativo entram num bar.... 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Introduction to Deep Learning in Astronomy. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Introdução à Visão Sistêmica no Contexto Educacional, UNIFAL-MG. 2019. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>META'19, the 10th International Conference on Metamaterials, Photonic Crystals and Plasmonics. Tunable Fano resonances in the radiative decay rate of a dipole emitter near a graphene-coated nanowire. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Workshop on Quantum Symmetries. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XIII Encontro de Iniciação Científica e V Seminário internacional Online de inovação.Projeto de adequação para edificação, para se tornar referência sustentável em construção e uso. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XLII Reunião Anual da Sociedade Brasileira de Neurociência e Comportamento - SBNeC. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXXIV Encontro de Físicos do Norte e Nordeste.Tunable Fano resonances in the decay rates of a pointlike emitter near a graphene-coated nanowire. 2019. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Advances in Quantum Simulation With Ultracold Atoms, IIP, UFRN.Fano resonances in the decay rates of an atom near a plasmonic nanoshell. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CoScaLi V: Workshop on Collective Scattering of Light.Fano resonances in plasmonic core-shell nanoparticles and the Purcell effect. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Dia da Cultura Nerd no IFSuldeminas.Diálogos: a física e a cultura nerd?. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro de Outono 2018 da Sociedade Brasileira de Física (SBF). Fano resonances and the fluorescence enhancement of a dipole emitter near a plasmonic nanoshell. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Evento comemorativo dos dez anos do Doutorado em Ensino de Ciências e Matemática. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Simpósio de Espiritualidade em Oncologia do ICESP. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>III Congreso Nacional Peruano de Estudiantes de Farmacia y Bioquímica. El pollo molecular. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>III Congreso Nacional Peruano de Estudiantes de Farmacia y Bioquímica. Es el acoplamiento molecular el Santo Grial de la biologia Estructural?. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IV Workshop do Centro de Rádio Astronomia e Astrofísica Mackenzie e Programa de Pós Graduação em Ciências e Aplicações Geoespaciais.O uso de técnicas de Deep Machine Learning na detecção de periodicidade em dados multi frequências de quasares. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SPAnet Workshop on Time Series in Astronomy.Regularização e detecção de periodicidade em series temporais com XGBoost. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XLII Reunião Anual da Sociedade Astronômica Brasileira.Study of quasar OV 236 variability with scalable tree boosting system. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XVII EPEF (Encontro de Pesquisa em Ensino de Física).EMOÇÕES E CULTURA DIDÁTICA. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXXIX Encontro Nacional de Física de Partículas e Campos. Fano resonances and the Purcell effect in the spontaneous emission of an atom near a plasmonic nanoshell. 2018. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ICTP-SAIFR School on Interaction of Light with Cold Atoms.Tuning directional scattering through external magnetic fields in magneto-optical disordered media. 2017. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>META'17, the 8th International Conference on Metamaterials, Photonic Crystals and Plasmonics. Fano resonance and spontaneous emission of an atom near a plasmonic nanoshell. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>V Ciclo de Palestras da Construção Civil. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>X Congreso Internacional sobre Investigación en Didáctica de las Ciencias. Abordagem CTS da Energia Nuclear na Educação de Jovens e Adultos. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XL Encontro Nacional de Física da Matéria Condensada. Estimating multiple scattering quantities in disordered media with low density of scatterers. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XXI Encontro de Iniciação Científica. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXII SIMPÓSIO NACIONAL DE ENSINO DE FÍSICA.A Formação Cidadã segundo a Perspectiva CTS: Diferentes Modelos de Cidadãos. 2017. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>6th International Conference on Structural Biology. In silico development of new acetylcholinesterase inhibitors. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>6th International Conference on Structural Biology. Is molecular docking the holy grail of computational modeling?. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CoScaLi IV: Workshop on Colletive Scattering of Light.Tuning the electromagnetic wave transport in two-dimensional disordered media containing gyrotropic core-shell cylinders. 2016. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro de Física 2016 - XXXIX Encontro Nacional de Física da Matéria Condensada. Tuning the light transport in two-dimensional disordered media containing magneto-optical coated cylinders. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Encontro de Física 2016. Direct Evidence of Cation induced Room Temperature Ferromagnetism in Diluted Magnetic Oxides: The case of the Co and Sb codoped Nanostructured Anatase TiO2-delta. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>META'16, the 7th International Conference on Metamaterials, Photonic Crystals and Plasmonics. Multiple electric and magnetic Fano resonances in single-layered core-shell particles. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Observation of Gravitational Waves fron a Binary Black Hole Merger. 2016. (Seminário).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10 years of Laboratório de Física Teórica e Computacional.The Percentual Contribution of the Valence and Nonvalence Terms to the Full Electromagnetic Form Factor of the Pion with a Symmetric Light-Front Model. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>19 Reunión de Educación en Física.Conhecimentos físicos manifestados por alunos após o uso do recurso fílmico do gênero herói e heroína. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>67ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência (SBPC). 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>I Simpósio Integrado UNIFAL-MG.Geral. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II Encontro Maranhense de Ensino de Física.A contribuição da Pós-Graduação para a formação docente: da educação básica ao ensino superior. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Encontro Maranhense de Ensino de Física.Demandas e Possibilidades para o Ensino de Física na Escola Básica Frente ao Plano Nacional de Educação. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MOL2NET, International Conference on Multidisciplinary Sciences. In Silico Design of New Drugs for Myeloid Leukemia. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Saúde e Urbanidade, IEA-RP, USP. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Semana Cruzeiro do Sul de Ciência e Tecnologia.Cálculo da contribuição percentual dos termos de valência e não valência para o fator de forma eletromagnético do píon em um modelo de vértice simétrico na frente de luz. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Seminário Internacional Neutrino Physics in 2015 and 2020. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>V Encontro Sul-Mineiro de Ensino de Física. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V Encontro Sul-Mineiro de Ensino de Física.A acústica da Flauta doce analisada com o uso de software como motivação para o estudo da Física. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XIX Encontro de Iniciação Cientifica ENIC. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXVIII Encontro da Sociedade Brasileira de Química MG. Electronic properties of disordered functionalized carbon nanotubes. 2015. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Dez anos do Programa de Mestrado Profissional em Ensino de Ciências e Matemática: contribuições da pesquisa para o ensino. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>III Ciclo de Palestras de Ciência e Tecnologia: As mulheres na Ciência. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV EPD - Encontro de Produção Discente. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IX Encontro Mineiro de Física, ICT, UNIFAL-MG. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>IX Encontro Mineiro de Física. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IX Encontro Mineiro de Física.A Física da flauta doce: uma análise das posições comuns e alternativas nas flautas soprano e contralto germânicas. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IX Encontro Mineiro de Física.Defect Correlated Room Temperature Ferromagnetism in Mn-Doped ZnO. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IX Encontro Mineiro de Física.Estudo da dependência de parâmetros em um modelo com vértice simétrico para o píon do formalismo da frente de luz. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IX Encontro Mineiro de Física.O problema da Braquistócrona revisitado com o uso de vídeo análise. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>V Escola Avançada de Óptica e Fotônica - IFSC OSA Student Chapter.Electromagnetic energy inside dielectric cylinders coated with graphene layers. 2014. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Workshop Internacional sobre fenômenos não perturbativos em hádrons e física de partículas.Electromagnetic form factor for the Pion with a Symmetric Light-Front Model. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XIV Escola de Verão Jorge André Swieca de Ótica Quântica e Ótica Não Linear.Optimum electromagnetic field enhancement inside coated spheres via Fano resonances and negative refraction. 2014. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXXII Encontro de Fisicos do Norte e Nordeste.O fator de forma eletromagnético do pion em um modelo de vértice simétrico na frente de luz e sua dependência de parâmetros. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXXII Encontro de Físicos do Norte e Nordeste. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXVII Encontro Nacional de Física da Matéria Condensada. Off-resonance field enhancement in dielectric cylinders coated with graphene layers. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXXVII Encontro Nacional de Física da Matéria Condensada. Studies on the dynamics of the Co incorporation into a ZnO matrix and its magnetic properties. 2014. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Congresso das Instituições Universitárias Salesianas no Brasil. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Encontro de Físicos do Sul. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Encontro de Físicos do Sul.A utilização de super-heróis como recurso pedagógico no ensino de física. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ICMC Summer Meeting on Differential Equations 2013 Chapter. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ICTP-SAIFR School on Nonlinear Optics and Nanophotonics.Unconventional Fano resonances in plasmonic spheres. 2013. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Ciclo de Palestras Física e Tecnologia. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV Quantum Information School and Workshop - Paraty 2013. 2013. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>O Plano Nacional de Pós-Graduação, IEA-RP, USP. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Seminário de Iniciação Científica da Unifal-MG/2013. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Sistemas complexos: aleatoriedade, emergência e universalidade, IEA-RP, USP. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>The 12th International Conference on Intersubband Transitions in Quantum Wells. Negative photoconductance in a multiple quantum well structure. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>The 7th International Congress on Advanced Electromagnetic Materials in Microwaves and Optics - Metamaterials'2013. Unconventional Fano resonances in plasmonic coated spheres. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XIII Latin American Workshop on Nonlinear Phenomena - LAWNP 2013. Fano resonances in dispersive chiral spheres. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXI Congresso de Iniciação Científica da UFSCar. XXI Congresso de Iniciação Científica da UFSCar. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXVI Congresso Paulo Leal Ferreira de Física. O conceito de simetria na Mecânica Quântica e as noções de comutação de operadores hermitianos e unitários. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXXVI Encontro Nacional de Física da Matéria Condensada. Electromagnetic energy density inside a chiral metamaterial sphere. 2013. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>22a Reunião Anual de Usuários do LNLS.Synthesis and structural and morphological characterization of Ce1-xCuxO2 nanorods synthesized by a microwave-assisted hydrothermal method.. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>22a Reunião Anual do de usuários do LNLS/CNPEM. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2º Simpósio de Ensino de Física e de Matemática: relação entre saberes e fazeres.Eratóstenes revisitado no século XXI. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>31st International Conference on the Physics of semiconductortor. Strong electric field infrared photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>6º Workshop de Capacitação para Pesquisadores da USP em Publicação Científica - Ciências Exatas e Engenharias. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Eletrônica Orgânica: uma nova fronteira da Ciência, IEA-RP, USP. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Workshop do Programa de Mestrado em Física. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>ICMC Summer Meeting on Differential Equations 2012 Chapter. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Colóquio Internacional de Análise de Discurso.Energia Nuclear Mediante o Enfoque Ciência, Tecnologia e Sociedade na Formação Inicial de Professores de Física. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Encontro Nacional das Licenciaturas/II Seminário Nacional do PIBID.ASPECTOS DA FÍSICA NUCLEAR NA FORMAÇÃO INICIAL DE PROFESSORES DE FÍSICA. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>International Conference on Physics Semiconductor. Strong electric field infrared photocurrent responses in AlGaAs/GaAs multiple quantum wells with filter barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures and Nanodevices - ICSNN-2012. A Study on the Correlation Between Structural and Magnetic Properties of Co-doped Oxide Nanoparticles: ZnO and CeO2. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures and Nanodevices - ICSNN-2012. Synthesis, structural and magnetic characterization of Ti1-xCoxO2 diluted magnetic oxide. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures andand Nanodevices. Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures andand Nanodevices. Theoretical analysis of the bias influence on infrared photo- and dark currents in AlGaAs/GaAs multiple quantum well structures with AlGaAs tunneling barriers. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>International Conference on Superlattices, Nanostructures andand Nanodevices. Voltage controlled spin polarization in p-type GaAs/AlAs double barrier structures. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>IV Escola Avançada de Óptica e Fotônica - IFSC OSA Student Chapter.Esferas opticamente ativas contendo um metamaterial dispersivo. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VII Seminario Ibérico/III Seminario Iberoamericano CTS en la enseñanza de las Ciencias ?Ciencia, Tecnología y Sociedad en el futuro de la enseñanza de las ciencias?.Análise do Funcionamento de uma Unidade de Ensino sobre Energia Nuclear com Abordagem CTS. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>VIII Encontro Mineiro de Física.Microstructural and Magnetic Characterization of Nanostructured Ce1-XCuxO2. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>VIII Seminário de Teses e Dissertações em Andamento da Faculdade de Educação - Unicamp.Energia Nuclear mediante o enfoque Ciência, Tecnologia e Sociedade na formação inicial de professores de Física. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>VIIII Semana da Física da UFSCar. Resolução da equação de Schrödinger dependente do tempo numericamente pelo método split-operator. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XIII Escola de Verão Jorge André Swieca de Ótica Quântica e Ótica Não Linear.Surface plasmon polaritons on a metamaterial coated sphere. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XIV Encontro de Pesquisa em Ensino de Física.Mesa 8 - Implicações da relação ciência, tecnologia, sociedade e ambiente e o ensino de Física. O processo de ensino aprendizagem da física versus a revolução tecnológica atual e a necessidade de um mundo sustentável.. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXXV Encontro Nacional de Física da Matéria Condensada. Electromagnetic scattering by chiral metamaterial spheres. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXXV Encontro Nacional de Física da Matéria Condensada.Evidence of defect-mediated magnetic coupling on hydrogenated Co-doped ZnO. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XXXV Encontro Nacional de Física da Matéria Condensada.Microstructural and magnetic characterization of nanostructured Ce1¡xCuxO2. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XXXV Encontro nacional de física da matéria condensada.Synthesis, structural and magnectic charactariztion of I1-xCoxO2 diluted magnectic oxide. 2012. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Seminário Nacional do Programa Institucional de Bolsa de Iniciação à Docência (Pibid) e 2º Encontro Nacional das Licenciaturas..CONSTRUINDO RECURSOS DIDÁTICO-PEDAGÓGICOS PARA UMA RENOVAÇÃO CURRICULAR NO ENSINO DE FÍSICA NO CONTEXTO DO PIBID. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>21a Reunião Anual de Usuários do LNLS.Advanced Magnetic Materials for Spintronics: Co-doped ZnO Systems. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2nd International Workshop on Fundamentals of Light-Matter Interaction. Electromagnetic energy inside a non-dispersive magnetic coated sphere. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>8ª Semana de Licenciatura do Instituto Federal de Goiás. O papel do professor na construção da cidadania na Educação Em Ciências. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>8ª Semana de Licenciaturas. O papel do professor na construção da cidadania na Educação em Ciências. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Encontro de Fisica 2011.Rossi, A. M. Influence of temperature in the obtainment of Nanostructured hydroxyapatite. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Encontro de Física 2011 - Integração da Física na América Latina.Electromagnetic field energy inside a coated sphere containing a left-handed metamaterial. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Encontro de Física 2011 e XIII EPEF.RECURSOS PARA A CONSTITUIÇÃO DE UMA UNIDADE DE ENSINO CTS SOBRE A ENERGIA NUCLEAR. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>International Conference on Statistical Physics (SigmaPhi 2011). Electromagnetic field energy within concentric infinite cylinders at oblique incidence containing a dispersive and lossy metamaterial. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IV Jornada Científica da Unifal-MG. Propriedades das Hidroxiapatitas Pouco Cristalinas Obtidas em Diferentes Condições de Sínteses. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Panorama da Óptica - IFSC OSA Student Chapter. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Palestra "Telefone sem fio - Possíveis leituras dos diálogos entre os Programas Oficiais de Ensino e os Professores das Séries Iniciais do Ensino Fundamental". 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Palestra: "Livro de Ciências dos Anos Iniciais: o que se aprende avaliando". 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Palestra: "O Processo de Avaliação dos Livros Didáticos de Química do PNLD 2012". 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VIII Encontro Nacional de Pesquisa em Educação em Ciências (VIII ENPEC) - I Congreso Iberoamericano de Investigación en Enseñanza de las Ciencias (I CIEC).. A evolução de saberes pedagógicos de um grupo de licenciandos em Física no desenvolvimento de seus trabalhos de conclusão de curso (TCC). 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VIII Escola Brasileira de Magnetismo "Jorge André Swieca".Electromagnetic field energy within magnetic coated cylinders at oblique incidence. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Workshop on Infrared Technology. Theorical studies of a multiple quantum well structure under bias working as an infrared photodetector. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIX Simpósio Nacional de Ensino de Física.Interpretação de Licenciandos em Física sobre a Abordagem CTS numa Atividade de Leitura. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XVI Simpósio Brasileiro de Química Teórica.Moleculardynamics simulation of interactions of water-ethanol-NaCl with phospholipids. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXII congress and Geral Assembly of the International Union of Crystallography, 2011. Short and long-range structure of ZnO:Co diluted magnetic semiconductor.. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXV Encontro Regional da Sociedade Brasileira de Química.Influência do Gotejamento na Obtenção e Propriedades das Hidroxiapatitas. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXXIV Encontro Nacional de Física da Matéria Condensada (Encontro de Física 2011). First principle study of Cu2ZnSn(SexS{1-x})4 alloys properties. 2011. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1st Latin American Conference of the International History, Philosophy, and Science Teaching Group. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2o. Encontro Brasileiro sobre Especiação Química.Screening metaloproteico de Coffea arabica L. in natura de manejos orgânico e convencional por SDS-PAGE e ET AAS. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>4ª Escola de Verão do Laboratório Associado de Computação e Matemática Aplicada - ELAC 2010, LAC, INPE. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>8th International Conference for The History of Science in Science Education. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Semana da Física. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ICMC Summer Meeting on Differential Equations 2010 Chapter. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Encontro de Econofísica - Econofis'10, IFT, Unesp. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>II Encontro do Programa de Apoio Didático e do Programa de Estágio Docente. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II ISeminário Ibero-americano Ciência-Tecnologia-Sociedade no Ensino das Ciências (VI Seminário Ibérico CTS no ensino das Ciências)..Uma leitura da cidadania nas abordagens CTS na Educação em Ciências a partir de elementos de sociologia.. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Seminário Ibero-Americano Ciência-Tecnologia-Sociedade no Ensino de Ciências.IDENTIFICAÇÃO DE ASPECTOS DAS RELAÇÕES ENTRE CIÊNCIA, TECNOLOGIA E SOCIEDADE NAS INTERPRETAÇÕES DE LICENCIANDOS EM FÍSICA AO LEREM UM TEXTO DE DIVULGAÇÃO CIENTÍFICA/ RELAÇÕES ENTRE REPRESENTAÇÃO EDUCACIONAL E A POSSIBILIDADE DE PRÁTICAS CTS NO DISCURSO DE. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Escola Avançada de Óptica e Fotônica - IFSC OSA Student Chapter.Energia eletromagnética no interior de um cilindro infinito magnético. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III Jornada Científica da UNIFAL-Mg. Polimorfismo em sólidos farmacêuticos: caracterização estrutural da forma I do fluconazol. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>IX Brazilian MRS Meeting.Room Temperature Ferromagnetism in Hydrogenated Co-doped ZnO Bulk Samples. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Palestra: "Estudo de Possibilidades do Funcionamento de Tendências da Educação em Física no ensino da nanociência/nanotecnologia". 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Palestra: "Instrumentos Científicos Ontem e Hoje". 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Palestra: "Reflexões Sobre a Formação Humanística nos Cursos Superiores de Tecnologia". 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Semana Nacional de Ciência e Tecnologia.Experimento interativo sobre a diferença entre peso e a massa. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Semana Nacional de Ciência e Tecnologia.Feira de Ciências Itinerante portátil. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Seminário: "Desafios Constantes da Secretaria Municipal de Educação: questões políticas". 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>VII Semana Nacional de Museus/II Semana Nacional de Museus na UNIFAL-MG. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XII Encontro de Pesquisa em Ensino de Física.ABORDAGENS DA CIDADANIA EM PERIÓDICOS NACIONAIS DE ENSINO DE FÍSICA E DE ENSINO DE CIÊNCIAS. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XII Encontro de Pesquisa em Ensino de Física.CONDIÇÕES DE PRODUÇÃO INICIAIS DE ESTUDANTES DE LICENCIATURA SOBRE A FÍSICA MODERNA E CONTEMPORÂNEA. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XII Escola de Verão Jorge André Swieca de Ótica Quântica e Ótica Não Linear.Electromagnetic scattering by an optically active magnetic sphere. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XII Giambiagi School - Low dimensional condensed matter. Spin effects studies in a p-type resonant tunneling diode. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXXIII Encontro Nacional de Física da Matéria Condensada.Microstructural and Magnetic Properties of Zn(1-x)Co(x)O Samples. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XXXV Reunião Anual da Sociedade Astronômica Brasileira. UMA ABORDAGEM DAS LEIS DE KEPLER ATRAVÉS DO SOFTWARE LIVRE CARTES DU CIEL. 2010. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10 CONFERENCIA INTERAMERICANA DE ENSÑANZA DE LA FÍSICA.CONTEÚDOS E ESTRATÉGIAS NA ORGANIZAÇÃO DE EPISÓDIOS DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR NA FORMAÇÃO INICIAL DE PROFESSORES DE FÍSICA: foco no imaginário dos estudantes. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>11th Conference on Advanced Materials. Absence of Magnetic Ordering in High Quality Bulk Co-doped ZnO. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>17 Congresso de Leitura. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>19 Reunião da ABCr. Uso da drx no estudo da cinética de sinterização da hidroxiapatita carbonatada a partir de cristais nanométricos. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>19 Reunião da ABCr.Estudo da estrutura do sistema Bi(4-x)LaxTi3O12 por DRX com luz síncrotron. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>19a Reunião Anual de usuários.Short and long range order study of Bi(4-x)LaxT i3O12 ferroelectric System. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>1a Mostra de Metodologias de Dilvugação Cinetífica - compartilhando experiências. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>1a. Mostra de Metodologias de Divulgação Científica: compartilhando experiências. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>1a. Mostra de Metodologias de Divulgação Científica: compartilhando experiências.Mítica dos fenômenos naturais em crenças populares como ponto de partida para a divulgação da ciência. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>2009 International Nuclear Atlantic Conference - INAC 2009. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>2nd Conference on Drug Development for the Third World: From Computational Molecular Biology to Experimental Approaches.Influence of conformational polymorphism in the receptor-ligand complex formation. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>53o. Congresso Brasileiro de Cerâmica. Fabricação e Caracterização de Cerâmicas de ZnO:Co e ZnO:Mn para Aplicação em Dispositivos Spintrônicos. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Acordo ortográfico: o contexto e as novas regras, CCRP, USP. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Encontro Nacional de Pesquisadores em Educação em Ciências.DIFERENTES PERSPECTIVAS DE CIDADANIA PRESENTES NAS DISCUSSÕES ATUAIS EM DEFESA DA ABORDAGEM CTS NA EDUCAÇÃO CIENTÍFICA. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Escola de Moléculas e Biomoléculas - Experimento, Teoria e Modelagem (I EMBio), IFUSP.Energia Eletromagnética Média no Interior de Esferas Magnéticas. 2009. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I GIS Day - UNIFAL-MG.Olhos no céu, visões da Terra: Geotecnologia e Divulgação da Ciência. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I Semana científico-cultural da enfermagem.Plantas medicinais e sua aplicabilidade à saúde. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ICMC Summer Meeting on Differential Equations 2009 Chapter. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>II Colóquio Internacional de Análise do Discurso.Utilização da Análise de Discurso para enfocar a relação entre forma e conteúdo no planejamento do ensino de física. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>II Escola de Física Teórica, DFMA, IFUSP. 2009. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>II Jornada Científica da UNIFAL-Mg. Estudo da estrutura do sistema Bi4-xLaxTi3O12 por DRX. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>II Jornada Científica da Universidade Federal de Alfenas-MG. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>II Jornada Científica da Universidade Federal de Alfenas-MG.Contribuições de um estágio coletivo no projeto conscientizar para a vida. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>IX Encontro de Pesquisa em Educação da Região Sudeste.Conteúdos para o Ensino de Física: uma investigação a partir de contextos de trabalho de Estudantes trabalhadores. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Palestra: "A Argumentação na Educação em Ciências". 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Palestra: "Concepção e Implantação dos Cursos de Licenciatura da Universidade Federal do ABC". 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Palestra: "Divulgação Científica - contexto acadêmico e social". 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Palestra: "História da Ciência & Tecnologia na aprendizagem pública de Ciência: contributos para uma interligação". 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Seman Científica da química - UFG - Catalão. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Semanaça. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Simposio de Matematica e Matematica Industrial. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>V Encontro Nacional de Mestrado Profissionalizante. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>VII Reunião Latino-Americana sobre Ensino de Física. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>VIII Semana da Física Médica, DFM, FFCLRP-USP. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>XIV Congresso Brasileiro de Física Médica. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XVIII Simpósio Nacional de Ensino de Física.Elaboração de Episódio de Ensino Tratando da Questão Nuclear: relações entre abordagens e conteúdos.. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XVIII Simpósio Nacional de Ensino de Física.Ensino de Física no cárcere: experiências didáticas de Física apoiadas em situações de trabalho de alunos reeducandos de uma unidade prisional paulista. 2009. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XXXII Encontro Nacional de Física da Matéria Condensada. Scattering Theory and Internal Fields within a Magnetic Sphere. 2009. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>18ª Reunião Anual de Usuários.Análise Estrutural das Cerâmicas Ferroelétricas/Relaxoras Sr0,73Pb0,27TiO3 e PbNb2O6 por meio da Técnica de Difração de raios X. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1st Workshop in Stochastic Modeling, DFM, FFCLRP-USP. 2008. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>31 Reunião Anual da Sociedade Brasileira de Química. Lançamento de Livro. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>4th Brazilian Symposium on Medicinal Chemistry.Powder diffraction analyses of crystalline forms of fluconazole, nimesulidum and mebendazole.. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>4º Simpósio Brasileiro em Química Medicinal. BrazMedChem 2008.Influence of conformational polymorphism in the receptor-ligand complex formation. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>4º Simpósio Brasileiro em Química Medicinal. BrazMedChem 2008.Molecular modeling of prenilated benzophenones extracted from seeds of Rheedia Brasiliensis. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>4º Simpósio Brasileiro em Química Medicinal. BrazMedChem 2008.Powder diffraction analyses of crystalline forms of fluconazole, nimesulidum and mebendazole. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>60ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Escola de Diagnóstico Óptico e Terapia Fotodinâmica, IFSC, USP. 2008. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Fórum para Desenvolvimento Sustentável da Bacia Hidrográfica do Rio Verde. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IV Congresso Mineiro de Formação de Professores para a Educação Básica. Educação, Inclusão Digital e as Novas Tecnologias. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Metodologias inovadoras no ensino superior. 2008. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mini-Simpósio de Iniciação Científica do XXV Programa de Verão do ICMC-USP.Espalhamento de Ondas Eletromagnéticas por um Cilindro Reto Circular Infinito Magnético. 2008. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Palestra: "Os Propósitos dos Museus de Ciências: análise de discurso de diretores de museus da cidade de Belo Horizonte". 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Seminário: "O jogo como um agente transformador do estudar". 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VI Ciência e Arte nas Férias. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VII Esocite - Jornadas Lationamericanas de Estudos Sociais da Ciência e da Tecnologia.Aspectos dos Discursos da Mídia e Suas Possíveis Interferências nos Discursos de Licenciandos em Física: foco nas relações entre Ciência, Tecnologia e Sociedade. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VII Semana da Física Médica, DFM, FFCLRP-USP. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XI Encontro de Pesquisa em Ensino de Física.Educação Científica e Cidadania: relações recíprocas em pauta e um referencial em construção?. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXI Congress and General Assembly of the International Union of Crystallography. Powder X-ray diffraction study of polymorphic drugs: fluconazole and mebendazole.. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXXI Encontro Nacional de Física da Matéria Condensada.Calculation of the thermal resistance and temperature distribution in InGaAsN/GaAs semiconductor lasers. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXXI Encontro Nacional de Física da Matéria Condensada.Propriedades estruturais da cerâmica Bi(4?x)La(x)Ti(3)O(12). 2008. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>18a Reunião da Associação Brasileira de Cristalografia.Estudo estrutural de cerâmicas ferroelétricas relaxoras. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>18a Reunião da Associação Brasilleira de Cristalografia.Study of nano-structured carbonate apatite under thermal treatment using XRD and AFM. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>30 Reunião Anual da Sociedade Brasileira de Química. Efeitos do pesticida da classe glicina substituída sobre a fragilidade osmática de eritrócitos humanos e de ratos wistar. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>30a Reunião Anual da Sociedade Brasileira de Química.Transições de fases estruturais em cerâmicas relaxoras do sistema Pb1-xLaxTiO3. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>7 Jornada Científica da UFSCar - IV Congresso de Pós-Graduação. Educação Científica e Cidadania: as diferentes concepções de significado e funções do conceito de Cidadania nas pesquisas em Ensino de Ciências. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>7 Jornada Científica da UFSCar - IV Congresso de Pós-Graduação. Física no Ensino Médio e estudantes trabalhadores: buscando relações entre significado e sentido para a aprendizagem. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Abertura do Semestre Letivo no Curso de Especialização Tecnologias Digitais Aplicadas à Educação.Ead na Formação de Professores. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Aula Magna - Curso de Graduação em Pedagogia - Gestão e Tecnologias da Uniminas.EaD: Desafios e Perspectivas. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Seminário sobre Formação de Professores.Diferentes Olhares Sobre a Formação do Professor em Geografia, realizado no período de 22 a 25 de outubro. 2007. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Simpósio Internacional: O Estado e as políticas educacionais no tempo presente.A Ação da Organização das Nações Unidas para a Agricultura e a Alimentação nas politicas agrárias e de desenvolvimento rural na América Latina por meio do Ensino a Distância. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Latin Amerian Workshop on Applications of Powder Diffraction. Structural characterization of Pb(x-1)LaxTiO3 and Pb(x-1)BaxZr(0.65)Ti(0.35)O3 ceramics. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Latin American Workshop on applications of powder diffraction.XRD and XAS Structural Characterization of Ferroelectric Ceramics. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mini-Simpósio de Iniciação Científica do XXIV Programa de Verão do ICMC-USP.Estabilidade Segundo Liapunov: Aplicações a uma Generalização da Equação do Pêndulo Não-Amortecido e à Equação de Liénard. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Palestra: "Questões à Educação postas pelas transformações atuais da sociedade". 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Primate models for psychiatric disorders - International Behavioral Neuroscience satellite meeting.ANATOMICAL ARM STRUCTURE OF CAPUCHIN MONKEY ASSOCIATED WITH ETHOLOGICAL ASPECTS. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Projeto Filosofia em Ação - Pensar bem para bem viver.Inteligência Artificial: origens filosóficas e marcos históricos.. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Simpósio Latino Americano de Polimorfismo e Cristalização em Fármacos e Medicamentos.Estudo de insumos farmacêuticos do Fluconazol por meio da técnica de difração de raios X por pó. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VI Encontro Nacional de Pesquisa em Educação em Ciências.?Linguagens na Física e no Seu Ensino: Compreendendo o Imaginário de Licenciandos em Física.?. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>VIII Encontro de Pesquisa em Educação.As atividades Profissionais de Alunos do Ensino Médio como apoio ao Ensino de Física. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XV Congresso de iniciação Científica da UFSCar. ESTUDO DAS PROPRIEDADES ÓTICAS E DE TRANSPORTE DE HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE COM PONTOS QUÂNTICOS. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XV Congresso de Iniciação Científica da UFSCar. FORMAÇÃO DE TRÍONS EM DIODOS DE DUPLA BARREIRA DO TIPO P-I-N. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XV Simpósio Internacional de Iniciação Científica da USP - SIICUSP.Espalhamento de Ondas Eletromagnéticas por um Cilindro Reto Circular Infinito Magnético. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XVII Simpósio Nacional de Ensino de Física.A Construção de um Episódio de Ensino com Abordagem Ciência, Tecnologia, Sociedade e Ambiente e o Imaginário de Licenciandos em Física. 2007. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XXX Encontro Nacional de Física da Matéria Condensada.Polimorfismo em Sólidos Farmacêuticos. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XXXIII Reunião Anual da Sociedade Astronômica Brasileira. 2007. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Electroceramics. Microstutural characterization using the Rietveld method in Lead lantanum tithanum ceramics sistem produced by combustion synthesis. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>I Colóquio Internacional de Análise de Discurso.Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Congresso Nacioanl de Farmaceuticos e estudantes da área de Saúde. Presidente da comissão científica. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>II Semana de Física da UFSCar. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>II Seminário de Teses e Dissertações do PPGE/UFSCar.O Trabalho como princípio Educativo no Ensino de Física. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VII Seminário Nacional: O Uno e o Diverso na Educação Escolar.Ensino a Distância: Entre o Ideal e o Possível. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>X EPEF - Encontro de Pesquisa em Ensino de Física.O Trabalho como Princípio Educativo no Ensino de Física - Limitações e Potencialidades. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XIV Congresso de Iniciação Científica da UFSCar. EFEITO TUNEL RESSONANTE EM HETEROESTRUTURAS DE DUPLA BARREIRA COM PONTOS QUÂNTICOS. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XIV Congresso de iniciação científica da UFSCar. ESTUDO DE COMPLEXOS EXCITÔNICOS EM HETEROESTRUTURAS SEMICONDUTORAS DE TUNELAMENTO RESSONANTE DO TIPO P-I-N. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XIV Simpósio Internacional de Iniciação Científica da USP - SIICUSP.Estabilidade Segundo Liapunov: Aplicações a uma Generalização da Equação do Pêndulo Não-Amortecido e à Equação de Liénard. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXII Congresso Brasileiro de Anatomia, VIII Congresso Cono Sur Anatomya. Anatomia comparativa, neurociencias. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXIX Encontro Nacional de Física da Matéria Condensada. Evidence os SPIN-polarized Current through a p-i-n GaAs/AlAs Resonant Tunneling Device. 2006. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>11th International Meeting on ferroeletricity.Epitaxial grown and dielectric properties of PZT thin films obtained by a chemical method. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Effects of excitonic complex formation in resonant tunneling diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Influence of minority carrier transport in the optical properties of double barrier resonant tunneling diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>12th Brazilian Workshop on Semiconductor Physics. Voltage-controlled Hole Spin Injection in Nonmagnetic Resonant Tunneling Diodes. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ciclo de seminários sobre educação e trabalho.Ciclo de Seminários sobre Educação e Trabalho da Universidade Estadual Paulista Júlio de Mesquita Filho. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Fórum Permanente de Extensão: "Parceria entre Universidade e Escolas Básicas". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Semana de Física da UFSCar. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Seminário de teses e dissertações do PPGE.I Seminário de dissertações e tese do programa de pós-graduação em Educação da Universidade Federal de São Carlos. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>International Council on Education for Teaching. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IV Semana da Física Médica, DFM, FFCLRP-USP. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IX Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos.IX Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos, da Universidade de São Paulo, de 18 a 21 de Outubro de 2005.. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PALESTRA - Astronomia e Cosmologia.PALESTRA. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Palestra - Astronomia no Dia a Dia.PALESTRA. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Palestra: ""Atividades de experimentação como meio para abordagem de aspectos da cultura científica em aulas de física. 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Palestra: "A educação de adultos na perspectiva da educação continuada". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Palestra: "Condições de Produção da Leitura e Implicações para o Ensino da Física na Universidade". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Palestra: "Discurso e ensino de ciências: implicações para uma leitura de imagem". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Palestra: "Ensinar e Aprender Ciências no Ensino Fundamental com Atividades Investigativas". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Palestra: "Projetos de ciências para primeira e quarta séries: o calendário e a medida do tempo". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Palestra: "Resolução de Problemas e Estratégia de Projetos: a experiência da USP leste". 2005. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>The American Crystallographic Association Annual Meeting. Single crystal structure characterization of iron Ludwigite from 294 to 15K.. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>V ENPEC - Encontro Nacional de Pesquisa em Educação em Ciências.Condições de Produção do Ensino de Física em Escolas do Interior Paulista e a Formação Docente. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XI Jornada de Iniciação Científica de Alfenas.XI Jornada de Iniciação Científica de Alfenas - MG, com apresentação de trabalhos, cursos, palestras, seminários, entre outros.. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>XVI Congresso do Cone Sul de Anatomia. VII Congresso do Cone Sul de Anatomia. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>XVI Simpósio Nacional de Ensino de Física.Contribuições de Dúvidas, Concordâncias e Discordâncias na Compreensão do Imaginário de Licenciandos em Física. 2005. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XVII REUNIÃO DA SOCIEDADE BRASILEIRA DE CRISTALOGRAFIA.A influênica da adição de Yb sobre as fases cristalinas do PLZT 9/65/35. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XVII REUNIÃO DA SOCIEDADE BRASILEIRA DE CRISTALOGRAFIA.Análise microestrutural da hidroxiapatita Ca10(PO4)6(OH)2. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XXVIII Encontro Nacional de Física da Matéria Condensada. Influência do substrato de deposição na texturização de filmes finos de PZT (PbZr0:20Ti0:80O3). 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XXXI reunião anual da sociedade astronômica brasileira. XXXI reunião anual da sociedade astronômica brasileira. 2005. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Conferência: "Grupos de Reflexão e Estudos Pedagógicos: uma alternativa para orientação pedagógica do trabalho escolar". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Curso de Extensão Fórum Nacional Luterano de Educação. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Oficina de teoria do LNLS. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>III Semana da Física Médica, DFM, FFCLRP-USP. 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LDSD2004 ? International Conference on Low Dimensional Structures and Devices. Hole-Spin Dependent Tunneling in p-type Double-Barrier Diodes. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Oficinas de Astronomia.Oficinas de Astronomia. 2004. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Palestra: "Discurso científico e discurso escolar: de quem e para quem?". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Palestra: "Discurso e (re)significação e construção de conhecimento em História". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Palestra: "Geociência, ensino fundamental e educação ambiental". 2004. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Reunião de Integração da Morfologia Pan-americana. XV Congresso Panamericano de Anatomia. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XI ENBIO. XI Encontro de Biologia da UEG e I Congresso de Biodiversidade do Cerrado. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XIV Reunião Anual de Usuário do LNLS. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XIV Reunião Anual de Usuários do LNLS.. XIV Reunião Anual de Usuários do LNLS, 09 a 11 de fevereiro de 2004.. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXVII Encontro Nacional de Fisica da Materia Condensada.Theoretical studies of transport and optical properties of double barrier resonant tunneling diodes. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXVII Encontro Nacional de Física da Matéria Condensada. Montagem Experimental para Estudo de Desmagnetização e Relaxação Magnética: Time-Resolved Magneto-Optical Kerr Effect. 2004. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXVII Encontro Nacional de Física da Matéria Condensada.XXVII Encontro Nacional de Física da Matéria Condensada, realizado de 04 a 08 de maio de 2004, em Poços de Caldas, MG.. 2004. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>II Simpósio Brasileiro de Engenharia Física.II Simpósio Brasileiro de Engenharia Física. 2003. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Third Stig Lundqvist Conference on Advancing Frontiers of Condensed Matter Physics: Fundamental Interactions and Excitations in Confined Systems. Third Stig Lundqvist Conference on Advancing Frontiers of Condensed Matter Physics: Fundamental Interactions and Excitations in Confined Systems. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>VII Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos.VII Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos, da Universidade de São Paulo, de 22 a 26 de setembro de 2003.. 2003. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Workshop sobre Simulação e Modelagem em Nanoestruturas.Workshop sobre Simulação e Modelagem em Nanoestruturas. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XIII Reunião Anual de Usuários do LNLS. XIII Reunião Anual de Usuários do LNLS, 17 a 18 de fevereiro de 2003.. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XVI Reunião da SBCr.Effect of Stress on 3YTZ-Al2O3 Composites. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Materia Condensada. Resultados preliminares de uma transição de fase da Ludwigita Fe3O2BO3 a baixa temperatura.. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Matéria Condensada..XXVI Encontro Nacional de Física da Matéria Condensada, realizado de 06 a 10 de maio de 2003, em Caxambu, MG.. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXVI Encontro Nacional de Física da Matéria Condensada.XXVI Encontro Nacional de Física da Matéria Condensada. 2003. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Pré-Congresso de Alunos e (Seus) Professores, Hemocentro-RP, USP.Identificação de núcleos de células usando corantes naturais (sob orientação do Prof. Luciano do Nascimento Mesquita). 2002. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Workshop do Instituto Milênio I - Estudo multidisciplinar de materiais poliméricos.Workshop do Instituto Milênio I - Estudo multidisciplinar de materiais poliméricos. 2002. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XII Reunião Anual de Usuários do LNLS. XII Reunião Anual de Usuários do LNLS, 04 a 05 de fevereiro de 2002.. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XII Reunião Anual de Usuários do LNLS.Análise da estrutura da Ludwigita Fe3O2BO3, por difração de raios X em monocristais, abaixo de 144K. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada.XXV Encontro Nacional de Física da Matéria Condensada, realizado de 07 a 11 de maio de 2002, em Caxambu, MG.. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XXV Encontro Nacional de Física da Matéria Condensada. Microstructure, Magnetic and Electrical Properties of Co Films on Si: Thermal, Thickness and Roughness Dependence. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXVIII Reuniao Anual da Sociedade Astronomica Brasileira. XXVIII Reuniao Anual da Sociedade Astronomica Brasileira. 2002. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Workshop on Metastable and Nanostructured Materials. Microstructure and magnetic properties of Co films on Si: Thickness and roughness dependence. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>II Oficina de Física Moderna do IFGW. 2001. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>III Brazilian School of Magnetism Jorge André Swieca. Microstructure and Magnetic Properties of Co Films on Si: Thermal and Thickness Dependence. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IX Econcotro de Biologia da Universidade Estadual de Goiás.IX Encontro de Biologia da Universidade Estadual de Goiás. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Seminários dos Estudantes da Pós Gradução do Instituto de Física de São Carlos, da Universidade De São Paulo.Participação dos Seminários dos Estudantes da Pós Gradução do Instituto de Física de São Carlos, da Universidade De São Paulo, através de palestra ministrada no dia 23 de outubro de 2001 sob o título: Síntese e Caracterização de Filmes finos de Metaborato de Bário. 2001. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>V Workshop de Auxiliares de Ensino do IFGW. 2001. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>V Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos..V Workshop de Pós-Graduação em Física do Instituto de Física de São Carlos, da Universidade de São Paulo, de 29 a 31 de Agosto de 2001.. 2001. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>VI Semana de Física. 2001. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXII Congresso Brasileiro de Aplicações de Vácuo na Indústria e na Ciência.. XXII Congresso Brasileiro de Aplicações de Vácuo na Indústria e na Ciência - XXII CBRAVIC. 25 a 27 de jullho de 2001.. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada. Evidences of modulate structure in iron ludwigites Fe3O2BO3. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada..XXIV Encontro Nacional de Física da Matéria Condensada, realizado de 15 a 19 de maio de 2001, em São Lourenço, MG.. 2001. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXIV Encontro Nacional de Física da Matéria Condensada.XXIV Encontro Nacional de Física da Matéria Condensada. 2001. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10th Brazilian Workshop on Semiconductor Physics. Carrier Dynamics Investigated by Time Resolved Optical Spectroscopy. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>IV Encontro da Sociedade Brasileira de Crescimento de Cristais..IV Encontro da Sociedade Brasileira de Crescimento de Cristais, realizado de 12 a 14 de novembro de 2000.. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV Workshop de Auxiliares de Ensino do IFGW. 2000. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>V Semana da Física. 2000. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>VII Seminário Latino Americano de Análises por Técnicas de Raios-X..VII Seminário Latino Americano de Análises por Técnicas de Raios-X, realizado de 19 a 24 de novembro de 2000, São Pedro, SP, Brasil.. 2000. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>X Reunião Anual de Usuários do LNLS.Análise da estrutura da Ludwigita Fe3O2BO3 por difração de raios X em função da temperatura. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XIX Congresso Brasileiro de Anatomia, IX Congresso Luso-brasileiro de Anatomia .... XIX Congresso Brasileiro de Anatomia. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Materia Condensada. Current-voltage and X-ray measurements in Fe3O2BO5. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Materia Condensada. Eletron Deslocalization and magnetism in the Fe3O2BO3. 2000. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Matéria Condensada..XXIII Encontro Nacional de Física da Matéria Condensada, realizado de 9 a 13 de maio de 2000, em São Lourenço, MG.. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXIII Encontro Nacional de Física da Matéria Condensada.XXIII Encontro Nacional de Física da Matéria Condensada. 2000. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXVI Reuniao da Sociedade Astronomica Brasileira. XXVI Reunião Anual da Sociedade Astronômica Brasileira. 2000. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>9th Brazilian Workshop on Semiconductor Physics.9th Brazilian Workshop on Semiconductor Physics. 1999. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>XXV Reuniao Anual da Sociedade Astronomica Brasileira. XXV Reunião Anual da Sociedade Astronômica Brasileira. 1999. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13o CBECIMAT - Congresso Brasileiro de Engenharia e Ciências dos Materiais. 13o CBECIMAT - Congresso Brasileiro de Engenharia e Ciências dos Materiais,. 1998. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Escola sobre Eletrônica Mesoscópica.Escola sobre Eletrônica Mesoscópica. 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>I Feira Nacional do Livro Da UNiversidade Federal de Moto grosso do sul..I Feira Nacional do Livro Da Universidade Federal de Moto grosso do sul, realizado de 28 a 30 de outubro de 1998. 1998. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VII Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB)..VII Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB), 22 a 25 de setembro de 1998.. 1998. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XXI Encontro Nacional de Física da Matéria Condensada. Structural Analysis of Multi-phase zeolitic mineral. 1998. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XXI Encontro Nacional de Física da Matéria Condensada.XXI Encontro Nacional de Física da Matéria Condensada. 1998. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXIV reuniao Anual da Sociedade Astronomica Brasileira. XXIV Reunião Anual da Sociedade Astronômica Brasileira. 1998. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1ra Escola de inverno. Física da Matéria Condensada.1ra Escola de inverno. Física da Matéria Condensada. 1997. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Nanoestructura'97. Reunión de sistemas de baja dimensionalidad y sus aplicaciones.Nanoestructura'97. Reunión de sistemas de baja dimensionalidad y sus aplicaciones. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Sessão anual de seminários sobre gravatição e relatividade. 1997. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Symposium on Laser and their Applications.Symposium on Laser and their Applications. 1997. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>VI Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB)..VI Encontro de Iniciação Científica Módulo PIBIC/CNPq (UFG-UFU-UFMS-UCG-UCDB), setembro de 1997.. 1997. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XXVII Reuniao Anual da Sociedade Astronomica Brasileira. XXVIII Reuniao Anual da Sociedade Atronomica Brasileira. 1997. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXVIII Reuniao Anual da Sociedade Atronomica Brasileira. XXVIII Reuniao Anual da Sociedade Atronomica Brasileira. 1997. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>VII Escola de Inverno - Fisica UFMG. 1996. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>VIII Coloquio Brasileiro de Dinamica Orbital.VIII Coloquio Brasileiro de Dinamica Orbital. Caos e Fractais no PRTC. 1996. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Workshop on Structural Characterization of Polymers by X-ray Scattering,.Workshop on Structural Characterization of Polymers by X-ray Scattering,. 1996. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XXIII Reuniao Anual da Sociedade Astronomica Brasileira. XXIII Reuniao Anual da Sociedade Astronomica Brasileira. 1996. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>V Encuentro Latinoamericano sobre Óptica, Láseres y sus aplicaciones.V Encuentro Latinoamericano sobre Óptica, Láseres y sus aplicaciones. 1995. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>IV Seminário de Iniciação Científica em Uberlândia. IV Seminário de Iniciação Científica. 1994. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1992"><h3 class="year">1992</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>I Encontro de Iniciação Científica.I Encontro em Iniciação Científica - Campo Grande. 1992. (Encontro).</td></tr>
+            </table></div><div id="dv-year-1989"><h3 class="year">1989</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>VII Semana Científica de Estudos Biológicos. 1989. (Congresso).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 20/03/2023 09:45:56<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
