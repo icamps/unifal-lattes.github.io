@@ -1,13 +1,13 @@
 {
 "nodes":[
-{ "name":"Adriana Dias", "idlattes":"9808310940421979", "rotulo":"[Sem rotulo]", "collaborationrank":0.466236263514 },
-{ "name":"Denismar Alves Nogueira", "idlattes":"3858924778362309", "rotulo":"[Sem rotulo]", "collaborationrank":1.69730567932 },
-{ "name":"Eric Batista Ferreira", "idlattes":"9965398009651936", "rotulo":"[Sem rotulo]", "collaborationrank":1.4486181736 },
-{ "name":"Fabricio Goecking Avelar", "idlattes":"6886514520601172", "rotulo":"[Sem rotulo]", "collaborationrank":1.08254301548 },
-{ "name":"Flavio Bittencourt", "idlattes":"6581499944728910", "rotulo":"[Sem rotulo]", "collaborationrank":0.460646569729 },
+{ "name":"Adriana Dias", "idlattes":"9808310940421979", "rotulo":"[Sem rotulo]", "collaborationrank":0.46534833312 },
+{ "name":"Denismar Alves Nogueira", "idlattes":"3858924778362309", "rotulo":"[Sem rotulo]", "collaborationrank":1.68178784847 },
+{ "name":"Eric Batista Ferreira", "idlattes":"9965398009651936", "rotulo":"[Sem rotulo]", "collaborationrank":1.43932104111 },
+{ "name":"Fabricio Goecking Avelar", "idlattes":"6886514520601172", "rotulo":"[Sem rotulo]", "collaborationrank":1.10000550747 },
+{ "name":"Flavio Bittencourt", "idlattes":"6581499944728910", "rotulo":"[Sem rotulo]", "collaborationrank":0.459730476141 },
 { "name":"Glaucia de Paula Falco", "idlattes":"4404511957654050", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Luiz Alberto Beijo", "idlattes":"8194104388434526", "rotulo":"[Sem rotulo]", "collaborationrank":1.53238630295 },
-{ "name":"Natalia da Silva Martins Fonseca", "idlattes":"3374954104030940", "rotulo":"[Sem rotulo]", "collaborationrank":0.312263995409 }
+{ "name":"Luiz Alberto Beijo", "idlattes":"8194104388434526", "rotulo":"[Sem rotulo]", "collaborationrank":1.54259943962 },
+{ "name":"Natalia da Silva Martins Fonseca", "idlattes":"3374954104030940", "rotulo":"[Sem rotulo]", "collaborationrank":0.311207264662 }
 ],
 "links":[
 { "source":0, "target":2, "value":1.0 },
@@ -16,6 +16,6 @@
 { "source":1, "target":4, "value":1.0 },
 { "source":1, "target":6, "value":10.0 },
 { "source":2, "target":7, "value":3.0 },
-{ "source":3, "target":6, "value":24.0 }
+{ "source":3, "target":6, "value":25.0 }
 ]
 }

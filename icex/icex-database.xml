@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="07/04/2023 18:50:59">
+<curriculo_lattes data_processamento="15/05/2023 11:51:01">
   <pesquisador id="9808310940421979">
     <identificacao>
       <identificador10></identificador10>
@@ -4041,7 +4041,7 @@
       <identificador10></identificador10>
       <nome_inicial>Anibal Thiago Bezerra</nome_inicial>
       <nome_completo>Anibal Thiago Bezerra</nome_completo>
-      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -4182,6 +4182,16 @@
           <revista>PHYSICA SCRIPTA</revista>
           <volume>PHYSICA SCRIPTA</volume>
           <paginas>045804</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1088/1748-0221/18/04/P04034</doi>
+          <titulo>Highly-parallelized simulation of a pixelated LArTPC on a GPU</titulo>
+          <autores>ABED ABUD, A</autores>
+          <revista>Journal of Instrumentation</revista>
+          <volume>Journal of Instrumentation</volume>
+          <paginas>P04034</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -9805,7 +9815,7 @@
         <formacao>
           <ano_inicio>2002</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Mestrado em Estatística e Experimentação Agropecuária</tipo>
+          <tipo>Mestrado em Estatística e Experimentação Agropecuária (Conceito CAPES 4)</tipo>
           <nome_instituicao>Universidade Federal de Lavras, UFLA, Brasil</nome_instituicao>
           <descricao>Título: PROPOSTA E AVALIAÇÃO DE CRITÉRIOS DE CONVERGÊNCIA PARA O MÉTODO DE MONTE CARLO VIA CADEIAS DE MARKOV: CASOS UNI E MULTIVARIADO, Ano de Obtenção: 2004. Orientador: Thelma Sáfadi. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Amostrador de Gibbs; Correlação; Séries Temporais. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -9828,14 +9838,14 @@
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Auriculoterapia no controle de náusea e vômito induzidos por quimioterapia em adultos com câncer</nome>
-          <descricao>Descrição: Este projeto tem como objetivo avaliar o efeito da auriculoterapia no controle de náusea e vômito induzidos por quimioterapia em adultos com câncer.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Doutorado: (1) . Integrantes: Denismar Alves Nogueira - Integrante / Erika de Cássia Lopes Chaves - Integrante / CAROLINE DE CASTRO MOURA - Integrante / Tânia Couto Machado Chianca - Integrante / Ana Cláudia Mesquita Garcia - Coordenador / Kirsty Loundon - Integrante / Ruan Nilton Rodrigues Melo - Integrante / Stephanie Carolina Francisco - Integrante.</descricao>
+          <nome>Atenção Primária à Saúde segundo usuários do sexo masculino, enfermeiros e integrantes de minorias sexuais/de gênero</nome>
+          <descricao>Descrição: Trata-se de uma pesquisa descritiva, transversal, de abordagem quantitativa, cujos atores/agentes sociais locais serão os Enfermeiros da Atenção Primária à Saúde (APS) de Alfenas-MG, atuantes nas Unidades Básicas de Saúde que contemplam Equipes de Saúde da Família, usuários adultos do sexo masculino por elas assistidos, bem como integrantes de minorias sexuais e de gênero. Serão avaliados a presença e a extensão dos atributos da APS por meio da aplicação de versões eletrônicas do Instrumento Primary Care Assessment Tool (PCATool-Brasil), versão profissionais e versão usuários adultos. Também será verificada a existência de associação entre as dimensões avaliadas por meio do instrumento AMAQ (auto avaliação da melhoria do acesso e da qualidade da atenção básica) e os atributos do PCATool-Brasil, versão para profissionais. A coleta de dados será realizada mediante entrevista estruturada, cujo preenchimento dos Formulários Digitais será realizado pelos pesquisadores, com o auxílio de tablets e celulares, durante visitas programadas às Unidades Básicas de Saúde e visitas domiciliares em domicílio, bem como por meio de acesso e interação em diferentes mídias sociais (homepages, grupos virtuais e redes sociais diversas, como o Facebook, por exemplo).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (7) / Mestrado acadêmico: (2) . Integrantes: Denismar Alves Nogueira - Coordenador / Simone Albino da Silva - Integrante / Murilo César do Nascimento - Integrante / ROBERTA SERON SANCHES - Integrante / LAIS FRAGA ALVES DE OLIVEIRA - Integrante / RENATA MESSIAS FRAZAO - Integrante / THAMIRIS CAROLINA PASSOS NOGUEIRA - Integrante / THAYNARA MACEDO DE OLIVEIRA - Integrante / Ritiellen Ferreira - Integrante / Gabriel dos Reis - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Atenção Primária à Saúde segundo usuários do sexo masculino, enfermeiros e integrantes de minorias sexuais/de gênero</nome>
-          <descricao>Descrição: Trata-se de uma pesquisa descritiva, transversal, de abordagem quantitativa, cujos atores/agentes sociais locais serão os Enfermeiros da Atenção Primária à Saúde (APS) de Alfenas-MG, atuantes nas Unidades Básicas de Saúde que contemplam Equipes de Saúde da Família, usuários adultos do sexo masculino por elas assistidos, bem como integrantes de minorias sexuais e de gênero. Serão avaliados a presença e a extensão dos atributos da APS por meio da aplicação de versões eletrônicas do Instrumento Primary Care Assessment Tool (PCATool-Brasil), versão profissionais e versão usuários adultos. Também será verificada a existência de associação entre as dimensões avaliadas por meio do instrumento AMAQ (auto avaliação da melhoria do acesso e da qualidade da atenção básica) e os atributos do PCATool-Brasil, versão para profissionais. A coleta de dados será realizada mediante entrevista estruturada, cujo preenchimento dos Formulários Digitais será realizado pelos pesquisadores, com o auxílio de tablets e celulares, durante visitas programadas às Unidades Básicas de Saúde e visitas domiciliares em domicílio, bem como por meio de acesso e interação em diferentes mídias sociais (homepages, grupos virtuais e redes sociais diversas, como o Facebook, por exemplo).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (7) / Mestrado acadêmico: (2) . Integrantes: Denismar Alves Nogueira - Coordenador / Simone Albino da Silva - Integrante / Murilo César do Nascimento - Integrante / ROBERTA SERON SANCHES - Integrante / LAIS FRAGA ALVES DE OLIVEIRA - Integrante / RENATA MESSIAS FRAZAO - Integrante / THAMIRIS CAROLINA PASSOS NOGUEIRA - Integrante / THAYNARA MACEDO DE OLIVEIRA - Integrante / Ritiellen Ferreira - Integrante / Gabriel dos Reis - Integrante.</descricao>
+          <nome>Auriculoterapia no controle de náusea e vômito induzidos por quimioterapia em adultos com câncer</nome>
+          <descricao>Descrição: Este projeto tem como objetivo avaliar o efeito da auriculoterapia no controle de náusea e vômito induzidos por quimioterapia em adultos com câncer.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Doutorado: (1) . Integrantes: Denismar Alves Nogueira - Integrante / Erika de Cássia Lopes Chaves - Integrante / CAROLINE DE CASTRO MOURA - Integrante / Tânia Couto Machado Chianca - Integrante / Ana Cláudia Mesquita Garcia - Coordenador / Kirsty Loundon - Integrante / Ruan Nilton Rodrigues Melo - Integrante / Stephanie Carolina Francisco - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
@@ -9948,8 +9958,8 @@
         <projeto>
           <ano_inicio>2008</ano_inicio>
           <ano_conclusao>2009</ano_conclusao>
-          <nome>Violência doméstica contra as mulheres no município de Alfenas</nome>
-          <descricao>Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Denismar Alves Nogueira - Integrante / Clícia V. C. Gradim - Coordenador / Marina Abrão Torres - Integrante.</descricao>
+          <nome>Fatores que predispoem a dispareunia em mulheres que utilizam um serviço de saúde</nome>
+          <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Denismar Alves Nogueira - Integrante / Clícia V. C. Gradim - Coordenador / Reslei Nunes Lobato - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2008</ano_inicio>
@@ -9960,8 +9970,8 @@
         <projeto>
           <ano_inicio>2008</ano_inicio>
           <ano_conclusao>2009</ano_conclusao>
-          <nome>Fatores que predispoem a dispareunia em mulheres que utilizam um serviço de saúde</nome>
-          <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Denismar Alves Nogueira - Integrante / Clícia V. C. Gradim - Coordenador / Reslei Nunes Lobato - Integrante.</descricao>
+          <nome>Violência doméstica contra as mulheres no município de Alfenas</nome>
+          <descricao>Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Denismar Alves Nogueira - Integrante / Clícia V. C. Gradim - Coordenador / Marina Abrão Torres - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2008</ano_inicio>
@@ -10065,6 +10075,16 @@
         <id_lattes_colaborador>0807911743415172</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1007/s42770-023-00966-8</doi>
+          <titulo>Seroprevalence of SARS-CoV-2 in hospital workers in the southern region of Minas Gerais state in Brazil: An analysis of the pre-vaccine period</titulo>
+          <autores>CAIXETA, D. A. ; CARMO, M. A. V. ; FONSECA, F. G. ; NOGUEIRA, D. A. ; COELHO, L. F. L. ; MALAQUIAS, LUIZ COSME COTTA</autores>
+          <revista>BRAZILIAN JOURNAL OF MICROBIOLOGY (ONLINE)</revista>
+          <volume>BRAZILIAN JOURNAL OF MICROBIOLOGY (ONLINE)</volume>
+          <paginas>e</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.51507/j.jams.2022.15.2.130</doi>
           <titulo>Effect of Ear Acupuncture plus Dry Cupping on Activities and Quality of Life in the Adults with Chronic Back Pain: a Randomized Trial</titulo>
@@ -14306,16 +14326,6 @@
     <artigos_em_revista>
         <artigo_revista>
           <doi></doi>
-          <autores>CAIXETA, D. A. ; CARMO, M. A. V. ; FONSECA, F. G. ; NOGUEIRA, D. A. ; COELHO, L. F. L. ; MALAQUIAS, LUIZ COSME COTTA</autores>
-          <titulo>Seroprevalence of SARS-CoV-2 in hospitals workers in the south region of Minas Gerais state, Brazil: An analysis in the pre-vaccine period</titulo>
-          <revista>BRAZILIAN JOURNAL OF MICROBIOLOGY (ONLINE)</revista>
-          <ano>2023</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-        <artigo_revista>
-          <doi></doi>
           <autores>LOPEZ, Y. P. M. ; Nogueira, Denismar Alves ; BEIJO, LUIZ ALBERTO</autores>
           <titulo>Bayesian approach for a 2 x 2 crossover design with repeated measures: a simulation study. ACTA SCIENTIARUM</titulo>
           <revista>TECHNOLOGY (ONLINE)</revista>
@@ -14329,6 +14339,26 @@
           <autores>NOGUEIRA, D. A.; SÁFADI, Thelma ; Lima, R.R. ; MATA, A. S. ; GRACIANO, M. M. C. ; BARCANTE, J. M. P. ; BARCANTE, T. A. ; DOURADO, S. M. P.</autores>
           <titulo>Modelagem GAMLSS espaço temporal da incidência de esquistossomose na região central do estado de Minas Gerais, Brasil</titulo>
           <revista>CADERNOS DE SAÚDE PÚBLICA</revista>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </artigo_revista>
+        <artigo_revista>
+          <doi></doi>
+          <autores>REIS, T. M. ; AMORIM, A. F. S. ; COIMBRA, M. J. ; PODESTA, M. H. M. C. ; SILVA, A. O. ; CERDEIRA, C. D. ; RODRIGUES, A. S. ; NOGUEIRA, D. A. ; FERREIRA, E. B. ; VIEIRA, L. B. ; BARROS, C. M. ; PEREIRA, L. R. L. ; TORRES, L. H.</autores>
+          <titulo>Critical factors associated with morbimortality in COVID-19 patients attended at a Brazilian public hospital: a cross-sectional study</titulo>
+          <revista>JOURNAL OF HEALTH SCIENCES (UNOPAR)</revista>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </artigo_revista>
+        <artigo_revista>
+          <doi></doi>
+          <autores>ANDRADE, M. B. T. ; FERREIRA, L. V. C. ; SEQUEIRA, C. A. C. ; FELIPE, A. O. B. ; ZANETTI, A. C. G. ; NOGUEIRA, D. A. ; Resck, Z. M. R. ; VEDANA, K. G. G.</autores>
+          <titulo>O RISCO DE SUICÍDIO ENTRE UNIVERSITÁRIOS DA ÁREA DA SAÚDE E OS FATORES ASSOCIADOS: Risco de suicídio em universitários e fatores associados</titulo>
+          <revista>REVISTA DE ATENÇÃO À SAÚDE</revista>
           <ano>2023</ano>
           <volume></volume>
           <paginas></paginas>
@@ -17704,14 +17734,14 @@
         <formacao>
           <ano_inicio>2021</ano_inicio>
           <ano_conclusao></ano_conclusao>
-          <tipo>Mestrado em andamento em Física - UFLA - UFSJ - UNIFAL (Conceito CAPES 3)</tipo>
+          <tipo>Mestrado em andamento em Física - UFLA - UFSJ - UNIFAL</tipo>
           <nome_instituicao>Universidade Federal de Alfenas, UNIFAL/MG, Brasil</nome_instituicao>
           <descricao>Título: Magnetic and thermodynamic properties of quantum spin nanostructures. Orientador: Ihosvany Camps Rodríguez. Coorientador: Nike Dattani.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2003</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Mestrado em Estatística e Experimentação Agropecuária (Conceito CAPES 4)</tipo>
+          <tipo>Mestrado em Estatística e Experimentação Agropecuária</tipo>
           <nome_instituicao>Universidade Federal de Lavras, UFLA, Brasil</nome_instituicao>
           <descricao>Título: Análise generalizada de Procrustes via R: uma aplicação em laticínios O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2004. Orientador: Marcelo Silva de Oliveira. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Controle de Qualidade; Análise Sensorial. Grande área: Ciências Agrárias Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Estatística / Especialidade: Gestão da Qualidade. Setores de atividade: Qualidade e Produtividade.</descricao>
         </formacao>
@@ -17753,7 +17783,7 @@
         <formacao>
           <ano_inicio>1995</ano_inicio>
           <ano_conclusao>1998</ano_conclusao>
-          <tipo>Curso técnico/profissionalizante em Técnico em Leite e Derivados</tipo>
+          <tipo>Graduação em Tecnologia em Laticínios</tipo>
           <nome_instituicao>Instituto de Laticínios Cândido Tostes, ILCT, Brasil</nome_instituicao>
           <descricao></descricao>
         </formacao>
@@ -17965,6 +17995,16 @@
           <revista>Arquivos de Ciências da Saúde da UNIPAR</revista>
           <volume>Arquivos de Ciências da Saúde da UNIPAR</volume>
           <paginas>948-966</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.18554/refacs.v11i1.6111</doi>
+          <titulo>Hidden pathway of the COVID-19 pandemic in children's health and nutrition</titulo>
+          <autores>AZEVEDO, J. L. ; TORRE, A. C. C. D. ; FERREIRA, E. B. ; LUCIA, F. D. ; LIMA, D. B.</autores>
+          <revista>REVISTA FAMÍLIA, CICLOS DE VIDA E SAÚDE NO CONTEXTO SOCIAL</revista>
+          <volume>REVISTA FAMÍLIA, CICLOS DE VIDA E SAÚDE NO CONTEXTO SOCIAL</volume>
+          <paginas>e6111</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -21977,6 +22017,11 @@
     </producao_bibliografica>
     <trabalhos_tecnicos>
         <trabalho>
+          <titulo>Consumidores relacionam café com lembranças e emoções positivas, segundo estudo da Universidade. 2023. (Programa de rádio ou</titulo>
+          <autores>FERREIRA, ERIC B.; MEQUELINO, D. B. ; PEREIRA, M. I. ; ARAUJO, A. C.</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
           <titulo>Pesquisa na área de Estatística identifica tendência de consumo por queijos no Instagram. 2023. (Programa de rádio ou</titulo>
           <autores>ARAUJO, A. C. ; FERREIRA, E. B. ; VALADARES, F. L. ; SILVA, C. P.</autores>
           <ano>2023</ano>
@@ -24736,6 +24781,16 @@
           <revista>Revista Brasileira de Climatologia</revista>
           <volume>Revista Brasileira de Climatologia</volume>
           <paginas>524-544</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1590/s1413-415220200177</doi>
+          <titulo>Bayesian modeling of the maximum streamflows from the Furnas reservoir</titulo>
+          <autores>COSTA, M. S. ; BEIJO, LUIZ ALBERTO ; AVELAR, FABRÍCIO GOECKING</autores>
+          <revista>Engenharia Sanitaria e Ambiental</revista>
+          <volume>Engenharia Sanitaria e Ambiental</volume>
+          <paginas>e01-e07</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -30238,6 +30293,16 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.23925/1983-3156.2023v25i?p283-304</doi>
+          <titulo>Microagressões no contexto de ensino e aprendizagem da matemática: uma análise teórico-conceitual</titulo>
+          <autores>da SILVA, GUILHERME HENRIQUE GOMES; LAUTER, S. L. ; CARMO, J. S. ; SANTOS, E. M. ; SANTOS, D. E. L.</autores>
+          <revista>Educação Matemática Pesquisa</revista>
+          <volume>Educação Matemática Pesquisa</volume>
+          <paginas>283-304</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1590/1516-731320220026</doi>
           <titulo>Contribuições de uma prática formativa envolvendo o software GeoGebra para professores e professoras que ensinam matemática dos anos iniciais do Ensino Fundamental</titulo>
           <autores>SILVA, Juliana Pereira Zorzin ; SILVA, GUILHERME HENRIQUE GOMES DA</autores>
@@ -30298,7 +30363,7 @@
           <ano>2021</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://dx.doi.org/10.4322/gepem.2020.009</doi>
           <titulo>Ações afirmativas e Educação Matemática: possibilidades de encontros entre diferenças no ensino superior</titulo>
           <autores>SILVA, GUILHERME HENRIQUE GOMES DA</autores>
           <revista>BOLETIM GEPEM (ONLINE)</revista>
@@ -30308,8 +30373,8 @@
           <ano>2020</ano>
         </artigo>
         <artigo>
-          <doi></doi>
-          <titulo>Educação Matemática e Atividades Investigativas com pessoas idosas</titulo>
+          <doi>http://dx.doi.org/10.34019/2237-9444.2019.v9.31130</doi>
+          <titulo>Educação matemática e atividades investigativas com pessoas idosas</titulo>
           <autores>SILVA, R. N. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, REJANE SIQUEIRA</autores>
           <revista>PESQUISA E DEBATE EM EDUCAÇÃO</revista>
           <volume>PESQUISA E DEBATE EM EDUCAÇÃO</volume>
@@ -31118,18 +31183,6 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <artigos_em_revista>
-        <artigo_revista>
-          <doi></doi>
-          <autores>da SILVA, GUILHERME HENRIQUE GOMES; LAUTER, S. L. ; CARMO, J. S. ; SANTOS, E. M. ; SANTOS, D. E. L.</autores>
-          <titulo>Microagressões no contexto de ensino e aprendizagem da matemática: uma análise teórico-conceitual</titulo>
-          <revista>Educação Matemática Pesquisa</revista>
-          <ano>2023</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>Microagressões raciais no Ensino Superior: Procedimentos da adaptação instrumental para a cultura brasileira</titulo>
@@ -32490,12 +32543,6 @@
         </formacao>
     </formacao_academica>
     <projetos_pesquisa>
-        <projeto>
-          <ano_inicio>2022</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Aprimoramento de Cerâmicas Termoelétricas para Conversão de Energia: Aspectos Teóricos e Experimentais</nome>
-          <descricao>Descrição: Há a expectativa de aprimorar o funcionamento de um módulo termoelétrico (TEG) através do estudo teórico, da caracterização e do desenvolvimento de cerâmicas termoelétricas. A fabricação dos TEG cerâmicos consiste na montagem de uma matriz de semicondutores do tipo-n e do tipo-p ligados eletricamente em série. Um dos atuais desafios é a obtenção de cerâmicas termoelétricas óxidas com alta eficiência na conversão direta da energia térmica em energia elétrica. Assim, o objetivo de aplicar cerâmicas óxidas para o aproveitamento do calor residual de sistemas térmicos, dispositivos termoelétricos devem ser fabricados com materiais que possuam alta resistividade térmica, alta condutividade elétrica e alto valor de coeficiente de Seebeck, o que reflete em elevados valores de Figura de Mérito. Estudos serão conduzidos abordando a engenharia de defeitos pela dopagem, a síntese de perovskitas (tipo ABO3) nos sistemas SrTiO3 e CaMnO3 (tipo-n) e Ca3Co4O9 (tipo-p), puros e dopados, como também sobre a densificação das cerâmicas utilizando diferentes processos de sinterização. Dispositivos termoelétricos serão construídos e sua capacidade de conversão será caracterizada para avaliar o efeito dos parâmetros de produção das cerâmicas na eficiência de conversão termoelétrica. Pós cerâmicos dopados com elementos doadores e aceitadores de elétrons serão produzidos através do processo convencional de reação em estado sólido e rotas químicas. Além do estudo de modificações estequiométricas, o uso de diferentes atmosferas durante a síntese dos pós, como hidrogênio e oxigênio, também será avaliado para verificar a influência dessas atmosferas nas indução de defeitos estruturais e na propriedades termoelétricas das cerâmicas. As cerâmicas serão sinterizadas através do processo convencional em forno resistivo e pelo método de sinterização a frio, que produz cerâmicas com microestrutura mais fina, modificando as propriedades das cerâmicas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (6) / Mestrado acadêmico: (6) / Doutorado: (6) . Integrantes: Hugo Bonette de Carvalho - Coordenador / Juliana Maria Abreu da Silva Morbec - Integrante / Maria Inês Basso Bernardi - Integrante / Antonio Carlos Doriguetto - Integrante / Alexandre Mesquita - Integrante / Maria Virginia Gelfuso - Integrante / Daniel Thomazini - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
-        </projeto>
         <projeto>
           <ano_inicio>2020</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
@@ -35234,14 +35281,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
-          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
+          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
+          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
-          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
+          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -35271,7 +35318,7 @@
           <ano_inicio>2006</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Modelagem Computacional (propriedades estruturais, eletrônicas e magnéticas) de Sólidos, Moléculas, Nanoestruturas e Superficies</nome>
-          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 39 / Número de orientações: 2</descricao>
+          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 37 / Número de orientações: 2</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -35342,26 +35389,6 @@
           <ano>2022</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.2174/1570180819666220401142351</doi>
-          <titulo>Triamcinolone as a potential inhibitor of SARS-CoV-2 main protease and cytokine storm: An in-silico study</titulo>
-          <autores>MISHRA, AMARESH ; QAIS, FAIZAN ABUL ; PATHAK, YAMINI ; Camps, Ihosvany ; TRIPATHI, VISHWAS</autores>
-          <revista>Letters in Drug Design & Discovery</revista>
-          <volume>Letters in Drug Design & Discovery</volume>
-          <paginas>122164</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
-          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
-          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
-          <revista>Letters in Drug Design & Discovery</revista>
-          <volume>Letters in Drug Design & Discovery</volume>
-          <paginas>1</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
           <doi>http://dx.doi.org/10.17648/acta.scientiae.7247</doi>
           <titulo>The Construction of the Tower of Pisa as a Basis for Problem-Solving in the Exact Sciences and the Use of Interdisciplinarity in Teaching</titulo>
           <autores>FARIA, L. C. S. ; TREVISAN, K. ; R. Bretas ; Camps, I. ; AVERSI-FERREIRA, T. A.</autores>
@@ -35388,6 +35415,26 @@
           <revista>MOLECULAR DIVERSITY</revista>
           <volume>MOLECULAR DIVERSITY</volume>
           <paginas>1</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
+          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
+          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
+          <revista>Letters in Drug Design & Discovery</revista>
+          <volume>Letters in Drug Design & Discovery</volume>
+          <paginas>808-820</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570180819666220401142351</doi>
+          <titulo>Triamcinolone as a potential inhibitor of SARS-CoV-2 main protease and cytokine storm: An in-silico study</titulo>
+          <autores>MISHRA, AMARESH ; QAIS, FAIZAN ABUL ; PATHAK, YAMINI ; Camps, Ihosvany ; TRIPATHI, VISHWAS</autores>
+          <revista>Letters in Drug Design & Discovery</revista>
+          <volume>Letters in Drug Design & Discovery</volume>
+          <paginas>1230-1242</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -39350,14 +39397,14 @@
         <projeto>
           <ano_inicio>2013</ano_inicio>
           <ano_conclusao>2018</ano_conclusao>
-          <nome>Teoria Qualitativa de Sistemas de Equações de Ordem Fracionária e aplicações em Biometria</nome>
-          <descricao>Descrição: Equações Diferenciais e integrais com derivadas de ordem não inteira é um ramo da Matemática conhecido como Equações de Ordem Fracionário. Atualmente, diferentes problemas aplicados da área de Epidemiologia, Engenharia, Física e Química, têm sido modelados com o uso desta ferramenta, o que tem motivado o interesse crescente nesta linha de pesquisa. O objetivos desse projeto e desenvolver novas ferramentas na área de Teoria Qualitativa e métodos numéricos para a análise de problemas Físicos e Biológicos descritos por equações de Ordem não inteira.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: José Paulo Carvalho dos Santos - Coordenador / Evandro Monteiro - Integrante / Nelson Henrique teixeira Lemes - Integrante. Número de produções C, T & A: 3Descrição: Descrição: Equações Diferenciais e integrais com derivadas de ordem não inteira é um ramo da Matemática conhecido como Equações de Ordem Fracionário. Atualmente, diferentes problemas aplicados da área de Epidemiologia, Engenharia, Física e Química, têm sido modelados com o uso desta ferramenta, o que tem motivado o interesse crescente nesta linha de pesquisa. O objetivos desse projeto e desenvolver novas ferramentas na área de Teoria Qualitativa e métodos numéricos para a análise de problemas Físicos e Biológicos descritos por equações de Ordem não inteira.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: Evandro Monteiro - Coordenador / José Paulo Carvalho dos Santos - Integrante / Nelson Henrique teixeira Lemes - Integrante.</descricao>
+          <nome>RESULTADOS DE EXISTÊNCIA E COMPORTAMENTO DAS SOLUÇÕES DAS EQUAÇÕES INTEGRO - DIFERENCIAIS FUNCIONAIS ABSTRATAS</nome>
+          <descricao>Descrição: O objetivo deste projeto de pesquisa é estudar alguns problemas que envolvem a área de Equações Diferencias Funcionais e teoria de Operadores. O foco, nos próximos anos, é pesquisar a existência e propriedades qualitativas das soluções das equações Integro-diferenciais com retardo não limitado definidas em espaços de Banach e teoria de operadores Resolvente para Equações Integro-diferenciais de segunda ordem e com termos envolvendo derivadas fracionárias, e sua aplicação em equações Diferenciais Parciais.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: José Paulo Carvalho dos Santos - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 3</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2013</ano_inicio>
           <ano_conclusao>2018</ano_conclusao>
-          <nome>RESULTADOS DE EXISTÊNCIA E COMPORTAMENTO DAS SOLUÇÕES DAS EQUAÇÕES INTEGRO - DIFERENCIAIS FUNCIONAIS ABSTRATAS</nome>
-          <descricao>Descrição: O objetivo deste projeto de pesquisa é estudar alguns problemas que envolvem a área de Equações Diferencias Funcionais e teoria de Operadores. O foco, nos próximos anos, é pesquisar a existência e propriedades qualitativas das soluções das equações Integro-diferenciais com retardo não limitado definidas em espaços de Banach e teoria de operadores Resolvente para Equações Integro-diferenciais de segunda ordem e com termos envolvendo derivadas fracionárias, e sua aplicação em equações Diferenciais Parciais.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: José Paulo Carvalho dos Santos - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 3</descricao>
+          <nome>Teoria Qualitativa de Sistemas de Equações de Ordem Fracionária e aplicações em Biometria</nome>
+          <descricao>Descrição: Equações Diferenciais e integrais com derivadas de ordem não inteira é um ramo da Matemática conhecido como Equações de Ordem Fracionário. Atualmente, diferentes problemas aplicados da área de Epidemiologia, Engenharia, Física e Química, têm sido modelados com o uso desta ferramenta, o que tem motivado o interesse crescente nesta linha de pesquisa. O objetivos desse projeto e desenvolver novas ferramentas na área de Teoria Qualitativa e métodos numéricos para a análise de problemas Físicos e Biológicos descritos por equações de Ordem não inteira.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: José Paulo Carvalho dos Santos - Coordenador / Evandro Monteiro - Integrante / Nelson Henrique teixeira Lemes - Integrante. Número de produções C, T & A: 3Descrição: Descrição: Equações Diferenciais e integrais com derivadas de ordem não inteira é um ramo da Matemática conhecido como Equações de Ordem Fracionário. Atualmente, diferentes problemas aplicados da área de Epidemiologia, Engenharia, Física e Química, têm sido modelados com o uso desta ferramenta, o que tem motivado o interesse crescente nesta linha de pesquisa. O objetivos desse projeto e desenvolver novas ferramentas na área de Teoria Qualitativa e métodos numéricos para a análise de problemas Físicos e Biológicos descritos por equações de Ordem não inteira.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: Evandro Monteiro - Coordenador / José Paulo Carvalho dos Santos - Integrante / Nelson Henrique teixeira Lemes - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -39406,6 +39453,16 @@
           <revista>REVISTA ELETRÔNICA PAULISTA DE MATEMÁTICA</revista>
           <volume>REVISTA ELETRÔNICA PAULISTA DE MATEMÁTICA</volume>
           <paginas>135-152</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi></doi>
+          <titulo>Fractional derivatives as weighted average of historical values: an application to COVID-19 in Brazil</titulo>
+          <autores>LOPES, M. M. ; PEDRO, F. S. ; dos Santos, José Paulo C. ; IBANEZ, D. S. ; ESMI, E. ; BARROS, L. C.</autores>
+          <revista>REVISTA ELETRÔNICA PAULISTA DE MATEMÁTICA</revista>
+          <volume>REVISTA ELETRÔNICA PAULISTA DE MATEMÁTICA</volume>
+          <paginas>275</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -39913,6 +39970,16 @@
           <natureza>Dissertação</natureza>
         </producao>
     </producao_bibliografica>
+    <orientacao_iniciacao_cientifica_em_andamento>
+        <iniciacao_cientifica>
+          <nome_aluno>Kaleb de Jesus Silva e Souza</nome_aluno>
+          <titulo_trabalho>Métodos analíticos e numéricos em equações diferenciais ordinárias no estudo de modelos epidemiológicos</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Iniciação científica (Graduando em Matemática) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+    </orientacao_iniciacao_cientifica_em_andamento>
     <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Michele Martins Lopes</nome_aluno>
@@ -40150,6 +40217,11 @@
         </evento>
     </participacao_evento>
     <organizacao_evento>
+        <evento>
+          <titulo>VII Semana da Matemática da UNIFAL-MG e II Workshop PROFMAT</titulo>
+          <natureza>Outro</natureza>
+          <ano>2023</ano>
+        </evento>
         <evento>
           <titulo></titulo>
           <natureza></natureza>
@@ -45059,7 +45131,7 @@
           <ano_inicio>2020</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>CNPq 442683/2019-7 - Avaliação do custo da obesidade para o Sistema Único de Saúde com desenvolvimento de ferramenta de monitoramento.</nome>
-          <descricao>Descrição: Este projeto se propõe à elaboração de um diagnóstico situacional de uma macrorregião de saúde do estado de Minas Gerais, com identificação do impacto econômico da obesidade nessa área, de forma a subsidiar a construção e validação de um instrumento para monitoramento da obesidade dentro da rede municipal e regional de saúde, com foco nas ações de alimentação e nutrição na atenção básica. Um estudo paralelo sobre as medidas regulatórias RDC 359/2003, RDC 360/2003 e RDC 24/2010 será conduzido com objetivo de analisar os efeitos dessas medidas sobre o comportamento alimentar dos indivíduos e, consequentemente, sobre a prevalência da obesidade. A análise desses dados, juntamente às análises de custo da obesidade, permitirá investigar a relação existente entre as mortes evitáveis e a redução do consumo de sódio, açúcar e gorduras, permitindo a construção de três cenários de implantação da medida regulatória: otimista, intermediário e pessimista.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (3) . Integrantes: Marcelo Lacerda Rezende - Integrante / AZEVEDO, LUCIANA - Coordenador / Estevão Tavares de Figueiredo - Integrante / Cristina Garcia Lopes - Integrante / Carlos Eduardo Gomes Siqueira - Integrante / Daniela Braga Lima - Integrante / Natania Aparecida da Silva Nogueira - Integrante. Número de orientações: 1</descricao>
+          <descricao>Descrição: Este projeto se propõe à elaboração de um diagnóstico situacional de uma macrorregião de saúde do estado de Minas Gerais, com identificação do impacto econômico da obesidade nessa área, de forma a subsidiar a construção e validação de um instrumento para monitoramento da obesidade dentro da rede municipal e regional de saúde, com foco nas ações de alimentação e nutrição na atenção básica. Um estudo paralelo sobre as medidas regulatórias RDC 359/2003, RDC 360/2003 e RDC 24/2010 será conduzido com objetivo de analisar os efeitos dessas medidas sobre o comportamento alimentar dos indivíduos e, consequentemente, sobre a prevalência da obesidade. A análise desses dados, juntamente às análises de custo da obesidade, permitirá investigar a relação existente entre as mortes evitáveis e a redução do consumo de sódio, açúcar e gorduras, permitindo a construção de três cenários de implantação da medida regulatória: otimista, intermediário e pessimista.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (3) . Integrantes: Marcelo Lacerda Rezende - Integrante / AZEVEDO, LUCIANA - Coordenador / Estevão Tavares de Figueiredo - Integrante / Cristina Garcia Lopes - Integrante / Carlos Eduardo Gomes Siqueira - Integrante / Daniela Braga Lima - Integrante / Natania Aparecida da Silva Nogueira - Integrante. Número de produções C, T & A: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2015</ano_inicio>
@@ -46159,17 +46231,15 @@
           <ano>2002</ano>
         </producao>
     </producao_tecnica>
-    <orientacao_mestrado_em_andamento>
+    <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Beatriz Cavalcante de Oliveira Barros</nome_aluno>
-          <titulo_trabalho>Avaliação dos custos diretos e indiretos da obesidade no Brasil</titulo_trabalho>
-          <ano>2020</ano>
+          <titulo_trabalho>Custo de doenças associadas à obesidade no Sistema Único de Saúde em Alfenas, Minas Gerais</titulo_trabalho>
+          <ano>2022</ano>
           <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Economia) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
-    </orientacao_mestrado_em_andamento>
-    <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Pablo José Freitas</nome_aluno>
           <titulo_trabalho>Viabilidade econômica e análise de risco dos sistemas de produção de leite a pasto e compost barn no sul de Minas Gerais</titulo_trabalho>
@@ -46602,6 +46672,10 @@
         </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_concluido>
     <participacao_evento>
+        <evento>
+          <titulo>61º Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural - SOBER. Avaliador ad hoc de artigos. 2023. (Congresso).</titulo>
+          <ano>2023</ano>
+        </evento>
         <evento>
           <titulo>U.S. Agricultural Policy in a Global Context Conference. 2013. (Outra).</titulo>
           <ano>2013</ano>
@@ -51025,7 +51099,7 @@
           <ano>2018</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.5935/0103-5053.20130079&md5=ca1da665b3aed35866a6b79cbf993c7c</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1590/s0103-50532009000900022&md5=1946beb874be43e9f60f23de01878bb8</doi>
           <titulo>An in silico Study of Benzophenone Derivatives as Potential Non-Competitive Inhibitors of Trypanosoma cruzi and Leishmania Amazonensis Cysteine Proteinases</titulo>
           <autores>FREITAS, P. G. ; CASTILHO, T. E. ; ALMEIDA, L. ; MACIEL-REZENDE, C. M. ; COSTA, L. T. ; VIEGAS JUNIOR, C. ; MARQUES, M. J. ; SANTOS, M. H. ; da Silveira, NJF</autores>
           <revista>JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY</revista>
@@ -51185,7 +51259,7 @@
           <ano>2008</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.2174/157489307779314320&md5=db2ff58474bb1a6d06b69927ffd353e3</doi>
           <titulo>Molecular Modeling Databases: A New Way in the Search of Proteins Targets for Drug Development</titulo>
           <autores>da Silveira, NJF; BONALUMI, C. E. ; ARCURI, Helen Andrade ; de AZEVEDO JR, W.F.</autores>
           <revista>Current Bioinformatics</revista>
@@ -53551,7 +53625,7 @@
           <ano>2005</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1023/b:jsst.0000023010.79540.6f&md5=7b9ee091f4ed9d055339114cc5d56281</doi>
           <titulo>Synthesis and Characterização of the beta barium boratePhase Obtained by the Polymeric Precursor Method</titulo>
           <autores>NEVES, P. P.; MAIA, L. J. Q. ; BERNARDI, M. I. B. ; ZANATA, A. R. ; MASTELARO, Valmor R ; ZANETTI, Sonia M ; LEITE, Edson R</autores>
           <revista>Journal of Sol-Gel Science and Technology</revista>
@@ -54627,7 +54701,7 @@
     <artigos_em_periodicos>
         <artigo>
           <doi>http://dx.doi.org/10.37001/remat25269062v20id793</doi>
-          <titulo>Ensaio filosófico com umModelo dos Campos Semânticos</titulo>
+          <titulo>Ensaio filosófico com um Modelo dos Campos Semânticos</titulo>
           <autores>SANTOS, J. R. V. ; PAULO, J. P. A. ; JULIO, R. S.</autores>
           <revista>Revista de Educação Matemática</revista>
           <volume>Revista de Educação Matemática</volume>
@@ -54766,7 +54840,7 @@
           <ano>2020</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://dx.doi.org/10.34019/2237-9444.2019.v9.31130</doi>
           <titulo>Educação Matemática e atividades investigativas com pessoas idosas</titulo>
           <autores>SILVA, R. N. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, REJANE SIQUEIRA</autores>
           <revista>PESQUISA E DEBATE EM EDUCAÇÃO</revista>
@@ -57798,7 +57872,7 @@
     <artigos_em_periodicos>
         <artigo>
           <doi></doi>
-          <titulo>Sistema de compartilhamento de dados geoespaciais: SisGEO</titulo>
+          <titulo>Geospatial data sharing system: SisGEO</titulo>
           <autores>ALVARENGA, S. H. ; VIEIRA, G. S. ; LATUF, M. O. ; PAGLIARES, R. M.</autores>
           <revista>CADERNO DE GEOGRAFIA</revista>
           <volume>CADERNO DE GEOGRAFIA</volume>
@@ -57952,14 +58026,6 @@
     </apresentacao_trabalho>
     <orientacao_tcc_em_andamento>
         <tcc>
-          <nome_aluno>João Pedro Silva Bianco. Walter Felipe Divino Berchez</nome_aluno>
-          <titulo_trabalho>Um aplicativo web para análise espaço/temporal da concentração de gases poluentes e aerossol na atmosfera sobre o bioma Amazônico brasileiro</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
           <nome_aluno>Alice Batista. Vitor Rubatino</nome_aluno>
           <titulo_trabalho>Um método baseado em Behavior Driven Development (BDD) e System Theoretic Process Analysis (STPA) para verificação de requisitos de segurança (security) em sistemas críticos</titulo_trabalho>
           <ano>2022</ano>
@@ -57969,6 +58035,14 @@
         </tcc>
     </orientacao_tcc_em_andamento>
     <orientacao_tcc_concluido>
+        <tcc>
+          <nome_aluno>João Pedro Silva Bianco. Walter Felipe Divino Berchez</nome_aluno>
+          <titulo_trabalho>Um aplicativo web para análise espaço/temporal da concentração de gases poluentes e aerossol na atmosfera sobre o bioma Amazônico brasileiro</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
         <tcc>
           <nome_aluno>Maria Luiza Fernandes. Otávio Augusto Faria</nome_aluno>
           <titulo_trabalho>Um pipeline para evoluc?a?o da WebSTAMP: um exemplo de entrega conti?nua de software de valor</titulo_trabalho>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="07/04/2023 19:20:46">
+<curriculo_lattes data_processamento="15/05/2023 12:16:22">
   <pesquisador id="8478305453281130">
     <identificacao>
       <identificador10></identificador10>
       <nome_inicial>Aníbal Thiago Bezerra</nome_inicial>
       <nome_completo>Anibal Thiago Bezerra</nome_completo>
-      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -146,6 +146,16 @@
           <revista>PHYSICA SCRIPTA</revista>
           <volume>PHYSICA SCRIPTA</volume>
           <paginas>045804</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1088/1748-0221/18/04/P04034</doi>
+          <titulo>Highly-parallelized simulation of a pixelated LArTPC on a GPU</titulo>
+          <autores>ABED ABUD, A</autores>
+          <revista>Journal of Instrumentation</revista>
+          <volume>Journal of Instrumentation</volume>
+          <paginas>P04034</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -3541,7 +3551,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nima.2016.05.052&md5=c0b42fa6dce56213231902a7b01f61d6</doi>
+          <doi>http://dx.doi.org/10.1016/j.nima.2016.05.052</doi>
           <titulo>Readout electronics validation and target detector assessment for the neutrinos angra experiment</titulo>
           <autores>ALVARENGA, T.A. ; ANJOS, J.C. ; AZZI, G. ; CERQUEIRA, A.S. ; CHIMENTI, P. ; COSTA, J.A. ; DORNELAS, T.I. ; FARIAS, P.C.M.A. ; GUEDES, G.P. ; GONZALEZ, L.F.G. ; KEMP, E. ; LIMA, H.P. ; MACHADO, R. ; NÓBREGA, R.A. ; PEPE, I.M. ; RIBEIRO, D.B.S. ; SIMAS FILHO, E.F. ; Valdiviesso, G.A. ; Wagner, S.</autores>
           <revista>Nuclear Instruments & Methods in Physics Research. Section A, Accelerators, Spectrometers, Detectors and Associated Equipment (Print)</revista>
@@ -3551,7 +3561,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1748-0221/11/08/p08001&md5=8b162168141564983cc2d76f514bd829</doi>
+          <doi>http://dx.doi.org/10.1088/1748-0221/11/08/P08001</doi>
           <titulo>Characterization of the spontaneous light emission of the PMTs used in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Journal of Instrumentation</revista>
@@ -3561,7 +3571,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nuclphysbps.2015.10.090&md5=b381e147e967d6927f83dbc0e47a02fb</doi>
+          <doi>http://dx.doi.org/10.1016/j.nuclphysbps.2015.10.090</doi>
           <titulo>Using Neutrinos to Monitor Nuclear Reactors: the Angra Neutrino Experiment, Simulation and Detector Status</titulo>
           <autores>ANJOS, J.C</autores>
           <revista>Nuclear Physics. B, Proceedings Supplement (Print)</revista>
@@ -3591,7 +3601,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nima.2014.07.058&md5=098448a6fa8f5af7d3da5fb9846996b3</doi>
+          <doi>http://dx.doi.org/10.1016/j.nima.2014.07.058</doi>
           <titulo>Precision muon reconstruction in Double Chooz</titulo>
           <autores>Abe, Y</autores>
           <revista>Nuclear Instruments & Methods in Physics Research. Section A, Accelerators, Spectrometers, Detectors and Associated Equipment (Print)</revista>
@@ -3601,7 +3611,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/jhep10(2014)032&md5=afa01068e0b289a891cc91fa9a46fa56</doi>
+          <doi>http://dx.doi.org/10.1007/jhep10(2014)032</doi>
           <titulo>Ortho-positronium observation in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>J HIGH ENERGY PHYS</revista>
@@ -3611,7 +3621,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/jhep10(2014)086&md5=9b12c5a64460a46cad2bc8e80d71c24e</doi>
+          <doi>http://dx.doi.org/10.1007/jhep10(2014)086</doi>
           <titulo>Improved measurements of the neutrino mixing angle ? 13 with the Double Chooz detector</titulo>
           <autores>Abe, Y</autores>
           <revista>J HIGH ENERGY PHYS</revista>
@@ -3621,7 +3631,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2014.04.045&md5=7392de50915ddd8e741daf4b668d6d44</doi>
+          <doi>http://dx.doi.org/10.1016/j.physletb.2014.04.045</doi>
           <titulo>Background-independent measurement of in Double Chooz</titulo>
           <autores>Abe, Y. ; Valdiviesso, G.A.</autores>
           <revista>PHYSICS LETTERS B</revista>
@@ -3631,7 +3641,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.87.011102&md5=fb31e1e7bee5d7c23aeaa01543ad325b</doi>
+          <doi>http://dx.doi.org/10.1103/physrevd.87.011102</doi>
           <titulo>Direct measurement of backgrounds using reactor-off data in Double Chooz</titulo>
           <autores>Abe, Y</autores>
           <revista>Physical Review. D. Particles, Fields, Gravitation, and Cosmology (Online)</revista>
@@ -3641,7 +3651,7 @@
           <ano>2013</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2013.04.050&md5=7841306223ba93f9ae0e462d8a6c7a06</doi>
+          <doi>http://dx.doi.org/10.1016/j.physletb.2013.04.050</doi>
           <titulo>First measurement of from delayed neutron capture on hydrogen in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Physics Letters. B (Print)</revista>
@@ -3661,7 +3671,7 @@
           <ano>2012</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.86.112009&md5=f7a570651b44ba173f171cc73289efde</doi>
+          <doi>http://dx.doi.org/10.1103/physrevd.86.112009</doi>
           <titulo>First test of Lorentz violation with a reactor-based antineutrino experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Physical Review. D. Particles, Fields, Gravitation, and Cosmology (Online)</revista>
@@ -3681,7 +3691,7 @@
           <ano>2012</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2011.05.057&md5=cba6827326e93f43253b9f91a9534396</doi>
+          <doi>http://dx.doi.org/10.1016/j.physletb.2011.05.057</doi>
           <titulo>Probing new limits for the Violation of the Equivalence Principle in the solar¿reactor neutrino sector as a next to leading order effect</titulo>
           <autores>Valdiviesso, G.A.; Guzzo, M.M. ; Holanda, P.C.</autores>
           <revista>PHYSICS LETTERS B</revista>
@@ -3691,7 +3701,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1140/epjc/s10052-009-1227-4&md5=88a30e18ddabe3519c180ff3a96e6d31</doi>
+          <doi>http://dx.doi.org/10.1140/epjc/s10052-009-1227-4</doi>
           <titulo>First proton?proton collisions at the LHC as observed with the ALICE detector: measurement of the charged-particle pseudorapidity density at ? s = 900 GeV. European Physical Journal</titulo>
           <autores>Aamodt, K ; do Amaral Valdiviesso, G.</autores>
           <revista>European Physical Journal. C, Particles and Fields (Print)</revista>
@@ -3701,7 +3711,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nuclphysa.2009.10.142&md5=492604ed5b812bd276196c77984735a4</doi>
+          <doi>http://dx.doi.org/10.1016/j.nuclphysa.2009.10.142</doi>
           <titulo>The ALICE Collaboration</titulo>
           <autores>Aamodt, K. ; Abel, N. ; Abrahantes Quintana, A. ; Acero, A. ; Adamová, D. ; Aggarwal, M.M. ; Aglieri Rinella, G. ; Agocs, A. ; Aguilar Salazar, S. ; Ahammed, Z. ; do Amaral Valdiviesso, G.</autores>
           <revista>Nuclear Physics. A (Print)</revista>
@@ -4330,14 +4340,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
-          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
+          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
+          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
-          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
+          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -4367,7 +4377,7 @@
           <ano_inicio>2006</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Modelagem Computacional (propriedades estruturais, eletrônicas e magnéticas) de Sólidos, Moléculas, Nanoestruturas e Superficies</nome>
-          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 39 / Número de orientações: 2</descricao>
+          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 37 / Número de orientações: 2</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -4438,26 +4448,6 @@
           <ano>2022</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.2174/1570180819666220401142351</doi>
-          <titulo>Triamcinolone as a potential inhibitor of SARS-CoV-2 main protease and cytokine storm: An in-silico study</titulo>
-          <autores>MISHRA, AMARESH ; QAIS, FAIZAN ABUL ; PATHAK, YAMINI ; Camps, Ihosvany ; TRIPATHI, VISHWAS</autores>
-          <revista>Letters in Drug Design & Discovery</revista>
-          <volume>Letters in Drug Design & Discovery</volume>
-          <paginas>122164</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
-          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
-          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
-          <revista>Letters in Drug Design & Discovery</revista>
-          <volume>Letters in Drug Design & Discovery</volume>
-          <paginas>1</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
           <doi>http://dx.doi.org/10.17648/acta.scientiae.7247</doi>
           <titulo>The Construction of the Tower of Pisa as a Basis for Problem-Solving in the Exact Sciences and the Use of Interdisciplinarity in Teaching</titulo>
           <autores>FARIA, L. C. S. ; TREVISAN, K. ; R. Bretas ; Camps, I. ; AVERSI-FERREIRA, T. A.</autores>
@@ -4484,6 +4474,26 @@
           <revista>MOLECULAR DIVERSITY</revista>
           <volume>MOLECULAR DIVERSITY</volume>
           <paginas>1</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
+          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
+          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
+          <revista>Letters in Drug Design & Discovery</revista>
+          <volume>Letters in Drug Design & Discovery</volume>
+          <paginas>808-820</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570180819666220401142351</doi>
+          <titulo>Triamcinolone as a potential inhibitor of SARS-CoV-2 main protease and cytokine storm: An in-silico study</titulo>
+          <autores>MISHRA, AMARESH ; QAIS, FAIZAN ABUL ; PATHAK, YAMINI ; Camps, Ihosvany ; TRIPATHI, VISHWAS</autores>
+          <revista>Letters in Drug Design & Discovery</revista>
+          <volume>Letters in Drug Design & Discovery</volume>
+          <paginas>1230-1242</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -9697,39 +9707,39 @@
     <projetos_pesquisa>
         <projeto>
           <ano_inicio>2016</ano_inicio>
+          <ano_conclusao>2019</ano_conclusao>
+          <nome>Unificação do setor escuro na cosmologia</nome>
+          <descricao>Descrição: Fizemos construção de cenários e modelos que unificam matéria escura e energia escura. Duas abordagens foram usadas: (i) quartessencia via dinâmica de campo escalar, e (ii) introdução de parâmetro de equação de estado dependente do redshift para o setor escuro.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Integrante / Léo Gouvêa Medeiros - Integrante / Eduardo Messias de Morais - Integrante / BRANDENBERGER, ROBERT H. - Coordenador / FRÖHLICH, JÜRG - Integrante / Ryo Namba - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa. Número de produções C, T & A: 4</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2016</ano_inicio>
           <ano_conclusao>2017</ano_conclusao>
           <nome>Abordando o problema da energia escura através de um modelo de fluido perfeito e da gravidade f(R,dR)</nome>
-          <descricao>Descrição: Projeto de pesquisa desenvolvido durante um estágio sênior na McGill University (Canadá) em colaboração com o Prof. Robert H. Brandenberger, especialista em teoria de perturbações cosmológicas e proponente da "string gas cosmology". Apoio financeiro CAPES; número do processo: 88881.119228/2016-01. Situação: Concluído; Natureza: Pesquisa. Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Robert H. Brandenberger - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa. Número de produções C, T & A: 3</descricao>
+          <descricao>Descrição: Projeto de pesquisa desenvolvido durante um estágio sênior na McGill University (Canadá) em colaboração com o Prof. Robert H. Brandenberger, especialista em teoria de perturbações cosmológicas e proponente da "string gas cosmology". Apoio financeiro CAPES; número do processo: 88881.119228/2016-01. Situação: Concluído; Natureza: Pesquisa. Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Léo Gouvêa Medeiros - Integrante / Eduardo Messias de Morais - Integrante / Robert H. Brandenberger - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa. Número de produções C, T & A: 3</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2016</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Gravidade modificada e suas aplicações na cosmologia</nome>
-          <descricao>Descrição: Modificamos as equações de campo de Einstein para incluir termos de derivadas superiores dos tensores de curvatura e suas contrações. Estudamos os efeitos das modificações para a física de buracos negros, inflação e energia escura. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Léo Gouvêa Medeiros - Integrante / Cassius Anderson Miquele de Melo - Integrante / Pompeia, P.J. - Integrante / Bruto Max Pimentel Escobar - Integrante / Eduardo Messias de Morais - Integrante / Ryo Namba - Integrante / Silas Guida Vilhena - Integrante. Número de produções C, T & A: 4</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2016</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Unificação do setor escuro na cosmologia</nome>
-          <descricao>Descrição: Fazemos construção de cenários e modelos que unificam matéria escura e energia escura. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Integrante / Léo Gouvêa Medeiros - Integrante / Eduardo Messias de Morais - Integrante / BRANDENBERGER, ROBERT H. - Coordenador / FRÖHLICH, JÜRG - Integrante / Ryo Namba - Integrante. Número de produções C, T & A: 3</descricao>
+          <descricao>Descrição: Modificamos a ação de Einstein-Hilbert para incluir termos de derivadas superiores dos tensores de curvatura e suas contrações. Em uma segunda abordagem, consideramos modelos escalares-tensoriais de gravidade modificada, incluindo a proposta de acoplamentos físicos variáveis. Uma terceira categoria de modelos explorados é a alteração das geometria do espaço-tempo subjacente à teoria de gravidade, e.g. tomando a variedade de Lyra. Estudamos os efeitos das três classes de modificações para a física de buracos negros, inflação e setor escuro (matéria escura e energia escura).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) / Doutorado: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Léo Gouvêa Medeiros - Integrante / Cassius Anderson Miquele de Melo - Integrante / Pompeia, P.J. - Integrante / Bruto Max Pimentel Escobar - Integrante / Eduardo Messias de Morais - Integrante / Silas Guida Vilhena - Integrante / Rajendra P. Gupta - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Macronix Research Corporation - Outra. Número de produções C, T & A: 14 / Número de orientações: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2014</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Teorias de campos em espaços curvos não-comutativos, covariância Galileana, soluções de branas</nome>
-          <descricao>Descrição: Estudamos aspectos de teorias de campos em espaços curvos não-comutativos; covariância Galileana com aplicação à gravitação; e, soluções do tipo branas com simetria esférica e sua vinculação com testes clássicos da gravitação. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Rodrigo Rocha Cuzinatto - Integrante / Pedro José Pompéia - Integrante / Khanna, F.C. - Integrante / Júlio Marny Hoff da Silva - Integrante / Marc de Montigny - Coordenador. Número de produções C, T & A: 3</descricao>
+          <descricao>Descrição: Estudamos aspectos de teorias de campos em espaços curvos não-comutativos, em particular, na presença de cordas cósmicas. Abordamos a covariância Galileana em dimensões extras com aplicação à gravitação, em particular, em ondas gravitacionais. Construímos soluções do tipo branas com simetria esférica e sua vinculação com testes clássicos da gravitação. Investigamos a hipótese dos monopolos magnéticos em eletrodinâmicas não-Maxwellianas e sua acomodação em teorias de gauge à maneira de Utiyama.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Rodrigo Rocha Cuzinatto - Integrante / Pedro José Pompéia - Integrante / Khanna, F.C. - Integrante / Júlio Marny Hoff da Silva - Integrante / Marc de Montigny - Coordenador. Número de produções C, T & A: 5</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2014</ano_conclusao>
           <nome>Modelo unificado para o fluido cosmológico</nome>
-          <descricao>Descrição: Propomos a construção de uma equação de estado fenomenológica unificada para descrever as quatro fases principais da evolução do universo, a saber: a inflação, a era dominada pela radiação, o período dominado pela matéria e a época de expansão acelerada que vivemos hoje. Pretendemos determinar a teoria de campos subjacente a essa equação fenomenológica completa, usando o mesmo roteiro que é usualmente empregado, de forma separada, às teorias inflacionárias e de quintessência.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Cássius Anderson Miquele de Melo - Integrante / Clícia Naldoni de Souza - Integrante / Eduardo Messias de Morais - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 6</descricao>
+          <descricao>Descrição: Propusemos a construção de uma equação de estado fenomenológica unificada para descrever as quatro fases principais da evolução do universo, a saber: a inflação, a era dominada pela radiação, o período dominado pela matéria e a época de expansão acelerada que vivemos hoje. Determinamos o potencial do campo escalar subjacente a essa equação fenomenológica completa, usando o mesmo roteiro que é usualmente empregado, de forma separada, às teorias inflacionárias e de quintessência. Trabalhamos na vinculação observacional do modelo fenomenológico unificando o setor escuro usando dados de SNe Ia, GRBs, BAO e PN.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Cássius Anderson Miquele de Melo - Integrante / Clícia Naldoni de Souza - Integrante / Eduardo Messias de Morais - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 6</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2007</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Teorias de Calibre</nome>
-          <descricao>Descrição: Estudamos aspectos clássicos de teorias invariantes de calibre na formulação de Utiyama e de Stueckelberg. Em particular, devotamos especial atenção para a eletrodinâmica generalizada de Bopp-Podolsky. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Léo Gouvêa Medeiros - Integrante / Cassius Anderson Miquele de Melo - Integrante / Pedro José Pompéia - Integrante / Bruto Max Pimentel Escobar - Integrante / Juan Carlos Sumire Esquia - Integrante. Número de produções C, T & A: 6</descricao>
+          <descricao>Descrição: Estudamos aspectos clássicos de teorias invariantes de calibre na formulação de Utiyama e de Stueckelberg. Em particular, devotamos especial atenção para a eletrodinâmica generalizada de Bopp-Podolsky. Desenvolvemos mecanismos de geração de massa que preservam invariância de gauge, uma alternativa à quebra espontânea de simetria típica do modelo de Higgs.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Léo Gouvêa Medeiros - Integrante / Cassius Anderson Miquele de Melo - Integrante / Pedro José Pompéia - Integrante / Bruto Max Pimentel Escobar - Integrante / Juan Carlos Sumire Esquia - Integrante. Número de produções C, T & A: 8</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -9749,6 +9759,7 @@
         <id_lattes_colaborador>6853427939982300</id_lattes_colaborador>
         <id_lattes_colaborador>7437976888724293</id_lattes_colaborador>
         <id_lattes_colaborador>7480418100713613</id_lattes_colaborador>
+        <id_lattes_colaborador>4200349501324526</id_lattes_colaborador>
         <id_lattes_colaborador>2797502202617114</id_lattes_colaborador>
         <id_lattes_colaborador>1048504721932307</id_lattes_colaborador>
         <id_lattes_colaborador>4002033080997386</id_lattes_colaborador>
@@ -10152,10 +10163,10 @@
     </artigos_em_periodicos>
     <trabalho_completo_congresso>
         <trabalho_completo>
-          <doi></doi>
-          <autores>NASCIMENTO, N. L. N. S. ; CUZINATTO, R. R.</autores>
-          <titulo>Estimativa dos parâmetros físicos de buracos negros binários através de suas ondas gravitacionais</titulo>
-          <nome_evento>II Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia</nome_evento>
+          <doi>http://dx.doi.org/10.29327/143026.2-102</doi>
+          <autores>NASCIMENTO, NICOLAS LERIONE NUNES DA SILVA ; CUZINATTO, RODRIGO ROCHA</autores>
+          <titulo>ESTIMATIVA DOS PARÂMETROS FÍSICOS DE BURACOS NEGROS BINÁRIOS ATRAVÉS DE SUAS ONDAS GRAVITACIONAIS</titulo>
+          <nome_evento>Anais do Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia</nome_evento>
           <ano>2021</ano>
           <volume></volume>
           <paginas></paginas>
@@ -10182,6 +10193,16 @@
         </resumo_expandido>
     </resumo_expandido_congresso>
     <resumo_congresso>
+        <resumo>
+          <doi></doi>
+          <autores>NASCIMENTO, N. L. N. S. ; CUZINATTO, R. R.</autores>
+          <titulo>Estudo de buracos negros e estrelas de nêutrons através de suas ondas gravitacionais</titulo>
+          <nome_evento>V Semana Acadêmica da Física, 2021, Alfenas, MG. V Semana Acadêmica da Física - Book of Abstracts</nome_evento>
+          <ano>2021</ano>
+          <volume></volume>
+          <paginas>5</paginas>
+          <numero></numero>
+        </resumo>
         <resumo>
           <doi></doi>
           <autores>SOUZA, C. N. ; CUZINATTO, R. R.</autores>
@@ -10660,6 +10681,10 @@
         </orientacao_outra>
     </orientacao_outros_tipos_concluido>
     <participacao_evento>
+        <evento>
+          <titulo>FEG-UNESP Mini-Workshop de Física Teórica. Covariant Physical Couplings. 2022. (Congresso).</titulo>
+          <ano>2022</ano>
+        </evento>
         <evento>
           <titulo>III Workshop do Programa de Pós-Graduação em Física da Associação UNIFAL-MG/UFSJ. Co-varying Physical Couplings. 2022. (Congresso).</titulo>
           <ano>2022</ano>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="07/04/2023 19:01:14">
+<curriculo_lattes data_processamento="15/05/2023 12:00:57">
   <pesquisador id="1707973773263725">
     <identificacao>
       <identificador10></identificador10>
       <nome_inicial>André Luiz Sena Mariano</nome_inicial>
       <nome_completo>André Luiz Sena Mariano</nome_completo>
-      <nome_citacao_bibliografica>MARIANO, A. L. S.;MARIANO, ANDRÉ LUIZ SENA;SENA MARIANO, ANDRÉ LUIZ</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>MARIANO, A. L. S.;MARIANO, ANDRÉ LUIZ SENA;SENA MARIANO, ANDRÉ LUIZ;MARIANO, ANDRE SENA;MARIANO, ANDRÉ SENA</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -162,6 +162,16 @@
         <id_lattes_colaborador>1542480460084518</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.5212/OlharProfr.v.26.20111.034</doi>
+          <titulo>Relações de gênero e sexualidade em livros didáticos dos anos finais do ensino fundamental: um estudo de caso em uma escola de Ilicínea-MG</titulo>
+          <autores>MARIANO, ANDRÉ SENA; FERREIRA, LEANDRO BORGES</autores>
+          <revista>Olhar de Profesor</revista>
+          <volume>Olhar de Profesor</volume>
+          <paginas>1-21</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.31639/rbpfp.v14i29.504</doi>
           <titulo>O desenvolvimento profissional docente em diálogo com as concepções teóricas de pierre bourdieu: a constituição do habitus profissional no ensino de história</titulo>
@@ -1234,6 +1244,11 @@
     </producao_bibliografica>
     <trabalhos_tecnicos>
         <trabalho>
+          <titulo>Parecericta Ad Hoc da Revista Brasileira de Pesquisa sobre Formação de Professores</titulo>
+          <autores>MARIANO, A. L. S</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
           <titulo>Parecerista ad hoc da Revista Educação em Foco</titulo>
           <autores>MARIANO, A. L. S</autores>
           <ano>2022</ano>
@@ -1963,6 +1978,14 @@
         </monografia>
     </orientacao_especializacao_concluido>
     <orientacao_tcc_concluido>
+        <tcc>
+          <nome_aluno>Gabriel Barreto Lopes</nome_aluno>
+          <titulo_trabalho>?As ?elites escolares? no Brasil: um olhar a partir das produções da ANPEd?</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
         <tcc>
           <nome_aluno>Rafaela Marques de Carvalho</nome_aluno>
           <titulo_trabalho>A iniciação à docência: que fase é essa?</titulo_trabalho>
@@ -10306,7 +10329,7 @@
           <ano_inicio>2017</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Educação de Jovens e Adultos- Sujeitos, ideias pedagógicas, políticas públicas e processos formadores</nome>
-          <descricao>Descrição: Pesquisas no campo da Educação de Jovens e Adultos, na sua multiplicidade de experiências (escolares e não-escolares) e diversidade dos seus sujeitos, interessadas na compreensão de questões relacionadas às especificidades do campo e suas interfaces com a sociologia da educação e com a história da educação.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Cristiane Fernanda Xavier - Coordenador. Número de produções C, T & A: 12 / Número de orientações: 4</descricao>
+          <descricao>Descrição: Pesquisas no campo da Educação de Jovens e Adultos, na sua multiplicidade de experiências (escolares e não-escolares) e diversidade dos seus sujeitos, interessadas na compreensão de questões relacionadas às especificidades do campo e suas interfaces com a sociologia da educação e com a história da educação.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Cristiane Fernanda Xavier - Coordenador. Número de produções C, T & A: 13 / Número de orientações: 3</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2012</ano_inicio>
@@ -10993,14 +11016,6 @@
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
-        <dissertacao>
-          <nome_aluno>Renata Sebastiana dos Santos</nome_aluno>
-          <titulo_trabalho>As necessidades formativas do educador de EJA nas IES mineiras- uma investigação das propostas curriculares dos cursos de Pedagogia</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
     </orientacao_mestrado_em_andamento>
     <orientacao_iniciacao_cientifica_em_andamento>
         <iniciacao_cientifica>
@@ -11013,6 +11028,14 @@
         </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_em_andamento>
     <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Renata Sebastiana dos Santos</nome_aluno>
+          <titulo_trabalho>As necessidades formativas do educador de EJA nas propostas curriculares dos cursos de Pedagogia das IES públicas de Minas Gerais</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
         <dissertacao>
           <nome_aluno>Edmar Augusto Semeão Garcia</nome_aluno>
           <titulo_trabalho>Dinâmicas de estigmatização nas relações intergeracionais na Educação de Jovens e Adultos (EJA)</titulo_trabalho>
@@ -14782,7 +14805,7 @@
           <ano_inicio>2007</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Ribeirão Anhumas na Escola</nome>
-          <descricao>Descrição: O projeto foi desenvolvido com o objetivo de integrar a gestão ambiental e a educação escolar, contribuindo para o enfrentamento de problemas sócio-ambientais na microbacia do ribeirão das Anhumas -Campinas-SP. Através de trabalhos colaborativos entre o Instituto de Geociências e Instituto de Biologia da Unicamp, Instituto Agronômico de Campinas (IAC), Faculdade de Educação da USP, E.E. Ana Rita Godinho Pousa e E.E. Adalberto Nascimento, desenvolvem-se práticas coletivas e interdisciplinares de estudo, transformando conhecimentos científicos em conhecimentos escolarizados e contextualizados localmente. As atividades envolvem oficinas temáticas (educação ambiental; local/regional; Ciência, Tecnologia, Sociedade e Ambiente - CTSA; Interdisciplinaridade ) e disciplinares de formação, encontros/reuniões de trabalho nas escolas, assessoria pedagógica, orientações individuais e coletivas, trabalhos virtuais (TelEduc), atividades de campo e eventos. No contexto do projeto as práticas pedagógicas serão reelaboradas, incluindo uma importante mudança sobre o papel do professor. Nesta, busca-se romper a hegemonia da concepção destes como aplicadores de conhecimentos, construindo-se outra concepção, do professor pesquisador. Adotam-se abordagens dialógico-reflexivas para a formação continuada apoiando-se na corrente sócio-cultural de pensamento/linguagem. Em paralelo, desenvolve-se um banco de dados sobre os estudos de problemas sócio-ambientais das bacias da cidade de Campinas produzidos na esfera acadêmica e técnica, além dos conhecimentos escolarizados produzidos no âmbito do projeto. O projeto une duas propostas - Petrobras:Conhecimentos escolares relacionados à ciência, à sociedade e ao ambiente em micro-bacia urbana; FAPESP: Proj.2006/1558-1: Elaboração de conhecimentos escolares e curriculares relacionados à ciência, à sociedade e ao ambiente na escola básica com ênfase na regionalização a partir dos resultados de projeto de políticas públicas.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) / Mestrado acadêmico: (2) / Doutorado: (3) . Integrantes: Gabriel Gerber Hornink - Integrante / Jorge Yoshio Tamashiro - Integrante / Bayardo Baptista Torres - Integrante / Maurício Compiani - Coordenador / Yara Kulaif - Integrante / Fernanda Keila Marinho da Silva - Integrante / Vívian Branco Newerla - Integrante / Vania Maria Nunes dos Santos - Integrante / Ofelia Ortega Fraile - Integrante / Henrique Cesar da Silva - Integrante / Narjara Zimmermann - Integrante / Ermelinda Moutinho Pataca - Integrante / Viviane Lousada Cracel - Integrante / Vanessa Lessio Diniz - Integrante / Bruno Bronzati Giacomini - Integrante / Ricardo Marques Coelho - Integrante / Samuel Fernando Adami - Integrante / Paulo Bussab Lemos de Castro - Integrante / Eliana Regina Forni Martins - Integrante / Eleonore Zulnara Freire Setz - Integrante / Luiza Sumiko Kinoshita - Integrante / Luciana Priscila de Barros Carvalho de Sousa - Integrante / Salvador Carpi Junior - Integrante / Carlos Augusto Vaccari - Integrante / Cláudia Gisele Zaparoli Latarini - Integrante / Ederson Costa Briguenti - Integrante / Fabiana Burgos Takahashi Garcia - Integrante / Graziela Moreira Simão - Integrante / Isilda de Lourdes Passos Sene - Integrante / Maria Aparecida Pereira Montagner - Integrante / Patrícia Nogueira dos Santos - Integrante / Sara Buchedid Esteves - Integrante / Vânia Rosalva Amaral - Integrante / Carlos Alberto Sato - Integrante / Carmem Silvia Cavoti - Integrante / Cláudia Fonseca Baldini - Integrante / Darlene Bernardi de Souza Benetti - Integrante / José Ricardo Ramponi - Integrante / Laerte Alberto Junior - Integrante / Magali Andrade Barbosa - Integrante / Ricardo Inácio Batista Junior - Integrante / Sanda Regina Bianchi Sterpeloni - Integrante / Valdete Ramos de Oliveira Melo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio financeiro / Petróleo Brasileiro - Rio de Janeiro - Matriz - Auxílio financeiro. Número de produções C, T & A: 29</descricao>
+          <descricao>Descrição: O projeto foi desenvolvido com o objetivo de integrar a gestão ambiental e a educação escolar, contribuindo para o enfrentamento de problemas sócio-ambientais na microbacia do ribeirão das Anhumas -Campinas-SP. Através de trabalhos colaborativos entre o Instituto de Geociências e Instituto de Biologia da Unicamp, Instituto Agronômico de Campinas (IAC), Faculdade de Educação da USP, E.E. Ana Rita Godinho Pousa e E.E. Adalberto Nascimento, desenvolvem-se práticas coletivas e interdisciplinares de estudo, transformando conhecimentos científicos em conhecimentos escolarizados e contextualizados localmente. As atividades envolvem oficinas temáticas (educação ambiental; local/regional; Ciência, Tecnologia, Sociedade e Ambiente - CTSA; Interdisciplinaridade ) e disciplinares de formação, encontros/reuniões de trabalho nas escolas, assessoria pedagógica, orientações individuais e coletivas, trabalhos virtuais (TelEduc), atividades de campo e eventos. No contexto do projeto as práticas pedagógicas serão reelaboradas, incluindo uma importante mudança sobre o papel do professor. Nesta, busca-se romper a hegemonia da concepção destes como aplicadores de conhecimentos, construindo-se outra concepção, do professor pesquisador. Adotam-se abordagens dialógico-reflexivas para a formação continuada apoiando-se na corrente sócio-cultural de pensamento/linguagem. Em paralelo, desenvolve-se um banco de dados sobre os estudos de problemas sócio-ambientais das bacias da cidade de Campinas produzidos na esfera acadêmica e técnica, além dos conhecimentos escolarizados produzidos no âmbito do projeto. O projeto une duas propostas - Petrobras:Conhecimentos escolares relacionados à ciência, à sociedade e ao ambiente em micro-bacia urbana; FAPESP: Proj.2006/1558-1: Elaboração de conhecimentos escolares e curriculares relacionados à ciência, à sociedade e ao ambiente na escola básica com ênfase na regionalização a partir dos resultados de projeto de políticas públicas.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) / Mestrado acadêmico: (2) / Doutorado: (3) . Integrantes: Gabriel Gerber Hornink - Integrante / Jorge Yoshio Tamashiro - Integrante / Bayardo Baptista Torres - Integrante / Maurício Compiani - Coordenador / Yara Kulaif - Integrante / Fernanda Keila Marinho da Silva - Integrante / Vívian Branco Newerla - Integrante / Vania Maria Nunes dos Santos - Integrante / Ofelia Ortega Fraile - Integrante / Henrique Cesar da Silva - Integrante / Narjara Zimmermann - Integrante / Ermelinda Moutinho Pataca - Integrante / Viviane Lousada Cracel - Integrante / Vanessa Lessio Diniz - Integrante / Bruno Bronzati Giacomini - Integrante / Ricardo Marques Coelho - Integrante / Samuel Fernando Adami - Integrante / Paulo Bussab Lemos de Castro - Integrante / Eliana Regina Forni Martins - Integrante / Eleonore Zulnara Freire Setz - Integrante / Luiza Sumiko Kinoshita - Integrante / Luciana Priscila de Barros Carvalho de Sousa - Integrante / Salvador Carpi Junior - Integrante / Carlos Augusto Vaccari - Integrante / Cláudia Gisele Zaparoli Latarini - Integrante / Ederson Costa Briguenti - Integrante / Fabiana Burgos Takahashi Garcia - Integrante / Graziela Moreira Simão - Integrante / Isilda de Lourdes Passos Sene - Integrante / Maria Aparecida Pereira Montagner - Integrante / Patrícia Nogueira dos Santos - Integrante / Sara Buchedid Esteves - Integrante / Vânia Rosalva Amaral - Integrante / Carlos Alberto Sato - Integrante / Carmem Silvia Cavoti - Integrante / Cláudia Fonseca Baldini - Integrante / Darlene Bernardi de Souza Benetti - Integrante / José Ricardo Ramponi - Integrante / Laerte Alberto Junior - Integrante / Magali Andrade Barbosa - Integrante / Ricardo Inácio Batista Junior - Integrante / Sanda Regina Bianchi Sterpeloni - Integrante / Valdete Ramos de Oliveira Melo - Integrante. Financiador(es): Petróleo Brasileiro - Rio de Janeiro - Matriz - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio financeiro. Número de produções C, T & A: 29</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2003</ano_inicio>
@@ -17313,14 +17336,6 @@
           <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
         </supervisao>
         <supervisao>
-          <nome_aluno>Bruna Heloisa Klinkowski</nome_aluno>
-          <titulo_trabalho>Validação de técnica de extração de chá verde</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Monografia (Aperfeiçoamento/Especialização em Tecnologia e qualidade em produção de alimentos) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </supervisao>
-        <supervisao>
           <nome_aluno>Angélica Cristina de Souza</nome_aluno>
           <titulo_trabalho>Avaliação das técnicas de produção comercial de cerveja sem álcool ou álcool reduzido</titulo_trabalho>
           <ano>2022</ano>
@@ -17410,6 +17425,14 @@
         </dissertacao>
     </orientacao_mestrado_concluido>
     <orientacao_especializacao_concluido>
+        <monografia>
+          <nome_aluno>Bruna Heloisa Klinkowski</nome_aluno>
+          <titulo_trabalho>Validação de metodologia cromatográfica e determinação de ácidos clorogênicos em erva mate</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Aperfeiçoamento/Especialização em Tecnologia e qualidade em produção de alimentos) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </monografia>
         <monografia>
           <nome_aluno>Daniela Maria Mussolin Valla Rei</nome_aluno>
           <titulo_trabalho>Preservação do Meio Ambiente e Conciência Ecológica</titulo_trabalho>
@@ -18525,6 +18548,16 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.23925/1983-3156.2023v25i?p283-304</doi>
+          <titulo>Microagressões no contexto de ensino e aprendizagem da matemática: uma análise teórico-conceitual</titulo>
+          <autores>da SILVA, GUILHERME HENRIQUE GOMES; LAUTER, S. L. ; CARMO, J. S. ; SANTOS, E. M. ; SANTOS, D. E. L.</autores>
+          <revista>Educação Matemática Pesquisa</revista>
+          <volume>Educação Matemática Pesquisa</volume>
+          <paginas>283-304</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1590/1516-731320220026</doi>
           <titulo>Contribuições de uma prática formativa envolvendo o software GeoGebra para professores e professoras que ensinam matemática dos anos iniciais do Ensino Fundamental</titulo>
           <autores>SILVA, Juliana Pereira Zorzin ; SILVA, GUILHERME HENRIQUE GOMES DA</autores>
@@ -18585,7 +18618,7 @@
           <ano>2021</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://dx.doi.org/10.4322/gepem.2020.009</doi>
           <titulo>Ações afirmativas e Educação Matemática: possibilidades de encontros entre diferenças no ensino superior</titulo>
           <autores>SILVA, GUILHERME HENRIQUE GOMES DA</autores>
           <revista>BOLETIM GEPEM (ONLINE)</revista>
@@ -18595,8 +18628,8 @@
           <ano>2020</ano>
         </artigo>
         <artigo>
-          <doi></doi>
-          <titulo>Educação Matemática e Atividades Investigativas com pessoas idosas</titulo>
+          <doi>http://dx.doi.org/10.34019/2237-9444.2019.v9.31130</doi>
+          <titulo>Educação matemática e atividades investigativas com pessoas idosas</titulo>
           <autores>SILVA, R. N. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, REJANE SIQUEIRA</autores>
           <revista>PESQUISA E DEBATE EM EDUCAÇÃO</revista>
           <volume>PESQUISA E DEBATE EM EDUCAÇÃO</volume>
@@ -19405,18 +19438,6 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <artigos_em_revista>
-        <artigo_revista>
-          <doi></doi>
-          <autores>da SILVA, GUILHERME HENRIQUE GOMES; LAUTER, S. L. ; CARMO, J. S. ; SANTOS, E. M. ; SANTOS, D. E. L.</autores>
-          <titulo>Microagressões no contexto de ensino e aprendizagem da matemática: uma análise teórico-conceitual</titulo>
-          <revista>Educação Matemática Pesquisa</revista>
-          <ano>2023</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>Microagressões raciais no Ensino Superior: Procedimentos da adaptação instrumental para a cultura brasileira</titulo>
@@ -22192,6 +22213,12 @@
     </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
+          <titulo>NEOLIBERALISMO NA EDUCAÇÃO: OS DESAFIOS DA FORMAÇÃO DE PROFESSORES NO CONTEXTO DAS CONTRARREFORMAS EDUCACIONAIS</titulo>
+          <autores>PORTELA, E. M. S. ; SANTOS, A. C. S. ; FARIAS, M. R. ; FELÍCIO, HELENA</autores>
+          <ano>2023</ano>
+          <natureza>Apresentação de Trabalho/Comunicação</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
           <titulo>Ensino Híbrido e Avaliação</titulo>
           <autores>FELÍCIO, HELENA MARIA DOS SANTOS</autores>
           <ano>2022</ano>
@@ -22228,6 +22255,12 @@
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
+          <titulo>O Programa Residência Pedagógica Pedagogia - desafios e possibilidades no contexto da pandemia</titulo>
+          <autores>ALMEIDA, T. A. ; ABREU, E. S. ; FELÍCIO, HELENA MARIA DOS SANTOS</autores>
+          <ano>2021</ano>
+          <natureza>Apresentação de Trabalho/Comunicação</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
           <titulo>Orquestra Popular da UNIFAL-MG</titulo>
           <autores>PAULO, T. S. ; FELÍCIO, HELENA MARIA DOS SANTOS ; DANIELI NETO, M.</autores>
           <ano>2021</ano>
@@ -22236,12 +22269,6 @@
         <trabalho_apresentado>
           <titulo>A (RE)SIGNIFICAÇÃO DO ENSINO A PARTIR DA FORMAÇÃO CONTINUADA DE PROFESSORES NOS ANOS FINAIS DO ENSINO FUNDAMENTAL</titulo>
           <autores>CHAVES, I. C. C. ; FELÍCIO, HELENA MARIA DOS SANTOS</autores>
-          <ano>2021</ano>
-          <natureza>Apresentação de Trabalho/Comunicação</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>O Programa Residência Pedagógica Pedagogia - desafios e possibilidades no contexto da pandemia</titulo>
-          <autores>ALMEIDA, T. A. ; ABREU, E. S. ; FELÍCIO, HELENA MARIA DOS SANTOS</autores>
           <ano>2021</ano>
           <natureza>Apresentação de Trabalho/Comunicação</natureza>
         </trabalho_apresentado>
@@ -22500,14 +22527,6 @@
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
-        <dissertacao>
-          <nome_aluno>Leandra Borges Polita</nome_aluno>
-          <titulo_trabalho>Residência Pedagógica na formação de professores em tempos de pandemia: uma análise das considerações dos licenciandos e docentes envolvidos no prograla</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
     </orientacao_mestrado_em_andamento>
     <orientacao_tcc_em_andamento>
         <tcc>
@@ -22520,6 +22539,14 @@
         </tcc>
     </orientacao_tcc_em_andamento>
     <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Leandra Borges Polita</nome_aluno>
+          <titulo_trabalho>Residência Pedagógica em tempos de pandemia na perspectiva dos residentes de Pedagogia da Universidade Federal de Alfenas - MG</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
         <dissertacao>
           <nome_aluno>Priscila Martins Mendonça</nome_aluno>
           <titulo_trabalho>Internacionalização na UNIFAL-MG: da concepção à prática</titulo_trabalho>
@@ -23460,6 +23487,12 @@
     </formacao_academica>
     <projetos_pesquisa>
         <projeto>
+          <ano_inicio>2022</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>A Representação do Mobral pela Imprensa</nome>
+          <descricao>Descrição: Projeto de Iniciação Científica Voluntária que propõe analisar as representações do Movimento Brasileiro de Alfabetização a partir da imprensa. O tema se faz relevante visto que o programa foi intensamente repercutido pelos meios de comunicação, contudo, ainda é pouco estudando na perspectiva da análise da imprensa. Levando em conta que o Mobral dispôs de ampla divulgação pelos jornais, a pesquisa propõe utilizar como fontes o Jornal do Brasil e O Estado de S. Paulo, para compreender como estes periódicos veicularam informações sobre a construção, as mudanças e finalidades do programa durante sua existência. Parte-se do princípio de que a imprensa participa ativamente no campo das disputas sociopolíticas. Busca-se compreender como o Mobral foi representado e veiculado em jornais de dois estados distintos, as possíveis aproximações e divergências.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Juliana Miranda Filgueiras - Coordenador / Marcella Eduarda da Silva - Integrante / Vinicius de Morais Carvalho - Integrante.</descricao>
+        </projeto>
+        <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>O Centro de Recursos Humanos João Pinheiro e a implantação da reforma do ensino pela Lei n. 5.692/71</nome>
@@ -23487,7 +23520,7 @@
           <ano_inicio>2007</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Os processos de avaliação de livros didáticos no Brasil: 1938-1984</nome>
-          <descricao>Descrição: A pesquisa analisou os processos de avaliação de livros didáticos no Brasil desde os anos 1930, quando foi estabelecida a primeira avaliação organizada em âmbito federal. Foram encontrados quatro grandes períodos com políticas nacionais para o livro didático e processos de avaliação distintos. O primeiro foi instituído no Estado Novo, por meio do Decreto-Lei n° 1.006, de 1938, que criou a Comissão Nacional do Livro Didático (CNLD). O segundo ocorreu durante os anos 1950, com a criação da Campanha do Livro Didático e Manuais de Ensino (Caldeme). O terceiro momento deu-se no início da ditadura militar, em 1966, com a criação da Comissão do Livro Técnico e do Livro Didático (Colted). O último momento iniciou-se em 1971, quando a Colted foi extinta e suas funções passaram para o Instituto Nacional do Livro (INL), que iniciou o Programa do Livro Didático e os processos de co-edição dos manuais, até 1976, quando o PLD foi transferido para a Fundação Nacional do Material Escolar (Fename). Com esta tese, buscou-se compreender quem eram os sujeitos envolvidos no campo de disputa sobre o manual escolar, qual a atuação e interesse desses sujeitos, evidenciando, também, os conflitos e lutas que se estabeleceram nesse campo.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (1) . Integrantes: Juliana Miranda Filgueiras - Coordenador. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 23</descricao>
+          <descricao>Descrição: A pesquisa analisou os processos de avaliação de livros didáticos no Brasil desde os anos 1930, quando foi estabelecida a primeira avaliação organizada em âmbito federal. Foram encontrados quatro grandes períodos com políticas nacionais para o livro didático e processos de avaliação distintos. O primeiro foi instituído no Estado Novo, por meio do Decreto-Lei n° 1.006, de 1938, que criou a Comissão Nacional do Livro Didático (CNLD). O segundo ocorreu durante os anos 1950, com a criação da Campanha do Livro Didático e Manuais de Ensino (Caldeme). O terceiro momento deu-se no início da ditadura militar, em 1966, com a criação da Comissão do Livro Técnico e do Livro Didático (Colted). O último momento iniciou-se em 1971, quando a Colted foi extinta e suas funções passaram para o Instituto Nacional do Livro (INL), que iniciou o Programa do Livro Didático e os processos de co-edição dos manuais, até 1976, quando o PLD foi transferido para a Fundação Nacional do Material Escolar (Fename). Com esta tese, buscou-se compreender quem eram os sujeitos envolvidos no campo de disputa sobre o manual escolar, qual a atuação e interesse desses sujeitos, evidenciando, também, os conflitos e lutas que se estabeleceram nesse campo.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (1) . Integrantes: Juliana Miranda Filgueiras - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa. Número de produções C, T & A: 23</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2004</ano_inicio>
@@ -24178,6 +24211,18 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
+    <artigos_em_revista>
+        <artigo_revista>
+          <doi></doi>
+          <autores>FILGUEIRAS, J. M</autores>
+          <titulo>O Centro de Recursos Humanos João Pinheiro e a implantação do currículo de 1º grau</titulo>
+          <revista>HISTÓRIA DA EDUCAÇÃO</revista>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </artigo_revista>
+    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>O documento ?Implantação do ensino de 1º Grau? (MEC/DEF/CRHJP) e as estratégias iniciais para efetivação da Lei n. 5.692/71</titulo>
@@ -24684,6 +24729,14 @@
         </tese>
     </orientacao_doutorado_em_andamento>
     <orientacao_iniciacao_cientifica_em_andamento>
+        <iniciacao_cientifica>
+          <nome_aluno>Laize Costa Barbosa Lacerda</nome_aluno>
+          <titulo_trabalho>As narrativas historiográficas escolares nos livros paradidáticos</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Iniciação científica (Graduando em Abi - História) - Universidade Federal de Minas Gerais</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
         <iniciacao_cientifica>
           <nome_aluno>Vinicius de Morais Carvalho</nome_aluno>
           <titulo_trabalho>A Representação do Mobral Pela Imprensa: o Jornal do Brasil</titulo_trabalho>
@@ -27707,7 +27760,7 @@
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Ocupações secundaristas no Brasil em 2015 e 2016: Formação e auto-formação das/dos ocupas como sujeitos políticos</nome>
-          <descricao>Descrição: A pesquisa tem como tema os sujeitos que participaram das ocupações de escolas públicas de Ensino Médio, em diversos estados do Brasil, de novembro de 2015 a dezembro de 2016. Em relação a esses sujeitos, que se autodenominaram durante a ação coletiva como ocupas, a pesquisa tem como objetivo geral compreender os impactos da sua participação nas ocupações ? tomada como um processo de formação política ? na sua re-constituição como sujeitos políticos, considerando dois fatores principais: a) a estrutura e a dinâmica das ocupações; b) as relações de cooperação e conflito entre ocupas e autoridades, gestão escolar, corpo docente e sociedade local (incluindo a mídia local). A formação de sujeitos políticos será concebida a partir da noção de subjetivação política, que compreende a construção das/dos adolescentes e jovens como sujeitos políticos como um processo complexo, criativo, tenso, relacional e sempre inconcluso, em que as/os adolescentes e jovens também são ativas/ativos e em parte se autoconstroem, tanto quanto se co-constroem em suas relações com adultos. A pesquisa busca compreender a efetividade e a generalidade daquilo que foi indicado pelo Seminário: Memorial das ocupações estudantis (coordenado pelo proponente desta pesquisa), a saber, o profundo impacto subjetivo causado nas/nos ocupas pelo processo de ocupação e pós-ocupação de suas escolas, que influenciou no seu processo de (auto)formação como sujeitos políticos. Entre os objetivos secundários, conhecer o impacto desse processo na trajetória escolar das/dos ocupas, analisar o ?mapa? das ocupações de escolas e IES (Instituição de Educação Superior) em 2015 e 2016 e caracterizar a estrutura e a dinâmica das ocupações secundaristas, incluindo suas relações com as ocupações de IES. A pesquisa justifica-se, entre outros motivos, por: a possibilidade de conhecer mais profundamente um processo social ? um conjunto de ações coletivas ? de grande abrangência, que envolveu quase todas as unidades federativas do país; a possibilidade de conhecer os impactos em médio prazo desse processo social ? considerando também o ?pós-desocupação? - nos sujeitos envolvidos diretamente nele, do ponto de vista da sua formação política e trajetória escolar. Como metodologia, a ênfase em dados qualitativos, mas considerando a diversidade de cenários das ocupações: revisão bibliográfica de trabalhos acadêmicos sobre o movimento das ocupações de 2015 e 2016; levantamento de dados já existentes, incluindo os da revisão bibliográfica e de entidades como a UNE (União Nacional dos Estudantes) e a UBES (União Brasileira dos Estudantes Secundaristas), para um mapeamento das ocupações estudantis de 2015 e 2016; levantamento de ocupas para entrevistas, a partir de rede de contatos acadêmicos e políticos da equipe de pesquisa, no Rio Grande do Sul, Paraná, Santa Catarina, São Paulo, Minas Gerais, Espírito Santo, Ceará, Goiás e Pará; realização das entrevistas, de caráter semiestruturado, com estudantes que participaram ativamente das ocupações de escolas de ensino médio, para conhecer o impacto do movimento e do pós-desocupação em sua formação como sujeitos políticos; construção de textos de divulgação e/ou documentários com resultados parciais da pesquisa, para serem debatidos com atuais estudantes de ensino médio e jovens que foram ocupas; análise dos conteúdos desses debates, que poderão ser incorporados aos resultados construídos pela revisão bibliográfica, pelo mapeamento das ocupações e pelas entrevistas. Entre os resultados esperados, destacam-se: a construção de conhecimentos inovadores a respeito das ações coletivas e movimentos sociais, já que a ênfase é sobre os resultados em médio prazo, que intentam mergulhar nas subjetividades de adolescentes e jovens, acompanhando seu processo de autoconstituição como sujeitos políticos; a devolutiva de resultados da pesquisa também como ações de extensão. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (14) / Mestrado acadêmico: (9) / Doutorado: (9) . Integrantes: Luís Antonio Groppo - Coordenador / Flávio Munhoz Sofiati - Integrante / JUNIOR ROBERTO FARIA TREVISAN - Integrante / LÍVIA FURTADO BORGES - Integrante / André Luiz Sena Mariano - Integrante / Mariana Ramos Pereira - Integrante / : LUIZ CARLOS FELIZARDO JUNIOR - Integrante / Kimi Aparecida Tomizaki - Integrante / Andréa Marques Benetti - Integrante / Isabella Batista Silveira - Integrante / Rodrigo Manoel Dias da Silva - Integrante / Adriana Alves Fernandes Costa - Integrante / Willian Simões - Integrante / Mara Aline Oliveira - Integrante / Maria Carla Corrochano - Integrante / Natalino Neves da Silva - Integrante / Elias Evangelista Gomes - Integrante / Vanessa Correia - Integrante / Flávia GInzel - Integrante / Flávia Alves de Sousa - Integrante / Lívia de Cássia Godoi Morais - Integrante / Ronaldo Marcos de Lima Araújo - Integrante / Simone Fátima Flach - Integrante / Aldimara Catarina Brito Delabona Boutin - Integrante / Scarlett Giovana Borges - Integrante / Guilherme Abrão Silva - Integrante / Simone Meucci - Integrante / Ana Luisa Fayet Sallas - Integrante / Carolina Simões Pacheco - Integrante / Kamille Brescansin Mattar - Integrante / Líbia Rany O. Nascimento - Integrante / Larissa Alves da Silva - Integrante / Marina Varella Rodrigues Zimmerman Stoiev - Integrante / Douglas Bortone - Integrante / Camila Taquetti - Integrante / Anne Caroline da Rocha de Moraes - Integrante / ARAUJO, RONALDO MARCOS DE LIMA - Integrante / MORAES, VERENA CRISTINA MONTEIRO - Integrante / MARTINS, SUELY APARECIDA - Integrante / André Sena Mariano - Integrante / Leandro Oliveira Domingos - Integrante / Milena Aparecida Brito dos Santos - Integrante / Laura Marcelli Souza Ribeiro - Integrante / Gabriela Santos Silva - Integrante / Amanda Franciele Garcia - Integrante / Pierri Araujo Porciuncula - Integrante / Gabriela Maria Pires - Integrante / Cristiano Malagutti Bianchi - Integrante / Marcelo Willian Costa - Integrante / Lucas Andre Maldaner - Integrante / Vitor Hugo Batista Santos - Integrante / Cauã dos Santos Guido - Integrante / Matheus Felipe Gomes Dias - Integrante / Letícia Lemes Scalabrini - Integrante / João Roberto Resende Ferreira - Integrante / José Elias Domingos Costa Marques - Integrante / Vinicius Oliveira Seabra Guimarães - Integrante / João Batisa Coelho Cunha - Integrante / Thaisa da Silva Ferreira - Integrante / Carusa Gabriela Biliatto - Integrante / Ananda Jancito Nogueira - Integrante / Katthelyn Cristina Santos de Abreu - Integrante / Gislene da Silva - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 110 / Número de orientações: 1</descricao>
+          <descricao>Descrição: A pesquisa tem como tema os sujeitos que participaram das ocupações de escolas públicas de Ensino Médio, em diversos estados do Brasil, de novembro de 2015 a dezembro de 2016. Em relação a esses sujeitos, que se autodenominaram durante a ação coletiva como ocupas, a pesquisa tem como objetivo geral compreender os impactos da sua participação nas ocupações ? tomada como um processo de formação política ? na sua re-constituição como sujeitos políticos, considerando dois fatores principais: a) a estrutura e a dinâmica das ocupações; b) as relações de cooperação e conflito entre ocupas e autoridades, gestão escolar, corpo docente e sociedade local (incluindo a mídia local). A formação de sujeitos políticos será concebida a partir da noção de subjetivação política, que compreende a construção das/dos adolescentes e jovens como sujeitos políticos como um processo complexo, criativo, tenso, relacional e sempre inconcluso, em que as/os adolescentes e jovens também são ativas/ativos e em parte se autoconstroem, tanto quanto se co-constroem em suas relações com adultos. A pesquisa busca compreender a efetividade e a generalidade daquilo que foi indicado pelo Seminário: Memorial das ocupações estudantis (coordenado pelo proponente desta pesquisa), a saber, o profundo impacto subjetivo causado nas/nos ocupas pelo processo de ocupação e pós-ocupação de suas escolas, que influenciou no seu processo de (auto)formação como sujeitos políticos. Entre os objetivos secundários, conhecer o impacto desse processo na trajetória escolar das/dos ocupas, analisar o ?mapa? das ocupações de escolas e IES (Instituição de Educação Superior) em 2015 e 2016 e caracterizar a estrutura e a dinâmica das ocupações secundaristas, incluindo suas relações com as ocupações de IES. A pesquisa justifica-se, entre outros motivos, por: a possibilidade de conhecer mais profundamente um processo social ? um conjunto de ações coletivas ? de grande abrangência, que envolveu quase todas as unidades federativas do país; a possibilidade de conhecer os impactos em médio prazo desse processo social ? considerando também o ?pós-desocupação? - nos sujeitos envolvidos diretamente nele, do ponto de vista da sua formação política e trajetória escolar. Como metodologia, a ênfase em dados qualitativos, mas considerando a diversidade de cenários das ocupações: revisão bibliográfica de trabalhos acadêmicos sobre o movimento das ocupações de 2015 e 2016; levantamento de dados já existentes, incluindo os da revisão bibliográfica e de entidades como a UNE (União Nacional dos Estudantes) e a UBES (União Brasileira dos Estudantes Secundaristas), para um mapeamento das ocupações estudantis de 2015 e 2016; levantamento de ocupas para entrevistas, a partir de rede de contatos acadêmicos e políticos da equipe de pesquisa, no Rio Grande do Sul, Paraná, Santa Catarina, São Paulo, Minas Gerais, Espírito Santo, Ceará, Goiás e Pará; realização das entrevistas, de caráter semiestruturado, com estudantes que participaram ativamente das ocupações de escolas de ensino médio, para conhecer o impacto do movimento e do pós-desocupação em sua formação como sujeitos políticos; construção de textos de divulgação e/ou documentários com resultados parciais da pesquisa, para serem debatidos com atuais estudantes de ensino médio e jovens que foram ocupas; análise dos conteúdos desses debates, que poderão ser incorporados aos resultados construídos pela revisão bibliográfica, pelo mapeamento das ocupações e pelas entrevistas. Entre os resultados esperados, destacam-se: a construção de conhecimentos inovadores a respeito das ações coletivas e movimentos sociais, já que a ênfase é sobre os resultados em médio prazo, que intentam mergulhar nas subjetividades de adolescentes e jovens, acompanhando seu processo de autoconstituição como sujeitos políticos; a devolutiva de resultados da pesquisa também como ações de extensão. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (14) / Mestrado acadêmico: (9) / Doutorado: (9) . Integrantes: Luís Antonio Groppo - Coordenador / Flávio Munhoz Sofiati - Integrante / JUNIOR ROBERTO FARIA TREVISAN - Integrante / LÍVIA FURTADO BORGES - Integrante / André Luiz Sena Mariano - Integrante / Mariana Ramos Pereira - Integrante / : LUIZ CARLOS FELIZARDO JUNIOR - Integrante / Kimi Aparecida Tomizaki - Integrante / Andréa Marques Benetti - Integrante / Isabella Batista Silveira - Integrante / Rodrigo Manoel Dias da Silva - Integrante / Adriana Alves Fernandes Costa - Integrante / Willian Simões - Integrante / Mara Aline Oliveira - Integrante / Maria Carla Corrochano - Integrante / Natalino Neves da Silva - Integrante / Elias Evangelista Gomes - Integrante / Vanessa Correia - Integrante / Flávia GInzel - Integrante / Flávia Alves de Sousa - Integrante / Lívia de Cássia Godoi Morais - Integrante / Ronaldo Marcos de Lima Araújo - Integrante / Simone Fátima Flach - Integrante / Aldimara Catarina Brito Delabona Boutin - Integrante / Scarlett Giovana Borges - Integrante / Guilherme Abrão Silva - Integrante / Simone Meucci - Integrante / Ana Luisa Fayet Sallas - Integrante / Carolina Simões Pacheco - Integrante / Kamille Brescansin Mattar - Integrante / Líbia Rany O. Nascimento - Integrante / Larissa Alves da Silva - Integrante / Marina Varella Rodrigues Zimmerman Stoiev - Integrante / Douglas Bortone - Integrante / Camila Taquetti - Integrante / Anne Caroline da Rocha de Moraes - Integrante / ARAUJO, RONALDO MARCOS DE LIMA - Integrante / MORAES, VERENA CRISTINA MONTEIRO - Integrante / MARTINS, SUELY APARECIDA - Integrante / André Sena Mariano - Integrante / Leandro Oliveira Domingos - Integrante / Milena Aparecida Brito dos Santos - Integrante / Laura Marcelli Souza Ribeiro - Integrante / Gabriela Santos Silva - Integrante / Amanda Franciele Garcia - Integrante / Pierri Araujo Porciuncula - Integrante / Gabriela Maria Pires - Integrante / Cristiano Malagutti Bianchi - Integrante / Marcelo Willian Costa - Integrante / Lucas Andre Maldaner - Integrante / Vitor Hugo Batista Santos - Integrante / Cauã dos Santos Guido - Integrante / Matheus Felipe Gomes Dias - Integrante / Letícia Lemes Scalabrini - Integrante / João Roberto Resende Ferreira - Integrante / José Elias Domingos Costa Marques - Integrante / Vinicius Oliveira Seabra Guimarães - Integrante / João Batisa Coelho Cunha - Integrante / Thaisa da Silva Ferreira - Integrante / Carusa Gabriela Biliatto - Integrante / Ananda Jancito Nogueira - Integrante / Katthelyn Cristina Santos de Abreu - Integrante / Gislene da Silva - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 111</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2016</ano_inicio>
@@ -27790,6 +27843,7 @@
         <id_lattes_colaborador>3494737393160672</id_lattes_colaborador>
         <id_lattes_colaborador>3719875208977711</id_lattes_colaborador>
         <id_lattes_colaborador>3187440901132148</id_lattes_colaborador>
+        <id_lattes_colaborador>4796723835016685</id_lattes_colaborador>
         <id_lattes_colaborador>3734148703814799</id_lattes_colaborador>
         <id_lattes_colaborador>6853873993357538</id_lattes_colaborador>
         <id_lattes_colaborador>1050772638134687</id_lattes_colaborador>
@@ -27809,6 +27863,7 @@
         <id_lattes_colaborador>4667459802757846</id_lattes_colaborador>
         <id_lattes_colaborador>9667554483949933</id_lattes_colaborador>
         <id_lattes_colaborador>3082768840108816</id_lattes_colaborador>
+        <id_lattes_colaborador>9330322803478604</id_lattes_colaborador>
         <id_lattes_colaborador>2199648331239187</id_lattes_colaborador>
         <id_lattes_colaborador>7827678924719094</id_lattes_colaborador>
         <id_lattes_colaborador>4563097677095912</id_lattes_colaborador>
@@ -27816,15 +27871,17 @@
         <id_lattes_colaborador>6996390020394266</id_lattes_colaborador>
         <id_lattes_colaborador>8603656254260058</id_lattes_colaborador>
         <id_lattes_colaborador>8478598154012947</id_lattes_colaborador>
-        <id_lattes_colaborador>2516576013145736</id_lattes_colaborador>
+        <id_lattes_colaborador>1391048714535049</id_lattes_colaborador>
         <id_lattes_colaborador>9091096622830762</id_lattes_colaborador>
         <id_lattes_colaborador>5650052112742310</id_lattes_colaborador>
         <id_lattes_colaborador>9415448905437513</id_lattes_colaborador>
-        <id_lattes_colaborador>9330322803478604</id_lattes_colaborador>
+        <id_lattes_colaborador>5855260804080050</id_lattes_colaborador>
         <id_lattes_colaborador>4515924584428591</id_lattes_colaborador>
         <id_lattes_colaborador>7018424676087673</id_lattes_colaborador>
         <id_lattes_colaborador>8812032475104153</id_lattes_colaborador>
+        <id_lattes_colaborador>5247867999547107</id_lattes_colaborador>
         <id_lattes_colaborador>7885027624873201</id_lattes_colaborador>
+        <id_lattes_colaborador>2516576013145736</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
@@ -28388,7 +28445,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
           <titulo>Condição juvenil e modelos contemporâneos de análise sociológica das juventudes</titulo>
           <autores>GROPPO, L. A</autores>
           <revista>Ultima Década (Impresa)</revista>
@@ -31890,6 +31947,30 @@
     </producao_artistica>
     <orientacao_mestrado_em_andamento>
         <dissertacao>
+          <nome_aluno>Jose Daniel Coutinho Silva</nome_aluno>
+          <titulo_trabalho>Adorno e a educação emancipatória: práticas educacionais que conduzam à liberdade de consciência dos jovens estudantes</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Fernanda Milan de Carvalho</nome_aluno>
+          <titulo_trabalho>Fundamentos da Ciência Política na Educação Básica e a cidadania: uma proposta de formação política para a juventude</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Gislene da Silva</nome_aluno>
+          <titulo_trabalho>A rua também é Negra: Formação política de jovens negros e negras durante as Jornadas de 2013, do Rio de Janeiro</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
           <nome_aluno>Guilherme Abraão SIlva</nome_aluno>
           <titulo_trabalho>Pautas educacionais nas Jornadas de Junho de 2013</titulo_trabalho>
           <ano>2022</ano>
@@ -31905,8 +31986,40 @@
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
+        <dissertacao>
+          <nome_aluno>Karoline Rebecka Siqueira Ferreira</nome_aluno>
+          <titulo_trabalho>Entre minas e manas: experiência feminina e subjetivação política nas ocupações secundaristas de 2015 e 2016</titulo_trabalho>
+          <ano>2021</ano>
+          <instituicao>Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
     </orientacao_mestrado_em_andamento>
     <orientacao_iniciacao_cientifica_em_andamento>
+        <iniciacao_cientifica>
+          <nome_aluno>Nelson Lemes Quintino</nome_aluno>
+          <titulo_trabalho>Dimensões educacionais das Jornadas de 2013: Pautas educacionais, experiências escolares e formação política de jovens em protesto</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Iniciação científica (Graduando em Ciências Sociais) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Isabela Aparecida Silva Reis</nome_aluno>
+          <titulo_trabalho>Dimensões educacionais das Jornadas de 2013: Pautas educacionais, experiências escolares e formação política de jovens em protesto</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao></instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Alice Campos Claudino</nome_aluno>
+          <titulo_trabalho>Dimensões educacionais das Jornadas de 2013: Pautas educacionais, experiências escolares e formação política de jovens em protesto</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao></instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
         <iniciacao_cientifica>
           <nome_aluno>Vitoria Neres Soares</nome_aluno>
           <titulo_trabalho>Dimensões educacionais das Jornadas de 2013: Pautas educacionais, experiências escolares e formação política de jovens em protesto</titulo_trabalho>
@@ -31915,23 +32028,17 @@
           <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Gislene da Silva</nome_aluno>
-          <titulo_trabalho>Dimensões educacionais das Jornadas de 2013: Pautas educacionais, experiências escolares e formação política de jovens em protesto</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Iniciação científica (Graduando em Ciências Sociais) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Leandro Oliveira Domingos</nome_aluno>
-          <titulo_trabalho>Ocupações secundaristas no Brasil em 2015 e 2016: Formação e auto-formação das/dos ocupas como sujeitos políticos</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Iniciação científica (Graduando em História) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_em_andamento>
+    <supervisao_pos_doutorado_concluido>
+        <supervisao>
+          <nome_aluno>Vinicius Oliveira Seabra Guimarães</nome_aluno>
+          <titulo_trabalho></titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </supervisao>
+    </supervisao_pos_doutorado_concluido>
     <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Lívia Furtado Borges</nome_aluno>
@@ -32908,6 +33015,14 @@
     </orientacao_tcc_concluido>
     <orientacao_iniciacao_cientifica_concluido>
         <iniciacao_cientifica>
+          <nome_aluno>Gislene da Silva</nome_aluno>
+          <titulo_trabalho>Dimensões educacionais das Jornadas de 2013: Pautas educacionais, experiências escolares e formação política de jovens em protesto</titulo_trabalho>
+          <ano>2013</ano>
+          <instituicao>(Graduando em Ciências Sociais) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
           <nome_aluno>Emerson Costa Carvalho Souza</nome_aluno>
           <titulo_trabalho>Dimensões educacionais das Jornadas de 2013: Pautas educacionais, experiências escolares e formação política de jovens em protesto</titulo_trabalho>
           <ano>2013</ano>
@@ -32926,6 +33041,14 @@
         <iniciacao_cientifica>
           <nome_aluno>Leandro Oliveira Domingues</nome_aluno>
           <titulo_trabalho>Ocupações secundaristas no Brasil em 2015 e 2016</titulo_trabalho>
+          <ano>2015</ano>
+          <instituicao>(Graduando em História) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Leandro Oliveira Domingos</nome_aluno>
+          <titulo_trabalho>Ocupações secundaristas no Brasil em 2015 e 2016: Formação e auto-formação das/dos ocupas como sujeitos políticos</titulo_trabalho>
           <ano>2015</ano>
           <instituicao>(Graduando em História) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
@@ -34200,6 +34323,16 @@
         <resumo>
           <doi></doi>
           <autores>FARIA, M. R</autores>
+          <titulo>Revisitar a Educação Jesuítica: as fontes brasílicas e o Ratio Studiorum</titulo>
+          <nome_evento>XI Congresso Brasileiro de História da Educação, 2022, São Paulo. Anais Eletrônicos do XI Congresso Brasileiro de História da Educação - SBHE, 11 a 14 de julho.. São Paulo: Editora da PUC/SP</nome_evento>
+          <ano>2022</ano>
+          <volume>Ùnico</volume>
+          <paginas>517-517</paginas>
+          <numero></numero>
+        </resumo>
+        <resumo>
+          <doi></doi>
+          <autores>FARIA, M. R</autores>
           <titulo>Controles do corpo no início da Modernidade: vigilância e disciplina</titulo>
           <nome_evento>13ª Reunião Regional Sudeste - Anped, 2018, Campinas. Resumos - Anped Sudeste</nome_evento>
           <ano>2018</ano>
@@ -34934,6 +35067,22 @@
         </monografia>
     </orientacao_especializacao_concluido>
     <orientacao_tcc_concluido>
+        <tcc>
+          <nome_aluno>FABIANA ROBERTA ALVARENGA DE OLIVEIRA</nome_aluno>
+          <titulo_trabalho>SALVAR UMA NAÇÃO DE INCONSTANTES: AS REPRESENTAÇÕES INDÍGENAS NAS CARTAS JESUÍTICAS DA AMÉRICA PORTUGUESA DO SÉCULO XVI</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em História) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>MARIA FERNANDA DE SOUZA SILVA</nome_aluno>
+          <titulo_trabalho>?Gênese das práticas escolares no Brasil: um estudo das cartas dos primeiros jesuítas?</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
         <tcc>
           <nome_aluno>Francine Satil Ferreira Jarduli</nome_aluno>
           <titulo_trabalho>CATEQUIZAÇÃO E RESISTÊNCIA INDÍGENA NA AMÉRICA PORTUGUESA DO SÉCULO XVI</titulo_trabalho>
@@ -36847,7 +36996,7 @@
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>2021</ano_conclusao>
           <nome>Ocupações secundaristas no Brasil em 2015 e 2016: Formação e auto-formação das/dos ocupas como sujeitos políticos</nome>
-          <descricao>Descrição: A pesquisa tem como tema os sujeitos que participaram das ocupações de escolas públicas de Ensino Médio, em diversos estados do Brasil, de novembro de 2015 a dezembro de 2016. Em relação a esses sujeitos, que se autodenominaram durante a ação coletiva como ocupas, a pesquisa tem como objetivo geral compreender os impactos da sua participação nas ocupações tomada como um processo de formação política na sua re-constituição como sujeitos políticos, considerando dois fatores principais: a) a estrutura e a dinâmica das ocupações; b) as relações de cooperação e conflito entre ocupas e autoridades, gestão escolar, corpo docente e sociedade local (incluindo a mídia local). A formação de sujeitos políticos será concebida a partir da noção de subjetivação política, que compreende a construção das/dos adolescentes e jovens como sujeitos políticos como um processo complexo, criativo, tenso, relacional e sempre inconcluso, em que as/os adolescentes e jovens também são ativas/ativos e em parte se autoconstroem, tanto quanto se co-constroem em suas relações com adultos. A pesquisa busca compreender a efetividade e a generalidade daquilo que foi indicado pelo Seminário: Memorial das ocupações estudantis (coordenado pelo proponente desta pesquisa), a saber, o profundo impacto subjetivo causado nas/nos ocupas pelo processo de ocupação e pós-ocupação de suas escolas, que influenciou no seu processo de (auto)formação como sujeitos políticos. Entre os objetivos secundários, conhecer o impacto desse processo na trajetória escolar das/dos ocupas, analisar o mapa das ocupações de escolas e IES (Instituição de Educação Superior) em 2015 e 2016 e caracterizar a estrutura e a dinâmica das ocupações secundaristas, incluindo suas relações com as ocupações de IES. A pesquisa justifica-se, entre outros motivos, por: a possibilidade de conhecer mais profundamente um processo social um conjunto de ações coletivas de grande abrangência, que envolveu quase todas as unidades federativas do país; a possibilidade de conhecer os impactos em médio prazo desse processo social considerando também o pós-desocupação - nos sujeitos envolvidos diretamente nele, do ponto de vista da sua formação política e trajetória escolar. Como metodologia, a ênfase em dados qualitativos, mas considerando a diversidade de cenários das ocupações: revisão bibliográfica de trabalhos acadêmicos sobre o movimento das ocupações de 2015 e 2016; levantamento de dados já existentes, incluindo os da revisão bibliográfica e de entidades como a UNE (União Nacional dos Estudantes) e a UBES (União Brasileira dos Estudantes Secundaristas), para um mapeamento das ocupações estudantis de 2015 e 2016; levantamento de ocupas para entrevistas, a partir de rede de contatos acadêmicos e políticos da equipe de pesquisa, no Rio Grande do Sul, Paraná, Santa Catarina, São Paulo, Minas Gerais, Espírito Santo, Ceará, Goiás e Pará; realização das entrevistas, de caráter semiestruturado, com estudantes que participaram ativamente das ocupações de escolas de ensino médio, para conhecer o impacto do movimento e do pós-desocupação em sua formação como sujeitos políticos; construção de textos de divulgação e/ou documentários com resultados parciais da pesquisa, para serem debatidos com atuais estudantes de ensino médio e jovens que foram ocupas; análise dos conteúdos desses debates, que poderão ser incorporados aos resultados construídos pela revisão bibliográfica, pelo mapeamento das ocupações e pelas entrevistas. Entre os resultados esperados, destacam-se: a construção de conhecimentos inovadores a respeito das ações coletivas e movimentos sociais, já que a ênfase é sobre os resultados em médio prazo, que intentam mergulhar nas subjetividades de adolescentes e jovens, acompanhando seu processo de autoconstituição como sujeitos políticos; a devolutiva de resultados da pesquisa também como ações de extensão.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (3) . Integrantes: Natalino Neves da Silva - Integrante / André Luiz Sena Mariano - Integrante / Luís Antônio Groppo - Coordenador / Flávio Munhoz Sofiati - Integrante / Gleyton Carlos da Silva Trindade - Integrante / Kimi Aparecida Tomizaki - Integrante / Rodrigo Manoel Dias da Silva - Integrante / Adriana Alves Fernandes Costa - Integrante / Willian Simões - Integrante / Jane Barros Almeida - Integrante / Maria Carla Corrochano - Integrante / Elias Evangelista Gomes - Integrante / Vanessa Correia - Integrante / Flávia GInzel - Integrante / Ana Paula Corti - Integrante / Flávia Alves de Sousa - Integrante / Lívia de Cássia Godoi Morais - Integrante / Ronaldo Marcos de Lima Araújo - Integrante / Anita Helena Schelesener - Integrante / Simone Fátima Flach - Integrante / Aldimara Catarina Brito Delabona Boutin - Integrante / Scarlett Giovana Borges - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.Descrição: A pesquisa tem como tema os sujeitos que participaram das ocupações de escolas públicas de Ensino Médio, em diversos estados do Brasil, de novembro de 2015 a dezembro de 2016. Em relação a esses sujeitos, que se autodenominaram durante a ação coletiva como ocupas, a pesquisa tem como objetivo geral compreender os impactos da sua participação nas ocupações ? tomada como um processo de formação política ? na sua re-constituição como sujeitos políticos, considerando dois fatores principais: a) a estrutura e a dinâmica das ocupações; b) as relações de cooperação e conflito entre ocupas e autoridades, gestão escolar, corpo docente e sociedade local (incluindo a mídia local). A formação de sujeitos políticos será concebida a partir da noção de subjetivação política, que compreende a construção das/dos adolescentes e jovens como sujeitos políticos como um processo complexo, criativo, tenso, relacional e sempre inconcluso, em que as/os adolescentes e jovens também são ativas/ativos e em parte se autoconstroem, tanto quanto se co-constroem em suas relações com adultos. A pesquisa busca compreender a efetividade e a generalidade daquilo que foi indicado pelo Seminário: Memorial das ocupações estudantis (coordenado pelo proponente desta pesquisa), a saber, o profundo impacto subjetivo causado nas/nos ocupas pelo processo de ocupação e pós-ocupação de suas escolas, que influenciou no seu processo de (auto)formação como sujeitos políticos. Entre os objetivos secundários, conhecer o impacto desse processo na trajetória escolar das/dos ocupas, analisar o ?mapa? das ocupações de escolas e IES (Instituição de Educação Superior) em 2015 e 2016 e caracterizar a estrutura e a dinâmica das ocupações secundaristas, incluindo suas relações com as ocupações de IES. A pesquisa justifica-se, entre outros motivos, por: a possibilidade de conhecer mais profundamente um processo social ? um conjunto de ações coletivas ? de grande abrangência, que envolveu quase todas as unidades federativas do país; a possibilidade de conhecer os impactos em médio prazo desse processo social ? considerando também o ?pós-desocupação? - nos sujeitos envolvidos diretamente nele, do ponto de vista da sua formação política e trajetória escolar. Como metodologia, a ênfase em dados qualitativos, mas considerando a diversidade de cenários das ocupações: revisão bibliográfica de trabalhos acadêmicos sobre o movimento das ocupações de 2015 e 2016; levantamento de dados já existentes, incluindo os da revisão bibliográfica e de entidades como a UNE (União Nacional dos Estudantes) e a UBES (União Brasileira dos Estudantes Secundaristas), para um mapeamento das ocupações estudantis de 2015 e 2016; levantamento de ocupas para entrevistas, a partir de rede de contatos acadêmicos e políticos da equipe de pesquisa, no Rio Grande do Sul, Paraná, Santa Catarina, São Paulo, Minas Gerais, Espírito Santo, Ceará, Goiás e Pará; realização das entrevistas, de caráter semiestruturado, com estudantes que participaram ativamente das ocupações de escolas de ensino médio, para conhecer o impacto do movimento e do pós-desocupação em sua formação como sujeitos políticos; construção de textos de divulgação e/ou documentários com resultados parciais da pesquisa, para serem debatidos com atuais estudantes de ensino médio e jovens que foram ocupas; análise dos conteúdos desses debates, que poderão ser incorporados aos resultados construídos pela revisão bibliográfica, pelo mapeamento das ocupações e pelas entrevistas. Entre os resultados esperados, destacam-se: a construção de conhecimentos inovadores a respeito das ações coletivas e movimentos sociais, já que a ênfase é sobre os resultados em médio prazo, que intentam mergulhar nas subjetividades de adolescentes e jovens, acompanhando seu processo de autoconstituição como sujeitos políticos; a devolutiva de resultados da pesquisa também como ações de extensão. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (14) / Mestrado acadêmico: (9) / Doutorado: (9) . Integrantes: Luís Antonio Groppo - Coordenador / Flávio Munhoz Sofiati - Integrante / JUNIOR ROBERTO FARIA TREVISAN - Integrante / LÍVIA FURTADO BORGES - Integrante / André Luiz Sena Mariano - Integrante / Mariana Ramos Pereira - Integrante / : LUIZ CARLOS FELIZARDO JUNIOR - Integrante / Kimi Aparecida Tomizaki - Integrante / Andréa Marques Benetti - Integrante / Isabella Batista Silveira - Integrante / Rodrigo Manoel Dias da Silva - Integrante / Adriana Alves Fernandes Costa - Integrante / Willian Simões - Integrante / Mara Aline Oliveira - Integrante / Maria Carla Corrochano - Integrante / Natalino Neves da Silva - Integrante / Elias Evangelista Gomes - Integrante / Vanessa Correia - Integrante / Flávia GInzel - Integrante / Flávia Alves de Sousa - Integrante / Lívia de Cássia Godoi Morais - Integrante / Ronaldo Marcos de Lima Araújo - Integrante / Simone Fátima Flach - Integrante / Aldimara Catarina Brito Delabona Boutin - Integrante / Scarlett Giovana Borges - Integrante / Guilherme Abrão Silva - Integrante / Simone Meucci - Integrante / Ana Luisa Fayet Sallas - Integrante / Carolina Simões Pacheco - Integrante / Kamille Brescansin Mattar - Integrante / Líbia Rany O. Nascimento - Integrante / Larissa Alves da Silva - Integrante / Marina Varella Rodrigues Zimmerman Stoiev - Integrante / Douglas Bortone - Integrante / Camila Taquetti - Integrante / Anne Caroline da Rocha de Moraes - Integrante / ARAUJO, RONALDO MARCOS DE LIMA - Integrante / MORAES, VERENA CRISTINA MONTEIRO - Integrante / MARTINS, SUELY APARECIDA - Integrante / André Sena Mariano - Integrante / Leandro Oliveira Domingos - Integrante / Milena Aparecida Brito dos Santos - Integrante / Laura Marcelli Souza Ribeiro - Integrante / Gabriela Santos Silva - Integrante / Amanda Franciele Garcia - Integrante / Pierri Araujo Porciuncula - Integrante / Gabriela Maria Pires - Integrante / Cristiano Malagutti Bianchi - Integrante / Marcelo Willian Costa - Integrante / Lucas Andre Maldaner - Integrante / Vitor Hugo Batista Santos - Integrante / Cauã dos Santos Guido - Integrante / Matheus Felipe Gomes Dias - Integrante / Letícia Lemes Scalabrini - Integrante / João Roberto Resende Ferreira - Integrante / José Elias Domingos Costa Marques - Integrante / Vinicius Oliveira Seabra Guimarães - Integrante / João Batisa Coelho Cunha - Integrante / Thaisa da Silva Ferreira - Integrante / Carusa Gabriela Biliatto - Integrante / Ananda Jancito Nogueira - Integrante / Katthelyn Cristina Santos de Abreu - Integrante / Gislene da Silva - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 110 / Número de orientações: 1</descricao>
+          <descricao>Descrição: A pesquisa tem como tema os sujeitos que participaram das ocupações de escolas públicas de Ensino Médio, em diversos estados do Brasil, de novembro de 2015 a dezembro de 2016. Em relação a esses sujeitos, que se autodenominaram durante a ação coletiva como ocupas, a pesquisa tem como objetivo geral compreender os impactos da sua participação nas ocupações tomada como um processo de formação política na sua re-constituição como sujeitos políticos, considerando dois fatores principais: a) a estrutura e a dinâmica das ocupações; b) as relações de cooperação e conflito entre ocupas e autoridades, gestão escolar, corpo docente e sociedade local (incluindo a mídia local). A formação de sujeitos políticos será concebida a partir da noção de subjetivação política, que compreende a construção das/dos adolescentes e jovens como sujeitos políticos como um processo complexo, criativo, tenso, relacional e sempre inconcluso, em que as/os adolescentes e jovens também são ativas/ativos e em parte se autoconstroem, tanto quanto se co-constroem em suas relações com adultos. A pesquisa busca compreender a efetividade e a generalidade daquilo que foi indicado pelo Seminário: Memorial das ocupações estudantis (coordenado pelo proponente desta pesquisa), a saber, o profundo impacto subjetivo causado nas/nos ocupas pelo processo de ocupação e pós-ocupação de suas escolas, que influenciou no seu processo de (auto)formação como sujeitos políticos. Entre os objetivos secundários, conhecer o impacto desse processo na trajetória escolar das/dos ocupas, analisar o mapa das ocupações de escolas e IES (Instituição de Educação Superior) em 2015 e 2016 e caracterizar a estrutura e a dinâmica das ocupações secundaristas, incluindo suas relações com as ocupações de IES. A pesquisa justifica-se, entre outros motivos, por: a possibilidade de conhecer mais profundamente um processo social um conjunto de ações coletivas de grande abrangência, que envolveu quase todas as unidades federativas do país; a possibilidade de conhecer os impactos em médio prazo desse processo social considerando também o pós-desocupação - nos sujeitos envolvidos diretamente nele, do ponto de vista da sua formação política e trajetória escolar. Como metodologia, a ênfase em dados qualitativos, mas considerando a diversidade de cenários das ocupações: revisão bibliográfica de trabalhos acadêmicos sobre o movimento das ocupações de 2015 e 2016; levantamento de dados já existentes, incluindo os da revisão bibliográfica e de entidades como a UNE (União Nacional dos Estudantes) e a UBES (União Brasileira dos Estudantes Secundaristas), para um mapeamento das ocupações estudantis de 2015 e 2016; levantamento de ocupas para entrevistas, a partir de rede de contatos acadêmicos e políticos da equipe de pesquisa, no Rio Grande do Sul, Paraná, Santa Catarina, São Paulo, Minas Gerais, Espírito Santo, Ceará, Goiás e Pará; realização das entrevistas, de caráter semiestruturado, com estudantes que participaram ativamente das ocupações de escolas de ensino médio, para conhecer o impacto do movimento e do pós-desocupação em sua formação como sujeitos políticos; construção de textos de divulgação e/ou documentários com resultados parciais da pesquisa, para serem debatidos com atuais estudantes de ensino médio e jovens que foram ocupas; análise dos conteúdos desses debates, que poderão ser incorporados aos resultados construídos pela revisão bibliográfica, pelo mapeamento das ocupações e pelas entrevistas. Entre os resultados esperados, destacam-se: a construção de conhecimentos inovadores a respeito das ações coletivas e movimentos sociais, já que a ênfase é sobre os resultados em médio prazo, que intentam mergulhar nas subjetividades de adolescentes e jovens, acompanhando seu processo de autoconstituição como sujeitos políticos; a devolutiva de resultados da pesquisa também como ações de extensão.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (3) . Integrantes: Natalino Neves da Silva - Integrante / André Luiz Sena Mariano - Integrante / Luís Antônio Groppo - Coordenador / Flávio Munhoz Sofiati - Integrante / Gleyton Carlos da Silva Trindade - Integrante / Kimi Aparecida Tomizaki - Integrante / Rodrigo Manoel Dias da Silva - Integrante / Adriana Alves Fernandes Costa - Integrante / Willian Simões - Integrante / Jane Barros Almeida - Integrante / Maria Carla Corrochano - Integrante / Elias Evangelista Gomes - Integrante / Vanessa Correia - Integrante / Flávia GInzel - Integrante / Ana Paula Corti - Integrante / Flávia Alves de Sousa - Integrante / Lívia de Cássia Godoi Morais - Integrante / Ronaldo Marcos de Lima Araújo - Integrante / Anita Helena Schelesener - Integrante / Simone Fátima Flach - Integrante / Aldimara Catarina Brito Delabona Boutin - Integrante / Scarlett Giovana Borges - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.Descrição: A pesquisa tem como tema os sujeitos que participaram das ocupações de escolas públicas de Ensino Médio, em diversos estados do Brasil, de novembro de 2015 a dezembro de 2016. Em relação a esses sujeitos, que se autodenominaram durante a ação coletiva como ocupas, a pesquisa tem como objetivo geral compreender os impactos da sua participação nas ocupações ? tomada como um processo de formação política ? na sua re-constituição como sujeitos políticos, considerando dois fatores principais: a) a estrutura e a dinâmica das ocupações; b) as relações de cooperação e conflito entre ocupas e autoridades, gestão escolar, corpo docente e sociedade local (incluindo a mídia local). A formação de sujeitos políticos será concebida a partir da noção de subjetivação política, que compreende a construção das/dos adolescentes e jovens como sujeitos políticos como um processo complexo, criativo, tenso, relacional e sempre inconcluso, em que as/os adolescentes e jovens também são ativas/ativos e em parte se autoconstroem, tanto quanto se co-constroem em suas relações com adultos. A pesquisa busca compreender a efetividade e a generalidade daquilo que foi indicado pelo Seminário: Memorial das ocupações estudantis (coordenado pelo proponente desta pesquisa), a saber, o profundo impacto subjetivo causado nas/nos ocupas pelo processo de ocupação e pós-ocupação de suas escolas, que influenciou no seu processo de (auto)formação como sujeitos políticos. Entre os objetivos secundários, conhecer o impacto desse processo na trajetória escolar das/dos ocupas, analisar o ?mapa? das ocupações de escolas e IES (Instituição de Educação Superior) em 2015 e 2016 e caracterizar a estrutura e a dinâmica das ocupações secundaristas, incluindo suas relações com as ocupações de IES. A pesquisa justifica-se, entre outros motivos, por: a possibilidade de conhecer mais profundamente um processo social ? um conjunto de ações coletivas ? de grande abrangência, que envolveu quase todas as unidades federativas do país; a possibilidade de conhecer os impactos em médio prazo desse processo social ? considerando também o ?pós-desocupação? - nos sujeitos envolvidos diretamente nele, do ponto de vista da sua formação política e trajetória escolar. Como metodologia, a ênfase em dados qualitativos, mas considerando a diversidade de cenários das ocupações: revisão bibliográfica de trabalhos acadêmicos sobre o movimento das ocupações de 2015 e 2016; levantamento de dados já existentes, incluindo os da revisão bibliográfica e de entidades como a UNE (União Nacional dos Estudantes) e a UBES (União Brasileira dos Estudantes Secundaristas), para um mapeamento das ocupações estudantis de 2015 e 2016; levantamento de ocupas para entrevistas, a partir de rede de contatos acadêmicos e políticos da equipe de pesquisa, no Rio Grande do Sul, Paraná, Santa Catarina, São Paulo, Minas Gerais, Espírito Santo, Ceará, Goiás e Pará; realização das entrevistas, de caráter semiestruturado, com estudantes que participaram ativamente das ocupações de escolas de ensino médio, para conhecer o impacto do movimento e do pós-desocupação em sua formação como sujeitos políticos; construção de textos de divulgação e/ou documentários com resultados parciais da pesquisa, para serem debatidos com atuais estudantes de ensino médio e jovens que foram ocupas; análise dos conteúdos desses debates, que poderão ser incorporados aos resultados construídos pela revisão bibliográfica, pelo mapeamento das ocupações e pelas entrevistas. Entre os resultados esperados, destacam-se: a construção de conhecimentos inovadores a respeito das ações coletivas e movimentos sociais, já que a ênfase é sobre os resultados em médio prazo, que intentam mergulhar nas subjetividades de adolescentes e jovens, acompanhando seu processo de autoconstituição como sujeitos políticos; a devolutiva de resultados da pesquisa também como ações de extensão. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (14) / Mestrado acadêmico: (9) / Doutorado: (9) . Integrantes: Luís Antonio Groppo - Coordenador / Flávio Munhoz Sofiati - Integrante / JUNIOR ROBERTO FARIA TREVISAN - Integrante / LÍVIA FURTADO BORGES - Integrante / André Luiz Sena Mariano - Integrante / Mariana Ramos Pereira - Integrante / : LUIZ CARLOS FELIZARDO JUNIOR - Integrante / Kimi Aparecida Tomizaki - Integrante / Andréa Marques Benetti - Integrante / Isabella Batista Silveira - Integrante / Rodrigo Manoel Dias da Silva - Integrante / Adriana Alves Fernandes Costa - Integrante / Willian Simões - Integrante / Mara Aline Oliveira - Integrante / Maria Carla Corrochano - Integrante / Natalino Neves da Silva - Integrante / Elias Evangelista Gomes - Integrante / Vanessa Correia - Integrante / Flávia GInzel - Integrante / Flávia Alves de Sousa - Integrante / Lívia de Cássia Godoi Morais - Integrante / Ronaldo Marcos de Lima Araújo - Integrante / Simone Fátima Flach - Integrante / Aldimara Catarina Brito Delabona Boutin - Integrante / Scarlett Giovana Borges - Integrante / Guilherme Abrão Silva - Integrante / Simone Meucci - Integrante / Ana Luisa Fayet Sallas - Integrante / Carolina Simões Pacheco - Integrante / Kamille Brescansin Mattar - Integrante / Líbia Rany O. Nascimento - Integrante / Larissa Alves da Silva - Integrante / Marina Varella Rodrigues Zimmerman Stoiev - Integrante / Douglas Bortone - Integrante / Camila Taquetti - Integrante / Anne Caroline da Rocha de Moraes - Integrante / ARAUJO, RONALDO MARCOS DE LIMA - Integrante / MORAES, VERENA CRISTINA MONTEIRO - Integrante / MARTINS, SUELY APARECIDA - Integrante / André Sena Mariano - Integrante / Leandro Oliveira Domingos - Integrante / Milena Aparecida Brito dos Santos - Integrante / Laura Marcelli Souza Ribeiro - Integrante / Gabriela Santos Silva - Integrante / Amanda Franciele Garcia - Integrante / Pierri Araujo Porciuncula - Integrante / Gabriela Maria Pires - Integrante / Cristiano Malagutti Bianchi - Integrante / Marcelo Willian Costa - Integrante / Lucas Andre Maldaner - Integrante / Vitor Hugo Batista Santos - Integrante / Cauã dos Santos Guido - Integrante / Matheus Felipe Gomes Dias - Integrante / Letícia Lemes Scalabrini - Integrante / João Roberto Resende Ferreira - Integrante / José Elias Domingos Costa Marques - Integrante / Vinicius Oliveira Seabra Guimarães - Integrante / João Batisa Coelho Cunha - Integrante / Thaisa da Silva Ferreira - Integrante / Carusa Gabriela Biliatto - Integrante / Ananda Jancito Nogueira - Integrante / Katthelyn Cristina Santos de Abreu - Integrante / Gislene da Silva - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 111</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2019</ano_inicio>
@@ -40105,14 +40254,14 @@
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <nome>Materialismo histórico e perspectiva histórico-cultural: a História e o ensino de história</nome>
-          <descricao>Descrição: Ao considerar nossa trajetória de pesquisa e a busca constante por uma inserção qualitativa na produção sobre o ensino de história, iniciamos um processo de análise sobre como os referenciais teóricos por nós utilizados são apresentados e desenvolvidos em outras pesquisas da área. Ao iniciarmos este processo, verificamos duas situações distintas que se entrecruzam: na maioria das pesquisas analisadas até o momento, a perspectiva histórico-cultural não é apresentada como um referencial teórico, e apenas a obra de Vigotski é citada, embora descontextualizada de seus referenciais epistemológicos; concomitantemente, identificamos, tanto em pesquisas da área como em documentos oficiais, que há um processo de silenciamento em torno do materialismo histórico e de suas possibilidades de inserção prospectiva nos debates sobre o ensino de história. Desta forma, este projeto se define pela análise detida das relações entre materialismo histórico, a perspectiva histórico-cultural e as pesquisas sobre o ensino de história.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Olavo Pereira Soares - Coordenador / Romeu Adriano da Silva - Integrante. Financiador(es): Universidade Federal de Alfenas - Remuneração.</descricao>
+          <nome>O ensino e a aprendizagem das humanidades no ensino fundamental</nome>
+          <descricao>Descrição: O projeto de pesquisa que nos insere no Programa de Pós-graduação em Educação da UNIFAL-MG incorpora nossa trajetória de pesquisa, os resultados obtidos nos projetos recentemente finalizados e as propostas recentemente enviadas a órgãos de fomento. Desta forma, a proposta de pesquisa sobre ?o ensino e a aprendizagem das humanidades no ensino fundamental? propõe-se ao desenvolvimento dos seguintes objetos: análise das questões relativas às didáticas específicas, do campo das humanidades, em suas relações com a cultura midiática; pesquisas sobre a aprendizagem de conceitos relacionados às Ciências Humanas entre crianças e adolescentes nas suas relações com a cultura escolar; análise das propostas curriculares para o ensino das disciplinas escolares vinculadas às humanidades, com especial ênfase na análise das relações entre tais propostas e as Ciências de referência.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Olavo Pereira Soares - Coordenador / Claudia Gomes - Integrante. Financiador(es): Universidade Federal de Alfenas - Remuneração. Número de produções C, T & A: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <nome>O ensino e a aprendizagem das humanidades no ensino fundamental</nome>
-          <descricao>Descrição: O projeto de pesquisa que nos insere no Programa de Pós-graduação em Educação da UNIFAL-MG incorpora nossa trajetória de pesquisa, os resultados obtidos nos projetos recentemente finalizados e as propostas recentemente enviadas a órgãos de fomento. Desta forma, a proposta de pesquisa sobre ?o ensino e a aprendizagem das humanidades no ensino fundamental? propõe-se ao desenvolvimento dos seguintes objetos: análise das questões relativas às didáticas específicas, do campo das humanidades, em suas relações com a cultura midiática; pesquisas sobre a aprendizagem de conceitos relacionados às Ciências Humanas entre crianças e adolescentes nas suas relações com a cultura escolar; análise das propostas curriculares para o ensino das disciplinas escolares vinculadas às humanidades, com especial ênfase na análise das relações entre tais propostas e as Ciências de referência.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Olavo Pereira Soares - Coordenador / Claudia Gomes - Integrante. Financiador(es): Universidade Federal de Alfenas - Remuneração. Número de produções C, T & A: 1</descricao>
+          <nome>Materialismo histórico e perspectiva histórico-cultural: a História e o ensino de história</nome>
+          <descricao>Descrição: Ao considerar nossa trajetória de pesquisa e a busca constante por uma inserção qualitativa na produção sobre o ensino de história, iniciamos um processo de análise sobre como os referenciais teóricos por nós utilizados são apresentados e desenvolvidos em outras pesquisas da área. Ao iniciarmos este processo, verificamos duas situações distintas que se entrecruzam: na maioria das pesquisas analisadas até o momento, a perspectiva histórico-cultural não é apresentada como um referencial teórico, e apenas a obra de Vigotski é citada, embora descontextualizada de seus referenciais epistemológicos; concomitantemente, identificamos, tanto em pesquisas da área como em documentos oficiais, que há um processo de silenciamento em torno do materialismo histórico e de suas possibilidades de inserção prospectiva nos debates sobre o ensino de história. Desta forma, este projeto se define pela análise detida das relações entre materialismo histórico, a perspectiva histórico-cultural e as pesquisas sobre o ensino de história.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Olavo Pereira Soares - Coordenador / Romeu Adriano da Silva - Integrante. Financiador(es): Universidade Federal de Alfenas - Remuneração.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2010</ano_inicio>
@@ -40864,6 +41013,14 @@
     </orientacao_iniciacao_cientifica_em_andamento>
     <orientacao_mestrado_concluido>
         <dissertacao>
+          <nome_aluno>Priscila Milena de Paulo Ruella</nome_aluno>
+          <titulo_trabalho>A atividade de estudo de história na sala de aula: do interesse ao desenvolvimento do pensamento teórico</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
           <nome_aluno>Dalva Aparecida de Lima Volpe</nome_aluno>
           <titulo_trabalho>As fichas de encaminhamento que formam concepções sobre as dificuldades de aprendizagem</titulo_trabalho>
           <ano>2022</ano>
@@ -40875,14 +41032,6 @@
           <nome_aluno>Waldirene Maria Paulino Ferreira</nome_aluno>
           <titulo_trabalho>As contribuições da teoria histórico-cultural para os processos de ensino-aprendizagem da segunda língua</titulo_trabalho>
           <ano>2022</ano>
-          <instituicao>Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Priscila Milena de Paulo Ruella</nome_aluno>
-          <titulo_trabalho>A atividade de estudo de história na sala de aula: do interesse ao desenvolvimento do pensamento teórico</titulo_trabalho>
-          <ano>2020</ano>
           <instituicao>Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
@@ -42950,7 +43099,7 @@
     <artigos_em_periodicos>
         <artigo>
           <doi>http://dx.doi.org/10.37001/remat25269062v20id793</doi>
-          <titulo>Ensaio filosófico com umModelo dos Campos Semânticos</titulo>
+          <titulo>Ensaio filosófico com um Modelo dos Campos Semânticos</titulo>
           <autores>SANTOS, J. R. V. ; PAULO, J. P. A. ; JULIO, R. S.</autores>
           <revista>Revista de Educação Matemática</revista>
           <volume>Revista de Educação Matemática</volume>
@@ -43089,7 +43238,7 @@
           <ano>2020</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://dx.doi.org/10.34019/2237-9444.2019.v9.31130</doi>
           <titulo>Educação Matemática e atividades investigativas com pessoas idosas</titulo>
           <autores>SILVA, R. N. ; SILVA, GUILHERME HENRIQUE GOMES DA ; JULIO, REJANE SIQUEIRA</autores>
           <revista>PESQUISA E DEBATE EM EDUCAÇÃO</revista>
@@ -44264,14 +44413,14 @@
         <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Educação na América Latina: movimentos de luta, resistência e processos inclusivos</nome>
-          <descricao>Descrição: A partir de referenciais teóricos da educação e da filosofia latino-americana, desenvolver estudos e pesquisas acerca da Educação na América Latina em seus movimentos de luta e resistência à colonização do pensamento crítico e das liberdades de ser e estar no mundo, com o mundo e com os outros. Estudar e analisar o re-inventar da educação na perspectiva inclusiva tendo a diferença como valor humano nos princípios e fundamentos da educação como ação libertária em escolas da América Latina. Desenvolver estudos e pesquisas sobre educação popular e direitos humanos na América Latina como base e sustentação para a construção de sociedades inclusivas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) . Integrantes: Sílvia Ester Orrú - Coordenador. Número de produções C, T & A: 4</descricao>
+          <nome>Mulheres pelo Mundo: resistência e luta por direitos sociais</nome>
+          <descricao>Descrição: O projeto diz respeito à luta das mulheres contra o patriarcalismo em seus mais diversos e distintos contextos sociais. Traz à tona as dinâmicas do preconceito e da discriminação na sociedade e seus mecanismos de exclusão. Discute acerca das linhas de fuga encontradas para a resistência, re-existência e fortalecimento da coragem em busca de seus direitos sociais.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sílvia Ester Orrú - Coordenador.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Mulheres pelo Mundo: resistência e luta por direitos sociais</nome>
-          <descricao>Descrição: O projeto diz respeito à luta das mulheres contra o patriarcalismo em seus mais diversos e distintos contextos sociais. Traz à tona as dinâmicas do preconceito e da discriminação na sociedade e seus mecanismos de exclusão. Discute acerca das linhas de fuga encontradas para a resistência, re-existência e fortalecimento da coragem em busca de seus direitos sociais.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sílvia Ester Orrú - Coordenador.</descricao>
+          <nome>Educação na América Latina: movimentos de luta, resistência e processos inclusivos</nome>
+          <descricao>Descrição: A partir de referenciais teóricos da educação e da filosofia latino-americana, desenvolver estudos e pesquisas acerca da Educação na América Latina em seus movimentos de luta e resistência à colonização do pensamento crítico e das liberdades de ser e estar no mundo, com o mundo e com os outros. Estudar e analisar o re-inventar da educação na perspectiva inclusiva tendo a diferença como valor humano nos princípios e fundamentos da educação como ação libertária em escolas da América Latina. Desenvolver estudos e pesquisas sobre educação popular e direitos humanos na América Latina como base e sustentação para a construção de sociedades inclusivas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) . Integrantes: Sílvia Ester Orrú - Coordenador. Número de produções C, T & A: 4</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2015</ano_inicio>
@@ -44300,14 +44449,14 @@
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <nome>GESTÃO EDUCACIONAL E EDUCAÇÃO INCLUSIVA ? vivências e desafios de gestores de escolas públicas e particulares de Brasília</nome>
-          <descricao>Descrição: Objetivo Geral: Investigar junto aos gestores de escolas de Educação Infantil e das séries iniciais do Ensino Fundamental de Brasília quais são suas vivências e desafios referentes à inclusão escolar de crianças com necessidades educacionais especiais. Objetivos específicos: 1) Investigar junto aos gestores de escolas públicas e particularesl quais são suas percepções sobre a criança com deficiência e suas necessidades educacionais especiais. 2) Averiguar as ações dos gestores para a garantia da acessibilidade e mobilidade das crianças com necessidades educacionais especiais no espaço escolar.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sílvia Ester Orrú - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 1</descricao>
+          <nome>O UNIVERSITÁRIO COM NECESSIDADES ESPECIAIS NA UnB CONQUISTAS, DIFICULDADES E DESAFIOS DE UMA EDUCAÇÃO INCLUSIVA</nome>
+          <descricao>Descrição: O projeto tem os seguintes objetivos: - Identificar na Universidade de Brasília ? UnB, Campus Darcy Ribeiro, o número de alunos com algum tipo de deficiência, matriculados nos cursos de graduação. - Mapear as deficiências apresentadas pelos alunos universitários. - Investigar junto aos docentes da Faculdade de Educação da UnB quais são suas percepções sobre o aluno com deficiência e suas necessidades educacionais especiais. - Averiguar quais são as necessidades e dificuldades apresentadas pelo próprio docente durante o processo de ensino e de aprendizagem junto ao seu aluno com deficiência. - A partir dos resultados obtidos contribuir para a continuidade da construção das políticas institucionais de ensino na perspectiva inclusiva na UnB.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sílvia Ester Orrú - Coordenador. Financiador(es): Universidade de Brasília - Bolsa. Número de produções C, T & A: 3</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <nome>O UNIVERSITÁRIO COM NECESSIDADES ESPECIAIS NA UnB CONQUISTAS, DIFICULDADES E DESAFIOS DE UMA EDUCAÇÃO INCLUSIVA</nome>
-          <descricao>Descrição: O projeto tem os seguintes objetivos: - Identificar na Universidade de Brasília ? UnB, Campus Darcy Ribeiro, o número de alunos com algum tipo de deficiência, matriculados nos cursos de graduação. - Mapear as deficiências apresentadas pelos alunos universitários. - Investigar junto aos docentes da Faculdade de Educação da UnB quais são suas percepções sobre o aluno com deficiência e suas necessidades educacionais especiais. - Averiguar quais são as necessidades e dificuldades apresentadas pelo próprio docente durante o processo de ensino e de aprendizagem junto ao seu aluno com deficiência. - A partir dos resultados obtidos contribuir para a continuidade da construção das políticas institucionais de ensino na perspectiva inclusiva na UnB.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sílvia Ester Orrú - Coordenador. Financiador(es): Universidade de Brasília - Bolsa. Número de produções C, T & A: 3</descricao>
+          <nome>GESTÃO EDUCACIONAL E EDUCAÇÃO INCLUSIVA ? vivências e desafios de gestores de escolas públicas e particulares de Brasília</nome>
+          <descricao>Descrição: Objetivo Geral: Investigar junto aos gestores de escolas de Educação Infantil e das séries iniciais do Ensino Fundamental de Brasília quais são suas vivências e desafios referentes à inclusão escolar de crianças com necessidades educacionais especiais. Objetivos específicos: 1) Investigar junto aos gestores de escolas públicas e particularesl quais são suas percepções sobre a criança com deficiência e suas necessidades educacionais especiais. 2) Averiguar as ações dos gestores para a garantia da acessibilidade e mobilidade das crianças com necessidades educacionais especiais no espaço escolar.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sílvia Ester Orrú - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2010</ano_inicio>
@@ -44618,7 +44767,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.13140/RG.2.2.23677.97762</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.13140/rg.2.2.23677.97762&md5=059d8582ae4ac2f7ffcc560464dd0512</doi>
           <titulo>Contribuições da abordagem histórico-cultural na educação de alunos autistas</titulo>
           <autores>ORRÚ, Sílvia Ester</autores>
           <revista>HUMANIDADES MÉDICAS</revista>
@@ -44628,7 +44777,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.13140/RG.2.2.27033.42087</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.13140/rg.2.2.27033.42087&md5=5cef9d0113ca2e0b3c8e3154862ccf20</doi>
           <titulo>Os estudos da análise do comportamento e a abordagem histórico-cultural no trabalho educacional com autistas.</titulo>
           <autores>ORRÚ, Sílvia Ester. Os estudos da análise do comportamento e a abordagem histórico-cultural no trabalho educacional com autistas</autores>
           <revista>REVISTA IBEROAMERICANA DE EDUCACIÓN (ONLINE)</revista>
@@ -46520,6 +46669,12 @@
           <ano>2023</ano>
         </producao>
         <producao>
+          <titulo>Encontro do LEPAI: Minicurso 'Autismo: sobrecarga emocional e sensorial'</titulo>
+          <autores>ORRÚ, S.E</autores>
+          <natureza>Curso de curta duração ministrado/Extensão</natureza>
+          <ano>2023</ano>
+        </producao>
+        <producao>
           <titulo>Encontro do LEPAI: Singularidades e impacto social do autismo severo no Brasil</titulo>
           <autores>ORRÚ, Sílvia Ester</autores>
           <natureza>Curso de curta duração ministrado/Extensão</natureza>
@@ -48332,7 +48487,7 @@
           <ano_inicio>2022</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>O papel da História da Educação de Instituições Escolares na formação da sociedade brasileira em diferentes contextos</nome>
-          <descricao>Descrição: O presente projeto de pesquisa situa-se no campo da História da Educação Brasileira em Instituições Escolares e tem como objeto congregar projetos orientados no interior do Grupo de Estudo e Pesquisa em Ética, Política e História da Educação Brasileira- GEPHEB, que objetiva a investigar as possíveis conservações e transformações ocorridas nas instituições escolares de ensino de formação, da Educação Básica ao Ensino Superior, que marcam a constituição da sociedade brasileira, em diferentes períodos históricos, políticos e sociais. Indagar qual o compromisso histórico e político da formação educacional em diferentes períodos e contextos de fenômenos educacionais. Evidenciar o enfoque dado aos diferentes métodos de pesquisa histórica empregados para contribuição do avanço da pesquisa na área e na educação brasileira. Tem o cuidado de ir às fontes primárias e secundárias evidenciando na descrição de sua constituição as possíveis análises possibilitadas. De eleger seus instrumentos de pesquisa e descreve-los em sua prioridade o que é capaz de evidenciar sobre o que se conserva ou o que se transforma a na formação educacional, no diálogo com os fundamentos históricos para os estudos de políticas públicas educacionais, que privilegiam a igualdade de acesso, de permanência e de qualidade da educação, ocorridas nas mais variadas instituições escolares, sob os variados temas de pesquisa de instituições de Educação Básica ao Ensino Superior. Palavras-chave: História da Educação; Instituição Escolar; Formação; Políticas Educacionais.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sônia Aparecida Siquelli - Coordenador / Samira Nathalia Pizza de Santis - Integrante / Felix Barbosa Carreiro - Integrante / Ilca dos Santos Freitas - Integrante / Rodrigo Ribeiro de Paiva - Integrante / Daniel Amaro Cirino de Medeiros - Integrante.</descricao>
+          <descricao>Descrição: O presente projeto de pesquisa situa-se no campo da História da Educação Brasileira em Instituições Escolares e tem como objeto congregar projetos orientados no interior do Grupo de Estudo e Pesquisa em Ética, Política e História da Educação Brasileira- GEPHEB, que objetiva a investigar as possíveis conservações e transformações ocorridas nas instituições escolares de ensino de formação, da Educação Básica ao Ensino Superior, que marcam a constituição da sociedade brasileira, em diferentes períodos históricos, políticos e sociais. Indagar qual o compromisso histórico e político da formação educacional em diferentes períodos e contextos de fenômenos educacionais. Evidenciar o enfoque dado aos diferentes métodos de pesquisa histórica empregados para contribuição do avanço da pesquisa na área e na educação brasileira. Tem o cuidado de ir às fontes primárias e secundárias evidenciando na descrição de sua constituição as possíveis análises possibilitadas. De eleger seus instrumentos de pesquisa e descreve-los em sua prioridade o que é capaz de evidenciar sobre o que se conserva ou o que se transforma a na formação educacional, no diálogo com os fundamentos históricos para os estudos de políticas públicas educacionais, que privilegiam a igualdade de acesso, de permanência e de qualidade da educação, ocorridas nas mais variadas instituições escolares, sob os variados temas de pesquisa de instituições de Educação Básica ao Ensino Superior. Palavras-chave: História da Educação; Instituição Escolar; Formação; Políticas Educacionais.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sônia Aparecida Siquelli - Coordenador / Samira Nathalia Pizza de Santis - Integrante / Ilca dos Santos Freitas - Integrante / Rodrigo Ribeiro de Paiva - Integrante / Daniel Amaro Cirino de Medeiros - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2022</ano_inicio>
@@ -48414,6 +48569,7 @@
     </premios_titulos>
     <colaboradores>
         <id_lattes_colaborador>5185380993651935</id_lattes_colaborador>
+        <id_lattes_colaborador>7785849794300988</id_lattes_colaborador>
         <id_lattes_colaborador>3107775037391713</id_lattes_colaborador>
         <id_lattes_colaborador>2030093746344243</id_lattes_colaborador>
         <id_lattes_colaborador>0421567363320378</id_lattes_colaborador>
@@ -48436,7 +48592,7 @@
         <id_lattes_colaborador>1901605684390187</id_lattes_colaborador>
         <id_lattes_colaborador>5872452421144865</id_lattes_colaborador>
         <id_lattes_colaborador>3230204157656121</id_lattes_colaborador>
-        <id_lattes_colaborador>7785849794300988</id_lattes_colaborador>
+        <id_lattes_colaborador>8194857222185695</id_lattes_colaborador>
         <id_lattes_colaborador>7616730871226769</id_lattes_colaborador>
         <id_lattes_colaborador>6897277608755605</id_lattes_colaborador>
         <id_lattes_colaborador>6151185710097818</id_lattes_colaborador>
@@ -50243,6 +50399,11 @@
         </produto>
     </processo_tecnica>
     <trabalhos_tecnicos>
+        <trabalho>
+          <titulo>Reunião de Coordenadores de Programas de Pós-Graduação em Educação - Forpred c</titulo>
+          <autores>SIQUELLI, S.A</autores>
+          <ano>2023</ano>
+        </trabalho>
         <trabalho>
           <titulo>(Relatoria) Revalidação de Diploma estrangeiro PPGSS - Educação -USF</titulo>
           <autores>SIQUELLI, S.A</autores>
@@ -52188,6 +52349,10 @@
     </orientacao_iniciacao_cientifica_concluido>
     <participacao_evento>
         <evento>
+          <titulo>I Seminário Internacional da Pós-Graduação da FE/Unicamp: Avaliação na/da Pós-Graduação. 2023. (Seminário).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
           <titulo>?Mostra de Trabalhos das Práticas Profissionais EaD".Prática Profissional: desafios. 2022. (Outra).</titulo>
           <ano>2022</ano>
         </evento>
@@ -53039,7 +53204,7 @@
           <ano_inicio>2004</ano_inicio>
           <ano_conclusao>2005</ano_conclusao>
           <nome>Aprendizagem dialógica na Educação de Pessoas Jovens e Adultas: leitura e escrita, inclusão digital, Tertúlia Literária Dialógica, aprendizagem matemática, aprendizagem adulta, formação de educadores.</nome>
-          <descricao>Descrição: Investigação de processos de aprendizagem de pessoas jovens e adultas em diferentes contextos e sua articulação à aprendizagem do conhecimento sistematizado (leitura e escrita, matemática, etc.). Tem por objetivos: a) aprofundar o conceito de aprendizagem dialógica e o de inteligência cultural; b) descrever e analisar conhecimentos práticos que jovens e adultos já possuem quando chegam à escola, c) construir articulações dos conhecimentos práticos com os conhecimentos escolares que jovens e adultos terão de adquirir na escola, por meio de processos de interação e dialogicidade; d) investigar o acesso ao conhecimento e sua aquisição em processos de aprendizagem dialógica, por pessoas jovens e adultas (aulas, tertúlias, processos de inclusão digital, materiais didáticos mais adequados). A partir de janeiro de 2005, está a ele acoplado o programa de extensão intitulado: Educação de Pessoas Jovens e Adultas:aprendizagem dialógica de leitura e de escrita, de matemática e inclusão digital", financiado pelo PROEXT 2004... Situação: Concluído; Natureza: Pesquisa. Integrantes: Vanessa Cristina Girotto Nery - Integrante / Roseli Rodrigues de Mello - Coordenador / Sara Regina Moreira da Silva - Integrante / Vanessa Gabassa - Integrante / Fabiana Marini - Integrante / Renata Paschoalino - Integrante / Paulo Eduardo Gomes Bento - Integrante / Eglen S. P. Rodrigues - Integrante / Adriana M. Bogado - Integrante / Arnaldo M. Salazar Junior - Integrante / Daniel Leiva - Integrante / juliana Franzi - Integrante / Francisca de Lima Constantino - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro / Pró- Reitoria de Extensão - Bolsa.</descricao>
+          <descricao>Descrição: Investigação de processos de aprendizagem de pessoas jovens e adultas em diferentes contextos e sua articulação à aprendizagem do conhecimento sistematizado (leitura e escrita, matemática, etc.). Tem por objetivos: a) aprofundar o conceito de aprendizagem dialógica e o de inteligência cultural; b) descrever e analisar conhecimentos práticos que jovens e adultos já possuem quando chegam à escola, c) construir articulações dos conhecimentos práticos com os conhecimentos escolares que jovens e adultos terão de adquirir na escola, por meio de processos de interação e dialogicidade; d) investigar o acesso ao conhecimento e sua aquisição em processos de aprendizagem dialógica, por pessoas jovens e adultas (aulas, tertúlias, processos de inclusão digital, materiais didáticos mais adequados). A partir de janeiro de 2005, está a ele acoplado o programa de extensão intitulado: Educação de Pessoas Jovens e Adultas:aprendizagem dialógica de leitura e de escrita, de matemática e inclusão digital", financiado pelo PROEXT 2004... Situação: Concluído; Natureza: Pesquisa. Integrantes: Vanessa Cristina Girotto Nery - Integrante / Roseli Rodrigues de Mello - Coordenador / Sara Regina Moreira da Silva - Integrante / Vanessa Gabassa - Integrante / Fabiana Marini - Integrante / Renata Paschoalino - Integrante / Paulo Eduardo Gomes Bento - Integrante / Eglen S. P. Rodrigues - Integrante / Adriana M. Bogado - Integrante / Arnaldo M. Salazar Junior - Integrante / Daniel Leiva - Integrante / juliana Franzi - Integrante / Francisca de Lima Constantino - Integrante. Financiador(es): Pró- Reitoria de Extensão - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -53065,6 +53230,26 @@
         <id_lattes_colaborador>4163686476790865</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi></doi>
+          <titulo>Compartilhando leituras e escritas nos fazemos companheiros</titulo>
+          <autores>GIROTTO, V. C.; LUCIO, E. O. ; MARTINS, A. C. A.</autores>
+          <revista>Linha Mestra</revista>
+          <volume>Linha Mestra</volume>
+          <paginas>47-58</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi></doi>
+          <titulo>Princípios educativos freirianospara uma formação literária dialógica de professores(as) alfabetizadores(as)</titulo>
+          <autores>GIROTTO, V. C.; REIS, T. A. B.</autores>
+          <revista>REVISTA ELETRÔNICA DE EDUCAÇÃO (SÃO CARLOS)</revista>
+          <volume>REVISTA ELETRÔNICA DE EDUCAÇÃO (SÃO CARLOS)</volume>
+          <paginas>1-26</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
         <artigo>
           <doi></doi>
           <titulo>Da Leitura da Palavra à Leitura do Mundo: do direito à leitura literária na EJA</titulo>
@@ -53880,18 +54065,6 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <artigos_em_revista>
-        <artigo_revista>
-          <doi></doi>
-          <autores>GIROTTO, V. C.; LUCIO, E. O. ; MARTINS, A. C. A.</autores>
-          <titulo>Compartilhando leituras e escritas nos fazemos companheiros</titulo>
-          <revista>Linha Mestra</revista>
-          <ano>2023</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>FLIFS Virtual: o que pode a Literatura: desafios de formar leitores em cenário de pandemia</titulo>
@@ -54611,6 +54784,94 @@
         </monografia>
     </orientacao_especializacao_concluido>
     <orientacao_tcc_concluido>
+        <tcc>
+          <nome_aluno>Giovanna Oliveira Petrorenzo</nome_aluno>
+          <titulo_trabalho>NARRATIVAS DE SUJEITOS PRIVADOS DE LIBERDADE EM DIÁLOGO COM ASPECTOS ALIENANTES E NÃO ALIENANTES</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Jéssica Ferreira Miranda</nome_aluno>
+          <titulo_trabalho>PROFESSORES(AS) ALFABETIZADORES(AS): DESAFIOS E POSSIBILIDADES NA PRÁTICA PEDAGÓGICA COM CRIANÇAS AUTISTAS</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Bruna Costa Calado e Maria; Gabriela Gomes da Silva</nome_aluno>
+          <titulo_trabalho>PROJETOS SOCIOEDUCATIVOS EM DIÁLOGO COM A RESSOCIALIZAÇÃO DOS SUJEITOS PRIVADOS DE LIBERDADE</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Dhara Cristina Souza Salvioli</nome_aluno>
+          <titulo_trabalho>A TERTÚLIA LITERÁRIA DIALÓGICA NO PROCESSO DE ALFABETIZAÇÃO DE CRIANÇAS</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Geisianne Fernandes</nome_aluno>
+          <titulo_trabalho>A ORGANIZAÇÃO DO ESPAÇO ESCOLAR PARA A CONSTRUÇÃO DE UM AMBIENTE ALFABETIZADOR</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Niara Souza Fernandes da Silva</nome_aluno>
+          <titulo_trabalho>FORMAÇÃO DOCENTE, ENSINO E O COTIDIANO ESCOLAR: INVESTIGAÇÕES TEMÁTICAS E AÇÕES EDUCACIONAIS NO MÓDULO DE ALFABETIZAÇÃO</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Andressa Meyrielle Ferreira</nome_aluno>
+          <titulo_trabalho>A LITERATURA INFANTIL NO PROCESSO DE ALFABETIZAÇÃO: ANÁLISE DAS PRODUÇÕES DA ABALF</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Letras - Língua Portuguesa) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Lucas Borges Matheus</nome_aluno>
+          <titulo_trabalho>O PIBID NA FORMAÇÃO INICIAL: NARRATIVAS DE ESTUDANTES DE LICENCIATURA EM QUÍMICA</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Química) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Karen Juliana Novarino Britto e Raynara Pereira da Silva</nome_aluno>
+          <titulo_trabalho>O ENSINO DE QUÍMICA E OS JOGOS: UMA DISCUSSÃO SOBRE O ENSINO SUPERIOR</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Química) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Juliana Danielle Miranda Silva e Tassiélen Ventura de Paula</nome_aluno>
+          <titulo_trabalho>ENSINO REMOTO EMERGENCIAL NA PANDEMIA: UMA DISCUSSÃO SOCIAL SOBRE A DESISTÊNCIA E PERMANÊNCIA DE ESTUDANTES DOS CURSOS DE LICENCIATURAS</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Química) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Maria Eduarda Ribeiro Resende</nome_aluno>
+          <titulo_trabalho>O USO EDUCACIONAL DE TECNOLOGIA NO ENSINO SUPERIOR: EXPERIÊNCIA EM UM CURSO DE FORMAÇÃO DOCENTE</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Química) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
         <tcc>
           <nome_aluno>Josiane Ribeiro da Costa</nome_aluno>
           <titulo_trabalho>DISCUSSÃO SOBRE A CONTEXTUALIZAÇÃO NO ENSINO DE QUÍMICA A PARTIR DA BDTD</titulo_trabalho>

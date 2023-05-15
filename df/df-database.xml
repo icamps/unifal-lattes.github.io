@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="07/04/2023 18:33:25">
+<curriculo_lattes data_processamento="15/05/2023 11:34:04">
   <pesquisador id="8478305453281130">
     <identificacao>
       <identificador10></identificador10>
       <nome_inicial>Anibal Thiago Bezerra</nome_inicial>
       <nome_completo>Anibal Thiago Bezerra</nome_completo>
-      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -146,6 +146,16 @@
           <revista>PHYSICA SCRIPTA</revista>
           <volume>PHYSICA SCRIPTA</volume>
           <paginas>045804</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1088/1748-0221/18/04/P04034</doi>
+          <titulo>Highly-parallelized simulation of a pixelated LArTPC on a GPU</titulo>
+          <autores>ABED ABUD, A</autores>
+          <revista>Journal of Instrumentation</revista>
+          <volume>Journal of Instrumentation</volume>
+          <paginas>P04034</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -3216,7 +3226,7 @@
           <ano>1993</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.350194&md5=d0694a7ea71c562613e8de7b9ebe3e13</doi>
+          <doi></doi>
           <titulo>On the origin of Franz-Keldysh oscillations in AlGaAs/GaAs modulation-doped heterojuctions</titulo>
           <autores>NOVELLINO, R. A. ; VAZQUEZLÓPEZ, C. ; BERNUSSI, A. A. ; MAGALHÃES, C. S. ; CERDEIRA, F. ; MOTISUKE, P. ; POLLAK, F. H. ; PLOOG, K.</autores>
           <revista>Journal of Applied Physics</revista>
@@ -5652,12 +5662,6 @@
     </formacao_academica>
     <projetos_pesquisa>
         <projeto>
-          <ano_inicio>2022</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Aprimoramento de Cerâmicas Termoelétricas para Conversão de Energia: Aspectos Teóricos e Experimentais</nome>
-          <descricao>Descrição: Há a expectativa de aprimorar o funcionamento de um módulo termoelétrico (TEG) através do estudo teórico, da caracterização e do desenvolvimento de cerâmicas termoelétricas. A fabricação dos TEG cerâmicos consiste na montagem de uma matriz de semicondutores do tipo-n e do tipo-p ligados eletricamente em série. Um dos atuais desafios é a obtenção de cerâmicas termoelétricas óxidas com alta eficiência na conversão direta da energia térmica em energia elétrica. Assim, o objetivo de aplicar cerâmicas óxidas para o aproveitamento do calor residual de sistemas térmicos, dispositivos termoelétricos devem ser fabricados com materiais que possuam alta resistividade térmica, alta condutividade elétrica e alto valor de coeficiente de Seebeck, o que reflete em elevados valores de Figura de Mérito. Estudos serão conduzidos abordando a engenharia de defeitos pela dopagem, a síntese de perovskitas (tipo ABO3) nos sistemas SrTiO3 e CaMnO3 (tipo-n) e Ca3Co4O9 (tipo-p), puros e dopados, como também sobre a densificação das cerâmicas utilizando diferentes processos de sinterização. Dispositivos termoelétricos serão construídos e sua capacidade de conversão será caracterizada para avaliar o efeito dos parâmetros de produção das cerâmicas na eficiência de conversão termoelétrica. Pós cerâmicos dopados com elementos doadores e aceitadores de elétrons serão produzidos através do processo convencional de reação em estado sólido e rotas químicas. Além do estudo de modificações estequiométricas, o uso de diferentes atmosferas durante a síntese dos pós, como hidrogênio e oxigênio, também será avaliado para verificar a influência dessas atmosferas nas indução de defeitos estruturais e na propriedades termoelétricas das cerâmicas. As cerâmicas serão sinterizadas através do processo convencional em forno resistivo e pelo método de sinterização a frio, que produz cerâmicas com microestrutura mais fina, modificando as propriedades das cerâmicas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (6) / Mestrado acadêmico: (6) / Doutorado: (6) . Integrantes: Hugo Bonette de Carvalho - Coordenador / Juliana Maria Abreu da Silva Morbec - Integrante / Maria Inês Basso Bernardi - Integrante / Antonio Carlos Doriguetto - Integrante / Alexandre Mesquita - Integrante / Maria Virginia Gelfuso - Integrante / Daniel Thomazini - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
-        </projeto>
-        <projeto>
           <ano_inicio>2020</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>ESTRATÉGIAS INTEGRADAS DE EXTRAÇÃO-PRESERVAÇÃO DE BIOMARCADORES DO SARS-COV-2 USANDO SISTEMAS AQUOSOS BIFÁSICOS E DETECÇÃO-DIAGNÓSTICO POR ESPECTROSCOPIA RAMAN E INTELIGÊNCIA ARTIFICIAL</nome>
@@ -7352,14 +7356,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
-          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
+          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
+          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
-          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
+          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -7389,7 +7393,7 @@
           <ano_inicio>2006</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Modelagem Computacional (propriedades estruturais, eletrônicas e magnéticas) de Sólidos, Moléculas, Nanoestruturas e Superficies</nome>
-          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 39 / Número de orientações: 2</descricao>
+          <descricao>Descrição: Neste projeto fazemos uso de simulações computacionais usando métodos como Mecânica Molecular, Dinâmica Molecular, Semi-Empíricos, Ab Initio e DFT para caracterizar nanoestruturas e nanodispositivos interagindo com pequenas moléculas, metais e macromoléculas. Este projeto inclui a modelagem molecular de sistemas orgânicos e inorgânicos como o desenvolvimento de fármacos (desenho racional de fármacos, desenho baseado em fragmentos, desenho de novo), ancoragem (docking) molecular e o estudo de sólidos farmacêuticos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Mestrado acadêmico: (11) . Integrantes: Ihosvany Camps Rodríguez - Coordenador / BASTOS, M. - Integrante / Bruno Campos - Integrante / Leonardo B. Frederico - Integrante / Roberto Madeira - Integrante / Eric Batista - Integrante / Letícia Carolaine Silva Faria - Integrante / Paulo da Silva Ferreira Neto - Integrante / Tales Alexandre Aversi-Ferreira - Integrante / Claudemir Donizette da Costa - Integrante / Wanderson Geraldo Knupp - Integrante / Washington de Almeida Pereira - Integrante. Número de produções C, T & A: 37 / Número de orientações: 2</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -7460,26 +7464,6 @@
           <ano>2022</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.2174/1570180819666220401142351</doi>
-          <titulo>Triamcinolone as a potential inhibitor of SARS-CoV-2 main protease and cytokine storm: An in-silico study</titulo>
-          <autores>MISHRA, AMARESH ; QAIS, FAIZAN ABUL ; PATHAK, YAMINI ; Camps, Ihosvany ; TRIPATHI, VISHWAS</autores>
-          <revista>Letters in Drug Design & Discovery</revista>
-          <volume>Letters in Drug Design & Discovery</volume>
-          <paginas>122164</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
-          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
-          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
-          <revista>Letters in Drug Design & Discovery</revista>
-          <volume>Letters in Drug Design & Discovery</volume>
-          <paginas>1</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
           <doi>http://dx.doi.org/10.17648/acta.scientiae.7247</doi>
           <titulo>The Construction of the Tower of Pisa as a Basis for Problem-Solving in the Exact Sciences and the Use of Interdisciplinarity in Teaching</titulo>
           <autores>FARIA, L. C. S. ; TREVISAN, K. ; R. Bretas ; Camps, I. ; AVERSI-FERREIRA, T. A.</autores>
@@ -7506,6 +7490,26 @@
           <revista>MOLECULAR DIVERSITY</revista>
           <volume>MOLECULAR DIVERSITY</volume>
           <paginas>1</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
+          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
+          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
+          <revista>Letters in Drug Design & Discovery</revista>
+          <volume>Letters in Drug Design & Discovery</volume>
+          <paginas>808-820</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570180819666220401142351</doi>
+          <titulo>Triamcinolone as a potential inhibitor of SARS-CoV-2 main protease and cytokine storm: An in-silico study</titulo>
+          <autores>MISHRA, AMARESH ; QAIS, FAIZAN ABUL ; PATHAK, YAMINI ; Camps, Ihosvany ; TRIPATHI, VISHWAS</autores>
+          <revista>Letters in Drug Design & Discovery</revista>
+          <volume>Letters in Drug Design & Discovery</volume>
+          <paginas>1230-1242</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
