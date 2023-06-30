@@ -1,0 +1,473 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[1984,
+1],
+[1995,
+1],
+[1997,
+1],
+[1998,
+1],
+[1999,
+1],
+[2000,
+2],
+[2001,
+2],
+[2002,
+5],
+[2003,
+7],
+[2004,
+1],
+[2005,
+1],
+[2006,
+7],
+[2007,
+6],
+[2008,
+13],
+[2009,
+9],
+[2010,
+2],
+[2011,
+8],
+[2012,
+6],
+[2013,
+6],
+[2014,
+6],
+[2015,
+9],
+[2016,
+6],
+[2017,
+13],
+[2018,
+4],
+[2019,
+3],
+[2020,
+2],
+[2021,
+1],
+[2022,
+11]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 135<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ABREU, L. G. ; LEAO, C. A. S. ; Nobuyasu, R. S. ; NOGUEIRA, S. L. ; SILVA, S. F. C.. <b>Waveguided fluorescence in polymeric thin films</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ABREU, L. G. ; ROSA, J. O. ; Nobuyasu, R. S.. <b>Searching for a second application in organic molecules for health science: A complete photophysical study</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ANTUNES, M. E. S. ; BITTENCOURT, E. ; BENETTI, M.. <b>Observational parameters of an inflationary model dominated by a scalar field non-minimally coupled to gravity</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BITTENCOURT, E.; BRANDAO, E. O. S. ; GOULART, ÉRICO. <b>Light rays propagation in (2+1)-dimensional electrodynamics</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CRUZ, T. W. ; De Lorenci, Vitorio A.. <b>A study on the correlation function of the electromagnetic fields</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERNANDES FILHO, R. A. ; BITTENCOURT, EDUARDO ; GOULART, ÉRICO ; OTTONI, J. E.. <b>Space and time ambiguities in vacuum electrodynamics applied to electric dipole</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LEAO, C. A. S. ; Nobuyasu, R. S.. <b>Intermolecular energy transfer in polymers and oligomers</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>NEYRA, V. ; BITTENCOURT, E.. <b>Warp Drive spacetimes in general relativity</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>PALOMINO, N. L. G. ; PAVAN, A. B.. <b>Investigação da existência de bifurcações em modos quasinormais de buracos negros com constante cosmológica</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>PAULA, J. P. A. ; BITTENCOURT, E.. <b>Einstein-Maxwell-Dirac equations in Bianchi-I</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SALAZAR, J. E. L. ; PAVAN, A. B.. <b>Análise Da Evolução Gravitacional De Campos Escalares</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MENDES, D. A. S. ; PAVAN, ALAN B.. <b>Solução das Equações de Einstein usando ferramentas de aprendizado de máquina</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MENDES, D. A. S. ; PAVAN, A. B.. <b>Aplicações de Redes Neurais Profundas na Solução de Equações Diferenciais Parciais da Física Teórica</b>. 2020. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>RUBINGER, C. P. L. <b>Futuro da Eletronica Organica</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HUANCA, D R; PINTON, J. H.. <b>Electrical characterization of silicon surface by electrochemical impedance spectroscopy</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HUANCA, D. R.; PINTON, J. H. ; Oliveira A. F. <b>Modeling, fabrication and optical characterization of porous silicon based photonic crystal</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MOREIRA, E. S. <b>An ambiguity on the thermal circle</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A. R. <b>Dynamical Defects in Integrable Field Theories</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AGUIRRE, A.R. <b>Superfield Formulation for the Defect smKdV Hierarchy</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Roberto S. Nobuyasu; DIAS, F. B. ; REN, Z.. <b>TADF and RT Phosphorescence in Sterically-Constrained Donor-Acceptor Molecules</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SOUZA, E. S. ; AGUIRRE, A. R.. <b>Sólitons Toplógicos e Deformações</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A R. <b>Dynamical defects in Integrable Field Theories</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AGUIRRE, A R. <b>Aspects of Integrability, Supersymmetry and Defects</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BITTENCOURT, EDUARDO; CAMARGO, G. H. S. ; DE LORENCI, V. A. ; KLIPPERT, R.. <b>Opacidade controlada em meios dielétricos não-lineares</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BITTENCOURT, EDUARDO; KLIPPERT, R ; SANTOS, G. B.. <b>Wormhole Definitions Revisited</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Flores-Hidalgo, G; AGUIRRE, A. R.. <b>A supersymmetric exotic field theory in (1+1) dimensions: Soliton Quantum mass corrections</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>HUANCA, DANILO R.; TOLEDO, R. P. ; SALCEDO, W. J.. <b>Silicon surface modification and its characterizatio by IES and RBS</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Moreira, E S. <b>Hot scalar radiation near a cosmic string setting bounds on the curvature coupling parameter</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MOREIRA, E. S. <b>Stable thermodynamic equilibrium setting bounds on the curvature coupling parameter</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>NOBUYASU JUNIOR, R. S.; Ren Zhongjie ; BRYCE, MARTIN R. ; DIAS, F.. <b>Thermally Activated Delayed Fluorescence and RT Phosphorescence in Sterically-Constrained Donor-Acceptor Molecules</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>RODRÍGUEZ-ARDILA, A; PRIETO, A. ; MAZZALAY, X. ; FERNANDEZ-ONTIVEROS, J. A.. <b>Feedback in the central parsecs of active galactic nuclei mapped from high-ionisation lines</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>RUBINGER, C. P. L.; LEYVA, M. E.. <b>GHz permittivity of composites of carbon black and polyaniline with styrene-butadiene-styrene</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>TOLEDO, R. P. ; DIAS, C. E. S. ; HUANCA, DANILO R. ; SALCEDO, W. J.. <b>FTIR and IES characterization of fresh ad passivated macroporous silicon</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>TOLEDO, R. P. ; DIAS, C. E. S. ; VERDONCK, P. ; HUANCA, DANILO R. ; SANTOS, S. G.. <b>XRR, GISAXS and SEM characterization of low-k porous carbon doped silicon dioxide thin film</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aguirre, A. R. <b>Integrable Dynamical Defects</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aguirre, A. R. <b>Defeitos em Modelos Integráveis</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BITTENCOURT, E. <b>Uma introdução a ciência das ondas gravitacionais</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Moreira, E S. <b>Bounds on the curvature coupling parameter around a cosmic string</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Rodríguez-Ardila, Alberto; Prieto, M. A. ; Mazzalay, Ximena. <b>The complexity of the coronal line region in AGNs: Gas-jet interactions and outflows revealed by NIR spectroscopy</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Rodríguez-Ardila, Alberto; Prieto, M. A. ; Mazzalay, Ximena ; MASON, R.. <b>Mapping the central regions of active galactic nuclei using high-ionization lines</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A. R. <b>Generalizing type-II integrable defects</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aguirre, A. R. <b>Type-II defects in supersymmetric integrable field theories</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BITTENCOURT, E. <b>Analogue models of gravity: now and then</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cavichia, O. <b>Nebulosas planetárias</b>. 2015. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>De Lorenci, Vitorio A. ; Gomes, L. ; MOREIRA, E. S.. <b>Hot scalar radiation near the wall of a large cavity</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>De Lorenci, Vitorio A. ; Gomes, L. G. ; MOREIRA, E. S.. <b>Bounds on the curvature coupling parameter</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>NOBUYASU JUNIOR, R. S.; Ren Zhongjie ; BRYCE, MARTIN R. ; DATA, PRZEMYSLAW ; DIAS, FERNANDO B.. <b>Tailored Polymers for Efficient Thermal Activated Delayed Fluorescence. Towards Printable TADF OLEDs</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>PAVAN, A. <b>Buracos negros, wormholes e o cinema: Interstellar</b>. 2015. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>RODRIGUES, B. H. G. ; PAVAN, A ; DAMICO, F. ; POTTSCHMIDT, K. ; GRINBERG, V. ; HIRSCH, M. ; BEL, M. C. ; KRAUSS, F. ; CASTRO, M. ; LOHFINK, A. ; KREYKENBOHM, I. ; WILMS, J.. <b>X-RAY SPECTRAL ANALYSIS OF THE MICROQUASAR GRS 1758-258</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BITTENCOURT, E.; DE LORENCI, V A ; KLIPPERT, R ; NOVELLO, M ; SALIM, J. M.. <b>Analogue Black Holes in Static Dielectrics</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BITTENCOURT, E.; GOULART, E ; MOSCHELLA, U ; NOVELLO, M ; SALIM, J. M. ; TONIATO, J.'D.. <b>Geometric Scalar Gravity</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BITTENCOURT, E.; NOVELLO, M.. <b>Dynamical Bridges: The Electromagnetic Case</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BITTENCOURT, E.; SANTOS, G. B. ; SALIM, J. M.. <b>Nonzero Weyl tensor from primordial magnetic fields</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BITTENCOURT, EDUARDO; NOVELLO, M. <b>. Dynamical Bridges</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>G. <b>Flores-Hidalgo. Equilíbrio de Campos Escalares em Interação</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aguirre, A. R. <b>Type-II defect in super-Liouville theory</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BITTENCOURT, E. <b>Introdução a termodinâmica</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>De Lorenci, Vitorio A. ; Gomes, L. ; Moreira, E S. <b>Dependence of thermal averages for a scalar field on the curvature coupling parameter</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>G. <b>Flores-Hidalgo. Masses and interacctions from random fields</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HUANCA, D. R.; SALCEDO, W. J.. <b>Study of the optical properties of the nickel deposited one-dimensional porous silicon photonic crystal</b>. 2013. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>HUANCA, D. R.; VERDONCK, P. ; CHRISTIANO, V. ; KELLERMANN, G. ; SANTOS, S. G.. <b>Physical and chemical characterization of ultra low-k SiCOH films by X-ray reflectometry and GISAXS</b>. 2013. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aguirre, A. R. <b>Classical Integrable massive Thirring models with type-II defects</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bittencourt, E.; Novello, M.. <b>Introdução a Relatividade Geral</b>. 2012. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cavichia, O.; COSTA, R. D. D.. <b>The chemical evolution of the Milky Way with radial gas flows</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>De Lorenci, Vitorio A. ; Gomes, L. ; Moreira, E S. <b>Radiação de corpo negro de um campo escalar</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Maciel, W.J. ; Costa, R.D.D. ; Cavichia, O.. <b>The abundances of Oxygen, Sulfur, Neon, and Argon in Planetary Nebulae: Nucleosynthesis and Chemical Evolution</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Rodríguez-Ardila, Alberto; Garcia Rissmann, Aurea ; Sigut, T. A. A. ; Pradhan, A. K.. <b>Near-infrared FeII emission in IZw1 and other NLS1 galaxies</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aguirre, A. R. <b>Boundary N=1 Super sinh-Gordon</b>. 2011. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BITTENCOURT, E. <b>Da Astronomia à Cosmologia</b>. 2011. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BITTENCOURT, EDUARDO; NOVELLO, M.. <b>Liquid crystals and neutrinos: some analogies</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LORENCI, V. A. ; GOMES, L. G. ; MOREIRA, E. S.. <b>Boundary corrections to thermal averages in a cavity</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MOREIRA, E. S. <b>Ergoregion around a cosmic string</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>NOBUYASU JUNIOR, R. S.; L. A. Cury. <b>High quantum efficiency induced by exciplex formation in sequential conjugated polymer bilayers (Oral Presentation)</b>. 2011. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>NOBUYASU JUNIOR, R. S.; L. A. Cury. <b>Different characteristics of the emission intensity in blends and bilayers of conjugated polymers induced by distinct excitation geometries (Oral)</b>. 2011. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RUBINGER, C. P. L.; LEYVA, M. E. ; Rubinger, R.M. ; SOARES, B. G. ; Ribeiro, G.M.. <b>ELECTRICAL CARACTERIZATION OF CARBON BLACK/STYRENE?BUTADIENE?STYRENE COMPOSITES</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A. R. <b>Uma abordagem sistemática nas teorias clássicas de campos integráveis com defeitos</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>NOBUYASU JUNIOR, R. S.; A. Marletta ; R. A. Silva. <b>Electrical Properties of Multi-layers organic photovoltaic cells</b>. 2010. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A. R. <b>Integrabilidade do modelo de Thirring</b>. 2009. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AGUIRRE, A. R.; GOMES, J. F. ; Ymai, L.H. ; Zimerman, A.H.. <b>Thirring Model with Jump Defect</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Barone, F. A.; G. Flores-Hidalgo. <b>Vacuum energies due to delta-like currents: simulating classical objects along branes with arbitrary codimensions</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Barone, F. A.; G. Flores-Hidalgo. <b>Vacuum energies due to delta-like currents: multipole interactions</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Barone, F. A.; J.A. Helayël-Neto. <b>Interactions between point-like currents in Maxwell-Chern-Simons models</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Barone, F. A.; J.A. Helayël-Neto. <b>Modifications in the Coulombinan interaction in models with Lorentz symmetry breaking</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>HUANCA, D. R.; Salcedo, Walter Jaimes. <b>Porous Silicon Heterostructures for Refractometer Device Application</b>. 2009. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>NOBUYASU JUNIOR, R. S.; A. Marletta. <b>Growth study and optical characterization of multi-layer organic solar cells</b>. 2009. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>NOBUYASU JUNIOR, R. S.; A. Marletta. <b>Desenvolvimento de uma célula solar baseada em semicondutores orgânicos</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A. R. <b>Algebras de Lie supercontinuas</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FRAGA, L. <b>Ferramenta para o planejamento das observacoes em modo fila do SOAR</b>. 2008. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HUANCA, D. R.; Raimundo D. S. ; W. J. Salcedo. <b>Structural Dependence of Macroporous Silicon Layers on the Backside Contact</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HUANCA, D. R.; Raimundo D. S. ; W. J. Salcedo. <b>Backside Contact Effect on the Morphological and optical Features of Porous Silicon Photonic Crystals</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HUANCA, D. R.; Raimundo D. S. ; W. J. Salcedo. <b>Backside contact effect on the structural features of macroporous and mesoporous silicon</b>. 2008. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>HUANCA, D. R.; Salcedo, Walter J.. <b>Porous Silicon Photonic Crystal for Refractometer Sensor</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>HUANCA, D. R.; W. J. Salcedo. <b>Improvement of Optical Response of 1D -Porous Silicon Photonic Crystal by Using Double Electrochemical Cell</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>HUANCA, D. R.; W. J. Salcedo. <b>The porosu silicon microcavity fabrication and optical response improvement by using double electrochemical cell</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>HUANCA, D. R.; W. J. Salcedo. <b>1-D Porous Silicon Photonic Cristal for Refractometer Sensor</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Raimundo D. S. ; Priscila Braga Caliope ; HUANCA, D. R. ; W. J. Salcedo. <b>Macroporous Silicon Structural Characteristics Study Based on SEM Image Processing</b>. 2008. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Raimundo D. S. ; Priscila Braga Caliope ; HUANCA, D. R. ; W. J. Salcedo. <b>ANODIC POROUS ALUMINA STRUCTURAL CHARACTERISTICS STUDY BASED ON SEM IMAGE PROCESSING AND ANALYSIS</b>. 2008. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Rodriguez-Ardila, A.; RIFFEL, R. ; PASTORIZA, M. G.. <b>Detection of hidden starburst in AGN by means of NIR spectroscopy</b>. 2008. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>W. J. Salcedo ; HUANCA, D. R. ; Raimundo D. S.. <b>Structural and morphological modification of macroporous silicon layers by front side aluminum metallization</b>. 2008. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A. R. <b>Os fluxos de Ricci na Física</b>. 2007. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HUANCA, D. R.; F. J. Ramirez-Fernandez ; W. J. Salcedo. <b>The effect of the Thermal Annealing on the Porous Silicon Bragg Reflector</b>. 2007. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HUANCA, D. R.; W. J. Salcedo. <b>Porous Silicon Optical Cavity Structure Applied to High Sensitivity Organic Solvent</b>. 2007. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HUANCA, D. R.; W. J. Salcedo. <b>The effect of number of layers on the optical response of porous silicon Bragg?s mirrors</b>. 2007. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Quantum fields around cosmic dislocations</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MOREIRA, E. S.; PAGAN, R. P.. <b>Ideal gas in a uniform gravitational field</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HUANCA, D. R.; F. J. Ramirez-Fernandez ; W. J. Salcedo. <b>THE EFFECT OF THE THERMAL ANNEALING ON THE POROUS SILICON BRAGG REFLECTOR</b>. 2006. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HUANCA, D. R.; W. J. Salcedo. <b>the effect of the thermal annealing on the porous silicon photonic crystal</b>. 2006. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MARTINS, V. A. F. ; FAUNDEZ-ABANS, M. ; POPPE, P. C. R. ; OLIVEIRA-ABANS, M. ; Rodríguez-Ardila, A.. <b>HRG10103: Uma galáxia com anel elíptico e espectro nuclear característico de Seyfert 2</b>. 2006. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>POPPE, P. C. R. ; FAUNDEZ-ABANS, M. ; MARTINS, V. A. F. ; OLIVEIRA-ABANS, M. ; Rodríguez-Ardila, A.. <b>Interação de maré no par HRG08901 - ESO 089-G18</b>. 2006. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>RIFFEL, R. ; Rodríguez-Ardila, A. ; PASTORIZA, M. G.. <b>A Near-Infrared Spectral Atlas of Active Galactic Nuclei</b>. 2006. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Rodríguez-Ardila, A. <b>Preparando o SOAR para entrada em operação plena</b>. 2006. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Rodríguez-Ardila, A.; RIFFEL, R. ; PASTORIZA, M. G. ; CARVALHO, E. A.. <b>SOAR NIR Spectroscopy of AGN: excitation mechanisms of the [FeII] and molecular gas</b>. 2006. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LORENCI, V. A. ; KLIPPERT, R. ; MOREIRA, E. S. ; RODRIGUES, R. P.. <b>Chronology protection around a nearly spinning cosmic string</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOREIRA, E. S.; OLIVEIRA, E. S.. <b>Ideal gas around a conical singularity</b>. 2004. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LORENCI, V. A. ; KLIPPERT, R. ; MOREIRA, E. S.. <b>Semi-classical spacetime of a cosmic dispiration</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LORENCI, V. A. ; KLIPPERT, R. ; MOREIRA, E. S.. <b>Non trivial motion of test particles in the spacetime of a dispiration</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Vacuum polarization around a spinning cosmic string</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Induced vacuum stress around a linear defect</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Vacuum fluctuations around a dispiration</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Chronology protection around a dispiration</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Chronology protection around a spinning cosmic string</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Lessons from the Casimir effect on a spinning circle</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Repulsive gravitational force near a cosmic screw dislocation</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Quantum fields in a background with a dispiration</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S. ; PAOLA, R.. <b>Quantum fields in a background with a topological defect</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S. ; PAOLA, R.. <b>Vacuum stress-tensor of quantum fields in a background with a dispiration</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Classical self-force in the space of a dispiration</b>. 2001. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>Do spinning cosmic string exist?</b>. 2001. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LORENCI, V. A. ; MOREIRA, E. S.. <b>The Feynman propagator on an N-dimensional spinning cone</b>. 2000. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MEDINA, R. ; MOREIRA, E. S.. <b>Thermal averages for massive quantum fields in Rindler background</b>. 2000. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOREIRA, E. S. <b>Vacuum fluctuations near black hole horizon from those in conical background</b>. 1999. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>IELLICI, D. ; MOREIRA, E. S.. <b>Ambiguities in the evaluaton of thermal averages for quantum fields in Rindler background</b>. 1998. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOREIRA, E. S. <b>Aspectos da mecânica quântica no cone</b>. 1997. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOREIRA, E. S. <b>Quantum fields in a conical background</b>. 1995. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-1984"><h3 class="year">1984</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ELIA, M. F. ; MOREIRA, E. S.. <b>Películas de sabão e o seu teor didático</b>. 1984. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 30/06/2023 11:14:29<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

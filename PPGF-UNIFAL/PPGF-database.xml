@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="15/05/2023 12:16:22">
+<curriculo_lattes data_processamento="30/06/2023 11:06:28">
   <pesquisador id="8478305453281130">
     <identificacao>
       <identificador10></identificador10>
       <nome_inicial>Aníbal Thiago Bezerra</nome_inicial>
       <nome_completo>Anibal Thiago Bezerra</nome_completo>
-      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.;BEZERRA, A.'T.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -62,14 +62,14 @@
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Estudo de primeiros princípios (DFT) de ligas metálicas</nome>
-          <descricao>Descrição: Nesse projeto, ligas metálicas baseadas em ouro serão analisadas por meio da Teoria do Funcional de Densidade (DFT) para obtenção de propriedades como estrutura eletrônica, densidade de estados, absorção ótica e propriedades de transporte. O objetivo deste trabalho será realizar a otimização estrutural dessas ligas para diferentes concentrações e organizações dos metais, bem como para os materiais puros, para aplicações em dispositivos fotônicos. Para as várias concentrações, serão testadas diferentes organizações dos átomos na estrutura a fim de se obter a otimização estrutural da liga em questão. Após a otimização estrutural, serão obtidas a estrutura de bandas dessas ligas e a densidade de estados, para posterior obtenção das características dielétricas das ligas. Especificamente, serão calculadas as componentes diagonais da parte real e imaginária do tensor dielétrico, em função da frequência de excitação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Anibal Thiago Bezerra - Coordenador / Mariama Rebelo de Souza dias - Integrante. Número de produções C, T & A: 1</descricao>
+          <nome>Inteligência artificial aplicada à sistemas físicos</nome>
+          <descricao>Descrição: Nesse projeto usaremos as técnicas de inteligência artificial e aprendizado de máquina para analisar as propriedades de sistemas físicos. Iremos utilizar da capacidade de determinar padrões das Redes Neurais Artificiais para estudar e buscar por previsões de propriedades óticas e de transporte de sistemas semicondutores baseados em poços quânticos. Dentre as propriedades que pretendemos analisar está a influência da não parabolicidade na estrutura eletrônica desses sistemas e suas consequências em propriedades como absorção ótica, corrente, fotocorrente, dentre outras.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Anibal Thiago Bezerra - Coordenador / Gabriel da Silva Macedo - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Inteligência artificial aplicada à sistemas físicos</nome>
-          <descricao>Descrição: Nesse projeto usaremos as técnicas de inteligência artificial e aprendizado de máquina para analisar as propriedades de sistemas físicos. Iremos utilizar da capacidade de determinar padrões das Redes Neurais Artificiais para estudar e buscar por previsões de propriedades óticas e de transporte de sistemas semicondutores baseados em poços quânticos. Dentre as propriedades que pretendemos analisar está a influência da não parabolicidade na estrutura eletrônica desses sistemas e suas consequências em propriedades como absorção ótica, corrente, fotocorrente, dentre outras.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Anibal Thiago Bezerra - Coordenador / Gabriel da Silva Macedo - Integrante.</descricao>
+          <nome>Estudo de primeiros princípios (DFT) de ligas metálicas</nome>
+          <descricao>Descrição: Nesse projeto, ligas metálicas baseadas em ouro serão analisadas por meio da Teoria do Funcional de Densidade (DFT) para obtenção de propriedades como estrutura eletrônica, densidade de estados, absorção ótica e propriedades de transporte. O objetivo deste trabalho será realizar a otimização estrutural dessas ligas para diferentes concentrações e organizações dos metais, bem como para os materiais puros, para aplicações em dispositivos fotônicos. Para as várias concentrações, serão testadas diferentes organizações dos átomos na estrutura a fim de se obter a otimização estrutural da liga em questão. Após a otimização estrutural, serão obtidas a estrutura de bandas dessas ligas e a densidade de estados, para posterior obtenção das características dielétricas das ligas. Especificamente, serão calculadas as componentes diagonais da parte real e imaginária do tensor dielétrico, em função da frequência de excitação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Anibal Thiago Bezerra - Coordenador / Mariama Rebelo de Souza dias - Integrante. Número de produções C, T & A: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
@@ -140,6 +140,16 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.1016/j.physe.2022.115513</doi>
+          <titulo>Leveraging machine learning to harness non-parabolic effects in semiconductor heterostructures</titulo>
+          <autores>DA SILVA MACEDO, GABRIEL ; DE SOUSA DIAS, MARIAMA REBELLO ; BEZERRA, Anibal Thiago</autores>
+          <revista>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</revista>
+          <volume>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</volume>
+          <paginas>115513</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1088/1402-4896/acbdc8</doi>
           <titulo>Revisiting semiconductor bulk hamiltonians using quantum computers</titulo>
           <autores>PIMENTA, RAPHAEL CÉSAR DE SOUZA ; BEZERRA, Anibal Thiago</autores>
@@ -160,12 +170,22 @@
           <ano>2023</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physe.2022.115513</doi>
-          <titulo>Leveraging machine learning to harness non-parabolic effects in semiconductor heterostructures</titulo>
-          <autores>DA SILVA MACEDO, GABRIEL ; DE SOUSA DIAS, MARIAMA REBELLO ; BEZERRA, Anibal Thiago</autores>
-          <revista>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</revista>
-          <volume>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</volume>
-          <paginas>115513</paginas>
+          <doi>http://dx.doi.org/10.1103/physrevd.107.092012</doi>
+          <titulo>Identification and reconstruction of low-energy electrons in the ProtoDUNE-SP detector</titulo>
+          <autores>ABUD, A</autores>
+          <revista>PHYSICAL REVIEW D</revista>
+          <volume>PHYSICAL REVIEW D</volume>
+          <paginas>092012</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.107.112012</doi>
+          <titulo>Impact of cross-section uncertainties on supernova neutrino spectral parameter fitting in the Deep Underground Neutrino Experiment</titulo>
+          <autores>ABED ABUD, A</autores>
+          <revista>PHYSICAL REVIEW D</revista>
+          <volume>PHYSICAL REVIEW D</volume>
+          <paginas>112012</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -811,13 +831,14 @@
         <id_lattes_colaborador>6102536293896338</id_lattes_colaborador>
         <id_lattes_colaborador>9753423351398790</id_lattes_colaborador>
         <id_lattes_colaborador>7659443408776211</id_lattes_colaborador>
-        <id_lattes_colaborador>3911300468731477</id_lattes_colaborador>
+        <id_lattes_colaborador>2990561169032274</id_lattes_colaborador>
         <id_lattes_colaborador>6508618435773438</id_lattes_colaborador>
         <id_lattes_colaborador>8043286825467803</id_lattes_colaborador>
         <id_lattes_colaborador>6853427939982300</id_lattes_colaborador>
         <id_lattes_colaborador>2797502202617114</id_lattes_colaborador>
         <id_lattes_colaborador>4002033080997386</id_lattes_colaborador>
         <id_lattes_colaborador>5827627505892127</id_lattes_colaborador>
+        <id_lattes_colaborador>3911300468731477</id_lattes_colaborador>
         <id_lattes_colaborador>8073303573679522</id_lattes_colaborador>
         <id_lattes_colaborador>6900483130650896</id_lattes_colaborador>
         <id_lattes_colaborador>1644271814596941</id_lattes_colaborador>
@@ -1300,7 +1321,7 @@
     <orientacao_mestrado_em_andamento>
         <dissertacao>
           <nome_aluno>Bruna Mancilha Oliveira Rodrigues</nome_aluno>
-          <titulo_trabalho>Objetos Compactos Relativísticos e a Eletrodinâmica Generalizada</titulo_trabalho>
+          <titulo_trabalho>Econofísica, Análise de Agrupamentos e Seleção de Carteiras pelo Modelo de Markowitz</titulo_trabalho>
           <ano>2022</ano>
           <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
@@ -1315,16 +1336,8 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
-          <nome_aluno>Tiago Antonioni Araújo de Oliveira</nome_aluno>
-          <titulo_trabalho>Correções Cúbicas de Curvatura para o Universo Inflacionário</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas. (Coorientador).</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
           <nome_aluno>Bruno Felipe Zanardo</nome_aluno>
-          <titulo_trabalho>Algumas Aplicações de Estatística Multivariada com Incertezas Experimentais</titulo_trabalho>
+          <titulo_trabalho>Aplicações de Estatística Multivariada em Análise de Dados Experimentais</titulo_trabalho>
           <ano>2021</ano>
           <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
@@ -3551,7 +3564,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nima.2016.05.052</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nima.2016.05.052&md5=c0b42fa6dce56213231902a7b01f61d6</doi>
           <titulo>Readout electronics validation and target detector assessment for the neutrinos angra experiment</titulo>
           <autores>ALVARENGA, T.A. ; ANJOS, J.C. ; AZZI, G. ; CERQUEIRA, A.S. ; CHIMENTI, P. ; COSTA, J.A. ; DORNELAS, T.I. ; FARIAS, P.C.M.A. ; GUEDES, G.P. ; GONZALEZ, L.F.G. ; KEMP, E. ; LIMA, H.P. ; MACHADO, R. ; NÓBREGA, R.A. ; PEPE, I.M. ; RIBEIRO, D.B.S. ; SIMAS FILHO, E.F. ; Valdiviesso, G.A. ; Wagner, S.</autores>
           <revista>Nuclear Instruments & Methods in Physics Research. Section A, Accelerators, Spectrometers, Detectors and Associated Equipment (Print)</revista>
@@ -3561,7 +3574,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1088/1748-0221/11/08/P08001</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1748-0221/11/08/p08001&md5=8b162168141564983cc2d76f514bd829</doi>
           <titulo>Characterization of the spontaneous light emission of the PMTs used in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Journal of Instrumentation</revista>
@@ -3571,7 +3584,7 @@
           <ano>2016</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nuclphysbps.2015.10.090</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nuclphysbps.2015.10.090&md5=b381e147e967d6927f83dbc0e47a02fb</doi>
           <titulo>Using Neutrinos to Monitor Nuclear Reactors: the Angra Neutrino Experiment, Simulation and Detector Status</titulo>
           <autores>ANJOS, J.C</autores>
           <revista>Nuclear Physics. B, Proceedings Supplement (Print)</revista>
@@ -3601,7 +3614,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nima.2014.07.058</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nima.2014.07.058&md5=098448a6fa8f5af7d3da5fb9846996b3</doi>
           <titulo>Precision muon reconstruction in Double Chooz</titulo>
           <autores>Abe, Y</autores>
           <revista>Nuclear Instruments & Methods in Physics Research. Section A, Accelerators, Spectrometers, Detectors and Associated Equipment (Print)</revista>
@@ -3611,7 +3624,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1007/jhep10(2014)032</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/jhep10(2014)032&md5=afa01068e0b289a891cc91fa9a46fa56</doi>
           <titulo>Ortho-positronium observation in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>J HIGH ENERGY PHYS</revista>
@@ -3621,7 +3634,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1007/jhep10(2014)086</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/jhep10(2014)086&md5=9b12c5a64460a46cad2bc8e80d71c24e</doi>
           <titulo>Improved measurements of the neutrino mixing angle ? 13 with the Double Chooz detector</titulo>
           <autores>Abe, Y</autores>
           <revista>J HIGH ENERGY PHYS</revista>
@@ -3631,7 +3644,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physletb.2014.04.045</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2014.04.045&md5=7392de50915ddd8e741daf4b668d6d44</doi>
           <titulo>Background-independent measurement of in Double Chooz</titulo>
           <autores>Abe, Y. ; Valdiviesso, G.A.</autores>
           <revista>PHYSICS LETTERS B</revista>
@@ -3641,7 +3654,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/physrevd.87.011102</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.87.011102&md5=fb31e1e7bee5d7c23aeaa01543ad325b</doi>
           <titulo>Direct measurement of backgrounds using reactor-off data in Double Chooz</titulo>
           <autores>Abe, Y</autores>
           <revista>Physical Review. D. Particles, Fields, Gravitation, and Cosmology (Online)</revista>
@@ -3651,7 +3664,7 @@
           <ano>2013</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physletb.2013.04.050</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2013.04.050&md5=7841306223ba93f9ae0e462d8a6c7a06</doi>
           <titulo>First measurement of from delayed neutron capture on hydrogen in the Double Chooz experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Physics Letters. B (Print)</revista>
@@ -3671,7 +3684,7 @@
           <ano>2012</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/physrevd.86.112009</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.86.112009&md5=f7a570651b44ba173f171cc73289efde</doi>
           <titulo>First test of Lorentz violation with a reactor-based antineutrino experiment</titulo>
           <autores>Abe, Y</autores>
           <revista>Physical Review. D. Particles, Fields, Gravitation, and Cosmology (Online)</revista>
@@ -3691,7 +3704,7 @@
           <ano>2012</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physletb.2011.05.057</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physletb.2011.05.057&md5=cba6827326e93f43253b9f91a9534396</doi>
           <titulo>Probing new limits for the Violation of the Equivalence Principle in the solar¿reactor neutrino sector as a next to leading order effect</titulo>
           <autores>Valdiviesso, G.A.; Guzzo, M.M. ; Holanda, P.C.</autores>
           <revista>PHYSICS LETTERS B</revista>
@@ -3701,7 +3714,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1140/epjc/s10052-009-1227-4</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1140/epjc/s10052-009-1227-4&md5=88a30e18ddabe3519c180ff3a96e6d31</doi>
           <titulo>First proton?proton collisions at the LHC as observed with the ALICE detector: measurement of the charged-particle pseudorapidity density at ? s = 900 GeV. European Physical Journal</titulo>
           <autores>Aamodt, K ; do Amaral Valdiviesso, G.</autores>
           <revista>European Physical Journal. C, Particles and Fields (Print)</revista>
@@ -3711,7 +3724,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.nuclphysa.2009.10.142</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.nuclphysa.2009.10.142&md5=492604ed5b812bd276196c77984735a4</doi>
           <titulo>The ALICE Collaboration</titulo>
           <autores>Aamodt, K. ; Abel, N. ; Abrahantes Quintana, A. ; Acero, A. ; Adamová, D. ; Aggarwal, M.M. ; Aglieri Rinella, G. ; Agocs, A. ; Aguilar Salazar, S. ; Ahammed, Z. ; do Amaral Valdiviesso, G.</autores>
           <revista>Nuclear Physics. A (Print)</revista>
@@ -4340,14 +4353,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
-          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
+          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
-          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
+          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
+          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -5018,6 +5031,16 @@
           <ano>1996</ano>
         </artigo>
     </artigos_em_periodicos>
+    <livros_publicados>
+        <livro>
+          <autores>C. Aguiar ; Camps, I.</autores>
+          <titulo>Molecular Docking Simulations: A comprehensive guide for beginners</titulo>
+          <edicao>1a</edicao>
+          <volume></volume>
+          <paginas></paginas>
+          <ano>2023</ano>
+        </livro>
+    </livros_publicados>
     <capitulos_livros>
         <capitulo>
           <livro></livro>
@@ -6668,27 +6691,27 @@
         </projeto>
         <projeto>
           <ano_inicio>2019</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
+          <ano_conclusao>2022</ano_conclusao>
           <nome>ESPECTROSCOPIA ÓPTICA NÃO LINEAR E TRANSFERÊNCIA DIRETA INDUZIDA POR LASER DE NANOMATERIAIS</nome>
-          <descricao>Descrição: Processos ópticos não lineares como absorção de dois fótons e índice de refração não linear estão intimamente associados com novas tecnologias que vão desde a microscopia de alta resolução à geração de computadores quânticos via estados emaranhados. Contudo, como a probabilidade de ocorrência destes fenômenos é baixa é necessário à síntese de materiais compropriedades especiais. Neste contexto, nas últimas décadas nanomateriais semicondutores e de carbono emergiram como materiais ópticos que apresentam resposta óptica não linear extremamente elevada e com tempos de resposta ultrarrápidos (femtossegundos). Neste sentido, este projeto tem como objetivo o estudo experimental do espectro de absorção de dois fótons (A2F) e do índice de refração não linear de nanocristais semicondutores de perovskita (CsPbBr3, CsPbI3, CsPbCl3) e nanopartículas de carbono sintetizadas com diferentes ligantes. Além disso, após a caraterização óptica não linear destes materiais, pretendemos fabricar filmes finos utilizando as técnicas de automontagem e spin coated bem como o uso do polímero PMMA como matriz hospedeira para fabricar dispositivos via a técnica de Transferência direta induzida por laser (Laser Induced Forward Transfer-LIFT). Esta técnica permite a fabricação de microdispositivos complexos com alta resolução espacial 2D, a transferência é realizada sem modificação nas propriedades ópticas e estruturais do alvo e é de fácil implementação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / MENDONCA, C. R. - Integrante / DE BONI, Leonardo - Integrante / SCHIAVON, MARCO A. - Integrante / Carlos Henrique Domingues dos Santos - Integrante / Luis Ricardo Pereira Mucciaroni - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 10</descricao>
+          <descricao>Descrição: Processos ópticos não lineares como absorção de dois fótons e índice de refração não linear estão intimamente associados com novas tecnologias que vão desde a microscopia de alta resolução à geração de computadores quânticos via estados emaranhados. Contudo, como a probabilidade de ocorrência destes fenômenos é baixa é necessário à síntese de materiais compropriedades especiais. Neste contexto, nas últimas décadas nanomateriais semicondutores e de carbono emergiram como materiais ópticos que apresentam resposta óptica não linear extremamente elevada e com tempos de resposta ultrarrápidos (femtossegundos). Neste sentido, este projeto tem como objetivo o estudo experimental do espectro de absorção de dois fótons (A2F) e do índice de refração não linear de nanocristais semicondutores de perovskita (CsPbBr3, CsPbI3, CsPbCl3) e nanopartículas de carbono sintetizadas com diferentes ligantes. Além disso, após a caraterização óptica não linear destes materiais, pretendemos fabricar filmes finos utilizando as técnicas de automontagem e spin coated bem como o uso do polímero PMMA como matriz hospedeira para fabricar dispositivos via a técnica de Transferência direta induzida por laser (Laser Induced Forward Transfer-LIFT). Esta técnica permite a fabricação de microdispositivos complexos com alta resolução espacial 2D, a transferência é realizada sem modificação nas propriedades ópticas e estruturais do alvo e é de fácil implementação.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / MENDONCA, C. R. - Integrante / DE BONI, Leonardo - Integrante / SCHIAVON, MARCO A. - Integrante / Carlos Henrique Domingues dos Santos - Integrante / Luis Ricardo Pereira Mucciaroni - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 10</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>ESTUDO DA PRIMEIRA HIPERPOLARIZABILIDADE ÓPTICA DE MATERIAIS ORGÂNICOS ATRAVÉS DA TÉCNICA DE ESPALHAMENTO HYPER-RAYLEIGH COM CONTROLE DE POLARIZAÇÃO</nome>
-          <descricao>Descrição: A óptica não linear é uma área da física associada a fenômenos ópticos no qual a polarização induzida em um material é não linear com o campo elétrico. Este campo de pesquisa surgiu em 1961, após o advento do laser por Maiman (Nature, 187, 493?494, 1960), com a descoberta da geração de segundo harmônico por Kaiser e Garret (Phys. Rev. Lett. 7, 229, 1961). Neste fenômeno, um feixe de luz laser de alta intensidade interage com um material de tal forma que a resposta do material a presença deste campo possui uma dependência com o dobro da frequência da radiação incidente. Do ponto de vista quanto-mecânico, ao incidir um feixe de luz com frequência f em um material com suscetibilidade óptica não linear de segunda ordem, dois fótons de frequência f serão aniquilados e um fóton de frequência 2f será criado. Este efeito possui várias aplicações como no desenvolvimento de lasers ultrarrápidos, amplificadores ópticos, informação quântica e dispositivos fotônicos, para citar alguns. Assim, o estudo de novos materiais orgânicos e inorgânicos com alta hiperpolarizabilidade de primeira ordem é de suma importância para a geração de novas tecnologias, em especial, àquelas voltadas a Fotônica. Portanto, este projeto visa à implantação da técnica de espalhamento Hyper-Rayleigh sub-nanossegundos com controle de polarização para investigar a primeira hiperpolarizabilidade dinâmica de materiais orgânicos como moléculas ramificadas (com geometria dipolar, quadrupolar e octupolar) e polímeros quirais. Já mostramos em trabalhos anteriores (J. Phys. Chem. Lett, 4, 1753-1759, 2013 / J. Phys. Chem B, 116, 14708-14714, 2012) que efeitos ópticos não lineares são muito sensíveis a mudança do estado de polarização do campo óptico, de tal forma que o efeito possa ser controlado ou até mesmo chaveado. Além disso, a interação da luz polarizada com a estrutura molecular pode trazer informações importantes para o entendimento de estruturas secundárias de moléculas orgânicas, DNA, aminoácidos, etc.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / SILVA - Integrante / BONI, LEONARDO DE - Integrante / MENDONÇA, CLEBER R - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 8</descricao>
+          <descricao>Descrição: A óptica não linear é uma área da física associada a fenômenos ópticos no qual a polarização induzida em um material é não linear com o campo elétrico. Este campo de pesquisa surgiu em 1961, após o advento do laser por Maiman (Nature, 187, 493?494, 1960), com a descoberta da geração de segundo harmônico por Kaiser e Garret (Phys. Rev. Lett. 7, 229, 1961). Neste fenômeno, um feixe de luz laser de alta intensidade interage com um material de tal forma que a resposta do material a presença deste campo possui uma dependência com o dobro da frequência da radiação incidente. Do ponto de vista quanto-mecânico, ao incidir um feixe de luz com frequência f em um material com suscetibilidade óptica não linear de segunda ordem, dois fótons de frequência f serão aniquilados e um fóton de frequência 2f será criado. Este efeito possui várias aplicações como no desenvolvimento de lasers ultrarrápidos, amplificadores ópticos, informação quântica e dispositivos fotônicos, para citar alguns. Assim, o estudo de novos materiais orgânicos e inorgânicos com alta hiperpolarizabilidade de primeira ordem é de suma importância para a geração de novas tecnologias, em especial, àquelas voltadas a Fotônica. Portanto, este projeto visa à implantação da técnica de espalhamento Hyper-Rayleigh sub-nanossegundos com controle de polarização para investigar a primeira hiperpolarizabilidade dinâmica de materiais orgânicos como moléculas ramificadas (com geometria dipolar, quadrupolar e octupolar) e polímeros quirais. Já mostramos em trabalhos anteriores (J. Phys. Chem. Lett, 4, 1753-1759, 2013 / J. Phys. Chem B, 116, 14708-14714, 2012) que efeitos ópticos não lineares são muito sensíveis a mudança do estado de polarização do campo óptico, de tal forma que o efeito possa ser controlado ou até mesmo chaveado. Além disso, a interação da luz polarizada com a estrutura molecular pode trazer informações importantes para o entendimento de estruturas secundárias de moléculas orgânicas, DNA, aminoácidos, etc.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / SILVA - Integrante / BONI, LEONARDO DE - Integrante / MENDONÇA, CLEBER R - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 10</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2018</ano_inicio>
+          <ano_conclusao>2021</ano_conclusao>
+          <nome>ESPECTROSCOPIA NÃO-LINEAR DE NANOCRISTAIS SEMICONDUTORES</nome>
+          <descricao>Descrição: A pesquisa tanto do ponto de vista básico quanto aplicado das propriedades ópticas não-lineares (ONL) resolvida em frequência e no tempo de nanocristais semicondutores (NCS) está intimamente associada ao desenvolvimento de novas tecnologias. Estes materiais têm sido investigados como meio ativo para aplicações em células solares, armazenamento óptico 3D, circuitos fotônicos, dispositivos emissores de luz, dispositivos RGB, transistores de efeito de campo, para citar um pouco. Para o desenvolvimento destas tecnologias é necessário um profundo conhecimento da resposta óptica dos materiais destinados à implementação dos dispositivos tanto em frequência quanto no tempo. Em especial, materiais em baixa dimensionalidade, nanopartículas e nanocompósitos, têm atraído grande interesse da comunidade acadêmica. Relatos experimentais e teóricos têm demonstrado que NCS com morfologias anisotrópicas apresentam propriedades ONL relativamente superiores devido aos efeitos de confinamento quântico. Assim, conhecer a resposta ONL de nanomateriais em uma ampla região do espectro eletromagnético nos permite diminuir o limiar de excitação para a observação do efeito ONL específico e escolher de forma mais adequada a aplicação destes em dispositivos fotônicos ou optoeletrônicos. Já a resposta resolvida no tempo, nos permite entender os mecanismos subjacentes envolvidos com a superfície e com o core do nanomaterial, de tal forma que possamos estabelecer uma relação entre as propriedades físicoquímicas e estruturais dos nanomateriais e a resposta ONL. Dessa forma, nanomateriais de alta qualidade podem ser confeccionados e novas aplicações podem emergir. Assim, pretendemos investigar a relação entre a resposta ONL (segunda e terceira ordem) e as propriedades estruturais e morfológicas de NCS.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / MENDONCA, C. R. - Integrante / De Boni, L. - Integrante / SCHIAVON, MARCO A. - Integrante. Número de produções C, T & A: 7</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>2020</ano_conclusao>
           <nome>Apoio aos grupos de pesquisa da UNIFAL</nome>
           <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Marcelo Gonçalves Vivas - Coordenador / Fernando Gonçalves Gardim - Integrante.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2018</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>ESPECTROSCOPIA NÃO-LINEAR DE NANOCRISTAIS SEMICONDUTORES</nome>
-          <descricao>Descrição: A pesquisa tanto do ponto de vista básico quanto aplicado das propriedades ópticas não-lineares (ONL) resolvida em frequência e no tempo de nanocristais semicondutores (NCS) está intimamente associada ao desenvolvimento de novas tecnologias. Estes materiais têm sido investigados como meio ativo para aplicações em células solares, armazenamento óptico 3D, circuitos fotônicos, dispositivos emissores de luz, dispositivos RGB, transistores de efeito de campo, para citar um pouco. Para o desenvolvimento destas tecnologias é necessário um profundo conhecimento da resposta óptica dos materiais destinados à implementação dos dispositivos tanto em frequência quanto no tempo. Em especial, materiais em baixa dimensionalidade, nanopartículas e nanocompósitos, têm atraído grande interesse da comunidade acadêmica. Relatos experimentais e teóricos têm demonstrado que NCS com morfologias anisotrópicas apresentam propriedades ONL relativamente superiores devido aos efeitos de confinamento quântico. Assim, conhecer a resposta ONL de nanomateriais em uma ampla região do espectro eletromagnético nos permite diminuir o limiar de excitação para a observação do efeito ONL específico e escolher de forma mais adequada a aplicação destes em dispositivos fotônicos ou optoeletrônicos. Já a resposta resolvida no tempo, nos permite entender os mecanismos subjacentes envolvidos com a superfície e com o core do nanomaterial, de tal forma que possamos estabelecer uma relação entre as propriedades físicoquímicas e estruturais dos nanomateriais e a resposta ONL. Dessa forma, nanomateriais de alta qualidade podem ser confeccionados e novas aplicações podem emergir. Assim, pretendemos investigar a relação entre a resposta ONL (segunda e terceira ordem) e as propriedades estruturais e morfológicas de NCS.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Marcelo Gonçalves Vivas - Coordenador / MENDONCA, C. R. - Integrante / De Boni, L. - Integrante / SCHIAVON, MARCO A. - Integrante. Número de produções C, T & A: 7</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2016</ano_inicio>
@@ -6729,6 +6752,10 @@
     </area_atuacao>
     <premios_titulos>
         <premio_titulo>
+          <ano>2021</ano>
+          <descricao>Bolsista de produtividade em pesquisa, CNPq.</descricao>
+        </premio_titulo>
+        <premio_titulo>
           <ano>2019</ano>
           <descricao>Paper listado por editores da JPC como importante contribuição na área, Journal of Physical Chemistry.</descricao>
         </premio_titulo>
@@ -6754,27 +6781,28 @@
         </premio_titulo>
     </premios_titulos>
     <colaboradores>
-        <id_lattes_colaborador>3129798508009056</id_lattes_colaborador>
-        <id_lattes_colaborador>0108190685018320</id_lattes_colaborador>
-        <id_lattes_colaborador>2387431254472136</id_lattes_colaborador>
-        <id_lattes_colaborador>5395774975535644</id_lattes_colaborador>
-        <id_lattes_colaborador>7366807766543442</id_lattes_colaborador>
-        <id_lattes_colaborador>7507841142527331</id_lattes_colaborador>
-        <id_lattes_colaborador>0448980118528732</id_lattes_colaborador>
-        <id_lattes_colaborador>7694622713378423</id_lattes_colaborador>
-        <id_lattes_colaborador>9913529831985105</id_lattes_colaborador>
-        <id_lattes_colaborador>0514228518147484</id_lattes_colaborador>
         <id_lattes_colaborador>1312049227898761</id_lattes_colaborador>
-        <id_lattes_colaborador>9208665857677299</id_lattes_colaborador>
+        <id_lattes_colaborador>0448980118528732</id_lattes_colaborador>
+        <id_lattes_colaborador>3177694073540758</id_lattes_colaborador>
+        <id_lattes_colaborador>5395774975535644</id_lattes_colaborador>
+        <id_lattes_colaborador>8231471391500358</id_lattes_colaborador>
         <id_lattes_colaborador>3733816648743900</id_lattes_colaborador>
-        <id_lattes_colaborador>6665155835167558</id_lattes_colaborador>
+        <id_lattes_colaborador>7947299462681693</id_lattes_colaborador>
+        <id_lattes_colaborador>0514228518147484</id_lattes_colaborador>
+        <id_lattes_colaborador>2387431254472136</id_lattes_colaborador>
         <id_lattes_colaborador>2401618350456850</id_lattes_colaborador>
         <id_lattes_colaborador>6640232793768858</id_lattes_colaborador>
-        <id_lattes_colaborador>3177694073540758</id_lattes_colaborador>
-        <id_lattes_colaborador>8231471391500358</id_lattes_colaborador>
-        <id_lattes_colaborador>2486121889068339</id_lattes_colaborador>
+        <id_lattes_colaborador>9913529831985105</id_lattes_colaborador>
+        <id_lattes_colaborador>7366807766543442</id_lattes_colaborador>
+        <id_lattes_colaborador>7507841142527331</id_lattes_colaborador>
+        <id_lattes_colaborador>9208665857677299</id_lattes_colaborador>
+        <id_lattes_colaborador>6665155835167558</id_lattes_colaborador>
         <id_lattes_colaborador>2794888963106382</id_lattes_colaborador>
-        <id_lattes_colaborador>7947299462681693</id_lattes_colaborador>
+        <id_lattes_colaborador>3129798508009056</id_lattes_colaborador>
+        <id_lattes_colaborador>7694622713378423</id_lattes_colaborador>
+        <id_lattes_colaborador>4634684070861632</id_lattes_colaborador>
+        <id_lattes_colaborador>0108190685018320</id_lattes_colaborador>
+        <id_lattes_colaborador>2486121889068339</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
@@ -6794,6 +6822,16 @@
           <revista>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</revista>
           <volume>PHYSICAL CHEMISTRY CHEMICAL PHYSICS</volume>
           <paginas>5021-5028</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1063/5.0151622</doi>
+          <titulo>Observation of the two-photon transition enhanced first hyperpolarizability spectra in cinnamaldehyde derivatives: A femtosecond regime study</titulo>
+          <autores>DOS SANTOS, CARLOS H. D. ; ZUCOLOTTO COCCA, LEANDRO H. ; PELOSI, ANDRÉ GASPAROTTO ; BATISTA, VASCO F. ; PINTO, DIANA C. G. A. ; FAUSTINO, M. AMPARO F. ; Vivas, Marcelo G. ; DE PAULA SIQUEIRA, JONATHAS ; MENDONÇA, CLEBER R. ; DE BONI, Leonardo</autores>
+          <revista>Journal Of Chemical Physics</revista>
+          <volume>Journal Of Chemical Physics</volume>
+          <paginas>214201-214201-11</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -7198,7 +7236,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/jp203194t&md5=c05fb05fef229544364ae4596b529b17</doi>
+          <doi>http://dx.doi.org/10.1021/jp203194t</doi>
           <titulo>Linear and Nonlinear Optical Properties of the Thiophene/Phenylene-Based Oligomer and Polymer</titulo>
           <autores>Vivas, M. G.; NOGUEIRA, S. L. ; Silva, H. Santos ; Barbosa Neto, N. M. ; MARLETTA, A. ; SEREIN-SPIRAU, F. ; LOIS, S. ; JARROSSON, T. ; De Boni, L. ; SILVA, R. A. ; MENDONCA, C. R.</autores>
           <revista>Journal of Physical Chemistry. B</revista>
@@ -7218,7 +7256,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1364/oe.18.009628&md5=82a5e724574bfd35a376fae56f8c3de6</doi>
+          <doi>http://dx.doi.org/10.1364/OE.18.009628</doi>
           <titulo>Nonlinear spectra of ZnO: reverse saturable, two- and three-photon absorption</titulo>
           <autores>M. G. Vivas; SHIH, T. ; VOSS, T. ; MAZUR, E. ; MENDONCA, C. R.</autores>
           <revista>Optics Express</revista>
@@ -7228,7 +7266,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/jp910010g&md5=96107b99c9090bccc5a9da903cc60261</doi>
+          <doi>http://dx.doi.org/10.1021/jp910010g</doi>
           <titulo>Degenerate Two-Photon Absorption in All-Trans Retinal: Nonlinear Spectrum and Theoretical Calculations</titulo>
           <autores>M. G. Vivas; SILVA, D. L. ; MISOGUTI, L. ; ZALESNY, R. ; BARTKOWIAK, W. ; MENDONCA, C. R.</autores>
           <revista>The Journal of Physical Chemistry. A</revista>
@@ -8191,6 +8229,16 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
     </orientacao_mestrado_em_andamento>
+    <orientacao_iniciacao_cientifica_em_andamento>
+        <iniciacao_cientifica>
+          <nome_aluno>Vitor Eduardo Coral Venâncio</nome_aluno>
+          <titulo_trabalho>ENGENHARIA FOTÔNICA DE AZOPOLÍMEROS: BIRREFRINGÊNCIA FOTOINDUZIDA E FABRICAÇÃO DE GRADES DE DIFRAÇÃO SINTONIZÁVEIS</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Iniciação científica (Graduando em Bacharelado em Ciência e Tecnologia) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+    </orientacao_iniciacao_cientifica_em_andamento>
     <supervisao_pos_doutorado_concluido>
         <supervisao>
           <nome_aluno>Luis Miguel Gomes Abegão</nome_aluno>
@@ -8451,6 +8499,10 @@
     </orientacao_outros_tipos_concluido>
     <participacao_evento>
         <evento>
+          <titulo>Encontro de Outono da SBF.Surface Plasmon Resonance Spectrometer in the Double Prism Configuration: Fast Characterization of the Dielectric Constant Dispersion of Thin Films. 2023. (Encontro).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
           <titulo>43ª RASBQ. Understanding the photobleaching mechanisms of MEH-PPV. 2020. (Congresso).</titulo>
           <ano>2020</ano>
         </evento>
@@ -8613,1048 +8665,6 @@
         </evento>
     </organizacao_evento>
   </pesquisador>
-  <pesquisador id="9972552337847809">
-    <identificacao>
-      <identificador10></identificador10>
-      <nome_inicial>Mariama Rebello de Sousa Dias</nome_inicial>
-      <nome_completo>Mariama Rebello de Sousa Dias</nome_completo>
-      <nome_citacao_bibliografica>Rebello Sousa Dias, M.;Sousa-Dias, M. R.;Rebello de Sousa Dias, Mariama;REBELLO SOUSA DIAS, MARIAMA</nome_citacao_bibliografica>
-      <sexo>Masculino</sexo>
-    </identificacao>
-    <idiomas>
-      <idioma>
-          <nome>Inglês</nome>
-          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
-      </idioma>
-      <idioma>
-          <nome>Espanhol</nome>
-          <proficiencia>Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente.</proficiencia>
-      </idioma>
-      <idioma>
-          <nome>Português</nome>
-          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
-      </idioma>
-      <idioma>
-          <nome>Alemão</nome>
-          <proficiencia>Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco.</proficiencia>
-      </idioma>
-    </idiomas>
-    <endereco>
-      <endereco_profissional>Universidade Federal de São Carlos, Centro de Ciências Exatas e de Tecnologia, Departamento de Física. Rodovia Washington Luís (SP-310), Km 235 Monjolinho 13565-905 - Sao Carlos, SP - Brasil Telefone: (16) 33519750 URL da Homepage: www.nanostructures.df.ufscar.br</endereco_profissional>
-      <endereco_profissional_lat></endereco_profissional_lat>
-      <endereco_profissional_long></endereco_profissional_long>
-    </endereco>
-    <formacao_academica>
-        <formacao>
-          <ano_inicio>2010</ano_inicio>
-          <ano_conclusao>2014</ano_conclusao>
-          <tipo>Doutorado em PROGRAMA DE PÓS-GRADUAÇÃO EM FÍSICA - UFSCar</tipo>
-          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
-          <descricao>com período sanduíche em Ohio University (Orientador: Sergio E. Ulloa). Título: Transport phenomena in quasi-one-dimensional heterostructures, Ano de obtenção: 2014. Orientador: Prof. Dr. Victor Lopez Richard. Coorientador: Prof. Dr. Sergio E. Ulloa. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. Palavras-chave: Electronic Transport; Semiconductor nanostructures. Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2008</ano_inicio>
-          <ano_conclusao>2010</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 4)</tipo>
-          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
-          <descricao>Título: Estudo de efeitos quânticos nas propriedades eletrônicas de nanofios semicondutores, Ano de Obtenção: 2010. Orientador: Prof. Dr. Victor Lopez Richard. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2008</ano_inicio>
-          <ano_conclusao>2009</ano_conclusao>
-          <tipo>Graduação em Física Licenciatura</tipo>
-          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
-          <descricao>Título: UMA ANÁLISE PRELIMINAR SOBRE A INSERÇÃO DE PRODUTOS TECNOLÓGICOS EM LIVROS DIDÁTICOS DE FÍSICA DO ENSINO MÉDIO. Orientador: Prof. Dr. Nelson Studart Filho.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2004</ano_inicio>
-          <ano_conclusao>2007</ano_conclusao>
-          <tipo>Graduação em Física Bacharelado</tipo>
-          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
-          <descricao></descricao>
-        </formacao>
-    </formacao_academica>
-    <area_atuacao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada.</descricao>
-          <descricao>Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem.</descricao>
-    </area_atuacao>
-    <colaboradores>
-        <id_lattes_colaborador>6801067322823031</id_lattes_colaborador>
-        <id_lattes_colaborador>6195223137235452</id_lattes_colaborador>
-        <id_lattes_colaborador>4492188799583104</id_lattes_colaborador>
-        <id_lattes_colaborador>1229528480883598</id_lattes_colaborador>
-        <id_lattes_colaborador>0292219410310800</id_lattes_colaborador>
-        <id_lattes_colaborador>5393599427764197</id_lattes_colaborador>
-        <id_lattes_colaborador>6643474871838788</id_lattes_colaborador>
-        <id_lattes_colaborador>7399282458509025</id_lattes_colaborador>
-        <id_lattes_colaborador>9972552337847809</id_lattes_colaborador>
-    </colaboradores>
-    <artigos_em_periodicos>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/acsnano.5b01831&md5=3e9a8a23df013de0a963bf2d45f2dd80</doi>
-          <titulo>Nanothermometer Based on Resonant Tunneling Diodes: From Cryogenic to Room Temperatures</titulo>
-          <autores>PFENNING, ANDREAS ; HARTMANN, FABIAN ; REBELLO SOUSA DIAS, MARIAMA ; Castelano, Leonardo Kleber ; SÜ MEIER, CHRISTOPH ; LANGER, FABIAN ; HÖFLING, SVEN ; KAMP, MARTIN ; Marques, Gilmar Eugenio ; WORSCHECH, LUKAS ; Lopez-Richard, Victor</autores>
-          <revista>ACS Nano</revista>
-          <volume>ACS Nano</volume>
-          <paginas>6271-6277</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4929424&md5=ca136036a549fbc109bcf1c161f4e1be</doi>
-          <titulo>Photocurrent-voltage relation of resonant tunneling diode photodetectors</titulo>
-          <autores>PFENNING, ANDREAS ; HARTMANN, FABIAN ; REBELLO SOUSA DIAS, M. ; LANGER, FABIAN ; KAMP, MARTIN ; CASTELANO, L. K. ; Lopez-Richard, Victor ; MARQUES, G. E. ; HÖFLING, SVEN ; WORSCHECH, LUKAS</autores>
-          <revista>Applied Physics Letters</revista>
-          <volume>Applied Physics Letters</volume>
-          <paginas>081104</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1209/0295-5075/106/17002&md5=98dd97b0f0b359df44dc5798e426f134</doi>
-          <titulo>Spin filtering in nanowire directional coupler</titulo>
-          <autores>Rebello Sousa Dias, M.; LOPEZ-RICHARD, V. ; MARQUES, G. E. ; ULLOA, S. E.</autores>
-          <revista>Europhysics Letters (Print)</revista>
-          <volume>Europhysics Letters (Print)</volume>
-          <paginas>17002</paginas>
-          <numero></numero>
-          <ano>2014</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4804324&md5=afcc1f010493e55a8d4a199d57fafeb6</doi>
-          <titulo>Electron transport in quantum dot chains: Dimensionality effects and hopping conductance</titulo>
-          <autores>KUNETS, V. P. ; Rebello Sousa Dias, M. ; REMBERT, T. ; WARE, M. E. ; MAZUR, Y. I. ; Lopez-Richard, Victor ; MANTOOTH, H. A. ; MARQUES, G. E. ; SALAMO, G. J.</autores>
-          <revista>Journal of Applied Physics</revista>
-          <volume>Journal of Applied Physics</volume>
-          <paginas>183709</paginas>
-          <numero></numero>
-          <ano>2013</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1063/1.4764902</doi>
-          <titulo>Tuning hole mobility in InP nanowires</titulo>
-          <autores>Rebello Sousa Dias, M.; PICININ, A. ; LOPEZ-RICHARD, V. ; ULLOA, S. E. ; CASTELANO, L. K. ; RINO, J. P. ; MARQUES, G. E.</autores>
-          <revista>Applied Physics Letters</revista>
-          <volume>Applied Physics Letters</volume>
-          <paginas>182104</paginas>
-          <numero></numero>
-          <ano>2012</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/nn2008589&md5=ec7e53b76c787d0d5e7c78a5bc51f034</doi>
-          <titulo>Tailoring Electronic Transparency of Twin-Plane 1D Superlattices</titulo>
-          <autores>Tsuzuki, Helio ; Cesar, Daniel Ferreira ; Rebello de Sousa Dias, Mariama ; Castelano, Leonardo Kleber ; Lopez-Richard, Victor ; Rino, Jose Pedro ; Marques, Gilmar Eugenio</autores>
-          <revista>ACS Nano</revista>
-          <volume>ACS Nano</volume>
-          <paginas>110612104052088</paginas>
-          <numero></numero>
-          <ano>2011</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevb.79.155306&md5=0481bb69fffc13d77d01a45b55198e21</doi>
-          <titulo>Spin-polarizarion in quantum wires: Influence of Dresselhaus spin-orbit interacton and cross-section effects</titulo>
-          <autores>VILLEGAS-LELOVSKY, L. ; TRALLERO-GINER, C. ; Rebello Sousa Dias, M. ; LOPEZ-RICHARD, V. ; MARQUES, G. E.</autores>
-          <revista>Physical Review. B, Condensed Matter and Materials Physics</revista>
-          <volume>Physical Review. B, Condensed Matter and Materials Physics</volume>
-          <paginas>155306</paginas>
-          <numero></numero>
-          <ano>2009</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/nl9012024&md5=eb28421ee792a0ef608eec636f5a9fe2</doi>
-          <titulo>Markovian and Non-Markovian Light-Emission Channels in Strained Quantum Wires</titulo>
-          <autores>LOPEZ-RICHARD, V. ; GONZALES, J. C. ; MATINAGA, F. M. ; TRALLERO-GINER, C. ; RIBEIRO, E. ; Rebello Sousa Dias, M. ; VILLEGAS-LELOVSKY, L. ; MARQUES, G. E.</autores>
-          <revista>Nano Letters</revista>
-          <volume>Nano Letters</volume>
-          <paginas>3129-3136</paginas>
-          <numero></numero>
-          <ano>2009</ano>
-        </artigo>
-    </artigos_em_periodicos>
-    <trabalho_completo_congresso>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>Rebello Sousa Dias, M.; COIMBRA, D. ; LINDINO, T. C.</autores>
-          <titulo>Um estudo exploratório sobre as crenças epistemológicas de ingressantes do ensino superior</titulo>
-          <nome_evento>X Encontro de Pesquisa em Ensino de Física</nome_evento>
-          <ano>2006</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-    </trabalho_completo_congresso>
-    <resumo_congresso>
-        <resumo>
-          <doi></doi>
-          <autores>Rebello Sousa Dias, M.; LOPES, E. M. ; HIDALGO, A. A. ; COIMBRA, D.</autores>
-          <titulo>MOLECULAR DYNAMICS SIMULATION OF DIPALMITOYLPHOSPHATIDYLCHOLINE LIPID MONOLAYERS</titulo>
-          <nome_evento>XXIX Encontro Nacional de Física da Matéria Condensada, 2006, São Lourenço. Anaias do ENFMC</nome_evento>
-          <ano>2006</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </resumo>
-    </resumo_congresso>
-    <apresentacao_trabalho>
-        <trabalho_apresentado>
-          <titulo>Estudo de fenômenos óticos e de transporte em nano-dispositivos semicondutores: caracterização e aplicação</titulo>
-          <autores>Rebello Sousa Dias, M</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Transport phenomena in quasi-one-dimensional heterostructures</titulo>
-          <autores>Rebello Sousa Dias, M</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Electronic and transport phenomena in semiconductor nanostructures</titulo>
-          <autores>Rebello Sousa Dias, M</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Transport phenomena in quasi-one-dimensional heterostructures</titulo>
-          <autores>Rebello Sousa Dias, M</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Hole mobility in semiconductor nanowires: temperature and strain effects</titulo>
-          <autores>Rebello Sousa Dias, M.; LOPEZ-RICHARD, V. ; MARQUES, G. E.</autores>
-          <ano>2011</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-    </apresentacao_trabalho>
-    <participacao_evento>
-        <evento>
-          <titulo>17º Brazilian Workshop on Semiconductor Physics. Dresselhaus spin orbit effects on transport properties of polytypic nanowires. 2015. (Congresso).</titulo>
-          <ano>2015</ano>
-        </evento>
-        <evento>
-          <titulo>APS March Meeting.Spin transport on parallel coupled nanowires with Rashba spin-orbit interaction. 2014. (Encontro).</titulo>
-          <ano>2014</ano>
-        </evento>
-        <evento>
-          <titulo>International sustainability Days "Euro-Ibsa".Semiconductor nanostructures: fundamental and applied research aiming an efficient technology.. 2014. (Encontro).</titulo>
-          <ano>2014</ano>
-        </evento>
-        <evento>
-          <titulo>Kick-off Meeting - HelmHoltz Virtual Institute. 2013. (Encontro).</titulo>
-          <ano>2013</ano>
-        </evento>
-        <evento>
-          <titulo>Topology and Nonequilibrium in Low-Dimensional Electronic Systems.Spin transport properties of parallel coupled nano-wires. 2013. (Outra).</titulo>
-          <ano>2013</ano>
-        </evento>
-        <evento>
-          <titulo>APS March Meeting. Tuning the hole mobility in InP semiconductor nanowires. 2012. (Congresso).</titulo>
-          <ano>2012</ano>
-        </evento>
-        <evento>
-          <titulo>International Conference on Superlattices, Nanostructures and Nanodevices. Electronic Transparency Tuning of Twin-Plane 1D Superlattices by Strain Fields. 2012. (Congresso).</titulo>
-          <ano>2012</ano>
-        </evento>
-        <evento>
-          <titulo>International Conference on the Physics of Semiconductors. Tuning the hole mobility in InP semiconductor nanowires. 2012. (Congresso).</titulo>
-          <ano>2012</ano>
-        </evento>
-        <evento>
-          <titulo>International Conference on the Physics of Semiconductors. Electronic Transparency Tuning of Twin-Plane 1D Superlattices by Strain Fields. 2012. (Congresso).</titulo>
-          <ano>2012</ano>
-        </evento>
-        <evento>
-          <titulo>NEWSPIN2 - International Winter School and Workshop. 2011. (Outra).</titulo>
-          <ano>2011</ano>
-        </evento>
-        <evento>
-          <titulo>I Encontro Nacional da Rede Nacional de Nanobiotecnologia Aplicada à Defesa.Quantum effects in electronic properties of semiconductor nanowires. 2010. (Encontro).</titulo>
-          <ano>2010</ano>
-        </evento>
-        <evento>
-          <titulo>XII J. J. Giambiagi Winter School.Quantum effects in electronic properties of semiconductor nanowires. 2010. (Outra).</titulo>
-          <ano>2010</ano>
-        </evento>
-        <evento>
-          <titulo>V Semana da Física.Formei, o que fazer?. 2009. (Outra).</titulo>
-          <ano>2009</ano>
-        </evento>
-        <evento>
-          <titulo>XIV Brazilian Workshop on Semiconductor Physics. Strain induced optical channels with Markov and non-Markovian natures in semiconductor quantum wires. 2009. (Congresso).</titulo>
-          <ano>2009</ano>
-        </evento>
-        <evento>
-          <titulo>I Escola de Física Computacional Moderna. 2006. (Outra).</titulo>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>II Semana de Física - UFSCar - Mini-curso Spintrônica. 2006. (Outra).</titulo>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>XIV Congresso de Iniciação Cientifica - UFSCar - Mini-curso Computabilidade. 2006. (Congresso).</titulo>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>XVI Congresso de Iniciação Cientifica. Simulação Computacional do Dipalmitoilfosfatidilcolina (DPPC) e sua Interação com Fármaco via Dinâmica Molecular. 2006. (Congresso).</titulo>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>XXIX Encontro Nacional de Física da Matéria Condensada.Molecular Dynamics Simulation of Dipalmitoyilphosphatidylcholine Lipid Monolayers. 2006. (Encontro).</titulo>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>I Semana de Física - UFSCar - Mini-curso Óptica: Lasers e suas aplicações. 2005. (Outra).</titulo>
-          <ano>2005</ano>
-        </evento>
-        <evento>
-          <titulo>I Semana de Física - UFSCar - Mini-curso Relatividade-A Cosmologia do Início do Universo. 2005. (Outra).</titulo>
-          <ano>2005</ano>
-        </evento>
-        <evento>
-          <titulo>Brazilian Young Physicist´s Tournamente. 2004. (Outra).</titulo>
-          <ano>2004</ano>
-        </evento>
-        <evento>
-          <titulo>XIX INTERNATIONAL CONFERENCE ON ATOMIC PHYSICS. 2004. (Simpósio).</titulo>
-          <ano>2004</ano>
-        </evento>
-    </participacao_evento>
-    <organizacao_evento>
-        <evento>
-          <titulo>II Semana de Física</titulo>
-          <natureza>Outro</natureza>
-          <ano>2006</ano>
-        </evento>
-        <evento>
-          <titulo>I Semana de Física</titulo>
-          <natureza>Outro</natureza>
-          <ano>2005</ano>
-        </evento>
-    </organizacao_evento>
-  </pesquisador>
-  <pesquisador id="3697495590985027">
-    <identificacao>
-      <identificador10></identificador10>
-      <nome_inicial>Rafael Felipe Coelho Neves</nome_inicial>
-      <nome_completo>Rafael Felipe Coelho Neves</nome_completo>
-      <nome_citacao_bibliografica>NEVES, R. F. C.;COELHO, R. F.;COELHO, R F;NEVES, RAFAEL F. C.;NEVES, R.F.C.;Fatigate, G. R.</nome_citacao_bibliografica>
-      <sexo>Masculino</sexo>
-    </identificacao>
-    <idiomas>
-      <idioma>
-          <nome>Inglês</nome>
-          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
-      </idioma>
-      <idioma>
-          <nome>Espanhol</nome>
-          <proficiencia>Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.</proficiencia>
-      </idioma>
-    </idiomas>
-    <endereco>
-      <endereco_profissional>Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais, Campus Poços de Caldas. Avenida Dirce Pereira Rosa Jardim Esperança 37713100 - Poços de Caldas, MG - Brasil Telefone: (35) 37135120 URL da Homepage: http://www.pcs.ifsuldeminas.edu.br/</endereco_profissional>
-      <endereco_profissional_lat></endereco_profissional_lat>
-      <endereco_profissional_long></endereco_profissional_long>
-    </endereco>
-    <formacao_academica>
-        <formacao>
-          <ano_inicio>2011</ano_inicio>
-          <ano_conclusao>2015</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 4)</tipo>
-          <nome_instituicao>Universidade Federal de Juiz de Fora, UFJF, Brasil</nome_instituicao>
-          <descricao>com período sanduíche em Flinders University of South Australia (Orientador: Michael James Brunger). Título: Espalhamento de elétrons em moléculas precursoras da biomassa, Ano de obtenção: 2015. Orientador: Maria Cristina Andreolli Lopes. Coorientador: Michael James Brunger. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: espalhamento de elétrons; fenol; furfural; seção de choque diferencial; seção de choque integral. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Atômica e Molecular / Especialidade: Processos de Colisão e Interações de Átomos e Moléculas. Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Atômica e Molecular / Especialidade: Inf. sobre Átomos e Moléculas Obtidos Experimentalmente; Instrumentação e Técnicas. Setores de atividade: Pesquisa e desenvolvimento científico; Educação.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2009</ano_inicio>
-          <ano_conclusao>2011</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 4)</tipo>
-          <nome_instituicao>Universidade Federal de Juiz de Fora, UFJF, Brasil</nome_instituicao>
-          <descricao>Título: Caracterização de Feixes Eletrônicos Monoenergéticos de Baixas Energias, Ano de Obtenção: 2011. Orientador: Maria Cristina Andreolli Lopes. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de Minas Gerais, FAPEMIG, Brasil. Palavras-chave: feixes eletrônicos monocromatizados. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Atômica e Molecular / Especialidade: Processos de Colisão e Interações de Átomos e Moléculas. Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Atômica e Molecular / Especialidade: Espectroscopia de captura eletrônica. Setores de atividade: Atividades profissionais, científicas e técnicas; Educação.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2005</ano_inicio>
-          <ano_conclusao>2008</ano_conclusao>
-          <tipo>Graduação em Licenciatura em Física</tipo>
-          <nome_instituicao>Universidade Federal de Juiz de Fora, UFJF, Brasil</nome_instituicao>
-          <descricao></descricao>
-        </formacao>
-    </formacao_academica>
-    <projetos_pesquisa>
-        <projeto>
-          <ano_inicio>2017</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>IF SOLARES</nome>
-          <descricao>Descrição: O IFSolares no âmbito do PEE visa a implantação de minigeração (17 kWp), retrofit das instalações (troca das lâmpadas) e implantação do Programa de Gestão Energética conforme NBR 50001/2011 e, no PD, propõe o estudo de impacto da Geração Distribuída destacando o perfil de tensão no alimentador; carregamento do transformador; injeção de harmônicos; perdas; ilhamento; correção de fator de potência; limite e sustentabilidade da inserção de Geração Distribuída na rede local e a eficiência técnica e econômica das tecnologias escolhidas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) . Integrantes: Rafael Felipe Coelho Neves - Integrante / Bruno Eduardo Carmelito - Integrante / Diógenes Simão Rodovalho - Integrante / Douglas Donizeti de Castilho Braz - Integrante / Ezequiel Junio de Lima - Coordenador / Rodrigo Lício Ortolan - Integrante / Thiago Caproni Tavares - Integrante / Yull Heilordt Henao Roa - Integrante. Financiador(es): Departamento Municipal de Eletricidade de Poços de Caldas - Outra.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2016</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>SiMULAÇÕES NUMÉRICAS DE HIPERTERMIA COM NANOPARTÍCULAS MAGNÉTICAS ATRAVÉS DE MEIO POROSO</nome>
-          <descricao>Descrição: Este estudo pretende simular a utilização de nanopartículas magnéticas no tratamento de tumores sólidos, através de um modelo matemático de biotransferência de calor. Ademais, resultados prévios mostram que a abordagem baseada em meios porosos pode ser uma alternativa neste tipo de simulação, além de incluir outros parâmetros na simulação. Assim, um estudo comparativo entre estes modelos para simular tratamentos de câncer com hipertermia pode oferecer resultados complementares para a literatura.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Doutorado: (1) . Integrantes: Rafael Felipe Coelho Neves - Coordenador / Gustavo Resende Fatigate - Integrante / Ruy Freitas Reis - Integrante / Eliézer Marques Mafra - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 1</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2016</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Conversão de Energia Solar em Energia Elétrica Via Sistema de Concentração por Refração e Reflexão</nome>
-          <descricao>Descrição: Neste estudo será proposta a análise da incidência de radiação solar no município de Poços de Caldas e a construção de um concentrador solar compacto. A construção deste protótipo irá contribuir para a geração de energia limpa, representando uma fonte auxiliar que poderá ser integrada a sistemas de energia elétrica residenciais ou comerciais.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Rafael Felipe Coelho Neves - Coordenador / Felipe Borges Silva - Integrante. Financiador(es): Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Bolsa. Número de produções C, T & A: 1</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2015</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>OBTENÇÃO DE SEÇÕES DE CHOQUE DE COLISÃO DE ELÉTRONS DE BAIXAS ENERGIAS COM BIOMOLÉCULAS</nome>
-          <descricao>Descrição: Descrição: Edital 01/2014 - Demanda Universal/FAPEMIG, Processo No: APQ?02154?14 Natureza: Pesquisa.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) / Doutorado: (2) . Integrantes: Rafael Felipe Coelho Neves - Integrante / LOPES, M C A - Coordenador.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2014</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>COLISÃO DE ELÉTRONS DE BAIXAS ENERGIAS COM MOLÉCULAS QUE COMPÕE A BIOMASSA</nome>
-          <descricao>Descrição: PROGRAMA CIÊNCIA SEM FRONTEIRAS. BOLSAS NO PAÍS MODALIDADE ATRAÇÃO DE JOVENS TALENTOS. BJT, CHAMADA DE PROJETOS MEC/MCTI/CAPES/CNPq/FAPs Nº 70/2013, Processo: 314044/2013-2, Natureza: Pesquisa.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Especialização: (1) / Mestrado acadêmico: (2) / Doutorado: (3) . Integrantes: Rafael Felipe Coelho Neves - Integrante / Duque, H.V. (Humberto Vargas Duque) - Integrante / LOPES, M C A - Coordenador / Adriana N. de Souza - Integrante / M. H. F. Bettega - Integrante / Marco Aurélio Pinheiro Lima - Integrante / da Costa, R. F - Integrante / BRUNGER, M. J. - Integrante / BUCKMAN, S. J. - Integrante / Kate Louise Nixon - Integrante.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2013</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>CONSOLIDAÇÃO DE UM LABORATÓRIO BRASILEIRO PARA OBTENÇÃO DE SEÇÕES DE CHOQUE DE ELÉTRONS E PÓSITRONS DE BAIXA ENERGIA</nome>
-          <descricao>Descrição: CHAMADA DE PROJETOS MEC/MCTI/CAPES/CNPq/FAPs Nº 71/2013, PROGRAMA CIÊNCIA SEM FRONTEIRAS. BOLSAS NO PAÍS MODALIDADE PESQUISADOR VISITANTE ESPECIAL. PVE, Processo:400802/2013-9. Natureza: Pesquisa.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Especialização: (1) / Mestrado acadêmico: (2) / Doutorado: (3) . Integrantes: Rafael Felipe Coelho Neves - Integrante / BETTEGA, M. H. - Integrante / VARELLA, M. T. DO N. - Integrante / Stephen John Buckman - Integrante / James Sullivan - Integrante / Sergio d'Almeida Sanchez - Integrante / LOPES, M C A - Coordenador / SILVA, D G M - Integrante / BRUNGER, MICHAEL J. - Integrante / LIMA, MARCO A. P. - Integrante / da Costa, R. F - Integrante.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2012</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>ESTUDO DE RESSONÂNCIAS EM MOLÉCULAS DE COMBUSTÍVEIS VEICULARES</nome>
-          <descricao>Descrição: - Edital Universal 2012 - CNPq Número do Processo: 478716/2012--?5 Natureza: Pesquisa. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (3) . Integrantes: Rafael Felipe Coelho Neves - Integrante / Duque, H.V. (Humberto Vargas Duque) - Integrante / SILVA, D. G. M - Integrante / LOPES, M C A - Coordenador / Maikel Yusat Ballester Furones - Integrante.</descricao>
-        </projeto>
-    </projetos_pesquisa>
-    <area_atuacao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Atômica e Molecular/Especialidade: Processos de Colisão e Interações de Átomos e Moléculas.</descricao>
-          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Atômica e Molecular/Especialidade: Inf. sobre Átomos e Moléculas Obtidos Experimentalmente; Instrumentação e Técnicas.</descricao>
-          <descricao>Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem/Especialidade: EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA.</descricao>
-          <descricao>Grande área: Engenharias / Área: Engenharia de Energia / Subárea: Fontes Renováveis de Energia/Especialidade: Sistemas Híbridos e Sistemas Não-convencionais de Armazenagem de Energia.</descricao>
-    </area_atuacao>
-    <colaboradores>
-        <id_lattes_colaborador>5358286408119219</id_lattes_colaborador>
-        <id_lattes_colaborador>0363088869461060</id_lattes_colaborador>
-        <id_lattes_colaborador>2657777436984803</id_lattes_colaborador>
-        <id_lattes_colaborador>9914528665130445</id_lattes_colaborador>
-        <id_lattes_colaborador>3697495590985027</id_lattes_colaborador>
-        <id_lattes_colaborador>2311772094130419</id_lattes_colaborador>
-    </colaboradores>
-    <artigos_em_periodicos>
-        <artigo>
-          <doi>http://dx.doi.org/10.15628/rbept.2021.10019</doi>
-          <titulo>EDUCAÇÃO FINANCEIRA COMO ESTRATÉGIA NA FORMAÇÃO INTEGRAL DOS ESTUDANTES DA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA</titulo>
-          <autores>GONÇALVES, M. ; NEVES, R. F. C.</autores>
-          <revista>REVISTA BRASILEIRA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA</revista>
-          <volume>REVISTA BRASILEIRA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA</volume>
-          <paginas>e10019</paginas>
-          <numero></numero>
-          <ano>2021</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1140/epjd/e2020-100481-9</doi>
-          <titulo>Electron impact ionization and fragmentation of biofuels</titulo>
-          <autores>LOPES, M. CRISTINA A. ; PIRES, WESLEY A. D. ; NIXON, KATE L. ; AMORIM, RAONY A. A. ; DA SILVA, DANIEL G. M. ; FERNANDES, ANNE C. P. ; GHOSH, SANTUNU ; JONES, DARRYL B. ; CAMPBELL, LAURENCE ; NEVES, RAFAEL F. C. ; DUQUE, HUMBERTO V. ; GARCÍA, GUSTAVO ; BLANCO, FRANCISCO ; BRUNGER, MICHAEL J.</autores>
-          <revista>EUROPEAN PHYSICAL JOURNAL D</revista>
-          <volume>EUROPEAN PHYSICAL JOURNAL D</volume>
-          <paginas>1-11</paginas>
-          <numero></numero>
-          <ano>2020</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1016/j.ijms.2018.03.012</doi>
-          <titulo>Electron impact ionization of 1-butanol: II. Total ionization cross sections and appearance energies</titulo>
-          <autores>GHOSH, S. ; NIXON, K.L. ; PIRES, W.A.D. ; AMORIM, R.A.A. ; NEVES, R.F.C. ; Duque, H.V. ; DA SILVA, D.G.M. ; JONES, D.B. ; BLANCO, F. ; GARCIA, G. ; BRUNGER, M.J. ; LOPES, M.C.A.</autores>
-          <revista>INTERNATIONAL JOURNAL OF MASS SPECTROMETRY</revista>
-          <volume>INTERNATIONAL JOURNAL OF MASS SPECTROMETRY</volume>
-          <paginas>44-51</paginas>
-          <numero></numero>
-          <ano>2018</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1016/j.ijms.2018.03.011</doi>
-          <titulo>Electron Impact Ionization of 1-Butanol: I. Mass Spectra and Partial Ionization Cross Sections</titulo>
-          <autores>PIRES, W.A.D. ; NIXON, K.L. ; GHOSH, S. ; AMORIM, R.A.A. ; NEVES, R.F.C. ; Duque, H.V. ; DA SILVA, D.G.M. ; JONES, D.B. ; BRUNGER, M.J. ; LOPES, M.C.A.</autores>
-          <revista>INTERNATIONAL JOURNAL OF MASS SPECTROMETRY</revista>
-          <volume>INTERNATIONAL JOURNAL OF MASS SPECTROMETRY</volume>
-          <paginas>158-167</paginas>
-          <numero></numero>
-          <ano>2018</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1016/j.ijms.2017.08.005</doi>
-          <titulo>Electron impact ionization of 1-propanol</titulo>
-          <autores>PIRES, W.A.D. ; NIXON, K.L. ; GHOSH, S. ; NEVES, R.F.C. ; Duque, H.V. ; AMORIM, R.A.A. ; JONES, D.B. ; BLANCO, F. ; GARCIA, G. ; BRUNGER, M.J. ; LOPES, M.C.A.</autores>
-          <revista>INTERNATIONAL JOURNAL OF MASS SPECTROMETRY</revista>
-          <volume>INTERNATIONAL JOURNAL OF MASS SPECTROMETRY</volume>
-          <paginas>32-41</paginas>
-          <numero></numero>
-          <ano>2017</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4944616&md5=005e9b659e228f5cba2482e5108c042d</doi>
-          <titulo>The electron-furfural scattering dynamics for 63 energetically open electronic states</titulo>
-          <autores>DA COSTA, ROMARLY F. ; DO N. VARELLA, MÁRCIO T. ; BETTEGA, MÁRCIO H. F. ; NEVES, RAFAEL F. C. ; LOPES, MARIA CRISTINA A. ; BLANCO, FRANCISCO ; GARCÍA, GUSTAVO ; JONES, DARRYL B. ; BRUNGER, MICHAEL J. ; LIMA, MARCO A. P.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>124310</paginas>
-          <numero></numero>
-          <ano>2016</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4944615&md5=fa5829089f97d2473c13341679cb8117</doi>
-          <titulo>Theoretical and experimental differential cross sections for electron impact excitation of the electronic bands of furfural</titulo>
-          <autores>JONES, D. B. ; NEVES, R. F. C. ; LOPES, M. C. A. ; DA COSTA, R. F. ; DO N. VARELLA, M. T. ; BETTEGA, M. H. F. ; LIMA, M. A. P. ; GARCÍA, G. ; LIMÃO-VIEIRA, P. ; BRUNGER, M. J.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>124309</paginas>
-          <numero></numero>
-          <ano>2016</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.ijms.2016.05.006&md5=721cc5b27bb01295f05f71f8b5d3de83</doi>
-          <titulo>Electron impact ionisation and fragmentation of methanol and ethanol</titulo>
-          <autores>NIXON, K.L. ; PIRES, W.A.D. ; NEVES, R.F.C. ; Duque, H.V. ; JONES, D.B. ; BRUNGER, M.J. ; LOPES, M.C.A.</autores>
-          <revista>International Journal of Mass Spectrometry (Print)</revista>
-          <volume>International Journal of Mass Spectrometry (Print)</volume>
-          <paginas>48-59</paginas>
-          <numero></numero>
-          <ano>2016</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4913825&md5=2ff6dd3ceada2d4d7747f669d499651f</doi>
-          <titulo>Differential cross sections for electron impact excitation of the electronic bands of phenol</titulo>
-          <autores>NEVES, R. F. C.; JONES, D. B. ; LOPES, M. C. A. ; NIXON, K. L. ; DA SILVA, G. B. ; DUQUE, H. V. ; DE OLIVEIRA, E. M. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; LIMA, M. A. P. ; RATNAVELU, K. ; GARCÍA, G. ; BRUNGER, M. J.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>104305</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4921038&md5=187c280eca82150e4478adba2ec5f089</doi>
-          <titulo>Intermediate energy electron impact excitation of composite vibrational modes in phenol</titulo>
-          <autores>NEVES, R. F. C.; JONES, D. B. ; LOPES, M. C. A. ; NIXON, K. L. ; DE OLIVEIRA, E. M. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; LIMA, M. A. P. ; DA SILVA, G. B. ; BRUNGER, M. J.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>194302</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4921313&md5=fe31b1496ce662ce3adf6e80576354d0</doi>
-          <titulo>Integral cross sections for electron impact excitation of vibrational and electronic states in phenol</titulo>
-          <autores>NEVES, R. F. C.; JONES, D. B. ; LOPES, M. C. A. ; BLANCO, F. ; GARCÍA, G. ; RATNAVELU, K. ; BRUNGER, M. J.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>194305</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4932603&md5=7f53f8dd2942a6694fe869e2aa6933dd</doi>
-          <titulo>Electronic excitation of furfural as probed by high-resolution vacuum ultraviolet spectroscopy, electron energy loss spectroscopy, and ab initio calculations</titulo>
-          <autores>FERREIRA DA SILVA, F. ; LANGE, E. ; LIMÃO-VIEIRA, P. ; JONES, N. C. ; HOFFMANN, S. V. ; HUBIN-FRANSKIN, M.-J. ; DELWICHE, J. ; BRUNGER, M. J. ; NEVES, R. F. C. ; LOPES, M. C. A. ; DE OLIVEIRA, E. M. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; BLANCO, F. ; GARCÍA, G. ; LIMA, M. A. P. ; JONES, D. B.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>144308</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4936631&md5=3baca9a4e3816041019897ef7b177300</doi>
-          <titulo>Excitation of vibrational quanta in furfural by intermediate-energy electrons</titulo>
-          <autores>JONES, D. B. ; NEVES, R. F. C. ; LOPES, M. C. A. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; LIMA, M. A. P. ; GARCÍA, G. ; BLANCO, F. ; BRUNGER, M. J.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>224304</paginas>
-          <numero></numero>
-          <ano>2015</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4896072&md5=9868fade332536e1df9095873bfe589d</doi>
-          <titulo>Triply differential (e,2e) studies of phenol</titulo>
-          <autores>DA SILVA, G. B. ; NEVES, R. F. C. ; CHIARI, L. ; JONES, D. B. ; ALI, E. ; MADISON, D. H. ; NING, C. G. ; NIXON, K. L. ; LOPES, M. C. A. ; BRUNGER, M. J.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>124307</paginas>
-          <numero></numero>
-          <ano>2014</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4893116&md5=c28dd77f90d153098f75ace6c2ca76aa</doi>
-          <titulo>An experimental and theoretical investigation into the excited electronic states of phenol</titulo>
-          <autores>JONES, D. B. ; DA SILVA, G. B. ; NEVES, R. F. C. ; DUQUE, H. V. ; CHIARI, L. ; DE OLIVEIRA, E. M. ; LOPES, M. C. A. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; LIMA, M. A. P. ; BRUNGER, M. J.</autores>
-          <revista>The Journal of Chemical Physics</revista>
-          <volume>The Journal of Chemical Physics</volume>
-          <paginas>074314</paginas>
-          <numero></numero>
-          <ano>2014</ano>
-        </artigo>
-        <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1742-6596/388/5/052075&md5=aaff7b2ff86ec467703118725789cded</doi>
-          <titulo>Low Energy Electron Scattering from Fuels</titulo>
-          <autores>LOPES, M C A ; SILVA, D G M ; COELHO, R F ; DUQUE, H V ; SANTOS, R R DOS ; RIBEIRO, T M ; YATES, B ; HONG, L ; BETTEGA, M H F ; COSTA, R F DA ; LIMA, M A P ; KHAKOO, M A</autores>
-          <revista>Journal of Physics. Conference Series (Print)</revista>
-          <volume>Journal of Physics. Conference Series (Print)</volume>
-          <paginas>052075</paginas>
-          <numero></numero>
-          <ano>2012</ano>
-        </artigo>
-    </artigos_em_periodicos>
-    <capitulos_livros>
-        <capitulo>
-          <livro></livro>
-          <titulo>Tissue Damage Control Algorithm for Hyperthermia Based Cancer Treatments. Tissue Damage Control Algorithm for Hyperthermia Based Cancer Treatments. 1ªed</titulo>
-          <autores>Fatigate, G. R.; Neves, R. F. C. ; LOBOSCO, M. ; REIS, R. F.</autores>
-          <edicao></edicao>
-          <editora></editora>
-          <volume>13351</volume>
-          <paginas>514</paginas>
-          <ano>2022</ano>
-        </capitulo>
-        <capitulo>
-          <livro>Raquel Aparecida Domingues; Daniel Henrique do Amaral Corrêa. (Org.). Semiconducting Polymers Synthesis and Photophysical Properties. 1ed.CRC Press</livro>
-          <titulo>Photophysical Properties of Polythiophenes</titulo>
-          <autores>FREITAS, Flávio Santos ; NEVES, R.F.C.</autores>
-          <edicao></edicao>
-          <editora></editora>
-          <volume>1</volume>
-          <paginas>1-321</paginas>
-          <ano>2021</ano>
-        </capitulo>
-    </capitulos_livros>
-    <trabalho_completo_congresso>
-        <trabalho_completo>
-          <doi>http://dx.doi.org/10.1007/978-3-031-08754-7_57</doi>
-          <autores>Fatigate, G. R. ; REIS, R. F. ; NEVES, R.F.C.</autores>
-          <titulo>Um Estudo Comparativo de Simulação de Hipertermia com Nanopartículas Magnéticas</titulo>
-          <nome_evento>Encontro Acadêmico de Modelagem Computacional</nome_evento>
-          <ano>2017</ano>
-          <volume>10</volume>
-          <paginas></paginas>
-        </trabalho_completo>
-    </trabalho_completo_congresso>
-    <resumo_expandido_congresso>
-        <resumo_expandido>
-          <doi></doi>
-          <autores>Moreira, J. M. ; SILVA, F.B. ; NEVES, R. F. C.</autores>
-          <titulo>RASTREADOR SOLAR PARA SISTEMA DE CONCENTRAÇÃO POR REFLEXÃO PARA ARMAZENAMENTO DE ENERGIA ELÉTRICA</titulo>
-          <nome_evento>X ornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS, 2018, Muzambinho. Anais da X ornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS</nome_evento>
-          <ano>2018</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </resumo_expandido>
-        <resumo_expandido>
-          <doi></doi>
-          <autores>Fatigate, G. R. ; MAFRA, E. M. ; REIS, R. F. ; NEVES, R. F. C.</autores>
-          <titulo>Hipertermia aplicada em Algoritmo Genético para otimização do tratamento de câncer</titulo>
-          <nome_evento>X ornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS, 2018, Muzambinho. Anais da X ornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS</nome_evento>
-          <ano>2018</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </resumo_expandido>
-        <resumo_expandido>
-          <doi></doi>
-          <autores>SILVA, F.B. ; NEVES, R. F. C.</autores>
-          <titulo>CONVERSÃO DE ENERGIA SOLAR EM ENERGIA ELÉTRICA VIA SISTEMA DE CONCENTRAÇÃO POR REFLEXÃO</titulo>
-          <nome_evento>IX ornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS, 2018, Machado. Anais da IX ornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS</nome_evento>
-          <ano>2017</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </resumo_expandido>
-        <resumo_expandido>
-          <doi></doi>
-          <autores>Fatigate, G. R. ; MAFRA, E. M. ; REIS, R. F. ; NEVES, R.F.C.</autores>
-          <titulo>SIMULAÇÕES NUMÉRICAS DE HIPERTERMIA COM NANOPARTÍCULAS MAGNÉTICAS ATRAVÉS DE MEIO POROSO</titulo>
-          <nome_evento>9ª JORNADA CIENTÍFICA E TECNOLÓGICA E 6º SIMPÓSIO DA PÓS-GRADUAÇÃO DO IFSULDEMINAS,, 2017, MACHADO -MG. 9ª Jornada Científica e Tecnológica e 6º Simpósio da Pós-Graduação do IFSULDEMINAS</nome_evento>
-          <ano>2017</ano>
-          <volume>9</volume>
-          <paginas></paginas>
-        </resumo_expandido>
-        <resumo_expandido>
-          <doi></doi>
-          <autores>MAFRA, E. M. ; Fatigate, G. R. ; NEVES, R. F. C. ; REIS, R. F.</autores>
-          <titulo>Utilização de algorítmo genético para a otimização do tratamento de câncer utilizando hipertermia</titulo>
-          <nome_evento>IX Jornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS, 2017, Machado. Anais da IX Jornada Científica e Tecnológica e 7º Simpósio da Pós-Graduação do IFSULDEMINAS</nome_evento>
-          <ano>2017</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </resumo_expandido>
-    </resumo_expandido_congresso>
-    <resumo_congresso>
-        <resumo>
-          <doi></doi>
-          <autores>LOPES, M C A ; NIXON, K. L. ; SILVA, D. G. M ; AMORIM, R.A.A. ; GOMES, M. ; Fernandes, A.C.P. ; GOSH, S. ; JONES, D. B. ; NEVES, R. F. C. ; DUQUE, H. V. ; GARCÍA, G. ; BLANCO, FRANCISCO ; BRUNGER, M. J.</autores>
-          <titulo>Electron Impact Ionisation and Fragmentation of Biofuels</titulo>
-          <nome_evento>Posmol 2019 XXI International Symposium on Electron-Molecule Collisions and Swarms, 2019, Belgrade, Serbia. http://posmol2019.ipb.ac.rs/_files/Book_POSMOL2019_Online.pdf</nome_evento>
-          <ano>2019</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>COSTA, R. F. ; BETTEGA, M. H. ; DE OLIVEIRA, E. M. ; VARELLA, M. T. DO N. ; NEVES, R. F. C. ; DA SILVA, G. B. ; DUQUE, H. V. ; LOPES, M C A ; JONES, D. B. ; NIXON, KATE L. ; Ratbavelu, K. ; BRUNGER, M. J. ; BLANCO, F. ; Colmenares, R. ; LIMÃO-VIEIRA, P. ; GARCÍA, G. ; LIMA, M. A. P.</autores>
-          <titulo>Electron collisions with phenol: a joint experimental and theoretical investigation</titulo>
-          <nome_evento>XVIII International Workshop on Low-Energy Positron and Positronium Physics & the XIX International Symposium on Electron-Molecule Collisions and Swarms., 2016, Lisboa. POSMOL 2015, 17-20 July 2015, Lisboa, Portugal; http://eventos.fct.unl.pt/posmol2015/</nome_evento>
-          <ano>2015</ano>
-          <volume></volume>
-          <paginas>35</paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>NEVES, R. F. C.; JONES, D. B. ; DA SILVA, G. B. ; DUQUE, H. V. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; DE OLIVEIRA, E. M. ; NIXON, K. L. ; LIMA, M. A. P. ; BRUNGER, M. J.</autores>
-          <titulo>Electron scattering from phenol</titulo>
-          <nome_evento>12th Asia Pacific Conference on Plasma Science and Technology, 2014, Adelaide. Full Conference Proceedings</nome_evento>
-          <ano>2014</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>NEVES, R. F. C.; Duque, H.V. ; SANTOS, R. R. ; LOPES, M. C. A.</autores>
-          <titulo>Espectrômetro de Perda de Energia de Elétrons de Baixíssimas Energias e Alta Resolução</titulo>
-          <nome_evento>XI Workshop em Física Molecular e Espectroscopia, 2013, Feira de Santana. Livro de resumos</nome_evento>
-          <ano>2013</ano>
-          <volume></volume>
-          <paginas>13</paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>DUQUE, H. V. ; NEVES, R. F. C. ; SANTOS, R. R. ; LOPES, M. C. A.</autores>
-          <titulo>Implantação de um espectrômetro de perda de energia de elétrons de baixíssimas energias</titulo>
-          <nome_evento>X Workshop em Física Molecular e Espectroscopia, 2012, Recife. Livro de Resumos</nome_evento>
-          <ano>2012</ano>
-          <volume></volume>
-          <paginas>39</paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>NEVES, R. F. C.; RIBEIRO, T. M. ; SANTOS, R. R. ; LOPES, M. C. A.</autores>
-          <titulo>Caracterização de feixes eletrônicos monoenergéticos de baixíssimas energias</titulo>
-          <nome_evento>IX Workshop em Física Molecular e Espectroscopia, 2011, Vitória - ES. Livro de Resumos do IX Workshop em Física Molecular e Espectroscopia</nome_evento>
-          <ano>2011</ano>
-          <volume></volume>
-          <paginas>98</paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>LOPES, M. C. A. ; SILVA, D. G. M ; NEVES, R. F. C. ; Duque, H.V. ; SANTOS, R. R. ; RIBEIRO, T. M. ; YATES B. ; HONG L. ; BETTEGA, M. H. ; COSTA, R. F. ; KHAKOO, M. A</autores>
-          <titulo>Low Energy Electron Scattering from Fuels</titulo>
-          <nome_evento>XXVII International Conference on Photonic, Electronic and Atomic Collisions, 2011, Belfast. XXVII International Conference on Photonic, Electronic and Atomic Collisions</nome_evento>
-          <ano>2011</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>LOPES, M. C. A. ; SILVA, D. G. M ; NEVES, R. F. C. ; Duque, H.V. ; SANTOS, R. R. ; RIBEIRO, T. M. ; YATES B. ; HONG L. ; BETTEGA, M. H. ; COSTA, R. F. ; LIMA, M. A. P. ; KHAKOO, M. A</autores>
-          <titulo>Low Energy Electron Scattering from Fuels</titulo>
-          <nome_evento>Encontro de Física 2011, 2011, Foz do Iguaçu. Livro de Resumos do Encontro de Física 2011</nome_evento>
-          <ano>2011</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>NEVES, R. F. C.; LOPES, M. C. A. ; SANTOS, R. R. ; RIBEIRO, T. M.</autores>
-          <titulo>Implantação de um espectrômetro de perda de energia de elétrons de baixas energias para estudo de moléculas</titulo>
-          <nome_evento>VIII Workshop em Física Molecular e Espectroscopia, 2010, Curitiba. Livro de Resumos VIII Workshop em Física Molecular e Espectroscopia</nome_evento>
-          <ano>2010</ano>
-          <volume></volume>
-          <paginas>22-22</paginas>
-          <numero></numero>
-        </resumo>
-    </resumo_congresso>
-    <apresentacao_trabalho>
-        <trabalho_apresentado>
-          <titulo>Electron scattering by phenol and furfural: experimental measurements of the cross sections</titulo>
-          <autores>NEVES, R.F.C.; JONES, D. B. ; DUQUE, H. V. ; LOPES, M C A ; BRUNGER, M. J</autores>
-          <ano>2017</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Experimental differential cross sections for electron impact excitation of the electronic bands of furfural</titulo>
-          <autores>NEVES, R.F.C.; JONES, DARRYL B. ; BRUNGER, M. J. ; LOPES, M.C.A.</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Seminário</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Electron scattering by biomolecules from phenol and furfural</titulo>
-          <autores>NEVES, R. F. C.; DUQUE, H. V. ; JONES, D. B. ; BRUNGER, M. J ; LOPES, M.C.A.</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Experimental differential cross sections for electron impact excitation of the electronic bands of furfural</titulo>
-          <autores>NEVES, R. F. C.; JONES, DARRYL B. ; BRUNGER, M. J ; LOPES, M C A</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>The electron-furfural scattering dynamics for 63 energetically open electronic states</titulo>
-          <autores>DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. ; NEVES, R. F. C. ; LOPES, M.C.A. ; BLANCO, F. ; GARCIA, G. ; JONES, D. B. ; BRUNGER, M. J ; LIMA, M. A. P.</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Recent results from studies of electron interactions with lignin sub-units</titulo>
-          <autores>BRUNGER, M. J. ; NEVES, R. F. C. ; DUQUE, H. V. ; LOPES, M C A ; DA SILVA, G. B. ; DE OLIVEIRA, E. M. ; LIMA, M. A. P. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; GARCÍA, G.</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Espalhamento de elétrons por Fenol</titulo>
-          <autores>NEVES, R. F. C.; JONES, D. B. ; CHIARI, L. ; DA SILVA, G. B. ; Duque, H.V. ; NIXON, K. L. ; LOPES, M. C. A. ; BRUNGER, M. J.</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Electron scattering from phenol</titulo>
-          <autores>NEVES, R. F. C.; JONES, D. B. ; CHIARI, L. ; DA SILVA, G. B. ; Duque, H.V. ; NIXON, K. L. ; DA COSTA, R. F. ; VARELLA, M. T. DO N. ; BETTEGA, M. H. F. ; DE OLIVEIRA, E. M. ; LIMA, M. A. P. ; LOPES, M. C. A. ; BRUNGER, M. J.</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Experimental and Theoretical Fully differential cross sections for electron impact ionization of phenol molecules</titulo>
-          <autores>Ali, E. ; JONES, D. B. ; DA SILVA, G. B. ; CHIARI, L. ; NEVES, R. F. C. ; LOPES, M C A ; BRUNGER, M. J. ; NING, C. G. ; MADISON, D. H.</autores>
-          <ano>2014</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Caracterização de Feixes Eletrônicos Monoenergéticos de Baixíssimas Energias</titulo>
-          <autores>NEVES, R. F. C.; Duque, H.V. ; RIBEIRO, T. M. ; SANTOS, R. R. ; LOPES, M. C. A.</autores>
-          <ano>2011</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-    </apresentacao_trabalho>
-    <orientacao_mestrado_em_andamento>
-        <dissertacao>
-          <nome_aluno>Diuliano Vieira da Silva</nome_aluno>
-          <titulo_trabalho>Caracterização de feixe monocromático de elétrons de baixa energia utilizando seletor 127°</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física - UFLA - UFSJ - UNIFAL) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-    </orientacao_mestrado_em_andamento>
-    <orientacao_mestrado_concluido>
-        <dissertacao>
-          <nome_aluno>Eduani de Cássia Souza Teodoro</nome_aluno>
-          <titulo_trabalho>O ensino de empreendedorismo na educação profissional e tecnológica: uma proposta para além do senso comum</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Paulo Humberto Rezende</nome_aluno>
-          <titulo_trabalho>FERRAMENTAS DIGITAIS PARA O ENSINO-APRENDIZAGEM DE TRIGONOMETRIA E ELETROMAGNETISMO NO CURSO TÉCNICO EM ELETROTÉCNICA SUBSEQUENTE</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Marina Gonçalves</nome_aluno>
-          <titulo_trabalho>Educação Financeira como Estratégia na Formação Integral dos Estudantes da Educação Profissional e Tecnológica</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Silvana Camargo de Castro</nome_aluno>
-          <titulo_trabalho>A PARTICIPAÇÃO FEMININA NOS CURSOS INTEGRADOS NO CAMPUS BRAGANÇA PAULISTA DO IFSP: DESAFIOS E AVANÇOS DAS MENINAS NA ÁREA DE EXATAS.</titulo_trabalho>
-          <ano>2018</ano>
-          <instituicao>Dissertação (Mestrado em Mestrado Profissional em Educação Profissional e Tecnológica) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-    </orientacao_mestrado_concluido>
-    <orientacao_especializacao_concluido>
-        <monografia>
-          <nome_aluno>Ezequiel Junio De Lima</nome_aluno>
-          <titulo_trabalho>Método 300 Aplicado na Disciplina de Circuitos Elétricos no IFSULDEMINAS Campus Poços de Caldas: Um Estudo de Caso.</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Especialização em Docência na Educação Profissional e Tecnológica) - Instituto Federal de Educação</instituicao>
-          <agencia_de_fomento>Ciência e Tecnologia do Sul de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Yull Heilordt Henao Roa</nome_aluno>
-          <titulo_trabalho>Geração de energia fotovoltaica dentro do Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais (IFSULDEMINAS) e seus impactos no ensino e na pesquisa da Educação Profissional e Tecnológica (EPT) no campus Poços de Caldas.</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Especialização em Docência na Educação Profissional e Tecnológica) - INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Mateus dos Santos</nome_aluno>
-          <titulo_trabalho>Atividades Remotas no Ensino Técnico Integrado: Análise Quantitativa de Desempenho Acadêmico no 1º Semestre de 2020.</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Especialização em Docência na Educação Profissional e Tecnológica) - INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Douglas Donizeti de Castilho Braz</nome_aluno>
-          <titulo_trabalho>Inteligência Artificial na Educação: Uma Análise sobre as Tecnologias e os Desafios</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Especialização em Docência na Educação Profissional e Tecnológica) - INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Fernando Araujo de Andrade Sobrinho</nome_aluno>
-          <titulo_trabalho>IMPLEMENTAÇÃO DE UM ESPAÇO MAKER COMO ESTRATÉGIA DE APRENDIZAGEM CRIATIVA NO ENSINO INTEGRADO E TÉCNICO</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Especialização em Docência na Educação Profissional e Tecnológica) - INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Max Olinto Moreira</nome_aluno>
-          <titulo_trabalho>AVALIAÇÃO PRÁTICA DE APRENDIZAGEM COMO INSTRUMENTO FORMATIVO NO ENSINO TÉCNICO EM INFORMÁTICA: PERSPECTIVAS E EXPERIÊNCIAS</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Especialização em Docência na Educação Profissional e Tecnológica) - INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Erick Akio Nagata</nome_aluno>
-          <titulo_trabalho>FERRAMENTAS DIGITAIS PARA AUXILIAR NOS CONTEÚDOS DE TRIGONOMETRIA E ELETROMAGNETISMO DO CURSO TÉCNICO EM ELETROTÉCNICA SUBSEQUENTE</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Especialização em Docência na Educação Profissional e Tecnológica) - Instituto Federal de Educação</instituicao>
-          <agencia_de_fomento>Ciência e Tecnologia do Sul de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-    </orientacao_especializacao_concluido>
-    <orientacao_tcc_concluido>
-        <tcc>
-          <nome_aluno>Nádia Nogues de Almeida</nome_aluno>
-          <titulo_trabalho>Software para tratamento de dados de espalhamento de elétrons por alvos gasosos</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Graduação em Engenharia de Computação) - Instituto Federal de Educação</instituicao>
-          <agencia_de_fomento>Ciência e Tecnologia do Sul de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-    </orientacao_tcc_concluido>
-    <orientacao_iniciacao_cientifica_concluido>
-        <iniciacao_cientifica>
-          <nome_aluno>Nádia Nogues de Almeida</nome_aluno>
-          <titulo_trabalho>Coleta e tratamento de dados em experimentos de espalhamento de elétrons por átomos e moléculas para estudo de novas fontes de energia</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>(Graduando em Engenharia de Computação) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Brenda Almeida Cunha</nome_aluno>
-          <titulo_trabalho>Coleta e tratamento de dados em experimentos de espalhamento de elétrons por átomos e moléculas para estudo de novas fontes de energia</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>(Graduando em Engenharia de Computação) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Eliezer Marques Mafra</nome_aluno>
-          <titulo_trabalho>VINCULADO SIMULAÇÕES NUMÉRICAS DE HIPERTERMIA COM NANOPARTÍCULAS MAGNÉTICAS ATRAVÉS DE MEIO POROSO</titulo_trabalho>
-          <ano>2017</ano>
-          <instituicao>(Graduando em Técnico em Informática Integrado ao Ensino Médio) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>GUSTAVO RESENDE FATIGATE</nome_aluno>
-          <titulo_trabalho>SiMULAÇÕES NUMÉRICAS DE HIPERTERMIA COM NANOPARTÍCULAS MAGNÉTICAS ATRAVÉS DE MEIO POROSO</titulo_trabalho>
-          <ano>2017</ano>
-          <instituicao>(Graduando em Engenharia de Computação) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>FELIPE BORGES SILVA. Conversão de Energia Solar Via Sistema de Concentração por Reflexão</nome_aluno>
-          <titulo_trabalho>Comparação de custo com sistema fotovoltaico.</titulo_trabalho>
-          <ano>2017</ano>
-          <instituicao>(Graduando em Engenharia de Computação) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento>INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>Felipe Borges da Silva</nome_aluno>
-          <titulo_trabalho>Conversão de energia solar em energia elétrica via sistema de concentração por refração e reflexão</titulo_trabalho>
-          <ano>2016</ano>
-          <instituicao>(Graduando em Engenharia de Computação) - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</instituicao>
-          <agencia_de_fomento>INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-    </orientacao_iniciacao_cientifica_concluido>
-    <participacao_evento>
-        <evento>
-          <titulo>9ª JORNADA CIENTÍFICA E TECNOLÓGICA E 6º SIMPÓSIO DA PÓS-GRADUAÇÃO DO IFSULDEMINAS,.SiMULAÇÕES NUMÉRICAS DE HIPERTERMIA COM NANOPARTÍCULAS MAGNÉTICAS ATRAVÉS DE MEIO POROSO. 2017. (Simpósio).</titulo>
-          <ano>2017</ano>
-        </evento>
-        <evento>
-          <titulo>INTERNATIONAL CONFERENCE ON PHOTONIC ELECTRONIC AND ATOMIC COLLISIONS. 2017. (Congresso).</titulo>
-          <ano>2017</ano>
-        </evento>
-        <evento>
-          <titulo>POSMOL 2017 - XX International Symposium on Electron-Molecule Collisions and Swarms.Electron scattering by phenol and furfural: experimental measurements of the cross sections. 2017. (Simpósio).</titulo>
-          <ano>2017</ano>
-        </evento>
-        <evento>
-          <titulo>8ª JORNADA CIENTÍFICA E TECNOLÓGICA E 5º SIMPÓSIO DA PÓS-GRADUAÇÃO DO IFSULDEMINAS,. 2016. (Simpósio).</titulo>
-          <ano>2016</ano>
-        </evento>
-        <evento>
-          <titulo>Encontro Nacional de Física da Matéria Condensada. "Electron scattering by phenol and furfural". 2016. (Congresso).</titulo>
-          <ano>2016</ano>
-        </evento>
-        <evento>
-          <titulo>FQAL16 - Físico-Química na América Latina. Electron scattering by biomolecules from biomass. 2016. (Congresso).</titulo>
-          <ano>2016</ano>
-        </evento>
-        <evento>
-          <titulo>XIII Workshop em Física Molecular e Espectroscopia (WFME). Experimental differential cross sections for electron impact excitation of the electronic bands of furfural. 2016. (Congresso).</titulo>
-          <ano>2016</ano>
-        </evento>
-        <evento>
-          <titulo>7ª JORNADA CIENTÍFICA E TECNOLÓGICA E 4º SIMPÓSIO DA PÓS-GRADUAÇÃO DO IFSULDEMINAS,. 2015. (Simpósio).</titulo>
-          <ano>2015</ano>
-        </evento>
-        <evento>
-          <titulo>IX Workshop em Física Molecular e Espectroscopia. Caracterização de Feixes Eletrônicos Monoenergéticos de Baixíssimas Energias. 2011. (Congresso).</titulo>
-          <ano>2011</ano>
-        </evento>
-        <evento>
-          <titulo>VIII Workshop em Física Molecular e Espectroscopia. Implantação de um espectrômetro de perda de energia de elétrons de baixas energias para estudo de moléculas. 2010. (Congresso).</titulo>
-          <ano>2010</ano>
-        </evento>
-    </participacao_evento>
-    <organizacao_evento>
-        <evento>
-          <titulo>III Mostra Científica IFSULDEMINAS CAMPUS POÇOS DE CALDAS</titulo>
-          <natureza>Outro</natureza>
-          <ano>2019</ano>
-        </evento>
-        <evento>
-          <titulo></titulo>
-          <natureza></natureza>
-          <ano>0</ano>
-        </evento>
-        <evento>
-          <titulo>I Mostra Científica IFSULDEMINAS CAMPUS POÇOS DE CALDAS</titulo>
-          <natureza>Outro</natureza>
-          <ano>2017</ano>
-        </evento>
-    </organizacao_evento>
-  </pesquisador>
   <pesquisador id="8073303573679522">
     <identificacao>
       <identificador10></identificador10>
@@ -9721,7 +8731,7 @@
           <ano_inicio>2016</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Gravidade modificada e suas aplicações na cosmologia</nome>
-          <descricao>Descrição: Modificamos a ação de Einstein-Hilbert para incluir termos de derivadas superiores dos tensores de curvatura e suas contrações. Em uma segunda abordagem, consideramos modelos escalares-tensoriais de gravidade modificada, incluindo a proposta de acoplamentos físicos variáveis. Uma terceira categoria de modelos explorados é a alteração das geometria do espaço-tempo subjacente à teoria de gravidade, e.g. tomando a variedade de Lyra. Estudamos os efeitos das três classes de modificações para a física de buracos negros, inflação e setor escuro (matéria escura e energia escura).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) / Doutorado: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Léo Gouvêa Medeiros - Integrante / Cassius Anderson Miquele de Melo - Integrante / Pompeia, P.J. - Integrante / Bruto Max Pimentel Escobar - Integrante / Eduardo Messias de Morais - Integrante / Silas Guida Vilhena - Integrante / Rajendra P. Gupta - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Macronix Research Corporation - Outra. Número de produções C, T & A: 14 / Número de orientações: 1</descricao>
+          <descricao>Descrição: Modificamos a ação de Einstein-Hilbert para incluir termos de derivadas superiores dos tensores de curvatura e suas contrações. Em uma segunda abordagem, consideramos modelos escalares-tensoriais de gravidade modificada, incluindo a proposta de acoplamentos físicos variáveis. Uma terceira categoria de modelos explorados é a alteração das geometria do espaço-tempo subjacente à teoria de gravidade, e.g. tomando a variedade de Lyra. Estudamos os efeitos das três classes de modificações para a física de buracos negros, inflação e setor escuro (matéria escura e energia escura).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) / Doutorado: (1) . Integrantes: Rodrigo Rocha Cuzinatto - Coordenador / Léo Gouvêa Medeiros - Integrante / Cassius Anderson Miquele de Melo - Integrante / Pompeia, P.J. - Integrante / Bruto Max Pimentel Escobar - Integrante / Eduardo Messias de Morais - Integrante / Silas Guida Vilhena - Integrante / Rajendra P. Gupta - Integrante. Financiador(es): Macronix Research Corporation - Outra / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 14 / Número de orientações: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2014</ano_inicio>
@@ -10932,6 +9942,326 @@
           <titulo>Maratona da Via Láctea</titulo>
           <natureza>Outro</natureza>
           <ano>2009</ano>
+        </evento>
+    </organizacao_evento>
+  </pesquisador>
+  <pesquisador id="9972552337847809">
+    <identificacao>
+      <identificador10></identificador10>
+      <nome_inicial>Mariama Rebello de Sousa Dias</nome_inicial>
+      <nome_completo>Mariama Rebello de Sousa Dias</nome_completo>
+      <nome_citacao_bibliografica>Rebello Sousa Dias, M.;Sousa-Dias, M. R.;Rebello de Sousa Dias, Mariama;REBELLO SOUSA DIAS, MARIAMA</nome_citacao_bibliografica>
+      <sexo>Masculino</sexo>
+    </identificacao>
+    <idiomas>
+      <idioma>
+          <nome>Inglês</nome>
+          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
+      </idioma>
+      <idioma>
+          <nome>Espanhol</nome>
+          <proficiencia>Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente.</proficiencia>
+      </idioma>
+      <idioma>
+          <nome>Português</nome>
+          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
+      </idioma>
+      <idioma>
+          <nome>Alemão</nome>
+          <proficiencia>Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco.</proficiencia>
+      </idioma>
+    </idiomas>
+    <endereco>
+      <endereco_profissional>Universidade Federal de São Carlos, Centro de Ciências Exatas e de Tecnologia, Departamento de Física. Rodovia Washington Luís (SP-310), Km 235 Monjolinho 13565-905 - Sao Carlos, SP - Brasil Telefone: (16) 33519750 URL da Homepage: www.nanostructures.df.ufscar.br</endereco_profissional>
+      <endereco_profissional_lat></endereco_profissional_lat>
+      <endereco_profissional_long></endereco_profissional_long>
+    </endereco>
+    <formacao_academica>
+        <formacao>
+          <ano_inicio>2010</ano_inicio>
+          <ano_conclusao>2014</ano_conclusao>
+          <tipo>Doutorado em PROGRAMA DE PÓS-GRADUAÇÃO EM FÍSICA - UFSCar</tipo>
+          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
+          <descricao>com período sanduíche em Ohio University (Orientador: Sergio E. Ulloa). Título: Transport phenomena in quasi-one-dimensional heterostructures, Ano de obtenção: 2014. Orientador: Prof. Dr. Victor Lopez Richard. Coorientador: Prof. Dr. Sergio E. Ulloa. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. Palavras-chave: Electronic Transport; Semiconductor nanostructures. Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada.</descricao>
+        </formacao>
+        <formacao>
+          <ano_inicio>2008</ano_inicio>
+          <ano_conclusao>2010</ano_conclusao>
+          <tipo>Mestrado em Física (Conceito CAPES 4)</tipo>
+          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
+          <descricao>Título: Estudo de efeitos quânticos nas propriedades eletrônicas de nanofios semicondutores, Ano de Obtenção: 2010. Orientador: Prof. Dr. Victor Lopez Richard. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada.</descricao>
+        </formacao>
+        <formacao>
+          <ano_inicio>2008</ano_inicio>
+          <ano_conclusao>2009</ano_conclusao>
+          <tipo>Graduação em Física Licenciatura</tipo>
+          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
+          <descricao>Título: UMA ANÁLISE PRELIMINAR SOBRE A INSERÇÃO DE PRODUTOS TECNOLÓGICOS EM LIVROS DIDÁTICOS DE FÍSICA DO ENSINO MÉDIO. Orientador: Prof. Dr. Nelson Studart Filho.</descricao>
+        </formacao>
+        <formacao>
+          <ano_inicio>2004</ano_inicio>
+          <ano_conclusao>2007</ano_conclusao>
+          <tipo>Graduação em Física Bacharelado</tipo>
+          <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
+          <descricao></descricao>
+        </formacao>
+    </formacao_academica>
+    <area_atuacao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada.</descricao>
+          <descricao>Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem.</descricao>
+    </area_atuacao>
+    <colaboradores>
+        <id_lattes_colaborador>6801067322823031</id_lattes_colaborador>
+        <id_lattes_colaborador>6195223137235452</id_lattes_colaborador>
+        <id_lattes_colaborador>4492188799583104</id_lattes_colaborador>
+        <id_lattes_colaborador>1229528480883598</id_lattes_colaborador>
+        <id_lattes_colaborador>0292219410310800</id_lattes_colaborador>
+        <id_lattes_colaborador>5393599427764197</id_lattes_colaborador>
+        <id_lattes_colaborador>6643474871838788</id_lattes_colaborador>
+        <id_lattes_colaborador>7399282458509025</id_lattes_colaborador>
+        <id_lattes_colaborador>9972552337847809</id_lattes_colaborador>
+    </colaboradores>
+    <artigos_em_periodicos>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/acsnano.5b01831&md5=3e9a8a23df013de0a963bf2d45f2dd80</doi>
+          <titulo>Nanothermometer Based on Resonant Tunneling Diodes: From Cryogenic to Room Temperatures</titulo>
+          <autores>PFENNING, ANDREAS ; HARTMANN, FABIAN ; REBELLO SOUSA DIAS, MARIAMA ; Castelano, Leonardo Kleber ; SÜ MEIER, CHRISTOPH ; LANGER, FABIAN ; HÖFLING, SVEN ; KAMP, MARTIN ; Marques, Gilmar Eugenio ; WORSCHECH, LUKAS ; Lopez-Richard, Victor</autores>
+          <revista>ACS Nano</revista>
+          <volume>ACS Nano</volume>
+          <paginas>6271-6277</paginas>
+          <numero></numero>
+          <ano>2015</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4929424&md5=ca136036a549fbc109bcf1c161f4e1be</doi>
+          <titulo>Photocurrent-voltage relation of resonant tunneling diode photodetectors</titulo>
+          <autores>PFENNING, ANDREAS ; HARTMANN, FABIAN ; REBELLO SOUSA DIAS, M. ; LANGER, FABIAN ; KAMP, MARTIN ; CASTELANO, L. K. ; Lopez-Richard, Victor ; MARQUES, G. E. ; HÖFLING, SVEN ; WORSCHECH, LUKAS</autores>
+          <revista>Applied Physics Letters</revista>
+          <volume>Applied Physics Letters</volume>
+          <paginas>081104</paginas>
+          <numero></numero>
+          <ano>2015</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1209/0295-5075/106/17002&md5=98dd97b0f0b359df44dc5798e426f134</doi>
+          <titulo>Spin filtering in nanowire directional coupler</titulo>
+          <autores>Rebello Sousa Dias, M.; LOPEZ-RICHARD, V. ; MARQUES, G. E. ; ULLOA, S. E.</autores>
+          <revista>Europhysics Letters (Print)</revista>
+          <volume>Europhysics Letters (Print)</volume>
+          <paginas>17002</paginas>
+          <numero></numero>
+          <ano>2014</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.4804324&md5=afcc1f010493e55a8d4a199d57fafeb6</doi>
+          <titulo>Electron transport in quantum dot chains: Dimensionality effects and hopping conductance</titulo>
+          <autores>KUNETS, V. P. ; Rebello Sousa Dias, M. ; REMBERT, T. ; WARE, M. E. ; MAZUR, Y. I. ; Lopez-Richard, Victor ; MANTOOTH, H. A. ; MARQUES, G. E. ; SALAMO, G. J.</autores>
+          <revista>Journal of Applied Physics</revista>
+          <volume>Journal of Applied Physics</volume>
+          <paginas>183709</paginas>
+          <numero></numero>
+          <ano>2013</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1063/1.4764902</doi>
+          <titulo>Tuning hole mobility in InP nanowires</titulo>
+          <autores>Rebello Sousa Dias, M.; PICININ, A. ; LOPEZ-RICHARD, V. ; ULLOA, S. E. ; CASTELANO, L. K. ; RINO, J. P. ; MARQUES, G. E.</autores>
+          <revista>Applied Physics Letters</revista>
+          <volume>Applied Physics Letters</volume>
+          <paginas>182104</paginas>
+          <numero></numero>
+          <ano>2012</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/nn2008589&md5=ec7e53b76c787d0d5e7c78a5bc51f034</doi>
+          <titulo>Tailoring Electronic Transparency of Twin-Plane 1D Superlattices</titulo>
+          <autores>Tsuzuki, Helio ; Cesar, Daniel Ferreira ; Rebello de Sousa Dias, Mariama ; Castelano, Leonardo Kleber ; Lopez-Richard, Victor ; Rino, Jose Pedro ; Marques, Gilmar Eugenio</autores>
+          <revista>ACS Nano</revista>
+          <volume>ACS Nano</volume>
+          <paginas>110612104052088</paginas>
+          <numero></numero>
+          <ano>2011</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevb.79.155306&md5=0481bb69fffc13d77d01a45b55198e21</doi>
+          <titulo>Spin-polarizarion in quantum wires: Influence of Dresselhaus spin-orbit interacton and cross-section effects</titulo>
+          <autores>VILLEGAS-LELOVSKY, L. ; TRALLERO-GINER, C. ; Rebello Sousa Dias, M. ; LOPEZ-RICHARD, V. ; MARQUES, G. E.</autores>
+          <revista>Physical Review. B, Condensed Matter and Materials Physics</revista>
+          <volume>Physical Review. B, Condensed Matter and Materials Physics</volume>
+          <paginas>155306</paginas>
+          <numero></numero>
+          <ano>2009</ano>
+        </artigo>
+        <artigo>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1021/nl9012024&md5=eb28421ee792a0ef608eec636f5a9fe2</doi>
+          <titulo>Markovian and Non-Markovian Light-Emission Channels in Strained Quantum Wires</titulo>
+          <autores>LOPEZ-RICHARD, V. ; GONZALES, J. C. ; MATINAGA, F. M. ; TRALLERO-GINER, C. ; RIBEIRO, E. ; Rebello Sousa Dias, M. ; VILLEGAS-LELOVSKY, L. ; MARQUES, G. E.</autores>
+          <revista>Nano Letters</revista>
+          <volume>Nano Letters</volume>
+          <paginas>3129-3136</paginas>
+          <numero></numero>
+          <ano>2009</ano>
+        </artigo>
+    </artigos_em_periodicos>
+    <trabalho_completo_congresso>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>Rebello Sousa Dias, M.; COIMBRA, D. ; LINDINO, T. C.</autores>
+          <titulo>Um estudo exploratório sobre as crenças epistemológicas de ingressantes do ensino superior</titulo>
+          <nome_evento>X Encontro de Pesquisa em Ensino de Física</nome_evento>
+          <ano>2006</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+    </trabalho_completo_congresso>
+    <resumo_congresso>
+        <resumo>
+          <doi></doi>
+          <autores>Rebello Sousa Dias, M.; LOPES, E. M. ; HIDALGO, A. A. ; COIMBRA, D.</autores>
+          <titulo>MOLECULAR DYNAMICS SIMULATION OF DIPALMITOYLPHOSPHATIDYLCHOLINE LIPID MONOLAYERS</titulo>
+          <nome_evento>XXIX Encontro Nacional de Física da Matéria Condensada, 2006, São Lourenço. Anaias do ENFMC</nome_evento>
+          <ano>2006</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </resumo>
+    </resumo_congresso>
+    <apresentacao_trabalho>
+        <trabalho_apresentado>
+          <titulo>Estudo de fenômenos óticos e de transporte em nano-dispositivos semicondutores: caracterização e aplicação</titulo>
+          <autores>Rebello Sousa Dias, M</autores>
+          <ano>2015</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Transport phenomena in quasi-one-dimensional heterostructures</titulo>
+          <autores>Rebello Sousa Dias, M</autores>
+          <ano>2014</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Electronic and transport phenomena in semiconductor nanostructures</titulo>
+          <autores>Rebello Sousa Dias, M</autores>
+          <ano>2014</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Transport phenomena in quasi-one-dimensional heterostructures</titulo>
+          <autores>Rebello Sousa Dias, M</autores>
+          <ano>2014</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Hole mobility in semiconductor nanowires: temperature and strain effects</titulo>
+          <autores>Rebello Sousa Dias, M.; LOPEZ-RICHARD, V. ; MARQUES, G. E.</autores>
+          <ano>2011</ano>
+          <natureza>Apresentação de Trabalho/Seminário</natureza>
+        </trabalho_apresentado>
+    </apresentacao_trabalho>
+    <participacao_evento>
+        <evento>
+          <titulo>17º Brazilian Workshop on Semiconductor Physics. Dresselhaus spin orbit effects on transport properties of polytypic nanowires. 2015. (Congresso).</titulo>
+          <ano>2015</ano>
+        </evento>
+        <evento>
+          <titulo>APS March Meeting.Spin transport on parallel coupled nanowires with Rashba spin-orbit interaction. 2014. (Encontro).</titulo>
+          <ano>2014</ano>
+        </evento>
+        <evento>
+          <titulo>International sustainability Days "Euro-Ibsa".Semiconductor nanostructures: fundamental and applied research aiming an efficient technology.. 2014. (Encontro).</titulo>
+          <ano>2014</ano>
+        </evento>
+        <evento>
+          <titulo>Kick-off Meeting - HelmHoltz Virtual Institute. 2013. (Encontro).</titulo>
+          <ano>2013</ano>
+        </evento>
+        <evento>
+          <titulo>Topology and Nonequilibrium in Low-Dimensional Electronic Systems.Spin transport properties of parallel coupled nano-wires. 2013. (Outra).</titulo>
+          <ano>2013</ano>
+        </evento>
+        <evento>
+          <titulo>APS March Meeting. Tuning the hole mobility in InP semiconductor nanowires. 2012. (Congresso).</titulo>
+          <ano>2012</ano>
+        </evento>
+        <evento>
+          <titulo>International Conference on Superlattices, Nanostructures and Nanodevices. Electronic Transparency Tuning of Twin-Plane 1D Superlattices by Strain Fields. 2012. (Congresso).</titulo>
+          <ano>2012</ano>
+        </evento>
+        <evento>
+          <titulo>International Conference on the Physics of Semiconductors. Tuning the hole mobility in InP semiconductor nanowires. 2012. (Congresso).</titulo>
+          <ano>2012</ano>
+        </evento>
+        <evento>
+          <titulo>International Conference on the Physics of Semiconductors. Electronic Transparency Tuning of Twin-Plane 1D Superlattices by Strain Fields. 2012. (Congresso).</titulo>
+          <ano>2012</ano>
+        </evento>
+        <evento>
+          <titulo>NEWSPIN2 - International Winter School and Workshop. 2011. (Outra).</titulo>
+          <ano>2011</ano>
+        </evento>
+        <evento>
+          <titulo>I Encontro Nacional da Rede Nacional de Nanobiotecnologia Aplicada à Defesa.Quantum effects in electronic properties of semiconductor nanowires. 2010. (Encontro).</titulo>
+          <ano>2010</ano>
+        </evento>
+        <evento>
+          <titulo>XII J. J. Giambiagi Winter School.Quantum effects in electronic properties of semiconductor nanowires. 2010. (Outra).</titulo>
+          <ano>2010</ano>
+        </evento>
+        <evento>
+          <titulo>V Semana da Física.Formei, o que fazer?. 2009. (Outra).</titulo>
+          <ano>2009</ano>
+        </evento>
+        <evento>
+          <titulo>XIV Brazilian Workshop on Semiconductor Physics. Strain induced optical channels with Markov and non-Markovian natures in semiconductor quantum wires. 2009. (Congresso).</titulo>
+          <ano>2009</ano>
+        </evento>
+        <evento>
+          <titulo>I Escola de Física Computacional Moderna. 2006. (Outra).</titulo>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>II Semana de Física - UFSCar - Mini-curso Spintrônica. 2006. (Outra).</titulo>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>XIV Congresso de Iniciação Cientifica - UFSCar - Mini-curso Computabilidade. 2006. (Congresso).</titulo>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>XVI Congresso de Iniciação Cientifica. Simulação Computacional do Dipalmitoilfosfatidilcolina (DPPC) e sua Interação com Fármaco via Dinâmica Molecular. 2006. (Congresso).</titulo>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>XXIX Encontro Nacional de Física da Matéria Condensada.Molecular Dynamics Simulation of Dipalmitoyilphosphatidylcholine Lipid Monolayers. 2006. (Encontro).</titulo>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>I Semana de Física - UFSCar - Mini-curso Óptica: Lasers e suas aplicações. 2005. (Outra).</titulo>
+          <ano>2005</ano>
+        </evento>
+        <evento>
+          <titulo>I Semana de Física - UFSCar - Mini-curso Relatividade-A Cosmologia do Início do Universo. 2005. (Outra).</titulo>
+          <ano>2005</ano>
+        </evento>
+        <evento>
+          <titulo>Brazilian Young Physicist´s Tournamente. 2004. (Outra).</titulo>
+          <ano>2004</ano>
+        </evento>
+        <evento>
+          <titulo>XIX INTERNATIONAL CONFERENCE ON ATOMIC PHYSICS. 2004. (Simpósio).</titulo>
+          <ano>2004</ano>
+        </evento>
+    </participacao_evento>
+    <organizacao_evento>
+        <evento>
+          <titulo>II Semana de Física</titulo>
+          <natureza>Outro</natureza>
+          <ano>2006</ano>
+        </evento>
+        <evento>
+          <titulo>I Semana de Física</titulo>
+          <natureza>Outro</natureza>
+          <ano>2005</ano>
         </evento>
     </organizacao_evento>
   </pesquisador>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="15/05/2023 11:28:17">
+<curriculo_lattes data_processamento="30/06/2023 10:14:19">
   <pesquisador id="2363460036599181">
     <identificacao>
       <identificador10></identificador10>
@@ -768,7 +768,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.14488/1676-1901.v10i4.520</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.14488/1676-1901.v10i4.520&md5=090b568b8f11d11aaf7348ba4d3ab4bb</doi>
           <titulo>Modelos de referência para desenvolvimento de produtos: classificação, análise e sugestões para pesquisas futuras</titulo>
           <autores>SALGADO, E. G.; Salomon, V.A.P. ; MELLO, C. H. P. ; Fass, F. D. M. ; XAVIER, A. F.</autores>
           <revista>Revista Produção Online</revista>
@@ -788,7 +788,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1590/S0104-530X2009000300003</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1590/s0104-530x2009000300003&md5=7a56994940b85b78f723f2681bc1846c</doi>
           <titulo>Análise da aplicação do mapeamento do fluxo de valor no processo de desenvolvimento de produtos.</titulo>
           <autores>SALGADO, E. G.; MELLO, C. H. P. ; Silva, C. E. S. ; Oliveira, E.S. ; ALMEIDA, D. A.</autores>
           <revista>Gestão & Produção (UFSCAR. Impresso)</revista>
@@ -2579,94 +2579,6 @@
           <ano>1994</ano>
         </evento>
     </participacao_evento>
-  </pesquisador>
-  <pesquisador id="8889388173781632">
-    <identificacao>
-      <identificador10></identificador10>
-      <nome_inicial>Fellipe Guilherme Rey de Souza</nome_inicial>
-      <nome_completo>Fellipe Guilherme Rey de Souza</nome_completo>
-      <nome_citacao_bibliografica>SOUZA, F. G. R.;SOUZA, FELLIPE G.R.;DE SOUZA, FELLIPE GUILHERME REY</nome_citacao_bibliografica>
-      <sexo>Masculino</sexo>
-    </identificacao>
-    <idiomas>
-      <idioma>
-          <nome>Inglês</nome>
-          <proficiencia>Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.</proficiencia>
-      </idioma>
-    </idiomas>
-    <endereco>
-      <endereco_profissional></endereco_profissional>
-      <endereco_profissional_lat></endereco_profissional_lat>
-      <endereco_profissional_long></endereco_profissional_long>
-    </endereco>
-    <formacao_academica>
-        <formacao>
-          <ano_inicio>2017</ano_inicio>
-          <ano_conclusao>2022</ano_conclusao>
-          <tipo>Doutorado em Engenharia Eletrônica e Computação (Conceito CAPES 4)</tipo>
-          <nome_instituicao>Instituto Tecnológico de Aeronáutica, ITA, Brasil</nome_instituicao>
-          <descricao>Título: Synthesis of a controller model for safety assessment, Ano de obtenção: 2022. Orientador: Celso Massaki Hirata. Coorientador: Simin Nadjm-Tehrani. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: STPA; Modelagem SysML; Síntese; Algoritmo de Controle; Controlador.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2015</ano_inicio>
-          <ano_conclusao>2017</ano_conclusao>
-          <tipo>Mestrado em Engenharia Eletrônica e Computação (Conceito CAPES 4)</tipo>
-          <nome_instituicao>Instituto Tecnológico de Aeronáutica, ITA, Brasil</nome_instituicao>
-          <descricao>Título: An approach to aid automation of STPA Step 2 O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2018. Orientador: Celso Massaki Hirata. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: STPA.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>2010</ano_inicio>
-          <ano_conclusao>2014</ano_conclusao>
-          <tipo>Graduação em Ciência da Computação</tipo>
-          <nome_instituicao>Universidade Federal de Alfenas, UNIFAL/MG, Brasil</nome_instituicao>
-          <descricao>Título: Enactment de Processos de Desenvolvimento de Software Modelados com EPF-Composer no Microsoft Project. Orientador: Rodrigo Martins Pagliares.</descricao>
-        </formacao>
-    </formacao_academica>
-    <colaboradores>
-        <id_lattes_colaborador>8889388173781632</id_lattes_colaborador>
-    </colaboradores>
-    <artigos_em_periodicos>
-        <artigo>
-          <doi>http://dx.doi.org/10.1109/access.2022.3192436</doi>
-          <titulo>Synthesis of a controller algorithm for safety-critical systems</titulo>
-          <autores>DE SOUZA, FELLIPE GUILHERME REY; HIRATA, CELSO MASSAKI ; NADJM-TEHRANI, SIMIN</autores>
-          <revista>IEEE Access</revista>
-          <volume>IEEE Access</volume>
-          <paginas>1-1</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1051/matecconf/201927302010</doi>
-          <titulo>WebSTAMP: a Web Application for STPA</titulo>
-          <autores>SOUZA, FELLIPE G.R.; PAGLIARES, RODRIGO M. ; NADJM-TEHRANI, SIMIN ; HIRATA, CELSO M.</autores>
-          <revista>MATEC WEB OF CONFERENCES</revista>
-          <volume>MATEC WEB OF CONFERENCES</volume>
-          <paginas>02010</paginas>
-          <numero></numero>
-          <ano>2019</ano>
-        </artigo>
-    </artigos_em_periodicos>
-    <trabalho_completo_congresso>
-        <trabalho_completo>
-          <doi>http://dx.doi.org/10.1109/SysCon47679.2020.9275867</doi>
-          <autores>DE SOUZA, FELLIPE GUILHERME REY; DE MELO BEZERRA, JULIANA ; HIRATA, CELSO MASSAKI ; DE SAQUI-SANNES, PIERRE ; APVRILLE, LUDOVIC</autores>
-          <titulo>Combining STPA with SysML Modeling</titulo>
-          <nome_evento>2020 IEEE International Systems Conference (SysCon)</nome_evento>
-          <ano>2020</ano>
-          <volume></volume>
-          <paginas>1</paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>SOUZA, F. G. R.; PEREIRA, DANIEL P. ; PAGLIARES, RODRIGO M. ; NADJM-TEHRANI, SIMIN ; HIRATA, C. M.</autores>
-          <titulo>WebSTAMP: A web application for STPA & STPA?Sec. 2018. (Curso de curta duração ministrado/Outra)</titulo>
-          <nome_evento></nome_evento>
-          <ano>0</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-    </trabalho_completo_congresso>
   </pesquisador>
   <pesquisador id="1310310705488241">
     <identificacao>
@@ -4476,6 +4388,838 @@
         </evento>
     </organizacao_evento>
   </pesquisador>
+  <pesquisador id="9975041225831602">
+    <identificacao>
+      <identificador10></identificador10>
+      <nome_inicial>Iago Augusto de Carvalho</nome_inicial>
+      <nome_completo>Iago Augusto de Carvalho</nome_completo>
+      <nome_citacao_bibliografica>CARVALHO, I. A.;Carvalho, I. A.;AUGUSTO DE CARVALHO, IAGO;Augusto de Carvalho, Iago;de Carvalho, Iago Augusto;Carvalho, Iago Augusto;CARVALHO, IAGO A.;AUGUSTO CARVALHO, IAGO</nome_citacao_bibliografica>
+      <sexo>Masculino</sexo>
+    </identificacao>
+    <idiomas>
+      <idioma>
+          <nome>Inglês</nome>
+          <proficiencia>Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</proficiencia>
+      </idioma>
+      <idioma>
+          <nome>Espanhol</nome>
+          <proficiencia>Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco.</proficiencia>
+      </idioma>
+    </idiomas>
+    <endereco>
+      <endereco_profissional>Universidade Federal de Alfenas, Departamento de Ciência da Computação. Avenida Jovino Fernandes Salles, 2600 Santa Clara 37133840 - Alfenas, MG - Brasil Telefone: (35) 37011805 URL da Homepage: https://iagoac.github.io/</endereco_profissional>
+      <endereco_profissional_lat></endereco_profissional_lat>
+      <endereco_profissional_long></endereco_profissional_long>
+    </endereco>
+    <formacao_academica>
+        <formacao>
+          <ano_inicio>2016</ano_inicio>
+          <ano_conclusao>2020</ano_conclusao>
+          <tipo>Doutorado em Ciências da Computação (Conceito CAPES 7)</tipo>
+          <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
+          <descricao>com período sanduíche em Université Clermont Auvergne (Orientador: Christophe Duhamel). Título: The Minmax regret 0-1 Integer Linear Programming Problem under Interval Uncertainty: Complexity and Heuristics O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2020. Orientador: Thiago Ferreira de Noronha. Coorientador: Christophe Duhamel. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Otimização Robusta; Heurísticas; Programação Matemática. Grande área: Ciências Exatas e da Terra Grande Área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional / Especialidade: Programação Linear, Não-Linear, Mista e Dinâmica. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Análise de Algoritmos e Complexidade de Computação. Setores de atividade: Pesquisa e desenvolvimento científico.</descricao>
+        </formacao>
+        <formacao>
+          <ano_inicio>2014</ano_inicio>
+          <ano_conclusao>2016</ano_conclusao>
+          <tipo>Mestrado em Ciências da Computação (Conceito CAPES 7)</tipo>
+          <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
+          <descricao>Título: The Robust Shortest Path Tree: formulations and algorithms, Ano de Obtenção: 2016. Orientador: Thiago Ferreira de Noronha. Coorientador: Luiz Filipe Menezes Vieira. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Otimização Robusta; Internet das Coisas; Programação Matemática; Heurísticas. Grande área: Ciências Exatas e da Terra Grande Área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional / Especialidade: Programação Linear, Não-Linear, Mista e Dinâmica.</descricao>
+        </formacao>
+        <formacao>
+          <ano_inicio>2010</ano_inicio>
+          <ano_conclusao>2013</ano_conclusao>
+          <tipo>Graduação em Ciência da Computação</tipo>
+          <nome_instituicao>Universidade Federal de São João Del-Rei, UFSJ, Brasil</nome_instituicao>
+          <descricao>Título: Comparação de Algoritmos Evolutivos para o Ajuste de Histórico na Engenharia de Reservatórios. Orientador: Carolina Ribeiro Xavier.</descricao>
+        </formacao>
+    </formacao_academica>
+    <projetos_pesquisa>
+        <projeto>
+          <ano_inicio>2022</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Problemas de otimização em grafos com arestas rotuladas</nome>
+          <descricao>Descrição: Seja G = (V, E, L) um grafo, onde V representa um conjunto de vértices, E exprime um conjunto de arestas e L corresponde a um conjunto de rótulos. Toda aresta é associada a um peso positivo e a um rótulo de L. Problemas de otimização definidos em grafos como o acima representado encontram diversas aplicações em redes de computadores. Neste contexto, os diferentes rótulos são utilizados como mecanismos de segurança e proteção contra falhas. Muitos problemas de otimização em grafos com arestas rotuladas já foram propostos na literatura, como o problema do Caminho Mínimo com Arestas Rotuladas, o problema da Árvore Geradora Mínima com Arestas Rotuladas ou o problema da Árvore de Steiner com Arestas Rotuladas. O objetivo deste projeto de pesquisa é continuar o estudo desta classe de problemas, propondo algoritmos exatos e heurísticos que podem ser utilizados para resolver qualquer problema com estas características. Além disso, também é objetivo deste projeto propor novos problemas desta classe, com aplicações claras no contexto de redes de computadores, e estudar variações dos problemas já propostos, considerando múltiplos objetivos ou incertezas associadas as arestas dos grafos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Iago Augusto de Carvalho - Coordenador / Thiago Oliveira da Silva - Integrante.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2021</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Problemas de monitoramento e conectividade em redes de sensores sem fio</nome>
+          <descricao>Descrição: Uma rede de sensores sem fio (WSN, do inglês Wireless Sensor Networks) é uma rede que utiliza sensores sem fio como blocos de construção. Estas redes possuem aplicações em diversas áreas, como na agricultura, no monitoramento ambiental e na detecção de ameaças, dentre outras. Uma WSN eficiente precisa ter um bom monitoramento da área especificada e deve ser capaz de transmitir os dados coletados para uma estação base remota equipada com dispositivos de maior poder computacional. Estes objetivos devem ser alcançados utilizando-se a menor quantidade de energia possível, o que está relacionado ao número de sensores utilizados. Este projeto de pesquisa tem como objetivo estudar, modelar e resolver problemas com tais peculiaridades, onde uma WSN deve ser implementada e deseja-se minimizar o curso de instalação da rede. Em especial, deseja-se investigar problemas onde uma WSN é utilizada para monitorar um conjunto de pontos de interesse fixos no ambiente. Serão investigados uma série de algoritmos para estes problemas, sendo desenvolvidas técnicas genéricas para resolver diversos problemas desta classe, bem como algoritmos ad-hoc para casos particulares de problemas de instalação de redes WSN para o monitoramento de um conjunto de pontos de interesse.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) . Integrantes: Iago Augusto de Carvalho - Coordenador / Thiago Ferreira de Noronha - Integrante / José Ferreira Reis Fonseca - Integrante.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2020</ano_inicio>
+          <ano_conclusao>2021</ano_conclusao>
+          <nome>Incerteza em problemas de roteamento dinâmico de veículos: Modelos, Métodos e Aplicações</nome>
+          <descricao>Descrição: Na futura economia circular, o movimento de matérias-primas, produtos, resíduos para reciclagem e recursos produtivos são requisitos chave na globalização. As operações logísticas representam até 35% dos custos totais, com perspetivas de crescimento. Assim, uma gestão e planeamento ótimo das operações logísticas podem determinar a competitividade da indústria. A logística influencia também a sustentabilidade das cadeias de abastecimento e condiciona o dimensionamento, projeto, utilização e manutenção das infraestruturas das futuras cidades. Sistemas logísticos inteligentes tem sido desenvolvidos de forma a apoiar na concretização dos requisitos de transporte ao mínimo custo. Contudo, no âmbito da Indústria 4.0, uma grande quantidade de informação ficará disponível (perto do tempo real) através da integração de sensores, e tecnologias semelhantes, nos veículos e cargas. Neste contexto, o projeto pretende investigar métodos avaçados de otimização para o planeamento flexível do transporte, cujos modelos incluem incerteza e adaptação dinâmica à informação "just-in-time", e ainda outros aspetos da economia circular (impacto ecológico, reciclagem). O foco desta investigação serão os problemas dinâmicos de roteamento de veículos, uma variante do problema tradicional de roteamento de veículos, onde é possível reajustar rotas ao longo do tempo. Fazendo uso da informação "just-in-time" para reajustar dinamicamente rotas pode resultar em economias significativas nos custos e, ao mesmo tempo, atender melhor aos requisitos dos clientes. Este problema tem diversas aplicações, desde os serviços de emergência até aos de entrega, podendo melhorar significativamente os problemas de roteamento com incerteza. O problema dinâmico de roteamento de veículos é relativamente novo e as recentes revisões na literatura apontam alguns aspetos do problema que devem ser alvo de exploração. Assim, o projeto pretende colmatar as lacunas encontradas, focando 4 linhas de atuação. A primeira é padronizar a pesquisa em termos de taxonomia, aplicações, variantes, abordagens, instâncias e benchmark, sistematizando as abordagens existentes para um planeamento eco-eficiente. A segunda é estudar formas de incorporar a incerteza no problema, nomeadamente através de técnicas de otimização robusta para optimização a priori. A terceira é desenvolver técnicas de solução eficientes para resolver o problema de forma mais tratável, com vista a futura incorporação dos resultados anteriores em ferramentas de apoio a decisão e integração com sensores e outras tecnologias da Indústria 4.0. Este aspecto é crucial para desenvolver os futuros sistemas de transporte para futuras aplicações em casos reais. A última é aplicar os modelos e métodos propostos de forma a validar os benefícios decorrentes da sua aplicação numa empresa retalhista de comercio eletrônico em Portugal.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Iago Augusto de Carvalho - Integrante / Flávio Keidi Miyazawa - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio financeiro. Número de produções C, T & A: 1</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2017</ano_inicio>
+          <ano_conclusao>2017</ano_conclusao>
+          <nome>Robust-RPL: amélioration de la robustesse du protocole RPL</nome>
+          <descricao>Descrição: Le protocole RPL permet le routage des informations dans les réseaux de type 6LoWPAN connectant entre eux des objets à faibles ressources (batterie, calcul, mémoire, etc.). RPL repose sur le calcul initial d?un graphe de communication qui ne prend pas directement en compte la variabilité de la qualité des liens. Nous proposons d?intégrer cette variabilité en décrivant la qualité d?un lien comme une variable aléatoire dans un intervalle. Le problème consiste alors à rechercher un graphe de communication qui soit le plus robuste possible aux variationsau sens du critère min-max. En adaptant l?heuristique AMU, nous obtenons une solution avec garantie de performance sur la robustesse. Cette heuristique offre aussi l?avantage d?être peu coûteuse en temps de calcul. La solution obtenue sera ensuite optimisée à l?aide une recherche locale pour améliorer encore sa robustesse. La seconde étape du projet consistera alors à proposer Robust-RPL, une extension de RPL à la robustesse. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (1) . Integrantes: Iago Augusto de Carvalho - Integrante / Thiago Ferreira de Noronha - Integrante / Andréa Cynthia Santos - Integrante / Chistophe Duhamel - Coordenador. Financiador(es): Centre National de la Recherche Scientifique - Auxílio financeiro. Número de produções C, T & A: 6</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2014</ano_inicio>
+          <ano_conclusao>2019</ano_conclusao>
+          <nome>PIFRO - Algoritmos para o Problema de Instalação de Fibras em Redes Óticas</nome>
+          <descricao>Descrição: Este projeto trata um problema de roteamento em redes de fibra ótica conhecido como Problema de Instalação de Fibras em Redes Óticas (PIFRO). Neste problema, deve-se rotear o conjunto de caminhos óticos de forma a minimizar o custo total dos dispositivos óticos necessários para a operação da rede. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (2) . Integrantes: Iago Augusto de Carvalho - Integrante / Thiago Ferreira de Noronha - Coordenador / Ricardo Martins de Abreu Silva - Integrante / Sérgio Ricardo de Souza - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 2</descricao>
+        </projeto>
+    </projetos_pesquisa>
+    <area_atuacao>
+          <descricao>Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional/Especialidade: Programação Linear, Não-Linear, Mista e Dinâmica.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Heurísticas e Metaheurísticas.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Matemática Discreta e Combinatória.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Análise de Algoritmos e Complexidade de Computação.</descricao>
+          <descricao>Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Otimização Robusta.</descricao>
+    </area_atuacao>
+    <premios_titulos>
+        <premio_titulo>
+          <ano>2018</ano>
+          <descricao>Melhor artigo apresentado no 31st Symposium on Integrated Circuits and Systems Design (SBCCI 2018), SBC; IEEE.</descricao>
+        </premio_titulo>
+        <premio_titulo>
+          <ano>2017</ano>
+          <descricao>2º melhor projeto apresentado no III Curso de Verão de Engenharia de Máquinas Biológicas, Instituto de Ciências Biológicas, Universidade Federal de Minas Gerais.</descricao>
+        </premio_titulo>
+        <premio_titulo>
+          <ano>2012</ano>
+          <descricao>2º lugar no Pitch de Negócios Sociais, Junior Enterprise World Conference, Choice Negócios Sociais.</descricao>
+        </premio_titulo>
+        <premio_titulo>
+          <ano>2009</ano>
+          <descricao>Menção Honrosa na V Olímpiada Brasileira de Matemática de Escolas Públicas, Instituto Nacional de Matemática Pura e Aplicada.</descricao>
+        </premio_titulo>
+        <premio_titulo>
+          <ano>2008</ano>
+          <descricao>Menção Honrosa na IV Olímpiada Brasileira de Matemática de Escolas Públicas, Instituto Nacional de Matemática Pura e Aplicada.</descricao>
+        </premio_titulo>
+        <premio_titulo>
+          <ano>2007</ano>
+          <descricao>Menção Honrosa na III Olímpiada Brasileira de Matemática de Escolas Públicas, Instituto Nacional de Matemática Pura e Aplicada.</descricao>
+        </premio_titulo>
+    </premios_titulos>
+    <colaboradores>
+        <id_lattes_colaborador>2278938806399796</id_lattes_colaborador>
+        <id_lattes_colaborador>2451723616981467</id_lattes_colaborador>
+        <id_lattes_colaborador>9030707448549156</id_lattes_colaborador>
+        <id_lattes_colaborador>9858509186988772</id_lattes_colaborador>
+        <id_lattes_colaborador>6834558718626360</id_lattes_colaborador>
+        <id_lattes_colaborador>8309720640669552</id_lattes_colaborador>
+        <id_lattes_colaborador>4794575830567783</id_lattes_colaborador>
+        <id_lattes_colaborador>2591569074965536</id_lattes_colaborador>
+        <id_lattes_colaborador>5936682335701497</id_lattes_colaborador>
+        <id_lattes_colaborador>4029746677511519</id_lattes_colaborador>
+        <id_lattes_colaborador>6852348890045723</id_lattes_colaborador>
+        <id_lattes_colaborador>0174881389877841</id_lattes_colaborador>
+        <id_lattes_colaborador>3119178895918439</id_lattes_colaborador>
+        <id_lattes_colaborador>9975041225831602</id_lattes_colaborador>
+        <id_lattes_colaborador>8827624220938506</id_lattes_colaborador>
+        <id_lattes_colaborador>4245038207639425</id_lattes_colaborador>
+        <id_lattes_colaborador>6169230167764260</id_lattes_colaborador>
+        <id_lattes_colaborador>4555578101519491</id_lattes_colaborador>
+        <id_lattes_colaborador>4833934817984360</id_lattes_colaborador>
+        <id_lattes_colaborador>7640548709008824</id_lattes_colaborador>
+        <id_lattes_colaborador>5748979136074637</id_lattes_colaborador>
+        <id_lattes_colaborador>2755716564792035</id_lattes_colaborador>
+        <id_lattes_colaborador>8584294285135417</id_lattes_colaborador>
+        <id_lattes_colaborador>7733681743453751</id_lattes_colaborador>
+        <id_lattes_colaborador>8694063611919764</id_lattes_colaborador>
+        <id_lattes_colaborador>9494604006711212</id_lattes_colaborador>
+        <id_lattes_colaborador>3705229119174252</id_lattes_colaborador>
+        <id_lattes_colaborador>8074447921818504</id_lattes_colaborador>
+        <id_lattes_colaborador>7139287203307123</id_lattes_colaborador>
+        <id_lattes_colaborador>9976401541377939</id_lattes_colaborador>
+        <id_lattes_colaborador>6391481513190883</id_lattes_colaborador>
+        <id_lattes_colaborador>6388210976465568</id_lattes_colaborador>
+        <id_lattes_colaborador>8701993434576006</id_lattes_colaborador>
+        <id_lattes_colaborador>0622411043791842</id_lattes_colaborador>
+        <id_lattes_colaborador>4872364161265799</id_lattes_colaborador>
+        <id_lattes_colaborador>7770838213198044</id_lattes_colaborador>
+        <id_lattes_colaborador>8758395845049687</id_lattes_colaborador>
+        <id_lattes_colaborador>8284377057354278</id_lattes_colaborador>
+        <id_lattes_colaborador>9083161697267117</id_lattes_colaborador>
+        <id_lattes_colaborador>3811413618583282</id_lattes_colaborador>
+        <id_lattes_colaborador>5990706938049836</id_lattes_colaborador>
+        <id_lattes_colaborador>0375745110240885</id_lattes_colaborador>
+        <id_lattes_colaborador>5360966938085363</id_lattes_colaborador>
+        <id_lattes_colaborador>5812866317561441</id_lattes_colaborador>
+        <id_lattes_colaborador>8436515676441851</id_lattes_colaborador>
+        <id_lattes_colaborador>6799776599317117</id_lattes_colaborador>
+        <id_lattes_colaborador>8753324796035314</id_lattes_colaborador>
+        <id_lattes_colaborador>4956083758788367</id_lattes_colaborador>
+        <id_lattes_colaborador>5509401058975677</id_lattes_colaborador>
+        <id_lattes_colaborador>5790948729956103</id_lattes_colaborador>
+        <id_lattes_colaborador>2894340579095812</id_lattes_colaborador>
+        <id_lattes_colaborador>4421038317382813</id_lattes_colaborador>
+        <id_lattes_colaborador>6270626469557436</id_lattes_colaborador>
+        <id_lattes_colaborador>0279071624811202</id_lattes_colaborador>
+        <id_lattes_colaborador>2628557550611049</id_lattes_colaborador>
+    </colaboradores>
+    <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1007/s12065-021-00680-0</doi>
+          <titulo>An island-based hybrid evolutionary algorithm for caloric-restricted diets</titulo>
+          <autores>Xavier, Carolina Ribeiro ; SILVA, JOÃO GABRIEL R. ; DUARTE, GRASIELE REGINA ; Carvalho, Iago Augusto ; VIEIRA, VINICIUS DA FONSECA ; Goliatt, Leonardo</autores>
+          <revista>Evolutionary Intelligence (Print)</revista>
+          <volume>Evolutionary Intelligence (Print)</volume>
+          <paginas>553-564</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1111/joss.12738</doi>
+          <titulo>A comparison of machine learning algorithms for predicting consumer responses based on physical, chemical, and physical-chemical data of fruits</titulo>
+          <autores>RIBEIRO, MICHELE N. ; CARVALHO, I. A. ; FERREIRA, DANTON D. ; PINHEIRO, A. C. M.</autores>
+          <revista>JOURNAL OF SENSORY STUDIES (ONLINE)</revista>
+          <volume>JOURNAL OF SENSORY STUDIES (ONLINE)</volume>
+          <paginas>e12738</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1051/ro/2022198</doi>
+          <titulo>Fix-and-optimize metaheuristics for minmax regret binary integer programming problems under interval uncertainty</titulo>
+          <autores>CARVALHO, I. A.; NORONHA, T. F. ; DUHAMEL, C.</autores>
+          <revista>Rairo-Operations Research</revista>
+          <volume>Rairo-Operations Research</volume>
+          <paginas>4281-4301</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1051/ro/2022215</doi>
+          <titulo>The widest k-set of disjoint paths problem</titulo>
+          <autores>ANTÔNIO RIBEIRO, MARCO ; AUGUSTO CARVALHO, IAGO ; HONÓRIO PEREIRA, ARMANDO</autores>
+          <revista>RAIRO-OPERATIONS RESEARCH</revista>
+          <volume>RAIRO-OPERATIONS RESEARCH</volume>
+          <paginas>87-97</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1111/joss.12618</doi>
+          <titulo>Visual expectation of craft beers in different glass shapes</titulo>
+          <autores>RIBEIRO, M. N. ; CARVALHO, I. A. ; SOUSA, M. M. M. ; COELHO, L. M. ; REZENDE, D. C. ; PINHEIRO, A. C. M.</autores>
+          <revista>JOURNAL OF SENSORY STUDIES</revista>
+          <volume>JOURNAL OF SENSORY STUDIES</volume>
+          <paginas>e12618</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.jcss.2020.09.002</doi>
+          <titulo>On the fast delivery problem with one or two packages</titulo>
+          <autores>CARVALHO, IAGO A.; ERLEBACH, THOMAS ; PAPADOPOULOS, KLEITOS</autores>
+          <revista>JOURNAL OF COMPUTER AND SYSTEM SCIENCES</revista>
+          <volume>JOURNAL OF COMPUTER AND SYSTEM SCIENCES</volume>
+          <paginas>246-263</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1002/jsfa.11092</doi>
+          <titulo>Quality Control Of Fresh Strawberries By A Random Forest Model</titulo>
+          <autores>RIBEIRO, MICHELE N. ; CARVALHO, IAGO A. ; FONSECA, GABRIEL A. ; LAGO, RAFAEL C. ; ROCHA, LENÍZY C. R. ; FERREIRA, DANTON D. ; VILAS BOAS, EDUARDO V. B. ; PINHEIRO, ANA C. M.</autores>
+          <revista>JOURNAL OF THE SCIENCE OF FOOD AND AGRICULTURE</revista>
+          <volume>JOURNAL OF THE SCIENCE OF FOOD AND AGRICULTURE</volume>
+          <paginas>4514-4522</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1111/itor.12947</doi>
+          <titulo>A fix¿and¿optimize heuristic for the minmax regret shortest path arborescence problem under interval uncertainty</titulo>
+          <autores>CARVALHO, IAGO A.; NORONHA, THIAGO F. ; DUHAMEL, CHRISTOPHE ; VIEIRA, LUIZ F. M. ; SANTOS, VINICIUS F. DOS</autores>
+          <revista>International Transactions in Operational Research</revista>
+          <volume>International Transactions in Operational Research</volume>
+          <paginas>1120-1143</paginas>
+          <numero></numero>
+          <ano>2021</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1007/s10479-019-03443-4</doi>
+          <titulo>An exact approach for the Minimum-Cost Bounded-Error Calibration Tree problem</titulo>
+          <autores>CARVALHO, IAGO A.; RIBEIRO, MARCO A.</autores>
+          <revista>ANNALS OF OPERATIONS RESEARCH</revista>
+          <volume>ANNALS OF OPERATIONS RESEARCH</volume>
+          <paginas>109-126</paginas>
+          <numero></numero>
+          <ano>2020</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1109/MDAT.2019.2952355</doi>
+          <titulo>Optimal Energy Efficiency and Throughput on Partially Reversible Pipelined QCA Circuits</titulo>
+          <autores>RIBEIRO, M. A. ; CARVALHO, I. A. ; NETO, OMAR P. VILELA ; CHAVES, JEFERSON F.</autores>
+          <revista>IEEE Design & Test</revista>
+          <volume>IEEE Design & Test</volume>
+          <paginas>40-50</paginas>
+          <numero></numero>
+          <ano>2020</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.ipl.2018.11.003</doi>
+          <titulo>On the statistical evaluation of algorithmic's computational experimentation with infeasible solutions</titulo>
+          <autores>CARVALHO, IAGO A</autores>
+          <revista>INFORMATION PROCESSING LETTERS</revista>
+          <volume>INFORMATION PROCESSING LETTERS</volume>
+          <paginas>24-27</paginas>
+          <numero></numero>
+          <ano>2019</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.swevo.2019.01.007</doi>
+          <titulo>A node-depth phylogenetic-based artificial immune system for multi-objective Network Design Problems</titulo>
+          <autores>CARVALHO, I. A.; RIBEIRO, MARCO A.</autores>
+          <revista>Swarm and Evolutionary Computation</revista>
+          <volume>Swarm and Evolutionary Computation</volume>
+          <paginas>100491</paginas>
+          <numero></numero>
+          <ano>2019</ano>
+        </artigo>
+        <artigo>
+          <doi></doi>
+          <titulo>Uma análise das seleções da Copa do Mundo de Futebol 2018 utilizando uma rede de transferências de jogadores entre países</titulo>
+          <autores>FELIX, L. G. S. ; BARBOSA, C. M. ; CARVALHO, I. A. ; VIEIRA, V. F. ; XAVIER, C. R.</autores>
+          <revista>iSys - Revista Brasileira de Sistemas de Informação</revista>
+          <volume>iSys - Revista Brasileira de Sistemas de Informação</volume>
+          <paginas>73-93</paginas>
+          <numero></numero>
+          <ano>2019</ano>
+        </artigo>
+    </artigos_em_periodicos>
+    <trabalho_completo_congresso>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1007/978-3-030-94216-8_12?</doi>
+          <autores>GUIMARÃES, M. V. A. ; BOGUE, E. T. ; CARVALHO, I. A. ; NORONHA, THIAGO F. ; PEREIRA, A. H. ; URRUTIA, S.</autores>
+          <titulo>A Biased Random-key Genetic Algorithm for the 2-Dimensional Guillotine Cutting Stock Problem with Stack Constraints</titulo>
+          <nome_evento>VIII International Conference on Metaheuristics and Nature Inspired Computing</nome_evento>
+          <ano>2022</ano>
+          <volume>1541</volume>
+          <paginas>155-169</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>FONSECA, J. F. R. ; NORONHA, T. F. ; CARVALHO, I. A.</autores>
+          <titulo>Formulação de programação linear inteira para um problema de k-cobertura e m-conectividade em redes de sensores</titulo>
+          <nome_evento>LIV Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2022</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>CARVALHO, I. A.; COCO, A. A.</autores>
+          <titulo>Uma modelagem bi-objetivo para o problema da Árvore Geradora Mínima com Restrição de Saltos</titulo>
+          <nome_evento>LIV Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2022</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1109/CLEI53233.2021.9640112</doi>
+          <autores>BOGUE, EDUARDO T. ; GUIMARAES, MARCOS V. A. ; NORONHA, THIAGO F. ; PEREIRA, ARMANDO H. ; CARVALHO, IAGO A. ; URRUTIA, SEBASTIAN</autores>
+          <titulo>The Two-Dimensional Guillotine Cutting Stock Problem with Stack Constraints</titulo>
+          <nome_evento>2021 XLVII Latin American Computing Conference (CLEI)</nome_evento>
+          <ano>2021</ano>
+          <volume></volume>
+          <paginas>1</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>RODRIGUES, D. N. ; AMORIM, P. ; CARVALHO, I. A. ; CURCIO, E. F. ; MIYAZAWA, F. K. ; XAVIER, E. C.</autores>
+          <titulo>O problema do Roteamento de Veículos Capacitado com Janelas de Tempo e Clientes Estocásticos</titulo>
+          <nome_evento>LII Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2020</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>CARVALHO, I. A.; COCO, A. A. ; NORONHA, T. F. ; DUHAMEL, C.</autores>
+          <titulo>A min-max regret approach for the Steiner Tree Problem with Interval Costs</titulo>
+          <nome_evento>LII Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2020</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1007/978-3-030-58799-4_48?</doi>
+          <autores>FELIX, L. G. S. ; BARBOSA, C. M. ; CARVALHO, I. A. ; VIEIRA, V. F. ; XAVIER, C. R.</autores>
+          <titulo>Forecasting Soccer Market Tendencies Using Link Prediction</titulo>
+          <nome_evento>20th International Conference on Compute Science and its Applications</nome_evento>
+          <ano>2020</ano>
+          <volume>12249</volume>
+          <paginas>663-675</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1007/978-3-030-25027-0_12?</doi>
+          <autores>CARVALHO, I. A.; ERLEBACH, T. ; PAPADOPOULOS, K.</autores>
+          <titulo>An Efficient Algorithm for the Fast Delivery Problem</titulo>
+          <nome_evento>22nd International Symposium on Fundamentals of Computation Theory</nome_evento>
+          <ano>2019</ano>
+          <volume>11651</volume>
+          <paginas>171-184</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>GUIMARÃES, M. V. A. ; BOGUE, E. T. ; PEREIRA, A. H. ; CARVALHO, I. A. ; NORONHA, T. F. ; URRUTIA, S.</autores>
+          <titulo>Heurísticas Construtivas para o Problema de Corte Guilhotinado Bidimensional em 3 Estágios com Restrições de Precedência</titulo>
+          <nome_evento>LI Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2019</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1016/j.endm.2018.03.006?</doi>
+          <autores>CARVALHO, I. A.; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <titulo>A MILP-based VND for the min-max regret Shortest Path Tree Problem with interval costs</titulo>
+          <nome_evento>V International Conference on Variable Neighborhood Search</nome_evento>
+          <ano>2018</ano>
+          <volume>66</volume>
+          <paginas>39-46</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1109/cec.2018.8477723</doi>
+          <autores>RIBEIRO, MARCO A. ; CARVALHO, IAGO A. ; CHAVES, JEFERSON F. ; PAPPA, GISELE L. ; VILELA NETO, OMAR P.</autores>
+          <titulo>Improving Energy Efficiency of Field-Coupled Nanocomputing Circuits by Evolutionary Synthesis</titulo>
+          <nome_evento>2018 IEEE Congress on Evolutionary Computation (CEC)</nome_evento>
+          <ano>2018</ano>
+          <volume></volume>
+          <paginas>1</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.5753/brasnam.2018.3588</doi>
+          <autores>FÉLIX, LUCAS G. S. ; BARBOSA, CARLOS M. ; CARVALHO, IAGO A. ; VIEIRA, VINÍCIUS DA F. ; Xavier, Carolina Ribeiro</autores>
+          <titulo>Uma análise das seleções da copa utilizando uma rede de transferências de jogadores entre países</titulo>
+          <nome_evento>VII Brazilian Workshop on Social Network Analysis and Mining</nome_evento>
+          <ano>2018</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1109/SBCCI.2018.8533240</doi>
+          <autores>RIBEIRO, MARCO A. ; CARVALHO, IAGO A. ; CHAVES, JEFERSON F. ; VILELA NETO, OMAR P.</autores>
+          <titulo>Improving Energy Efficiency on Partially Reversible Pipelined QCA Circuits</titulo>
+          <nome_evento>2018 31st Symposium on Integrated Circuits and Systems Design (SBCCI)</nome_evento>
+          <ano>2018</ano>
+          <volume></volume>
+          <paginas>1</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1109/cec.2017.7969554</doi>
+          <autores>SILVA, JOAO GABRIEL ROCHA ; BERNARDINO, HEDER SOARES ; BARBOSA, HELIO JOSE CORREA ; de Carvalho, Iago Augusto ; DA FONSECA VIEIRA, VINICIUS ; Loureiro, Michelli Marlane Silva ; Xavier, Carolina Ribeiro</autores>
+          <titulo>Solving a Multiobjective Caloric-Restricted Diet Problem using Differential Evolution</titulo>
+          <nome_evento>2017 IEEE Congress on Evolutionary Computation (CEC)</nome_evento>
+          <ano>2017</ano>
+          <volume></volume>
+          <paginas>2062-2069</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>SILVA, J. G. R. ; BARBOSA, H. J. C. ; CARVALHO, I. A. ; VIEIRA, V. F. ; XAVIER, C. R.</autores>
+          <titulo>Um estudo comparativo entre um algoritmo genético e um algoritmo de evolução diferencial para o problema da dieta restrita em calorias</titulo>
+          <nome_evento>XLIX Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2017</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1007/978-3-319-62392-4_28?</doi>
+          <autores>SILVA, J. G. R. ; CARVALHO, I. A. ; GOLIATT, L. ; VIEIRA, V. F. ; XAVIER, C. R.</autores>
+          <titulo>A Differential Evolution Algorithm for Computing Caloric-Restricted Diets - Island-Based Model</titulo>
+          <nome_evento>17th International Conference on Computational Science and Its Applications</nome_evento>
+          <ano>2017</ano>
+          <volume>10404</volume>
+          <paginas>385-400</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1007/978-3-319-62392-4_36?</doi>
+          <autores>CARVALHO, I. A.; ROCHA, D. G. ; SILVA, J. G. R. ; VIEIRA, V. F. ; XAVIER, C. R.</autores>
+          <titulo>Study of Parameter Sensitivity on Bat Algorithm</titulo>
+          <nome_evento>17th International Conference on Computational Science and Its Applications</nome_evento>
+          <ano>2017</ano>
+          <volume>10404</volume>
+          <paginas>494-508</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1109/BRACIS.2017.11</doi>
+          <autores>GONCALVES, JOSE RICARDO ; Carvalho, Iago Augusto ; NORONHA, THIAGO FERREIRA</autores>
+          <titulo>An Experimental Evaluation of the Algorithm Mean Upper Heuristic for Interval Data Min-Max Regret Combinatorial Optimization Problem</titulo>
+          <nome_evento>2017 Brazilian Conference on Intelligent Systems (BRACIS)</nome_evento>
+          <ano>2017</ano>
+          <volume></volume>
+          <paginas>378-383</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1016/j.ifacol.2016.07.654?</doi>
+          <autores>MAGNANI, D. B. ; CARVALHO, I. A. ; NORONHA, T. F.</autores>
+          <titulo>Robust Optimization for OSPF Routing</titulo>
+          <nome_evento>VIII Conference on Manufacturing Modelling</nome_evento>
+          <ano>2016</ano>
+          <volume>49</volume>
+          <paginas>461-466</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1016/j.ifacol.2016.07.649?</doi>
+          <autores>CARVALHO, I. A.; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <titulo>A Scenario Based Heuristic for the Robust Shortest Path Tree Problem</titulo>
+          <nome_evento>VIII Conference on Manufacturing Modelling</nome_evento>
+          <ano>2016</ano>
+          <volume>49</volume>
+          <paginas>443-448</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>CARVALHO, I. A.; SANTOS, V. F. ; NORONHA, T. F.</autores>
+          <titulo>Sobre a complexidade do Problema da Árvore de Caminhos Mais Curtos Robusta</titulo>
+          <nome_evento>XLVIII Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2016</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.1007/978-3-319-42092-9_14?</doi>
+          <autores>SILVA, J. G. R. ; CARVALHO, I. A. ; LOUREIRO, M. M. S. ; VIEIRA, V. F. ; XAVIER, C. R.</autores>
+          <titulo>Developing Tasty Calorie Restricted Diets Using a Differential Evolution Algorithm</titulo>
+          <nome_evento>16th International Conference on Computational Science and Its Applications</nome_evento>
+          <ano>2016</ano>
+          <volume>9790</volume>
+          <paginas>171-186</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>CARVALHO, I. A.; GOMES, M. A. ; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <titulo>Heurística para o problema de construção de Árvore de Caminhos Mais Curtos Robusta para a Internet das Coisas</titulo>
+          <nome_evento>XIV Workshop em Desempenho de Sistemas Computacionais e de Comunicação</nome_evento>
+          <ano>2015</ano>
+          <volume>35</volume>
+          <paginas>1-9</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>CARVALHO, I. A.; GOMES, M. A. ; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <titulo>Formulação e Heurística para o Problema da Árvore de Caminhos Mais Curtos Robusta</titulo>
+          <nome_evento>XLVII Simpósio Brasileiro de Pesquisa Operacional</nome_evento>
+          <ano>2015</ano>
+          <volume>47</volume>
+          <paginas>2382-2393</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi>http://dx.doi.org/10.21528/cbic2015-160?</doi>
+          <autores>SILVA, J. G. R. ; CARVALHO, I. A. ; XAVIER, C. R. ; VIEIRA, V. F.</autores>
+          <titulo>Estudo comparativo de métricas de ranqueamento em redes complexas utilizando coeficientes de correlação</titulo>
+          <nome_evento>XII Congresso Brasileiro de Inteligência Computacional</nome_evento>
+          <ano>2015</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>CARVALHO, I. A.; ROCHA, D. G. ; VIEIRA, V. F. ; XAVIER, C. R.</autores>
+          <titulo>Comparação de Algoritmos Evolutivos para o Problema de Ajuste de Histórico utilizando o modelo IMPES</titulo>
+          <nome_evento>XXXVI Ibero-Latin American Congress on Computational Methods in Engineering</nome_evento>
+          <ano>2015</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+    </trabalho_completo_congresso>
+    <resumo_expandido_congresso>
+        <resumo_expandido>
+          <doi></doi>
+          <autores>CARVALHO, I. A.; NORONHA, THIAGO FERREIRA ; DUHAMEL, C.</autores>
+          <titulo>Algorithms for the min-max regret 0-1 Integer Linear Programming Problem with Interval Data</titulo>
+          <nome_evento>13th Metaheuristics International Conference, 2019, Cartagena. Proceedings of the 13th Metaheuristics International Conference</nome_evento>
+          <ano>2019</ano>
+          <volume></volume>
+          <paginas>137-140</paginas>
+        </resumo_expandido>
+    </resumo_expandido_congresso>
+    <resumo_congresso>
+        <resumo>
+          <doi></doi>
+          <autores>RIBEIRO, M. N. ; ROCHA, L. C. R. ; LAGO, R. C. ; CARVALHO, I. A. ; NUNES, C. A. ; VILAS BOAS, E. V. B. ; PINHEIRO, A. C. M.</autores>
+          <titulo>Use of multivariate prediction models to understand the consumer's behavior based on physical-chemical and physical analysis: a case study with strawberry</titulo>
+          <nome_evento>13º Simpósio Latino Americano de Ciência de Alimentos, 2019, Campinas. Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</nome_evento>
+          <ano>2019</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </resumo>
+    </resumo_congresso>
+    <artigos_em_revista>
+        <artigo_revista>
+          <doi>http://dx.doi.org/10.1007/s10898-023-01295-8.</doi>
+          <autores>CARVALHO, I. A.; COCO, A. A.</autores>
+          <titulo>On solving bi-objective constrained minimum spanning tree problems</titulo>
+          <revista>JOURNAL OF GLOBAL OPTIMIZATION</revista>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </artigo_revista>
+    </artigos_em_revista>
+    <apresentacao_trabalho>
+        <trabalho_apresentado>
+          <titulo>Uma modelagem bi-objetivo para o problema da Árvore Geradora Mínima com Restrição de Saltos</titulo>
+          <autores>CARVALHO, I. A.; COCO, A. A.</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Simpósio</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Algorithms for the min-max regret 0-1 Integer LinearProgramming Problem with Interval Data</titulo>
+          <autores>CARVALHO, IAGO A.; NORONHA, THIAGO FERREIRA ; DUHAMEL, C.</autores>
+          <ano>2019</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>A MILP-based VND for the min-max regret Shortest Path Tree Problem with interval costs</titulo>
+          <autores>CARVALHO, I. A.; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <ano>2017</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>A Scenario Based Heuristic for the Robust Shortest Path Tree Problem</titulo>
+          <autores>CARVALHO, I. A.; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <ano>2016</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Robust Optimization for OSPF Routing</titulo>
+          <autores>MAGNANI, D. B. ; CARVALHO, I. A. ; NORONHA, T. F.</autores>
+          <ano>2016</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Sobre a Complexidade do Problema da Árvore de Caminhos Mais Curtos Robusta</titulo>
+          <autores>CARVALHO, I. A.; SANTOS, V. F. ; NORONHA, T. F.</autores>
+          <ano>2016</ano>
+          <natureza>Apresentação de Trabalho/Simpósio</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Acelerando startups com software livre</titulo>
+          <autores>BARBOSA, L. M. ; CARVALHO, I. A. ; CRUZ, W. J.</autores>
+          <ano>2016</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Heurística para o problema de construção de Árvore de Caminhos Mais Curtos Robusta para a Internet das Coisas</titulo>
+          <autores>CARVALHO, I. A.; GOMES, M. A. ; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <ano>2015</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Formulação e Heurística para o Problema da Árvore de Caminhos Mais Curtos Robusta</titulo>
+          <autores>CARVALHO, I. A.; GOMES, M. A. ; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.</autores>
+          <ano>2015</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+    </apresentacao_trabalho>
+    <producao_tecnica>
+        <producao>
+          <titulo>Tutorial Hands-on: Testes Estatísticos em R</titulo>
+          <autores>CARVALHO, I. A</autores>
+          <natureza>Curso de curta duração ministrado/Extensão</natureza>
+          <ano>2021</ano>
+        </producao>
+        <producao>
+          <titulo>Desenvolvimento Web Tableless</titulo>
+          <autores>CARVALHO, I. A</autores>
+          <natureza>Curso de curta duração ministrado/Extensão</natureza>
+          <ano>2013</ano>
+        </producao>
+        <producao>
+          <titulo>Desenvolvimento Web Tableless</titulo>
+          <autores>CARVALHO, I. A</autores>
+          <natureza>Curso de curta duração ministrado/Extensão</natureza>
+          <ano>2012</ano>
+        </producao>
+        <producao>
+          <titulo>Design Visual</titulo>
+          <autores>CARVALHO, I. A</autores>
+          <natureza>Curso de curta duração ministrado/Extensão</natureza>
+          <ano>2012</ano>
+        </producao>
+    </producao_tecnica>
+    <orientacao_mestrado_em_andamento>
+        <dissertacao>
+          <nome_aluno>João Carlos Pereira Alves</nome_aluno>
+          <titulo_trabalho>Estimativa de respostas a questionários utilizando recuperação de informação e análise de sentimentos</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas. (Coorientador).</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>José Ferreira Reis Fonseca</nome_aluno>
+          <titulo_trabalho>Algoritmos para instalação de redes de sensores sem fio tolerantes a falhas para a cobertura de pontos de interesse</titulo_trabalho>
+          <ano>2021</ano>
+          <instituicao>Dissertação (Mestrado em Ciências da Computação) - Universidade Federal de Minas Gerais. (Coorientador).</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </dissertacao>
+    </orientacao_mestrado_em_andamento>
+    <orientacao_iniciacao_cientifica_em_andamento>
+        <iniciacao_cientifica>
+          <nome_aluno>José Flávio Lopes</nome_aluno>
+          <titulo_trabalho>Algoritmos para o problema da Árvore de Steiner com Arestas Rotuladas</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Iniciação científica (Graduando em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Augusto Vieira de Oliveira</nome_aluno>
+          <titulo_trabalho>Heurísticas multi-objetivo para problemas de posicionamento de sensores sem fio</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Iniciação científica (Graduando em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+    </orientacao_iniciacao_cientifica_em_andamento>
+    <orientacao_tcc_concluido>
+        <tcc>
+          <nome_aluno>José Ricardo Gonçalves</nome_aluno>
+          <titulo_trabalho>Avaliação experimental da heurística Algorithm Mean Upper para problemas de Otimização Robusta</titulo_trabalho>
+          <ano>2016</ano>
+          <instituicao>(Graduação em Ciência da Computação) - Universidade Federal de Minas Gerais</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>João Gabriel Rocha Silva</nome_aluno>
+          <titulo_trabalho>Solução do Problema da Dieta com um algoritmo de Evolução Diferencial</titulo_trabalho>
+          <ano>2015</ano>
+          <instituicao>(Graduação em Ciência da Computação) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+    </orientacao_tcc_concluido>
+    <orientacao_iniciacao_cientifica_concluido>
+        <iniciacao_cientifica>
+          <nome_aluno>Arthur Franco Moreira</nome_aluno>
+          <titulo_trabalho>Geração de Cenários em Otimização Estocástica para problemas de Otimização de Portfólio</titulo_trabalho>
+          <ano>2019</ano>
+          <instituicao>(Graduando em Matemática Computacional) - Universidade Federal de Minas Gerais</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Lucas Gabriel da SIlva Felix</nome_aluno>
+          <titulo_trabalho>Um estudo sobre a rede de transferências de jogadores de futebol</titulo_trabalho>
+          <ano>2018</ano>
+          <instituicao>(Graduando em Ciência da Computação) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Fabio Lino Morato</nome_aluno>
+          <titulo_trabalho>Implementação de um protocolo RPL robusto no COOJA</titulo_trabalho>
+          <ano>2017</ano>
+          <instituicao>(Graduando em Ciência da Computação) - Universidade Federal de Minas Gerais</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>José Ricardo Gonçalves</nome_aluno>
+          <titulo_trabalho>Heurísticas para problemas de Otimização Robusta</titulo_trabalho>
+          <ano>2016</ano>
+          <instituicao>(Graduando em Ciência da Computação) - Universidade Federal de Minas Gerais</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>João Gabriel Rocha Silva</nome_aluno>
+          <titulo_trabalho>Estudo comparativo de métricas de ranqueamento em redes complexas utilizando coeficientes de correlação</titulo_trabalho>
+          <ano>2014</ano>
+          <instituicao>(Graduando em Ciência da Computação) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+    </orientacao_iniciacao_cientifica_concluido>
+    <participacao_evento>
+        <evento>
+          <titulo>LIV Simpósio Brasileiro de Pesquisa Operacional.Uma modelagem bi-objetivo para o problema da Árvore Geradora Mínima com Restrição de Saltos. 2022. (Simpósio).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>Metaheuristics International Conference. Algorithms for the min-max regret 0-1 Integer LinearProgramming Problem with Interval Data. 2019. (Congresso).</titulo>
+          <ano>2019</ano>
+        </evento>
+        <evento>
+          <titulo>X Latin and American Algorithms, Graphs and Optimization Symposium. 2019. (Simpósio).</titulo>
+          <ano>2019</ano>
+        </evento>
+        <evento>
+          <titulo>Congresso Nacional Universidade, EAD e Software Livre. 2017. (Congresso).</titulo>
+          <ano>2017</ano>
+        </evento>
+        <evento>
+          <titulo>III Curso de Verão de Engenharia de Máquinas Biológicas. 2017. (Outra).</titulo>
+          <ano>2017</ano>
+        </evento>
+        <evento>
+          <titulo>V International Conference on Variable Neighborhood Search. A MILP-based VND for the min-max regret Shortest Path Tree Problem with interval costs. 2017. (Congresso).</titulo>
+          <ano>2017</ano>
+        </evento>
+        <evento>
+          <titulo>Campus Party Minas Gerais. Acelerando startups com software livre. 2016. (Feira).</titulo>
+          <ano>2016</ano>
+        </evento>
+        <evento>
+          <titulo>VIII Conference on Manufacturing Modelling, Management & Control. A Scenario Based Heuristic for the Robust Shortest Path Tree Problem. 2016. (Congresso).</titulo>
+          <ano>2016</ano>
+        </evento>
+        <evento>
+          <titulo>XLVIII Simpósio Brasileiro de Pesquisa Operacional.Sobre a Complexidade do Problema da Árvore de Caminhos Mais Curtos Robusta. 2016. (Simpósio).</titulo>
+          <ano>2016</ano>
+        </evento>
+        <evento>
+          <titulo>XIV Workshop em Desempenho de Sistemas Computacionais e de Comunicação.Heurística para o problema de construção de Árvore de Caminhos Mais Curtos Robusta para a Internet das Coisas. 2015. (Outra).</titulo>
+          <ano>2015</ano>
+        </evento>
+        <evento>
+          <titulo>XLVII Simpósio Brasileiro de Pesquisa Operacional.Formulação e Heurística para o Problema da Árvore de Caminhos Mais Curtos Robusta. 2015. (Simpósio).</titulo>
+          <ano>2015</ano>
+        </evento>
+        <evento>
+          <titulo>Escola de Altos Estudos em Controle e Automação. 2014. (Congresso).</titulo>
+          <ano>2014</ano>
+        </evento>
+        <evento>
+          <titulo>I Workshop de Otimização Sob Incerteza. 2014. (Outra).</titulo>
+          <ano>2014</ano>
+        </evento>
+        <evento>
+          <titulo>II Semana da Computação - UFSJ. 2013. (Encontro).</titulo>
+          <ano>2013</ano>
+        </evento>
+        <evento>
+          <titulo>II Encontro de Empresas Juniores da UFSJ. 2012. (Encontro).</titulo>
+          <ano>2012</ano>
+        </evento>
+        <evento>
+          <titulo>Junior Enterprise World Conference - JEWC. 2012. (Encontro).</titulo>
+          <ano>2012</ano>
+        </evento>
+        <evento>
+          <titulo>VII Encontro Interno de Empresas Juniores de Viçosa. 2012. (Encontro).</titulo>
+          <ano>2012</ano>
+        </evento>
+    </participacao_evento>
+    <organizacao_evento>
+        <evento>
+          <titulo>6ª Escola de Verão em Computação</titulo>
+          <natureza>Outro</natureza>
+          <ano>2016</ano>
+        </evento>
+        <evento>
+          <titulo>I Semana da Computação</titulo>
+          <natureza>Outro</natureza>
+          <ano>2011</ano>
+        </evento>
+    </organizacao_evento>
+  </pesquisador>
   <pesquisador id="5459510407019521">
     <identificacao>
       <identificador10></identificador10>
@@ -5360,7 +6104,7 @@
           <ano>2008</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
+          <doi>http://dx.doi.org/10.14488/1676-1901.v8i3.113</doi>
           <titulo>Estudo da produtividade da indústria mineira e seu desempenho diante da nacional, no período de 1996 a 2004</titulo>
           <autores>REZENDE, Marcelo Lacerda; CASSIN, F. M.</autores>
           <revista>Revista Produção Online</revista>
@@ -7490,7 +8234,7 @@
         <formacao>
           <ano_inicio>2003</ano_inicio>
           <ano_conclusao>2005</ano_conclusao>
-          <tipo>Doutorado em Ciências Biomoleculares e Farmacológicas (Conceito CAPES 4)</tipo>
+          <tipo>Doutorado em Ciências Biomoleculares e Farmacológicas (Conceito CAPES 5)</tipo>
           <nome_instituicao>Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil</nome_instituicao>
           <descricao>Título: Bioinformática Estrutural Aplicada ao Estudo de Proteínas Alvo do Genoma do Mycobacterium Tuberculosis O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2005. Orientador: Walter Filgueira da Azevedo Junior. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Bioinformatics; Cluster Beowulf; Database (MySQL); Drug Design; Molecular Biophysics; Molecular modeling. Grande área: Ciências Biológicas Grande Área: Ciências Biológicas / Área: Biofísica / Subárea: Biofísica Molecular. Grande Área: Ciências Biológicas / Área: Biofísica / Subárea: Biofísica Molecular / Especialidade: Modelagem Molecular. Setores de atividade: Produtos e Processos Biotecnológicos Vinculados À Saúde Humana Ou dos Animais; Outro.</descricao>
         </formacao>
@@ -7705,7 +8449,7 @@
           <ano>2018</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1590/s0103-50532009000900022&md5=1946beb874be43e9f60f23de01878bb8</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.5935/0103-5053.20130079&md5=ca1da665b3aed35866a6b79cbf993c7c</doi>
           <titulo>An in silico Study of Benzophenone Derivatives as Potential Non-Competitive Inhibitors of Trypanosoma cruzi and Leishmania Amazonensis Cysteine Proteinases</titulo>
           <autores>FREITAS, P. G. ; CASTILHO, T. E. ; ALMEIDA, L. ; MACIEL-REZENDE, C. M. ; COSTA, L. T. ; VIEGAS JUNIOR, C. ; MARQUES, M. J. ; SANTOS, M. H. ; da Silveira, NJF</autores>
           <revista>JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY</revista>
@@ -9108,7 +9852,7 @@
         <formacao>
           <ano_inicio>1995</ano_inicio>
           <ano_conclusao>1997</ano_conclusao>
-          <tipo>Mestrado em Ciência da Computação (Conceito CAPES 4)</tipo>
+          <tipo>Mestrado em Ciência da Computação (Conceito CAPES 5)</tipo>
           <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
           <descricao>Título: Algoritmos de Resolução de GSPNs através de Técnicas de Agregação para Modelagem de Aplicações Paralelas, Ano de Obtenção: 1997. Orientador: Luis Carlos Trevelin. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Análise de Desempenho; Modelagem de Aplicações Paralelas. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Arquitetura de Sistemas de Computação. Setores de atividade: Pesquisa e desenvolvimento científico.</descricao>
         </formacao>
@@ -9881,14 +10625,14 @@
         <formacao>
           <ano_inicio>2004</ano_inicio>
           <ano_conclusao>2009</ano_conclusao>
-          <tipo>Doutorado em Engenharia Elétrica (Conceito CAPES 6)</tipo>
+          <tipo>Doutorado em Engenharia Elétrica (Conceito CAPES 7)</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: Sistema de Suporte a Decisão para Previsão e Análise de Carga por Barramento, Ano de obtenção: 2009. Orientador: Takaaki Ohishi. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Intelgência Artificial; Mineração de Dados; Previsão de Séries Temporais; Análise de Dados; Desenvolvimento de Algoritmos; Modelagem Matemática. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Estatística / Especialidade: Análise de Dados. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação. Setores de atividade: Desenvolvimento de Programas (Software); Informática; Energia.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2002</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Mestrado em Engenharia Elétrica (Conceito CAPES 6)</tipo>
+          <tipo>Mestrado em Engenharia Elétrica (Conceito CAPES 7)</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: Um Modelo de Previsão de Carga por Barramento, Ano de Obtenção: 2004. Orientador: Takaaki Ohishi. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Inteligência Artificial; Mineração de Dados; Análise de Dados; Previsão de Séries Temporais; Modelagem Matemática; Desenvolvimento de Algoritmos. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Inteligência Computacional. Setores de atividade: Desenvolvimento de Programas (Software); Informática; Energia.</descricao>
         </formacao>
@@ -12183,872 +12927,5 @@
           <ano>2002</ano>
         </evento>
     </participacao_evento>
-  </pesquisador>
-  <pesquisador id="1722873559734250">
-    <identificacao>
-      <identificador10></identificador10>
-      <nome_inicial>Tomas Dias Sant Ana</nome_inicial>
-      <nome_completo>Tomás Dias Sant'Ana</nome_completo>
-      <nome_citacao_bibliografica>SANT' ANA, T. D.;SANT´ ANA, T. D.;Sant¿Ana, Tomás Dias;Sant¿ Ana, Tomás Dias;DIAS SANT´ANA, TOMÁS;SANT´ANA, TOMÁS DIAS</nome_citacao_bibliografica>
-      <sexo>Masculino</sexo>
-    </identificacao>
-    <idiomas>
-      <idioma>
-          <nome>Inglês</nome>
-          <proficiencia>, Lê Razoavelmente, Escreve Pouco.</proficiencia>
-      </idioma>
-      <idioma>
-          <nome>Espanhol</nome>
-          <proficiencia>Compreende Pouco, Lê Pouco.</proficiencia>
-      </idioma>
-    </idiomas>
-    <endereco>
-      <endereco_profissional>Universidade Federal de Lavras, Escola de Ciências Agrárias de Lavras - ESAL. Universidade Federal de Lavras Ignácio Valentin 37200900 - Lavras, MG - Brasil Telefone: (35) 999711424 URL da Homepage: www.ufla.br</endereco_profissional>
-      <endereco_profissional_lat></endereco_profissional_lat>
-      <endereco_profissional_long></endereco_profissional_long>
-    </endereco>
-    <formacao_academica>
-        <formacao>
-          <ano_inicio>2018</ano_inicio>
-          <ano_conclusao>2021</ano_conclusao>
-          <tipo>Doutorado em Administração (Conceito CAPES 5)</tipo>
-          <nome_instituicao>Universidade de Brasília, UnB, Brasil</nome_instituicao>
-          <descricao>Título: Ecossistema de inovação para eficiência do gasto público: uma pesquisa-ação no Ministério da Educação O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2021. Orientador: Paulo Henrique de Souza Bermejo. Palavras-chave: Eficiência do gasto público; Ecossistema de inovação; Gestão Pública; Institutos Federais; Universidades Federais. Grande área: Ciências Sociais Aplicadas Setores de atividade: Administração pública, defesa e seguridade social; Educação.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>1999</ano_inicio>
-          <ano_conclusao>2001</ano_conclusao>
-          <tipo>Mestrado em Ciências da Computação e Matemática Computacional (Conceito CAPES 7)</tipo>
-          <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
-          <descricao>Título: ASTRAL - Ambiente de Simulação e Teste de pRogramas parALelos O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2001. Orientador: Regina Helena Carlucci Santana. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Simulação de Programas Paralelos; Depuração de Programas Paralelos; Implementação de Programas Paralelos; Teste de Programas Paralelos; Programação Concorrente; Sistemas Distribuídos. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas Distribuídos e Programação Concorrente / Especialidade: Depuração de Programas Paralelos. Setores de atividade: Educação Superior.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>1998</ano_inicio>
-          <ano_conclusao>1998</ano_conclusao>
-          <tipo>Graduação em Ciência da Computação</tipo>
-          <nome_instituicao>Universidade José do Rosário Vellano, UNIFENAS, Brasil</nome_instituicao>
-          <descricao>Título: BioBicho - Uso da Técnica do "Bichinho Virtual" para ensino de Biologia. Orientador: João Benedito dos Santos Junior.</descricao>
-        </formacao>
-        <formacao>
-          <ano_inicio>1995</ano_inicio>
-          <ano_conclusao>1997</ano_conclusao>
-          <tipo>Graduação em Processamento de Dados</tipo>
-          <nome_instituicao>Universidade José do Rosário Vellano, UNIFENAS, Brasil</nome_instituicao>
-          <descricao>Título: Sistema de Informatização de Paróquias - SIP. Orientador: José Cláudio de Souza Reis.</descricao>
-        </formacao>
-    </formacao_academica>
-    <projetos_pesquisa>
-        <projeto>
-          <ano_inicio>2017</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Gestão de Riscos nas Universidades Federais: Elaboração de Modelo de Referência e Implantação de Sistema</nome>
-          <descricao>Descrição: Criar uma metodologia e desenvolver uma ferramenta de software que possibilite às instituições públicas realizar o gerenciamento de seus riscos, envolvendo a elaboração, implementação, manutenção, monitoramento, avaliação e revisão de seu plano de gerenciamento de riscos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (1) / Doutorado: (1) . Integrantes: Tomás Dias Sant'Ana - Integrante / Lucas Cezar Mendonça - Integrante / Eduardo Gomes Salgado - Coordenador. Financiador(es): Fundação de Apoio a Cultura, Ensino, Pesquisa e Extensão de Alfenas - Outra.Descrição: Criar uma metodologia e desenvolver uma ferramenta de software que possibilite às instituições públicas realizar o gerenciamento de seus riscos, envolvendo a elaboração, implementação, manutenção, monitoramento, avaliação e revisão de seu plano de gerenciamento de riscos.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Doutorado: (2) . Integrantes: Rodrigo Martins Pagliares - Integrante / Paulo Henrique de Souza Bermejo - Integrante / Tomás Dias Sant'ana - Integrante / Eduardo Gomes Salgado - Coordenador / Lucas Cezar Mendonça - Integrante / Fábio Henrique dos Anjos - Integrante / Wagner Vilas Boas de Souza - Integrante / Débora Silva Barroso de Araújo - Integrante.Descrição: Criar uma metodologia e desenvolver uma ferramenta de software que possibilite às instituições públicas realizar o gerenciamento de seus riscos, envolvendo a elaboração, implementação, manutenção, monitoramento, avaliação e revisão de seu plano de gerenciamento de riscos.. Situação: Em andamento; Natureza: Pesquisa.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (10) / Doutorado: (2) . Integrantes: Eduardo Gomes Salgado - Coordenador / Rodrigo Martins Pagliares - Integrante / Tomás Dias Sant'ana - Integrante / Paulo Henrique de Souza Bermejo - Integrante / Lucas Cezar Mendonça - Integrante / Fábio Henrique dos Anjos - Integrante / Wagner Vilas Boas de Souza - Integrante / Débora Silva Barroso de Araújo - Integrante. Financiador(es): Ministério da Educação - Auxílio financeiro. Número de produções C, T & A: 4</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2016</ano_inicio>
-          <ano_conclusao>2017</ano_conclusao>
-          <nome>Informatização do Plano de Desenvolvimento Institucional da UNIFAL-MG</nome>
-          <descricao>Descrição: Desenvolver uma ferramenta de software para apoiar a elaboração e gestão do plano de desenvolvimento institucional da Universidade Federal de Alfenas.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) / Mestrado acadêmico: (2) / Mestrado profissional: (2) / Doutorado: (2) . Integrantes: Tomás Dias Sant'Ana - Coordenador / Lucas Cezar Mendonça - Integrante. Financiador(es): Fundação de Apoio a Cultura, Ensino, Pesquisa e Extensão de Alfenas - Outra.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2005</ano_inicio>
-          <ano_conclusao>2008</ano_conclusao>
-          <nome>Orientação de Projeto de Iniciação para construção do Algoritmo de Roteamento no Emulador de Redes TCP/IP</nome>
-          <descricao>Descrição: Para facilitar o aprendizado da arquitetura TCP/IP por parte de alunos e profissionais de informática, foi criado o ETCPIP (emulador TCP/IP). Este sistema tem como objetivo implementar um software que emule equipamentos e softwares de redes de computadores. O projeto e implementação da primeira versão desse trabalho foi realizado por Bruno Ferreira, Danielle Costa e Juvêncio Geraldo de Moura. Nesta primeira versão o software está limitado a implementação dos seguintes equipamentos: hub, switch e host. Os protocolos implementados são: ARP (Adderess Resolution Protocol) e ICMP (Internet Control Message Protocol), request (requisição) e reply (resposta). Para o desenvolvimento deste projeto será implementado o algoritmo de roteamento estático e o dispositivo físico, roteador.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Tomás Dias Sant'Ana - Coordenador / Diego Cunha Maciel - Integrante / Rosimeire Figueiredo da Silva - Integrante. Financiador(es): Universidade Vale do Rio Verde de Três Corações - Bolsa.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2005</ano_inicio>
-          <ano_conclusao>2008</ano_conclusao>
-          <nome>Orientação de um Projeto de Iniciação Científica para Construção de um Emulador de Redes TCP/IP</nome>
-          <descricao>Descrição: O E.T. (Emulador TCP/IP) tem como objetivo principal emular graficamente o funcionamento de uma rede de computadores TCP/IP. Com o emulador o estudante ou profissional poderá ver como se comporta o protocolo TCP/IP na prática, sem a necessidade de ter todos os equipamentos físicos no local onde está estudando. O professor pode utilizar a ferramenta para expor graficamente conceitos sobre redes, através de uma interface gráfica. A ferramenta é o resultado de um projeto de Conclusão de Curso apresentado ao Programa de Pós-Graduação em Redes de Computadores do Centro Universitário do Sul de Minas sob orientação do professor Tomás Dias Santana. É parte integrante do projeto de desenvolvimento tecnológico denominado "Desenvolvimento de Objetos de Aprendizagem para Conteúdos relacionados a Redes de Computadores" em execução no Centro Universitário do Sul de Minas - UNIS/MG.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (3) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Tomás Dias Sant'Ana - Coordenador / Fernando Henrique Martins Baldance - Integrante / Bruno Ferreira - Integrante / Danielle Costa - Integrante / Juvêncio Geraldo de Moura - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa.</descricao>
-        </projeto>
-    </projetos_pesquisa>
-    <area_atuacao>
-          <descricao>Grande área: Ciências Humanas / Área: Educação / Subárea: Administração Educacional.</descricao>
-          <descricao>Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Estratégia e Planejamento.</descricao>
-          <descricao>Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Estrutura, processos e serviços.</descricao>
-          <descricao>Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Gestão da Inovação.</descricao>
-    </area_atuacao>
-    <premios_titulos>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Benemérito, Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - IFULDEMINAS.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Grande Oficial da Ordem Nacional do Mérito Educativo, Presidência da República Federativa do Brasil.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Mençao Honrosa - Selo MEC + Integridade, Ministério da Educação - MEC.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Selo de Modernização do Estado - Categoria Ouro (Iniciativa: Catálogo Nacional de Cursos Técnicos), Fórum Nacional de Modernização do Estado (FNME) - Presidência da República.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Selo de Modernização do Estado - Categoria Bronze (Iniciativa: Catálogo Nacional de Cursos Superiores de Tecnologia), Fórum Nacional de Modernização do Estado (FNME) - Presidência da República.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Selo de Modernização do Estado - Categoria Bronze (Iniciativa: Docência para Educação Profissional e Tecnológica), Fórum Nacional de Modernização do Estado (FNME) - Presidência da República.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Selo de Modernização do Estado - Categoria Bronze (Iniciativa: eduCA+), Fórum Nacional de Modernização do Estado (FNME) - Presidência da República.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Selo de Modernização do Estado - Categoria Bronze (Iniciativa: Cursos MOOC em Mentoria para Educação Profissional), Fórum Nacional de Modernização do Estado (FNME) - Presidência da República.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2022</ano>
-          <descricao>Selo de Modernização do Estado - Categoria Bronze (Iniciativa: Aplicativo de Orientação Profisisonal SOUTEC), Fórum Nacional de Modernização do Estado (FNME) - Presidência da República.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2021</ano>
-          <descricao>Menção Honrosa pela indicação ao PRÊMIO MELHOR ARTIGO DE AUTORIA DISCENTE DOUTORANDO, Programa de Pós-Graduação em Administração da Universidade de Brasília - PPGA-UNB.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2019</ano>
-          <descricao>Certificado de Homenagem, Universidade Federal de Alfenas - Campus Varginha.</descricao>
-        </premio_titulo>
-        <premio_titulo>
-          <ano>2004</ano>
-          <descricao>Edital de Convite PAPED 01/2004 - CHAMADA 2, MEC / CAPES - Coordenação de Programas Especiais.</descricao>
-        </premio_titulo>
-    </premios_titulos>
-    <colaboradores>
-        <id_lattes_colaborador>9012704117180126</id_lattes_colaborador>
-        <id_lattes_colaborador>2363460036599181</id_lattes_colaborador>
-        <id_lattes_colaborador>1722873559734250</id_lattes_colaborador>
-    </colaboradores>
-    <artigos_em_periodicos>
-        <artigo>
-          <doi>http://dx.doi.org/10.1080/01900692.2019.1660995</doi>
-          <titulo>Scientific Research on the Efficiency of Public Expenditures: How and Where is it Going?</titulo>
-          <autores>SANT' ANA, T. D.; LOPES, André Vaz ; MIRANDA, RODRIGO FONTENELLE DE ARAUJO ; BERMEJO, PAULO HENRIQUE DE SOUZA ; DEMO, GISELA</autores>
-          <revista>INTERNATIONAL JOURNAL OF PUBLIC ADMINISTRATION (PRINT)</revista>
-          <volume>INTERNATIONAL JOURNAL OF PUBLIC ADMINISTRATION (PRINT)</volume>
-          <paginas>926-936</paginas>
-          <numero></numero>
-          <ano>2020</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1108/MD-03-2019-0383</doi>
-          <titulo>The structure of an innovation ecosystem: foundations for future research</titulo>
-          <autores>DIAS SANT´ANA, TOMÁS; de Souza Bermejo, Paulo Henrique ; MOREIRA, MARINA FIQUEIREDO ; DE SOUZA, WAGNER VILAS BOAS</autores>
-          <revista>MANAGEMENT DECISION</revista>
-          <volume>MANAGEMENT DECISION</volume>
-          <paginas>2725-2742</paginas>
-          <numero></numero>
-          <ano>2020</ano>
-        </artigo>
-        <artigo>
-          <doi></doi>
-          <titulo>Risk Management in the Public Sector: A Proposed Reference Model and Tool Survey</titulo>
-          <autores>BERMEJO, P. H. S. ; SANT' ANA, T. D. ; MENDONCA, L. C. ; SALGADO, E. G. ; ANJOS, F. H. ; PINHEIRO, I. F.</autores>
-          <revista>ADVANCES IN INTELLIGENT SYSTEMS AND COMPUTING</revista>
-          <volume>ADVANCES IN INTELLIGENT SYSTEMS AND COMPUTING</volume>
-          <paginas>817-834</paginas>
-          <numero></numero>
-          <ano>2018</ano>
-        </artigo>
-        <artigo>
-          <doi></doi>
-          <titulo>Systematic Literature Review of the Risk Management Process Literature for the Public Sector</titulo>
-          <autores>SALGADO, E. G. ; ANJOS, F. H. ; SILVA, V. N. ; SOUZA, M. ; SANT' ANA, T. D. ; BERMEJO, P. H. S. ; MENDONCA, L. C. ; PINHEIRO, I. F.</autores>
-          <revista>ADVANCES IN INTELLIGENT SYSTEMS AND COMPUTING</revista>
-          <volume>ADVANCES IN INTELLIGENT SYSTEMS AND COMPUTING</volume>
-          <paginas>865-882</paginas>
-          <numero></numero>
-          <ano>2018</ano>
-        </artigo>
-        <artigo>
-          <doi></doi>
-          <titulo>Strategic Planning in the Public Sector: How can Brazilian Public Universities Transform Their Management, Computerise Processes and Improve Monitoring?</titulo>
-          <autores>MENDONCA, L. C. ; ANJOS, F. H. ; BERMEJO, P. H. S. ; SANT' ANA, T. D. ; BORGES, G. H. A.</autores>
-          <revista>Lecture Notes in Computer Science</revista>
-          <volume>Lecture Notes in Computer Science</volume>
-          <paginas>294-306</paginas>
-          <numero></numero>
-          <ano>2017</ano>
-        </artigo>
-        <artigo>
-          <doi></doi>
-          <titulo>Brazilian Public Sector Perception on Enterprise Risk Management</titulo>
-          <autores>ALVES, G. F. ; LIMA NETO, W. ; COLI JUNIOR, M. C. ; BERMEJO, P. H. S. ; SANT´ ANA, T. D. ; SALGADO, E. G.</autores>
-          <revista>LECTURE NOTES IN BUSINESS INFORMATION PROCESSING</revista>
-          <volume>LECTURE NOTES IN BUSINESS INFORMATION PROCESSING</volume>
-          <paginas>506-512</paginas>
-          <numero></numero>
-          <ano>2017</ano>
-        </artigo>
-    </artigos_em_periodicos>
-    <livros_publicados>
-        <livro>
-          <autores>BERMEJO, P. H. S. ; PAGOTTO, D. P. ; DALTRO, P. J. G. ; SANT' ANA, T. D. ; VELLENICH, I. ; RODRIGUES, A. A. M.</autores>
-          <titulo>Como impulsionar a eficiência organizacional a partir da gestão de processos? Experiências do Superior Tribunal Militar</titulo>
-          <edicao>1</edicao>
-          <volume>1</volume>
-          <paginas>124</paginas>
-          <ano>2019</ano>
-        </livro>
-        <livro>
-          <autores>MELO, G. S. ; BERMEJO, P. H. S. ; MALTEZ, G. S. ; SANT' ANA, T. D. ; FERNANDES, K. R.</autores>
-          <titulo>Análise e Aprovação de Preços de Publicidade e Comunicação na Administração Pública</titulo>
-          <edicao>1</edicao>
-          <volume>1</volume>
-          <paginas>200</paginas>
-          <ano>2019</ano>
-        </livro>
-        <livro>
-          <autores>Bermejo, Paulo Henrique de Souza ; SANTANA, T. D. ; SALGADO, Eduardo Gomes ; MENDONCA, L. C. ; ANJOS, F. H. ; de Freitas Alves, Gustavo ; BORGES, G. H. A. ; PAGOTTO, D. P. ; PAGLIARES, R. M. ; PINHEIRO, I. F. ; SALOMAO, I. F. ; SILVA, P. D. P. G. E. ; NEVES, T. J. G.</autores>
-          <titulo>ForRisco: gerenciamento de riscos em instituições públicas na prática</titulo>
-          <edicao>1</edicao>
-          <volume>1</volume>
-          <paginas>200</paginas>
-          <ano>2018</ano>
-        </livro>
-        <livro>
-          <autores>SANT´ ANA, T. D.; BERMEJO, P. H. S. ; MENDONCA, L. C. ; SANTOS, N. M. ; BORGES, G. H. A. ; SOUZA, W. V. B. ; PINHEIRO, I. F. ; SANCHEZ, A. M. N. ; BERMEJO, L. P. S. ; SOUZA, M. P. ; ALMEIDA, E. L. ; MELO, G. S.</autores>
-          <titulo>Plano de Desenvolvimento Institucional - PDI: um guia de conhecimentos para as Instituições Federais de Ensino</titulo>
-          <edicao>1</edicao>
-          <volume>1</volume>
-          <paginas>130</paginas>
-          <ano>2017</ano>
-        </livro>
-    </livros_publicados>
-    <capitulos_livros>
-        <capitulo>
-          <livro></livro>
-          <titulo>Scientific Research on the Efficiency of Public Expenditures. Global Encyclopedia of Public Administration, Public Policy, and Governance. 1ed</titulo>
-          <autores>Sant¿Ana, Tomás Dias; LOPES, André Vaz ; de Araújo Miranda, Rodrigo Fontenelle ; de Souza Bermejo, Paulo Henrique ; DEMO, GISELA ; dos Anjos, Fábio Henrique</autores>
-          <edicao></edicao>
-          <editora>Springer International Publishing</editora>
-          <volume></volume>
-          <paginas>1-4</paginas>
-          <ano>2020</ano>
-        </capitulo>
-        <capitulo>
-          <livro></livro>
-          <titulo>Strategic Planning in the Public Sector: How Can Brazilian Public Universities Transform Their Management, Computerise Processes and Improve Monitoring?. Lecture Notes in Computer Science. 1ed</titulo>
-          <autores>Mendonça, Lucas Cezar ; dos Anjos, Fábio Henrique ; de Souza Bermejo, Paulo Henrique ; Sant¿Ana, Tomás Dias ; Borges, Guilherme Henrique Alves</autores>
-          <edicao></edicao>
-          <editora>Springer International Publishing</editora>
-          <volume></volume>
-          <paginas>294-306</paginas>
-          <ano>2017</ano>
-        </capitulo>
-        <capitulo>
-          <livro>Themistocleous M., Morabito V. (eds). (Org.). Lecture Notes in Business Information Processing. 1ed.Springer, Chan</livro>
-          <titulo>Perception of Enterprise Risk Management in Brazilian Higher Education Institutions. Lecture Notes in Business Information Processing. 1ed</titulo>
-          <autores>de Freitas Alves, Gustavo ; Neto, Waldemar Lima ; Coli, Marçal Chagas ; Bermejo, Paulo Henrique de Souza ; Sant¿ Ana, Tomás Dias ; Salgado, Eduardo Gomes</autores>
-          <edicao></edicao>
-          <editora>Springer International Publishing</editora>
-          <volume>299</volume>
-          <paginas>506-512</paginas>
-          <ano>2017</ano>
-        </capitulo>
-    </capitulos_livros>
-    <trabalho_completo_congresso>
-        <trabalho_completo>
-          <doi>http://dx.doi.org/10.14488/ENEGEP2022_TI_PES_398_1954_45257</doi>
-          <autores>SILVA, ELIZABETE RIBEIRO SANCHES DA ; MARUYAMA, ÚRSULA GOMES ROSA ; MAIA, JOHN ALISON RIBEIRO DA COSTA ; LIMA, KEDSON ; SANT´ANA, TOMÁS DIAS</autores>
-          <titulo>MATRIZ DE DISTRIBUIÇÃO ORÇAMENTÁRIA DA REDE FEDERAL DE EDUCAÇÃO PROFISSIONAL CIENTÍFICA E TECNOLÓGICA</titulo>
-          <nome_evento>ENEGEP 2022 Encontro Nacional de Engenharia de Produção</nome_evento>
-          <ano>2022</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi>http://dx.doi.org/10.14488/ENEGEP2022_TI_PES_398_1954_45262</doi>
-          <autores>MARUYAMA, ÚRSULA GOMES ROSA ; SILVA, ELIZABETE RIBEIRO SANCHES DA ; PASSOS, MARIZE LYRA SILVA ; LIMA, KEDSON ; SANT´ANA, TOMÁS DIAS</autores>
-          <titulo>O 'APRENDER FAZENDO' JUNTO COM A REDE FEDERAL: REDE MAKER</titulo>
-          <nome_evento>ENEGEP 2022 Encontro Nacional de Engenharia de Produção</nome_evento>
-          <ano>2022</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi>http://dx.doi.org/10.14488/enegep2022_ti_pes_398_1954_45266</doi>
-          <autores>SILVA, CARLOS EDUARDO SANCHES DA ; SANT´ANA, TOMÁS DIAS ; Salgado, Eduardo Gomes ; SOUZA, WAGNER VILAS BOAS DE</autores>
-          <titulo>PREMIO SANTOS DUMONT: MONOGRAFIA DE DEFESA</titulo>
-          <nome_evento>ENEGEP 2022 Encontro Nacional de Engenharia de Produção</nome_evento>
-          <ano>2022</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>VIANA, T. C. T. ; HORNINK, G. G. ; SANT' ANA, T. D.</autores>
-          <titulo>PLANEJAMENTO ESTRATÉGICO NA GESTÃO UNIVERSITÁRIA: O PROCESSO DE ELABORAÇÃO DE UM PLANO DE DESENVOLVIMENTO INSTITUCIONAL SOB A PERSPECTIVA DOS MODELOS GERENCIAL E SOCIETAL DE ADMINISTRAÇÃO PÚBLICA</titulo>
-          <nome_evento>XIII Colóquio Internacional sobre Gestão Universitária nas Américas</nome_evento>
-          <ano>2013</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>SANT' ANA, T. D.; MIRANDA, J. C. ; MARTINS, R. X.</autores>
-          <titulo>SIFACES: SIMULADOR DE INTERFACES PARA COMUNICAÇÃO DE DADOS</titulo>
-          <nome_evento>COBENGE - Congresso Brasileiro de Ensino de Engenharia</nome_evento>
-          <ano>2003</ano>
-          <volume></volume>
-          <paginas></paginas>
-        </trabalho_completo>
-        <trabalho_completo>
-          <doi></doi>
-          <autores>SANT' ANA, T. D.; SANTANA, R. H. C.</autores>
-          <titulo>ASTRAL - Ambiente de Simulação e Teste de pRogramas parALelos</titulo>
-          <nome_evento>VII Simpósio de Teses e Dissertações</nome_evento>
-          <ano>2002</ano>
-          <volume>1</volume>
-          <paginas>101-112</paginas>
-        </trabalho_completo>
-    </trabalho_completo_congresso>
-    <resumo_expandido_congresso>
-        <resumo_expandido>
-          <doi></doi>
-          <autores>MOREIRA, E. M. ; SANTANA, M. J. ; SANTANA, R. H. C. ; SANT' ANA, T. D.</autores>
-          <titulo>Auxiliary Tool for Debugging Parallel Programs</titulo>
-          <nome_evento>3rd International Information and Telecommunication Technologies Symposium, 2004, São Carlos. I2TS'2004</nome_evento>
-          <ano>2004</ano>
-          <volume>1</volume>
-          <paginas>184-185</paginas>
-        </resumo_expandido>
-    </resumo_expandido_congresso>
-    <resumo_congresso>
-        <resumo>
-          <doi></doi>
-          <autores>SANT' ANA, T. D.; SANTANA, R. H. C.</autores>
-          <titulo>ASTRAL - Ambiente de Simulação e Teste de pRogramas parALelos</titulo>
-          <nome_evento>VI Simpósio de Teses e Dissertações, 2001, São Carlos. VI Simpósio de Teses e Dissertações</nome_evento>
-          <ano>2001</ano>
-          <volume>1</volume>
-          <paginas>105-106</paginas>
-          <numero></numero>
-        </resumo>
-        <resumo>
-          <doi></doi>
-          <autores>SANT' ANA, T. D.; SANTANA, R. H. C.</autores>
-          <titulo>Ambiente de Simulação e Teste de Programas Paralelos</titulo>
-          <nome_evento>V Workshop de Teses e Dissertações em Andamento, 2000, São Carlos. V SIMPÓSIO DE TESES E DISSERTAÇÕES</nome_evento>
-          <ano>2000</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </resumo>
-    </resumo_congresso>
-    <apresentacao_trabalho>
-        <trabalho_apresentado>
-          <titulo>Estratégia de oferta de serviços digitais para as Instituições de Ensino Superior</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2021</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Orçamento e Finanças das IFES em 2019</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2019</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Apresentação da Matriz Andifes de Orçamento de Custeio e Capital (OCC)</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2017</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Gestão Orçamentária e Financeira das Universidades Federais</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2017</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Mesa Redonda MEC/ANDIFES/FORPLAD/FORDHOV</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2017</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>ForPDI - Modelo de Referência para as IFES</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2017</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Sistema de Informatização do Plano de Desenvolvimento Institucional - ForPDI</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Eficiência e Qualidade na Ocupação das Vagas Discentes nas Universidades Federais</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Planejamento, Orçamento e Sistemas Estruturantes do Governo</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2016</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Governança Corporativa nas Universidades Federais</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Orçamento, Matriz OCC e Matriz PNAES</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Empreendedorismo e Inovação</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Gestão Orçamentária e Financeira das Universidades Federais</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Gestão Orçamentária das Universidades Federais Orçamento Público Federal e Matriz OCC</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Assistência Estudantil</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>O Financiamento sustentável da Universidade Federal</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2015</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Planejamento Estratégico na Gestão Universitária: o Processo de Elaboração de um Plano de Desenvolvimento Institucional sob a Perspectiva dos Modelos Gerencial e Societal de Administração Pública</titulo>
-          <autores>VIANA, T. C. T. ; HORNINK, G. G. ; SANT' ANA, T. D.</autores>
-          <ano>2013</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Inovação</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2011</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Mitos e Realidade na Eduação à Distância</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2009</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Implementação de Aplicações Distribuídas</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2009</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Mercado de Trabalho ou Área Acadêmica, qual seguir?</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2009</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Mostra: Trabalho de Conclusão de Curso</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2009</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Implementação de um Sistema de Visão Computacional para um Jogo de Xadrex</titulo>
-          <autores>Silva, L. E. ; MACIEL, Diego Cunha ; SILVA, Rosimeire Figueiredo da ; ARJA, W. P. ; SANT' ANA, T. D.</autores>
-          <ano>2005</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Implementação do Algoritmo de Roteamento no E. T. (Emulador TCP/IP)</titulo>
-          <autores>MACIEL, Diego Cunha ; SILVA, Rosimeire Figueiredo da ; SANT' ANA, T. D. ; Silva, L. E.</autores>
-          <ano>2005</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Implementação de um Controle Dinâmico de Banda para Provedores de Serviço Internet</titulo>
-          <autores>CARVALHO, L. A. ; SANT' ANA, T. D.</autores>
-          <ano>2004</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>R2D - Ferramenta para Auxiliar no Ensino/Aprendizagem da Camada IP</titulo>
-          <autores>SILVA, D. F. ; COUTINHO, R. M. B. P. ; SANT' ANA, T. D.</autores>
-          <ano>2004</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Sifaces - Simulador de Interfaces para Comunicação de Dados</titulo>
-          <autores>MIRANDA, J. C. ; SANT' ANA, T. D.</autores>
-          <ano>2003</ano>
-          <natureza>Apresentação de Trabalho/Congresso</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Implementação de um Sistema de Detecção de Intrusão Baseado em Host</titulo>
-          <autores>CARVALHO, L. A. ; SANT' ANA, T. D.</autores>
-          <ano>2003</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Computação Paralela: aspectos sobre Desenvolvimento de Programas Paralelos</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2003</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Computação Paralela: aspectos sobre implementação, teste e depuração de programas paralelos</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2003</ano>
-          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Implementação de um Sistema de Detecção de Intrusão Baseado em Host</titulo>
-          <autores>CARVALHO, L. A. ; SANT' ANA, T. D.</autores>
-          <ano>2003</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Implementação de uma Máquina Virtual Paralela como solução para resolução de problemas que exigem grande poder computacional</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2002</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Estruturação da Rede dos Laboratórios de Informática da UNINCOR</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <ano>2002</ano>
-          <natureza>Apresentação de Trabalho/Outra</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Estudo Comparativo entre Tecnologias de Middleware RMI e Corba</titulo>
-          <autores>DIAS, G. C. ; SILVA, A. Q. ; SANT' ANA, T. D. ; ANA, T. D. S. ; MOREIRA, E. M.</autores>
-          <ano>2002</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Estudo de Redes Corporativas e Propostas de Otimização e Implantação de Serviços em uma Rede Heterogênea</titulo>
-          <autores>SOARES, T. L. L. ; CHAIB, R. G. ; SANT' ANA, T. D.</autores>
-          <ano>2002</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Ambiente Integrado para o Desenvolvimento de Aplicações Paralelas</titulo>
-          <autores>SILVA, A. Q. ; DIAS, G. C. ; OLIVEIRA, A. D. ; ALVES JUNIOR, J. C. M. ; MOREIRA, E. M. ; SANT' ANA, T. D.</autores>
-          <ano>2001</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Projeto de um Depurador para Programas Paralelos</titulo>
-          <autores>MELO, C. B. ; BARBOSA, H. C. ; MEDEIROS, R. H. ; MOREIRA, E. M. ; SANTANA, R. H. C. ; SANT' ANA, T. D.</autores>
-          <ano>2001</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Avaliação do Uso da Língua Internacional Neutra: Esperanto, em Problemas de Processamento Automático de Línguas Naturais</titulo>
-          <autores>ANDRADE FILHO, A. F. ; MOREIRA, E. M. ; SANT' ANA, T. D.</autores>
-          <ano>2001</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-        <trabalho_apresentado>
-          <titulo>Avaliação do Uso de Agentes Móveis para o Desenvolvimento de Aplicações Paralelas</titulo>
-          <autores>FREITAS, E. A. ; BELLI, J. ; NORONHAROCHA, V. ; MOREIRA, E. M. ; SANT' ANA, T. D.</autores>
-          <ano>2001</ano>
-          <natureza>Apresentação de Trabalho/Simpósio</natureza>
-        </trabalho_apresentado>
-    </apresentacao_trabalho>
-    <producao_tecnica>
-        <producao>
-          <titulo>Boas Práticas em EAD</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <natureza>Curso de curta duração ministrado/Extensão</natureza>
-          <ano>2013</ano>
-        </producao>
-        <producao>
-          <titulo>Linux Avançado - Configuração</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <natureza>Curso de curta duração ministrado/Extensão</natureza>
-          <ano>2003</ano>
-        </producao>
-        <producao>
-          <titulo>Desenvolvimento de Aplicações Delphi/Kilix</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <natureza>Curso de curta duração ministrado/Extensão</natureza>
-          <ano>2001</ano>
-        </producao>
-        <producao>
-          <titulo>Programação Avançada em Delphi</titulo>
-          <autores>SANT' ANA, T. D</autores>
-          <natureza>Curso de curta duração ministrado/Extensão</natureza>
-          <ano>2000</ano>
-        </producao>
-    </producao_tecnica>
-    <orientacao_especializacao_concluido>
-        <monografia>
-          <nome_aluno>Daniele Ferreira da Silva</nome_aluno>
-          <titulo_trabalho>R2D ? Simulador TCP/IP via Web</titulo_trabalho>
-          <ano>2004</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Rodolfo Gonçalves Chaib</nome_aluno>
-          <titulo_trabalho>Reestruturação de uma rede de computadores mostrando falhas e sugerindo melhorias</titulo_trabalho>
-          <ano>2004</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Juvêncio Geraldo de Moura</nome_aluno>
-          <titulo_trabalho>Simulador para Web das camadas de Interface de Rede e Rede da Arquitetura TCP/IP</titulo_trabalho>
-          <ano>2004</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Lino Alves Carvalho</nome_aluno>
-          <titulo_trabalho>Implementação de um Controle Dinâmico de Banda para Provedores de Serviço Internet</titulo_trabalho>
-          <ano>2004</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Francisco de Paula G. Paleta</nome_aluno>
-          <titulo_trabalho>Segurança no transporte de dados - Análise comparativa de protocolos</titulo_trabalho>
-          <ano>2003</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Adriano Ferreira Bueno</nome_aluno>
-          <titulo_trabalho>Objeto de aprendizagem do protocolo CSMA/CD de redes ethernet padrão IEEE 802.3</titulo_trabalho>
-          <ano>2003</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Wesley Natanael Gallo</nome_aluno>
-          <titulo_trabalho>Projeto de um Controle Dinâmico de Banda para Provedores de Serviço Internet</titulo_trabalho>
-          <ano>2003</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Jair Lamounier Júnior</nome_aluno>
-          <titulo_trabalho>Estudo de Caso: Estruturação de Cabeamento para Empresa de Médio ou Pequeno Porte</titulo_trabalho>
-          <ano>2003</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Pablo Luiz A. Toledo</nome_aluno>
-          <titulo_trabalho>Um Estudo sobre Qualidade de Serviços (QoS) em Redes TCP/IP</titulo_trabalho>
-          <ano>2003</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Alexandre Dezem Bertozzi</nome_aluno>
-          <titulo_trabalho>Redes Locais Sem Fio Wirelles - LAN</titulo_trabalho>
-          <ano>2002</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Vitor Lúcio da Silva</nome_aluno>
-          <titulo_trabalho>Interconexão entre o Servidor de Aplicativos e Banco de Dados da FHOMUV (Fundação Hospitalar do Município de Varginha) com a Administração Municipal</titulo_trabalho>
-          <ano>2002</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Ricardo Resente Flores</nome_aluno>
-          <titulo_trabalho>Funcionamento dos Protocolos TCP/IP, IPX/SPX e NetBeui</titulo_trabalho>
-          <ano>2002</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Romeísa Soares da Mata</nome_aluno>
-          <titulo_trabalho>Estudo de Caso: Implantação de Rede de Computadores em Escola de Ensino Fundamental e Médio</titulo_trabalho>
-          <ano>2002</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-        <monografia>
-          <nome_aluno>Juliano Coelho Miranda</nome_aluno>
-          <titulo_trabalho>SIFACES - Simulador de Interfaces</titulo_trabalho>
-          <ano>2002</ano>
-          <instituicao>(Aperfeiçoamento/Especialização em Pós Graduação Lato Sensu Em Redes de Computadores) - Centro Universitário do Sul de Minas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </monografia>
-    </orientacao_especializacao_concluido>
-    <orientacao_tcc_concluido>
-        <tcc>
-          <nome_aluno>Karim Costa Maluf de Paula</nome_aluno>
-          <titulo_trabalho>Projeto e implantação de um sensor para medição de umidade do solo</titulo_trabalho>
-          <ano>2012</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Guilherme Augusto Zampieri</nome_aluno>
-          <titulo_trabalho>Levantamento de Riquisitos para o Desenvolvimento de Ambientes Virtuais de Aprendizagem para o Ensino Supeior</titulo_trabalho>
-          <ano>2011</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Bruno Cesar da Ré Guerra</nome_aluno>
-          <titulo_trabalho>Redes de Sensores sem fio - Aplicações e Modelos de Sensores</titulo_trabalho>
-          <ano>2011</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Michele Fonseca Franco</nome_aluno>
-          <titulo_trabalho>A inclusão digital no sistema de Ensino Fundamental de Alfenas</titulo_trabalho>
-          <ano>2010</ano>
-          <instituicao>(Graduação em Pedagogia) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Danilo Bispo</nome_aluno>
-          <titulo_trabalho>Construção de um Sensor Sem Fio para Monitoramento de Consumo de Energia Elétrica de uma Geladeira em uma Rede Doméstica</titulo_trabalho>
-          <ano>2010</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Danilo P. Brandão</nome_aluno>
-          <titulo_trabalho>Sistema de Gestão de Tecnologia da Informação da Injesul Plásticos Indústria e Comércio Ltda.</titulo_trabalho>
-          <ano>2005</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Oscar de Almeida Júnior</nome_aluno>
-          <titulo_trabalho>Sistema de Pregão Eletrônico para Web</titulo_trabalho>
-          <ano>2005</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Gustavo Monteiro Passos</nome_aluno>
-          <titulo_trabalho>Estudo para Implementação de Jogos para Computador</titulo_trabalho>
-          <ano>2001</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade José do Rosário Vellano</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
-          <nome_aluno>Lívia Carvalho de Oliveira</nome_aluno>
-          <titulo_trabalho>Estudos de Protocolos para Automação Residencial por Computador</titulo_trabalho>
-          <ano>2001</ano>
-          <instituicao>(Graduação em Ciência da Computação) - Universidade José do Rosário Vellano</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-    </orientacao_tcc_concluido>
-    <orientacao_iniciacao_cientifica_concluido>
-        <iniciacao_cientifica>
-          <nome_aluno>Lucas Tardioli Silveira</nome_aluno>
-          <titulo_trabalho>Tecnologias para suporte à negociação</titulo_trabalho>
-          <ano>2011</ano>
-          <instituicao>(Graduando em Ciência da Computação) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-    </orientacao_iniciacao_cientifica_concluido>
-    <participacao_evento>
-        <evento>
-          <titulo>PUBSIC Conference 2019 (Innovation in Public Services and Public Policy). ForRisco Methodology and the empiricism of risk management in Brazilian High-Level Educational Institutions. 2019. (Congresso).</titulo>
-          <ano>2019</ano>
-        </evento>
-        <evento>
-          <titulo>Third International Congress on Information and Communication Technology (ICICT-2018). Risk Management in the Public Sector: A Proposed Reference Model and Tool Survey. 2018. (Congresso).</titulo>
-          <ano>2018</ano>
-        </evento>
-        <evento>
-          <titulo>14th European Mediterranean & Middle Eastern Conference on Information Systems (EMCIS). Perception of Enterprise Risk Management in Brazilian Higher Education Institutions. 2017. (Congresso).</titulo>
-          <ano>2017</ano>
-        </evento>
-        <evento>
-          <titulo>6th International Conference on Electronic Government and the Information Systems Perspective (EGOVIS 2017). Strategic Planning in the Public Sector: How can Brazilian Public Universities Transform Their Management, Computerise Processes and Improve Monitoring?. 2017. (Congresso).</titulo>
-          <ano>2017</ano>
-        </evento>
-        <evento>
-          <titulo>I Encontro Regional Sudeste 2016 do FONAPRACE.Conjuntura Nacional da Assistência Estudantil nas IFES. 2016. (Encontro).</titulo>
-          <ano>2016</ano>
-        </evento>
-    </participacao_evento>
-    <organizacao_evento>
-        <evento>
-          <titulo></titulo>
-          <natureza></natureza>
-          <ano>0</ano>
-        </evento>
-        <evento>
-          <titulo></titulo>
-          <natureza></natureza>
-          <ano>0</ano>
-        </evento>
-        <evento>
-          <titulo></titulo>
-          <natureza></natureza>
-          <ano>0</ano>
-        </evento>
-        <evento>
-          <titulo></titulo>
-          <natureza></natureza>
-          <ano>0</ano>
-        </evento>
-        <evento>
-          <titulo></titulo>
-          <natureza></natureza>
-          <ano>0</ano>
-        </evento>
-    </organizacao_evento>
   </pesquisador>
 </curriculo_lattes>

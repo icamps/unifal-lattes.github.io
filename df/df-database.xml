@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="15/05/2023 11:34:04">
+<curriculo_lattes data_processamento="30/06/2023 10:20:49">
   <pesquisador id="8478305453281130">
     <identificacao>
       <identificador10></identificador10>
       <nome_inicial>Anibal Thiago Bezerra</nome_inicial>
       <nome_completo>Anibal Thiago Bezerra</nome_completo>
-      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.;BEZERRA, A.'T.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -62,14 +62,14 @@
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Estudo de primeiros princípios (DFT) de ligas metálicas</nome>
-          <descricao>Descrição: Nesse projeto, ligas metálicas baseadas em ouro serão analisadas por meio da Teoria do Funcional de Densidade (DFT) para obtenção de propriedades como estrutura eletrônica, densidade de estados, absorção ótica e propriedades de transporte. O objetivo deste trabalho será realizar a otimização estrutural dessas ligas para diferentes concentrações e organizações dos metais, bem como para os materiais puros, para aplicações em dispositivos fotônicos. Para as várias concentrações, serão testadas diferentes organizações dos átomos na estrutura a fim de se obter a otimização estrutural da liga em questão. Após a otimização estrutural, serão obtidas a estrutura de bandas dessas ligas e a densidade de estados, para posterior obtenção das características dielétricas das ligas. Especificamente, serão calculadas as componentes diagonais da parte real e imaginária do tensor dielétrico, em função da frequência de excitação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Anibal Thiago Bezerra - Coordenador / Mariama Rebelo de Souza dias - Integrante. Número de produções C, T & A: 1</descricao>
+          <nome>Inteligência artificial aplicada à sistemas físicos</nome>
+          <descricao>Descrição: Nesse projeto usaremos as técnicas de inteligência artificial e aprendizado de máquina para analisar as propriedades de sistemas físicos. Iremos utilizar da capacidade de determinar padrões das Redes Neurais Artificiais para estudar e buscar por previsões de propriedades óticas e de transporte de sistemas semicondutores baseados em poços quânticos. Dentre as propriedades que pretendemos analisar está a influência da não parabolicidade na estrutura eletrônica desses sistemas e suas consequências em propriedades como absorção ótica, corrente, fotocorrente, dentre outras.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Anibal Thiago Bezerra - Coordenador / Gabriel da Silva Macedo - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Inteligência artificial aplicada à sistemas físicos</nome>
-          <descricao>Descrição: Nesse projeto usaremos as técnicas de inteligência artificial e aprendizado de máquina para analisar as propriedades de sistemas físicos. Iremos utilizar da capacidade de determinar padrões das Redes Neurais Artificiais para estudar e buscar por previsões de propriedades óticas e de transporte de sistemas semicondutores baseados em poços quânticos. Dentre as propriedades que pretendemos analisar está a influência da não parabolicidade na estrutura eletrônica desses sistemas e suas consequências em propriedades como absorção ótica, corrente, fotocorrente, dentre outras.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Anibal Thiago Bezerra - Coordenador / Gabriel da Silva Macedo - Integrante.</descricao>
+          <nome>Estudo de primeiros princípios (DFT) de ligas metálicas</nome>
+          <descricao>Descrição: Nesse projeto, ligas metálicas baseadas em ouro serão analisadas por meio da Teoria do Funcional de Densidade (DFT) para obtenção de propriedades como estrutura eletrônica, densidade de estados, absorção ótica e propriedades de transporte. O objetivo deste trabalho será realizar a otimização estrutural dessas ligas para diferentes concentrações e organizações dos metais, bem como para os materiais puros, para aplicações em dispositivos fotônicos. Para as várias concentrações, serão testadas diferentes organizações dos átomos na estrutura a fim de se obter a otimização estrutural da liga em questão. Após a otimização estrutural, serão obtidas a estrutura de bandas dessas ligas e a densidade de estados, para posterior obtenção das características dielétricas das ligas. Especificamente, serão calculadas as componentes diagonais da parte real e imaginária do tensor dielétrico, em função da frequência de excitação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Anibal Thiago Bezerra - Coordenador / Mariama Rebelo de Souza dias - Integrante. Número de produções C, T & A: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
@@ -140,6 +140,16 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.1016/j.physe.2022.115513</doi>
+          <titulo>Leveraging machine learning to harness non-parabolic effects in semiconductor heterostructures</titulo>
+          <autores>DA SILVA MACEDO, GABRIEL ; DE SOUSA DIAS, MARIAMA REBELLO ; BEZERRA, Anibal Thiago</autores>
+          <revista>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</revista>
+          <volume>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</volume>
+          <paginas>115513</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1088/1402-4896/acbdc8</doi>
           <titulo>Revisiting semiconductor bulk hamiltonians using quantum computers</titulo>
           <autores>PIMENTA, RAPHAEL CÉSAR DE SOUZA ; BEZERRA, Anibal Thiago</autores>
@@ -160,12 +170,22 @@
           <ano>2023</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physe.2022.115513</doi>
-          <titulo>Leveraging machine learning to harness non-parabolic effects in semiconductor heterostructures</titulo>
-          <autores>DA SILVA MACEDO, GABRIEL ; DE SOUSA DIAS, MARIAMA REBELLO ; BEZERRA, Anibal Thiago</autores>
-          <revista>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</revista>
-          <volume>PHYSICA E-LOW-DIMENSIONAL SYSTEMS & NANOSTRUCTURES</volume>
-          <paginas>115513</paginas>
+          <doi>http://dx.doi.org/10.1103/physrevd.107.092012</doi>
+          <titulo>Identification and reconstruction of low-energy electrons in the ProtoDUNE-SP detector</titulo>
+          <autores>ABUD, A</autores>
+          <revista>PHYSICAL REVIEW D</revista>
+          <volume>PHYSICAL REVIEW D</volume>
+          <paginas>092012</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.107.112012</doi>
+          <titulo>Impact of cross-section uncertainties on supernova neutrino spectral parameter fitting in the Deep Underground Neutrino Experiment</titulo>
+          <autores>ABED ABUD, A</autores>
+          <revista>PHYSICAL REVIEW D</revista>
+          <volume>PHYSICAL REVIEW D</volume>
+          <paginas>112012</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -3186,7 +3206,7 @@
           <ano>2005</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
+          <doi></doi>
           <titulo>Construção e caracterização de um biossensor potenciométrico para determinação de pirogalol</titulo>
           <autores>LOUZADA, E. S. ; LUCCAS, P. O. ; MAGALHÃES, C. S.</autores>
           <revista>Analytica (São Paulo)</revista>
@@ -3226,7 +3246,7 @@
           <ano>1993</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.350194&md5=d0694a7ea71c562613e8de7b9ebe3e13</doi>
           <titulo>On the origin of Franz-Keldysh oscillations in AlGaAs/GaAs modulation-doped heterojuctions</titulo>
           <autores>NOVELLINO, R. A. ; VAZQUEZLÓPEZ, C. ; BERNUSSI, A. A. ; MAGALHÃES, C. S. ; CERDEIRA, F. ; MOTISUKE, P. ; POLLAK, F. H. ; PLOOG, K.</autores>
           <revista>Journal of Applied Physics</revista>
@@ -4121,14 +4141,14 @@
         <formacao>
           <ano_inicio>2007</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <tipo>Doutorado em Educação (Conceito CAPES 5)</tipo>
+          <tipo>Doutorado em Educação (Conceito CAPES 6)</tipo>
           <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
           <descricao>Título: Educação Científica e cidadania: as diferentes concepções e funções do conceito de cidadania nas pesquisas em Educação Em Ciências O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2011. Orientador: Alice Helena Campos Pierson. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Educação científica; Ensino de Ciências; Cidadania. Grande área: Ciências Humanas Grande Área: Ciências Humanas / Área: Educação / Subárea: Tópicos Específicos de Educação. Setores de atividade: Educação.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2007</ano_conclusao>
-          <tipo>Mestrado em Educação (Conceito CAPES 5)</tipo>
+          <tipo>Mestrado em Educação (Conceito CAPES 6)</tipo>
           <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
           <descricao>Título: Física no Ensino Médio e Estudantes Trabalhadores: buscando relações entre significado e sentido para a aprendizagem O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2007. Orientador: Alice Helena Campos Pierson. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Ensino de Física; estudantes trabalhadores; teoria histórico-cultural da atividade; Psicologia histórico-cultural. Grande área: Ciências Humanas Grande Área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem / Especialidade: Ensino de Física. Setores de atividade: Educação Média de Formação Geral.</descricao>
         </formacao>
@@ -7356,14 +7376,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
-          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
+          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
-          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
+          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
+          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -8034,6 +8054,16 @@
           <ano>1996</ano>
         </artigo>
     </artigos_em_periodicos>
+    <livros_publicados>
+        <livro>
+          <autores>C. Aguiar ; Camps, I.</autores>
+          <titulo>Molecular Docking Simulations: A comprehensive guide for beginners</titulo>
+          <edicao>1a</edicao>
+          <volume></volume>
+          <paginas></paginas>
+          <ano>2023</ano>
+        </livro>
+    </livros_publicados>
     <capitulos_livros>
         <capitulo>
           <livro></livro>
@@ -14162,14 +14192,14 @@
         <formacao>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2013</ano_conclusao>
-          <tipo>Doutorado em Educação (Conceito CAPES 5)</tipo>
+          <tipo>Doutorado em Educação (Conceito CAPES 6)</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: Energia Nuclear Mediante o Enfoque Ciência, Tecnologia e Sociedade na Formação Inicial de Professores de Física, Ano de obtenção: 2013. Orientador: Maria José Pereira Monteiro de Almeida. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Ensino de Física; Ensino Médio; formação incial de professores; energia nuclear; CTS. Grande área: Ciências Humanas</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2008</ano_conclusao>
-          <tipo>Mestrado em Educação (Conceito CAPES 5)</tipo>
+          <tipo>Mestrado em Educação (Conceito CAPES 6)</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: ORGANIZAÇÃO DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR PARA O ENSINO MÉDIO, Ano de Obtenção: 2008. Orientador: Maria José Pereira Monteiro de Almeida. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: formação incial de professores; Ensino Médio; Ensino de Física. Grande área: Ciências Humanas</descricao>
         </formacao>
@@ -16201,6 +16231,11 @@
         </trabalho>
         <trabalho>
           <titulo>Parecer científico para aceite de artigo na Plasmonics</titulo>
+          <autores>ARRUDA, T. J</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
+          <titulo>Parecer científico para aceite de artigo no Physical Review B</titulo>
           <autores>ARRUDA, T. J</autores>
           <ano>2023</ano>
         </trabalho>

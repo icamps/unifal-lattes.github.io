@@ -1,5 +1,5 @@
 strict graph grafo1 {
-	graph [bb="0,0,1416,78",
+	graph [bb="0,0,1253,78",
 		id=grafo1,
 		overlap=False
 	];
@@ -22,14 +22,14 @@ strict graph grafo1 {
 		label="Cássius A. Miquele de Melo [7]",
 		pos="244.5,67.5",
 		width=2.3194];
-	8	 [URL="membro-8073303573679522.html",
+	6	 [URL="membro-8073303573679522.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
 		label="Rodrigo Rocha Cuzinatto [7]",
 		pos="244.5,10.5",
 		width=2.1389];
-	1 -- 8	 [pos="244.5,56.779 244.5,46.588 244.5,31.348 244.5,21.173"];
+	1 -- 6	 [pos="244.5,56.779 244.5,46.588 244.5,31.348 244.5,21.173"];
 	2	 [URL="membro-2425549033248106.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
@@ -58,18 +58,11 @@ strict graph grafo1 {
 		label="Marcelo Gonçalves Vivas [0]",
 		pos="996.5,67.5",
 		width=2.1528];
-	6	 [URL="membro-9972552337847809.html",
+	7	 [URL="membro-9972552337847809.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
 		label="Mariama R. de Sousa Dias [0]",
 		pos="1172.5,67.5",
 		width=2.2361];
-	7	 [URL="membro-3697495590985027.html",
-		color="#0A6EA4",
-		fontcolor="#FFFFFF",
-		height=0.29167,
-		label="Rafael F. Coelho Neves [0]",
-		pos="1343.5,67.5",
-		width=2.0139];
 }
