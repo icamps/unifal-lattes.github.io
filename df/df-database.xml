@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="30/06/2023 12:10:34">
+<curriculo_lattes data_processamento="13/09/2023 16:57:48">
   <pesquisador id="8478305453281130">
     <identificacao>
       <identificador10></identificador10>
       <nome_inicial>Anibal Thiago Bezerra</nome_inicial>
       <nome_completo>Anibal Thiago Bezerra</nome_completo>
-      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.;BEZERRA, A.'T.</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>BEZERRA, Anibal Thiago;BEZERRA, A T;BEZERRA, ANIBAL T.;BEZERRA, ANIBAL;BEZERRA, ANIBAL T;ANIBAL THIAGO BEZERRA;BEZERRA, A.T.;BEZERRA, A.'T.;BEZERRA, A. T.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -27,14 +27,14 @@
         <formacao>
           <ano_inicio>2010</ano_inicio>
           <ano_conclusao>2014</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 4)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
           <descricao>Título: Modelagem computacional de estruturas de poços quânticos semicondutores para dispositivos optoeletrônicos e spintrônicos O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2014. Orientador: Nelson Studart Filho. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Fotodetectores de Infravermelho; Física. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Estados Eletrônicos.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2008</ano_inicio>
           <ano_conclusao>2010</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 4)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
           <descricao>Título: Estudos de efeitos de spin em diodos de tunelamento ressonante do tipo p O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2010. Orientador: Yara Galvão Gobato. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Física; Tunelamento Ressonante, semicondutores, poço quânt. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada. Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Propriedades de Transportes de Matéria Condensada (Não Eletrônica).</descricao>
         </formacao>
@@ -176,6 +176,16 @@
           <revista>PHYSICAL REVIEW D</revista>
           <volume>PHYSICAL REVIEW D</volume>
           <paginas>092012</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1140/epjc/s10052-023-11733-2</doi>
+          <titulo>Reconstruction of interactions in the ProtoDUNE-SP detector with Pandora</titulo>
+          <autores>ABUD, A</autores>
+          <revista>EUROPEAN PHYSICAL JOURNAL C. PARTICLES AND FIELDS</revista>
+          <volume>EUROPEAN PHYSICAL JOURNAL C. PARTICLES AND FIELDS</volume>
+          <paginas>618</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -761,14 +771,14 @@
         <formacao>
           <ano_inicio>1999</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Doutorado em Astrofísica (Conceito CAPES 4)</tipo>
+          <tipo>Doutorado em Astrofísica</tipo>
           <nome_instituicao>Instituto Nacional de Pesquisas Espaciais, INPE, Brasil</nome_instituicao>
           <descricao>Título: Fotometria de variáveis cataclísmicas no Infravermelho, Ano de obtenção: 2004. Orientador: Francisco José Jablonski. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: variaveis cataclismicas; tomografia doppler. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Astronomia / Subárea: Astrofísica Estelar.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1997</ano_inicio>
           <ano_conclusao>1999</ano_conclusao>
-          <tipo>Mestrado em Astrofísica (Conceito CAPES 4)</tipo>
+          <tipo>Mestrado em Astrofísica</tipo>
           <nome_instituicao>Instituto Nacional de Pesquisas Espaciais, INPE, Brasil</nome_instituicao>
           <descricao>Título: Tomografia Doppler de IX Velorum O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 1999. Orientador: Francisco José Jablonski. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: tomografia doppler; variaveis cataclismicas. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Astronomia / Subárea: Astrofísica Estelar. Setores de atividade: Desenvolvimento de Programas (Software).</descricao>
         </formacao>
@@ -791,7 +801,7 @@
           <ano_inicio>2013</ano_inicio>
           <ano_conclusao>2016</ano_conclusao>
           <nome>NOVAS TECNOLOGIAS NO ENSINO DE ASTRONOMIA NA EDUCAÇÃO BÁSICA</nome>
-          <descricao>Descrição: Diante de um cenário de controvérsia ? onde os órgãos reguladores orientam para que os conteúdos de Astronomia sejam ministrados no ensino de Física, mas outros órgãos não normatizam a obrigatoriedade desses conteúdos nos cursos de formação de professores ? é que pretendemos desenvolver esse projeto de pesquisa que tem por objetivo desenvolver metodologias diferenciadas para o ensino de Astronomia e Física no ensino médio e também capacitar os professores nesses conteúdos. Além de contribuir para forma recursos humanos nessa área.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) . Integrantes: Artur Justiniano Roberto Junior - Coordenador / Paulo Alexandre Bressan - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa.</descricao>
+          <descricao>Descrição: Diante de um cenário de controvérsia ? onde os órgãos reguladores orientam para que os conteúdos de Astronomia sejam ministrados no ensino de Física, mas outros órgãos não normatizam a obrigatoriedade desses conteúdos nos cursos de formação de professores ? é que pretendemos desenvolver esse projeto de pesquisa que tem por objetivo desenvolver metodologias diferenciadas para o ensino de Astronomia e Física no ensino médio e também capacitar os professores nesses conteúdos. Além de contribuir para forma recursos humanos nessa área.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) . Integrantes: Artur Justiniano Roberto Junior - Coordenador / Paulo Alexandre Bressan - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2011</ano_inicio>
@@ -809,7 +819,7 @@
           <ano_inicio>2010</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
           <nome>Divulgação e Ensino de Astronomia no Sul de Minas</nome>
-          <descricao>Descrição: Promover o Ensino de Ciências ? em especial a Astronomia - para a população em geral e mais especificamente para professores e estudantes, através da tríade ; seções de observação do céu com telescópios, simulação do céu e de fenômenos astronômicos com um planetário móvel e palestras. Desenvolver material didático e experimental para as aulas de Física e Astronomia no Ensino Médio.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Artur Justiniano Roberto Junior - Coordenador / Jamila Rodrigues de Almeida - Integrante / Samuel Bueno - Integrante / Vanderson Afonso Silva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <descricao>Descrição: Promover o Ensino de Ciências ? em especial a Astronomia - para a população em geral e mais especificamente para professores e estudantes, através da tríade ; seções de observação do céu com telescópios, simulação do céu e de fenômenos astronômicos com um planetário móvel e palestras. Desenvolver material didático e experimental para as aulas de Física e Astronomia no Ensino Médio.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Artur Justiniano Roberto Junior - Coordenador / Jamila Rodrigues de Almeida - Integrante / Samuel Bueno - Integrante / Vanderson Afonso Silva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2008</ano_inicio>
@@ -1323,6 +1333,12 @@
     </trabalhos_tecnicos>
     <producao_tecnica>
         <producao>
+          <titulo>Astro3D um software para o ensino de Astronomia</titulo>
+          <autores>Roberto, A. J</autores>
+          <natureza>Curso de curta duração ministrado/Outra</natureza>
+          <ano>2023</ano>
+        </producao>
+        <producao>
           <titulo>SEQUÊNCIA DIDÁTICA SOBRE COSMOLOGIA, DOS MITOS ÀS CONCEPÇÕES CIENTÍFICAS</titulo>
           <autores>MESQUITA, T. J. ; Artur Justiniano</autores>
           <natureza>Desenvolvimento de material didático ou instrucional - Sequência didática</natureza>
@@ -1384,24 +1400,6 @@
           <ano>2004</ano>
         </producao>
     </producao_artistica>
-    <orientacao_mestrado_em_andamento>
-        <dissertacao>
-          <nome_aluno>José Carlos Silva</nome_aluno>
-          <titulo_trabalho>O estudo de exoplanetas com um Web Robot</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>Dissertação (Mestrado profissional em Mestrado em Ensino de Física) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento>Pró-Reitoria de Pesquisa e Pós graduação da Universidade Federal de Alfenas</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Lenon Couto Ferreira</nome_aluno>
-          <titulo_trabalho>MobTracker: um aplicativo de captura de dados para o Ensino de Física.</titulo_trabalho>
-          <ano>2019</ano>
-          <instituicao>Dissertação (Mestrado profissional em Mestrado em Ensino de Física) - Universidade Federal de Alfenas</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-    </orientacao_mestrado_em_andamento>
     <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>TARLEI JOSE DE MESQUITA</nome_aluno>
@@ -1417,6 +1415,22 @@
           <ano>2019</ano>
           <instituicao>Dissertação (Mestrado em Mestrado em Ensino de Física) - Universidade Federal de Alfenas</instituicao>
           <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>José Carlos Silva</nome_aluno>
+          <titulo_trabalho>O estudo de exoplanetas com um Web Robot</titulo_trabalho>
+          <ano>2019</ano>
+          <instituicao>Dissertação (Mestrado em Mestrado em Ensino de Física) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Pró-Reitoria de Pesquisa e Pós graduação da Universidade Federal de Alfenas</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Lenon Couto Ferreira</nome_aluno>
+          <titulo_trabalho>MobTracker: um aplicativo de captura de dados para o Ensino de Física.</titulo_trabalho>
+          <ano>2019</ano>
+          <instituicao>Dissertação (Mestrado em Mestrado em Ensino de Física) - Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
@@ -1718,6 +1732,10 @@
     </orientacao_outros_tipos_concluido>
     <participacao_evento>
         <evento>
+          <titulo>XV Conferência (CIAEF) e III Encontro (EnMNPEF) 2023. Astro3D um software para o ensino de Astronomia. 2023. (Congresso).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
           <titulo>XXXV Reunião Anual da Sociedade Astronômica Brasileira. UMA ABORDAGEM DAS LEIS DE KEPLER ATRAVÉS DO SOFTWARE LIVRE CARTES DU CIEL. 2010. (Congresso).</titulo>
           <ano>2010</ano>
         </evento>
@@ -1834,7 +1852,7 @@
         <formacao>
           <ano_inicio>1993</ano_inicio>
           <ano_conclusao>1995</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 6)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal do Paraná, UFPR, Brasil</nome_instituicao>
           <descricao>Título: Caracterização de filmes de cobalto eletrodepositados sobre silício tipo-p, Ano de Obtenção: 1995. Orientador: Ivo Alexandre Hümmelgen. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: cobalto; silício; eletrodeposição. Grande área: Ciências Exatas e da Terra Setores de atividade: Desenvolvimento de Novos Materiais.</descricao>
         </formacao>
@@ -2804,14 +2822,14 @@
         <formacao>
           <ano_inicio>2003</ano_inicio>
           <ano_conclusao>2008</ano_conclusao>
-          <tipo>Doutorado em Química (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Química</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: AVALIAÇÃO COMPARATIVA DE PROCEDIMENTOS DE EXTRAÇÃO DE PROTEÍNAS EM PLANTAS MEDICINAIS E FITOTERÁPICOS E QUANTIFICAÇÃO DE METAIS ASSOCIADOS A ESSAS PROTEÍNAS, Ano de obtenção: 2008. Orientador: Dr. Marco Aurélio Zezzi Arruda. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: extração; proteínas; metaloproteínas; isoformas; plantas medicinais. Grande área: Ciências Exatas e da Terra Setores de atividade: Educação.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1991</ano_inicio>
           <ano_conclusao>1994</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: Fotoluminescência Estacionária em Carbeto de Silício Amorfo Hidrogenado, Ano de Obtenção: 1994. Orientador: Fernando Alvarez. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Fotoluminescência Estacionária; Carbeto de silício amorfo hidrogenado; Semicondutores amorfos. Grande área: Ciências Exatas e da Terra Setores de atividade: Energia.</descricao>
         </formacao>
@@ -3206,7 +3224,7 @@
           <ano>2005</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
           <titulo>Construção e caracterização de um biossensor potenciométrico para determinação de pirogalol</titulo>
           <autores>LOUZADA, E. S. ; LUCCAS, P. O. ; MAGALHÃES, C. S.</autores>
           <revista>Analytica (São Paulo)</revista>
@@ -4141,14 +4159,14 @@
         <formacao>
           <ano_inicio>2007</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <tipo>Doutorado em Educação (Conceito CAPES 6)</tipo>
+          <tipo>Doutorado em Educação</tipo>
           <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
           <descricao>Título: Educação Científica e cidadania: as diferentes concepções e funções do conceito de cidadania nas pesquisas em Educação Em Ciências O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2011. Orientador: Alice Helena Campos Pierson. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Educação científica; Ensino de Ciências; Cidadania. Grande área: Ciências Humanas Grande Área: Ciências Humanas / Área: Educação / Subárea: Tópicos Específicos de Educação. Setores de atividade: Educação.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2007</ano_conclusao>
-          <tipo>Mestrado em Educação (Conceito CAPES 6)</tipo>
+          <tipo>Mestrado em Educação</tipo>
           <nome_instituicao>Universidade Federal de São Carlos, UFSCAR, Brasil</nome_instituicao>
           <descricao>Título: Física no Ensino Médio e Estudantes Trabalhadores: buscando relações entre significado e sentido para a aprendizagem O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2007. Orientador: Alice Helena Campos Pierson. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Ensino de Física; estudantes trabalhadores; teoria histórico-cultural da atividade; Psicologia histórico-cultural. Grande área: Ciências Humanas Grande Área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem / Especialidade: Ensino de Física. Setores de atividade: Educação Média de Formação Geral.</descricao>
         </formacao>
@@ -5628,7 +5646,7 @@
       <identificador10></identificador10>
       <nome_inicial>Hugo Bonette de Carvalho</nome_inicial>
       <nome_completo>Hugo Bonette de Carvalho</nome_completo>
-      <nome_citacao_bibliografica>H. B. de CARVALHO;DE CARVALHO, HUGO BONETTE;DE CARVALHO, HUGO B.;DE CARVALHO, H. B.;CARVALHO, H.B. DE;DE CARVALHO, H.B.;CARVALHO, HUGO B. DE;DE CARVALHO, HUGO BONETTE BONETTE;BONETTE DE CARVALHO, HUGO</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>H. B. de CARVALHO;DE CARVALHO, HUGO BONETTE;DE CARVALHO, HUGO B.;DE CARVALHO, H. B.;CARVALHO, H.B. DE;DE CARVALHO, H.B.;CARVALHO, HUGO B. DE;DE CARVALHO, HUGO BONETTE BONETTE;BONETTE DE CARVALHO, HUGO;HUGO B. CARVALHO;CARVALHO, HUGO B.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -5654,14 +5672,14 @@
         <formacao>
           <ano_inicio>2002</ano_inicio>
           <ano_conclusao>2007</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: Filtros de SPIN Não-Magnéticos Controlados por Voltagem, Ano de obtenção: 2007. Orientador: Maria José Santos Pompeu Brasil. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Seleção de Spin; Spintrônica; Diodos de Tunelamento Ressonante; Efeito tunel ressonante; Injeção de Spin. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Propriedades de Transportes de Matéria Condensada (Não Eletrônica).</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2001</ano_inicio>
           <ano_conclusao>2002</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: O Magnetometro a Efeito Kerr e o filme fino de Co/Si O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2002. Orientador: Maria José Santos Pompeu Brasil. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: dependencia térmica; Cobalto - Propriedades; Efeito Kerr; Magnetômetro; magneto-óptica; propriedades magnéticas. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -5682,6 +5700,18 @@
     </formacao_academica>
     <projetos_pesquisa>
         <projeto>
+          <ano_inicio>2023</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>DESENVOLVIMENTO DE MATERIAIS E DISPOSITIVOS TERMOELÉTRICOS PARA RECICLAGEM DE ENERGIA</nome>
+          <descricao>Descrição: EDITAL FAPEMIG 017/2022 (BPD-00741-22) / PROGRAMA DE APOIO À FIXAÇÃO DE JOVENS DOUTORES NO BRASIL / RESUMO: Experimentalmente abordaremos a questão a partir de sistemas em escala nanométrica e da engenharia de defeitos. Materiais serão preparados via método dos precursores poliméricos e hidrotermal assistido por micro-ondas com posterior sinterização em atmosfera redutora. Os defeitos serão introduzidos nos sistemas via adição de elementos específicos (dopagem), de tratamentos térmicos à posteriori. Teoricamente os sistemas serão modelados e, uma vez extraídas as propriedades de interesse, estas realimentarão os trabalhos experimentais. A abordagem teórica se dará via cálculos de primeiros princípios implementados através da teoria do funcional de densidade (DFT). Pretendemos trabalhar com duas famílias de materiais o Ca3Co4O9 (CCO) e o SrTiO3 (STO). O CCO é um material laminar composto por camadas alternadas de Ca2CoO3+#948; (material não condutor de calor) e camadas de CoO2 (material com alta condutividade elétrica). Já o STO é um óxido com estrutura cúbica tipo peroviskita, excepcionalmente capaz de acomodar diferentes cátions e defeitos. Para os dois materiais a estratégia será a utilização de terras raras como dopantes nos sítios do Ca no CCO e Sr no STO no sentido de minimizar a condução térmica através da intensificação dos processos de espalhamento de fônons devido ao aumento da massa na estrutura e a indução de vacâncias no sítio dos cátions via compensação de carga; e a dopagem com metais de pós-transição no sítio do Co (camada CoO2 do CCO) e no sítio do Ti (STO) para maximização da condutividade elétrica via aumento da densidade de portadores no CCO e para estabilização de vacâncias de oxigênio, responsável pelo aumento da mobilidade iônica e correspondente aumento da condutividade elétrica no STO. Serão realizados ainda tratamentos térmicos a posteriori em atmosferas redutoras de modo a introduzir defeitos do tipo vacâncias de oxigênio, a fim de também maximizar o transporte iônico.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) / Doutorado: (1) . Integrantes: Hugo Bonette de Carvalho - Coordenador / Juliana Maria Abreu da Silva Morbec - Integrante / Maria Inês Basso Bernardi - Integrante / Alexandre Mesquita - Integrante / Rafael Tomas da Silva - Integrante / Maria Virginia Gelfuso - Integrante / Daniel Thomazini - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2022</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>APRIMORAMENTO DE CERÂMICAS TERMOELÉTRICAS PARA CONVERSÃO DE ENERGIA: ASPECTOS TEÓRICOS E EXPERIMENTAIS</nome>
+          <descricao>Descrição: EDITAL FAPEMIG 01/2022DEMANDA UNIVERSAL / FAIXA C (APQ-01856-22). Coordenadora: Profa. Dra. Maria Virgínia Gelfuso (UNIFEI) / Subcoordenadores: Prof. Dr. Hugo Bonette de Carvalho (UNIFAL) / Prof. Dr. Daniel Thomazini (UNIFEI) / RESUMO: Há a expectativa de aprimorar o funcionamento de um módulo termoelétrico (TEG) através do estudo teórico, da caracterização e do desenvolvimento de cerâmicas termoelétricas. A fabricação dos TEG cerâmicos consiste na montagem de uma matriz de semicondutores do tipo-n e do tipo-p ligados eletricamente em série. Um dos atuais desafios é a obtenção de cerâmicas termoelétricas óxidas com alta eficiência na conversão direta da energia térmica em energia elétrica. Assim, o objetivo de aplicar cerâmicas óxidas para o aproveitamento do calor residual de sistemas térmicos, dispositivos termoelétricos devem ser fabricados com materiais que possuam alta resistividade térmica, alta condutividade elétrica e alto valor de coeficiente de Seebeck, o que reflete em elevados valores de Figura de Mérito. Estudos serão conduzidos abordando a engenharia de defeitos pela dopagem, a síntese de perovskitas (tipo ABO3) nos sistemas SrTiO3 e CaMnO3 (tipo-n) e Ca3Co4O9 (tipo-p), puros e dopados, como também sobre a densificação das cerâmicas utilizando diferentes processos de sinterização. Dispositivos termoelétricos serão construídos e sua capacidade de conversão será caracterizada para avaliar o efeito dos parâmetros de produção das cerâmicas na eficiência de conversão termoelétrica. Pós cerâmicos dopados com elementos doadores e aceitadores de elétrons serão produzidos através do processo convencional de reação em estado sólido e rotas químicas. Além do estudo de modificações estequiométricas, o uso de diferentes atmosferas durante a síntese dos pós, como hidrogênio e oxigênio, também será avaliado para verificar a influência dessas atmosferas nas indução de defeitos estruturais e na propriedades termoelétricas das cerâmicas. As cerâmicas serão sinterizadas através do processo convencional em forno resistivo e pelo método de sinterização a frio, que produz cerâmicas com microestrutura mais fina, modificando as propriedades das cerâmicas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) / Doutorado: (3) . Integrantes: Hugo Bonette de Carvalho - Integrante / Juliana Maria Abreu da Silva Morbec - Integrante / Maria Inês Basso Bernardi - Integrante / Antonio Carlos Doriguetto - Integrante / Alexandre Mesquita - Integrante / Rafael Tomas da Silva - Integrante / Maria Virginia Gelfuso - Coordenador / Daniel Thomazini - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+        </projeto>
+        <projeto>
           <ano_inicio>2020</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>ESTRATÉGIAS INTEGRADAS DE EXTRAÇÃO-PRESERVAÇÃO DE BIOMARCADORES DO SARS-COV-2 USANDO SISTEMAS AQUOSOS BIFÁSICOS E DETECÇÃO-DIAGNÓSTICO POR ESPECTROSCOPIA RAMAN E INTELIGÊNCIA ARTIFICIAL</nome>
@@ -5689,9 +5719,9 @@
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
+          <ano_conclusao>2022</ano_conclusao>
           <nome>REDE DE NANOMAGNETISMO: INVESTIGAÇÃO E DESENVOLVIMENTO DE INTERFACES E DISPOSITIVOS</nome>
-          <descricao>Descrição: REDES DE PESQUISA, TECNOLOGIA E DE INOVAÇÃO (FAPEMIG). Projeto aprovado, no valor de R$ 1.364.749,91, para a aquisição de Sistema de nanolitografia por feixe de elétrons (entre outras coisas), levando a uma maior autonomia do nosso laboratório de nanomagnetismo (o LABSPIN). Coordenador: Afranio Rodrigues Pereira; Sub-coordenador: Clodoaldo Irineu Levartoski de Araújo. A nanoestruturação de materiais ferromagnéticos, possível nos últimos anos pelo desenvolvimento de equipamentos como litogra?a por feixes de elétrons e feixe de íons, possibilitou o estudo de estruturas magnéticas como monodomínios, vórtices e skyrmions. A investigação fundamental destes elementos em sistemas nanomagnéticos, tornou possível sua aplicação em dispositivos spintrônicos. Neste contexto, esta proposta abordará aspectos fundamentais e de aplicação destas estruturas, dentre as quais podemos destacar a criação e transporte de monopolos em gelos de spin arti?ciais, sistemas nanomagnéticos frustrados com possível aplicação como sensores magnetorresistivos e de micro-ondas, aplicação de vórtices em arquiteturas alternativas para memórias magnetorresistivas e estudos fundamentais de geração e controle de skyrmions a temperatura ambiente com possível aplicação em dispositivos de memória. A criação desta rede inédita de nanomagnetismo no estado de Minas Gerais e uma das únicas do país, proporcionará uma maior integração dos diversos grupos que vem desenvolvido suas pesquisas na área e grande aumento de potencialidade de investigação experimental básica e desenvolvimento de protótipos com aplicação tecnológica direta, uma vez que a aquisição do sistema de nanolitogra?a completará as facilidades existentes na instituição sede e esta passará a ser a segunda com potencialidade para desenvolvimento de nanofabricação no estado de Minas Gerais e a única fora da capital. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (10) Doutorado: (10) . Integrantes: Hugo Bonette de Carvalho - Integrante / Sergio Martins de Souza - Integrante / Alexandre Alberto Chaves Cotta - Integrante / Rero Marques Rubinger - Integrante / Clodoaldo Irineu Levartoski de Araujo - Coordenador / Afranio Rodrigues Pereira - Integrante / Rodrigo Fernando Bianchi - Integrante / Winder Alexander de Moura Melo - Integrante / Silvio Costa Ferreira - Integrante / Leandro Lerizzi - Integrante / Onofre Rojas - Integrante / Sidiney de Andrade Leonel - Integrante / Ronaldo Junio Campos Batista - Integrante / Carla Patricia Lacerda Rubinger - Integrante / Alex Aparecido Ferreira - Integrante / André Luiz Mota - Integrante / Adhimar Flávio Oliveira - Integrante / Angela Dayana Barra Barrera - Integrante / Jander Pereira Dos Santos - Integrante / Joaquim Bonfim Santos Mendes - Integrante / Sérgio Luis de Abreu Mello - Integrante.</descricao>
+          <descricao>Descrição: REDES DE PESQUISA, TECNOLOGIA E DE INOVAÇÃO (FAPEMIG). Projeto aprovado, no valor de R$ 1.364.749,91, para a aquisição de Sistema de nanolitografia por feixe de elétrons (entre outras coisas), levando a uma maior autonomia do nosso laboratório de nanomagnetismo (o LABSPIN). Coordenador: Afranio Rodrigues Pereira; Sub-coordenador: Clodoaldo Irineu Levartoski de Araújo. A nanoestruturação de materiais ferromagnéticos, possível nos últimos anos pelo desenvolvimento de equipamentos como litogra#64257;a por feixes de elétrons e feixe de íons, possibilitou o estudo de estruturas magnéticas como monodomínios, vórtices e skyrmions. A investigação fundamental destes elementos em sistemas nanomagnéticos, tornou possível sua aplicação em dispositivos spintrônicos. Neste contexto, esta proposta abordará aspectos fundamentais e de aplicação destas estruturas, dentre as quais podemos destacar a criação e transporte de monopolos em gelos de spin arti#64257;ciais, sistemas nanomagnéticos frustrados com possível aplicação como sensores magnetorresistivos e de micro-ondas, aplicação de vórtices em arquiteturas alternativas para memórias magnetorresistivas e estudos fundamentais de geração e controle de skyrmions a temperatura ambiente com possível aplicação em dispositivos de memória. A criação desta rede inédita de nanomagnetismo no estado de Minas Gerais e uma das únicas do país, proporcionará uma maior integração dos diversos grupos que vem desenvolvido suas pesquisas na área e grande aumento de potencialidade de investigação experimental básica e desenvolvimento de protótipos com aplicação tecnológica direta, uma vez que a aquisição do sistema de nanolitogra#64257;a completará as facilidades existentes na instituição sede e esta passará a ser a segunda com potencialidade para desenvolvimento de nanofabricação no estado de Minas Gerais e a única fora da capital. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (10) Doutorado: (10) . Integrantes: Hugo Bonette de Carvalho - Integrante / Sergio Martins de Souza - Integrante / Alexandre Alberto Chaves Cotta - Integrante / Rero Marques Rubinger - Integrante / Clodoaldo Irineu Levartoski de Araujo - Coordenador / Afranio Rodrigues Pereira - Integrante / Rodrigo Fernando Bianchi - Integrante / Winder Alexander de Moura Melo - Integrante / Silvio Costa Ferreira - Integrante / Leandro Lerizzi - Integrante / Onofre Rojas - Integrante / Sidiney de Andrade Leonel - Integrante / Ronaldo Junio Campos Batista - Integrante / Carla Patricia Lacerda Rubinger - Integrante / Alex Aparecido Ferreira - Integrante / André Luiz Mota - Integrante / Adhimar Flávio Oliveira - Integrante / Angela Dayana Barra Barrera - Integrante / Jander Pereira Dos Santos - Integrante / Joaquim Bonfim Santos Mendes - Integrante / Sérgio Luis de Abreu Mello - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2014</ano_inicio>
@@ -5757,7 +5787,7 @@
         <id_lattes_colaborador>3782737212818656</id_lattes_colaborador>
         <id_lattes_colaborador>8910557213253128</id_lattes_colaborador>
         <id_lattes_colaborador>3876752605313288</id_lattes_colaborador>
-        <id_lattes_colaborador>9866882903898608</id_lattes_colaborador>
+        <id_lattes_colaborador>7821878835036266</id_lattes_colaborador>
         <id_lattes_colaborador>8286075130503114</id_lattes_colaborador>
         <id_lattes_colaborador>2614578988328870</id_lattes_colaborador>
         <id_lattes_colaborador>8580985583116539</id_lattes_colaborador>
@@ -5774,6 +5804,26 @@
           <revista>JOURNAL OF ALLOYS AND COMPOUNDS</revista>
           <volume>JOURNAL OF ALLOYS AND COMPOUNDS</volume>
           <paginas>168840</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.actamat.2023.119258</doi>
+          <titulo>On the vibrational properties of transition metal doped ZnO: surface, defect, and bandgap engineering</titulo>
+          <autores>LAGE, VIVIANE M.A. ; RODRÍGUEZ-FERNÁNDEZ, CARLOS ; VIEIRA, FELIPE S. ; DA SILVA, RAFAEL T. ; BERNARDI, MARIA INÊS B. ; LIMA JR, MAURÍCIO M DE ; CANTARERO, ANDRÉS ; DE CARVALHO, HUGO B.</autores>
+          <revista>ACTA MATERIALIA</revista>
+          <volume>ACTA MATERIALIA</volume>
+          <paginas>119258</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.surfin.2023.103397</doi>
+          <titulo>Comprehensive experimental and theoretical studies on the synthesis and characterization of electrodeposited nanostructured Cu2O thin films</titulo>
+          <autores>GONÇALVES, CRISTIANE B. ; SILVA, RAFAEL T. ; DALENOGARE, GUSTAVO ; GONZAGA, ISABELLE M.D. ; MASCARO, LUCIA H. ; FERRER, MATEUS M. ; ASSIS, MARCELO ; LONGO, ELSON ; CARVALHO, HUGO B. ; DORIGUETTO, ANTÔNIO C.</autores>
+          <revista>SURFACES AND INTERFACES</revista>
+          <volume>SURFACES AND INTERFACES</volume>
+          <paginas>103397</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -6851,7 +6901,25 @@
           <natureza>Apresentação de Trabalho/Congresso</natureza>
         </trabalho_apresentado>
     </apresentacao_trabalho>
+    <supervisao_pos_doutorado_em_andamento>
+        <supervisao>
+          <nome_aluno>Rafael Tomaz da SIlva</nome_aluno>
+          <titulo_trabalho></titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais.</agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </supervisao>
+    </supervisao_pos_doutorado_em_andamento>
     <orientacao_doutorado_em_andamento>
+        <tese>
+          <nome_aluno>Paulo Henrique Xavier</nome_aluno>
+          <titulo_trabalho>Desenvolvimento de óxidos termoelétricos: Abordagem experimental e teórica</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Tese (Doutorado em Engenharia de Materiais) - Universidade Federal de Ouro Preto</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tese>
         <tese>
           <nome_aluno>Vinícius Justino Pimenta</nome_aluno>
           <titulo_trabalho>Preparação e Caracterização do Sistema ZnO:Mn:In</titulo_trabalho>
@@ -7335,7 +7403,7 @@
         <formacao>
           <ano_inicio>1997</ano_inicio>
           <ano_conclusao>2001</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 6)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal Fluminense, UFF, Brasil</nome_instituicao>
           <descricao>Título: Estudo das propriedades eletrônicas e de emissão de um laser de fônons O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2001. Orientador: Dr Sergio Saul Makler. Bolsista do(a): Centro Latinoamericano de Física, CLAF/CNPQ, Brasil. Palavras-chave: laser; fonônes. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -7376,14 +7444,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
-          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
+          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
+          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG</nome>
-          <descricao>Descrição: Projeto MANUTENÇÃO DE EQUIPAMENTOS (Edital FAPEMIG EDITAL 02/2009) - Recuperação do difratômetro de raios x por materiais policristalinos do laboratório de cristalografia da Unifal-MG (Proc.: CEX - APQ-02685-09) (Financiamento R$ 48.036,83). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (15) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Gaël Yves Poirier - Integrante / Person P. Neves - Integrante / Mirta Mir - Integrante / Eduardo Tonon de Almeida - Integrante / Alexandre de Oliveira Legendre - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas</nome>
+          <descricao>Descrição: Projeto MCT/FINEP/CT-INFRA (Proc.: 0134/08) - Laboratórios de Pesquisa para Pós-Graduação na Universidade Federal de Alfenas - Unifal-MG (Financiamento R$ 408.219,00). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (30) / Mestrado acadêmico: (15) / Doutorado: (1) . Integrantes: Ihosvany Camps Rodríguez - Integrante / Antônio C. Doriguetto - Coordenador / Marcelo H. dos Santos - Integrante / Gaël Yves Poirier - Integrante / Márcia P. Veloso - Integrante / Eduardo Tonon de Almeida - Integrante / Maísa Ribeiro Pereira Lima Brigagão - Integrante / Alzira Maria Serpa Lucho - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -7454,6 +7522,16 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.1016/j.foodchem.2023.137081</doi>
+          <titulo>Cellular assays combined with metabolomics highlight the dual face of phenolics: From high permeability to morphological cell damage</titulo>
+          <autores>G. Rocchetti ; L. Lucini ; GONCALVES, J. E. ; Camps, I. ; LIMA, A. S. ; GRANATO, D. ; PINHEIRO, L. C. ; L. Azevedo</autores>
+          <revista>FOOD CHEMISTRY</revista>
+          <volume>FOOD CHEMISTRY</volume>
+          <paginas>137081</paginas>
+          <numero></numero>
+          <ano>2024</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1016/j.apsusc.2022.155358</doi>
           <titulo>Functionalized boron-nitride nanotubes: First-principles calculations</titulo>
           <autores>AGUIAR, C. ; CAMPS, M. ; DATTANI, N. ; Camps, I.</autores>
@@ -7470,6 +7548,36 @@
           <revista>BMC MICROBIOLOGY</revista>
           <volume>BMC MICROBIOLOGY</volume>
           <paginas>25</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.physb.2023.415178</doi>
+          <titulo>Möbius boron-nitride nanobelts interacting with heavy metal nanoclusters</titulo>
+          <autores>AGUIAR, C. ; DATTANI, N. ; Camps, I.</autores>
+          <revista>PHYSICA B-CONDENSED MATTER</revista>
+          <volume>PHYSICA B-CONDENSED MATTER</volume>
+          <paginas>415178</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570178620666230811122313</doi>
+          <titulo>In-Silico Identification of Dexamethasone-similar Compounds Against SARS-Cov-2 Spike Protein: A Drug Repurposing Approach</titulo>
+          <autores>PATHAK, YAMINI ; TRIPATHI, VISHWAS ; Camps, Ihosvany ; QAIS, FAIZAN ABUL ; MISHRA, AMARESH</autores>
+          <revista>LETTERS IN ORGANIC CHEMISTRY</revista>
+          <volume>LETTERS IN ORGANIC CHEMISTRY</volume>
+          <paginas>1</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1007/s00894-023-05669-3</doi>
+          <titulo>Möbius carbon nanobelts interacting with heavy metal nanoclusters</titulo>
+          <autores>AGUIAR, C. ; DATTANI, N. ; Camps, I.</autores>
+          <revista>JOURNAL OF MOLECULAR MODELING</revista>
+          <volume>JOURNAL OF MOLECULAR MODELING</volume>
+          <paginas>277-288</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -7514,22 +7622,22 @@
           <ano>2022</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
-          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
-          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
-          <revista>Letters in Drug Design & Discovery</revista>
-          <volume>Letters in Drug Design & Discovery</volume>
-          <paginas>808-820</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
           <doi>http://dx.doi.org/10.2174/1570180819666220401142351</doi>
           <titulo>Triamcinolone as a potential inhibitor of SARS-CoV-2 main protease and cytokine storm: An in-silico study</titulo>
           <autores>MISHRA, AMARESH ; QAIS, FAIZAN ABUL ; PATHAK, YAMINI ; Camps, Ihosvany ; TRIPATHI, VISHWAS</autores>
           <revista>Letters in Drug Design & Discovery</revista>
           <volume>Letters in Drug Design & Discovery</volume>
           <paginas>1230-1242</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.2174/1570180819666220622085659</doi>
+          <titulo>Attacking the SARS-CoV-2 replication machinery with the Pathogen Box?s molecules</titulo>
+          <autores>OSORIO-MOGOLLÓN, CLEIDY ; OLIVOS-RAMÍREZ, GUSTAVO E. ; OTAZU, KEWIN ; CHENET-ZUTA, MANUEL E. ; ROPÓN-PALACIOS, GEORCKI ; DORES AGUIAR, CINTHIA DAS ; Camps, Ihosvany ; JIMENEZ-AVALOS, GABRIEL M. ; APARI-COSSIO, EDUARDO ; TORRES MOREIRA, NATALIA E. ; CÁRDENAS-CÁRDENAS, REYNA G.</autores>
+          <revista>Letters in Drug Design & Discovery</revista>
+          <volume>Letters in Drug Design & Discovery</volume>
+          <paginas>808-820</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -9023,6 +9131,16 @@
           <ano>2017</ano>
         </producao>
     </producao_tecnica>
+    <orientacao_doutorado_em_andamento>
+        <tese>
+          <nome_aluno>Heberson Teixeira da Silva</nome_aluno>
+          <titulo_trabalho>Nanotubos de carbono funcionalizados com hidroxila, como filtros para o glifosato ionizado</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Tese (Doutorado em Ciências Ambientais) - Universidade Federal de Alfenas. (Coorientador).</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </tese>
+    </orientacao_doutorado_em_andamento>
     <orientacao_mestrado_em_andamento>
         <dissertacao>
           <nome_aluno>Eric Batista Ferreira</nome_aluno>
@@ -9680,7 +9798,7 @@
         <formacao>
           <ano_inicio>1998</ano_inicio>
           <ano_conclusao>2002</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 6)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal Fluminense, UFF, Brasil</nome_instituicao>
           <descricao>Título: Transição estrutural e formação de pares no Fe3O2BO3, Ano de obtenção: 2002. Orientador: Dr João Carlos Fernandes. Bolsista do(a): Centro Latinoamericano de Física, CLAF/CNPQ, Brasil. Palavras-chave: sistemas de baixa dimensionalidade; boratos; transição estrutural. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Estrutura de Líquidos e Sólidos; Cristalografia.</descricao>
         </formacao>
@@ -11427,14 +11545,14 @@
         <formacao>
           <ano_inicio>2001</ano_inicio>
           <ano_conclusao>2006</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Caracterizaçào Estrutural de Cerâmicas ferroelétricas de composição Pb-La-Ti-O3 e Pb-Ba-Zr-Ti-O3 através das técnicas de DRX, XAS e XPS, Ano de obtenção: 2006. Orientador: Valmor Roberto Mastelaro. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Cerâmicas; Síntese; Caracterização estrutural; Transição de Fase em Ferroelétricos; Espectroscopia de absorção de raios X; Difração de Raios X. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Materiais Dielétricos e Propriedades Dielétricas. Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Estrutura de Líquidos e Sólidos; Cristalografia. Setores de atividade: Desenvolvimento de Novos Materiais; Educação; Atividades No Campo das Nanotecnologias e Desenvolvimento de Nanoprodutos.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1999</ano_inicio>
           <ano_conclusao>2001</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Síntese e Caracterização de Filmes Finos da Fase beta-Borato de Bário, Ano de Obtenção: 2001. Orientador: Valmor Roberto Mastelaro. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Filmes finos; Beta Borato de Bário; Método Pechini Modificado; Feixe de elétrons; Difração de Raios X. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada. Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Superfícies e Interfaces; Películas e Filamentos. Setores de atividade: Industria Eletro-Eletrônica; Desenvolvimento de Novos Materiais; Atividades No Campo das Nanotecnologias e Desenvolvimento de Nanoprodutos.</descricao>
         </formacao>
@@ -12781,28 +12899,28 @@
         <formacao>
           <ano_inicio>2016</ano_inicio>
           <ano_conclusao>2019</ano_conclusao>
-          <tipo>Doutorado em CIÊNCIAS E APLICAÇÕES GEOESPACIAIS (Conceito CAPES 4)</tipo>
+          <tipo>Doutorado em CIÊNCIAS E APLICAÇÕES GEOESPACIAIS</tipo>
           <nome_instituicao>Universidade Presbiteriana Mackenzie, MACKENZIE, Brasil</nome_instituicao>
           <descricao>Título: Detecção de periodicidade em dados multifrequência de núcleos ativos de galáxias com aprendizagem de máquina, Ano de obtenção: 2019. Orientador: Luiz Cláudio Lima Botti. Palavras-chave: Física Teórica e Computacional.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2003</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Doutorado em Educação (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Educação</tipo>
           <nome_instituicao>Universidade do Estado do Rio de Janeiro, UERJ, Brasil</nome_instituicao>
           <descricao>Título: Aprendizagem e construção do conhecimento nas redes digitais O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2004. Orientador: Raquel Marques Villardi. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2013</ano_inicio>
           <ano_conclusao>2015</ano_conclusao>
-          <tipo>Mestrado em Astrofísica e Física Computacional (Conceito CAPES 4)</tipo>
+          <tipo>Mestrado em Astrofísica e Física Computacional</tipo>
           <nome_instituicao>Universidade Cruzeiro do Sul, UNICSUL, Brasil</nome_instituicao>
           <descricao>Título: A dependência de referencial em um modelo de vértice simétrico para o píon no formalismo da frente de luz O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2015. Orientador: Joao Pacheco Bicudo Cabral de Mello. Palavras-chave: Física; Física de Partículas; Teoria Quântica de Campos; Física Teórica e Computacional; Píon. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1996</ano_inicio>
           <ano_conclusao>1997</ano_conclusao>
-          <tipo>Mestrado em Educação (Conceito CAPES 5)</tipo>
+          <tipo>Mestrado em Educação</tipo>
           <nome_instituicao>Universidade Federal Fluminense, UFF, Brasil</nome_instituicao>
           <descricao>Título: Do sim/não ao por que : um estudo sobre a interação comunicativa via Internet, Ano de Obtenção: 1997. Orientador: Ralph Ings Bannell. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil.</descricao>
         </formacao>
@@ -12819,7 +12937,7 @@
           <ano_inicio>2013</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>NOVAS TECNOLOGIAS NO ENSINO DE ASTRONOMIA NA EDUCAÇÃO BÁSICA</nome>
-          <descricao>Descrição: Diante de um cenário de controvérsia onde os órgãos reguladores orientam para que os conteúdos de Astronomia sejam ministrados no ensino de Física, mas outros órgãos não normatizam a obrigatoriedade desses conteúdos nos cursos de formação de professores é que pretendemos desenvolver esse projeto de pesquisa que tem por objetivo desenvolver metodologias diferenciadas para o ensino de Astronomia e Física no ensino médio e também capacitar os professores nesses conteúdos. Além de contribuir para forma recursos humanos nessa área.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) . Integrantes: Samuel Bueno Soltau - Integrante / Artur Justiniano Roberto Junior - Coordenador / Paulo Alexandre Bressan - Integrante / Leandro Londero da Silva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro.Descrição: Diante de um cenário de controvérsia ? onde os órgãos reguladores orientam para que os conteúdos de Astronomia sejam ministrados no ensino de Física, mas outros órgãos não normatizam a obrigatoriedade desses conteúdos nos cursos de formação de professores ? é que pretendemos desenvolver esse projeto de pesquisa que tem por objetivo desenvolver metodologias diferenciadas para o ensino de Astronomia e Física no ensino médio e também capacitar os professores nesses conteúdos. Além de contribuir para forma recursos humanos nessa área.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) . Integrantes: Artur Justiniano Roberto Junior - Coordenador / Paulo Alexandre Bressan - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa.</descricao>
+          <descricao>Descrição: Diante de um cenário de controvérsia onde os órgãos reguladores orientam para que os conteúdos de Astronomia sejam ministrados no ensino de Física, mas outros órgãos não normatizam a obrigatoriedade desses conteúdos nos cursos de formação de professores é que pretendemos desenvolver esse projeto de pesquisa que tem por objetivo desenvolver metodologias diferenciadas para o ensino de Astronomia e Física no ensino médio e também capacitar os professores nesses conteúdos. Além de contribuir para forma recursos humanos nessa área.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) . Integrantes: Samuel Bueno Soltau - Integrante / Artur Justiniano Roberto Junior - Coordenador / Paulo Alexandre Bressan - Integrante / Leandro Londero da Silva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro.Descrição: Diante de um cenário de controvérsia ? onde os órgãos reguladores orientam para que os conteúdos de Astronomia sejam ministrados no ensino de Física, mas outros órgãos não normatizam a obrigatoriedade desses conteúdos nos cursos de formação de professores ? é que pretendemos desenvolver esse projeto de pesquisa que tem por objetivo desenvolver metodologias diferenciadas para o ensino de Astronomia e Física no ensino médio e também capacitar os professores nesses conteúdos. Além de contribuir para forma recursos humanos nessa área.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) . Integrantes: Artur Justiniano Roberto Junior - Coordenador / Paulo Alexandre Bressan - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -14192,14 +14310,14 @@
         <formacao>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2013</ano_conclusao>
-          <tipo>Doutorado em Educação (Conceito CAPES 6)</tipo>
+          <tipo>Doutorado em Educação</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: Energia Nuclear Mediante o Enfoque Ciência, Tecnologia e Sociedade na Formação Inicial de Professores de Física, Ano de obtenção: 2013. Orientador: Maria José Pereira Monteiro de Almeida. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Ensino de Física; Ensino Médio; formação incial de professores; energia nuclear; CTS. Grande área: Ciências Humanas</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2008</ano_conclusao>
-          <tipo>Mestrado em Educação (Conceito CAPES 6)</tipo>
+          <tipo>Mestrado em Educação</tipo>
           <nome_instituicao>Universidade Estadual de Campinas, UNICAMP, Brasil</nome_instituicao>
           <descricao>Título: ORGANIZAÇÃO DE EPISÓDIOS DE ENSINO SOBRE A QUESTÃO NUCLEAR PARA O ENSINO MÉDIO, Ano de Obtenção: 2008. Orientador: Maria José Pereira Monteiro de Almeida. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: formação incial de professores; Ensino Médio; Ensino de Física. Grande área: Ciências Humanas</descricao>
         </formacao>
@@ -15291,14 +15409,14 @@
         <formacao>
           <ano_inicio>2010</ano_inicio>
           <ano_conclusao>2014</ano_conclusao>
-          <tipo>Doutorado em Física Aplicada à Medicina e Biologia (Conceito CAPES 5)</tipo>
+          <tipo>Doutorado em Física Aplicada à Medicina e Biologia</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Energia interna e espalhamento de ondas eletromagnéticas por esferas ou cilindros: ressonâncias de Fano e suas aplicações a metamateriais O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2014. Orientador: Alexandre Souto Martinez. Coorientador: Felipe Arruda de Araújo Pinheiro. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Teoria de Lorenz-Mie; Metamateriais; Ressonância de Fano; Energia interna. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2008</ano_inicio>
           <ano_conclusao>2010</ano_conclusao>
-          <tipo>Mestrado em Física Aplicada à Medicina e Biologia (Conceito CAPES 5)</tipo>
+          <tipo>Mestrado em Física Aplicada à Medicina e Biologia</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Espalhamento de ondas eletromagnéticas por esferas e cilindros magnéticos: confinamento e transporte de ondas no limite de pequenas partículas e independência da energia armazenada com relação à forma do centro espalhador O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2010. Orientador: Alexandre Souto Martinez. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Teoria de Lorenz-Mie; Energia interna; Meios magnéticos; Espalhamento Múltiplo. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -15326,10 +15444,16 @@
     </formacao_academica>
     <projetos_pesquisa>
         <projeto>
-          <ano_inicio>2018</ano_inicio>
+          <ano_inicio>2023</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
+          <nome>Ressonâncias de Fano no espalhamento de ondas eletromagnéticas e metaóptica</nome>
+          <descricao>Descrição: Projeto de Pesquisa registrado no Edital PRPPG 09/2020 da UNIFAL-MG (processo 23087.008180/2022-84). Situação: Em andamento; Natureza: Pesquisa. Integrantes: Tiago José Arruda - Coordenador.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2018</ano_inicio>
+          <ano_conclusao>2022</ano_conclusao>
           <nome>Boundary-conditions-driven dynamics and radiation of cold atoms</nome>
-          <descricao>Descrição: Projeto de Cooperação Internacional Brasil-Alemanha - PROBRAL CAPES/DAAD (processo 88881.143936/2017-01). Situação: Em andamento; Natureza: Pesquisa. Integrantes: Tiago José Arruda - Integrante / Romain Pierre Marcel Bachelard - Integrante / Philippe Wilhelm Courteille - Coordenador / Tommaso Macri - Integrante / Francisco Ednilson Alves dos Santos - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Cooperação. Número de produções C, T & A: 2</descricao>
+          <descricao>Descrição: Projeto de Cooperação Internacional Brasil-Alemanha - PROBRAL CAPES/DAAD (processo 88881.143936/2017-01). Situação: Concluído; Natureza: Pesquisa. Integrantes: Tiago José Arruda - Integrante / Romain Pierre Marcel Bachelard - Integrante / Philippe Wilhelm Courteille - Coordenador / Tommaso Macri - Integrante / Francisco Ednilson Alves dos Santos - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Cooperação. Número de produções C, T & A: 2</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2016</ano_inicio>
@@ -15685,6 +15809,16 @@
     <resumo_congresso>
         <resumo>
           <doi></doi>
+          <autores>ARRUDA, T. J</autores>
+          <titulo>Toroidal multipole excitations in core-shell nanoparticles</titulo>
+          <nome_evento>Encontro de Outono 2023 da Sociedade Brasileira de Física (SBF), 2023, Ouro Preto. Livro de resumos</nome_evento>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </resumo>
+        <resumo>
+          <doi></doi>
           <autores>ARRUDA, T. J.; WEINER, J. ; BACHELARD, R. P. M. ; SLAMA, S. ; COURTEILLE, P. W.</autores>
           <titulo>Collective spontaneous emission of two point-dipole emitters near a plasmonic core-shell nanosphere</titulo>
           <nome_evento>Encontro de Outono 2020 da Sociedade Brasileira de Física (SBF), 2020, Bonito - MS (Virtual Meeting). Livro de resumos</nome_evento>
@@ -15946,13 +16080,19 @@
     </resumo_congresso>
     <apresentacao_trabalho>
         <trabalho_apresentado>
-          <titulo>(invited) Controle da emissão espontânea e efeitos coletivos via ressonâncias de Fano em nanoestruturas plasmônicas. Pós-Graduação em Física, UFV</titulo>
+          <titulo>Toroidal multipole excitations in core-shell nanoparticles</titulo>
+          <autores>ARRUDA, T. J</autores>
+          <ano>2023</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>(Invited) Controle da emissão espontânea via nanoestruturas plasmônicas: ressonâncias de Fano e efeitos coletivos. Grupo de Flutuações Quânticas, UFRJ</titulo>
           <autores>ARRUDA, T. J</autores>
           <ano>2021</ano>
           <natureza>Apresentação de Trabalho/Seminário</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>(Invited) Controle da emissão espontânea via nanoestruturas plasmônicas: ressonâncias de Fano e efeitos coletivos. Grupo de Flutuações Quânticas, UFRJ</titulo>
+          <titulo>(invited) Controle da emissão espontânea e efeitos coletivos via ressonâncias de Fano em nanoestruturas plasmônicas. Pós-Graduação em Física, UFV</titulo>
           <autores>ARRUDA, T. J</autores>
           <ano>2021</ano>
           <natureza>Apresentação de Trabalho/Seminário</natureza>
@@ -16240,6 +16380,31 @@
           <ano>2023</ano>
         </trabalho>
         <trabalho>
+          <titulo>Parecer científico para aceite de artigo no Physical Review B</titulo>
+          <autores>ARRUDA, T. J</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
+          <titulo>Parecer científico para aceite de artigo no Results in Physics</titulo>
+          <autores>ARRUDA, T. J</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
+          <titulo>Parecer científico para aceite de artigo no Physical Review B</titulo>
+          <autores>ARRUDA, T. J</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
+          <titulo>Parecer científico para aceite de artigo no Physical Review B</titulo>
+          <autores>ARRUDA, T. J</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
+          <titulo>Parecer científico para aceite de artigo no Results in Physics</titulo>
+          <autores>ARRUDA, T. J</autores>
+          <ano>2023</ano>
+        </trabalho>
+        <trabalho>
           <titulo>Parecer científico para aceite de artigo na Optics Express</titulo>
           <autores>ARRUDA, T. J</autores>
           <ano>2022</ano>
@@ -16300,12 +16465,12 @@
           <ano>2022</ano>
         </trabalho>
         <trabalho>
-          <titulo>Parecer científico para aceite de artigo no Physical Review B</titulo>
+          <titulo>Parecer científico para aceite de artigo no Physical Review Letters</titulo>
           <autores>ARRUDA, T. J</autores>
           <ano>2022</ano>
         </trabalho>
         <trabalho>
-          <titulo>Parecer científico para aceite de artigo no Physical Review Letters</titulo>
+          <titulo>Parecer científico para aceite de artigo no Physical Review B</titulo>
           <autores>ARRUDA, T. J</autores>
           <ano>2022</ano>
         </trabalho>
@@ -17099,6 +17264,24 @@
           <ano>2006</ano>
         </producao>
     </producao_tecnica>
+    <orientacao_outros_tipos_em_andamento>
+        <orientacao_outra>
+          <nome_aluno>Giovana Nogueira Oliveira</nome_aluno>
+          <titulo_trabalho>Supervisão de Monitoria Voluntária (Graduação): Cálculo I</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Orientação de outra natureza. Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </orientacao_outra>
+        <orientacao_outra>
+          <nome_aluno>Otávio Ferreira de Brito Silveira</nome_aluno>
+          <titulo_trabalho>Supervisão de Monitoria com Bolsa Institucional (Graduação): Cálculo I</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Orientação de outra natureza. Universidade Federal de Alfenas</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </orientacao_outra>
+    </orientacao_outros_tipos_em_andamento>
     <orientacao_iniciacao_cientifica_concluido>
         <iniciacao_cientifica>
           <nome_aluno>Bruna da Costa Gomes</nome_aluno>
@@ -17160,6 +17343,34 @@
         </orientacao_outra>
     </orientacao_outros_tipos_concluido>
     <participacao_evento>
+        <evento>
+          <titulo>Desmistificando a Inteligência Artificial, IEA-RP, USP. 2023. (Seminário).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
+          <titulo>Encontro de Outono 2023 da Sociedade Brasileira de Física (SBF). Toroidal multipole excitations in core-shell nanoparticles. 2023. (Congresso).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
+          <titulo>Avaliação para a aprendizagem: reflexões e diferentes métodos, UNIFAL-MG. 2022. (Seminário).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>Encerramento Prodoc 2022: "Sentidos" do Ensino Híbrido, UNIFAL-MG. 2022. (Seminário).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>Ensino Híbrido e Avaliação, UNIFAL-MG. 2022. (Seminário).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>Seminário das Oficinas de Metodologias Ativas: partilha de experiências, UNIFAL-MG. 2022. (Seminário).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>Seminário Projeto ValorizAção da Docência: partilha de experiências, UNIFAL-MG. 2022. (Seminário).</titulo>
+          <ano>2022</ano>
+        </evento>
         <evento>
           <titulo>2021 Frontiers in Optics + Laser Conference - 2021 FiO LS. 2021. (Congresso).</titulo>
           <ano>2021</ano>

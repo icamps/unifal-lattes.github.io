@@ -142,7 +142,7 @@ strict graph grafo2 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="José P. Carvalho dos Santos [3]",
+		label="José P. Carvalho dos Santos [4]",
 		pos="633.5,208.5",
 		width=2.3056];
 	9 -- 11	 [fontsize=8,
@@ -153,11 +153,11 @@ strict graph grafo2 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="José Claudinei Ferreira [1]",
+		label="José Claudinei Ferreira [2]",
 		pos="693.5,274.5",
 		width=1.9861];
 	10 -- 11	 [fontsize=8,
-		label=1.0,
+		label=2.0,
 		lp="672.5,241.5",
 		pos="683.86,263.9 672.73,251.65 654.52,231.62 643.32,219.3"];
 }

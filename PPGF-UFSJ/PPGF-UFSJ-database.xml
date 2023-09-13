@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="30/06/2023 12:51:20">
+<curriculo_lattes data_processamento="13/09/2023 17:37:06">
   <pesquisador id="0487113229071944">
     <identificacao>
       <identificador10></identificador10>
@@ -27,14 +27,14 @@
         <formacao>
           <ano_inicio>2000</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Aspéctos do Limite Clássico da Mecânica Quântica e Expansão Semi-clássica O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2004. Orientador: Maria Carolina Nemes. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Limite clássico; Expansão Semi-Clássica; Sistemas Quânticos Abertos; Função de Wigner; Entropia Linear; Tempo de Ehrenfest. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1998</ano_inicio>
           <ano_conclusao>2000</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Estudo dos Estados Estacionários das Moléculas de hidrogênio, ácido clor´drico e iodo, através da distribuição no espaço de fases, geradas pela função de Husimmi, utilizando o modelo do potencial Morse., Ano de Obtenção: 2000. Orientador: Maria Carolina Nemes. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -75,7 +75,7 @@
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2010</ano_conclusao>
           <nome>Quebra decorrespondência e decoerência em sistemas quânticoscom análogo clássico não-linear</nome>
-          <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Adélcio Carlos de Oliveira - Coordenador. Financiador(es): Universidade Estadual de Santa Cruz - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado da Bahia - Auxílio financeiro.</descricao>
+          <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Adélcio Carlos de Oliveira - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado da Bahia - Auxílio financeiro / Universidade Estadual de Santa Cruz - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -750,7 +750,25 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
+    <artigos_em_revista>
+        <artigo_revista>
+          <doi></doi>
+          <autores>ROMERO, K. Fonseca ; REIS, M. ; OLIVEIRA, Adélcio Carlos de</autores>
+          <titulo>Quantum Roughness as sensitivity to diffusion noise: quantifying non-classicality of multi-mode systems</titulo>
+          <revista>PHYSICS LETTERS A</revista>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </artigo_revista>
+    </artigos_em_revista>
     <apresentacao_trabalho>
+        <trabalho_apresentado>
+          <titulo>Roughness as a measure of the quantumness of a state</titulo>
+          <autores>OLIVEIRA, Adélcio Carlos de</autores>
+          <ano>2023</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
         <trabalho_apresentado>
           <titulo>Jarzynski Equality as Quantum Indicator</titulo>
           <autores>OLIVEIRA, ADÉLCIO</autores>
@@ -914,6 +932,16 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
     </orientacao_mestrado_em_andamento>
+    <orientacao_doutorado_concluido>
+        <tese>
+          <nome_aluno>Gilson Vieira Soares</nome_aluno>
+          <titulo_trabalho>?ASPECTOS DO CONTROLE DAS OSCILAÇÕES DE JOSEPHSON NO MODELO DE BOSE- HUBBARD DE DOIS MODOS?.</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Tese (Doutorado em Modelagem Matemática e Computacional) - Centro Federal de Educação Tecnológica de Minas Gerais</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
+        </tese>
+    </orientacao_doutorado_concluido>
     <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Maria Luiza Guimarães Dias dos Santos</nome_aluno>
@@ -922,6 +950,14 @@
           <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei</instituicao>
           <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
+          <nome_aluno>Thiago Cordeiro</nome_aluno>
+          <titulo_trabalho>Nanovigas: quantização da equação da viga</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
           <nome_aluno>Thiago Bissiatte Monteiro</nome_aluno>
@@ -2285,14 +2321,14 @@
         <formacao>
           <ano_inicio>1995</ano_inicio>
           <ano_conclusao>2000</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: O Modelo de Mésons e Férmions Quirais à Temperatura Finita O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2000. Orientador: Maria Carolina Nemes. Palavras-chave: Modelo Sigma Linear; Simetria Quiral; Teoria de Campos à Temperatura Finita. Grande área: Ciências Exatas e da Terra Setores de atividade: Outros Setores.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1992</ano_inicio>
           <ano_conclusao>1995</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Conseqüências da Simetria Quiral e sua Quebra à Temperatura e Densidade Finitas, Ano de Obtenção: 1995. Orientador: Maria Carolina Nemes. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Modelo Sigma Linear; Simetria Quiral. Grande área: Ciências Exatas e da Terra Setores de atividade: Outros Setores.</descricao>
         </formacao>
@@ -3305,14 +3341,14 @@
         <formacao>
           <ano_inicio>2004</ano_inicio>
           <ano_conclusao>2008</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Estudo analítico da condutividade térmica em modelos microscópicos hamiltonianos fora do equilíbrio. O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2008. Orientador: Emmanuel Araújo Pereira. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: condução térmica; Lei de Fourier; estado estacionário de não-equilíbrio. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2002</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Propriedades de Relaxação para Estados Estacionários de Não-Equilíbrio de Modelos tipo Ginzburg-Landau Estocástico O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2004. Orientador: Emmanuel Araújo Pereira. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Física Estatística e Termodinâmica.</descricao>
         </formacao>
@@ -3338,6 +3374,7 @@
     <colaboradores>
         <id_lattes_colaborador>8432283152738712</id_lattes_colaborador>
         <id_lattes_colaborador>6082204595710795</id_lattes_colaborador>
+        <id_lattes_colaborador>3270622505035479</id_lattes_colaborador>
         <id_lattes_colaborador>8374281747074655</id_lattes_colaborador>
         <id_lattes_colaborador>0644505365952110</id_lattes_colaborador>
         <id_lattes_colaborador>6494692158787277</id_lattes_colaborador>
@@ -3552,17 +3589,15 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <orientacao_mestrado_em_andamento>
+    <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Thiago Cordeiro</nome_aluno>
-          <titulo_trabalho>(provisório)</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em PPGF) - Universidade Federal de São João Del-Rei</instituicao>
+          <titulo_trabalho>Nanovigas: qauntização da equação da viga</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
-    </orientacao_mestrado_em_andamento>
-    <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Guilherme Fernandes Cárias Barbosa</nome_aluno>
           <titulo_trabalho>Aplicações de Álgebra Linear na Compressão de Imagens</titulo_trabalho>
@@ -3765,7 +3800,7 @@
         <formacao>
           <ano_inicio>2001</ano_inicio>
           <ano_conclusao>2003</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: -Distribuições Quase-Estacionárias em Modelos de Catálise Heterogênea O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2003. Orientador: Ronald Dickman. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Catálise Heterogênea; Distribuição Quase-Estacionária; Transições de Fase de Não-Equilíbrio; Análise de Campo Médio; Processos estocásticos. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Equação de Estado / Especialidade: Processos Markovianos. Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Física Estatística e Termodinâmica.</descricao>
         </formacao>
@@ -3817,14 +3852,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>Edital MCT/CNPq 14/2009 - Universal - Aspectos Fundamentais em Transições de Fases para Estados Absorventes II</nome>
-          <descricao>Descrição: Valor financiado: R$7.500,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ediane de Sá Alvevs - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 6</descricao>
+          <nome>UNIVERSAL 01/2009 FAPEMIG: Aspectos Fundamentais em Transições de Fases para Estados Absorventes</nome>
+          <descricao>Descrição: Valor financiado: R$19.110,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ronald Dickman - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
-          <nome>UNIVERSAL 01/2009 FAPEMIG: Aspectos Fundamentais em Transições de Fases para Estados Absorventes</nome>
-          <descricao>Descrição: Valor financiado: R$19.110,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ronald Dickman - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Edital MCT/CNPq 14/2009 - Universal - Aspectos Fundamentais em Transições de Fases para Estados Absorventes II</nome>
+          <descricao>Descrição: Valor financiado: R$7.500,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ediane de Sá Alvevs - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 6</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -4139,7 +4174,7 @@
           <ano>2006</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.physa.2005.05.051</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.physa.2005.05.051&md5=707fc7f3515c5963f69213078778bfd6</doi>
           <titulo>Quasi-stationary simulation of the contact process</titulo>
           <autores>DICKMAN, R ; de OLIVEIRA, M. M.</autores>
           <revista>Physica. A</revista>
@@ -5081,14 +5116,14 @@
         <formacao>
           <ano_inicio>2003</ano_inicio>
           <ano_conclusao>2006</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Leis de escala e Crossovers em modelos de crescimento O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2006. Orientador: José Guilherme Martins Alves Moreira. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Scaling law; growth phenomena; diffusion limited aggregation; balistic aggregation. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2001</ano_inicio>
           <ano_conclusao>2002</ano_conclusao>
-          <tipo>Mestrado em Fisica Aplicada (Conceito CAPES 5)</tipo>
+          <tipo>Mestrado em Fisica Aplicada</tipo>
           <nome_instituicao>Universidade Federal de Viçosa, UFV, Brasil</nome_instituicao>
           <descricao>Título: Simulações de eleições e dos efeitos de pesquisa de opinião usando um modelo de autômatos celulares O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2002. Orientador: Marcelo Lobato Martins. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Eleições; ciências sociais. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -6165,14 +6200,14 @@
         <formacao>
           <ano_inicio>1994</ano_inicio>
           <ano_conclusao>1999</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: O Modelo de Nambu-Jona-Lasínio como uma Teoria Quântica de Campos O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 1999. Orientador: Maria Carolina Nemes. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Renormalização; Modelo de Nambu-Jona-Lasinio; Regularizações; Observáveis dos mésons. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1991</ano_inicio>
           <ano_conclusao>1994</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Estudo da Eletrodinâmica Quântica em Espaços de Momentos Finito e a Hipótese do Fóton Massivo, Ano de Obtenção: 1994. Orientador: Lincoln Almir Amarante Ribeiro. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Eletrodinâmica Quântica; Massa de Repouso do Fóton. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -6231,7 +6266,7 @@
           <ano_inicio>1998</ano_inicio>
           <ano_conclusao>2006</ano_conclusao>
           <nome>Estudo de Extensões Renormalizáveis de Modelos Efetivos em Teoria Quântica de Campos</nome>
-          <descricao>Descrição: O presente projeto apresenta uma proposta de estudo de um procedimento aplicado para a obtenção de modelos renormalizáveis a partir de modelos efetivos não-renormalizáveis em Física de Partículas e Campos e da Matéria Condensada. O principal objetivo é obter uma formulação geral deste procedimento e verificar a adequação de quantidades observáveis obtidas destes modelos aos resultados experimentais. O procedimento empregado é baseado no acréscimo de graus de liberdade à expansão local da ação efetiva do sistema. A ação efetiva resultante, embora não corresponda mais ao modelo original, corresponde a um modelo renormalizável cujos parâmetros se relacionam diretamente aos do modelo original.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: André Luiz Mota - Coordenador / Beatriz de Melo Rodrigues - Integrante / Dayvison Franklin Pereira - Integrante / Edson Wander Dias - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 22</descricao>
+          <descricao>Descrição: O presente projeto apresenta uma proposta de estudo de um procedimento aplicado para a obtenção de modelos renormalizáveis a partir de modelos efetivos não-renormalizáveis em Física de Partículas e Campos e da Matéria Condensada. O principal objetivo é obter uma formulação geral deste procedimento e verificar a adequação de quantidades observáveis obtidas destes modelos aos resultados experimentais. O procedimento empregado é baseado no acréscimo de graus de liberdade à expansão local da ação efetiva do sistema. A ação efetiva resultante, embora não corresponda mais ao modelo original, corresponde a um modelo renormalizável cujos parâmetros se relacionam diretamente aos do modelo original.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: André Luiz Mota - Coordenador / Beatriz de Melo Rodrigues - Integrante / Dayvison Franklin Pereira - Integrante / Edson Wander Dias - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 22</descricao>
         </projeto>
         <projeto>
           <ano_inicio>1998</ano_inicio>
@@ -6253,10 +6288,11 @@
     </premios_titulos>
     <colaboradores>
         <id_lattes_colaborador>3010882026747644</id_lattes_colaborador>
+        <id_lattes_colaborador>9320579515635433</id_lattes_colaborador>
         <id_lattes_colaborador>2629288574518166</id_lattes_colaborador>
         <id_lattes_colaborador>0259864383936387</id_lattes_colaborador>
         <id_lattes_colaborador>4801448860704123</id_lattes_colaborador>
-        <id_lattes_colaborador>7672532294117671</id_lattes_colaborador>
+        <id_lattes_colaborador>9198029814908910</id_lattes_colaborador>
         <id_lattes_colaborador>0069697138404546</id_lattes_colaborador>
         <id_lattes_colaborador>8194599016161354</id_lattes_colaborador>
         <id_lattes_colaborador>2237202147786441</id_lattes_colaborador>
@@ -6277,12 +6313,12 @@
         <id_lattes_colaborador>6341248082936350</id_lattes_colaborador>
         <id_lattes_colaborador>1345951126343014</id_lattes_colaborador>
         <id_lattes_colaborador>9811352883792475</id_lattes_colaborador>
-        <id_lattes_colaborador>9320579515635433</id_lattes_colaborador>
+        <id_lattes_colaborador>6950878421414731</id_lattes_colaborador>
         <id_lattes_colaborador>1765134242325847</id_lattes_colaborador>
         <id_lattes_colaborador>3376868479470271</id_lattes_colaborador>
         <id_lattes_colaborador>3189016459956475</id_lattes_colaborador>
         <id_lattes_colaborador>7108816464261099</id_lattes_colaborador>
-        <id_lattes_colaborador>9198029814908910</id_lattes_colaborador>
+        <id_lattes_colaborador>7672532294117671</id_lattes_colaborador>
         <id_lattes_colaborador>9957455292822908</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
@@ -6417,7 +6453,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.79.085002&md5=1be84e002e6da6c5cb0dcda22c4da893</doi>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.79.085002</doi>
           <titulo>Axial-vector coupling and chiral anomaly in the spectral quark model</titulo>
           <autores>FERREIRA, L. C. ; MOTA, A. L.</autores>
           <revista>Physical Review D, Particles, Fields, Gravitation and Cosmology</revista>
@@ -7136,9 +7172,9 @@
     </apresentacao_trabalho>
     <producao_bibliografica>
         <producao>
-          <titulo>On the coupling constant bounds implying area decay of Wilson loop for Z2 lattice gauge theories with Wilson action Boltzmann factor given by bond variables described by transverse Ising model</titulo>
-          <autores>F. C. Sá Barreto ; A. L. Mota</autores>
-          <ano>2012</ano>
+          <titulo>The Schwinger and Chiral Schwinger Models in a Non-perturbative Spectral Regularization</titulo>
+          <autores>ELEOTERIO, L. F. ; ALMEIDA, G. O. ; DIAS, E. W. ; CALDAS, Heron Carlos de Godoy ; Mota, A L</autores>
+          <ano>2023</ano>
           <natureza>Divulgação Eletrônica/pre-print</natureza>
         </producao>
         <producao>
@@ -7173,14 +7209,6 @@
           <ano>2022</ano>
           <instituicao>Dissertação (Mestrado profissional em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei</instituicao>
           <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Gabrielle Oliveira de Almeida</nome_aluno>
-          <titulo_trabalho>Simetrias em campos espinoriais não relativísticos</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
@@ -7253,6 +7281,14 @@
         </tese>
     </orientacao_doutorado_concluido>
     <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Gabrielle Oliveira de Almeida</nome_aluno>
+          <titulo_trabalho>O tensor de Polarização do vácuo no modelo de Schwinger em uma abordagem espectral</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
         <dissertacao>
           <nome_aluno>Públio Rwany Batista Ribeiro do Vale</nome_aluno>
           <titulo_trabalho>O efeito dos termos de superfície no decaimento raro do píon no modelo de Nambu-Jona-Lasínio</titulo_trabalho>
@@ -7666,7 +7702,7 @@
       </idioma>
     </idiomas>
     <endereco>
-      <endereco_profissional>Universidade Federal de São João Del-Rei. Campus Alto Paraopeba Rod.: MG 443, KM 7 36420000 - Ouro Branco, MG - Brasil Telefone: (31) 37413516</endereco_profissional>
+      <endereco_profissional>Universidade Federal de São João Del-Rei. Campus Alto Paraopeba Rod.: MG 443, KM 7 36420000 - Ouro Branco, MG - Brasil Telefone: (31) 37497300</endereco_profissional>
       <endereco_profissional_lat></endereco_profissional_lat>
       <endereco_profissional_long></endereco_profissional_long>
     </endereco>
@@ -7697,14 +7733,14 @@
         <projeto>
           <ano_inicio>2017</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Difusão anômola aplicada à engenharia e bioengenharia</nome>
-          <descricao>Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Leticia Ribeiro de Paiva - Coordenador / Adélcio Carlos de Oliveira - Integrante / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Adélcio Carlos de Oliveira - Coordenador / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / José Eloy Ottoni - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Letícia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Integrante / Dane Tadeu Cestarolli - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
+          <nome>Modelos baseados em agentes para investigação de sistemas complexos</nome>
+          <descricao>Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Leticia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Coordenador / Marcelo Martins de Oliveira - Integrante / Dori Edson Navi - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante / Marcelo Martins de Oliveira - Integrante / DORI EDSON NAVI - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Integrante / Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Modelos baseados em agentes para investigação de sistemas complexos</nome>
-          <descricao>Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Leticia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Coordenador / Marcelo Martins de Oliveira - Integrante / Dori Edson Navi - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante / Marcelo Martins de Oliveira - Integrante / DORI EDSON NAVI - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Integrante / Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Difusão anômola aplicada à engenharia e bioengenharia</nome>
+          <descricao>Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Leticia Ribeiro de Paiva - Coordenador / Adélcio Carlos de Oliveira - Integrante / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Adélcio Carlos de Oliveira - Coordenador / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / José Eloy Ottoni - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Letícia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Integrante / Dane Tadeu Cestarolli - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2015</ano_inicio>
@@ -8033,6 +8069,24 @@
         </resumo>
     </resumo_congresso>
     <apresentacao_trabalho>
+        <trabalho_apresentado>
+          <titulo>Complexity & termite movement patterns</titulo>
+          <autores>Leticia R Paiva</autores>
+          <ano>2023</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Mulheres na Ciência</titulo>
+          <autores>Leticia R Paiva</autores>
+          <ano>2023</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Você já ouviu falar de Física Biológica?</titulo>
+          <autores>Leticia R Paiva</autores>
+          <ano>2023</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
         <trabalho_apresentado>
           <titulo>Física, cupins e a maternidade na ciência</titulo>
           <autores>PAIVA, L. R</autores>
@@ -8418,6 +8472,14 @@
     </orientacao_outros_tipos_concluido>
     <participacao_evento>
         <evento>
+          <titulo>Encontro de Outono da Sociedade Brasileira de Física.Complexity & termite movement patterns - EOSBF23. 2023. (Encontro).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
+          <titulo>Workshop - Os direitos das MÃES nas instituições de ensino e pesquisa no Brasil,. 2023. (Outra).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
           <titulo>Animal Behaviour Live: Annual Online Conference 2022.Scale-free movement patterns in termites. 2022. (Outra).</titulo>
           <ano>2022</ano>
         </evento>
@@ -8597,16 +8659,16 @@
         <formacao>
           <ano_inicio>2000</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 6)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal Fluminense, UFF, Brasil</nome_instituicao>
-          <descricao>Título: Estudo comparativo entre os métodos dos X-bósons e bósons escravos aplicado à supercondutividade, Ano de obtenção: 2004. Orientador: Evandro Vidor Lins de Mello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Supercondutividade; Sistemas eletrônicos fortemente correlacionados; férmions pesados; compostos de valência intermediária. Grande área: Ciências Exatas e da Terra</descricao>
+          <descricao>Título: Estudo comparativo entre os métodos dos X-bósons e bósons escravos aplicado à supercondutividade O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2004. Orientador: Evandro Vidor Lins de Mello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Supercondutividade; Sistemas eletrônicos fortemente correlacionados; férmions pesados; compostos de valência intermediária. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1998</ano_inicio>
           <ano_conclusao>2000</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 6)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal Fluminense, UFF, Brasil</nome_instituicao>
-          <descricao>Título: Teoria BCS para Supercondutividade com a Estatistica de Tsallis, Ano de Obtenção: 2000. Orientador: Evandro Vidor Lins de Mello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Supercondutividade; Mecanica Estatistica; Termodinamica Nao-Extensiva. Grande área: Ciências Exatas e da Terra</descricao>
+          <descricao>Título: Teoria BCS para Supercondutividade com a Estatistica de Tsallis O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2000. Orientador: Evandro Vidor Lins de Mello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Supercondutividade; Mecanica Estatistica; Termodinamica Nao-Extensiva. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1992</ano_inicio>
@@ -8621,13 +8683,13 @@
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Investigação das Condições para o Aparecimento da Supercondutividade em Grafeno e Dupla Camada de Grafeno</nome>
-          <descricao>Descrição: Visa empregar técnicas de Teoria Quântica de Campos (TQC) para investigar as condições em que supercondutividade aparece em grafeno e em dupla camada de grafeno.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Lizardo Henrique Cerqueira Moreira Nunes - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Número de orientações: 1</descricao>
+          <descricao>Descrição: Visa empregar técnicas de Teoria Quântica de Campos (TQC) para investigar as condições em que supercondutividade aparece em grafeno e em dupla camada de grafeno.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Lizardo Henrique Cerqueira Moreira Nunes - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2007</ano_inicio>
           <ano_conclusao>2008</ano_conclusao>
           <nome>Avaliação da Capacitação e Utilização de Novas Tecnologias para a Atualização de Professores de Física no Ensino Médio</nome>
-          <descricao>Descrição: Este projeto consiste na implementação de um programa de capacitação e atualização do professor de Física do ensino médio. O projeto visa estudar a eficácia de diferentes metodologias aplicadas ao processo de ensino-aprendizagem de Física e também pretende identificar as particularidades e diferenças entre o ensino ministrado nas áreas rurais e urbanas do estado, o que permitirá orientar as políticas governamentais, oferecendo informações para subsidiar o aperfeiçoamento de programas e projetos já em desenvolvimento.#10;#10;Recursos fornecidos: R$ 40.000,00. Situação: Concluído; Natureza: Pesquisa. Integrantes: Lizardo Henrique Cerqueira Moreira Nunes - Coordenador. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro.</descricao>
+          <descricao>Descrição: Este projeto consiste na implementação de um programa de capacitação e atualização do professor de Física do ensino médio. O projeto visa estudar a eficácia de diferentes metodologias aplicadas ao processo de ensino-aprendizagem de Física e também pretende identificar as particularidades e diferenças entre o ensino ministrado nas áreas rurais e urbanas do estado, o que permitirá orientar as políticas governamentais, oferecendo informações para subsidiar o aperfeiçoamento de programas e projetos já em desenvolvimento. Recursos fornecidos: R$ 40.000,00. Situação: Concluído; Natureza: Pesquisa. Integrantes: Lizardo Henrique Cerqueira Moreira Nunes - Coordenador. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -8829,7 +8891,7 @@
         </artigo>
         <artigo>
           <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevc.57.857&md5=d3298f793e3d3dcf950c37eca681add7</doi>
-          <titulo>Dimensional Effects</titulo>
+          <titulo>Dimensional Effects in a Relativistic Mean-Field Approach.</titulo>
           <autores>DELFINO, A. ; NUNES, Lizardo H. C. M. ; MARTINS, J. S. Sa</autores>
           <revista>Physical Review. C, Nuclear Physics</revista>
           <volume>Physical Review. C, Nuclear Physics</volume>
@@ -8980,7 +9042,25 @@
           <natureza>Apresentação de Trabalho/Congresso</natureza>
         </trabalho_apresentado>
     </apresentacao_trabalho>
+    <orientacao_mestrado_em_andamento>
+        <dissertacao>
+          <nome_aluno>Daniel Crizóstomo da Costa</nome_aluno>
+          <titulo_trabalho>Ondas planas e estados topológicos na rede quadrada-octogonal</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Física (PPGF)) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+    </orientacao_mestrado_em_andamento>
     <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Maria Alice Neves</nome_aluno>
+          <titulo_trabalho>O efeito do zinco como uma impureza não magnética sobre cupratos supercondutores de alta temperatura</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Dissertação (Mestrado em Física (PPGF)) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
         <dissertacao>
           <nome_aluno>Silke Schönecker</nome_aluno>
           <titulo_trabalho>Theoretical investigation into high-Tc superconductivity in cuprates</titulo_trabalho>
@@ -8999,7 +9079,7 @@
         </dissertacao>
         <dissertacao>
           <nome_aluno>Raphaella Bahia Soares Cabral</nome_aluno>
-          <titulo_trabalho>Diagrama de fase supercondutor em sistemas de Dirac bidimensionais na presenc#807;a de um campo magne#769;tico aplicado</titulo_trabalho>
+          <titulo_trabalho>Diagrama de fase supercondutor em sistemas de Dirac bidimensionais na presenc?a de um campo magne?tico aplicado</titulo_trabalho>
           <ano>2012</ano>
           <instituicao>Dissertação (Mestrado em Física e Química de Materiais) - Universidade Federal de São João Del-Rei</instituicao>
           <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
@@ -9090,7 +9170,7 @@
           <ano>2009</ano>
         </evento>
         <evento>
-          <titulo>Workshop on quot;Advances on Physics and Applications of Low-Dimensional Systemquot;. Magnetic Field Effects on the Superconducting and Quantum Critical Properties of Layered Systems with Dirac Electrons. 2007. (Congresso).</titulo>
+          <titulo>Workshop on "Advances on Physics and Applications of Low-Dimensional System". Magnetic Field Effects on the Superconducting and Quantum Critical Properties of Layered Systems with Dirac Electrons. 2007. (Congresso).</titulo>
           <ano>2007</ano>
         </evento>
         <evento>

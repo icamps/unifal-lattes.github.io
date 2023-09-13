@@ -1,11 +1,11 @@
 {
 "nodes":[
 { "name":"Adelcio Carlos de Oliveira", "idlattes":"0487113229071944", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Anibal Thiago Bezerra", "idlattes":"8478305453281130", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Anibal Thiago Bezerra", "idlattes":"8478305453281130", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Cassius Anderson Miquele de Melo", "idlattes":"4002033080997386", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Erico Goulart de Oliveira Costa", "idlattes":"4937965723746020", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
 { "name":"Fernando Goncalves Gardim", "idlattes":"2425549033248106", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Gustavo do Amaral Valdiviesso", "idlattes":"4023778019418442", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Gustavo do Amaral Valdiviesso", "idlattes":"4023778019418442", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Heron Carlos de Godoy Caldas", "idlattes":"1373657423991547", "rotulo":"[Sem rotulo]", "collaborationrank":1.16102099419 },
 { "name":"Humberto Cesar Fernandes Lemos", "idlattes":"8374281747074655", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Ihosvany Camps Rodriguez", "idlattes":"3732563704810366", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
@@ -20,6 +20,7 @@
 ],
 "links":[
 { "source":0, "target":7, "value":2.0 },
+{ "source":1, "target":5, "value":4.0 },
 { "source":2, "target":11, "value":7.0 },
 { "source":6, "target":13, "value":11.0 },
 { "source":6, "target":15, "value":1.0 },

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="30/06/2023 12:56:03">
+<curriculo_lattes data_processamento="13/09/2023 17:41:25">
   <pesquisador id="8154959660506192">
     <identificacao>
       <identificador10></identificador10>
@@ -27,14 +27,14 @@
         <formacao>
           <ano_inicio>2006</ano_inicio>
           <ano_conclusao>2010</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 5)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Análise de geometrias com curvas fechadas no tempo O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2010. Orientador: Elcio Abdalla. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: máquinas do tempo; Perturbação Escalar; Perturbações de cilindros. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2004</ano_inicio>
           <ano_conclusao>2006</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 5)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Análise de buracos negros esfericamente simétrico em modelos de Branas, Ano de Obtenção: 2006. Orientador: Elcio Abdalla. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Braneworld; Buracos negros; Perturbação Escalar; Pertubação de Buracos Negros.</descricao>
         </formacao>
@@ -57,7 +57,7 @@
           <ano_inicio>2021</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Ferramentas de aprendizado de máquina em Gravitação</nome>
-          <descricao>Descrição: Neste projeto estudaremos e aplicaremos técnicas de aprendizado de máquina (AM) na investigação da perturbação e modelagem matemática de buracos negros e da dinâmica do colapso gravitacional. Atualmente, a computação desses fenômenos utiliza técnicas numéricas que podem ser aprimoradas pelo uso do AM. Redes neurais artificiais serão utilizadas como aproximadores universais das soluções das equações diferenciais que representam cada sistema físico. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Alan Bendasoli Pavan - Coordenador / Daniel Augusto de Sousa Mendes - Integrante / ISABELA NEVES DRUMMOND - Integrante / ELISANGELA GABRIELA GREGORIO SILVA - Integrante / NEIL LIZANDER GOYZUETA PALOMINO - Integrante / JOAQUÍN EDUARDO LLANOS SALAZAR - Integrante. Número de produções C, T & A: 3 / Número de orientações: 1</descricao>
+          <descricao>Descrição: Neste projeto estudaremos e aplicaremos técnicas de aprendizado de máquina (AM) na investigação da perturbação e modelagem matemática de buracos negros e da dinâmica do colapso gravitacional. Atualmente, a computação desses fenômenos utiliza técnicas numéricas que podem ser aprimoradas pelo uso do AM. Redes neurais artificiais serão utilizadas como aproximadores universais das soluções das equações diferenciais que representam cada sistema físico. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Alan Bendasoli Pavan - Coordenador / Daniel Augusto de Sousa Mendes - Integrante / ISABELA NEVES DRUMMOND - Integrante / ELISANGELA GABRIELA GREGORIO SILVA - Integrante / NEIL LIZANDER GOYZUETA PALOMINO - Integrante / JOAQUÍN EDUARDO LLANOS SALAZAR - Integrante. Número de produções C, T & A: 4</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2021</ano_inicio>
@@ -311,6 +311,15 @@
     </artigos_em_periodicos>
     <trabalho_completo_congresso>
         <trabalho_completo>
+          <doi>http://dx.doi.org/10.5753/sbcas_estendido.2023.231149</doi>
+          <autores>PAVAN, A. B.; SOUZA, G. G. ; CARMO, P. A. M.</autores>
+          <titulo>ALCATEA - Aplicativo para automatização de aplicação de testes de Transtorno do Espectro Autista</titulo>
+          <nome_evento>XXIII SIMPÓSIO BRASILEIRO DE COMPUTAÇÃO APLICADA À SAÚDE - FERRAMENTAS E APLICAÇÕES</nome_evento>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas>162-167</paginas>
+        </trabalho_completo>
+        <trabalho_completo>
           <doi>http://dx.doi.org/10.29327/167942.3-243</doi>
           <autores>MENDES, DANIEL AUGUSTO DE SOUSA ; PAVAN, ALAN BENDASOLI</autores>
           <titulo>SOLUÇÕES DAS EQUAÇÕES DE CAMPO DE EINSTEIN USANDO APRENDIZADO DE MÁQUINA</titulo>
@@ -393,43 +402,7 @@
           <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
-        <dissertacao>
-          <nome_aluno>NEIL LIZANDER GOYZUETA PALOMINO</nome_aluno>
-          <titulo_trabalho>Análise das características da evolução de campos de matéria em espaços-tempos simetricamente esféricos</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
     </orientacao_mestrado_em_andamento>
-    <orientacao_iniciacao_cientifica_em_andamento>
-        <iniciacao_cientifica>
-          <nome_aluno>Giovana Araujo Lopes Prates</nome_aluno>
-          <titulo_trabalho>Análise de modelos cosmológicos com ferramentas de aprendizado de máquina: soluções e comparações com dados observacionais</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Iniciação científica (Graduando em Física) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento>UNIFEI - União</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-    </orientacao_iniciacao_cientifica_em_andamento>
-    <orientacao_outros_tipos_em_andamento>
-        <orientacao_outra>
-          <nome_aluno>Frederico Arce Ribeiro Braga</nome_aluno>
-          <titulo_trabalho>Smartização de um dispensador de medicação comercial por meio de um sistema de comunicação IoT e classificação por ferramenta de aprendizado de máquina</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Orientação de outra natureza. Universidade Federal de Itajubá. Fundação de Amparo à Pesquisa do Estado de Minas Gerais</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </orientacao_outra>
-        <orientacao_outra>
-          <nome_aluno>Gustavo da Gama Souza</nome_aluno>
-          <titulo_trabalho>Desenvolvimento de aplicativos de celular para gestão de projetos e negócios aplicando ferramentas de aprendizado de máquina e internet das coisas</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Orientação de outra natureza. Universidade Federal de Itajubá. Conselho Nacional de Desenvolvimento Científico e Tecnológico</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </orientacao_outra>
-    </orientacao_outros_tipos_em_andamento>
     <supervisao_pos_doutorado_concluido>
         <supervisao>
           <nome_aluno>Kai Lin</nome_aluno>
@@ -466,6 +439,14 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
         <dissertacao>
+          <nome_aluno>NEIL LIZANDER GOYZUETA PALOMINO</nome_aluno>
+          <titulo_trabalho>Análise das características da evolução de campos de matéria em espaços-tempos simetricamente esféricos</titulo_trabalho>
+          <ano>2021</ano>
+          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
           <nome_aluno>João Ider Silva Junior</nome_aluno>
           <titulo_trabalho>Evolução de campos de matéria em buracos negros com simetria de Lifshitz</titulo_trabalho>
           <ano>2016</ano>
@@ -475,6 +456,14 @@
         </dissertacao>
     </orientacao_mestrado_concluido>
     <orientacao_tcc_concluido>
+        <tcc>
+          <nome_aluno>Victor de Oliveira Barbosa</nome_aluno>
+          <titulo_trabalho>Um Estudo do Colapso Gravitacional de Matéria Incoerente</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
         <tcc>
           <nome_aluno>Rogério Costa de Oliveira Júnior</nome_aluno>
           <titulo_trabalho>Análise matemática e computacional de Rogue waves (vagalhões) usando as Physics Informed Neural Networks (PINNs)</titulo_trabalho>
@@ -541,6 +530,14 @@
         </tcc>
     </orientacao_tcc_concluido>
     <orientacao_iniciacao_cientifica_concluido>
+        <iniciacao_cientifica>
+          <nome_aluno>Giovana Araujo Lopes Prates</nome_aluno>
+          <titulo_trabalho>Análise de modelos cosmológicos com ferramentas de aprendizado de máquina: soluções e comparações com dados observacionais</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduando em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>UNIFEI - União</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
         <iniciacao_cientifica>
           <nome_aluno>Matheus Borrone de Freitas</nome_aluno>
           <titulo_trabalho>Investigação de Interesse e Abrangência de Materiais Sobre Relatividade Geral em Português com Técnicas de Aprendizado de Máquina</titulo_trabalho>
@@ -615,6 +612,22 @@
         </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_concluido>
     <orientacao_outros_tipos_concluido>
+        <orientacao_outra>
+          <nome_aluno>Frederico Arce Ribeiro Braga</nome_aluno>
+          <titulo_trabalho>Smartização de um dispensador de medicação comercial por meio de um sistema de comunicação IoT e classificação por ferramenta de aprendizado de máquina</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Engenharia de Controle e Automação) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </orientacao_outra>
+        <orientacao_outra>
+          <nome_aluno>Gustavo da Gama Souza</nome_aluno>
+          <titulo_trabalho>Desenvolvimento de aplicativos de celular para gestão de projetos e negócios aplicando ferramentas de aprendizado de máquina e internet das coisas</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </orientacao_outra>
         <orientacao_outra>
           <nome_aluno>Gustavo da Gama Souza</nome_aluno>
           <titulo_trabalho>ALCATEA - Aplicativo de Automatização de Aplicação de Testes Psicológicos do Transtorno do Espectro Autista</titulo_trabalho>
@@ -766,14 +779,14 @@
         <formacao>
           <ano_inicio>1995</ano_inicio>
           <ano_conclusao>1999</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil</nome_instituicao>
           <descricao>Título: Galáxias Seyfert 1 normais e de linhas estreitas: propriedades físicas do gás em emissão O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2000. Orientador: Miriani Grizelda Pastoriza. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: galáxias ativas; galáxias Seyfert; linhas de emissão; raios-X. Grande área: Ciências Exatas e da Terra Setores de atividade: Educação.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1993</ano_inicio>
           <ano_conclusao>1995</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil</nome_instituicao>
           <descricao>Título: Análise espectroscópica do contínuo e das linhas de emissão nas galáxias Seyfert 1 F10.01, A08.12 e C16.16, Ano de Obtenção: 1995. Orientador: Miriani Grizelda Pastoriza. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: galáxias Seyfert; galáxias ativas; linhas de emissão. Grande área: Ciências Exatas e da Terra Setores de atividade: Educação.</descricao>
         </formacao>
@@ -858,6 +871,56 @@
           <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
           <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
           <paginas>1832-1848</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stad1148</doi>
+          <titulo>Digging deeper into NGC 6868 I: Stellar population</titulo>
+          <autores>BENEDETTI, JOÃO P V ; Riffel, Rogério ; RICCI, TIAGO ; TREVISAN, MARINA ; RIFFEL, ROGEMAR A ; PASTORIZA, MIRIANI ; DAHMER-HAHN, LUIS G ; RUSCHEL-DUTRA, DANIEL ; Rodríguez-Ardila, Alberto ; HERNANDEZ-JIMENEZ, JOSE A ; STEINER, JOÃO</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>2570-2583</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stad1908</doi>
+          <titulo>Coronal line forest AGN - II. Analysis of the spectral energy distribution</titulo>
+          <autores>CERQUEIRA-CAMPOS, F C ; RODRÍGUEZ-ARDILA, A ; PANDA, S ; RIFFEL, R ; DAHMER-HAHN, LG ; MARINELLO, M</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>542-554</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stad1871</doi>
+          <titulo>Physical conditions and extension of the coronal line region in IC 5063</titulo>
+          <autores>FONSECA-FARIA, M A ; RODRÍGUEZ-ARDILA, A ; CONTINI, M ; DAHMER-HAHN, L G ; MORGANTI, R</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>143-160</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.3847/2041-8213/ace974</doi>
+          <titulo>First Observation of a Double-peaked O i Emission in the Near-infrared Spectrum of an Active Galaxy</titulo>
+          <autores>DIAS DOS SANTOS, DENIMARA ; Rodríguez-Ardila, Alberto ; PANDA, SWAYAMTRUPTA ; MARINELLO, MURILO</autores>
+          <revista>Astrophysical Journal Letters</revista>
+          <volume>Astrophysical Journal Letters</volume>
+          <paginas>L3</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stad1774</doi>
+          <titulo>A decade of near-infrared variability in NGC4388: insights into the AGN structure</titulo>
+          <autores>DAHMER-HAHN, LUIS G ; Rodríguez-Ardila, Alberto ; BIANCHIN, MARINA ; RIFFEL, ROGEMAR A ; Riffel, Rogério ; STORCHI-BERGMANN, THAISA ; HAO, LEI</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>5502-5509</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -1455,8 +1518,8 @@
           <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1046/j.1365-8711.2003.06538.x&md5=10b5ee5f82f45f61661e7a84ba4d1cae</doi>
           <titulo>Hidden Starburst in Seyfert 1 Galaxies</titulo>
           <autores>Rodríguez-Ardila, A.; VIEGAS, S.</autores>
-          <revista>Monthly Notices of the Royal Astronomical Society</revista>
-          <volume>Monthly Notices of the Royal Astronomical Society</volume>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
           <paginas>L33-L37</paginas>
           <numero>4</numero>
           <ano>2003</ano>
@@ -1862,18 +1925,6 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <artigos_em_revista>
-        <artigo_revista>
-          <doi>http://dx.doi.org/10.1093/mnras/stad1148</doi>
-          <autores>BENEDETTI, JOÃO P V ; Riffel, Rogério ; RICCI, TIAGO ; TREVISAN, MARINA ; RIFFEL, ROGEMAR A ; PASTORIZA, MIRIANI ; DAHMER-HAHN, LUIS G ; RUSCHEL-DUTRA, DANIEL ; Rodríguez-Ardila, Alberto ; HERNANDEZ-JIMENEZ, JOSE A ; STEINER, JOÃO</autores>
-          <titulo>Digging deeper into NGC6868 I: Stellar population</titulo>
-          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
-          <ano>2023</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>Feedback in the central parsecs of active galactic nuclei mapped from high-ionisation lines</titulo>
@@ -2138,6 +2189,26 @@
     </orientacao_iniciacao_cientifica_concluido>
     <participacao_evento>
         <evento>
+          <titulo>AGN winds on the Chesapeake. Using the Optical/NIR Coronal Lines to Measure the Kinematicsof the Extended X-ray Emission. 2023. (Congresso).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
+          <titulo>Reunião Anual da Sociedade Astronômica Brasileira. The Kinetic Feedback Channel Traced by the Coronal Gas in Radio-Weak Active Galactic Nuclei. 2022. (Congresso).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>What drives the Growth of Black Holes? A decade of reflection.The kinetic feedback channel traced by the coronal gas in radio-weak Active Galactic Nuclei. 2022. (Oficina).</titulo>
+          <ano>2022</ano>
+        </evento>
+        <evento>
+          <titulo>IAU Symposium 359: Galaxy Evolution and Feedback Across Different Environments (GALFEED). Kiloparsec-scale jet-driven feedback in AGN probed by highly ionized gas: a MUSE/VLT perspective. 2020. (Congresso).</titulo>
+          <ano>2020</ano>
+        </evento>
+        <evento>
+          <titulo>Supermassive Black Holes.A novel black-hole mass scaling relation based on Coronal lines and supported by accretion predictions. 2020. (Seminário).</titulo>
+          <ano>2020</ano>
+        </evento>
+        <evento>
           <titulo>Chemical abundances in gaseous nebulae.Coronal Lines, outflows and chemical enrichment in AGNs. 2019. (Oficina).</titulo>
           <ano>2019</ano>
         </evento>
@@ -2148,6 +2219,10 @@
         <evento>
           <titulo>Active Galactic Nuclei: What's in a name?.The complexity of the Coronal Line Region in AGNs: Gas-jet interactions and outflows revealed by NIR spectroscopy. 2018. (Oficina).</titulo>
           <ano>2018</ano>
+        </evento>
+        <evento>
+          <titulo>XV Reunião Regional Latinoamerica da IAU. Mapping the central regions of active galactic nuclei using high-ionization lines. 2016. (Congresso).</titulo>
+          <ano>2016</ano>
         </evento>
         <evento>
           <titulo>Evolution of Galaxies and Central Black Holes: Feeding and Feedback. FeII emission in the NLS1 galaxy Izw1: results from NIR spectroscopy. 2009. (Congresso).</titulo>
@@ -2297,7 +2372,7 @@
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>2020</ano_conclusao>
           <nome>Hierarquias Integraveis, Solitons e Algebras Infinitas</nome>
-          <descricao>Descrição: Projeto Auxilio a Pesquisa- Fapesp - 2017/25044-1 - Este projeto visa estudar a estrutura de uma classe de equacoes n~ao-lineares construidas em termos de uma estrutura algebrica afim e a chamada representacao de curvatura nula. Os metodos algebricos utilizados sao sistem\'aticos e suficientemente gerais para a constru\cao de uma s\'erie de equa\coes de evolu\cao temporal denominada de hierarquia, suas solu\coes s\'oliton e as chamadas equa\coes de Backlund. Essas ultimas s\~ao utilizadas no formalismo da descri\cao de {\it defeitos integr\'aveis} que descreve a interpola\cao de duas solu\coes s\'oliton. Este projeto visa tamb\'em estudar vers\~oes quantizadas destes modelos na sua forma discretizada e da sua rela\cao com as transforma\coes de Backlund. Seguindo essa mesma linha de pensamento, estudaremos tamb\'em cadeias de spin abertas associadas a algebras torcidas. Este projeto constitue natural da pesquisa que tem sido desenvolvida pelo grupo no IFT/UNESP sobre estes temas nas ultimas decadas. Situação: Concluído; Natureza: Pesquisa. Integrantes: Alexis Roa Aguirre - Integrante / Jose Francisco Gomes - Coordenador / Leandro Hayato Ymai - Integrante / SPANO, N. I. - Integrante / Retore, A. L. - Integrante / abraham zimerman - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio financeiro.</descricao>
+          <descricao>Descrição: Projeto Auxilio a Pesquisa- Fapesp - 2017/25044-1 - Este projeto visa estudar a estrutura de uma classe de equacoes não-lineares construidas em termos de uma estrutura algebrica afim e a chamada representacao de curvatura nula. Os metodos algebricos utilizados sao sistemáticos e suficientemente gerais para a construção de uma série de equações de evolução temporal denominada de hierarquia, suas soluções sóliton e as chamadas equações de Backlund. Essas ultimas são utilizadas no formalismo da descrição de defeitos integráveis que descreve a interpolação de duas soluções sóliton. Este projeto visa também estudar versões quantizadas destes modelos na sua forma discretizada e da sua relação com as transformações de Backlund. Seguindo essa mesma linha de pensamento, estudaremos também cadeias de spin abertas associadas a algebras torcidas. Este projeto constitue natural da pesquisa que tem sido desenvolvida pelo grupo no IFT/UNESP sobre estes temas nas ultimas decadas. Situação: Concluído; Natureza: Pesquisa. Integrantes: Alexis Roa Aguirre - Integrante / Jose Francisco Gomes - Coordenador / Leandro Hayato Ymai - Integrante / SPANO, N. I. - Integrante / Retore, A. L. - Integrante / abraham zimerman - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
@@ -2622,6 +2697,24 @@
     </trabalho_completo_congresso>
     <apresentacao_trabalho>
         <trabalho_apresentado>
+          <titulo>Extended multi-scalar field theories with BPS solutions</titulo>
+          <autores>Aguirre, A. R</autores>
+          <ano>2023</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Teorias estendidas de múltiplos campos escalares com soluções BPS</titulo>
+          <autores>Aguirre, A. R</autores>
+          <ano>2021</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Extended multi-scalar field theories in (1 + 1) dimensions</titulo>
+          <autores>Aguirre, A. R</autores>
+          <ano>2021</ano>
+          <natureza>Apresentação de Trabalho/Congresso</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
           <titulo>Dynamical Defects in Integrable Field Theories</titulo>
           <autores>AGUIRRE, A. R</autores>
           <ano>2018</ano>
@@ -2808,6 +2901,10 @@
     </orientacao_iniciacao_cientifica_concluido>
     <participacao_evento>
         <evento>
+          <titulo>Young Researchers Integrability School and Workshop and the Integrability, Dualities and Deformations conference. Extended multi-scalar field theories with BPS solutions. 2023. (Congresso).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
           <titulo>Escola Mato-Grossense de Física. Teorias estendidas de múltiplos campos escalares com soluções BPS. 2021. (Congresso).</titulo>
           <ano>2021</ano>
         </evento>
@@ -2988,7 +3085,7 @@
         <formacao>
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2007</ano_conclusao>
-          <tipo>Mestrado em Engenharia Elétrica (Conceito CAPES 6)</tipo>
+          <tipo>Mestrado em Engenharia Elétrica</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Estruturas Multicamadas de Silício Poroso Para Aplicações em Dispositivos de Cristais Fotôicos, Ano de Obtenção: 2007. Orientador: Dr. Walter Jaimes Salcedo. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Silício Poroso; Sensores Ópticos; multicamadas de silicio poroso; Cristais Fotônicos. Grande área: Ciências Exatas e da Terra Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Microeletrônica. Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Microeletrônica / Especialidade: Sensores. Setores de atividade: Atividades No Campo das Nanotecnologias e Desenvolvimento de Nanoprodutos; Desenvolvimento de Novos Materiais.</descricao>
         </formacao>
@@ -3003,21 +3100,21 @@
     <projetos_pesquisa>
         <projeto>
           <ano_inicio>2021</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
+          <ano_conclusao>2023</ano_conclusao>
           <nome>Fabricação e caracterização elétrica e óptica de heteroestruturas baseadas e silício poroso visando aplicações como sensores e fotocélulas</nome>
-          <descricao>Descrição: Neste projeto, as propriedades elétricas e óptica de heteroestruturas basedas em deposição de filmes finos de TiO2, polianilina e polipirrole são caracterizadas, visando sua aplicação em células solares se sensores químicos. Para esse fim, os polímeros são depositados por meio eletroquímico e químico, ao passo que o TiO2 ocorre vai o método sol-gel.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Danilo Roque Huanca - Coordenador / Adhimar Flávio Oliveira - Integrante / DA SILVA, M. P. C. - Integrante / Alexandre Marciente Faria - Integrante / Lucas Costa Leite - Integrante / Jackelyne Lisset Medina Villanueva - Integrante. Número de orientações: 4</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2017</ano_inicio>
-          <ano_conclusao>2020</ano_conclusao>
-          <nome>Fabricação de cristais fotônicos emissores de luz de alto desempenho baseados em silício poroso para aplicações em dispositivos optoeletrônicos e sensores ópticos</nome>
-          <descricao>Descrição: O silício poroso (SP) é um material singular cujas propriedades físicas e químicas podem ser facilmente moduladas durante o processo de formação dos poros. Observou-se que estruturas microporosas possuem propriedades fotoluminescentes. Estruturas multicamadas com espessura e índice de refração arranjada em forma periódica podem ser formadas aplicando densidade de corrente em forma periódica durante a formação dos poros. Essas estruturas são conhecidas como cristais fotônicos. Se uma microcavidade (camada aperiódica) e introduzida, as propriedades luminescentes do SP ou de algum elemento emissor de luz dentro da microcavidade pode ser intensificada em aproximadamente 100 vezes, permitindo a fabricação de dispositivos emissores de luz. Diversos elementos podem ser introduzidos dentro da microcavidade, sendo os mais desejados para aplicações em optoeletrônica as terras-raras. Assim, no presente projeto investiga-se as propriedades ópticas de cristais fotônicos de silício poroso visando a fabricação de dispositivos emissores de luz por dopagem da estrutura porosa com terras-raras, bem como aplicações como sensores ópticos para detecção de analitos inorgânicos.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: Danilo Roque Huanca - Coordenador / Daniel Scodeler Raimundo - Integrante / Salcedo, Walter Jaimes - Integrante / DOS SANTOS FILHO, SEBASTIAO G. - Integrante / Adhimar Flávio Oliveira - Integrante / Rero Marques Rubinger - Integrante.</descricao>
+          <descricao>Descrição: Neste projeto, as propriedades elétricas e óptica de heteroestruturas basedas em deposição de filmes finos de TiO2, polianilina e polipirrole são caracterizadas, visando sua aplicação em células solares se sensores químicos. Para esse fim, os polímeros são depositados por meio eletroquímico e químico, ao passo que o TiO2 ocorre vai o método sol-gel.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Danilo Roque Huanca - Coordenador / Adhimar Flávio Oliveira - Integrante / DA SILVA, M. P. C. - Integrante / Alexandre Marciente Faria - Integrante / Lucas Costa Leite - Integrante / Jackelyne Lisset Medina Villanueva - Integrante. Número de orientações: 2</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
           <ano_conclusao>2020</ano_conclusao>
           <nome>Caracterização das propriedades estruturais e ópticas de cristais fotônicos emissores de luz fabricados por corrosão do silício para aplicações em dispositivos optoeletrônicos</nome>
           <descricao>Descrição: Neste trabalho serão fabricados cristais fotônicos unidimensionais (1D-CF) e bidimensionais (2DCF) emissores de luz com alto desempenho óptico, que serão fabricados usando a técnica do silício poroso. Esta estrutura permite a formação de uma região onde a luz incidente com determinado comprimento de onda é completamente re?etida. As características geométricas das células unitárias dos 2D-CF serão de?nidas com a ajuda de fotolitogra?a de forma que estruturas com diferentes células unitárias serão fabricadas com o intuito de estudar seu efeito sobre a resposta óptica. No caso dos 1D-CF, a célula unitária é determinada pelo tempo de corrosão de duas camadas adjuntas com diferente índice de refração e espessura. Para a formação dessas estruturas, usar-se-á silício cristalino (c-Si) que será corroído em solução ?uorídrica, de forma que para o caso dos 2D-CF o tamanho dos poros esteja na ordem micrométrica. Porém, poros desse tamanho não permite a fabricação de 2D-CF emissores de luz baseados em c-Si. No caso dos 1DCF, os principais efeitos indesejados são o incremento da rugosidade de interface entre as camadas, gradiente de índice de refração e a dissolução química das camadas mais superficiais devido ao maior tempo de contato com a solução eletrolítica. Por essa razão, esforços serão dedicados na procura do procedimento que permita minimizar esses efeitos. Em uma segunda fase, os cristais fotônicos serão dotadas de propriedades luminescentes através da introdução de uma microcavidade de silício microporoso com fotoluminescência na região visível. Uma segunda estratégia será dopar as cavidades porosas com terra-raras tais como érbio (Er) e itérbio (Yb) através de métodos eletroquímicos, devido a sua grande aplicação no campo das telecomunicações. Já para aplicações na região visível serão usadas európio (Eu), samário (Sm). Após a dopagem, as amostras serão recozidas em oxigênio a ?m de ativar os íons de terras-raras na faixa térmica entre 900 a 1300°C.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Danilo Roque Huanca - Coordenador / Raimundo, Daniel Scodeler - Integrante / Walter Jaimes Salcedo - Integrante / DOS SANTOS FILHO, SEBASTIAO G. - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2017</ano_inicio>
+          <ano_conclusao>2020</ano_conclusao>
+          <nome>Fabricação de cristais fotônicos emissores de luz de alto desempenho baseados em silício poroso para aplicações em dispositivos optoeletrônicos e sensores ópticos</nome>
+          <descricao>Descrição: O silício poroso (SP) é um material singular cujas propriedades físicas e químicas podem ser facilmente moduladas durante o processo de formação dos poros. Observou-se que estruturas microporosas possuem propriedades fotoluminescentes. Estruturas multicamadas com espessura e índice de refração arranjada em forma periódica podem ser formadas aplicando densidade de corrente em forma periódica durante a formação dos poros. Essas estruturas são conhecidas como cristais fotônicos. Se uma microcavidade (camada aperiódica) e introduzida, as propriedades luminescentes do SP ou de algum elemento emissor de luz dentro da microcavidade pode ser intensificada em aproximadamente 100 vezes, permitindo a fabricação de dispositivos emissores de luz. Diversos elementos podem ser introduzidos dentro da microcavidade, sendo os mais desejados para aplicações em optoeletrônica as terras-raras. Assim, no presente projeto investiga-se as propriedades ópticas de cristais fotônicos de silício poroso visando a fabricação de dispositivos emissores de luz por dopagem da estrutura porosa com terras-raras, bem como aplicações como sensores ópticos para detecção de analitos inorgânicos.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: Danilo Roque Huanca - Coordenador / Daniel Scodeler Raimundo - Integrante / Salcedo, Walter Jaimes - Integrante / DOS SANTOS FILHO, SEBASTIAO G. - Integrante / Adhimar Flávio Oliveira - Integrante / Rero Marques Rubinger - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2015</ano_inicio>
@@ -3069,6 +3166,16 @@
           <revista>Materials</revista>
           <volume>Materials</volume>
           <paginas>4480</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.matchemphys.2023.128070</doi>
+          <titulo>Thickness and porosity characterization in porous silicon photonic crystals: The etch-stop effect</titulo>
+          <autores>VILLANUEVA, JACKELYNE L.M. ; HUANCA, DANILO R. ; OLIVEIRA, ADHIMAR F.</autores>
+          <revista>MATERIALS CHEMISTRY AND PHYSICS</revista>
+          <volume>MATERIALS CHEMISTRY AND PHYSICS</volume>
+          <paginas>128070</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -3263,7 +3370,7 @@
           <ano>2012</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1149/1.3615209</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1149/1.3615209&md5=09a2a811d5d9cee49cfdadcf559f2d2c</doi>
           <titulo>Study on the Thermal Oxidation of Photonic Crystals for Sensor Applications</titulo>
           <autores>HUANCA, D. R.; SALCEDO, W. J.</autores>
           <revista>ECS transactions</revista>
@@ -3666,6 +3773,42 @@
     </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
+          <titulo>Porous silicon photonic crystals: Influence of the etch-stop on the optical response</titulo>
+          <autores>VILLANUEVA, J. L. M. ; OLIVEIRA, ADHIMAR F. ; HUANCA, DANILO R.</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Influence of the electrolyte upon the optical response of 1D-Porous Silicon Photonic Crystal structures using the etch-stop method</titulo>
+          <autores>VILLANUEVA, J. L. M. ; Oliveira A. F ; HUANCA, D.R.</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Outra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Electrical characterization of TiO2 /Si-based heterojunctions</titulo>
+          <autores>LEITE, L. C. ; HUANCA, D.R.</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Outra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Optical properties of Ag-doped TiO2 films deposited by sol-gel method: substrate effect analysis</titulo>
+          <autores>M.P.C. da Silva ; Oliveira A. F ; HUANCA, D.R.</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Outra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Structural Characterization of Ultra Low-k Carbon Doped Silicon Dioxide Films by X-ray Reflectometry and GISAXS</titulo>
+          <autores>HUANCA, D.R.; VERDONCK, P. ; SANTOS, S. G.</autores>
+          <ano>2022</ano>
+          <natureza>Apresentação de Trabalho/Outra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
+          <titulo>Electrical characterization of Si-based/SiO2/TiO2 heterostructures</titulo>
+          <autores>M.P.C. da Silva ; Oliveira A. F ; HUANCA, D.R.</autores>
+          <ano>2021</ano>
+          <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
+        </trabalho_apresentado>
+        <trabalho_apresentado>
           <titulo>Modeling, fabrication and optical characterization of porous silicon based photonic crystal</titulo>
           <autores>HUANCA, D. R.; PINTON, J. H. ; Oliveira A. F</autores>
           <ano>2019</ano>
@@ -3804,43 +3947,33 @@
           <natureza>Apresentação de Trabalho/Seminário</natureza>
         </trabalho_apresentado>
     </apresentacao_trabalho>
-    <orientacao_mestrado_em_andamento>
-        <dissertacao>
-          <nome_aluno>Jackelyne Lisset Medina Villanueva</nome_aluno>
-          <titulo_trabalho>Caracterização óptica de cristais fotônicos unidimensionais baseados no silício poroso visando aplicações magnéto-ópticas</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-        <dissertacao>
-          <nome_aluno>Marcos Paulo Cyrillo da Silva</nome_aluno>
-          <titulo_trabalho>Propriedades elétricas e ópticas de hetero-estruturas de silício poroso/óxido de titânio.</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-    </orientacao_mestrado_em_andamento>
     <orientacao_iniciacao_cientifica_em_andamento>
         <iniciacao_cientifica>
-          <nome_aluno>Alexandre Marciente Faria</nome_aluno>
-          <titulo_trabalho>Caracterização física de filmes finos</titulo_trabalho>
-          <ano>2021</ano>
+          <nome_aluno>Pedro Henrique Gomes Lopes</nome_aluno>
+          <titulo_trabalho>Caracterização elétrica de heteroestruturas baseadas em polímero condutor e TiO2 sobre semicondutor como sensores químicos em meios líquidos.</titulo_trabalho>
+          <ano>2022</ano>
           <instituicao>Iniciação científica (Graduando em Física) - Universidade Federal de Itajubá</instituicao>
           <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
         <iniciacao_cientifica>
           <nome_aluno>Lucas Costa Leite</nome_aluno>
-          <titulo_trabalho>Caracterização estrutural e elétrica de filmes finos de TiO2</titulo_trabalho>
-          <ano>2021</ano>
+          <titulo_trabalho>Caracterização elétrica de heteroestruturas baseadas na deposição de polianilina, polipirrole e TiO2 sobre silício e ITO.</titulo_trabalho>
+          <ano>2022</ano>
           <instituicao>Iniciação científica (Graduando em Física) - Universidade Federal de Itajubá</instituicao>
           <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_em_andamento>
     <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Marcos Paulo Cyrillo da Silva</nome_aluno>
+          <titulo_trabalho>Deposição e caracterização de filmes finos de TiO2 dopados com Ag via o método sol-gel</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
         <dissertacao>
           <nome_aluno>Jackeline Lisset Medina Villanueva</nome_aluno>
           <titulo_trabalho>Porous silicon photonic crystals: surface passivation and etch-stop effect on the optical response</titulo_trabalho>
@@ -3893,6 +4026,22 @@
         </tcc>
     </orientacao_tcc_concluido>
     <orientacao_iniciacao_cientifica_concluido>
+        <iniciacao_cientifica>
+          <nome_aluno>Alexandre Marciente Faria</nome_aluno>
+          <titulo_trabalho>Caracterização Física de filmes finos</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduando em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>Lucas Costa Leite</nome_aluno>
+          <titulo_trabalho>Caracterização estrutural e elétrica de filmes finos de TiO2</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduando em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
         <iniciacao_cientifica>
           <nome_aluno>Amanda Cuconato da Silva</nome_aluno>
           <titulo_trabalho>Estudos das propriedades elétricas da polianilina sintetizada em meio com sais de níquel</titulo_trabalho>
@@ -3950,16 +4099,16 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
         <iniciacao_cientifica>
-          <nome_aluno>Carlos Eduardo Silveira Dias</nome_aluno>
-          <titulo_trabalho>Sensores óticos baseados em multicamadas de silício poroso</titulo_trabalho>
+          <nome_aluno>Rosimara Passos Toledo</nome_aluno>
+          <titulo_trabalho>Monocamadas de silício poroso para aplicações em sensores químicos</titulo_trabalho>
           <ano>2015</ano>
           <instituicao>(Graduando em Física) - Universidade Federal de Itajubá</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
         <iniciacao_cientifica>
-          <nome_aluno>Rosimara Passos Toledo</nome_aluno>
-          <titulo_trabalho>Monocamadas de silício poroso para aplicações em sensores químicos</titulo_trabalho>
+          <nome_aluno>Carlos Eduardo Silveira Dias</nome_aluno>
+          <titulo_trabalho>Sensores óticos baseados em multicamadas de silício poroso</titulo_trabalho>
           <ano>2015</ano>
           <instituicao>(Graduando em Física) - Universidade Federal de Itajubá</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
@@ -4127,7 +4276,7 @@
         <formacao>
           <ano_inicio>1986</ano_inicio>
           <ano_conclusao>1989</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
           <descricao>Título: Teorias de tétradas da gravitação e o acoplamento não mínimo entre os campos gravitacional e eletromagnético, Ano de Obtenção: 1989. Orientador: José Martins Salim. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: gravitação - eletromagnetismo; teorias de calibre; acoplamento - não - mínimo. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -4967,14 +5116,14 @@
         <formacao>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2013</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
           <descricao>Título: Pontes Dinâmicas O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2013. Orientador: Mário Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Geometria Diferencial; Teoria de Campos; Gravitação. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física das Partículas Elementares e Campos. Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Geometria e Topologia / Especialidade: Geometria Diferencial.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2008</ano_inicio>
           <ano_conclusao>2009</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
           <descricao>Título: Sistema de Coordenadas Gaussiano para as Métricas de Schwarzschild e Kerr, Ano de Obtenção: 2009. Orientador: Mário Novello. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Sistema de Coordenadas Gaussiano; Equação de Hamilton-Jacobi relativística. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Relatividade e Gravitação.</descricao>
         </formacao>
@@ -5919,7 +6068,7 @@
         <formacao>
           <ano_inicio>1999</ano_inicio>
           <ano_conclusao>2003</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal do Rio de Janeiro, UFRJ, Brasil</nome_instituicao>
           <descricao>Título: Correções Radiativas em Teoria Quântica de Campos sob Condições de Contorno O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2003. Orientador: Carlos Farina de Souza. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Casimir Effect; Lamb Shift; Radiative corrections; Scharnhorst Effect; two-parameter lagrangian; cavity QED. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Métodos Matemáticos da Física. Setores de atividade: Atividades No Campo das Nanotecnologias e Desenvolvimento de Nanoprodutos.</descricao>
         </formacao>
@@ -5965,13 +6114,13 @@
         <projeto>
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2006</ano_conclusao>
-          <nome>Solucoes BPS (solitons) para campos em interacao em modelos com quebra de Lorentz</nome>
+          <nome>Geracao dinamica de massa para campos em interacao e com condicoes de contorno</nome>
           <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Fabricio Augusto Barone Rangel - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Bolsa.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2006</ano_conclusao>
-          <nome>Geracao dinamica de massa para campos em interacao e com condicoes de contorno</nome>
+          <nome>Solucoes BPS (solitons) para campos em interacao em modelos com quebra de Lorentz</nome>
           <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Fabricio Augusto Barone Rangel - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Bolsa.</descricao>
         </projeto>
         <projeto>
@@ -6015,11 +6164,12 @@
         <id_lattes_colaborador>6459107436866263</id_lattes_colaborador>
         <id_lattes_colaborador>5673026864716586</id_lattes_colaborador>
         <id_lattes_colaborador>7513476405206824</id_lattes_colaborador>
+        <id_lattes_colaborador>6038840762351737</id_lattes_colaborador>
         <id_lattes_colaborador>1123598835707364</id_lattes_colaborador>
         <id_lattes_colaborador>3654522236249726</id_lattes_colaborador>
         <id_lattes_colaborador>4044332658989430</id_lattes_colaborador>
         <id_lattes_colaborador>3707129133058737</id_lattes_colaborador>
-        <id_lattes_colaborador>6038840762351737</id_lattes_colaborador>
+        <id_lattes_colaborador>3077039348737036</id_lattes_colaborador>
         <id_lattes_colaborador>6926651124954505</id_lattes_colaborador>
         <id_lattes_colaborador>5596069780034749</id_lattes_colaborador>
         <id_lattes_colaborador>8051570499204277</id_lattes_colaborador>
@@ -6040,6 +6190,7 @@
         <id_lattes_colaborador>5461518414512641</id_lattes_colaborador>
         <id_lattes_colaborador>2215905569987646</id_lattes_colaborador>
         <id_lattes_colaborador>6938316407040676</id_lattes_colaborador>
+        <id_lattes_colaborador>3588261685310035</id_lattes_colaborador>
         <id_lattes_colaborador>3470956513642748</id_lattes_colaborador>
         <id_lattes_colaborador>8934263630465920</id_lattes_colaborador>
         <id_lattes_colaborador>1031795555698099</id_lattes_colaborador>
@@ -6646,25 +6797,41 @@
     </producao_bibliografica>
     <orientacao_mestrado_em_andamento>
         <dissertacao>
-          <nome_aluno>Walison Yan Aparecido da Silva</nome_aluno>
-          <titulo_trabalho>Condições MIT generalizadas para o campo de Klein-Gordon</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
+          <nome_aluno>Natalio Barbosa da Silva</nome_aluno>
+          <titulo_trabalho>Fontes para campos de métrica e efeitos associados</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Fundação de Amparo à Pesquisa do Estado de Minas Gerais</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </dissertacao>
     </orientacao_mestrado_em_andamento>
     <orientacao_iniciacao_cientifica_em_andamento>
         <iniciacao_cientifica>
+          <nome_aluno>Guilherme Roberto Tavares</nome_aluno>
+          <titulo_trabalho>Formalismo analítico para condutores</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Iniciação científica (Graduando em Fisica) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
           <nome_aluno>João Pedro Ferreira Lemos</nome_aluno>
-          <titulo_trabalho>Solução da equação de Klein-Gordon regular com fonte pontual estacionária</titulo_trabalho>
-          <ano>2021</ano>
+          <titulo_trabalho>Efeito Casimir para condições de Neumann Generalizadas</titulo_trabalho>
+          <ano>2022</ano>
           <instituicao>Iniciação científica (Graduando em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <agencia_de_fomento>Universidade Federal de Itajubá</agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_em_andamento>
     <orientacao_mestrado_concluido>
+        <dissertacao>
+          <nome_aluno>Walison Yan Aparecido da Silva</nome_aluno>
+          <titulo_trabalho>Acoplamento para o Campo Escalar do Tipo Corrente ao Longo de uma Fronteira</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
         <dissertacao>
           <nome_aluno>Everson Henrique Rodrigues</nome_aluno>
           <titulo_trabalho>Campo escalar de Lee-Wick na presença de fronteiras semi-transparentes</titulo_trabalho>
@@ -6748,6 +6915,38 @@
     </orientacao_mestrado_concluido>
     <orientacao_tcc_concluido>
         <tcc>
+          <nome_aluno>João Pedro Ferreira Lemos</nome_aluno>
+          <titulo_trabalho>Espelho Neumann semitransparente</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Guilherme Roberto Tavares</nome_aluno>
+          <titulo_trabalho>Formalismo de Bateman para Condutores</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduação em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Antonio Pantalena</nome_aluno>
+          <titulo_trabalho>O Efeito Aharonov-Bohm: uma exposição para iniciantes</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduação em Física - Licenciatura a Distância) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Natalio Barbosa da Silva</nome_aluno>
+          <titulo_trabalho>Solução de Schwarzschild Revisitada</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>(Graduação em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
           <nome_aluno>Gabriel Alves de Oliveira</nome_aluno>
           <titulo_trabalho>Formulação de calibre para monopolos magnéticos com distribuições vetoriais</titulo_trabalho>
           <ano>2021</ano>
@@ -6788,18 +6987,18 @@
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </tcc>
         <tcc>
-          <nome_aluno>Priscila Eugenia de Souza</nome_aluno>
-          <titulo_trabalho>O oscilador harmônico amortecido e forçado</titulo_trabalho>
-          <ano>2015</ano>
-          <instituicao>(Graduação em Física - Licenciatura a Distância) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </tcc>
-        <tcc>
           <nome_aluno>Marco Antonio Pinheiro</nome_aluno>
           <titulo_trabalho>Energia de Vácuo e Interaçõess de Multipolo</titulo_trabalho>
           <ano>2015</ano>
           <instituicao>(Graduação em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </tcc>
+        <tcc>
+          <nome_aluno>Priscila Eugenia de Souza</nome_aluno>
+          <titulo_trabalho>O oscilador harmônico amortecido e forçado</titulo_trabalho>
+          <ano>2015</ano>
+          <instituicao>(Graduação em Física - Licenciatura a Distância) - Universidade Federal de Itajubá</instituicao>
           <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
         </tcc>
@@ -6846,8 +7045,24 @@
     </orientacao_tcc_concluido>
     <orientacao_iniciacao_cientifica_concluido>
         <iniciacao_cientifica>
+          <nome_aluno>João Pedro Ferreira Lemos</nome_aluno>
+          <titulo_trabalho>Uma nova solução para a equação de Klein-Gordon com fonte pontual estacionária</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Iniciação Científica - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
           <nome_aluno>Gabriel Alves de Oliveira</nome_aluno>
           <titulo_trabalho>Solução exata para o potencial exponencial qântico</titulo_trabalho>
+          <ano>2021</ano>
+          <instituicao>(Graduando em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
+          <nome_aluno>João Pedro Ferreira Lemos</nome_aluno>
+          <titulo_trabalho>Solução exata para o potencial exponencial clássico</titulo_trabalho>
           <ano>2021</ano>
           <instituicao>(Graduando em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
           <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
@@ -6864,14 +7079,6 @@
         <iniciacao_cientifica>
           <nome_aluno>Natalio Barbosa Silva</nome_aluno>
           <titulo_trabalho>Fontes externas para o campo gravitacional</titulo_trabalho>
-          <ano>2020</ano>
-          <instituicao>(Graduando em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
-          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-        <iniciacao_cientifica>
-          <nome_aluno>João Pedro Ferreira Lemos</nome_aluno>
-          <titulo_trabalho>Solução exata para o potencial exponencial clássico</titulo_trabalho>
           <ano>2020</ano>
           <instituicao>(Graduando em Física - Bacharelado) - Universidade Federal de Itajubá</instituicao>
           <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
@@ -7127,14 +7334,14 @@
         <formacao>
           <ano_inicio>1999</ano_inicio>
           <ano_conclusao>2003</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
           <descricao>Título: Correcoes quanticas para a massa de solitons bidimensionais e a abordagem de Liouville-von Neumann para o processo de termalizacao, Ano de obtenção: 2003. Orientador: Nami Fux Svaiter. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Métodos não perturbativos; Solitons; Termalização. Grande área: Ciências Exatas e da Terra Setores de atividade: Outros.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1996</ano_inicio>
           <ano_conclusao>1999</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
           <descricao>Título: Teoria das Nucleacoes em TQC a temperatura zero e finita: Aplicacoes ao Modelo (lambda phi4/4! + sigma phi6/6!)_3D, Ano de Obtenção: 1999. Orientador: Nami Fux Svaiter. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Tunelamento; Temperatura Finita. Grande área: Ciências Exatas e da Terra Setores de atividade: Outro.</descricao>
         </formacao>
@@ -7336,7 +7543,7 @@
           <ano>2007</ano>
         </artigo>
         <artigo>
-          <doi></doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
           <titulo>The two-loop massless phi^4 model in non-translational invariant domain</titulo>
           <autores>G. Flores-Hidalgo; M. Aparicio Alcalde ; N.F. Svaiter</autores>
           <revista>Journal of Mathematical Physics</revista>
@@ -7734,22 +7941,28 @@
     </formacao_academica>
     <projetos_pesquisa>
         <projeto>
+          <ano_inicio>2023</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>309196/2022-1 - Investigando a massa de aglomerados abertos com GAIA DR3</nome>
+          <descricao>Descrição: Os aglomerados estelares abertos são indiscutivelmente um dos tipos mais importantes de objetos que nos permitem estudar a estrutura e a evolução de nossa galáxia, bem como a evolução estelar em geral. Com o recente catálogo da missão Gaia na sua versão DR3, que contém astrometria e fotometria homogênea com precisão sem precedentes para bilhões de estrelas, ganhamos a capacidade de caracterizar esses objetos em larga escala. Nessa linha nosso grupo tem trabalhado nos últimos anos e tem aumentado e melhorado o numero de objetos para os quais parâmetros fundamentais estão determinados. Com estes parâmetros para uma amostra grande bem estabelecida podemos agora investigar detalhes destes objetos. O objetivo deste projeto é usar essa base de dados de alta qualidade e investigar questões relacionadas a massa total dos aglomerados abertos e suas implicações para evolução dinâmica destes objetos. Pretendemos também investigar temas correlatos como a população de binárias e sua caracterização.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador.</descricao>
+        </projeto>
+        <projeto>
           <ano_inicio>2020</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
+          <ano_conclusao>2023</ano_conclusao>
           <nome>311122/2019-1 - Um novo catálogo de aglomerados abertos na era GAIA</nome>
-          <descricao>Descrição: Atualmente sou professor Associado I na Universidade Federal de Itajubá onde atuo nos três pilares, ensino, pesquisa e extensão. Atualmente tenho atuado também na administração como Diretor de Pesquisa com objetivo de alavancar esta área em nossa instituição. A alguns anos assumi como líder do grupo de astrofísica da instituição. O grupo de astrofísica é um grupo emergente e conta com colaboração de pesquisadores do Laboratório Nacional de Astrofísica (LNA). Desde 2009 faço parte do programa de pós graduação em Física da universidade como membro permanente. De 2013 a 2015 atuei como coordenador deste programa. Neste período realizamos importantes mudanças visando melhorar seus índices de qualidade implementando inclusive a área de Matéria Condensada, consolidando o aspecto experimental do programa. Alguns exemplos das melhorias são o aumento de participação de pós-docs no programa, aumento da produtividade dos docentes permanentes, entre outros aspectos que podem ser avaliados via plataforma Sucupira. Neste programa estou atualmente orientando 3 alunos de mestrado.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador.</descricao>
+          <descricao>Descrição: Atualmente sou professor Associado I na Universidade Federal de Itajubá onde atuo nos três pilares, ensino, pesquisa e extensão. Atualmente tenho atuado também na administração como Diretor de Pesquisa com objetivo de alavancar esta área em nossa instituição. A alguns anos assumi como líder do grupo de astrofísica da instituição. O grupo de astrofísica é um grupo emergente e conta com colaboração de pesquisadores do Laboratório Nacional de Astrofísica (LNA). Desde 2009 faço parte do programa de pós graduação em Física da universidade como membro permanente. De 2013 a 2015 atuei como coordenador deste programa. Neste período realizamos importantes mudanças visando melhorar seus índices de qualidade implementando inclusive a área de Matéria Condensada, consolidando o aspecto experimental do programa. Alguns exemplos das melhorias são o aumento de participação de pós-docs no programa, aumento da produtividade dos docentes permanentes, entre outros aspectos que podem ser avaliados via plataforma Sucupira. Neste programa estou atualmente orientando 3 alunos de mestrado.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
+          <ano_conclusao>2020</ano_conclusao>
           <nome>CEX - APQ-01305-17 - COMPUTAÇÃO CIENTÍFICA PARA OBTENÇÃO DE PARÂMETROS FUNDAMENTAIS DE AGLOMERADOS ABERTOS</nome>
-          <descricao>Descrição: As atividades propostas neste plano de trabalho de pesquisa tem como objetivo uma ampliação do conhecimento atual sobre Aglomerados abertos sob a perspectiva de técnicas de soluções estatísticas e computacionais. A Astrofísica moderna caminha cada vez mais para bases de dados e modelos teóricos altamente complexos (por exemplo satélite GAIA) onde é inevitável o uso de métodos computacionais e estatísticos de ponta. Para entender e fazer o melhor uso possível das grandes bases de dados, assim como poder comparar estes dados ao modelos mais atuais de maneira robusta, faz-se necessário o desenvolvimento de técnicas adequadas para realizar ajustes de modelos, testes de hipóteses, entre outras ferramentas básicas da inferência científica. Dentro deste contexto buscamos neste projeto aprimorar e expandir a utilizaçao de métodos de otimização global e ferramentas de inferência estatística para ajuste de isócronas em aglomerados abertos de nossa Galáxia. Para poder dar seguimento a aplicação de nosso método para dados do catálogo de Dias et al. (2002) e expandi-lo para aplicação a dados provenientes do satélite GAIA, solicitamos neste projeto recursos para atualizar a capacidade computacional do Laboratório de Astrofísica Computacional (LAC) da UNIFEI.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Hektor Sthenos Alves Monteiro - Coordenador. Financiador(es): Universidade Federal de Itajubá - Auxílio financeiro.</descricao>
+          <descricao>Descrição: As atividades propostas neste plano de trabalho de pesquisa tem como objetivo uma ampliação do conhecimento atual sobre Aglomerados abertos sob a perspectiva de técnicas de soluções estatísticas e computacionais. A Astrofísica moderna caminha cada vez mais para bases de dados e modelos teóricos altamente complexos (por exemplo satélite GAIA) onde é inevitável o uso de métodos computacionais e estatísticos de ponta. Para entender e fazer o melhor uso possível das grandes bases de dados, assim como poder comparar estes dados ao modelos mais atuais de maneira robusta, faz-se necessário o desenvolvimento de técnicas adequadas para realizar ajustes de modelos, testes de hipóteses, entre outras ferramentas básicas da inferência científica. Dentro deste contexto buscamos neste projeto aprimorar e expandir a utilizaçao de métodos de otimização global e ferramentas de inferência estatística para ajuste de isócronas em aglomerados abertos de nossa Galáxia. Para poder dar seguimento a aplicação de nosso método para dados do catálogo de Dias et al. (2002) e expandi-lo para aplicação a dados provenientes do satélite GAIA, solicitamos neste projeto recursos para atualizar a capacidade computacional do Laboratório de Astrofísica Computacional (LAC) da UNIFEI.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Hektor Sthenos Alves Monteiro - Coordenador. Financiador(es): Universidade Federal de Itajubá - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
+          <ano_conclusao>2020</ano_conclusao>
           <nome>CNPq 436117/2018-5 - Atualização de infraestrutura computacional para investigação de problemas astrofísicos complexos</nome>
-          <descricao>Descrição: A astrofísica moderna caminha cada vez mais para bases de dados e modelos teóricos altamente complexos onde é inevitável o uso de métodos computacionais e estatísticos de ponta. Para entender e fazer o melhor uso possível das grandes bases de dados, assim como poder comparar estes dados a modelos mais atuais de maneira robusta, faz-se necessário o desenvolvimento de técnicas adequadas para realizar analise de dados e testes de modelos teóricos e hipóteses, entre outras ferramentas básicas da inferência científica, que possam ser usadas em grande escala. Dentro deste contexto buscamos neste projeto a atualização de infraestrutura computacional do Laboratório de Astrofísica Computacional da Universidade Federal de Itajubá (LAC-UNIFEI) que permitirá realização de pesquisa sobre problemas astrofísicos complexos através de técnicas estatísticas e numéricas modernas com uso de grandes bases de dados e modelos numéricos. Em particular visa-se a atuação em duas áreas principais: 1) estudo de aglomerados abertos com uso dos dados GAIA para atualização do "Dias Open Clusters and Candidates Catalog" e 2)estudo nebulosas planetárias com dados de espectroscopia de campo integral IFU e modelos tridimensionais. Ambas as propostas gerais estão na fronteira de suas respectivas áreas e trarão avanço significativo com o incremento de capacidade computacional dado o grande volume de dados envolvido. A formação de recursos humanos capacitados nessas técnicas, outro produto deste projeto, é essencial para a inserção do Brasil em posição de destaque na astrofísica moderna.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (3) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador.</descricao>
+          <descricao>Descrição: A astrofísica moderna caminha cada vez mais para bases de dados e modelos teóricos altamente complexos onde é inevitável o uso de métodos computacionais e estatísticos de ponta. Para entender e fazer o melhor uso possível das grandes bases de dados, assim como poder comparar estes dados a modelos mais atuais de maneira robusta, faz-se necessário o desenvolvimento de técnicas adequadas para realizar analise de dados e testes de modelos teóricos e hipóteses, entre outras ferramentas básicas da inferência científica, que possam ser usadas em grande escala. Dentro deste contexto buscamos neste projeto a atualização de infraestrutura computacional do Laboratório de Astrofísica Computacional da Universidade Federal de Itajubá (LAC-UNIFEI) que permitirá realização de pesquisa sobre problemas astrofísicos complexos através de técnicas estatísticas e numéricas modernas com uso de grandes bases de dados e modelos numéricos. Em particular visa-se a atuação em duas áreas principais: 1) estudo de aglomerados abertos com uso dos dados GAIA para atualização do "Dias Open Clusters and Candidates Catalog" e 2)estudo nebulosas planetárias com dados de espectroscopia de campo integral IFU e modelos tridimensionais. Ambas as propostas gerais estão na fronteira de suas respectivas áreas e trarão avanço significativo com o incremento de capacidade computacional dado o grande volume de dados envolvido. A formação de recursos humanos capacitados nessas técnicas, outro produto deste projeto, é essencial para a inserção do Brasil em posição de destaque na astrofísica moderna.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (3) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
@@ -7778,14 +7991,14 @@
         <projeto>
           <ano_inicio>2010</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <nome>APQ-02030-10 Nebulosas Planetárias: Ferramentas Para o Estudo da Evolução Estelar e Galáctica</nome>
-          <descricao>Descrição: Projeto para ampliar a capacidade computacional na instituição para permitir a realização de pesquisa sobre modelos tridimensionais de nebulosas planetárias.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 2</descricao>
+          <nome>470135/2010-7 Nebulosas Planetárias: Ferramentas Para o Estudo da Evolução Estelar e Galáctica</nome>
+          <descricao>Descrição: Projeto para implementar capacidade computacional mínima na UNIFEI para viabilizar os estudos sobre modelos tridimensionais de nebulosas planetárias assim como outros projetos que necessitam de computação de alta performance.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2010</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <nome>470135/2010-7 Nebulosas Planetárias: Ferramentas Para o Estudo da Evolução Estelar e Galáctica</nome>
-          <descricao>Descrição: Projeto para implementar capacidade computacional mínima na UNIFEI para viabilizar os estudos sobre modelos tridimensionais de nebulosas planetárias assim como outros projetos que necessitam de computação de alta performance.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
+          <nome>APQ-02030-10 Nebulosas Planetárias: Ferramentas Para o Estudo da Evolução Estelar e Galáctica</nome>
+          <descricao>Descrição: Projeto para ampliar a capacidade computacional na instituição para permitir a realização de pesquisa sobre modelos tridimensionais de nebulosas planetárias.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Hektor Sthenos Alves Monteiro - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 2</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2010</ano_inicio>
@@ -7820,6 +8033,7 @@
         <id_lattes_colaborador>9833768521859653</id_lattes_colaborador>
         <id_lattes_colaborador>5762476423634852</id_lattes_colaborador>
         <id_lattes_colaborador>4198814149144165</id_lattes_colaborador>
+        <id_lattes_colaborador>3666727424219511</id_lattes_colaborador>
         <id_lattes_colaborador>4507592951614239</id_lattes_colaborador>
         <id_lattes_colaborador>4371715148755387</id_lattes_colaborador>
         <id_lattes_colaborador>1252286101311803</id_lattes_colaborador>
@@ -7855,12 +8069,32 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stad1055</doi>
+          <titulo>Analysis of integral field spectroscopy observations of the planetary nebula Hen 2-108 and its central star</titulo>
+          <autores>MIRANDAMARQUES, BÁRBARA L ; Monteiro, Hektor ; ALEMAN, ISABEL ; AKRAS, STAVROS ; TODT, HELGE ; CORRADI, ROMANO L M</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>1049-1070</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1093/mnras/stab3523</doi>
           <titulo>MUSE spectroscopy of planetary nebulae with high abundance discrepancies</titulo>
           <autores>GARCÍA-ROJAS, J ; MORISSET, C ; JONES, D ; WESSON, R ; BOFFIN, H M J ; MONTEIRO, H ; CORRADI, R L M ; RODRÍGUEZ-GIL, P</autores>
           <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
           <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
           <paginas>5444-5463</paginas>
+          <numero></numero>
+          <ano>2022</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stac718</doi>
+          <titulo>58 open clusters investigated with UBVRI and Gaia</i> eDR3 data</titulo>
+          <autores>DIAS, W S ; MONTEIRO, H ; CAETANO, T ; HICKEL, G ; ALVES, G ; SACCHI, M ; LÉPINE, J R D ; AMARINHO, N</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>4464-4483</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -7881,16 +8115,6 @@
           <revista>Nature Astronomy</revista>
           <volume>Nature Astronomy</volume>
           <paginas>1421-1432</paginas>
-          <numero></numero>
-          <ano>2022</ano>
-        </artigo>
-        <artigo>
-          <doi>http://dx.doi.org/10.1093/mnras/stac718</doi>
-          <titulo>58 open clusters investigated with UBVRI and Gaia</i> eDR3 data</titulo>
-          <autores>DIAS, W S ; MONTEIRO, H ; CAETANO, T ; HICKEL, G ; ALVES, G ; SACCHI, M ; LÉPINE, J R D ; AMARINHO, N</autores>
-          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
-          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
-          <paginas>4464-4483</paginas>
           <numero></numero>
           <ano>2022</ano>
         </artigo>
@@ -8759,6 +8983,16 @@
           <ano>2008</ano>
         </producao>
     </producao_tecnica>
+    <orientacao_mestrado_em_andamento>
+        <dissertacao>
+          <nome_aluno>Bárbara Alves Lunarti Valadão</nome_aluno>
+          <titulo_trabalho>Galáxias peculiares no levantamento S-Plus</titulo_trabalho>
+          <ano>2022</ano>
+          <instituicao>Dissertação (Mestrado em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Universidade Federal de Itajubá</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+    </orientacao_mestrado_em_andamento>
     <orientacao_doutorado_concluido>
         <tese>
           <nome_aluno>Adhimar Flávio Oliveira. Transporte eletrônico em amostras de InAs/GaAs e mecanismos de espalhamento</nome_aluno>
@@ -9095,14 +9329,14 @@
         <formacao>
           <ano_inicio>2002</ano_inicio>
           <ano_conclusao>2006</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 5)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de Santa Catarina, UFSC, Brasil</nome_instituicao>
           <descricao>com período sanduíche em Friedrich-Shiller-Universität Jena (Orientador: Artie Hatzes). Título: Estrelas Magnéticas quimicamente peculiares: Evolucão, Pulsacões e Imageamento Doppler, Ano de obtenção: 2006. Orientador: Antônio Kanaan. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2000</ano_inicio>
           <ano_conclusao>2002</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 5)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Santa Catarina, UFSC, Brasil</nome_instituicao>
           <descricao>Título: Quando surgem peculiaridades químicas em estrelas A peculiares (Ap) ?, Ano de Obtenção: 2002. Orientador: Antônio Kanaan. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: estrelas; classificação espectral; campo magnético; terras raras; evolução estelar. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
@@ -9144,6 +9378,26 @@
         <id_lattes_colaborador>0300528206154701</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1093/mnras/stad1827</doi>
+          <titulo>The VISCACHA survey - VII. Assembly history of the Magellanic Bridge and SMC Wing from star clusters</titulo>
+          <autores>OLIVEIRA, R A P ; MAIA, F F S ; BARBUY, B ; DIAS, B ; SANTOS, J F C ; SOUZA, S O ; KERBER, L O ; BICA, E ; SANMARTIM, D ; QUINT, B ; FRAGA, L ; ARMOND, T ; MINNITI, D ; PARISI, M C ; KATIMESANTRICH, O J ; ANGELO, M S ; PÉREZ-VILLEGAS, A ; DEBÓRTOLI, B J</autores>
+          <revista>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</revista>
+          <volume>MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</volume>
+          <paginas>2244-2261</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1051/0004-6361/202346648</doi>
+          <titulo>The VISCACHA survey. VIII. Chemical evolution history of the Small Magellanic Cloud west halo clusters</titulo>
+          <autores>SAROON, S. ; DIAS, BRUNO ; TSUJIMOTO, TAKUJI ; PARISI, M.C. ; MAIA, FRANCISCO ; KERBER, LEANDRO ; BEKKI, KENJI ; MINNITI, DANTE ; OLIVEIRA, R.A.P. ; WESTERA, P. ; KATIME SANTRICH, ORLANDO J. ; BICA, EDUARDO ; SANMARTIM, DAVID ; CORREA QUINT, BRUNO ; FRAGA, LUCIANO</autores>
+          <revista>ASTRONOMY & ASTROPHYSICS</revista>
+          <volume>ASTRONOMY & ASTROPHYSICS</volume>
+          <paginas>`</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.1093/mnras/stac093</doi>
           <titulo>Discovery of 74 new bright ZZ Ceti stars in the first three years of</titulo>
@@ -9918,14 +10172,14 @@
         <formacao>
           <ano_inicio>2004</ano_inicio>
           <ano_conclusao>2008</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 5)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Localização de Anderson e Transição Metal-Isolante em Filmes de Pb1-xEuxTe do tipo p O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2009. Orientador: Valmir Antônio Chitta. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Anderson transition; diluted magnetic semiconductors; Magnetoresistência. Grande área: Ciências Exatas e da Terra</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2001</ano_inicio>
           <ano_conclusao>2003</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 4)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal do Amazonas, UFAM, Brasil</nome_instituicao>
           <descricao>Título: Dinâmica de Buracos em Poços Quânticos com Largura Efetiva Dependente do Tempo O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2003. Orientador: Abraham Moysés Cohen. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Poços; Dinâmica; Função Envelope; Crank Nicholson; Hamiltoniano de Luttinger. Grande área: Ciências Exatas e da Terra Setores de atividade: Fabricação de Aparelhos e Equipamentos de Telecomunicação.</descricao>
         </formacao>
@@ -10784,14 +11038,14 @@
         <formacao>
           <ano_inicio>2008</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <tipo>Doutorado em Astronomia (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Astronomia</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>com período sanduíche em Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (Orientador: Mercedes Mollá). Título: Populações e evolução do bojo e região central da Galáxia O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2012. Orientador: Roberto D. Dias da Costa. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: bojo galáctico; evolução química; nebulosas planetárias; populações estelares; abundâncias químicas. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Astronomia / Subárea: Astrofísica do Meio Interestelar / Especialidade: Evolução Química da Galáxia. Grande Área: Ciências Exatas e da Terra / Área: Astronomia / Subárea: Astrofísica do Meio Interestelar / Especialidade: Meio Interestelar.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>2006</ano_inicio>
           <ano_conclusao>2008</ano_conclusao>
-          <tipo>Mestrado em Astronomia (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Astronomia</tipo>
           <nome_instituicao>Universidade de São Paulo, USP, Brasil</nome_instituicao>
           <descricao>Título: Abundâncias químicas de nebulosas planetárias na conexão bojo-disco O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2008. Orientador: Roberto D. Dias da Costa. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: abundâncias químicas; espectroscopia; nebulosas planetárias. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Astronomia / Subárea: Astrofísica do Meio Interestelar / Especialidade: Nebulosa. Setores de atividade: Outros.</descricao>
         </formacao>
@@ -10820,14 +11074,14 @@
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Evolução química de galáxias espirais: a conexão bojo-disco</nome>
-          <descricao>Descrição: Com este projeto, pretende-se continuar o desenvolvimento de códigos de evolução química para a simulação dos efeitos dos fluxos radiais de gás nas distribuições de abundâncias na Via Láctea e em outras galáxias espirais do universo local, assim como as alterações nas taxas de formação estelar e perfis de densidade de gás. O objetivo deste projeto é estender o estudo realizado em Cavichia et al. (2014) com a Via Láctea para outras galáxias espirais. O modelo desenvolvido para a Via Láctea mostra que a barra, localizada na região central da Galáxia, pode provocar uma alteração moderada na distribuição de abundâncias químicas na região interna da Galáxia. Em síntese, com este projeto pretende-se responder distintas questões ainda em aberto sobre a evolução de química de galáxias espirais.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Oscar Cavichia de Moraes - Coordenador / Mercedes Mollá - Integrante / Roberto Dell'Aglio Dias da Costa - Integrante / Walter Junqueira Maciel - Integrante.</descricao>
+          <nome>Evolução química do disco e bojo de galáxias espirais (APQ-00915-18)</nome>
+          <descricao>Descrição: O gradiente radial de O/H nos discos de galáxias espirais é um dos vínculos mais importantes para os modelos de evolução química. Inúmeras simulações e observações têm mostrado que as barras nucleares podem induzir fluxos radiais de gás em grandes escalas através dos discos destas galáxias. Contudo, observações recentes de galáxias espirais apontam para uma similaridade entre os gradientes de galáxias espirais barradas e não barradas. Entretanto, estes gradientes radiais foram calculados entre 0.3 e 2.1 raios efetivos, o que limita a detecção dos efeitos das barras nos mesmos. Portanto, é necessário uma comparação mais detalhada entre os gradientes radiais de galáxias espirais com e sem barras nas regiões mais internas. Ainda, é observada uma diminuição da abundância de O/H nas regiões mais internas no disco que pode estar relacionada com a formação do bojo e precisa ser melhor investigada. Pretendemos através de observações do survey CALIFA e simulações responder estas questões. Demanda Universal FAPEMIG 001/2018. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Oscar Cavichia de Moraes - Coordenador / Maciel, Walter J. - Integrante / Mercedes Mollá - Integrante / Roberto Dell'Aglio Dias da Costa - Integrante / Monique Marques de Brito - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 1</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2018</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Evolução química do disco e bojo de galáxias espirais (APQ-00915-18)</nome>
-          <descricao>Descrição: O gradiente radial de O/H nos discos de galáxias espirais é um dos vínculos mais importantes para os modelos de evolução química. Inúmeras simulações e observações têm mostrado que as barras nucleares podem induzir fluxos radiais de gás em grandes escalas através dos discos destas galáxias. Contudo, observações recentes de galáxias espirais apontam para uma similaridade entre os gradientes de galáxias espirais barradas e não barradas. Entretanto, estes gradientes radiais foram calculados entre 0.3 e 2.1 raios efetivos, o que limita a detecção dos efeitos das barras nos mesmos. Portanto, é necessário uma comparação mais detalhada entre os gradientes radiais de galáxias espirais com e sem barras nas regiões mais internas. Ainda, é observada uma diminuição da abundância de O/H nas regiões mais internas no disco que pode estar relacionada com a formação do bojo e precisa ser melhor investigada. Pretendemos através de observações do survey CALIFA e simulações responder estas questões. Demanda Universal FAPEMIG 001/2018. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Oscar Cavichia de Moraes - Coordenador / Maciel, Walter J. - Integrante / Mercedes Mollá - Integrante / Roberto Dell'Aglio Dias da Costa - Integrante / Monique Marques de Brito - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 1</descricao>
+          <nome>Evolução química de galáxias espirais: a conexão bojo-disco</nome>
+          <descricao>Descrição: Com este projeto, pretende-se continuar o desenvolvimento de códigos de evolução química para a simulação dos efeitos dos fluxos radiais de gás nas distribuições de abundâncias na Via Láctea e em outras galáxias espirais do universo local, assim como as alterações nas taxas de formação estelar e perfis de densidade de gás. O objetivo deste projeto é estender o estudo realizado em Cavichia et al. (2014) com a Via Láctea para outras galáxias espirais. O modelo desenvolvido para a Via Láctea mostra que a barra, localizada na região central da Galáxia, pode provocar uma alteração moderada na distribuição de abundâncias químicas na região interna da Galáxia. Em síntese, com este projeto pretende-se responder distintas questões ainda em aberto sobre a evolução de química de galáxias espirais.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Oscar Cavichia de Moraes - Coordenador / Mercedes Mollá - Integrante / Roberto Dell'Aglio Dias da Costa - Integrante / Walter Junqueira Maciel - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2016</ano_inicio>
@@ -11301,6 +11555,14 @@
     </orientacao_mestrado_em_andamento>
     <orientacao_iniciacao_cientifica_em_andamento>
         <iniciacao_cientifica>
+          <nome_aluno>Nicolas Gabriel de Oliveira</nome_aluno>
+          <titulo_trabalho>Detecc?a?o de nebulosas planeta?rias e regio?es HII na gala?xia espiral NGC6744</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Iniciação científica (Graduando em Física) - Universidade Federal de Itajubá</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
+        <iniciacao_cientifica>
           <nome_aluno>Mateus Ferreira Miguel</nome_aluno>
           <titulo_trabalho>Evolução química de galáxias espirais através de dados do survey CALIFA</titulo_trabalho>
           <ano>2022</ano>
@@ -11388,6 +11650,14 @@
         </iniciacao_cientifica>
     </orientacao_iniciacao_cientifica_concluido>
     <participacao_evento>
+        <evento>
+          <titulo>Galactic bars: driving and decoding galaxy evolution. The multizone chemical evolution of the Galactic bulge: predicting abundances for different radial zones. 2023. (Congresso).</titulo>
+          <ano>2023</ano>
+        </evento>
+        <evento>
+          <titulo>MWGaia Cost Action Final Conference, The Milky Way revealed by Gaia: The next frontie. The Milky Way disc radial abundance gradient from planetary nebulae reveled by Gaia. 2023. (Congresso).</titulo>
+          <ano>2023</ano>
+        </evento>
         <evento>
           <titulo>XLV Reunião Anual da Sociedade Astronômica Brasileira. O gradiente radial interno de abundâncias químicas em galáxias do CALIFA. 2022. (Congresso).</titulo>
           <ano>2022</ano>
@@ -11557,14 +11827,14 @@
         <formacao>
           <ano_inicio>1994</ano_inicio>
           <ano_conclusao>1997</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
           <descricao>Título: Uma Nova Classe de Teorias do Campo Gravitacional, Ano de obtenção: 1997. Orientador: Mario Novello. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Teoria de Campos; Gravitação. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física das Partículas Elementares e Campos / Especialidade: Teoria Geral de Partículas e Campos. Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral / Especialidade: Física Clássica e Física Quântica; Mecânica e Campos. Setores de atividade: Outros.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1993</ano_inicio>
           <ano_conclusao>1994</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Centro Brasileiro de Pesquisas Físicas, CBPF, Brasil</nome_instituicao>
           <descricao>Título: Teoria Nao Local da Gravitacao, Ano de Obtenção: 1994. Orientador: Mario Novello. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Teorias não locais para a gravitação; Teoria de Campos. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Física / Subárea: Física das Partículas Elementares e Campos / Especialidade: Teoria Geral de Partículas e Campos. Setores de atividade: Outros.</descricao>
         </formacao>
@@ -13168,14 +13438,14 @@
         <formacao>
           <ano_inicio>1998</ano_inicio>
           <ano_conclusao>2004</ano_conclusao>
-          <tipo>Doutorado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Doutorado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Propriedades Ópticas e Morfológicas de Filmes Langmuir-Blodgett e Langmuir-Schaefer de Poli(3-hexiltiofeno) e Poli(5-amino - 1-naftol) O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2004. Orientador: Roberto Luiz Moreira. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: polímeros condutores; Langmuir-Blodgett; Langmuir-Schaefer; Propriedades Ópticas e Morfológicas. Grande área: Ciências Exatas e da Terra Setores de atividade: Desenvolvimento de Novos Materiais.</descricao>
         </formacao>
         <formacao>
           <ano_inicio>1996</ano_inicio>
           <ano_conclusao>1998</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Regime de Condução Difusiva na Transição Metal-Isolante em GaAs com Dopagem Planar de Si. O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 1998. Orientador: Paulo Sérgio Soares Guimarães. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Semicondutores; Transição Metal-Isolante; Dopagem Planar de Si; Localização Fraca; Efeito Hall Quântico. Grande área: Ciências Exatas e da Terra Setores de atividade: Desenvolvimento de Novos Materiais.</descricao>
         </formacao>
@@ -13568,7 +13838,7 @@
           <ano>2008</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1016/j.jnoncrysol.2008.05.070</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.jnoncrysol.2008.05.070&md5=82205702f0032a6a498ed4a877d96b3d</doi>
           <titulo>Dielectric properties of ternary melt processed blends</titulo>
           <autores>MARTINS, C. R ; RUBINGER, C. P. L. ; COSTA, L. C. ; Rubinger, R.M.</autores>
           <revista>JOURNAL OF NON-CRYSTALLINE SOLIDS</revista>
@@ -14227,7 +14497,7 @@
       <identificador10></identificador10>
       <nome_inicial>Roberto Shigueru Nobuyasu Junior</nome_inicial>
       <nome_completo>Roberto Shigueru Nobuyasu Junior</nome_completo>
-      <nome_citacao_bibliografica>NOBUYASU JUNIOR, R. S.;Nobuyasu, R. S.;Roberto S. Nobuyasu;Nobuyasu, Roberto S.;NOBUYASU, ROBERTO</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>NOBUYASU JUNIOR, R. S.;Nobuyasu, R. S.;Roberto S. Nobuyasu;Nobuyasu, Roberto S.;NOBUYASU, ROBERTO;Roberto Shigueru Nobuyasu Junior;Junior, Roberto Shigueru Nobuyasu</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -14252,7 +14522,7 @@
         <formacao>
           <ano_inicio>2010</ano_inicio>
           <ano_conclusao>2012</ano_conclusao>
-          <tipo>Mestrado em Física (Conceito CAPES 7)</tipo>
+          <tipo>Mestrado em Física</tipo>
           <nome_instituicao>Universidade Federal de Minas Gerais, UFMG, Brasil</nome_instituicao>
           <descricao>Título: Dispositivos fotovoltaicos poliméricos, Ano de Obtenção: 2012. Orientador: Luiz Alberto Cury. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil.</descricao>
         </formacao>
@@ -14268,8 +14538,8 @@
         <projeto>
           <ano_inicio>2022</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Fotofísica de moléculas orgânicas</nome>
-          <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Roberto Shigueru Nobuyasu Junior - Coordenador.</descricao>
+          <nome>Estudo, Caracterização e otimização de materiais orgânicos que apresentam Fluorescência Atrasada Ativada Termicamente e Fofotoluminêscencia de Longa Duração</nome>
+          <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: Roberto Shigueru Nobuyasu Junior - Coordenador.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2022</ano_inicio>
@@ -14280,13 +14550,7 @@
         <projeto>
           <ano_inicio>2022</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Estudo, Caracterização e otimização de materiais orgânicos que apresentam Fluorescência Atrasada Ativada Termicamente e Fofotoluminêscencia de Longa Duração</nome>
-          <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) . Integrantes: Roberto Shigueru Nobuyasu Junior - Coordenador.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2021</ano_inicio>
-          <ano_conclusao>Atual</ano_conclusao>
-          <nome>Estudo, Caracterização e otimização de materiais orgânicos que apresentam Fluorescência Atrasada Ativada Termicamente e Fofotoluminêscencia de Longa Duração</nome>
+          <nome>Fotofísica de moléculas orgânicas</nome>
           <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Roberto Shigueru Nobuyasu Junior - Coordenador.</descricao>
         </projeto>
         <projeto>
@@ -14294,6 +14558,12 @@
           <ano_conclusao>Atual</ano_conclusao>
           <nome>Estudo, Caracterização e otimização de materiais orgânicos que apresentam Fluorescência Atrasada Ativada Termicamente e Fofotoluminêscencia de Longa Duração</nome>
           <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Roberto Shigueru Nobuyasu Junior - Coordenador.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2021</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Estudo, Caracterização e otimização de materiais orgânicos que apresentam Fluorescência Atrasada Ativada Termicamente e Fofotoluminêscencia de Longa Duração</nome>
+          <descricao>Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Roberto Shigueru Nobuyasu Junior - Coordenador.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2020</ano_inicio>
@@ -14329,6 +14599,16 @@
         <id_lattes_colaborador>5395774975535644</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.molstruc.2023.135899</doi>
+          <titulo>Synthesis by microwave irradiation of new pyrazole-imidazoline-pyrimidine analogs: Physicochemical and photophysical properties and their biological activity against Trypanosoma cruzi</titulo>
+          <autores>PEREIRA, CYNTHIA NATHALIA ; ROSA, JOSÉ OTÁVIO ; LARA, LEONARDO DA SILVA ; ORLANDO, LORRAINE MARTINS ROCHA ; FIGUEIREDO, NATHÁLIA DA SILVA ; PEREIRA, MIRIAN CLAUDIA DE SOUZA ; Junior, Roberto Shigueru Nobuyasu ; SANTOS, MAURÍCIO SILVA DOS</autores>
+          <revista>JOURNAL OF MOLECULAR STRUCTURE</revista>
+          <volume>JOURNAL OF MOLECULAR STRUCTURE</volume>
+          <paginas>135899</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.1016/j.saa.2023.122437</doi>
           <titulo>Photoluminescent ellipsometric circular dichroism</titulo>
