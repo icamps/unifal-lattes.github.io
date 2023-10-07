@@ -19,7 +19,7 @@ strict graph grafo2 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Eric Batista Ferreira [23]",
+		label="Eric Batista Ferreira [24]",
 		pos="205.5,76.5",
 		width=1.8889];
 	0 -- 2	 [fontsize=8,
@@ -52,11 +52,11 @@ strict graph grafo2 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Denismar Alves Nogueira [30]",
+		label="Denismar Alves Nogueira [31]",
 		pos="205.5,142.5",
 		width=2.2361];
 	1 -- 2	 [fontsize=8,
-		label=19.0,
+		label=20.0,
 		lp="212.5,109.5",
 		pos="205.5,131.9 205.5,119.65 205.5,99.622 205.5,87.297"];
 	1 -- 4	 [fontsize=8,

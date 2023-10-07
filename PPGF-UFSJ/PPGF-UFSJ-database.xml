@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="13/09/2023 17:37:06">
+<curriculo_lattes data_processamento="07/10/2023 17:54:31">
   <pesquisador id="0487113229071944">
     <identificacao>
       <identificador10></identificador10>
@@ -114,6 +114,16 @@
           <revista>JOURNAL OF APPLIED NONLINEAR DYNAMICS</revista>
           <volume>JOURNAL OF APPLIED NONLINEAR DYNAMICS</volume>
           <paginas>245-256</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.physleta.2023.129097</doi>
+          <titulo>Quantum roughness as sensitivity to diffusion noise: Quantifying non-classicality of multi-mode systems</titulo>
+          <autores>ROMERO, K. Fonseca ; REIS, M. ; OLIVEIRA, Adélcio Carlos de</autores>
+          <revista>PHYSICS LETTERS A</revista>
+          <volume>PHYSICS LETTERS A</volume>
+          <paginas>129097</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -750,18 +760,6 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
-    <artigos_em_revista>
-        <artigo_revista>
-          <doi></doi>
-          <autores>ROMERO, K. Fonseca ; REIS, M. ; OLIVEIRA, Adélcio Carlos de</autores>
-          <titulo>Quantum Roughness as sensitivity to diffusion noise: quantifying non-classicality of multi-mode systems</titulo>
-          <revista>PHYSICS LETTERS A</revista>
-          <ano>2023</ano>
-          <volume></volume>
-          <paginas></paginas>
-          <numero></numero>
-        </artigo_revista>
-    </artigos_em_revista>
     <apresentacao_trabalho>
         <trabalho_apresentado>
           <titulo>Roughness as a measure of the quantumness of a state</titulo>
@@ -922,16 +920,6 @@
           <natureza>Curso de curta duração ministrado/Extensão</natureza>
         </producao>
     </producao_bibliografica>
-    <orientacao_mestrado_em_andamento>
-        <dissertacao>
-          <nome_aluno>Amanda Aparecida Moreira</nome_aluno>
-          <titulo_trabalho>Propriedades estatísticas e informação</titulo_trabalho>
-          <ano>2021</ano>
-          <instituicao>Dissertação (Mestrado em Programa de Pós-Gradução em Física) - Universidade Federal de São João del Rei</instituicao>
-          <agencia_de_fomento></agencia_de_fomento>
-          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </dissertacao>
-    </orientacao_mestrado_em_andamento>
     <orientacao_doutorado_concluido>
         <tese>
           <nome_aluno>Gilson Vieira Soares</nome_aluno>
@@ -2693,7 +2681,7 @@
           <ano>2009</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevb.77.205109&md5=eb1cc0dea702e53da7c666658b644de5</doi>
+          <doi>http://dx.doi.org/10.1103/PhysRevB.77.205109</doi>
           <titulo>Critical dopant concentration in polyacetylene and phase diagram from a continuous four-Fermi model</titulo>
           <autores>Caldas, Heron; Kneur, Jean-Loïc ; Pinto, Marcus Benghi ; Ramos, Rudnei O.</autores>
           <revista>Physical Review. B, Condensed Matter and Materials Physics</revista>
@@ -2713,7 +2701,7 @@
           <ano>2008</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1742-5468/2007/11/p11012&md5=51e606328e850b97d83b1f36051ef573</doi>
+          <doi>http://dx.doi.org/10.1088/1742-5468/2007/11/P11012</doi>
           <titulo>Surface energy in cold asymmetrical fermion superfluids</titulo>
           <autores>Caldas, Heron</autores>
           <revista>Journal of Statistical Mechanics. Theory and Experiment</revista>
@@ -2763,7 +2751,7 @@
           <ano>2004</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.67.045011&md5=a589244cbee107b0a020ee51921b60ff</doi>
+          <doi>http://dx.doi.org/10.1103/PhysRevD.67.045011</doi>
           <titulo>Analytic properties of thermal corrected boson propagators</titulo>
           <autores>CALDAS, H. C. G.; Hott, M.</autores>
           <revista>Physical Review D</revista>
@@ -3767,7 +3755,7 @@
       <identificador10></identificador10>
       <nome_inicial>Marcelo Martins de Oliveira</nome_inicial>
       <nome_completo>Marcelo Martins de Oliveira</nome_completo>
-      <nome_citacao_bibliografica>de OLIVEIRA, M. M.;de Oliveira, Marcelo M.;M. Martins de Oliveira;Oliveira, M.M.;DE OLIVEIRA, MARCELO MARTINS;DE OLIVEIRA, MARCELO M</nome_citacao_bibliografica>
+      <nome_citacao_bibliografica>de OLIVEIRA, M. M.;de Oliveira, Marcelo M.;M. Martins de Oliveira;Oliveira, M.M.;DE OLIVEIRA, MARCELO MARTINS;DE OLIVEIRA, MARCELO M;DE OLIVEIRA, M.M.</nome_citacao_bibliografica>
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -3847,19 +3835,19 @@
           <ano_inicio>2014</ano_inicio>
           <ano_conclusao>2016</ano_conclusao>
           <nome>Modelos baseados em agentes para o mercado imobiliário</nome>
-          <descricao>Descrição: Um modelo baseado em agentes (MBA) é uma simulação computacional de um número de tomadores de decisão (agentes) e instituições, os quais interagem a partir de regras preestabelecidas. Os agentes podem ser tão diversos quanto necessário ? de consumidores a reguladores e profissionais da bolsa de valores ? e a estrutura institucional pode incluir desde bancos até o governo. Ao contrário de modelos tradicionais em economia, um MBA não se baseia na hipótese de que a economia se move sempre em direção a um estado de equilíbrio. Em um MBA, em cada instante de tempo, cada agente toma uma atitude de acordo com sua condição atual, o estado do mundo ao seu redor e as regras que governam seu comportamento. Um agente representando um consumidor, por exemplo, pode decidir se ele poupa ou gasta baseado na taxa de inflação, seu otimismo atual sobre o futuro, e outras regras comportamentais deduzidas de experimentos psicológicos ("behavioral economy"). Simulações de MBA podem lidar com um maior espectro de comportamento não-lineares que não são tratáveis em modelos convencionais de equilíbrio. Reguladores podem então simular uma economia artificial sob diferentes cenários reguladores e explorar quantitativamente suas consequencias. Neste projeto em particular, nosso objetivo é implementar um MBA para descrever a microestrutura do mercado imobiliário.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Almeida, Alexandre C. L. - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 6</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2009</ano_inicio>
-          <ano_conclusao>2011</ano_conclusao>
-          <nome>UNIVERSAL 01/2009 FAPEMIG: Aspectos Fundamentais em Transições de Fases para Estados Absorventes</nome>
-          <descricao>Descrição: Valor financiado: R$19.110,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ronald Dickman - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <descricao>Descrição: Um modelo baseado em agentes (MBA) é uma simulação computacional de um número de tomadores de decisão (agentes) e instituições, os quais interagem a partir de regras preestabelecidas. Os agentes podem ser tão diversos quanto necessário ? de consumidores a reguladores e profissionais da bolsa de valores ? e a estrutura institucional pode incluir desde bancos até o governo. Ao contrário de modelos tradicionais em economia, um MBA não se baseia na hipótese de que a economia se move sempre em direção a um estado de equilíbrio. Em um MBA, em cada instante de tempo, cada agente toma uma atitude de acordo com sua condição atual, o estado do mundo ao seu redor e as regras que governam seu comportamento. Um agente representando um consumidor, por exemplo, pode decidir se ele poupa ou gasta baseado na taxa de inflação, seu otimismo atual sobre o futuro, e outras regras comportamentais deduzidas de experimentos psicológicos ("behavioral economy"). Simulações de MBA podem lidar com um maior espectro de comportamento não-lineares que não são tratáveis em modelos convencionais de equilíbrio. Reguladores podem então simular uma economia artificial sob diferentes cenários reguladores e explorar quantitativamente suas consequencias. Neste projeto em particular, nosso objetivo é implementar um MBA para descrever a microestrutura do mercado imobiliário.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Almeida, Alexandre C. L. - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa. Número de produções C, T & A: 6</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Edital MCT/CNPq 14/2009 - Universal - Aspectos Fundamentais em Transições de Fases para Estados Absorventes II</nome>
           <descricao>Descrição: Valor financiado: R$7.500,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ediane de Sá Alvevs - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 6</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2009</ano_inicio>
+          <ano_conclusao>2011</ano_conclusao>
+          <nome>UNIVERSAL 01/2009 FAPEMIG: Aspectos Fundamentais em Transições de Fases para Estados Absorventes</nome>
+          <descricao>Descrição: Valor financiado: R$19.110,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Ronald Dickman - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -3890,6 +3878,16 @@
           <revista>COMPLEX SYSTEMS</revista>
           <volume>COMPLEX SYSTEMS</volume>
           <paginas>71-87</paginas>
+          <numero></numero>
+          <ano>2023</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.chaos.2023.114108</doi>
+          <titulo>Immunity Agent-Based Model (IABM) for epidemiological systems</titulo>
+          <autores>GONZAGA, M.N. ; DE OLIVEIRA, M.M. ; ATMAN, A.P.F.</autores>
+          <revista>CHAOS SOLITONS & FRACTALS</revista>
+          <volume>CHAOS SOLITONS & FRACTALS</volume>
+          <paginas>114108</paginas>
           <numero></numero>
           <ano>2023</ano>
         </artigo>
@@ -4144,7 +4142,7 @@
           <ano>2008</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1742-5468/2008/11/p11001&md5=853e16218ab308e59b68f8cefc063bc3</doi>
+          <doi>http://dx.doi.org/10.1088/1742-5468/2008/11/P11001</doi>
           <titulo>Universality of the contact process with random dilution</titulo>
           <autores>de OLIVEIRA, M. M.; FERREIRA JR., S. C.</autores>
           <revista>Journal of Statistical Mechanics</revista>
@@ -4695,16 +4693,16 @@
           <tipo_de_orientacao>Supervisor</tipo_de_orientacao>
         </tese>
     </orientacao_doutorado_em_andamento>
-    <orientacao_iniciacao_cientifica_em_andamento>
-        <iniciacao_cientifica>
-          <nome_aluno>Pedro Montes Melo</nome_aluno>
-          <titulo_trabalho>Física das cidades</titulo_trabalho>
-          <ano>2022</ano>
-          <instituicao>Iniciação científica (Graduando em Engenharia Mecatrônica) - Universidade Federal de São João Del-Rei</instituicao>
-          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+    <orientacao_mestrado_em_andamento>
+        <dissertacao>
+          <nome_aluno>Ederson de Souza</nome_aluno>
+          <titulo_trabalho>a definir</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento></agencia_de_fomento>
           <tipo_de_orientacao>Orientador</tipo_de_orientacao>
-        </iniciacao_cientifica>
-    </orientacao_iniciacao_cientifica_em_andamento>
+        </dissertacao>
+    </orientacao_mestrado_em_andamento>
     <orientacao_mestrado_concluido>
         <dissertacao>
           <nome_aluno>Crislayne Aparecida Modesto Reis</nome_aluno>
@@ -4750,6 +4748,14 @@
         </tcc>
     </orientacao_tcc_concluido>
     <orientacao_iniciacao_cientifica_concluido>
+        <iniciacao_cientifica>
+          <nome_aluno>Pedro Montes Melo</nome_aluno>
+          <titulo_trabalho>Física das cidades</titulo_trabalho>
+          <ano>2023</ano>
+          <instituicao>(Graduando em Engenharia Mecatrônica) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>Conselho Nacional de Desenvolvimento Científico e Tecnológico</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </iniciacao_cientifica>
         <iniciacao_cientifica>
           <nome_aluno>Thamires Barbosa Mendes</nome_aluno>
           <titulo_trabalho>Modelagem dos Efeitos de Quarentena no Espalhamento de Epidemias</titulo_trabalho>
@@ -5164,7 +5170,7 @@
           <ano_inicio>2013</ano_inicio>
           <ano_conclusao>2016</ano_conclusao>
           <nome>Teoria de escala dinâmica e distribuições em crescimento de interfaces e processos cinéticos de agregação</nome>
-          <descricao>Descrição: A dinâmica de evolução de interfaces rugosas é, em geral, um processo complexo e importante em muitos fenômenos de crescimento. Tradicionalmente, o estudo de interfaces utilizando teoria de escala dinâmica envolve a determinação de uma série de expoentes que, mais que definir a classe de universalidade, permitem extrair conclusões acerca dos principais fenômenos envolvidos na evolução do sistema. Entretanto, muitas vezes é difícil obter valores precisos para os expoentes de escala devido a efeitos de tamanho e tempo finitos e métodos alternativos devem ser usados para complementar a caracterização dessas interfaces. Neste projeto, pretendemos dar continuidade a trabalhos desenvolvidos pelo grupo nos quais uma técnica bastante promissora vem sendo utilizada, que é o cálculo de distribuições de momentos e cumulantes das alturas de interfaces obtidas usando modelos discretos. A comparação das distribuições de uma dada superfície com aquelas associadas às diversas classes de universalidade nos permite concluir, por exemplo, a qual classe de universalidade um determinado sistema pertence. Da mesma forma, distribuições de extremos (alturas máxima e mínima da interface) também apresentam um caráter universal e são úteis para se determinar classes de universalidade. Além disso, essas últimas também podem ser usadas para se estudar a assimetria nas distribuições de altura. Dentre os diferentes problemas teóricos associados ao crescimento de interfaces investigados nesse projeto destacam-se aqueles associados aos modelos discretos pertencentes à classe de universalidade de Kardar-Parisi-Zhang (KPZ). Aqui, pretendemos estender essa investigação a dimensões superiores, abordando em particular um ponto importante ainda em aberto, a dimensão crítica da classe de universalidade KPZ. Entre outros problemas, é importante também destacar, a investigação da dinâmica de replicação e a migração de linhagens célulares normais e tumorais em cultura, fenômenos centrais no crescimento, invasão e metástase.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Sukarno Olavo Ferreira - Integrante / Márcio Santos Rocha - Integrante / Tiago José de Oliveira - Integrante / Silvio da Costa Ferreira Junior - Integrante / Anésia Aparecida dos Santos - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
+          <descricao>Descrição: A dinâmica de evolução de interfaces rugosas é, em geral, um processo complexo e importante em muitos fenômenos de crescimento. Tradicionalmente, o estudo de interfaces utilizando teoria de escala dinâmica envolve a determinação de uma série de expoentes que, mais que definir a classe de universalidade, permitem extrair conclusões acerca dos principais fenômenos envolvidos na evolução do sistema. Entretanto, muitas vezes é difícil obter valores precisos para os expoentes de escala devido a efeitos de tamanho e tempo finitos e métodos alternativos devem ser usados para complementar a caracterização dessas interfaces. Neste projeto, pretendemos dar continuidade a trabalhos desenvolvidos pelo grupo nos quais uma técnica bastante promissora vem sendo utilizada, que é o cálculo de distribuições de momentos e cumulantes das alturas de interfaces obtidas usando modelos discretos. A comparação das distribuições de uma dada superfície com aquelas associadas às diversas classes de universalidade nos permite concluir, por exemplo, a qual classe de universalidade um determinado sistema pertence. Da mesma forma, distribuições de extremos (alturas máxima e mínima da interface) também apresentam um caráter universal e são úteis para se determinar classes de universalidade. Além disso, essas últimas também podem ser usadas para se estudar a assimetria nas distribuições de altura. Dentre os diferentes problemas teóricos associados ao crescimento de interfaces investigados nesse projeto destacam-se aqueles associados aos modelos discretos pertencentes à classe de universalidade de Kardar-Parisi-Zhang (KPZ). Aqui, pretendemos estender essa investigação a dimensões superiores, abordando em particular um ponto importante ainda em aberto, a dimensão crítica da classe de universalidade KPZ. Entre outros problemas, é importante também destacar, a investigação da dinâmica de replicação e a migração de linhagens célulares normais e tumorais em cultura, fenômenos centrais no crescimento, invasão e metástase.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Sukarno Olavo Ferreira - Integrante / Márcio Santos Rocha - Integrante / Tiago José de Oliveira - Integrante / Silvio da Costa Ferreira Junior - Integrante / Anésia Aparecida dos Santos - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2013</ano_inicio>
@@ -5181,26 +5187,26 @@
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2013</ano_conclusao>
-          <nome>Dinâmica de Crescimento de Superfícies e Submonocamadas</nome>
-          <descricao>Descrição: Projeto aprovado junto à FAPEMIG no Programa Primeiros Projeto. O objetivo deste é o estudo de alguns problemas no crescimento de superfícies, tais como: Distribuições de alturas e rugosidades de agregados bi- e tridimensionais, escala dinâmica de alturas extremas em superfícies e distribuições de tamanhos de ilhas e zonas de captura em modelos para o regime de submonocamadas. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Sidiney Geraldo Alves - Integrante / Silvio da Costa Ferreira Junior - Integrante / Tiago José de Oliveira - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
-        </projeto>
-        <projeto>
-          <ano_inicio>2011</ano_inicio>
-          <ano_conclusao>2013</ano_conclusao>
           <nome>Investigação de Processos de Agregação e Crescimento de Interfaces</nome>
           <descricao>Descrição: Neste projeto, investigaremos a dinâmica de formação de aglomerados e a evolução de interfaces em processos cinéticos. Em resumo, as investigações dos fenômenos abordados neste projeto serão feitas através de uma abortagem interdisciplinar utilizando conceitos tradicionais da Mecânica Estatística como universalidade, criticalidade, leis de escala, etc. Além de sua relevância científica -- o entendimento dos mecanismos envolvidos em processos observados em diversas áreas do conhecimento -- estas investigações podem levar a aplicações tecnológicas em setores como medicina, saúde pública, na área de materiais e no setor industrial.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) / Mestrado acadêmico: (2) / Doutorado: (1) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante / Tiago José de Oliveira - Integrante / Márcio Santos Rocha - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
-          <ano_inicio>2009</ano_inicio>
-          <ano_conclusao>2011</ano_conclusao>
-          <nome>Simulação computacional de processos cinéticos de agregação</nome>
-          <descricao>Descrição: Na natureza podemos encontrar um número muito grande de processos de crescimento que levam a formação de padrões complexos que, normalmente, apresentam estruturas fractais e, portanto, exibem invariância sob mudanças de escala. Como exemplos, podemos citar a eletrodeposição, o crescimento de filmes finos, o crescimento de células normais e tumorais ou de colônias de bactérias e formação de aglomerados de galáxias, etc. Muitos desses processos ocorrem pela agregação de um ou mais componentes sob diferentes condições que levam a padrões com morfologias variadas. O estudo dos mecanismos subjacentes a esses fenômenos de crescimento, além de possuir uma grande relevância científica -- compreensão dos fenômenos relevantes nos processos de crescimento -- podem levar a inovações tecnológicas com aplicações em componentes microeletrônicos, células combustíveis, redes de nano-fios e outras. Além disso, o entendimento dos fenômenos mais relevantes nesses processos é crucial também para avanços de técnicas experimentais (como por exemplo micro-fabricação eletroquímica). Neste projeto, vamos investigar através de simulação computational os fenômenos de formação de padrão e de transições morfológicas encontrados em eletrodeposição, dinâmica de migração e agregação de células em cultura, agregação de moléculas em gotículas de hélio superfluido, entre outros. É importante mencionar que o ponto comum a estas investigações é o estudo dos mecanismos subjacentes à dinâmica de formação de padrões em sistemas que envolvem processos cinéticos de agregação. Enfim, essas investigações serão feitas por meio de uma abordagem interdisciplinar na qual combinamos métodos da mecânica estatística e da modelagem matemática e computacional.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</descricao>
+          <ano_inicio>2011</ano_inicio>
+          <ano_conclusao>2013</ano_conclusao>
+          <nome>Dinâmica de Crescimento de Superfícies e Submonocamadas</nome>
+          <descricao>Descrição: Projeto aprovado junto à FAPEMIG no Programa Primeiros Projeto. O objetivo deste é o estudo de alguns problemas no crescimento de superfícies, tais como: Distribuições de alturas e rugosidades de agregados bi- e tridimensionais, escala dinâmica de alturas extremas em superfícies e distribuições de tamanhos de ilhas e zonas de captura em modelos para o regime de submonocamadas. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Sidiney Geraldo Alves - Integrante / Silvio da Costa Ferreira Junior - Integrante / Tiago José de Oliveira - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Investigação de sistemas complexos via modelos de Autômatos Celulares</nome>
           <descricao>Descrição: Investigar, utilizando modelos de autômatos celulares, a dinâmica de formação de opinião em processos eleitorais e disseminação de doenças em plantações, como a do bicho mineiro do cafeeiro e a vassoura de bruxa e a monília no cacaueiro.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</descricao>
+        </projeto>
+        <projeto>
+          <ano_inicio>2009</ano_inicio>
+          <ano_conclusao>2011</ano_conclusao>
+          <nome>Simulação computacional de processos cinéticos de agregação</nome>
+          <descricao>Descrição: Na natureza podemos encontrar um número muito grande de processos de crescimento que levam a formação de padrões complexos que, normalmente, apresentam estruturas fractais e, portanto, exibem invariância sob mudanças de escala. Como exemplos, podemos citar a eletrodeposição, o crescimento de filmes finos, o crescimento de células normais e tumorais ou de colônias de bactérias e formação de aglomerados de galáxias, etc. Muitos desses processos ocorrem pela agregação de um ou mais componentes sob diferentes condições que levam a padrões com morfologias variadas. O estudo dos mecanismos subjacentes a esses fenômenos de crescimento, além de possuir uma grande relevância científica -- compreensão dos fenômenos relevantes nos processos de crescimento -- podem levar a inovações tecnológicas com aplicações em componentes microeletrônicos, células combustíveis, redes de nano-fios e outras. Além disso, o entendimento dos fenômenos mais relevantes nesses processos é crucial também para avanços de técnicas experimentais (como por exemplo micro-fabricação eletroquímica). Neste projeto, vamos investigar através de simulação computational os fenômenos de formação de padrão e de transições morfológicas encontrados em eletrodeposição, dinâmica de migração e agregação de células em cultura, agregação de moléculas em gotículas de hélio superfluido, entre outros. É importante mencionar que o ponto comum a estas investigações é o estudo dos mecanismos subjacentes à dinâmica de formação de padrões em sistemas que envolvem processos cinéticos de agregação. Enfim, essas investigações serão feitas por meio de uma abordagem interdisciplinar na qual combinamos métodos da mecânica estatística e da modelagem matemática e computacional.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2007</ano_inicio>
@@ -5534,7 +5540,7 @@
           <ano>2010</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1063/1.3158359&md5=91ec6bc8d8325c16657a2b75e6557a39</doi>
+          <doi>http://dx.doi.org/10.1063/1.3158359</doi>
           <titulo>Effects of the mean free path and relaxation in a model for the aggregation of particles in superfluid media</titulo>
           <autores>ALVES, S. G.; VILESOV, A. F. ; FERREIRA Jr, S. C.</autores>
           <revista>Journal of Chemical Physics</revista>
@@ -5847,6 +5853,18 @@
           <numero></numero>
         </resumo>
     </resumo_congresso>
+    <artigos_em_revista>
+        <artigo_revista>
+          <doi></doi>
+          <autores>BENETTI, L. C. ; Alves, Sidiney G. ; ZOLDAN, V. C. ; ISOPPO, E. A. ; CID, C. C. P. ; LIN, Q. ; Reis, Fábio D. A. A. ; ZANGARI, G. ; PASA, A. A.</autores>
+          <titulo>Secondary nucleation and unstable roughening in Fe layers electrodeposited on Si</titulo>
+          <revista>CRYSTAL GROWTH & DESIGN</revista>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+          <numero></numero>
+        </artigo_revista>
+    </artigos_em_revista>
     <trabalhos_tecnicos>
         <trabalho>
           <titulo>Montagem de um servidor NIS e da rede (Linux) de computadores do GISC-UFV</titulo>
@@ -6453,7 +6471,7 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://dx.doi.org/10.1103/PhysRevD.79.085002</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1103/physrevd.79.085002&md5=1be84e002e6da6c5cb0dcda22c4da893</doi>
           <titulo>Axial-vector coupling and chiral anomaly in the spectral quark model</titulo>
           <autores>FERREIRA, L. C. ; MOTA, A. L.</autores>
           <revista>Physical Review D, Particles, Fields, Gravitation and Cosmology</revista>
@@ -7786,7 +7804,7 @@
         <artigo>
           <doi>http://dx.doi.org/10.1590/1519-6984.03316</doi>
           <titulo>A new approach to mark termites (Cornitermes cumulans (Kollar) Blattodea: Isoptera) for laboratory bioassays</titulo>
-          <autores>Alessandra Marins ; Paulo Fellipe Cristaldo ; Leticia R Paiva ; Octavio Miramontes ; Og DeSouza</autores>
+          <autores>Alessandra Marins ; Paulo Fellipe Cristaldo ; Leticia R Paiva ; PAIVA, L. R. ; Octavio Miramontes ; Og DeSouza</autores>
           <revista>BRAZILIAN JOURNAL OF BIOLOGY</revista>
           <volume>BRAZILIAN JOURNAL OF BIOLOGY</volume>
           <paginas>e03316</paginas>
@@ -7796,7 +7814,7 @@
         <artigo>
           <doi>http://dx.doi.org/10.1016/j.jtbi.2022.111106</doi>
           <titulo>Social context modulates scale-free movements in a social insect</titulo>
-          <autores>CASTIBLANCO, JULIETH ; CRISTALDO, PAULO F. ; PAIVA, LETICIA R. ; DESOUZA, OG</autores>
+          <autores>CASTIBLANCO, JULIETH ; CRISTALDO, PAULO F. ; PAIVA, LETICIA R. ; PAIVA, L. R. ; DESOUZA, OG</autores>
           <revista>JOURNAL OF THEORETICAL BIOLOGY</revista>
           <volume>JOURNAL OF THEORETICAL BIOLOGY</volume>
           <paginas>111106</paginas>
@@ -7826,7 +7844,7 @@
         <artigo>
           <doi>http://dx.doi.org/10.5424/sjar/2019171-13294</doi>
           <titulo>Phenological asynchrony between the fruit fly Anastrepha fraterculus and early maturing peach cultivars could contribute to pesticide use reduction</titulo>
-          <autores>SILVA-ARAUJO, EMILY ; Ribeira-Paiva, Leticia ; GERALDO-ALVES, SIDNEY ; BEVACQUA, DANIELE ; EDSON-NAVA, DORI ; LAVIGNE, CLAIRE ; MELLO-GARCÍA, FLAVIO R.</autores>
+          <autores>SILVA-ARAUJO, EMILY ; Ribeira-Paiva, Leticia ; PAIVA, L. R. ; GERALDO-ALVES, SIDNEY ; BEVACQUA, DANIELE ; EDSON-NAVA, DORI ; LAVIGNE, CLAIRE ; MELLO-GARCÍA, FLAVIO R.</autores>
           <revista>SPANISH JOURNAL OF AGRICULTURAL RESEARCH</revista>
           <volume>SPANISH JOURNAL OF AGRICULTURAL RESEARCH</volume>
           <paginas>e1001</paginas>
@@ -7846,7 +7864,7 @@
         <artigo>
           <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1371/journal.pone.0111183&md5=87542ad7ce5052371880d2cf4dfce62e</doi>
           <titulo>Lévy Flights and Self-Similar Exploratory Behaviour of Termite Workers: Beyond Model Fitting</titulo>
-          <autores>MIRAMONTES, OCTAVIO ; DESOUZA, OG ; PAIVA, LETICIA RIBEIRO ; MARINS, ALESSANDRA ; OROZCO, SIRIO</autores>
+          <autores>MIRAMONTES, OCTAVIO ; DESOUZA, OG ; PAIVA, LETICIA RIBEIRO ; PAIVA, L. R. ; MARINS, ALESSANDRA ; OROZCO, SIRIO</autores>
           <revista>Plos One</revista>
           <volume>Plos One</volume>
           <paginas>e111183</paginas>
@@ -7884,9 +7902,9 @@
           <ano>2011</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1158/0008-5472.can-08-2173&md5=0d2caab4a3023e19894575d8dfc293c9</doi>
+          <doi>http://dx.doi.org/10.1158/0008-5472.CAN-08-2173</doi>
           <titulo>A Multiscale Mathematical Model for Oncolytic Virotherapy</titulo>
-          <autores>PAIVA, L. R.; Binny, C. ; Ferreira, S. C. ; Martins, M. L.</autores>
+          <autores>Binny, C. ; Ferreira, S. C. ; Martins, M. L.</autores>
           <revista>Cancer Research</revista>
           <volume>Cancer Research</volume>
           <paginas>1205-1211</paginas>
@@ -7896,7 +7914,7 @@
         <artigo>
           <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1088/1751-8113/40/1/f05&md5=e5cb5113494977a3df9f3502ff041286</doi>
           <titulo>Universality class of isotropic on-lattice Eden clusters</titulo>
-          <autores>PAIVA, L. R.; S C Ferreira Jr</autores>
+          <autores>S C Ferreira Jr</autores>
           <revista>Journal of Physics. A, Mathematical and General (Print) (Cessou em 2006. Cont. ISSN 1751-8113 Journal of Physics. A, Mathematical and Theoretical (Pri</revista>
           <volume>Journal of Physics. A, Mathematical and General (Print) (Cessou em 2006. Cont. ISSN 1751-8113 Journal of Physics. A, Mathematical and Theoretical (Pri</volume>
           <paginas>F43-F49</paginas>
@@ -7907,8 +7925,8 @@
     <capitulos_livros>
         <capitulo>
           <livro>Octavio Miramontes; Elena Alvarez-Buylla. (Org.). Cancer: a complex disease. 1ed.Cd. de México</livro>
-          <titulo>TUMOR THERAPIES CHALLENGES: INSIGHTS FROM MATHEMATICAL MODELS</titulo>
-          <autores>Paiva, L. R</autores>
+          <titulo>R.; TUMOR THERAPIES CHALLENGES: INSIGHTS FROM MATHEMATICAL MODELS</titulo>
+          <autores>Paiva, L</autores>
           <edicao></edicao>
           <editora>CopIt-arXives</editora>
           <volume>1</volume>
@@ -7929,7 +7947,7 @@
     <resumo_expandido_congresso>
         <resumo_expandido>
           <doi></doi>
-          <autores>GONCALVES, B. D. ; ALVES, S. G. ; PAIVA, L. R.</autores>
+          <autores>GONCALVES, B. D. ; ALVES, S. G. ; PAIVA, L. R. ; PAIVA, L. R.</autores>
           <titulo>DIFUSÃO ANÔMALA EM CAMINHADAS DE CUPINS</titulo>
           <nome_evento>I Congresso Brasileiro Interdisciplinar de Ciência e Tecnologia, 2020, Diamantina. Anais do I Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia</nome_evento>
           <ano>2020</ano>
@@ -7938,7 +7956,7 @@
         </resumo_expandido>
         <resumo_expandido>
           <doi></doi>
-          <autores>SILVA, L. B. ; BARROS, L. A. ; PAIVA, L. R.</autores>
+          <autores>SILVA, L. B. ; BARROS, L. A. ; PAIVA, L. R. ; PAIVA, L. R.</autores>
           <titulo>ABORDAGEM INTERDISCIPLINAR PARA ANÁLISE DE DADOS EMPÍRICOS DE RASTREAMENTO DE UM CUPIM CONFINADO</titulo>
           <nome_evento>I Congresso Brasileiro Interdisciplinar de Ciência e Tecnologia, 2020, Diamantina. Anais do I Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia</nome_evento>
           <ano>2020</ano>
@@ -7959,7 +7977,7 @@
         </resumo>
         <resumo>
           <doi></doi>
-          <autores>ALVES, S. G. ; Paiva, L. R. ; MARTINS, M. L.</autores>
+          <autores>ALVES, S. G. ; Paiva, L. R. ; PAIVA, L. R. ; MARTINS, M. L.</autores>
           <titulo>Modeling the mechanisms of the growth of animal cells in culture</titulo>
           <nome_evento>XXXIII Encontro Nacional de Fisica da Materia Condensada, 2010, Águas de Lindóia. XXXIII Encontro Nacional de Fisica da Materia Condensada</nome_evento>
           <ano>2010</ano>
@@ -8029,7 +8047,7 @@
         </resumo>
         <resumo>
           <doi></doi>
-          <autores>PAIVA, L. R.; MOREIRA, J. G. A. ; ALVES, S. G.</autores>
+          <autores>MOREIRA, J. G. A. ; ALVES, S. G.</autores>
           <titulo>Transição Morfológica num modelo DLD</titulo>
           <nome_evento>XXVIII Encontro Nacional de Física da Matéria Condensada, 2005, Santos, SP. XXVII Encontro Nacional de Física da Matéria Condensada</nome_evento>
           <ano>2005</ano>
@@ -8049,7 +8067,7 @@
         </resumo>
         <resumo>
           <doi></doi>
-          <autores>PAIVA, L. R.; MOREIRA, J. G. A. ; ALVES, S. G.</autores>
+          <autores>L. R. Paiva ; ALVES, S. G. ; MOREIRA, J. G.</autores>
           <titulo>Efeito de um campo em um modelo DLA</titulo>
           <nome_evento>Simulação de Efeitos de Difusão em Processos de Deposição de Partículas, 2004, Poços de Caldas. Encontro Nacional de Fisica da Materia Condensada</nome_evento>
           <ano>2004</ano>
@@ -8070,62 +8088,62 @@
     </resumo_congresso>
     <apresentacao_trabalho>
         <trabalho_apresentado>
-          <titulo>Complexity & termite movement patterns</titulo>
-          <autores>Leticia R Paiva</autores>
-          <ano>2023</ano>
+          <titulo>2023</titulo>
+          <autores>Leticia R Paiva; Complexity & termite movement patterns</autores>
+          <ano>0</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Mulheres na Ciência</titulo>
-          <autores>Leticia R Paiva</autores>
-          <ano>2023</ano>
+          <titulo>2023</titulo>
+          <autores>Leticia R Paiva; Mulheres na Ciência</autores>
+          <ano>0</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Você já ouviu falar de Física Biológica?</titulo>
-          <autores>Leticia R Paiva</autores>
-          <ano>2023</ano>
+          <titulo>2023</titulo>
+          <autores>Leticia R Paiva; Você já ouviu falar de Física Biológica?</autores>
+          <ano>0</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Física, cupins e a maternidade na ciência</titulo>
-          <autores>PAIVA, L. R</autores>
+          <titulo>R.; Física, cupins e a maternidade na ciência</titulo>
+          <autores>PAIVA, L</autores>
           <ano>2022</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Scale-free movement patterns in termites</titulo>
-          <autores>Paiva, L. R</autores>
+          <titulo>R.; Scale-free movement patterns in termites</titulo>
+          <autores>Paiva, L</autores>
           <ano>2022</ano>
           <natureza>Apresentação de Trabalho/Comunicação</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Emergence of scale-free movement patterns in termites</titulo>
-          <autores>Paiva, L. R</autores>
+          <titulo>R.; Emergence of scale-free movement patterns in termites</titulo>
+          <autores>Paiva, L</autores>
           <ano>2022</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Física, cupins e a maternidade na ciência</titulo>
-          <autores>Paiva, L. R</autores>
+          <titulo>R.; Física, cupins e a maternidade na ciência</titulo>
+          <autores>Paiva, L</autores>
           <ano>2022</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Física, cupins e a maternidade na ciência</titulo>
-          <autores>Paiva, L. R</autores>
+          <titulo>R.; Física, cupins e a maternidade na ciência</titulo>
+          <autores>Paiva, L</autores>
           <ano>2022</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Física, cupins e a maternidade na ciência</titulo>
-          <autores>Paiva, L. R</autores>
+          <titulo>R.; Física, cupins e a maternidade na ciência</titulo>
+          <autores>Paiva, L</autores>
           <ano>2021</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>'Emergência de caminhadas de Lévy em cupins'</titulo>
-          <autores>Paiva, L. R</autores>
+          <titulo>R.; 'Emergência de caminhadas de Lévy em cupins'</titulo>
+          <autores>Paiva, L</autores>
           <ano>2021</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
@@ -8136,32 +8154,32 @@
           <natureza>Apresentação de Trabalho/Outra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Physics of Foraging</titulo>
-          <autores>Leticia R Paiva</autores>
-          <ano>2017</ano>
+          <titulo>2017</titulo>
+          <autores>Leticia R Paiva; Physics of Foraging</autores>
+          <ano>0</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>?Nanoterapias anticâncer: contribuições de modelos multiescala?</titulo>
-          <autores>PAIVA, L. R</autores>
+          <titulo>R.; ?Nanoterapias anticâncer: contribuições de modelos multiescala?</titulo>
+          <autores>PAIVA, L</autores>
           <ano>2016</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Effects of social interactions in termite exploratory behaviour</titulo>
-          <autores>Leticia R Paiva</autores>
-          <ano>2016</ano>
+          <titulo>2016</titulo>
+          <autores>Leticia R Paiva; Effects of social interactions in termite exploratory behaviour.</autores>
+          <ano>0</ano>
           <natureza>Apresentação de Trabalho/Outra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Física + Biologia = ?</titulo>
-          <autores>PAIVA, L. R</autores>
+          <titulo>R.; Física + Biologia = ?</titulo>
+          <autores>PAIVA, L</autores>
           <ano>2015</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
         <trabalho_apresentado>
-          <titulo>Complexidade em Sistemas Biológicos</titulo>
-          <autores>PAIVA, L. R</autores>
+          <titulo>R.; Complexidade em Sistemas Biológicos</titulo>
+          <autores>PAIVA, L</autores>
           <ano>2015</ano>
           <natureza>Apresentação de Trabalho/Conferência ou palestra</natureza>
         </trabalho_apresentado>
@@ -8270,8 +8288,8 @@
     </apresentacao_trabalho>
     <producao_tecnica>
         <producao>
-          <titulo>Modelos matemáticos aplicados a bioprocessos</titulo>
-          <autores>PAIVA, L. R</autores>
+          <titulo>R.; Modelos matemáticos aplicados a bioprocessos</titulo>
+          <autores>PAIVA, L</autores>
           <natureza>Curso de curta duração ministrado/Outra</natureza>
           <ano>2015</ano>
         </producao>

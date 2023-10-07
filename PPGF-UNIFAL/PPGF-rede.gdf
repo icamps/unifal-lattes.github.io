@@ -1,6 +1,6 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
 0,8478305453281130,Anibal Thiago Bezerra,[Sem rotulo],,,1.0,27,15,0,0,0,0,12,0,0,4,6,'10,110,164'
-1,4002033080997386,Cassius Anderson Miquele de Melo,[Sem rotulo],,,1.0,36,21,2,0,10,0,3,0,1,13,21,'10,110,164'
+1,4002033080997386,Cassius Anderson Miquele de Melo,[Sem rotulo],,,1.0,36,21,2,0,10,0,3,0,1,14,21,'10,110,164'
 2,2425549033248106,Fernando Goncalves Gardim,[Sem rotulo],,,0.15,30,29,0,0,0,0,1,3,0,2,13,'10,110,164'
 3,4023778019418442,Gustavo do Amaral Valdiviesso,[Sem rotulo],,,1.0,49,41,0,2,2,3,1,0,1,6,15,'10,110,164'
 4,3732563704810366,Ihosvany Camps Rodriguez,[Sem rotulo],,,0.15,104,64,1,3,6,4,26,0,0,11,27,'10,110,164'
