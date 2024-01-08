@@ -30,7 +30,7 @@ strict graph grafo2 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Ernandes Benedito Pereira [36]",
+		label="Ernandes Benedito Pereira [38]",
 		pos="149,142.5",
 		width=2.3056];
 	0 -- 4	 [fontsize=8,
@@ -96,7 +96,7 @@ strict graph grafo2 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Ana K. Furtado de Carvalho [7]",
+		label="Ana K. Furtado de Carvalho [9]",
 		pos="243,10.5",
 		width=2.375];
 	0 -- 14	 [fontsize=8,
@@ -132,7 +132,7 @@ strict graph grafo2 {
 		lp="149,109.5",
 		pos="147.07,131.9 144.85,119.65 141.2,99.622 138.96,87.297"];
 	4 -- 14	 [fontsize=8,
-		label=1.0,
+		label=3.0,
 		lp="233,76.5",
 		pos="166.39,131.98 181.43,122.08 202.78,105.95 216,87 230.51,66.208 237.96,36.834 241.11,21.226"];
 	5 -- 12	 [fontsize=8,
