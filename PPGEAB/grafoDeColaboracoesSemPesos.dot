@@ -1,5 +1,5 @@
 strict graph grafo1 {
-	graph [bb="0,0,895.5,249",
+	graph [bb="0,0,877,249",
 		id=grafo1,
 		overlap=False
 	];
@@ -90,23 +90,24 @@ strict graph grafo1 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Evandro Monteiro [2]",
-		pos="674,238.5",
+		label="Evandro Monteiro [5]",
+		pos="788,238.5",
 		width=1.6667];
-	11	 [URL="membro-9393213180145144.html",
-		color="#0A6EA4",
-		fontcolor="#FFFFFF",
-		height=0.29167,
-		label="José P. Carvalho dos Santos [4]",
-		pos="749,181.5",
-		width=2.3056];
-	9 -- 11	 [pos="688.11,227.78 701.52,217.59 721.57,202.35 734.96,192.17"];
 	10	 [URL="membro-6808752952332925.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
 		label="José Claudinei Ferreira [2]",
-		pos="824,238.5",
+		pos="738,181.5",
 		width=1.9861];
-	10 -- 11	 [pos="809.89,227.78 796.48,217.59 776.43,202.35 763.04,192.17"];
+	9 -- 10	 [pos="778.6,227.78 769.66,217.59 756.29,202.35 747.36,192.17"];
+	11	 [URL="membro-9393213180145144.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="José P. Carvalho dos Santos [6]",
+		pos="794,124.5",
+		width=2.3056];
+	9 -- 11	 [pos="797.67,227.99 805.13,219.14 814.84,205.74 819,192 825.16,171.67 812.11,148.57 802.65,135.35"];
+	10 -- 11	 [pos="748.53,170.78 758.55,160.59 773.52,145.35 783.51,135.17"];
 }

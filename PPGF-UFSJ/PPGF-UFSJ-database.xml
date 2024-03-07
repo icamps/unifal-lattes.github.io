@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="08/01/2024 15:24:11">
+<curriculo_lattes data_processamento="07/03/2024 14:31:45">
   <pesquisador id="0487113229071944">
     <identificacao>
       <identificador10></identificador10>
@@ -75,7 +75,7 @@
           <ano_inicio>2005</ano_inicio>
           <ano_conclusao>2010</ano_conclusao>
           <nome>Quebra decorrespondência e decoerência em sistemas quânticoscom análogo clássico não-linear</nome>
-          <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Adélcio Carlos de Oliveira - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado da Bahia - Auxílio financeiro / Universidade Estadual de Santa Cruz - Auxílio financeiro.</descricao>
+          <descricao>Situação: Concluído; Natureza: Pesquisa. Integrantes: Adélcio Carlos de Oliveira - Coordenador. Financiador(es): Universidade Estadual de Santa Cruz - Auxílio financeiro / Fundação de Amparo à Pesquisa do Estado da Bahia - Auxílio financeiro.</descricao>
         </projeto>
     </projetos_pesquisa>
     <area_atuacao>
@@ -399,6 +399,24 @@
         </artigo>
     </artigos_em_periodicos>
     <trabalho_completo_congresso>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>SANTOS, M. L. G. D. ; Oliveira, Adélcio C.</autores>
+          <titulo>QUANTUM DYNAMICS WITH STOCHASTIC RESET: QUANTUM HARMONIC OSCILLATOR</titulo>
+          <nome_evento>Encontro Nacional de Modelagem Computacional e Encontro de Ciência e Tecnologia dos Materiais</nome_evento>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
+        <trabalho_completo>
+          <doi></doi>
+          <autores>SANTOS, M. L. G. D. ; GONCALVES, R. D. ; Oliveira, Adélcio C.</autores>
+          <titulo>ZENO EFFECT DUE TO STOCHASTIC FLUCTUATION EFFECTS OF THE TEMPORAL EVOLUTION MATRIX IN THE PREDATOR-PREY MODEL</titulo>
+          <nome_evento>XXVI Encontro Nacional de Modelagem Computacional e XIV Encontro de Ciência e Tecnologia dos Materiais</nome_evento>
+          <ano>2023</ano>
+          <volume></volume>
+          <paginas></paginas>
+        </trabalho_completo>
         <trabalho_completo>
           <doi></doi>
           <autores>GIMENEZ, G. G. ; Oliveira, Adélcio C.</autores>
@@ -2430,6 +2448,26 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
+          <doi>http://dx.doi.org/10.1016/j.aop.2024.169606</doi>
+          <titulo>Majorana fermions in a two-band two-dimensional Fermi system</titulo>
+          <autores>H</autores>
+          <revista>ANNALS OF PHYSICS</revista>
+          <volume>ANNALS OF PHYSICS</volume>
+          <paginas>169606</paginas>
+          <numero></numero>
+          <ano>2024</ano>
+        </artigo>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.nuclphysb.2024.116469</doi>
+          <titulo>The Schwinger and chiral Schwinger models in a non-perturbative spectral regularization</titulo>
+          <autores>ELEOTÉRIO, L.F. ; ALMEIDA, G.O. ; DIAS, E.W. ; Caldas, H. ; MOTA, A.L.</autores>
+          <revista>NUCLEAR PHYSICS B</revista>
+          <volume>NUCLEAR PHYSICS B</volume>
+          <paginas>116469</paginas>
+          <numero></numero>
+          <ano>2024</ano>
+        </artigo>
+        <artigo>
           <doi>http://dx.doi.org/10.1088/1361-648X/ad0275</doi>
           <titulo>Non-homogeneous pairing in disordered two-orbital s-wave superconductors</titulo>
           <autores>Caldas, Heron; RUFO, S. ; GRI'TH, M. A. R.</autores>
@@ -3813,14 +3851,14 @@
         <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Edital 001/2018 Universal FAPEMIG - Desordem em transições de fase fora do equilíbrio</nome>
-          <descricao>Descrição: Chamada: 001/2018 - Demanda Universal processo : APQ-01985-18. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Edital MCT/CNPq 28/2018 - Universal - Desordem e simbiose em transições de fase fora do equilíbrio</nome>
+          <descricao>Descrição: Espera-se que, assim como ocorre nos fenômenos críticos em equilíbrio, que as transições de fase contínuas para estados absorventes possam ser classificadas em classes de universalidade, dependendo apenas de algumas propriedades fundamentais do modelo em questão, como propriedades de simetria, dimensionalidade, etc. No entanto, diferentemente do equilíbrio, ainda não existe uma teoria geral para essa classificação.As transições de fase descontínuas para estados absorventes por sua vez ainda carecem de mais estudos. Nossa proposta de pesquisa envolve o estudo de alguns aspectos fundamentais que possamser relevantes no comportamento crítico, e nas transições de fase desses modelos. Esses aspectos incluem: (i) o efeito de diferentes tipos de desordemsobre a transição de fase; (ii) O efeito da simbiose e competição em processos epidêmicos;. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (3) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Sidiney Geraldo Alves - Integrante / Silvio Costa Ferreira Jr. - Integrante / Carlos E. Fiore - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2019</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Edital MCT/CNPq 28/2018 - Universal - Desordem e simbiose em transições de fase fora do equilíbrio</nome>
-          <descricao>Descrição: Espera-se que, assim como ocorre nos fenômenos críticos em equilíbrio, que as transições de fase contínuas para estados absorventes possam ser classificadas em classes de universalidade, dependendo apenas de algumas propriedades fundamentais do modelo em questão, como propriedades de simetria, dimensionalidade, etc. No entanto, diferentemente do equilíbrio, ainda não existe uma teoria geral para essa classificação.As transições de fase descontínuas para estados absorventes por sua vez ainda carecem de mais estudos. Nossa proposta de pesquisa envolve o estudo de alguns aspectos fundamentais que possamser relevantes no comportamento crítico, e nas transições de fase desses modelos. Esses aspectos incluem: (i) o efeito de diferentes tipos de desordemsobre a transição de fase; (ii) O efeito da simbiose e competição em processos epidêmicos;. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (3) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Sidiney Geraldo Alves - Integrante / Silvio Costa Ferreira Jr. - Integrante / Carlos E. Fiore - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</descricao>
+          <nome>Edital 001/2018 Universal FAPEMIG - Desordem em transições de fase fora do equilíbrio</nome>
+          <descricao>Descrição: Chamada: 001/2018 - Demanda Universal processo : APQ-01985-18. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) . Integrantes: Marcelo Martins de Oliveira - Coordenador / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
@@ -4704,6 +4742,14 @@
     </orientacao_doutorado_em_andamento>
     <orientacao_mestrado_em_andamento>
         <dissertacao>
+          <nome_aluno>Rafael Bonato Gonçalves de Carvalho</nome_aluno>
+          <titulo_trabalho>A definir</titulo_trabalho>
+          <ano>2024</ano>
+          <instituicao>Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei</instituicao>
+          <agencia_de_fomento>UFSJ</agencia_de_fomento>
+          <tipo_de_orientacao>Orientador</tipo_de_orientacao>
+        </dissertacao>
+        <dissertacao>
           <nome_aluno>Ederson de Souza</nome_aluno>
           <titulo_trabalho>a definir</titulo_trabalho>
           <ano>2023</ano>
@@ -5196,14 +5242,14 @@
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2013</ano_conclusao>
-          <nome>Investigação de Processos de Agregação e Crescimento de Interfaces</nome>
-          <descricao>Descrição: Neste projeto, investigaremos a dinâmica de formação de aglomerados e a evolução de interfaces em processos cinéticos. Em resumo, as investigações dos fenômenos abordados neste projeto serão feitas através de uma abortagem interdisciplinar utilizando conceitos tradicionais da Mecânica Estatística como universalidade, criticalidade, leis de escala, etc. Além de sua relevância científica -- o entendimento dos mecanismos envolvidos em processos observados em diversas áreas do conhecimento -- estas investigações podem levar a aplicações tecnológicas em setores como medicina, saúde pública, na área de materiais e no setor industrial.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) / Mestrado acadêmico: (2) / Doutorado: (1) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante / Tiago José de Oliveira - Integrante / Márcio Santos Rocha - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Dinâmica de Crescimento de Superfícies e Submonocamadas</nome>
+          <descricao>Descrição: Projeto aprovado junto à FAPEMIG no Programa Primeiros Projeto. O objetivo deste é o estudo de alguns problemas no crescimento de superfícies, tais como: Distribuições de alturas e rugosidades de agregados bi- e tridimensionais, escala dinâmica de alturas extremas em superfícies e distribuições de tamanhos de ilhas e zonas de captura em modelos para o regime de submonocamadas. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Sidiney Geraldo Alves - Integrante / Silvio da Costa Ferreira Junior - Integrante / Tiago José de Oliveira - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2011</ano_inicio>
           <ano_conclusao>2013</ano_conclusao>
-          <nome>Dinâmica de Crescimento de Superfícies e Submonocamadas</nome>
-          <descricao>Descrição: Projeto aprovado junto à FAPEMIG no Programa Primeiros Projeto. O objetivo deste é o estudo de alguns problemas no crescimento de superfícies, tais como: Distribuições de alturas e rugosidades de agregados bi- e tridimensionais, escala dinâmica de alturas extremas em superfícies e distribuições de tamanhos de ilhas e zonas de captura em modelos para o regime de submonocamadas. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Sidiney Geraldo Alves - Integrante / Silvio da Costa Ferreira Junior - Integrante / Tiago José de Oliveira - Coordenador. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Investigação de Processos de Agregação e Crescimento de Interfaces</nome>
+          <descricao>Descrição: Neste projeto, investigaremos a dinâmica de formação de aglomerados e a evolução de interfaces em processos cinéticos. Em resumo, as investigações dos fenômenos abordados neste projeto serão feitas através de uma abortagem interdisciplinar utilizando conceitos tradicionais da Mecânica Estatística como universalidade, criticalidade, leis de escala, etc. Além de sua relevância científica -- o entendimento dos mecanismos envolvidos em processos observados em diversas áreas do conhecimento -- estas investigações podem levar a aplicações tecnológicas em setores como medicina, saúde pública, na área de materiais e no setor industrial.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (4) / Mestrado acadêmico: (2) / Doutorado: (1) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante / Tiago José de Oliveira - Integrante / Márcio Santos Rocha - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
@@ -5215,7 +5261,7 @@
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>2011</ano_conclusao>
           <nome>Simulação computacional de processos cinéticos de agregação</nome>
-          <descricao>Descrição: Na natureza podemos encontrar um número muito grande de processos de crescimento que levam a formação de padrões complexos que, normalmente, apresentam estruturas fractais e, portanto, exibem invariância sob mudanças de escala. Como exemplos, podemos citar a eletrodeposição, o crescimento de filmes finos, o crescimento de células normais e tumorais ou de colônias de bactérias e formação de aglomerados de galáxias, etc. Muitos desses processos ocorrem pela agregação de um ou mais componentes sob diferentes condições que levam a padrões com morfologias variadas. O estudo dos mecanismos subjacentes a esses fenômenos de crescimento, além de possuir uma grande relevância científica -- compreensão dos fenômenos relevantes nos processos de crescimento -- podem levar a inovações tecnológicas com aplicações em componentes microeletrônicos, células combustíveis, redes de nano-fios e outras. Além disso, o entendimento dos fenômenos mais relevantes nesses processos é crucial também para avanços de técnicas experimentais (como por exemplo micro-fabricação eletroquímica). Neste projeto, vamos investigar através de simulação computational os fenômenos de formação de padrão e de transições morfológicas encontrados em eletrodeposição, dinâmica de migração e agregação de células em cultura, agregação de moléculas em gotículas de hélio superfluido, entre outros. É importante mencionar que o ponto comum a estas investigações é o estudo dos mecanismos subjacentes à dinâmica de formação de padrões em sistemas que envolvem processos cinéticos de agregação. Enfim, essas investigações serão feitas por meio de uma abordagem interdisciplinar na qual combinamos métodos da mecânica estatística e da modelagem matemática e computacional.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</descricao>
+          <descricao>Descrição: Na natureza podemos encontrar um número muito grande de processos de crescimento que levam a formação de padrões complexos que, normalmente, apresentam estruturas fractais e, portanto, exibem invariância sob mudanças de escala. Como exemplos, podemos citar a eletrodeposição, o crescimento de filmes finos, o crescimento de células normais e tumorais ou de colônias de bactérias e formação de aglomerados de galáxias, etc. Muitos desses processos ocorrem pela agregação de um ou mais componentes sob diferentes condições que levam a padrões com morfologias variadas. O estudo dos mecanismos subjacentes a esses fenômenos de crescimento, além de possuir uma grande relevância científica -- compreensão dos fenômenos relevantes nos processos de crescimento -- podem levar a inovações tecnológicas com aplicações em componentes microeletrônicos, células combustíveis, redes de nano-fios e outras. Além disso, o entendimento dos fenômenos mais relevantes nesses processos é crucial também para avanços de técnicas experimentais (como por exemplo micro-fabricação eletroquímica). Neste projeto, vamos investigar através de simulação computational os fenômenos de formação de padrão e de transições morfológicas encontrados em eletrodeposição, dinâmica de migração e agregação de células em cultura, agregação de moléculas em gotículas de hélio superfluido, entre outros. É importante mencionar que o ponto comum a estas investigações é o estudo dos mecanismos subjacentes à dinâmica de formação de padrões em sistemas que envolvem processos cinéticos de agregação. Enfim, essas investigações serão feitas por meio de uma abordagem interdisciplinar na qual combinamos métodos da mecânica estatística e da modelagem matemática e computacional.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Sidiney Geraldo Alves - Coordenador / Marcelo Lobato Martins - Integrante / Silvio da Costa Ferreira Junior - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2007</ano_inicio>
@@ -5278,6 +5324,16 @@
         <id_lattes_colaborador>9073167385611319</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1088/1742-5468/ad1d54</doi>
+          <titulo>Radial evolution in a reaction-diffusion model</titulo>
+          <autores>SILVEIRA, SOFIA M ; Alves, Sidiney G</autores>
+          <revista>JOURNAL OF STATISTICAL MECHANICS-THEORY AND EXPERIMENT</revista>
+          <volume>JOURNAL OF STATISTICAL MECHANICS-THEORY AND EXPERIMENT</volume>
+          <paginas>023202</paginas>
+          <numero></numero>
+          <ano>2024</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.1021/acs.cgd.3c00766</doi>
           <titulo>Secondary Nucleation and Unstable Roughening in Fe Layers Electrodeposited on Si</titulo>
@@ -6248,14 +6304,14 @@
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Aplicações de Teoria Quântica de Campos em Matéria Condensada</nome>
-          <descricao>Situação: Em andamento; Natureza: Pesquisa. Integrantes: André Luiz Mota - Integrante / Heron Carlos de Godoy Caldas - Integrante / Lizardo Henrique Cerqueira Moreira Nunes - Coordenador / Ricardo Farias - Integrante.</descricao>
+          <nome>Modelos Efetivos de Teoria de Campos para Sistemas da Matéria Condensada</nome>
+          <descricao>Situação: Em andamento; Natureza: Pesquisa. Integrantes: André Luiz Mota - Integrante / Caldas, Heron - Coordenador / Lizardo Henrique Cerqueira Moreira Nunes - Integrante / Ricardo Farias - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2009</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Modelos Efetivos de Teoria de Campos para Sistemas da Matéria Condensada</nome>
-          <descricao>Situação: Em andamento; Natureza: Pesquisa. Integrantes: André Luiz Mota - Integrante / Caldas, Heron - Coordenador / Lizardo Henrique Cerqueira Moreira Nunes - Integrante / Ricardo Farias - Integrante.</descricao>
+          <nome>Aplicações de Teoria Quântica de Campos em Matéria Condensada</nome>
+          <descricao>Situação: Em andamento; Natureza: Pesquisa. Integrantes: André Luiz Mota - Integrante / Heron Carlos de Godoy Caldas - Integrante / Lizardo Henrique Cerqueira Moreira Nunes - Coordenador / Ricardo Farias - Integrante.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2007</ano_inicio>
@@ -6313,7 +6369,7 @@
     </premios_titulos>
     <colaboradores>
         <id_lattes_colaborador>3010882026747644</id_lattes_colaborador>
-        <id_lattes_colaborador>9320579515635433</id_lattes_colaborador>
+        <id_lattes_colaborador>6950878421414731</id_lattes_colaborador>
         <id_lattes_colaborador>2629288574518166</id_lattes_colaborador>
         <id_lattes_colaborador>0259864383936387</id_lattes_colaborador>
         <id_lattes_colaborador>4801448860704123</id_lattes_colaborador>
@@ -6325,6 +6381,7 @@
         <id_lattes_colaborador>3852336945545624</id_lattes_colaborador>
         <id_lattes_colaborador>5045106337913025</id_lattes_colaborador>
         <id_lattes_colaborador>9125203013352543</id_lattes_colaborador>
+        <id_lattes_colaborador>6502894549362355</id_lattes_colaborador>
         <id_lattes_colaborador>2604084987168049</id_lattes_colaborador>
         <id_lattes_colaborador>0824886862509279</id_lattes_colaborador>
         <id_lattes_colaborador>1563166503956631</id_lattes_colaborador>
@@ -6338,7 +6395,7 @@
         <id_lattes_colaborador>6341248082936350</id_lattes_colaborador>
         <id_lattes_colaborador>1345951126343014</id_lattes_colaborador>
         <id_lattes_colaborador>9811352883792475</id_lattes_colaborador>
-        <id_lattes_colaborador>6950878421414731</id_lattes_colaborador>
+        <id_lattes_colaborador>9320579515635433</id_lattes_colaborador>
         <id_lattes_colaborador>1765134242325847</id_lattes_colaborador>
         <id_lattes_colaborador>3376868479470271</id_lattes_colaborador>
         <id_lattes_colaborador>3189016459956475</id_lattes_colaborador>
@@ -6347,6 +6404,16 @@
         <id_lattes_colaborador>9957455292822908</id_lattes_colaborador>
     </colaboradores>
     <artigos_em_periodicos>
+        <artigo>
+          <doi>http://dx.doi.org/10.1016/j.nuclphysb.2024.116469</doi>
+          <titulo>The Schwinger and chiral Schwinger models in a non-perturbative spectral regularization</titulo>
+          <autores>ELEOTÉRIO, L.F. ; ALMEIDA, G.O. ; DIAS, E.W. ; CALDAS, H. ; MOTA, A.L.</autores>
+          <revista>NUCLEAR PHYSICS B</revista>
+          <volume>NUCLEAR PHYSICS B</volume>
+          <paginas>116469</paginas>
+          <numero></numero>
+          <ano>2024</ano>
+        </artigo>
         <artigo>
           <doi>http://dx.doi.org/10.1088/1361-6404/ac059a</doi>
           <titulo>Derivation of the Boltzmann entropy equation in a toy model</titulo>
@@ -7758,14 +7825,14 @@
         <projeto>
           <ano_inicio>2017</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Difusão anômola aplicada à engenharia e bioengenharia</nome>
-          <descricao>Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Leticia Ribeiro de Paiva - Coordenador / Adélcio Carlos de Oliveira - Integrante / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Adélcio Carlos de Oliveira - Coordenador / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / José Eloy Ottoni - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Letícia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Integrante / Dane Tadeu Cestarolli - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
+          <nome>Modelos baseados em agentes para investigação de sistemas complexos</nome>
+          <descricao>Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Leticia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Coordenador / Marcelo Martins de Oliveira - Integrante / Dori Edson Navi - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante / Marcelo Martins de Oliveira - Integrante / DORI EDSON NAVI - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Integrante / Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2017</ano_inicio>
           <ano_conclusao>Atual</ano_conclusao>
-          <nome>Modelos baseados em agentes para investigação de sistemas complexos</nome>
-          <descricao>Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Leticia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Coordenador / Marcelo Martins de Oliveira - Integrante / Dori Edson Navi - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Em particular, chamamos atenção às proposta para investigação do Zika virus. Esse modelo será baseado no modelo de processo de contato que possui transição para o estado absorvente, um tema de grande interesse na física estatística. Na segunda investigação, iremos propor um modelo descrever a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros. Nesta investigação os resultados do modelo serão confrontados com dados de campo o que levar a avanços nos métodos de manejo da praga.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante / Marcelo Martins de Oliveira - Integrante / DORI EDSON NAVI - Integrante / Emily Silva Araujo - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: Devido ao sucesso no tratamento de problemas e ao método de abordagem muito geral, nos anos recentes a aplicação da mecânica estatística tem abrangido cada vez mais campos interdisciplinares envolvendo as mais distintas áreas do conhecimento. Entre várias podemos citar a biologia, medicina, química, teoria da informação, ciências sociais. Na busca de uma melhor compreensão dos fenômenos observados em tais campos os físicos têm lançado mão de uma poderosa ferramenta: os modelos baseados em agentes. Tais modelos são modelos matemáticos construídos para descrever sistemas espacialmente estendidos e compostos por um grande número de componentes simples e idênticos, chamados sítios ou células, que interagem entre si via acoplamentos locais (definindo, nesse caso, uma estrutura de rede) ou de longo alcance (caso no qual a rede perde o sentido e é substituída por um grafo caracterizado pelo número de conexões de cada sítio). A cada sítio ou célula é associada um agente que age de acordo com regras construídas para reproduzir o fenômeno de interesse. Neste projeto, estamos interessados em investigar a dois importantes problemas: a dinâmica de disseminação do Zika virus e a dinâmica populacional da mosca-das-frutas em plantações de pessegueiros.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Marcelo Martins de Oliveira - Integrante / Sidiney Geraldo Alves - Coordenador / Leticia Ribeiro de Paiva - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</descricao>
+          <nome>Difusão anômola aplicada à engenharia e bioengenharia</nome>
+          <descricao>Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Leticia Ribeiro de Paiva - Coordenador / Adélcio Carlos de Oliveira - Integrante / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Sidiney Geraldo Alves - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.Descrição: A difusão anômala e um assunto de crescente interesse com resultados experimentais recentes em varias areas, tais como estudo de sistemas caoticos, sistemas biológicos e ate mesmo na dinâmica econômica. Como observado por Paiva e colaboradores [1, 2] sistemas biologicos podem apresentar difusão anômola, ate mesmo em escalas macroscopicas. A intenção desse projeto e de identicar e estudar processos de separação por membrana em sistemas biologicos de interesse biotecnológico e portanto sujeitos a difusão anômola. Na dinâmica molecular, o transporte de energia e feito por difusão, sendo passiva ou não. A membrana plasmatica e responsavel pelo controle do que deve ou não entrar na celula, esse controle pode ser feito por difusão e por campo (com gasto energetico), assim o cenario para o estudo da difus~ao consiste no transporte de matéria atraves de uma superfcie. Entender como se da esse processo e relevante para o avançoo cientco, bem como tecnologico. Oliveira e coaboradores [4] mostraram que a abordagem da não eletroneutralidade reproduz melhor o comportamento da curva de polarização de uma membrana de transporte iônica, comparando com o modelo PS [3], o que é evidenciaodoo nas observações numéricas. Tambem mostraram que uma generalização do modelo PS pode ser facilmente obtida, no caso de densidade de carga constante (no tempo) no interior da membrana, mas no estado estacionario, a densidade de carga depende da corrente atraves da membrana. [1] MIRAMONTES, O. e DESOUZA, O. e PAIVA, L. R. e MARINS, A. e OROZCO, S. ,Plos One, v. 9, p. e111183, (2014). [2] PAIVA, L.R ; SILVA, H. S. ; FERREIRA, S. C. ; MARTINS, M. L. [3] Sistat, P. and Pourcelly, G., 1999. Jour. Elec Chem., 460, 53. [4] Oliveira, A. C. , Amado, F. D. R., Moura, R. C. A. ,THEORETICAL ANALYSIS OF IONIC TRANSPORT THROUGH HOMOPOLAR ION-EXCHANGE MEMBRANES, IV Encontro Ciencia e Tecnologia de Materiais (2013 ). Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (2) . Integrantes: Adélcio Carlos de Oliveira - Coordenador / Mauricio Reis - Integrante / Humberto Cesar Fernandes Lemos - Integrante / Ricardo de Carvalho Falcão - Integrante / Alexandre Celestino Leite Almeida - Integrante / Daniela Leite Fabrino - Integrante / José Eloy Ottoni - Integrante / Luiz Gustavo Martins da Silva - Integrante / Amanda Gonçalves Saraiva Ottoni - Integrante / Letícia Ribeiro de Paiva - Integrante / Sidiney Geraldo Alves - Integrante / Dane Tadeu Cestarolli - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 5</descricao>
         </projeto>
         <projeto>
           <ano_inicio>2015</ano_inicio>

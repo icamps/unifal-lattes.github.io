@@ -1,20 +1,20 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,1031795555698099,Adhimar Flavio Oliveira,[Sem rotulo],,,1.4859266,102,58,0,0,10,3,31,0,2,8,11,'10,110,164'
-1,8154959660506192,Alan Bendasoli Pavan,[Sem rotulo],,,0.15,22,18,0,0,4,0,0,3,0,3,10,'10,110,164'
+0,1031795555698099,Adhimar Flavio Oliveira,[Sem rotulo],,,1.4699777,104,60,0,0,10,3,31,0,2,10,11,'10,110,164'
+1,8154959660506192,Alan Bendasoli Pavan,[Sem rotulo],,,0.15,25,20,0,0,4,0,1,3,0,4,10,'10,110,164'
 2,7982796939759440,Alberto Rodriguez Ardila,[Sem rotulo],,,1.0,109,80,0,2,17,1,9,3,4,8,1,'10,110,164'
 3,3842382209626823,Alexis Roa Aguirre,[Sem rotulo],,,0.15,27,20,0,3,4,0,0,1,0,3,2,'10,110,164'
-4,8697679642900908,Danilo Roque Huanca,[Sem rotulo],,,0.7044064,61,35,1,1,15,4,5,0,0,4,14,'10,110,164'
-5,7966592529955054,Edisom de Souza Moreira Junior,[Sem rotulo],,,1.2814591,36,28,0,0,7,0,1,0,0,5,3,'10,110,164'
+4,8697679642900908,Danilo Roque Huanca,[Sem rotulo],,,0.6984764,61,35,1,1,15,4,5,0,0,4,14,'10,110,164'
+5,7966592529955054,Edisom de Souza Moreira Junior,[Sem rotulo],,,1.2814591,36,28,0,0,7,0,1,0,0,6,3,'10,110,164'
 6,9213789315416977,Eduardo Henrique Silva Bittencourt,[Sem rotulo],,,0.5983806,43,36,0,1,1,1,4,0,0,2,7,'10,110,164'
 7,2436691587435689,Fabricio Augusto Barone Rangel,[Sem rotulo],,,0.15,55,43,0,0,2,0,10,0,0,11,16,'10,110,164'
-8,2145668168587564,Hektor Sthenos Alves Monteiro,[Sem rotulo],,,0.677858,90,52,0,1,1,13,23,0,1,8,15,'10,110,164'
+8,2145668168587564,Hektor Sthenos Alves Monteiro,[Sem rotulo],,,0.6678618,90,52,0,1,1,13,23,0,1,8,15,'10,110,164'
 9,4666057965864411,Leandro Gustavo Gomes,[Sem rotulo],,,0.59729517,12,12,0,0,0,0,0,0,0,7,3,'10,110,164'
 10,6549869827105994,Luciano Fraga,[Sem rotulo],,,1.0,69,44,0,0,3,1,21,0,0,0,0,'10,110,164'
-11,0335350966509134,Marcelos Lima Peres,[Sem rotulo],,,1.2269753,36,30,0,0,0,0,6,0,5,13,4,'10,110,164'
+11,0335350966509134,Marcelos Lima Peres,[Sem rotulo],,,1.2479111,37,31,0,0,0,0,6,0,5,13,4,'10,110,164'
 12,0422047938601624,Oscar Cavichia de Moraes,[Sem rotulo],,,0.15,34,17,0,0,0,17,0,0,0,3,5,'10,110,164'
-13,9126744461400749,Suelen de Castro,[Sem rotulo],,,1.2269753,27,25,0,0,0,0,2,0,1,1,0,'10,110,164'
+13,9126744461400749,Suelen de Castro,[Sem rotulo],,,1.2479111,28,26,0,0,0,0,2,0,1,1,0,'10,110,164'
 14,1361400129993392,Vitorio Alberto De Lorenci,[Sem rotulo],,,1.5228649,98,71,1,1,12,0,13,0,2,10,19,'10,110,164'
-15,5158730912554506,Carla Patricia Lacerda Rubinger,[Sem rotulo],,,0.677858,71,36,0,0,5,0,30,0,0,3,6,'10,110,164'
+15,5158730912554506,Carla Patricia Lacerda Rubinger,[Sem rotulo],,,0.6678618,71,36,0,0,5,0,30,0,0,3,6,'10,110,164'
 16,6458988217441388,Roberto Shigueru Nobuyasu Junior,[Sem rotulo],,,0.15,16,16,0,0,0,0,0,0,0,0,0,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
 0,4,7.0
@@ -29,6 +29,6 @@ edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
 8,13,2.0
 8,15,1.0
 9,14,3.0
-11,13,15.0
+11,13,16.0
 11,15,1.0
 13,15,1.0
