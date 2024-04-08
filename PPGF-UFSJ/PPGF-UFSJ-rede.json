@@ -1,15 +1,21 @@
 {
 "nodes":[
-{ "name":"Adelcio Carlos de Oliveira", "idlattes":"0487113229071944", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Adelcio Carlos de Oliveira", "idlattes":"0487113229071944", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Erico Goulart de Oliveira Costa", "idlattes":"4937965723746020", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Heron Carlos de Godoy Caldas", "idlattes":"1373657423991547", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Humberto Cesar Fernandes Lemos", "idlattes":"8374281747074655", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Marcelo Martins de Oliveira", "idlattes":"2091568617999217", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Sidiney Geraldo Alves", "idlattes":"4536440727635518", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Andre Luiz Mota", "idlattes":"8453016139576761", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Leticia Ribeiro de Paiva", "idlattes":"9428416479663144", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Lizardo Henrique Cerqueira Moreira Nunes", "idlattes":"9320579515635433", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 }
+{ "name":"Heron Carlos de Godoy Caldas", "idlattes":"1373657423991547", "rotulo":"[Sem rotulo]", "collaborationrank":1.17682719231 },
+{ "name":"Humberto Cesar Fernandes Lemos", "idlattes":"8374281747074655", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
+{ "name":"Marcelo Martins de Oliveira", "idlattes":"2091568617999217", "rotulo":"[Sem rotulo]", "collaborationrank":0.849082767963 },
+{ "name":"Sidiney Geraldo Alves", "idlattes":"4536440727635518", "rotulo":"[Sem rotulo]", "collaborationrank":1.44165098667 },
+{ "name":"Andre Luiz Mota", "idlattes":"8453016139576761", "rotulo":"[Sem rotulo]", "collaborationrank":1.36403715611 },
+{ "name":"Leticia Ribeiro de Paiva", "idlattes":"9428416479663144", "rotulo":"[Sem rotulo]", "collaborationrank":0.709266245365 },
+{ "name":"Lizardo Henrique Cerqueira Moreira Nunes", "idlattes":"9320579515635433", "rotulo":"[Sem rotulo]", "collaborationrank":0.459135621786 }
 ],
 "links":[
+{ "source":0, "target":3, "value":2.0 },
+{ "source":2, "target":6, "value":12.0 },
+{ "source":2, "target":8, "value":1.0 },
+{ "source":4, "target":5, "value":5.0 },
+{ "source":5, "target":7, "value":4.0 },
+{ "source":6, "target":8, "value":3.0 }
 ]
 }

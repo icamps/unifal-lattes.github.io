@@ -1,17 +1,38 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,2926571414651131,Adriano Aguiar Mendes,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-1,1409264122407992,Andre Aguiar Mendes,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-2,5292381247624407,Daniela Battaglia Hirata,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-3,2363460036599181,Eduardo Gomes Salgado,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-4,0524540000904823,Ernandes Benedito Pereira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-5,3433047807065363,Jaine Honorata Hortolan Luiz,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-6,3798416800583466,Joelise de Alencar Figueira Angelotti,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-7,0436922594542722,Jose Mauricio Schneedorf Ferreira da Silva,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-8,6853382226977684,Nelson Jose Freitas da Silveira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-9,0595142298134685,Plinio Rodrigues dos Santos Filho,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-10,4043789557049115,Rodrigo Correa Basso,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-11,2834667104138232,Thiago Correa de Souza,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-12,6244428434217018,Alberto Colli Badino Junior,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-13,0963588859777460,Maisa Ribeiro Pereira Lima Brigagao,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-14,8233720168272812,Ana Karine Furtado de Carvalho,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
+0,2926571414651131,Adriano Aguiar Mendes,[Sem rotulo],,,2.2329912,244,81,0,8,94,7,54,0,2,15,29,'10,110,164'
+1,1409264122407992,Andre Aguiar Mendes,[Sem rotulo],,,0.15,141,36,0,6,54,10,35,0,0,2,16,'10,110,164'
+2,5292381247624407,Daniela Battaglia Hirata,[Sem rotulo],,,2.698862,96,27,0,4,36,1,28,0,0,9,21,'10,110,164'
+3,2363460036599181,Eduardo Gomes Salgado,[Sem rotulo],,,0.15,116,59,2,6,44,4,1,1,1,14,2,'10,110,164'
+4,0524540000904823,Ernandes Benedito Pereira,[Sem rotulo],,,1.2674912,128,39,0,1,33,11,44,0,0,6,25,'10,110,164'
+5,3433047807065363,Jaine Honorata Hortolan Luiz,[Sem rotulo],,,0.993318,79,32,0,3,8,1,35,0,3,3,17,'10,110,164'
+6,3798416800583466,Joelise de Alencar Figueira Angelotti,[Sem rotulo],,,0.21286483,31,9,0,2,7,0,13,0,0,1,4,'10,110,164'
+7,0436922594542722,Jose Mauricio Schneedorf Ferreira da Silva,[Sem rotulo],,,1.2677995,131,48,2,3,1,6,71,0,2,13,35,'10,110,164'
+8,6853382226977684,Nelson Jose Freitas da Silveira,[Sem rotulo],,,0.24935049,58,36,0,2,1,1,18,1,4,11,11,'10,110,164'
+9,0595142298134685,Plinio Rodrigues dos Santos Filho,[Sem rotulo],,,1.0,73,17,0,0,0,5,51,0,0,12,8,'10,110,164'
+10,4043789557049115,Rodrigo Correa Basso,[Sem rotulo],,,0.24885379,54,31,0,3,19,0,1,0,0,5,11,'10,110,164'
+11,2834667104138232,Thiago Correa de Souza,[Sem rotulo],,,1.0,160,48,1,10,0,29,72,0,1,20,26,'10,110,164'
+12,6244428434217018,Alberto Colli Badino Junior,[Sem rotulo],,,0.43503612,320,106,2,9,164,7,32,6,23,26,22,'10,110,164'
+13,0963588859777460,Maisa Ribeiro Pereira Lima Brigagao,[Sem rotulo],,,1.0441543,132,35,0,2,0,1,94,0,2,10,28,'10,110,164'
+14,8233720168272812,Ana Karine Furtado de Carvalho,[Sem rotulo],,,0.3492783,142,40,0,2,41,24,35,0,0,0,1,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,2,35.0
+0,4,22.0
+0,5,7.0
+0,7,1.0
+0,10,3.0
+0,12,1.0
+0,14,6.0
+2,4,18.0
+2,5,21.0
+2,6,2.0
+2,10,3.0
+2,12,7.0
+2,14,2.0
+4,10,1.0
+4,14,1.0
+5,12,2.0
+5,14,1.0
+7,8,1.0
+7,13,9.0
+9,11,14.0
+10,14,1.0

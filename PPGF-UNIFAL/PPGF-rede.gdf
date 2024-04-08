@@ -1,10 +1,12 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,8478305453281130,Anibal Thiago Bezerra,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-1,4002033080997386,Cassius Anderson Miquele de Melo,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-2,2425549033248106,Fernando Goncalves Gardim,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-3,4023778019418442,Gustavo do Amaral Valdiviesso,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-4,3732563704810366,Ihosvany Camps Rodriguez,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-5,1312049227898761,Marcelo Goncalves Vivas,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-6,8073303573679522,Rodrigo Rocha Cuzinatto,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-7,9972552337847809,Mariama Rebello de Sousa Dias,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
+0,8478305453281130,Anibal Thiago Bezerra,[Sem rotulo],,,1.0,28,15,1,0,0,0,12,0,0,5,6,'10,110,164'
+1,4002033080997386,Cassius Anderson Miquele de Melo,[Sem rotulo],,,1.0,37,22,2,0,10,0,3,0,1,14,21,'10,110,164'
+2,2425549033248106,Fernando Goncalves Gardim,[Sem rotulo],,,0.15,31,30,0,0,0,0,1,3,0,2,13,'10,110,164'
+3,4023778019418442,Gustavo do Amaral Valdiviesso,[Sem rotulo],,,1.0,49,41,0,2,2,3,1,0,1,6,15,'10,110,164'
+4,3732563704810366,Ihosvany Camps Rodriguez,[Sem rotulo],,,0.15,104,64,1,3,6,4,26,0,0,12,28,'10,110,164'
+5,1312049227898761,Marcelo Goncalves Vivas,[Sem rotulo],,,0.15,133,49,0,2,1,22,59,2,0,11,11,'10,110,164'
+6,8073303573679522,Rodrigo Rocha Cuzinatto,[Sem rotulo],,,1.0,51,41,0,0,1,2,7,0,1,4,9,'10,110,164'
+7,9972552337847809,Mariama Rebello de Sousa Dias,[Sem rotulo],,,0.15,10,8,0,0,1,0,1,0,0,0,0,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,3,4.0
+1,6,8.0

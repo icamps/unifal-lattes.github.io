@@ -1,19 +1,27 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,0487113229071944,Adelcio Carlos de Oliveira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-1,8478305453281130,Anibal Thiago Bezerra,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-2,4002033080997386,Cassius Anderson Miquele de Melo,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-3,4937965723746020,Erico Goulart de Oliveira Costa,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-4,2425549033248106,Fernando Goncalves Gardim,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-5,4023778019418442,Gustavo do Amaral Valdiviesso,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-6,1373657423991547,Heron Carlos de Godoy Caldas,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-7,8374281747074655,Humberto Cesar Fernandes Lemos,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-8,3732563704810366,Ihosvany Camps Rodriguez,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-9,1312049227898761,Marcelo Goncalves Vivas,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-10,2091568617999217,Marcelo Martins de Oliveira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-11,8073303573679522,Rodrigo Rocha Cuzinatto,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-12,4536440727635518,Sidiney Geraldo Alves,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-13,8453016139576761,Andre Luiz Mota,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-14,9428416479663144,Leticia Ribeiro de Paiva,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-15,9320579515635433,Lizardo Henrique Cerqueira Moreira Nunes,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-16,9972552337847809,Mariama Rebello de Sousa Dias,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
+0,0487113229071944,Adelcio Carlos de Oliveira,[Sem rotulo],,,1.0,69,29,0,0,25,1,14,0,1,8,44,'10,110,164'
+1,8478305453281130,Anibal Thiago Bezerra,[Sem rotulo],,,1.0,28,15,1,0,0,0,12,0,0,5,6,'10,110,164'
+2,4002033080997386,Cassius Anderson Miquele de Melo,[Sem rotulo],,,1.0,37,22,2,0,10,0,3,0,1,14,21,'10,110,164'
+3,4937965723746020,Erico Goulart de Oliveira Costa,[Sem rotulo],,,0.15,34,29,1,0,4,0,0,0,0,2,3,'10,110,164'
+4,2425549033248106,Fernando Goncalves Gardim,[Sem rotulo],,,0.15,31,30,0,0,0,0,1,3,0,2,13,'10,110,164'
+5,4023778019418442,Gustavo do Amaral Valdiviesso,[Sem rotulo],,,1.0,49,41,0,2,2,3,1,0,1,6,15,'10,110,164'
+6,1373657423991547,Heron Carlos de Godoy Caldas,[Sem rotulo],,,1.1768272,59,45,0,1,3,1,9,1,0,7,10,'10,110,164'
+7,8374281747074655,Humberto Cesar Fernandes Lemos,[Sem rotulo],,,1.0,20,15,0,0,1,1,3,0,0,7,10,'10,110,164'
+8,3732563704810366,Ihosvany Camps Rodriguez,[Sem rotulo],,,0.15,104,64,1,3,6,4,26,0,0,12,28,'10,110,164'
+9,1312049227898761,Marcelo Goncalves Vivas,[Sem rotulo],,,0.15,133,49,0,2,1,22,59,2,0,11,11,'10,110,164'
+10,2091568617999217,Marcelo Martins de Oliveira,[Sem rotulo],,,0.84908277,72,34,0,1,3,0,34,0,0,4,16,'10,110,164'
+11,8073303573679522,Rodrigo Rocha Cuzinatto,[Sem rotulo],,,1.0,51,41,0,0,1,2,7,0,1,4,9,'10,110,164'
+12,4536440727635518,Sidiney Geraldo Alves,[Sem rotulo],,,1.441651,60,44,0,0,1,0,15,1,1,1,20,'10,110,164'
+13,8453016139576761,Andre Luiz Mota,[Sem rotulo],,,1.3640372,83,28,0,0,3,0,52,0,5,15,29,'10,110,164'
+14,9428416479663144,Leticia Ribeiro de Paiva,[Sem rotulo],,,0.70926625,28,12,0,2,0,2,12,0,0,3,16,'10,110,164'
+15,9320579515635433,Lizardo Henrique Cerqueira Moreira Nunes,[Sem rotulo],,,0.45913562,31,19,1,1,4,0,6,0,0,4,7,'10,110,164'
+16,9972552337847809,Mariama Rebello de Sousa Dias,[Sem rotulo],,,0.15,10,8,0,0,1,0,1,0,0,0,0,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,7,2.0
+1,5,4.0
+2,11,8.0
+6,13,12.0
+6,15,1.0
+10,12,5.0
+12,14,4.0
+13,15,3.0

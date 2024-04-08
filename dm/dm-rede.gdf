@@ -1,15 +1,21 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,1349156075777095,Anderson Jose de Oliveira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-1,6016565950437007,Andrea Cardoso,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-2,5106302431642025,Angela Leite Moreno,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-3,0061488493893247,Catia Regina de Oliveira Quilles Queiroz,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-4,3089568911577519,Evandro Monteiro,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-5,0165435409542220,Franco Bassi Rocha,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-6,5817829882396943,Guilherme Henrique Gomes da Silva,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-7,1690570104837528,Jose Carlos de Souza Junior,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-8,6808752952332925,Jose Claudinei Ferreira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-9,9393213180145144,Jose Paulo Carvalho dos Santos,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-10,4139948635593421,Luciana Borges Goecking,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-11,6715092420026095,Marcelo Moreira da Silva,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-12,1798884495942862,Rejane Siqueira Julio,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
+0,1349156075777095,Anderson Jose de Oliveira,[Sem rotulo],,,1.0,39,10,0,0,5,3,21,0,0,2,6,'10,110,164'
+1,6016565950437007,Andrea Cardoso,[Sem rotulo],,,1.0,33,14,1,9,6,2,1,0,0,0,8,'10,110,164'
+2,5106302431642025,Angela Leite Moreno,[Sem rotulo],,,0.15,57,7,1,1,4,0,44,0,0,1,5,'10,110,164'
+3,0061488493893247,Catia Regina de Oliveira Quilles Queiroz,[Sem rotulo],,,0.15,22,7,1,2,4,0,8,0,1,0,12,'10,110,164'
+4,3089568911577519,Evandro Monteiro,[Sem rotulo],,,0.5759452,16,4,0,0,1,0,11,0,0,5,2,'10,110,164'
+5,0165435409542220,Franco Bassi Rocha,[Sem rotulo],,,0.15,3,3,0,0,0,0,0,0,0,0,0,'10,110,164'
+6,5817829882396943,Guilherme Henrique Gomes da Silva,[Sem rotulo],,,1.0683945,88,31,2,7,34,0,14,0,0,5,7,'10,110,164'
+7,1690570104837528,Jose Carlos de Souza Junior,[Sem rotulo],,,1.0,25,11,1,7,5,0,1,0,0,0,7,'10,110,164'
+8,6808752952332925,Jose Claudinei Ferreira,[Sem rotulo],,,0.91400933,47,19,0,1,4,6,17,0,0,4,13,'10,110,164'
+9,9393213180145144,Jose Paulo Carvalho dos Santos,[Sem rotulo],,,0.74534625,35,28,0,0,1,2,4,0,0,3,8,'10,110,164'
+10,4139948635593421,Luciana Borges Goecking,[Sem rotulo],,,1.0,3,2,0,0,0,1,0,0,0,0,1,'10,110,164'
+11,6715092420026095,Marcelo Moreira da Silva,[Sem rotulo],,,0.15,5,0,1,1,0,0,3,0,0,0,3,'10,110,164'
+12,1798884495942862,Rejane Siqueira Julio,[Sem rotulo],,,1.6963049,53,23,0,8,15,0,7,0,0,2,3,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,10,1.0
+1,7,17.0
+4,9,2.0
+6,12,10.0
+8,9,1.0
+8,12,6.0

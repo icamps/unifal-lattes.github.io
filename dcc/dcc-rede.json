@@ -1,18 +1,25 @@
 {
 "nodes":[
-{ "name":"Eduardo Gomes Salgado", "idlattes":"2363460036599181", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Eduardo Gomes Salgado", "idlattes":"2363460036599181", "rotulo":"[Sem rotulo]", "collaborationrank":0.981643199921 },
 { "name":"Eliseu Cesar Miguel", "idlattes":"6883421018811339", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
 { "name":"Flavio Barbieri Gonzaga", "idlattes":"1310310705488241", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Humberto Cesar Brandao de Oliveira", "idlattes":"3832045632369639", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Humberto Cesar Brandao de Oliveira", "idlattes":"3832045632369639", "rotulo":"[Sem rotulo]", "collaborationrank":1.95637178421 },
 { "name":"Iago Augusto de Carvalho", "idlattes":"9975041225831602", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Luiz Eduardo da Silva", "idlattes":"5459510407019521", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Marcelo Lacerda Rezende", "idlattes":"6453091384982419", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Mariane Moreira de Souza", "idlattes":"9682825029495702", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Luiz Eduardo da Silva", "idlattes":"5459510407019521", "rotulo":"[Sem rotulo]", "collaborationrank":0.908282995224 },
+{ "name":"Marcelo Lacerda Rezende", "idlattes":"6453091384982419", "rotulo":"[Sem rotulo]", "collaborationrank":0.827803611755 },
+{ "name":"Mariane Moreira de Souza", "idlattes":"9682825029495702", "rotulo":"[Sem rotulo]", "collaborationrank":0.773082494736 },
 { "name":"Nelson Jose Freitas da Silveira", "idlattes":"6853382226977684", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
 { "name":"Paulo Alexandre Bressan", "idlattes":"0231239253253477", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Ricardo Menezes Salgado", "idlattes":"8918198224706238", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Rodrigo Martins Pagliares", "idlattes":"1194178136211401", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 }
+{ "name":"Ricardo Menezes Salgado", "idlattes":"8918198224706238", "rotulo":"[Sem rotulo]", "collaborationrank":1.12367594242 },
+{ "name":"Rodrigo Martins Pagliares", "idlattes":"1194178136211401", "rotulo":"[Sem rotulo]", "collaborationrank":0.429139912128 }
 ],
 "links":[
+{ "source":0, "target":6, "value":2.0 },
+{ "source":0, "target":11, "value":1.0 },
+{ "source":3, "target":5, "value":7.0 },
+{ "source":3, "target":7, "value":6.0 },
+{ "source":3, "target":10, "value":7.0 },
+{ "source":5, "target":10, "value":4.0 },
+{ "source":6, "target":10, "value":1.0 }
 ]
 }

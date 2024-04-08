@@ -1,14 +1,30 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,3858924778362309,Denismar Alves Nogueira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-1,8194104388434526,Luiz Alberto Beijo,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-2,0326922176762825,Davi Butturi Gomes,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-3,9965398009651936,Eric Batista Ferreira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-4,6886514520601172,Fabricio Goecking Avelar,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-5,9510541669291293,Juliana Petrini,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-6,7184150832649950,Patricia de Siqueira Ramos,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-7,3374954104030940,Natalia da Silva Martins Fonseca,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-8,1349156075777095,Anderson Jose de Oliveira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-9,3089568911577519,Evandro Monteiro,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-10,6808752952332925,Jose Claudinei Ferreira,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-11,9393213180145144,Jose Paulo Carvalho dos Santos,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
+0,3858924778362309,Denismar Alves Nogueira,[Sem rotulo],,,1.7472984,422,162,3,0,9,66,182,2,0,14,14,'10,110,164'
+1,8194104388434526,Luiz Alberto Beijo,[Sem rotulo],,,2.2225924,271,89,0,2,1,58,121,1,1,24,32,'10,110,164'
+2,0326922176762825,Davi Butturi Gomes,[Sem rotulo],,,0.363612,47,18,0,0,0,6,23,0,0,5,1,'10,110,164'
+3,9965398009651936,Eric Batista Ferreira,[Sem rotulo],,,1.8398533,334,165,4,5,7,54,99,4,8,39,37,'10,110,164'
+4,6886514520601172,Fabricio Goecking Avelar,[Sem rotulo],,,1.5480427,38,12,0,0,1,5,20,0,0,8,15,'10,110,164'
+5,9510541669291293,Juliana Petrini,[Sem rotulo],,,0.26106617,79,23,0,0,1,28,27,0,0,1,2,'10,110,164'
+6,7184150832649950,Patricia de Siqueira Ramos,[Sem rotulo],,,0.4361341,78,31,0,1,2,30,14,0,0,6,11,'10,110,164'
+7,3374954104030940,Natalia da Silva Martins Fonseca,[Sem rotulo],,,0.32545912,37,14,0,0,0,6,17,0,0,2,5,'10,110,164'
+8,1349156075777095,Anderson Jose de Oliveira,[Sem rotulo],,,0.255942,39,10,0,0,5,3,21,0,0,2,6,'10,110,164'
+9,3089568911577519,Evandro Monteiro,[Sem rotulo],,,0.98889935,16,4,0,0,1,0,11,0,0,5,2,'10,110,164'
+10,6808752952332925,Jose Claudinei Ferreira,[Sem rotulo],,,0.56944966,47,19,0,1,4,6,17,0,0,4,13,'10,110,164'
+11,9393213180145144,Jose Paulo Carvalho dos Santos,[Sem rotulo],,,1.441651,35,28,0,0,1,2,4,0,0,3,8,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,1,9.0
+0,2,1.0
+0,3,19.0
+1,2,3.0
+1,4,24.0
+1,5,1.0
+1,8,2.0
+2,3,1.0
+2,4,2.0
+3,5,1.0
+3,6,4.0
+3,7,3.0
+4,5,1.0
+4,6,1.0
+9,11,2.0
+10,11,1.0
