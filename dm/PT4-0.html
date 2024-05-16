@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Matemática</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Matemática</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Matemática</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Matemática</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Trabalhos técnicos'}, 
-series: [{data: [[2013,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2013,
 2],
 [2014,
 3],
@@ -122,98 +149,95 @@ series: [{data: [[2013,
 [2021,
 4],
 [2022,
-1]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+6],
+[2023,
+6]]}]});
         });
         </script>
         
                 <h3>Trabalhos técnicos</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 27<br>
+                    Número total de itens: 38<br>
                     
                     
-                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Brasileira de Educação</b>. 2022.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+Revista+Brasileira+de+Educação">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+Revista+Brasileira+de+Educação">busca Bing</a> ]          </font><br></td></tr>
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc Bolema: Boletim de Educação Matemática</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc do periódico Educação Matemática Pesquisa Revista do Programa de Estudos Pós-Graduados em Educação Matemática</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC na I Jornada Internacional de Pesquisa em Educação Especial na Perspectiva Inclusiva (I JEPPEPI)</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Boletim de Educação Matemática (BOLEMA) - BOLEMA-2022-0241</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Journal of Economic Surveys - JOES-22-02-045.R1</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Boletim de Educação Matemática (BOLEMA) - BOLEMA-2023-0002</b>. 2023.</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>JULIO, R. S. <b>XIV Encontro Nacional de Educação Matemática ? Educação Matemática, Escola e Docência: o que nos trouxe Ubiratan D?Ambrósio</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc da Revista de Educação Matemática (REMat), da Sociedade Brasileira de Educação Matemática (SBEM) - Regional São Paulo (SBEM-SP)</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc do periódico Perspectivas da Educação Matemática</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc da Revista de Investigação e Divulgação em Educação Matemática ? RIDEMA</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc da revista Educação Matemática Pesquisa do Programa de Estudos Pós-Graduados em Educação Matemática da PUC-SP</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Brasileira de Educação</b>. 2022.</td></tr>
             </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>da SILVA, GUILHERME HENRIQUE GOMES. <b>Comitê avaliador do IX EMEM - Encontro Mineiro de Educação Matemática</b>. 2021.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Comitê+avaliador+do+IX+EMEM+-+Encontro+Mineiro+de+Educação+Matemática">busca Google</a> |            <a href="http://www.bing.com/search?q=Comitê+avaliador+do+IX+EMEM+-+Encontro+Mineiro+de+Educação+Matemática">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>da SILVA, GUILHERME HENRIQUE GOMES. <b>Comitê avaliador do IX EMEM - Encontro Mineiro de Educação Matemática</b>. 2021.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>Avaliação de trabalhos submetidos ao VIII Seminário Internacional de Pesquisa em Educação Matemática (VIII SIPEM)</b>. 2021.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Avaliação+de+trabalhos+submetidos+ao+VIII+Seminário+Internacional+de+Pesquisa+em+Educação+Matemática+(VIII+SIPEM)">busca Google</a> |            <a href="http://www.bing.com/search?q=Avaliação+de+trabalhos+submetidos+ao+VIII+Seminário+Internacional+de+Pesquisa+em+Educação+Matemática+(VIII+SIPEM)">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>Avaliação de trabalhos submetidos ao VIII Seminário Internacional de Pesquisa em Educação Matemática (VIII SIPEM)</b>. 2021.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>JULIO, R. S. <b>Avaliação de trabalhos submetidos ao IX Encontro Mineiro de Educação Matemática (IX EMEM)</b>. 2021.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Avaliação+de+trabalhos+submetidos+ao+IX+Encontro+Mineiro+de+Educação+Matemática+(IX+EMEM)">busca Google</a> |            <a href="http://www.bing.com/search?q=Avaliação+de+trabalhos+submetidos+ao+IX+Encontro+Mineiro+de+Educação+Matemática+(IX+EMEM)">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>JULIO, R. S. <b>Avaliação de trabalhos submetidos ao IX Encontro Mineiro de Educação Matemática (IX EMEM)</b>. 2021.</td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>comitê avaliador do VIII Seminário Internacional de Pesquisa em Educação Matemática (SIPEM)</b>. 2021.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=comitê+avaliador+do+VIII+Seminário+Internacional+de+Pesquisa+em+Educação+Matemática+(SIPEM)">busca Google</a> |            <a href="http://www.bing.com/search?q=comitê+avaliador+do+VIII+Seminário+Internacional+de+Pesquisa+em+Educação+Matemática+(SIPEM)">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>comitê avaliador do VIII Seminário Internacional de Pesquisa em Educação Matemática (SIPEM)</b>. 2021.</td></tr>
             </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Educação em Revista (ISSN - 0102-4698)</b>. 2020.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+Revista+Educação+em+Revista+(ISSN+-+0102-4698)">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+Revista+Educação+em+Revista+(ISSN+-+0102-4698)">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Educação em Revista (ISSN - 0102-4698)</b>. 2020.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Avaliação de proposta de ação de extensão universitária</b>. 2020.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Avaliação+de+proposta+de+ação+de+extensão+universitária">busca Google</a> |            <a href="http://www.bing.com/search?q=Avaliação+de+proposta+de+ação+de+extensão+universitária">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Avaliação de proposta de ação de extensão universitária</b>. 2020.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Avaliador de trabalhos submetidos ao II Encontro Nacional de Educação Matemática Inclusiva</b>. 2020.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Avaliador+de+trabalhos+submetidos+ao+II+Encontro+Nacional+de+Educação+Matemática+Inclusiva">busca Google</a> |            <a href="http://www.bing.com/search?q=Avaliador+de+trabalhos+submetidos+ao+II+Encontro+Nacional+de+Educação+Matemática+Inclusiva">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Avaliador de trabalhos submetidos ao II Encontro Nacional de Educação Matemática Inclusiva</b>. 2020.</td></tr>
             </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista em trabalhos do XIII Encontro Nacional de Educação Matemática</b>. 2019.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+em+trabalhos+do+XIII+Encontro+Nacional+de+Educação+Matemática">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+em+trabalhos+do+XIII+Encontro+Nacional+de+Educação+Matemática">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista em trabalhos do XIII Encontro Nacional de Educação Matemática</b>. 2019.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc da revista Educação em Debate</b>. 2019.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+ad+hoc+da+revista+Educação+em+Debate">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+ad+hoc+da+revista+Educação+em+Debate">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>JULIO, R. S. <b>Parecerista ad hoc da revista Educação em Debate</b>. 2019.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Perspectivas da Educação Matemática - edição temática sobre Diversidade, Diferença e Inclusão em Educação Matemática</b>. 2019.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+Revista+Perspectivas+da+Educação+Matemática+-+edição+temática+sobre+Diversidade,+Diferença+e+Inclusão+em+Educação+Matemática">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+Revista+Perspectivas+da+Educação+Matemática+-+edição+temática+sobre+Diversidade,+Diferença+e+Inclusão+em+Educação+Matemática">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Perspectivas da Educação Matemática - edição temática sobre Diversidade, Diferença e Inclusão em Educação Matemática</b>. 2019.</td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC Revista Paranaense de Educação Matemática (ISSN 2238-5800 Online)</b>. 2019.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+Revista+Paranaense+de+Educação+Matemática+(ISSN+2238-5800+Online)">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+Revista+Paranaense+de+Educação+Matemática+(ISSN+2238-5800+Online)">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC Revista Paranaense de Educação Matemática (ISSN 2238-5800 Online)</b>. 2019.</td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC da Revista EM TEIA (ISSN: 2177-9309)</b>. 2019.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+da+Revista+EM+TEIA+(ISSN:+2177-9309)">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+da+Revista+EM+TEIA+(ISSN:+2177-9309)">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC da Revista EM TEIA (ISSN: 2177-9309)</b>. 2019.</td></tr>
             </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Brasileira de Educação ISSN 1413-2478On-line version ISSN 1809-449X</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+Revista+Brasileira+de+Educação+ISSN+1413-2478On-line+version+ISSN+1809-449X">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+Revista+Brasileira+de+Educação+ISSN+1413-2478On-line+version+ISSN+1809-449X">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Brasileira de Educação ISSN 1413-2478On-line version ISSN 1809-449X</b>. 2018.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Paranaense de Educação volume 7 número 13</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+Revista+Paranaense+de+Educação+volume+7+número+13">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+Revista+Paranaense+de+Educação+volume+7+número+13">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Paranaense de Educação volume 7 número 13</b>. 2018.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na 6a Escola de Inverno de Educação Matemática, do 13o Encontro Gaúcho de Educação Matemática e do 4o Encontro Nacional PIBID Matemática</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+6a+Escola+de+Inverno+de+Educação+Matemática,+do+13o+Encontro+Gaúcho+de+Educação+Matemática+e+do+4o+Encontro+Nacional+PIBID+Matemática">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+6a+Escola+de+Inverno+de+Educação+Matemática,+do+13o+Encontro+Gaúcho+de+Educação+Matemática+e+do+4o+Encontro+Nacional+PIBID+Matemática">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na 6a Escola de Inverno de Educação Matemática, do 13o Encontro Gaúcho de Educação Matemática e do 4o Encontro Nacional PIBID Matemática</b>. 2018.</td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no IV Simpósio Integrado da UNIFAL-MG</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+no+IV+Simpósio+Integrado+da+UNIFAL-MG">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+no+IV+Simpósio+Integrado+da+UNIFAL-MG">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no IV Simpósio Integrado da UNIFAL-MG</b>. 2018.</td></tr>
             </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no IV SEMAT: Ensino- Aprendizagem de Matemática com Curiosidade e Diversão</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+no+IV+SEMAT:+Ensino-+Aprendizagem+de+Matemática+com+Curiosidade+e+Diversão">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+no+IV+SEMAT:+Ensino-+Aprendizagem+de+Matemática+com+Curiosidade+e+Diversão">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no IV SEMAT: Ensino- Aprendizagem de Matemática com Curiosidade e Diversão</b>. 2017.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Cadernos de Pesquisa, ISSN 0100-1574/e-ISSN 1980- 5314</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+Revista+Cadernos+de+Pesquisa,+ISSN+0100-1574/e-ISSN+1980-+5314">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+Revista+Cadernos+de+Pesquisa,+ISSN+0100-1574/e-ISSN+1980-+5314">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC na Revista Cadernos de Pesquisa, ISSN 0100-1574/e-ISSN 1980- 5314</b>. 2017.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC da Revista Paranaense de Educação Matemática ISSN 2238-5800</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+da+Revista+Paranaense+de+Educação+Matemática+ISSN+2238-5800">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+da+Revista+Paranaense+de+Educação+Matemática+ISSN+2238-5800">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC da Revista Paranaense de Educação Matemática ISSN 2238-5800</b>. 2017.</td></tr>
             </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no XXXVI Congresso Nacional de Matemática Aplicada e Computacional</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+no+XXXVI+Congresso+Nacional+de+Matemática+Aplicada+e+Computacional">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+no+XXXVI+Congresso+Nacional+de+Matemática+Aplicada+e+Computacional">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no XXXVI Congresso Nacional de Matemática Aplicada e Computacional</b>. 2016.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no XXXVI Congresso Nacional de Matemática Aplicada e Computacional</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+no+XXXVI+Congresso+Nacional+de+Matemática+Aplicada+e+Computacional">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+no+XXXVI+Congresso+Nacional+de+Matemática+Aplicada+e+Computacional">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. <b>Parecerista AD HOC no XXXVI Congresso Nacional de Matemática Aplicada e Computacional</b>. 2016.</td></tr>
             </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, G. H. G. <b>Paracerista AD HOC para o artigo IJSTER-07.03.14-0247 da International Journal of Science and Technology Education Research</b>. 2014.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Paracerista+AD+HOC+para+o+artigo+IJSTER-07.03.14-0247+da+International+Journal+of+Science+and+Technology+Education+Research">busca Google</a> |            <a href="http://www.bing.com/search?q=Paracerista+AD+HOC+para+o+artigo+IJSTER-07.03.14-0247+da+International+Journal+of+Science+and+Technology+Education+Research">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, G. H. G. <b>Paracerista AD HOC para o artigo IJSTER-07.03.14-0247 da International Journal of Science and Technology Education Research</b>. 2014.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC na 4ª Escola de Inverno de Educação Matemática</b>. 2014.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+4ª+Escola+de+Inverno+de+Educação+Matemática">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+4ª+Escola+de+Inverno+de+Educação+Matemática">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC na 4ª Escola de Inverno de Educação Matemática</b>. 2014.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC no 2º Encontro Nacional PIBID - Matemática</b>. 2014.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+no+2º+Encontro+Nacional+PIBID+-+Matemática">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+no+2º+Encontro+Nacional+PIBID+-+Matemática">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC no 2º Encontro Nacional PIBID - Matemática</b>. 2014.</td></tr>
             </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC na II Semana da Matemática da UNIFAL-MG</b>. 2013.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+II+Semana+da+Matemática+da+UNIFAL-MG">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+II+Semana+da+Matemática+da+UNIFAL-MG">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC na II Semana da Matemática da UNIFAL-MG</b>. 2013.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC na edição da Revista Caderno Pedagógico Vol. 10, Nº 1 (2013): A pesquisa no ensino de ciências</b>. 2013.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Parecerista+AD+HOC+na+edição+da+Revista+Caderno+Pedagógico+Vol.+10,+Nº+1+(2013):+A+pesquisa+no+ensino+de+ciências">busca Google</a> |            <a href="http://www.bing.com/search?q=Parecerista+AD+HOC+na+edição+da+Revista+Caderno+Pedagógico+Vol.+10,+Nº+1+(2013):+A+pesquisa+no+ensino+de+ciências">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, G. H. G. <b>Parecerista AD HOC na edição da Revista Caderno Pedagógico Vol. 10, Nº 1 (2013): A pesquisa no ensino de ciências</b>. 2013.</td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 21:46:10<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:15:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

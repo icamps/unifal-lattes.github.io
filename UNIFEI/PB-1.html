@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Total de produção bibliográfica'}, 
-series: [{data: [[1984,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1984,
 1],
 [1987,
 1],
@@ -156,7 +183,7 @@ series: [{data: [[1984,
 [2015,
 42],
 [2016,
-61],
+60],
 [2017,
 56],
 [2018,
@@ -170,82 +197,73 @@ series: [{data: [[1984,
 [2022,
 55],
 [2023,
-40],
+42],
 [2024,
-6]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+14]]}]});
         });
         </script>
         
                 <h3>Total de produção bibliográfica</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 1018<br>
+                    Número total de itens: 1027<br>
                     
                     <center>Página: <a href="PB-0.html">1</a> &nbsp;<b>2</b> &nbsp;</center>
-                    <div id="dv-year-1996"><h3 class="year">1996</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>M. Novello ; V. A. De Lorenci. <b>Non-Linear Non-Local Theory Of Gravity - II</b>. <font color=#330066>Gravitation & Cosmology (Print)</font>. v. 2, p. 49-62, issn: 0202-2893, 1996.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Non-Linear+Non-Local+Theory+Of+Gravity+-+II&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Non-Linear+Non-Local+Theory+Of+Gravity+-+II">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Non-Linear+Non-Local+Theory+Of+Gravity+-+II">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: B2</b></font></td></tr>
+                    <div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>4. &nbsp;</td> <td>MOREIRA, E. S. <b>Aspectos da mecânica quântica no cone</b>. 1997. Apresentação de Trabalho/Congresso</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Rodríguez-Ardila, A.; PASTORIZA, M. G. ; BICA, E. ; MAZA, J.. <b>The nucleus of C16.16: another case of double-peaked AGN.</b>. <font color=#330066>The Astrophysical Journal</font>. v. 463, p. 522-527, issn: 0004-637X, 1996.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+nucleus+of+C16.16:+another+case+of+double-peaked+AGN.&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+nucleus+of+C16.16:+another+case+of+double-peaked+AGN.">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+nucleus+of+C16.16:+another+case+of+double-peaked+AGN.">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Rodríguez-Ardila, A.; PASTORIZA, M. G.. <b>Visible and near-infrared spectroscopy of Seyfert 1 galaxies</b>. Em: <font color=#330066>XXIII Reuniâo da Sociedade Astronômica Brasileira</font>, v. 17, p. 44-44, 1997.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Rodríguez-Ardila, A.; PASTORIZA, M. G. ; MAZA, J.. <b>Spectroscopic analysis of the continuum and emission lines of the Seyfert 1 galaxies F10.01, A08.12 and C16.16</b>. Em: VIII Reunión Regional Latinoamericana de Astronomía. Unión Astronómica Internacional, 1996, Montevideo. Revista Mexicana de Astronomía y Astrofísica. Serie Conferencias. México: Grupo Edición, v. 4, p. 147-147, 1996. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Spectroscopic+analysis+of+the+continuum+and+emission+lines+of+the+Seyfert+1+galaxies+F10.01,+A08.12+and+C16.16&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Spectroscopic+analysis+of+the+continuum+and+emission+lines+of+the+Seyfert+1+galaxies+F10.01,+A08.12+and+C16.16">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Spectroscopic+analysis+of+the+continuum+and+emission+lines+of+the+Seyfert+1+galaxies+F10.01,+A08.12+and+C16.16">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>RUBINGER, C. P. L.; RUBINGER, Carla Patrícia Lacerda ; GUIMARÃES, Paulo Sérgio Soares ; MEDEIROS, Simone M de ; SAMPAIO, José Francisco ; Moreira, M.V.B. ; de OLIVEIRA, A.G.. <b>CONDUÇÃO POR SALTOS EM UM SISTEMA BIDIMENSIONAL</b>. Em: XX Encontro Nacional de Física da Matéria Condensada, 1997, Caxambu, 1997. </td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>STORCHI-BERGMANN, T. ; Rodríguez-Ardila, A. ; SCHMITT, H. R. ; WILSON, A. ; BALDWIN, J.. <b>Circumnuclear star formation in active galaxies</b>. <font color=#330066>The Astrophysical Journal</font>. v. 472, p. 83-101, issn: 0004-637X, 1996.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Circumnuclear+star+formation+in+active+galaxies&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Circumnuclear+star+formation+in+active+galaxies">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Circumnuclear+star+formation+in+active+galaxies">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANTOS-LLÉO, M. et al. (63 autores em total) ; Rodríguez-Ardila, A.. <b>Steeps toward determination of the size and structure of the broad-line region in active galactic nuclei. X. Variability of Fairall 9 from optical data. The Astrophysical Journal</b>. <font color=#330066>Supplement Series, Chicago</font>. v. 112, p. 271-283, 1997.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (SUPPLEMENT SERIES, CHICAGO)</td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>STORCHI-BERGMANN, T. ; Rodríguez-Ardila, A. ; SCHMITT, H. R. ; WILSON, A. ; BALDWIN, J.. <b>Gas excitation, kinematics and chemical abundances in active galaxies</b>. Em: VIII Reunión Regional Latinoamericana de Astronomía. Unión Astronómica Internacional, 1996, Montevideo. Revista Mexicana de Astronomía y Astrofísica. Serie Conferencias. México: Grupo Edición, v. 4, p. 147-147, 1996. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Gas+excitation,+kinematics+and+chemical+abundances+in+active+galaxies&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Gas+excitation,+kinematics+and+chemical+abundances+in+active+galaxies">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Gas+excitation,+kinematics+and+chemical+abundances+in+active+galaxies">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>V. <b>A. De Lorenci. Can Non Gravitational Black Holes Exist?</b>. Em: XVIII ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, p. 0-0, 1997. </td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>V. A. De Lorenci; J. Martin ; N. P. Neto ; I. D. Soares. <b>Topology Change In Canonical Quantum Gravity</b>. Em: XVII ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, 1996, p. 236-0, 1996. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Topology+Change+In+Canonical+Quantum+Gravity&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Topology+Change+In+Canonical+Quantum+Gravity">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Topology+Change+In+Canonical+Quantum+Gravity">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>V. <b>A. De Lorenci. Can Non Gravitational Black Holes Exist?</b>. Em: VIII MARCELL GROSSMAN MEETING, 1997. Jerusalem, p. 0-0, 1997. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>V. <b>A. De Lorenci. A Rotating Quantum Vacuum</b>. Em: XVIII ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, p. 0-0, 1997. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>V. A. De Lorenci; J. Martin ; N. P. Neto ; I. D. Soares. <b>Topology Change in Canonical Quantum Cosmology</b>. <font color=#330066>Physical Review. D. Particles and fields (Cessou em 2003. Cont. 1550-7998 Physical review. D, Particles, Fields, Gravitation, and Cosmology)</font>. v. D56, p. 3329-3340, 1997. <a href="http://dx.doi.org/10.1103/PhysRevD.56.3329" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V. A. De Lorenci; R. De Paola. <b>Gravitational Particle Production In Spinnig Cosmic String Spacetimes</b>. Em: XVIII ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, p. 360-0, 1997. </td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>M. Novello ; V. A. De Lorenci. <b>Non-Linear Non-Local Theory Of Gravity - II</b>. <font color=#330066>Gravitation & Cosmology (Print), Russia</font>. v. 2, p. 49-62, 1996.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (GRAVITATION & COSMOLOGY , RUSSIA)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Rodríguez-Ardila, A.; PASTORIZA, M. G. ; BICA, E. ; MAZA, J.. <b>The nucleus of C16.16: another case of double-peaked AGN.</b>. <font color=#330066>The Astrophysical Journal, Chicago</font>. v. 463, p. 522-527, 1996.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (THE ASTROPHYSICAL JOURNAL, CHICAGO)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Rodríguez-Ardila, A.; PASTORIZA, M. G. ; MAZA, J.. <b>Spectroscopic analysis of the continuum and emission lines of the Seyfert 1 galaxies F10.01, A08.12 and C16.16</b>. Em: VIII Reunión Regional Latinoamericana de Astronomía. Unión Astronómica Internacional, 1996, Montevideo. Revista Mexicana de Astronomía y Astrofísica. Serie Conferencias. México: Grupo Edición, v. 4, p. 147-147, 1996. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>STORCHI-BERGMANN, T. ; Rodríguez-Ardila, A. ; SCHMITT, H. R. ; WILSON, A. ; BALDWIN, J.. <b>Circumnuclear star formation in active galaxies</b>. <font color=#330066>The Astrophysical Journal, Chicago</font>. v. 472, p. 83-101, 1996.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (THE ASTROPHYSICAL JOURNAL, CHICAGO)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>STORCHI-BERGMANN, T. ; Rodríguez-Ardila, A. ; SCHMITT, H. R. ; WILSON, A. ; BALDWIN, J.. <b>Gas excitation, kinematics and chemical abundances in active galaxies</b>. Em: VIII Reunión Regional Latinoamericana de Astronomía. Unión Astronómica Internacional, 1996, Montevideo. Revista Mexicana de Astronomía y Astrofísica. Serie Conferencias. México: Grupo Edición, v. 4, p. 147-147, 1996. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>V. A. De Lorenci; J. Martin ; N. P. Neto ; I. D. Soares. <b>Topology Change In Canonical Quantum Gravity</b>. Em: XVII ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, 1996, p. 236-0, 1996. </td></tr>
             </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>MOREIRA, E. S. <b>Massive quantum fields in a conical background</b>. <font color=#330066>Nuclear Physics. B</font>. v. 451, p. 365-378, issn: 0550-3213, 1995.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Massive+quantum+fields+in+a+conical+background&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Massive+quantum+fields+in+a+conical+background">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Massive+quantum+fields+in+a+conical+background">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: A3</b></font></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOREIRA, E. S. <b>Massive quantum fields in a conical background. Nuclear Physics</b>. <font color=#330066>B</font>. v. 451, p. 365-378, 1995.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (B)</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>MOREIRA, E. S. <b>Quantum fields in a conical background</b>. Em: Third Workshop on Quantum Field Theory under the Influence of External Conditions, 1996, Leipzig. Third Workshop on Quantum Field Theory under the Influence of External Conditions. Stuttgart-Leipzig: B. G. Teubner Verlagsgesellschaft, p. 95-95, 1995. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Quantum+fields+in+a+conical+background&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Quantum+fields+in+a+conical+background">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Quantum+fields+in+a+conical+background">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>MOREIRA, E. S. <b>Quantum fields in a conical background</b>. Em: Third Workshop on Quantum Field Theory under the Influence of External Conditions, 1996, Leipzig. Third Workshop on Quantum Field Theory under the Influence of External Conditions. Stuttgart-Leipzig: B. G. Teubner Verlagsgesellschaft, p. 95-95, 1995. </td></tr>
             
             <tr valign="top"><td>3. &nbsp;</td> <td>MOREIRA, E. S. <b>Quantum fields in a conical background</b>. 1995. Apresentação de Trabalho/Congresso</td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>V. <b>Non-Linear Non-Local Theory of Gravity</b>. <font color=#330066>Modern Physics Letters A</font>. v. 10, p. 807-812, issn: 0217-7323, 1995. <a href="http://dx.doi.org/10.1142/S0217732395000855" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Non-Linear+Non-Local+Theory+of+Gravity&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Non-Linear+Non-Local+Theory+of+Gravity">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Non-Linear+Non-Local+Theory+of+Gravity">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: B1</b></font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>V. <b>A</b>. <font color=#330066>De Lorenci. Non-Linear Non-Local Theory of Gravity. Modern Physics Letters A</font>. v. 10, p. 807-812, 1995. <a href="http://dx.doi.org/10.1142/S0217732395000855" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (DE LORENCI. NON-LINEAR NON-LOCAL THEORY OF GRAVITY. MODERN PHYSICS LETTERS A)</td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>V. <b>A. De Lorenci. Field Configuration In Non Local Theory Of Gravity</b>. Em: XVI ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, p. 0-0, 1995. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A.+De+Lorenci.+Field+Configuration+In+Non+Local+Theory+Of+Gravity&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A.+De+Lorenci.+Field+Configuration+In+Non+Local+Theory+Of+Gravity">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A.+De+Lorenci.+Field+Configuration+In+Non+Local+Theory+Of+Gravity">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>V. <b>A. De Lorenci. Field Configuration In Non Local Theory Of Gravity</b>. Em: XVI ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, p. 0-0, 1995. </td></tr>
             </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA FILHO, I. R. ; Rodríguez-Ardila, A. ; SCHMITT, H. ; DOTTORI, H. ; BICA, E.. <b>Numerical simulations of star cluster encounters: comparison with LMC pairs</b>. Em: <font color=#330066>Third CTIO/ESO Workshop on the local group: comparative and global properties</font>, v. 51, p. 216-223, 1994.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Numerical+simulations+of+star+cluster+encounters:+comparison+with+LMC+pairs&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Numerical+simulations+of+star+cluster+encounters:+comparison+with+LMC+pairs">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Numerical+simulations+of+star+cluster+encounters:+comparison+with+LMC+pairs">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA FILHO, I. R. ; Rodríguez-Ardila, A. ; SCHMITT, H. ; DOTTORI, H. ; BICA, E.. <b>Numerical simulations of star cluster encounters: comparison with LMC pairs</b>. Em: <font color=#330066>Third CTIO/ESO Workshop on the local group: comparative and global properties</font>, v. 51, p. 216-223, 1994.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Rodríguez-Ardila, A.; PASTORIZA, M. G. ; MAZA, J.. <b>The nucleus of the Seyfert 1 galaxy C16.16. Physical conditions and structure</b>. Em: XXI Reuniâo Anual da Sociedade Astronômica Brasileira, 1994, Campos do Jordâo. Boletim da Sociedade Astronômica Brasileira, v. 14, p. 94-94, 1994. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+nucleus+of+the+Seyfert+1+galaxy+C16.16.+Physical+conditions+and+structure&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+nucleus+of+the+Seyfert+1+galaxy+C16.16.+Physical+conditions+and+structure">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+nucleus+of+the+Seyfert+1+galaxy+C16.16.+Physical+conditions+and+structure">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Rodríguez-Ardila, A.; PASTORIZA, M. G. ; MAZA, J.. <b>The nucleus of the Seyfert 1 galaxy C16.16. Physical conditions and structure</b>. Em: XXI Reuniâo Anual da Sociedade Astronômica Brasileira, 1994, Campos do Jordâo. Boletim da Sociedade Astronômica Brasileira, v. 14, p. 94-94, 1994. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>V. A. De Lorenci; M. Novello. <b>Non Linear Non Local Theory Of Gravity</b>. Em: XV ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, p. 123-0, 1994. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Non+Linear+Non+Local+Theory+Of+Gravity&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Non+Linear+Non+Local+Theory+Of+Gravity">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Non+Linear+Non+Local+Theory+Of+Gravity">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>V. A. De Lorenci; M. Novello. <b>Non Linear Non Local Theory Of Gravity</b>. Em: XV ENCONTRO NACIONAL DE FISICA DE PARTICULAS E CAMPOS, p. 123-0, 1994. </td></tr>
             </table></div><div id="dv-year-1991"><h3 class="year">1991</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>V. <b>A. De Lorenci. Preparacao de Galio de Alta Pureza Por Refinamento Zonal</b>. Em: XV ENCONTRO NACIONAL DE FISICA DE MATERIA CONDENSADA, p. 0-0, 1991. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A.+De+Lorenci.+Preparacao+de+Galio+de+Alta+Pureza+Por+Refinamento+Zonal&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A.+De+Lorenci.+Preparacao+de+Galio+de+Alta+Pureza+Por+Refinamento+Zonal">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A.+De+Lorenci.+Preparacao+de+Galio+de+Alta+Pureza+Por+Refinamento+Zonal">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>V. <b>A. De Lorenci. Preparacao de Galio de Alta Pureza Por Refinamento Zonal</b>. Em: XV ENCONTRO NACIONAL DE FISICA DE MATERIA CONDENSADA, p. 0-0, 1991. </td></tr>
             </table></div><div id="dv-year-1987"><h3 class="year">1987</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>ELIA, M. F. ; MOREIRA, E. S.. <b>Peliculas de sabão e o seu teor didático</b>. <font color=#330066>Revista Brasileira de Ensino de Física (São Paulo)</font>. v. 09, p. 14-32, issn: 1806-1117, 1987.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Peliculas+de+sabão+e+o+seu+teor+didático&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Peliculas+de+sabão+e+o+seu+teor+didático">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Peliculas+de+sabão+e+o+seu+teor+didático">busca Google</a> ]          </font><br><font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ELIA, M. F. ; MOREIRA, E. S.. <b>Peliculas de sabão e o seu teor didático</b>. <font color=#330066>Revista Brasileira de Ensino de Física (São Paulo)</font>. v. 09, p. 14-32, 1987.<font color="#254117"><b>Qualis: A1</b></font></td></tr>
             </table></div><div id="dv-year-1984"><h3 class="year">1984</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>ELIA, M. F. ; MOREIRA, E. S.. <b>Películas de sabão e o seu teor didático</b>. 1984. Apresentação de Trabalho/Congresso</td></tr>
             </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>HUANCA, D. R.; SALCEDO, W. J.. <b>Thermal Oxidation of Heterogeneous Photonic Crystals for Sensor Applications</b>. Revista Iberoamericana de Sensores, México, p. IB-088, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Thermal+Oxidation+of+Heterogeneous+Photonic+Crystals+for+Sensor+Applications&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Thermal+Oxidation+of+Heterogeneous+Photonic+Crystals+for+Sensor+Applications">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Thermal+Oxidation+of+Heterogeneous+Photonic+Crystals+for+Sensor+Applications">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HUANCA, D. R.; SALCEDO, W. J.. <b>Thermal Oxidation of Heterogeneous Photonic Crystals for Sensor Applications</b>. Revista Iberoamericana de Sensores, México, p. IB-088, .</td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 07/03/2024 14:36:50<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:49:27<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF-UNIFAL)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF-UNIFAL)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF-UNIFAL)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF-UNIFAL)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,37 +103,37 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Supervisão de pós-doutorado'}, 
-series: [{data: [[2023,
-2]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
 title: {text: 'Quantidade', 
 align: 'middle'}, 
+labels: {overflow: 'justify'}, 
 stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
 shared: false, 
 headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
 align: 'right', 
-enabled: false, 
+verticalAlign: 'middle', 
 borderWidth: 1, 
 backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2023,
+2]]}]});
         });
         </script>
         
@@ -149,5 +149,5 @@ shadow: true}});
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 07/03/2024 14:29:21<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:43:22<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

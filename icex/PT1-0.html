@@ -1,0 +1,277 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Instituto de Ciências Exatas</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Instituto de Ciências Exatas</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Softwares sem registro de patente'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1997,
+2],
+[1998,
+3],
+[2001,
+1],
+[2002,
+2],
+[2003,
+9],
+[2004,
+8],
+[2005,
+4],
+[2006,
+2],
+[2007,
+1],
+[2008,
+1],
+[2009,
+1],
+[2010,
+2],
+[2011,
+3],
+[2012,
+2],
+[2014,
+1],
+[2015,
+1],
+[2016,
+1],
+[2018,
+1],
+[2020,
+1]]}]});
+        });
+        </script>
+        
+                <h3>Softwares sem registro de patente</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 46<br>
+                    
+                    
+                    <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GONZAGA, F. <b>B.; BARBOSA, V. C. ; SILVA, J. C. T. ; BUENO FILHO, M. A. F. ; VILELA, E. G. O. . SearchOnMath</b>. 2020.</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOREIRA, MARIANE. <b>Smart Closet - Consultoria de Imagem e Estilo. 2018; Tema: Moda, Estilo e Imagem. (Rede</b>. 2018.</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GONZAGA, F. B.; BARBOSA, VALMIR C. ; XEXÉO, GERALDO B. ; SOUZA, G. C.. <b>SearchOnMath. 2016; Tema: SearchOnMath.com - Ferramenta de busca para fórmulas matemáticas</b>. 2016.</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>NABETO, L. O. ; AVILA, A. A. ; OLIVEIRA, H. A. ; BORGES, R. S. ; REZENDE, Marcelo Lacerda. <b>Softwre auxiliar para ensino do modelo de oferta e demanda</b>. 2015.</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SOUZA, Mariane Moreira de; CRUZ, Priscila ; BARRETO, Andre. <b>Eco Closet. 2014; Tema: Moda Sustentável</b>. 2014.</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GONZAGA, F. <b>B.; SAGGIORO, L. F. Z. ; RIBEIRO, R. R. ; CARILO, A. S. . TraceMetrics</b>. 2012.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; Silva, E. J. ; Braz, D. D. C.. <b>SImulador do Mercado de Ações em Média Frequência</b>. 2012.</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bastos, R.L. ; FERREIRA, E. B. ; NOGUEIRA, D. A.. <b>CEP-R: Um pacote R para controle estatístico de processo</b>. 2011.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SOUZA, Mariane Moreira de. <b>SPARSE - Jogo educativo para ensino de Engenharia de Software</b>. 2011.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SOUZA, Mariane Moreira de; BALBINO ; Ozório, Paulo Fernando ; Silva, Everton ; Campos, Rômulo Silva ; Biavati, Rafael. <b>I-Map Moodle</b>. 2011.</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B. ; CAVALCANTI, P.P. ; NOGUEIRA, D. A.. <b>Experimental Designs (ExpDes)</b>. 2010.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FRANCO, T. L. B. ; GOYATÁ, S. L. T. ; NOGUEIRA, D. A. ; NASCIMENTO, M. C do ; Vieira, J.G.C.. <b>Software de classificação de risco familiar na estratégia de saúde da família no município de Alfenas, Minas Gerais</b>. 2010.</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERRE, F. ; MARQUES, L. A. M. ; Eliseu C. Miguel. <b>FarClinic - Sistema para farmácia clínica</b>. 2009.</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SCHNEEDORF, J. M. ; SILVA, L. E. ; PAULA, M. M. V. ; MACEDO, J. A. ; FERREIRA, N. M.. <b>SISMA - Sistema de Simulações Metabólicas</b>. 2008.</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SOUZA, Mariane Moreira de. <b>ProSimulator - Ambiente de Simulação de Projetos de Software</b>. 2007.</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>VRPSimulator</b>. 2006.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>StaticVRPTW</b>. 2006.</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>da Silveira, NJF; BONALUMI, C. <b>E. ; JORGE, Guilherme Eberhart ; ARCURI, Helen Andrade ; OLIVEIRA, N. A. ; AZEVEDO JUNIOR, Walter Filgueira de . DBMODELING</b>. 2005.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>da Silveira, NJF; BONALUMI, C. <b>E. ; ARCURI, Helen Andrade ; AZEVEDO JUNIOR, Walter Filgueira de . HMDB</b>. 2005.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>NOGUEIRA, D. A. <b>Programa para Anais em midias digitais, cd-rom</b>. 2005.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANT' ANA, T. D. <b>Sistema de Controle de Expedição</b>. 2005.</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, N. <b>A. ; da Silveira, NJF ; BONALUMI, C. E. ; de AZEVEDO JR, W.F. . Biolinux-BR</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SANT' ANA, T. D. <b>Sistema de Gestão de Empresas Farmacêuticas</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SOUZA, Mariane Moreira de. <b>Software Educativo na área de Sistemas Operacionais - Simulação do Problema do Produtor e Consumidor</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SOUZA, Mariane Moreira de. <b>Software Educativo na área de Sistemas Operacionais - Simulação do Problema do Leitor e Escritor</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SOUZA, Mariane Moreira de ; OLIVEIRA, Humberto César Brandão de. <b>Software educacional para o entendimento do controle de erro em transmissões utilizando o protocolo janelas deslizantes</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SOUZA, Mariane Moreira de; OLIVEIRA, Humberto César Brandão de. <b>Sistema de Comunicação Wireless entre viaturas policiais militares e COPOM (Centro de Operações da Polícia Militar) utilizando tecnologia móvel</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SOUZA, Mariane Moreira de; SILVA, Ricardo Martins de Abeu ; OLIVEIRA, Humberto César Brandão de. <b>Software educativo na área de Redes de Computadores simulando o protocolo de Janelas Deslizantes</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>UCHÔA, Hugo Brandão ; JORGE, Guilherme Eberhart ; da Silveira, NJF ; BONALUMI, C. <b>E. ; AZEVEDO JUNIOR, Walter Filgueira de . ParModel web server</b>. 2004.</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BARBOSA, L. <b>E. C. ; GONZAGA, F. B. . Interfa_C</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BONALUMI, C. <b>E. ; da Silveira, NJF ; AZEVEDO JUNIOR, Walter Filgueira de . PRINCIANE</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>JORGE, Guilherme Eberhart ; da Silveira, NJF ; BONALUMI, C. <b>E. ; OLIVEIRA, N. A. ; AZEVEDO JUNIOR, Walter Filgueira de . ProtGif</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>NOGUEIRA, D. <b>A.; BOAS, Franscisco Luis Vilas ; Nicolau, L.A. . MASTERSTAT</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de. <b>Cliente MySQL</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; SILVA, H. A. O. ; RAMOS, R.. <b>Simulador de Gerência de Memória de um Sistema Operacional</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; SOUZA, Mariane Moreira de ; SILVA, A. S. N. E. ; MASSAHUD, R. A. T.. <b>Máquina de Turing Universal</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SOUZA, Mariane Moreira de. <b>Software Educativo na área de Arquitetura de Computadores - Simulação do Processador µ-Risk</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SOUZA, Mariane Moreira de; ASSIS, Wendel Malta de. <b>Sistema de Cadastro de boletim de ocorrência policial militar via palmtop e transmissão via wireless para banco de dados centralizado</b>. 2003.</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Humberto César Brandão de; GOMES, Pierre Eduardo da Silva ; FRÁGUAS, Carlos Eduardo. <b>Openzone (Ferramenta de Ensino a Distância)</b>. 2002.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ROBERTO J., A. J.; JABLONSKI, F. J.. <b>Simulação de Curvas de Luz de Variáveis Cataclísmicas</b>. 2002.</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SANT' ANA, T. D. <b>Sistema de Gestão das Industrias Plasmar</b>. 2001.</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Eliseu C. <b>Miguel. Intranet UNISER</b>. 1998.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ROBERTO J., A. J.; JABLONSKI, F. J.. <b>Tomografia Doppler de IX Velorum</b>. 1998.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SANT' ANA, T. D. <b>Sistema de Gestão de Empresas do Ramo de Eletroeletrônicos e Eletrodomésticos</b>. 1998.</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Eliseu C. <b>Miguel. SCOL - Sistema de Controle Leiteiro</b>. 1997.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SANT' ANA, T. D. <b>Sistema de Gestão de Empresas do Ramo de Materiais para Construção</b>. 1997.</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 16/05/2024 15:26:12<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Instituto de Ciências Exatas</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Instituto de Ciências Exatas</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Instituto de Ciências Exatas</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Instituto de Ciências Exatas</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Livros publicados/organizados ou edições'}, 
-series: [{data: [[2009,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2009,
 3],
 [2010,
 1],
@@ -124,90 +151,79 @@ series: [{data: [[2009,
 [2020,
 4],
 [2021,
-1]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+1],
+[2022,
+2],
+[2023,
+4]]}]});
         });
         </script>
         
                 <h3>Livros publicados/organizados ou edições</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 23<br>
+                    Número total de itens: 29<br>
                     
                     
-                    <div id="dv-year-2021"><h3 class="year">2021</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, G. H. G.; LIMA, I. M. S. (Org.) ; RODRIGUES, F. A. G. (Org.). <b>Educação Matemática Crítica e a (In)justiça social: práticas pedagógicas e formação de professores</b>. 1 ed. Campinas: Mercado de Letras, 2021. v. 1, p. 332. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+Matemática+Crítica+e+a+(In)justiça+social:+práticas+pedagógicas+e+formação+de+professores&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+Matemática+Crítica+e+a+(In)justiça+social:+práticas+pedagógicas+e+formação+de+professores">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+Matemática+Crítica+e+a+(In)justiça+social:+práticas+pedagógicas+e+formação+de+professores">busca Google</a> ]          </font><br></td></tr>
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BEZERRA, ANIBAL T. <b>Física Computacional usando Python</b>. 1 ed. UICLAP, 2023. v. 1, p. 134. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>C. Aguiar ; Camps, I.. <b>Molecular Docking Simulations: A comprehensive guide for beginners</b>. 1a ed. 2023. .</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MELLO, C. H. P. ; Silva, C. E. S. ; TURRIONI, J. B. ; SOUZA, L. G. M. ; SALGADO, Eduardo G.. <b>ISO 9001:2015: Sistema de Gestão da Qualidade Para Operações de Produção e Serviços</b>. 1 ed. Itajubá: Universidade Federal de Itajubá, 2023. v. 1, p. 257. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA; JULIO, R. S. (Org.). <b>Educação Matemática para e com idosos : práticas pedagógicas e pesquisas emergentes</b>. 1 ed. São Paulo: Dialética, 2023. v. 1, p. 248. </td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Silva, C. E. S. (Org.) ; SILVA, E. C. (Org.) ; SALGADO, Eduardo G. (Org.) ; ANJOS, F. H. (Org.) ; SANTOS, S. H. S. (Org.) ; SILVA, S. (Org.) ; SOUZA, W. V. B. (Org.). <b>GESTÃO PÚBLICA EM PROJETOS E PRÁTICAS - Abordagens, Estratégias, Teorias e Casos da Educação Superior</b>. 1 ed. 2022. .</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SOUZA, W. V. B. (Org.) ; SALGADO, Eduardo G. (Org.) ; SILVA, S. (Org.) ; Silva, C. E. S. (Org.) ; ANJOS, F. H. (Org.) ; BRANDAO, L. R. F. (Org.). <b>Expansão da Educação a Distancia nas Universidades Federais - 1º Workshop do REUNI DIGITAL</b>. 1 ed. 2022. .</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, G. H. G.; LIMA, I. M. S. (Org.) ; RODRIGUES, F. A. G. (Org.). <b>Educação Matemática Crítica e a (In)justiça social: práticas pedagógicas e formação de professores</b>. 1 ed. Campinas: Mercado de Letras, 2021. v. 1, p. 332. </td></tr>
             </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B.; OLIVEIRA, M. S. de. <b>Introdução à Estatística com R</b>. 1 ed. Alfenas: Editora da Unifal, 2020. v. 1, p. 194. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Introdução+à+Estatística+com+R&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Introdução+à+Estatística+com+R">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+à+Estatística+com+R">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B.; OLIVEIRA, M. S. de. <b>Introdução à Estatística com R</b>. 1 ed. Alfenas: Editora da Unifal, 2020. v. 1, p. 194. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>HORNINK, G. G. (Org.) ; Nogueira, Denismar Alves (Org.) ; CARVALHO, B. A. (Org.) ; TOLEDO, C. N. (Org.) ; REZENDE, C. M. M. (Org.) ; ARAUJO, L. S. M. (Org.) ; TEIXEIRA, L. M. (Org.) ; NOVAES, M. R. S. (Org.) ; FERREIRA, R. (Org.) ; HANEMANN, S. S. L. (Org.). <b>Moderação de cursos on-line</b>. 1 ed. Alfenas: Editora Universidade Federal de Alfenas, 2020. v. 1, p. 101. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Moderação+de+cursos+on-line&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Moderação+de+cursos+on-line">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Moderação+de+cursos+on-line">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>HORNINK, G. G. (Org.) ; Nogueira, Denismar Alves (Org.) ; CARVALHO, B. A. (Org.) ; TOLEDO, C. N. (Org.) ; REZENDE, C. M. M. (Org.) ; ARAUJO, L. S. M. (Org.) ; TEIXEIRA, L. M. (Org.) ; NOVAES, M. R. S. (Org.) ; FERREIRA, R. (Org.) ; HANEMANN, S. S. L. (Org.). <b>Moderação de cursos on-line</b>. 1 ed. Alfenas: Editora Universidade Federal de Alfenas, 2020. v. 1, p. 101. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>LOPES, R. A. ; CARDOSO, A. ; SOUZA JUNIOR, J. C.. <b>Temas de Matemática no Enem: praticar e aprender</b>. 1 ed. ALFENAS-MG: UNIVERSIDADE FEDERAL DE ALFENAS, 2020. v. 1, p. 158. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Temas+de+Matemática+no+Enem:+praticar+e+aprender&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Temas+de+Matemática+no+Enem:+praticar+e+aprender">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Temas+de+Matemática+no+Enem:+praticar+e+aprender">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>LOPES, R. A. ; CARDOSO, A. ; SOUZA JUNIOR, J. C.. <b>Temas de Matemática no Enem: praticar e aprender</b>. 1 ed. ALFENAS-MG: UNIVERSIDADE FEDERAL DE ALFENAS, 2020. v. 1, p. 158. </td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA ; FERREIRA, E. B.. <b>O impacto da Lei de Cotas na Universidade Federal de Alfenas em 2018</b>. 1 ed. Alfenas-MG: Editora Universidade Federal de Alfenas, 2020. v. 1, p. 168. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+impacto+da+Lei+de+Cotas+na+Universidade+Federal+de+Alfenas+em+2018&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+impacto+da+Lei+de+Cotas+na+Universidade+Federal+de+Alfenas+em+2018">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+impacto+da+Lei+de+Cotas+na+Universidade+Federal+de+Alfenas+em+2018">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>LOPES, Ronaldo André. ; SILVA, GUILHERME HENRIQUE GOMES DA ; FERREIRA, E. B.. <b>O impacto da Lei de Cotas na Universidade Federal de Alfenas em 2018</b>. 1 ed. Alfenas-MG: Editora Universidade Federal de Alfenas, 2020. v. 1, p. 168. </td></tr>
             </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>BERMEJO, P. H. S. ; PAGOTTO, D. P. ; DALTRO, P. J. G. ; SANT' ANA, T. D. ; VELLENICH, I. ; RODRIGUES, A. A. M.. <b>Como impulsionar a eficiência organizacional a partir da gestão de processos? Experiências do Superior Tribunal Militar</b>. 1 ed. Brasília: Evobiz, 2019. v. 1, p. 124. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Como+impulsionar+a+eficiência+organizacional+a+partir+da+gestão+de+processos?+Experiências+do+Superior+Tribunal+Militar&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Como+impulsionar+a+eficiência+organizacional+a+partir+da+gestão+de+processos?+Experiências+do+Superior+Tribunal+Militar">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Como+impulsionar+a+eficiência+organizacional+a+partir+da+gestão+de+processos?+Experiências+do+Superior+Tribunal+Militar">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BERMEJO, P. H. S. ; PAGOTTO, D. P. ; DALTRO, P. J. G. ; SANT' ANA, T. D. ; VELLENICH, I. ; RODRIGUES, A. A. M.. <b>Como impulsionar a eficiência organizacional a partir da gestão de processos? Experiências do Superior Tribunal Militar</b>. 1 ed. Brasília: Evobiz, 2019. v. 1, p. 124. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>BERMEJO, P. H. S. ; SANTANA, T. D. ; SALGADO, E. G. ; MENDONCA, L. C. ; ANJOS, F. H. ; ALVES, G. F. ; BORGES, G. H. A. ; PAGOTTO, D. P. ; PAGLIARES, R. M. ; PINHEIRO, I. F. ; SALOMA? ; SILVA, P. D. P. G. E. ; NEVES, T. J. G. ; ALMEIDA, A. L.. <b>ForRisco: risk management in public institutions in practice</b>. 2 ed. Brasília: Evobiz, 2019. v. 1, p. 208. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ForRisco:+risk+management+in+public+institutions+in+practice&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ForRisco:+risk+management+in+public+institutions+in+practice">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ForRisco:+risk+management+in+public+institutions+in+practice">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>BERMEJO, P. H. S. ; SANTANA, T. D. ; SALGADO, E. G. ; MENDONCA, L. C. ; ANJOS, F. H. ; ALVES, G. F. ; BORGES, G. H. A. ; PAGOTTO, D. P. ; PAGLIARES, R. M. ; PINHEIRO, I. F. ; SALOMÃ ; SILVA, P. D. P. G. E. ; NEVES, T. J. G. ; ALMEIDA, A. L.. <b>ForRisco: risk management in public institutions in practice</b>. 2 ed. Brasília: Evobiz, 2019. v. 1, p. 208. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>MELO, G. S. ; BERMEJO, P. H. S. ; MALTEZ, G. S. ; SANT' ANA, T. D. ; FERNANDES, K. R.. <b>Análise e Aprovação de Preços de Publicidade e Comunicação na Administração Pública</b>. 1 ed. Brasília: Evobiz, 2019. v. 1, p. 200. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Análise+e+Aprovação+de+Preços+de+Publicidade+e+Comunicação+na+Administração+Pública&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Análise+e+Aprovação+de+Preços+de+Publicidade+e+Comunicação+na+Administração+Pública">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Análise+e+Aprovação+de+Preços+de+Publicidade+e+Comunicação+na+Administração+Pública">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>MELO, G. S. ; BERMEJO, P. H. S. ; MALTEZ, G. S. ; SANT' ANA, T. D. ; FERNANDES, K. R.. <b>Análise e Aprovação de Preços de Publicidade e Comunicação na Administração Pública</b>. 1 ed. Brasília: Evobiz, 2019. v. 1, p. 200. </td></tr>
             </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Bermejo, Paulo Henrique de Souza ; SANTANA, T. D. ; SALGADO, Eduardo Gomes ; MENDONCA, L. C. ; ANJOS, F. H. ; de Freitas Alves, Gustavo ; BORGES, G. H. A. ; PAGOTTO, D. P. ; PAGLIARES, R. M. ; PINHEIRO, I. F. ; SALOMAO, I. F. ; SILVA, P. D. P. G. E. ; NEVES, T. J. G.. <b>ForRisco: gerenciamento de riscos em instituições públicas na prática</b>. 1 ed. Brasília: Editora Evobiz, 2018. v. 1, p. 200. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ForRisco:+gerenciamento+de+riscos+em+instituições+públicas+na+prática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ForRisco:+gerenciamento+de+riscos+em+instituições+públicas+na+prática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ForRisco:+gerenciamento+de+riscos+em+instituições+públicas+na+prática">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bermejo, Paulo Henrique de Souza ; SANTANA, T. D. ; SALGADO, Eduardo Gomes ; MENDONCA, L. C. ; ANJOS, F. H. ; de Freitas Alves, Gustavo ; BORGES, G. H. A. ; PAGOTTO, D. P. ; PAGLIARES, R. M. ; PINHEIRO, I. F. ; SALOMAO, I. F. ; SILVA, P. D. P. G. E. ; NEVES, T. J. G.. <b>ForRisco: gerenciamento de riscos em instituições públicas na prática</b>. 1 ed. Brasília: Editora Evobiz, 2018. v. 1, p. 200. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SORPRESO, Thirza Pavan; LIMA, M. C. A. (Org.). <b>Questões de ensino de ciência e tecnologia em discussão</b>. 1 ed. São Luís: Edufma, 2018. v. 1, p. 282. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Questões+de+ensino+de+ciência+e+tecnologia+em+discussão&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Questões+de+ensino+de+ciência+e+tecnologia+em+discussão">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Questões+de+ensino+de+ciência+e+tecnologia+em+discussão">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SORPRESO, Thirza Pavan; LIMA, M. C. A. (Org.). <b>Questões de ensino de ciência e tecnologia em discussão</b>. 1 ed. São Luís: Edufma, 2018. v. 1, p. 282. </td></tr>
             </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FARIA JUNIOR, A. E. ; REZENDE, Marcelo Lacerda. <b>Impactos Econômicos e financeiros da expansão da Unifal-MG: um estudo de caso para o município de Alfenas, Mg</b>. 1 ed. Saarbrucken: Novas Edições Acadêmicas, 2017. v. 1, p. 180. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Impactos+Econômicos+e+financeiros+da+expansão+da+Unifal-MG:+um+estudo+de+caso+para+o+município+de+Alfenas,+Mg&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Impactos+Econômicos+e+financeiros+da+expansão+da+Unifal-MG:+um+estudo+de+caso+para+o+município+de+Alfenas,+Mg">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Impactos+Econômicos+e+financeiros+da+expansão+da+Unifal-MG:+um+estudo+de+caso+para+o+município+de+Alfenas,+Mg">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FARIA JUNIOR, A. E. ; REZENDE, Marcelo Lacerda. <b>Impactos Econômicos e financeiros da expansão da Unifal-MG: um estudo de caso para o município de Alfenas, Mg</b>. 1 ed. Saarbrucken: Novas Edições Acadêmicas, 2017. v. 1, p. 180. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>SALGADO, Eduardo Gomes; Salomon, V.A.P. ; MELLO, C. H. P. ; Silva, C. E. S.. <b>Gestão do processo de desenvolvimento de produtos eletrônicos: guia prático para o lançamento de produtos para empresas de base tecnológica de pequeno e médio porte</b>. 1 ed. Curitiba: Editora Prismas, 2017. p. 208. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Gestão+do+processo+de+desenvolvimento+de+produtos+eletrônicos:+guia+prático+para+o+lançamento+de+produtos+para+empresas+de+base+tecnológica+de+pequeno+e+médio+porte&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Gestão+do+processo+de+desenvolvimento+de+produtos+eletrônicos:+guia+prático+para+o+lançamento+de+produtos+para+empresas+de+base+tecnológica+de+pequeno+e+médio+porte">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Gestão+do+processo+de+desenvolvimento+de+produtos+eletrônicos:+guia+prático+para+o+lançamento+de+produtos+para+empresas+de+base+tecnológica+de+pequeno+e+médio+porte">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>SALGADO, Eduardo Gomes; Salomon, V.A.P. ; MELLO, C. H. P. ; Silva, C. E. S.. <b>Gestão do processo de desenvolvimento de produtos eletrônicos: guia prático para o lançamento de produtos para empresas de base tecnológica de pequeno e médio porte</b>. 1 ed. Curitiba: Editora Prismas, 2017. p. 208. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>SANT´ ANA, T. D.; BERMEJO, P. H. S. ; MENDONCA, L. C. ; SANTOS, N. M. ; BORGES, G. H. A. ; SOUZA, W. V. B. ; PINHEIRO, I. F. ; SANCHEZ, A. M. N. ; BERMEJO, L. P. S. ; SOUZA, M. P. ; ALMEIDA, E. L. ; MELO, G. S.. <b>Plano de Desenvolvimento Institucional - PDI: um guia de conhecimentos para as Instituições Federais de Ensino</b>. 1 ed. 2017. v. 1, p. 130. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Plano+de+Desenvolvimento+Institucional+-+PDI:+um+guia+de+conhecimentos+para+as+Instituições+Federais+de+Ensino&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Plano+de+Desenvolvimento+Institucional+-+PDI:+um+guia+de+conhecimentos+para+as+Instituições+Federais+de+Ensino">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Plano+de+Desenvolvimento+Institucional+-+PDI:+um+guia+de+conhecimentos+para+as+Instituições+Federais+de+Ensino">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>SANT´ ANA, T. D.; BERMEJO, P. H. S. ; MENDONCA, L. C. ; SANTOS, N. M. ; BORGES, G. H. A. ; SOUZA, W. V. B. ; PINHEIRO, I. F. ; SANCHEZ, A. M. N. ; BERMEJO, L. P. S. ; SOUZA, M. P. ; ALMEIDA, E. L. ; MELO, G. S.. <b>Plano de Desenvolvimento Institucional - PDI: um guia de conhecimentos para as Instituições Federais de Ensino</b>. 1 ed. 2017. v. 1, p. 130. </td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, A. C. ; TOTI, F. A.. <b>Um Estudo das Justificativas para o Ensino de Física no Ensino Médio</b>. 1ª ed. Nyemcy: NEA - Novas Edições Acadêmicas, 2017. v. u, p. 113. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Um+Estudo+das+Justificativas+para+o+Ensino+de+Física+no+Ensino+Médio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Um+Estudo+das+Justificativas+para+o+Ensino+de+Física+no+Ensino+Médio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Um+Estudo+das+Justificativas+para+o+Ensino+de+Física+no+Ensino+Médio">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, A. C. ; TOTI, F. A.. <b>Um Estudo das Justificativas para o Ensino de Física no Ensino Médio</b>. 1ª ed. Nyemcy: NEA - Novas Edições Acadêmicas, 2017. v. u, p. 113. </td></tr>
             </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>MORENO, ANGELA L. <b>Redes Neurais ART e ARTMAP com Treinamento Continuado</b>. 1 ed. Saarbrücken: Novas Edições Acadêmicas, 2016. v. 1, p. 116. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Redes+Neurais+ART+e+ARTMAP+com+Treinamento+Continuado&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Redes+Neurais+ART+e+ARTMAP+com+Treinamento+Continuado">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Redes+Neurais+ART+e+ARTMAP+com+Treinamento+Continuado">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MORENO, ANGELA L. <b>Redes Neurais ART e ARTMAP com Treinamento Continuado</b>. 1 ed. Saarbrücken: Novas Edições Acadêmicas, 2016. v. 1, p. 116. </td></tr>
             </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Figueiredo de Paiva, Ana Lúcia Silva ; do Lago, Ayla Campos ; de Lima, Grazielle Cabral ; Wisniewski, Célio ; DE MAGALHÃES, CRISTIANA SCHMIDT ; Luccas, Pedro Orival. <b>Food and Nutritional Components in Focus</b>. 01 ed. Londres: Royal Society of Chemistry, 2015. v. 01, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Food+and+Nutritional+Components+in+Focus&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Food+and+Nutritional+Components+in+Focus">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Food+and+Nutritional+Components+in+Focus">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Figueiredo de Paiva, Ana Lúcia Silva ; do Lago, Ayla Campos ; de Lima, Grazielle Cabral ; Wisniewski, Célio ; DE MAGALHÃES, CRISTIANA SCHMIDT ; Luccas, Pedro Orival. <b>Food and Nutritional Components in Focus</b>. 01 ed. Londres: Royal Society of Chemistry, 2015. v. 01, .</td></tr>
             </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B. <b>Some topics in Procrustes analysis applied to Sensometrics</b>. 1 ed. Saarbruken, Germany: Lambert Academic Publishing, 2014. v. 1, p. 122. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Some+topics+in+Procrustes+analysis+applied+to+Sensometrics&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Some+topics+in+Procrustes+analysis+applied+to+Sensometrics">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Some+topics+in+Procrustes+analysis+applied+to+Sensometrics">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B. <b>Some topics in Procrustes analysis applied to Sensometrics</b>. 1 ed. Saarbruken, Germany: Lambert Academic Publishing, 2014. v. 1, p. 122. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Marcelo Silva de ; BEARZOTI, E. ; BOAS, Francisco Luis Vilas ; NOGUEIRA, D. A. ; NICOLAU, Luci Aparecida ; OLIVEIRA, H. S. S.. <b>Introdução à Estatística</b>. 2 ed. Lavras: Editora Ufla, 2014. v. 1, p. 461. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Introdução+à+Estatística&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Introdução+à+Estatística">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+à+Estatística">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Marcelo Silva de ; BEARZOTI, E. ; BOAS, Francisco Luis Vilas ; NOGUEIRA, D. A. ; NICOLAU, Luci Aparecida ; OLIVEIRA, H. S. S.. <b>Introdução à Estatística</b>. 2 ed. Lavras: Editora Ufla, 2014. v. 1, p. 461. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, M. <b>O Lema de Darboux</b>. 1 ed. Novas Edições Acadêmicas, 2014. v. 1, p. 76. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Lema+de+Darboux&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Lema+de+Darboux">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Lema+de+Darboux">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, M. <b>O Lema de Darboux</b>. 1 ed. Novas Edições Acadêmicas, 2014. v. 1, p. 76. </td></tr>
             </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Eliseu C. <b>Miguel. O terço do meio (Doc 33)</b>. 01 ed. Alfenas - MG: Projeto Edição - Secretaria Municipal de Educação e Cultura de Alfenas, 2010. v. 500, p. 81. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Miguel.+O+terço+do+meio+(Doc+33)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Miguel.+O+terço+do+meio+(Doc+33)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Miguel.+O+terço+do+meio+(Doc+33)">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Eliseu C. <b>Miguel. O terço do meio (Doc 33)</b>. 01 ed. Alfenas - MG: Projeto Edição - Secretaria Municipal de Educação e Cultura de Alfenas, 2010. v. 500, p. 81. </td></tr>
             </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B.; GARCINDO, L. A. M. ; PEREIRA, C. M.. <b>Educação a Distância: metodologia de estudo</b>. 1 ed. Alfenas, MG: Universidade Federal de Alfenas, 2009. v. 1, p. 103. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+a+Distância:+metodologia+de+estudo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+a+Distância:+metodologia+de+estudo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+a+Distância:+metodologia+de+estudo">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B.; GARCINDO, L. A. M. ; PEREIRA, C. M.. <b>Educação a Distância: metodologia de estudo</b>. 1 ed. Alfenas, MG: Universidade Federal de Alfenas, 2009. v. 1, p. 103. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Marcelo Silva de ; BEARZOTI, E. ; BOAS, Francisco Luis Vilas ; NOGUEIRA, D. A. ; NICOLAU, Luci Aparecida. <b>Introdução à Estatística</b>. 1 ed. Lavras: Editora UFLA, 2009. v. 1, p. 334. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Introdução+à+Estatística&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Introdução+à+Estatística">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+à+Estatística">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Marcelo Silva de ; BEARZOTI, E. ; BOAS, Francisco Luis Vilas ; NOGUEIRA, D. A. ; NICOLAU, Luci Aparecida. <b>Introdução à Estatística</b>. 1 ed. Lavras: Editora UFLA, 2009. v. 1, p. 334. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>TIZZIOTTI, G. C. ; DINIZ, A. C. ; Ferreira, F.N. ; QUILLES, C. R. O.. <b>Tópicos de Álgebra - Apostila curso de pós-graduação "lato sensu". São João Del Rei: UFSJ</b>. Tópicos de Álgebra - Apostila curso de pós-graduação "lato sensu". São João Del Rei: UFSJ, 2009. p. 95. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tópicos+de+Álgebra+-+Apostila+curso+de+pós-graduação+"lato+sensu".+São+João+Del+Rei:+UFSJ&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tópicos+de+Álgebra+-+Apostila+curso+de+pós-graduação+"lato+sensu".+São+João+Del+Rei:+UFSJ">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tópicos+de+Álgebra+-+Apostila+curso+de+pós-graduação+"lato+sensu".+São+João+Del+Rei:+UFSJ">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>TIZZIOTTI, G. C. ; DINIZ, A. C. ; Ferreira, F.N. ; QUILLES, C. R. O.. <b>Tópicos de Álgebra - Apostila curso de pós-graduação "lato sensu". São João Del Rei: UFSJ</b>. Tópicos de Álgebra - Apostila curso de pós-graduação "lato sensu". São João Del Rei: UFSJ, 2009. p. 95. </td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 21:58:36<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:26:12<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

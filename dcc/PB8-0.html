@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Apresentações de trabalho'}, 
-series: [{data: [[1998,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1998,
 1],
 [2001,
 1],
@@ -146,43 +173,24 @@ series: [{data: [[1998,
 [2022,
 3],
 [2023,
-2]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+2],
+[2024,
+3]]}]});
         });
         </script>
         
                 <h3>Apresentações de trabalho</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 84<br>
+                    Número total de itens: 87<br>
                     
                     
-                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MARINHO, J. H. ; CARVALHO DIAS, T. F. ; SOUZA, F. G. R. ; PAGLIARES, R. M.. <b>MicroSTAMP: microservices for steps 1 and 2 of the System-Theoretic Process Analysis (STPA) technique - 21st International Conference on Information Technology : New Generations - ITNG - Las Vegas, Nevada, USA</b>. 2024. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>PAGLIARES, R. M.; SILVA, G. H. S. ; PIVA, G. P.. <b>JSON and XML Schemas for WebSTAMP - 21st International Conference on Information Technology : New Generations - ITNG - Las Vegas, Nevada, USA</b>. 2024. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>RUBATINO, V. ; BATISTA, A. ; SOUZA, F. G. R. ; PAGLIARES, R. M.. <b>A method based on Behavior Driven Development (BDD) and System-Theoretic Process Analysis (STPA) for verifying security requirements in critical software systems - 21st International Conference on Information Technology : New Generations - ITNG - Las Vegas, Nevada, USA</b>. 2024. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>LOPES, J. F. ; CARVALHO, I. A.. <b>Um algoritmo de seleção clonal para o problema da árvore geradora mínima com restrição de grau</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
             
             <tr valign="top"><td>2. &nbsp;</td> <td>ROCHA, G. V. C. ; CARVALHO, I. A. ; NORONHA, T. F.. <b>Uma abordagem bi-objetiva para cobertura de pontos de interesse utilizando rede de sensores sem fio</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
@@ -235,7 +243,7 @@ shadow: true}});
             
             <tr valign="top"><td>2. &nbsp;</td> <td>Brandão, Humberto; CASTILHO, DOUGLAS. <b>Sistemas Inteligentes aplicados em High-Frequency Trading</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Brandão, Humberto; CASTILHO, DOUGLAS ; SILVA, EVERTON. <b>Técnicas de Inteligência Computacional aplicadas em Negociações de Alta Frequência na BMFBOVESPA</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Brandão, Humberto; CASTILHO, DOUGLAS ; SILVA, EVERTON. <b>Técnicas de Inteligência Computacional aplicadas em Negociações de Alta Frequência na BM&FBOVESPA</b>. 2015. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
             <tr valign="top"><td>4. &nbsp;</td> <td>CARVALHO, I. A.; GOMES, M. A. ; NORONHA, T. F. ; DUHAMEL, C. ; VIEIRA, L. F. M.. <b>Heurística para o problema de construção de Árvore de Caminhos Mais Curtos Robusta para a Internet das Coisas</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
             
@@ -251,15 +259,15 @@ shadow: true}});
             
             <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, T. O. ; REZENDE, Marcelo Lacerda ; MARTINEZ, M. R.. <b>Ensino à distância pelo Observatório de Gestão Hospitalar - 'Gestão de projetos: premissas e aplicações do PMBOK'</b>. 2015. Apresentação de Trabalho/Simpósio</td></tr>
             </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Brandão, H. <b>Inteligência ?Computacional ?aplicada em Negociações de Alta Frequência na BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Brandão, H. <b>Inteligência ​Computacional ​aplicada em Negociações de Alta Frequência na BM&FBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Brandão, H. <b>Investimento em Alta Frequência para a BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Brandão, H. <b>Investimento em Alta Frequência para a BM&FBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Brandão, H. <b>Investimento em Alta Frequência para a BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Brandão, H. <b>Investimento em Alta Frequência para a BM&FBOVESPA</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
             <tr valign="top"><td>4. &nbsp;</td> <td>Brandão, H.; Braz, D. D. C. ; Silva, E. J.. <b>Computational Intelligence applied for High-Frequency Trading</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Brandão, Humberto. <b>Computational Intelligence applied for High-Frequency Trading in BMFBOVESPA</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Brandão, Humberto. <b>Computational Intelligence applied for High-Frequency Trading in BM&FBOVESPA</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
             
             <tr valign="top"><td>6. &nbsp;</td> <td>FARIA JUNIOR, A. E. ; REZENDE, Marcelo Lacerda. <b>Impactos econômicos e financeiros da expansáo da Unifal-MG para o município de Alfenas</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
             
@@ -353,5 +361,5 @@ shadow: true}});
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 07/03/2024 13:43:21<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:08:27<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

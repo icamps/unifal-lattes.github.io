@@ -1,22 +1,22 @@
 {
 "nodes":[
-{ "name":"Adhimar Flavio Oliveira", "idlattes":"1031795555698099", "rotulo":"[Sem rotulo]", "collaborationrank":1.46997773647 },
-{ "name":"Alan Bendasoli Pavan", "idlattes":"8154959660506192", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
+{ "name":"Adhimar Flávio Oliveira", "idlattes":"1031795555698099", "rotulo":"[Sem rotulo]", "collaborationrank":1.4572566747665405 },
+{ "name":"Alan Bendasoli Pavan", "idlattes":"8154959660506192", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
 { "name":"Alberto Rodriguez Ardila", "idlattes":"7982796939759440", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Alexis Roa Aguirre", "idlattes":"3842382209626823", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Danilo Roque Huanca", "idlattes":"8697679642900908", "rotulo":"[Sem rotulo]", "collaborationrank":0.698476374149 },
-{ "name":"Edisom de Souza Moreira Junior", "idlattes":"7966592529955054", "rotulo":"[Sem rotulo]", "collaborationrank":1.28145909309 },
-{ "name":"Eduardo Henrique Silva Bittencourt", "idlattes":"9213789315416977", "rotulo":"[Sem rotulo]", "collaborationrank":0.598380625248 },
-{ "name":"Fabricio Augusto Barone Rangel", "idlattes":"2436691587435689", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Hektor Sthenos Alves Monteiro", "idlattes":"2145668168587564", "rotulo":"[Sem rotulo]", "collaborationrank":0.667861819267 },
-{ "name":"Leandro Gustavo Gomes", "idlattes":"4666057965864411", "rotulo":"[Sem rotulo]", "collaborationrank":0.597295165062 },
+{ "name":"Alexis Roa Aguirre", "idlattes":"3842382209626823", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Danilo Roque Huanca", "idlattes":"8697679642900908", "rotulo":"[Sem rotulo]", "collaborationrank":0.691917359828949 },
+{ "name":"Edisom de Souza Moreira Junior", "idlattes":"7966592529955054", "rotulo":"[Sem rotulo]", "collaborationrank":1.2806977033615112 },
+{ "name":"Eduardo Henrique Silva Bittencourt", "idlattes":"9213789315416977", "rotulo":"[Sem rotulo]", "collaborationrank":0.5981743335723877 },
+{ "name":"Fabricio Augusto Barone Rangel", "idlattes":"2436691587435689", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Hektor Sthenos Alves Monteiro", "idlattes":"2145668168587564", "rotulo":"[Sem rotulo]", "collaborationrank":0.6580247282981873 },
+{ "name":"Leandro Gustavo Gomes", "idlattes":"4666057965864411", "rotulo":"[Sem rotulo]", "collaborationrank":0.5974132418632507 },
 { "name":"Luciano Fraga", "idlattes":"6549869827105994", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Marcelos Lima Peres", "idlattes":"0335350966509134", "rotulo":"[Sem rotulo]", "collaborationrank":1.24791109562 },
-{ "name":"Oscar Cavichia de Moraes", "idlattes":"0422047938601624", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Suelen de Castro", "idlattes":"9126744461400749", "rotulo":"[Sem rotulo]", "collaborationrank":1.24791109562 },
-{ "name":"Vitorio Alberto De Lorenci", "idlattes":"1361400129993392", "rotulo":"[Sem rotulo]", "collaborationrank":1.52286493778 },
-{ "name":"Carla Patricia Lacerda Rubinger", "idlattes":"5158730912554506", "rotulo":"[Sem rotulo]", "collaborationrank":0.667861819267 },
-{ "name":"Roberto Shigueru Nobuyasu Junior", "idlattes":"6458988217441388", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 }
+{ "name":"Marcelos Lima Peres", "idlattes":"0335350966509134", "rotulo":"[Sem rotulo]", "collaborationrank":1.2673882246017456 },
+{ "name":"Oscar Cavichia de Moraes", "idlattes":"0422047938601624", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Suelen de Castro", "idlattes":"9126744461400749", "rotulo":"[Sem rotulo]", "collaborationrank":1.2673882246017456 },
+{ "name":"Vitorio Alberto De Lorenci", "idlattes":"1361400129993392", "rotulo":"[Sem rotulo]", "collaborationrank":1.5237149000167847 },
+{ "name":"Carla Patricia Lacerda Rubinger", "idlattes":"5158730912554506", "rotulo":"[Sem rotulo]", "collaborationrank":0.6580247282981873 },
+{ "name":"Roberto Shigueru Nobuyasu Junior", "idlattes":"6458988217441388", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 }
 ],
 "links":[
 { "source":0, "target":4, "value":7.0 },
@@ -31,7 +31,7 @@
 { "source":8, "target":13, "value":2.0 },
 { "source":8, "target":15, "value":1.0 },
 { "source":9, "target":14, "value":3.0 },
-{ "source":11, "target":13, "value":16.0 },
+{ "source":11, "target":13, "value":17.0 },
 { "source":11, "target":15, "value":1.0 },
 { "source":13, "target":15, "value":1.0 }
 ]

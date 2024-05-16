@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Estatística Aplicada e Biometria (PPGEAB)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Estatística Aplicada e Biometria (PPGEAB)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Estatística Aplicada e Biometria (PPGEAB)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Estatística Aplicada e Biometria (PPGEAB)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Apresentações de trabalho'}, 
-series: [{data: [[2001,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2001,
 3],
 [2002,
 8],
@@ -146,46 +173,59 @@ series: [{data: [[2001,
 [2020,
 11],
 [2021,
-16],
+17],
 [2022,
-1]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+6],
+[2023,
+12],
+[2024,
+1]]}]});
         });
         </script>
         
                 <h3>Apresentações de trabalho</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 331<br>
+                    Número total de itens: 350<br>
                     
                     
-                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, E. B. <b>Publish or Perish: um programa gratuito para recuperar e analisar citações acadêmicas</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DE OLIVEIRA, ANDERSON JOSE. <b>Contribuições da Matemática em Sistemas de Comunicação</b>. 2024. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BEIJO, L A. <b>Análise de valores extremos usando o pacote evd do R</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ferreira, E.B. <b>SENSOMETRIKS: AN R PACKAGE FOR STATISTICAL ANALYSIS OF SENSORY AND CONSUMER DATA</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERREIRA, EB. <b>Sensometriks: um pacote R para análise de dados sensoriais</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE. <b>Como estudar matemática?</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE. <b>A matemática e suas potencialidades nas mais diversas áreas do saber</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE. <b>Matemática e Docência - realizando sonhos</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE. <b>Matemática Aplicada em Sistemas de Comunicação Padrão e Genético</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE. <b>Contribuições da matemática em problemas biológicos e em sistemas de comunicação</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE; QUEIROZ, C. R. O. Q. ; ALBUQUERQUE, C. D. ; GUARDIA, G. G. L. ; LIMA, L. B. ; VIEIRA, V. L. ; PALAZZO JR., REGINALDO. <b>Caracterização algébrica e geométrica associada à quantização do canal C_2,8</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE; QUEIROZ, C. R. O. Q. ; ALBUQUERQUE, C. D. ; GUARDIA, G. G. L. ; LIMA, L. B. ; VIEIRA, V. L. ; PALAZZO JR., REGINALDO. <b>Fuchsian differential equations and hyperbolic geometry in the C_2,8 channel quantization</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE; QUEIROZ, C. R. O. Q. ; PALAZZO JUNIOR, R. ; ALBUQUERQUE, C. D. ; LIMA, L. B. ; GUARDIA, G. G. L. ; VIEIRA, V. L.. <b>Caracterizações algébrica e geométrica associadas ao gênero 3 no processo de quantização do canal C_{2,8}</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos; MONTEIRO, E. ; FERREIRA, J. C. ; LEMES, N. H. T. ; RODRIGUES, D. S.. <b>Boa colocação e análise qualitativa de um modelo SEIR com difusão espacial para disseminação da COVID-19</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIAZOLI, L. ; RAMOS, P. S.. <b>A distribuição espacial do seguro rural na região Sul do Brasil</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>dos Santos, José Paulo Carvalho. <b>Equações Diferenciais de Ordem Fracionária no Estudo de Epidemias</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERREIRA, E. B. <b>Publish or Perish: um programa gratuito para recuperar e analisar citações acadêmicas</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE; PALAZZO JR., REGINALDO. <b>Caracterização da Superfície de Riemann Associada aos Coeficientes de Equações Diferenciais Fuchsianas</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, ANDERSON JOSÉ DE; TOTI, M. C. S. ; SILVA, G. H. G.. <b>Permanência no Ensino Superior: Suporte à Aprendizagem dos Conteúdos de Matemática Básica</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SANTOS, José Paulo Carvalho dos; VIJAYAKUMAR, V.. <b>Existence of asymptotically almost automorphic solutions for neutral integro-differential equations</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>BUTTURI-GOMES, D. <b>Bases matemáticas da estatística pesqueira</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
             
@@ -199,25 +239,27 @@ shadow: true}});
             
             <tr valign="top"><td>6. &nbsp;</td> <td>dos Santos, José Paulo C. <b>Um Lema de Barbalat e estabilidade assintótica global para um sistema epidemiológico de ordem fracionária</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>E.B. <b>Ferreira. ExpDes e ExpDes.pt: pacotes R para análise de experimentos</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>dos Santos, José Paulo Carvalho. <b>Continuation of mild solution for abstract fractional integro-differential equations</b>. 2021. Apresentação de Trabalho/Simpósio</td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>FERREIRA, E. B. <b>Sensometria: A Estatística aplicada à Análise Sensorial</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>E.B. <b>Ferreira. ExpDes e ExpDes.pt: pacotes R para análise de experimentos</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>FERREIRA, E. B. <b>Sensometria: Estatística aplicada à Análise Sensorial</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>FERREIRA, E. B. <b>Sensometria: A Estatística aplicada à Análise Sensorial</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>FERREIRA, E. B. <b>Elementos de análise de experimentos</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>FERREIRA, E. B. <b>Sensometria: Estatística aplicada à Análise Sensorial</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td>Ferreira, E.B. <b>Produção de Artigo Científico</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            <tr valign="top"><td>11. &nbsp;</td> <td>FERREIRA, E. B. <b>Elementos de análise de experimentos</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td>Ferreira, E.B. <b>Pacotes da família ExpDes: a análise de experimentos fácil e rápida</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ferreira, E.B. <b>Produção de Artigo Científico</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td>Ferreira, E.B. <b>Sensometria: Análise Sensorial de alimentos no software R</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>13. &nbsp;</td> <td>Ferreira, E.B. <b>Pacotes da família ExpDes: a análise de experimentos fácil e rápida</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
             
-            <tr valign="top"><td>14. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Teoria da Codificação: Álgebra Linear Aplicada à Teoria dos Códigos Corretores de Erros</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>14. &nbsp;</td> <td>Ferreira, E.B. <b>Sensometria: Análise Sensorial de alimentos no software R</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>15. &nbsp;</td> <td>PETRINI, J.; ANDRADE, B. G. ; CARDOSO, T. F. ; CESAR, A. S. M. ; VIGNATO, B. S. ; MOROTA, G. ; SPANGLER, M. L. ; REGITANO, L. C. A. ; COUTINHO, L.L. ; MOURÃO, G.B.. <b>Imputation to whole-genome sequence by using a small reference population</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>15. &nbsp;</td> <td>OLIVEIRA, A. J. <b>Teoria da Codificação: Álgebra Linear Aplicada à Teoria dos Códigos Corretores de Erros</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>16. &nbsp;</td> <td>RAMOS, P. S. <b>Análise de dados em Python</b>. 2021. Curso de curta duração ministrado/Outra</td></tr>
+            <tr valign="top"><td>16. &nbsp;</td> <td>PETRINI, J.; ANDRADE, B. G. ; CARDOSO, T. F. ; CESAR, A. S. M. ; VIGNATO, B. S. ; MOROTA, G. ; SPANGLER, M. L. ; REGITANO, L. C. A. ; COUTINHO, L.L. ; MOURÃO, G.B.. <b>Imputation to whole-genome sequence by using a small reference population</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>RAMOS, P. S. <b>Análise de dados em Python</b>. 2021. Curso de curta duração ministrado/Outra</td></tr>
             </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>AGUIRRE, A. F. L. ; NOGUEIRA, D. A. ; BEIJO, L A.. <b>Análisis bayesiano de temperatura máxima con valores extremos generalizados no estacionários</b>. 2020. Apresentação de Trabalho/Congresso</td></tr>
             
@@ -371,7 +413,7 @@ shadow: true}});
             
             <tr valign="top"><td>20. &nbsp;</td> <td>ROSARIO, A. D. ; FRIAS, L. T. G. ; RAMOS, P. S.. <b>Análise espacial do desempenho dos alunos do ensino fundamental no Sul/Sudoeste de Minas Gerais</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
             
-            <tr valign="top"><td>21. &nbsp;</td> <td>SILVA JUNIOR, M. A. ; RAMOS, P. S.. <b>Uma interface para análise estat??stica multivariada dos munic??pios brasileiros</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            <tr valign="top"><td>21. &nbsp;</td> <td>SILVA JUNIOR, M. A. ; RAMOS, P. S.. <b>Uma interface para análise estatı́stica multivariada dos municı́pios brasileiros</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
             
             <tr valign="top"><td>22. &nbsp;</td> <td>SOUZA, L. G. ; RAMOS, P. S. ; FRIAS, L. T. G.. <b>Agrupamento dos municípios do Sul/Sudoeste de Minas Gerais em relação ao envelhecimento populacional</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
             </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
@@ -517,9 +559,9 @@ shadow: true}});
             
             <tr valign="top"><td>12. &nbsp;</td> <td>RAMOS, P. S.; VIEIRA, M. T.. <b>Avaliação do procedimento de comparações múltiplas bootstrap baseado na distribuição F</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td>SANTOS, JOSÉ PAULO C. <b>DOS. Introdução ao Cálculo de Ordem Fracionária</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>13. &nbsp;</td> <td>SANTOS, JOSÉ PAULO C. <b>DOS. Equações Integro-diferenciais neutras de ordem fracionária</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>14. &nbsp;</td> <td>SANTOS, JOSÉ PAULO C. <b>DOS. Equações Integro-diferenciais neutras de ordem fracionária</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            <tr valign="top"><td>14. &nbsp;</td> <td>SANTOS, JOSÉ PAULO C. <b>DOS. Introdução ao Cálculo de Ordem Fracionária</b>. 2013. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>AVELAR, F. G. ; VIVANCO, M. J. F. ; Beijo, L.A. ; SOUZA, J. C.. <b>Período de serviço de vacas mestiças gir-holandesas</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
             
@@ -849,5 +891,5 @@ shadow: true}});
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 22:02:06<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:29:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

@@ -1,5 +1,5 @@
 strict graph grafo1 {
-	graph [bb="0,0,1536,135",
+	graph [bb="0,0,1392,135",
 		id=grafo1,
 		overlap=False
 	];
@@ -43,15 +43,23 @@ strict graph grafo1 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Eliseu Cesar Miguel [0]",
-		pos="772.5,124.5",
+		label="Eliseu Cesar Miguel [1]",
+		pos="804.5,124.5",
 		width=1.7917];
+	4	 [URL="membro-9975041225831602.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="Iago Augusto de Carvalho [1]",
+		pos="804.5,67.5",
+		width=2.1944];
+	1 -- 4	 [pos="804.5,113.78 804.5,103.59 804.5,88.348 804.5,78.173"];
 	2	 [URL="membro-1310310705488241.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
 		label="Flavio Barbieri Gonzaga [0]",
-		pos="930.5,124.5",
+		pos="962.5,124.5",
 		width=2.0972];
 	3	 [URL="membro-3832045632369639.html",
 		color="#0A6EA4",
@@ -78,25 +86,18 @@ strict graph grafo1 {
 		width=2.2222];
 	3 -- 7	 [pos="589.5,113.78 589.5,103.59 589.5,88.348 589.5,78.173"];
 	5 -- 10	 [pos="421.5,56.779 421.5,46.588 421.5,31.348 421.5,21.173"];
-	4	 [URL="membro-9975041225831602.html",
-		color="#0A6EA4",
-		fontcolor="#FFFFFF",
-		height=0.29167,
-		label="Iago Augusto de Carvalho [0]",
-		pos="1103.5,124.5",
-		width=2.1944];
 	8	 [URL="membro-6853382226977684.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
 		label="Nelson J. Freitas da Silveira [0]",
-		pos="1282.5,124.5",
+		pos="1138.5,124.5",
 		width=2.2778];
 	9	 [URL="membro-0231239253253477.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
 		label="Paulo Alexandre Bressan [0]",
-		pos="1459.5,124.5",
+		pos="1315.5,124.5",
 		width=2.125];
 }

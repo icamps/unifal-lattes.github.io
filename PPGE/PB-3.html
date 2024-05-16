@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Total de produção bibliográfica'}, 
-series: [{data: [[1989,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1989,
 1],
 [1990,
 2],
@@ -152,170 +179,757 @@ series: [{data: [[1989,
 [2012,
 200],
 [2013,
-172],
+170],
 [2014,
 153],
 [2015,
-158],
+157],
 [2016,
-189],
+190],
 [2017,
 194],
 [2018,
 156],
 [2019,
-170],
+175],
 [2020,
-136],
+138],
 [2021,
-126],
+138],
 [2022,
-43]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+146],
+[2023,
+156],
+[2024,
+27]]}]});
         });
         </script>
         
                 <h3>Total de produção bibliográfica</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 3054<br>
+                    Número total de itens: 3359<br>
                     
                     <center>Página: <a href="PB-0.html">1</a> &nbsp;<a href="PB-1.html">2</a> &nbsp;<a href="PB-2.html">3</a> &nbsp;<b>4</b> &nbsp;</center>
-                    <div id="dv-year-1998"><h3 class="year">1998</h3> <table>
-            <tr valign="top"><td>8. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Leitura e escrita: princípios naturais do gosto e do desgosto.</b>. <font color=#330066>Wpal Unir</font>. 1998.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Leitura+e+escrita:+princípios+naturais+do+gosto+e+do+desgosto.&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Leitura+e+escrita:+princípios+naturais+do+gosto+e+do+desgosto.">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Leitura+e+escrita:+princípios+naturais+do+gosto+e+do+desgosto.">busca Google</a> ]          </font><br></td></tr>
+                    <div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>27. &nbsp;</td> <td>GROPPO, L. A. <b>Terceiro Mundo e movimentos estudantis dos anos 1960</b>. <font color=#330066>Revista Educação e Cidadania, Campinas</font>. v. 4, n. 2, p. 69-86, 2005.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA EDUCAÇÃO E CIDADANIA, CAMPINAS)</td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>O particípio na língua portuguesa</b>. <font color=#330066>Wpal Unir</font>. 1998.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+particípio+na+língua+portuguesa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+particípio+na+língua+portuguesa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+particípio+na+língua+portuguesa">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>28. &nbsp;</td> <td>GROPPO, L. A. <b>Os jovens estudantes- trabalhadores do Centro Unisal: algumas reflexões.</b>. <font color=#330066>Revista de Ciências da Educação (Aparecida)</font>. v. 7, p. 133-156, 2005.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA DE CIÊNCIAS DA EDUCAÇÃO)</td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Educar faz bem à alma</b>. Jornal O Mamoré, Guajará-Mirim, 23 ago. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educar+faz+bem+à+alma&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educar+faz+bem+à+alma">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educar+faz+bem+à+alma">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>29. &nbsp;</td> <td>GROPPO, L. A. <b>Vamos para a festa! Turismo e festa popular</b>. 1 ed. Taubaté: Cabral, 2005. v. 1, p. 178. </td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Recursos para a manutenção da inteligibilidade do enunciado: um estudo da interface Semântica/Morfossintaxe através de uma língua isolante</b>. Em: <font color=#330066>IV Seminário de Estudos Lingüísticos e Literários</font>, v. 1, p. 22-44, 1998.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Recursos+para+a+manutenção+da+inteligibilidade+do+enunciado:+um+estudo+da+interface+Semântica/Morfossintaxe+através+de+uma+língua+isolante&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Recursos+para+a+manutenção+da+inteligibilidade+do+enunciado:+um+estudo+da+interface+Semântica/Morfossintaxe+através+de+uma+língua+isolante">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Recursos+para+a+manutenção+da+inteligibilidade+do+enunciado:+um+estudo+da+interface+Semântica/Morfossintaxe+através+de+uma+língua+isolante">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>30. &nbsp;</td> <td>GROPPO, L. A. <b>Uma onda mundial de revoltas. Movimentos estudantis de 1968</b>. 1 ed. Piracicaba: Editora Unimep, 2005. v. 1, p. 294. </td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A interface Semântica/Morfossintaxe. Porto Velho: Fundação Universidade Federal de Rondônia</b>. 1998. Tese de doutorado<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+interface+Semântica/Morfossintaxe.+Porto+Velho:+Fundação+Universidade+Federal+de+Rondônia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+interface+Semântica/Morfossintaxe.+Porto+Velho:+Fundação+Universidade+Federal+de+Rondônia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+interface+Semântica/Morfossintaxe.+Porto+Velho:+Fundação+Universidade+Federal+de+Rondônia">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>31. &nbsp;</td> <td>GROPPO, L. A. <b>A crise das categorias etárias e o fim da educação como pedagogia</b>. Em: <font color=#330066>VII Encontro de Pesquisa em Educação da Região Sudeste</font>, 2005.</td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td>GROPPO, L. A. <b>Juventude, mercado e rock nacional</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 15 maio 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Juventude,+mercado+e+rock+nacional&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Juventude,+mercado+e+rock+nacional">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Juventude,+mercado+e+rock+nacional">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>32. &nbsp;</td> <td>GROPPO, L. A. <b>O duplo legado da tradição marxista na Sociologia da Educação: da educação para o industrialismo à denúncia do caráter alienante da escola moderna</b>. Em: I Encontro Brasileiro de Educação e Marxismo, 2005, Bauru. I EBEM Anais, 2005. </td></tr>
             
-            <tr valign="top"><td>14. &nbsp;</td> <td>GROPPO, L. A. <b>A opulência e a arte - Minas Gerais, século XVIII</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 5, 03 maio 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+opulência+e+a+arte+-+Minas+Gerais,+século+XVIII&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+opulência+e+a+arte+-+Minas+Gerais,+século+XVIII">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+opulência+e+a+arte+-+Minas+Gerais,+século+XVIII">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>33. &nbsp;</td> <td>GROPPO, L. A. <b>Questões sobre a juventude contemporânea</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>15. &nbsp;</td> <td>GROPPO, L. A. <b>O pop-rock nacional nos anos 90</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 21 abr. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+pop-rock+nacional+nos+anos+90&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+pop-rock+nacional+nos+anos+90">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+pop-rock+nacional+nos+anos+90">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>34. &nbsp;</td> <td>GROPPO, L. A. <b>A crise das categorias etárias e o fim da educação como pedagogia</b>. 2005. Apresentação de Trabalho/Seminário</td></tr>
             
-            <tr valign="top"><td>16. &nbsp;</td> <td>GROPPO, L. A. <b>Sociedade, rock and roll e juventude</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 10, 16 abr. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sociedade,+rock+and+roll+e+juventude&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sociedade,+rock+and+roll+e+juventude">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sociedade,+rock+and+roll+e+juventude">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>35. &nbsp;</td> <td>GROPPO, L. A. <b>Condicionantes históricos da crise do governo Lula</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>17. &nbsp;</td> <td>GROPPO, L. A. <b>A prata de Potosi</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 6, 10 abr. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+prata+de+Potosi&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+prata+de+Potosi">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+prata+de+Potosi">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>36. &nbsp;</td> <td>GROPPO, L. A. <b>A atual crise do governo Lula</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>18. &nbsp;</td> <td>GROPPO, L. A. <b>Causas da decadência das Minas Gerais</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 12, 04 abr. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Causas+da+decadência+das+Minas+Gerais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Causas+da+decadência+das+Minas+Gerais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Causas+da+decadência+das+Minas+Gerais">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>37. &nbsp;</td> <td>GROPPO, L. A. <b>Um olhar sociológico sobre as juventudes modernas e contemporâneas</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>19. &nbsp;</td> <td>GROPPO, L. A. <b>A corrida do ouro</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 28 mar. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+corrida+do+ouro&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+corrida+do+ouro">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+corrida+do+ouro">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>38. &nbsp;</td> <td>GROPPO, L. A. <b>Juventudes Modernas e Contemporâneas</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>20. &nbsp;</td> <td>GROPPO, L. A. <b>A identidade do favelado</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 17 mar. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+identidade+do+favelado&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+identidade+do+favelado">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+identidade+do+favelado">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>39. &nbsp;</td> <td>GROPPO, L. A. <b>Movimentos estudantis de 1968</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
             
-            <tr valign="top"><td>21. &nbsp;</td> <td>GROPPO, L. A. <b>Paulistas, bandeirantes e as primeiras minas no Sul e Sudeste</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 12, 15 mar. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Paulistas,+bandeirantes+e+as+primeiras+minas+no+Sul+e+Sudeste&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Paulistas,+bandeirantes+e+as+primeiras+minas+no+Sul+e+Sudeste">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Paulistas,+bandeirantes+e+as+primeiras+minas+no+Sul+e+Sudeste">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>40. &nbsp;</td> <td>GROPPO, L. A. <b>O duplo legado da tradição marxista na sociologia da educação</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
             
-            <tr valign="top"><td>22. &nbsp;</td> <td>GROPPO, L. A. <b>Moradores de favelas e moradores de bairros</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 10 mar. 1998. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Moradores+de+favelas+e+moradores+de+bairros&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Moradores+de+favelas+e+moradores+de+bairros">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Moradores+de+favelas+e+moradores+de+bairros">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>41. &nbsp;</td> <td>GROPPO, L. A. <b>Crise política do governo Lula: superfície e fundamentos</b>. 2005. Texto Eletrônico</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>GROPPO, L. A. <b>Condicionantes histórico-políticos da crise do governo Lula</b>. 2005. Texto Eletrônico</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>GROPPO, L. A. <b>Comunidade, sociedade e integração sistêmica</b>. 2005. Relatório de Pesquisa</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>GROPPO, L. A. <b>Introdução: O popular e o lúdico nas festas. Taubaté, 2005. (Prefácio</b>. 2005. </td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>GROPPO, L. A. <b>Apresentação. Taubaté, 2005. (Prefácio</b>. 2005. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>GROPPO, L. A.; MESQUITA, Paulo Anibal ; CASTRO, Carlos Eduardo de ; CARRILHO, Valéria. <b>Opções para o turismo alternativo</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>HERNANDES, P. R. <b>Epistemologia</b>. <font color=#330066>Intellectus. Revista Acadêmica Digital das Faculdades UNOPEC</font>. v. 4, p. 89-91, 2005. <a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTELLECTUS. REVISTA ACADÊMICA DIGITAL DAS FACULDADES UNOPEC)</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>HORNINK, Gabriel Gerber. <b>Educação Ambiental, uma questão para todos</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>HORNINK, Gabriel Gerber. <b>Parasitoses e o saneamento ambiental</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>HORNINK, Gabriel Gerber; GALEMBECK, Eduardo. <b>Formação Inicial de Professores para uso da informática no ensino de Biologia</b>. Em: <font color=#330066>I Encontro Nacional de Ensino de Biologia e III Encontro Regional de Ensino de Biologia RJ e ES</font>, v. 1, p. 301-304, 2005.</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>HORNINK, Gabriel Gerber; GALEMBECK, Eduardo. <b>Formação tecnológica de professores de biologia com uso de softwares educacionais</b>. Em: VII CAEB- Congresso aberto aos estudante de biologia, 2005, Campinas. VII CAEB - Caderno de resumos. Campinas-SP: Gráfica SITTA, v. 1, p. 134-134, 2005. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>HORNINK, Gabriel Gerber; GALEMBECK, Eduardo. <b>Formação tecnológica de professores de Biologia com uso de softwares livres</b>. Em: VII CAEB - Congresso aberto aos estudantes de Biologia, 2005, Campinas-SP. VII CAEB - Congresso aberto aos estudante de biologia, 2005. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>HORNINK, Gabriel Gerber; GALEMBECK, Eduardo. <b>Formação Inicial de professores para uso da informática no ensino de Biologia</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R.. <b>Matemática Escolar e Diversidade Cultural</b>. Em: <font color=#330066>XI Encontro Baiano de Educação Matemática</font>, v. único, 2005.</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R.. <b>Matemática Escolar e Diversidade Cultural</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R. ; CLARETO, S. M.. <b>Múltiplas Multiplicações</b>. Em: <font color=#330066>XI Encontro Baiano de Educação Matemática: matemática e diversidade cultural</font>, 2005.</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>MARIANO, A. L. S. <b>Aprendendo a ser professor no início da carreira: um olhar a partir da ANPEd</b>. Em: <font color=#330066>28ª Reunião Anual da ANPEd</font>, 2005.</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>MARIANO, A. L. S. <b>A Construção do início da docência: reflexões a partir dos trabalhos apresentados na ANPEd e no ENDIPE</b>. Em: <font color=#330066>I Seminário de Dissertações e Teses PPGE/UFSCar</font>, p. 49-52, 2005.</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>MARIANO, A. L. S. <b>Aprendendo a ser professor no início da carreira: um olhar a partir da ANPEd</b>. Em: 28ª Reunião Anual da ANPEd, 2005, Caxambu - MG. 40 anos da Pós-Graduação em Educação no Brasil, p. 270-271, 2005. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>MARIANO, A. L. S. <b>A construção do início da docência: reflexões a partir dos trabalhos apresentados na ANPEd e no ENDIPE</b>. Em: I Seminário de Dissertações e Teses PPGE/UFSCar, 2005, São Carlos - SP. I Seminário de Dissertações e Teses, p. 49-49, 2005. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>MARIANO, A. L. S. <b>Discutindo o conceito de reflexão a partir dos trabalhos apresentados da ANPEd sobre professor iniciante</b>. 2005. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>MARIANO, A. L. S. <b>Aprendendo a ser professor no início da carreira: um olhar a partir da ANPEd</b>. 2005. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>MARIANO, A. L. S. <b>A construção do início da docência: reflexões a partir dos trabalhos apresentados na ANPEd e no ENDIPE</b>. 2005. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>MARIANO, A. L. S.; LIMA, E. F.. <b>A Construção do início da docência: apontamentos preliminares</b>. Em: 6ª Jornada Científica da UFSCar, 2005, São Carlos - SP. Anais de Eventos da UFSCar, v. v.1, 2005. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>MARIANO, A. L. S.; LIMA, E. F.. <b>Discutindo o conceito de reflexão a partir dos trabalhos apresentados da ANPEd sobre professor iniciante</b>. Em: VII Encontro de Pesquisa em Educação da Região Sudeste, 2005, Belo Horizonte - MG. Educação: Direito ou srviço?, p. 256-256, 2005. </td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>MARIANO, A. L. S.; LIMA, E. F.. <b>O multiculturalismo crítico e a formação de professores: algumas considerações</b>. Em: Encontro Regional do ICET (International Council on Education for Teaching), 2005, São Carlos - SP. Anais do Encontro Regional do ICET, 2005. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>MARIANO, A. L. S.; LIMA, Emília Freitas de. <b>Discutindo o conceito de reflexão a partir dos trabalhos apresentados da ANPEd sobre professor iniciante</b>. Em: <font color=#330066>VII Encontro de Pesquisa em Educação da Região Sudeste</font>, 2005.</td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>MARIANO, A. L. S.; LIMA, Emília Freitas de. <b>O Multiculturalismo Crítico e a Formação de Professores: algumas considerações</b>. Em: <font color=#330066>Encontro Regional do ICET (International Council Education for Teaching)</font>, 2005.</td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>MARIANO, A. L. S.; LIMA, Emília Freitas de. <b>A Construção do início da docência: apontamentos preliminares</b>. 2005. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>MONACO, S.A.S. <b>AlfabetizadorxAlfabetizando: Uma relação de Alteridade</b>. Em: VI Semana da Alfabetização, 2005, São Paulo-SP. VI Semana da Alfabetização- Alfabetização e Desenvolvimento Humano. São Paulo-SP: http://www.semana.org.br, 2005. </td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>MONACO, S.A.S. <b>'Alfabetizador x Alfabetizando: Uma relação de Alteridade'</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>OLIVEIRA, F. <b>Um estudo sobre a creche envolvendo a questão racial</b>. Em: 6a Jornada Científica da UFSCar, 2005, São Carlos. Anais de Eventos da UFSCar, v. V. 1, p. 01-02, 2005. </td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>OLIVEIRA, F. <b>A formação de educadores e as diferenças</b>. Em: VII Congresso Estadual Paulista sobre Formação de Professores, 2005, Águas de Lindóia. Modos de ser Educador: artes e técnicas - ciências e políticas, p. 238-238, 2005. </td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>OLIVEIRA, F.; ABRAMOWICZ, A.. <b>A 'paparicaçao' na creche enquanto uma prática que inviabiliza a construção de uma educação da 'multidão'</b>. Em: <font color=#330066>28a Reunião Anual da ANPEd</font>, 2005.</td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>OLIVEIRA, F.; ABRAMOWICZ, A.. <b>Um estudo sobre a creche: o que as práticas pedagógicas produzem e revelam sobre a questão racial?</b>. 2005. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>OLIVEIRA, F.; ABRAMOWICZ, A.. <b>Formação de Professores e as Diferenças</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>OLIVEIRA, F.; ABRAMOWICZ, A.. <b>A escola e a construção da identidade na diversidade. São Paulo: Governo do Estado de São Paulo, 2005 (material</b>. 2005. material didático (apostila para professores)</td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>O compromisso institucional da universidade com a formação de professores</b>. <font color=#330066>REVISTA IBEROAMERICANA DE EDUCACIÓN (ONLINE), OEI - Espanha</font>. v. 35/5, p. 1-10, 2005. <a href="http://dx.doi.org/10.13140/RG.2.2.24516.83845" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA IBEROAMERICANA DE EDUCACIÓN , OEI - ESPANHA)</td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Anais do 1º Encontro de Produção Acadêmica do curso de Pedagogia. <b>São João da Boa Vista, SP, 2005. (Prefácio</b>. 2005. </td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Apontamentos sobre o autistas e seu desenvolvimento. <b>Revista Electronica de Psiquiatria, Espanha</b>. <font color=#330066></font>. v. 09, n. nº 4, p. 1-2, 2005.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> ()</td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Comunicação Suplementar Alternativa (CSA) como apoio no desenvolvimento da linguagem do autista. <b>In: XVIII Congresso da Associação Brasileira de Neurologia e Psiquiatria Infantil (ABENEPI). XV Congresso da Federação Latino-Americana de Psiquiatria da Infância, Adolescência, Família e Profissões Afins. I Jornada de Saúde Mental da Sociedade Paranaense de, 2005, Curitiba - PR. O futuro de uma geração: multidisciplinaridade e avanços no atendimento da criança, do adolescente e da família.. Curitiba - PR: ABENEPI</b>. p. 7-7, 2005. </td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Integração e afetividade na relação familiar do autista. <b>In: IV Congresso de Neuropsicologia e Aprendizagem., 2005, Poços de Caldas - MG. Neuropsicologia e aprendizagem.. Poços de Caldas - MG: Esphera Comunicação e Design</b>. p. 7-7, 2005. </td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Linguagem e interação social da pessoa com autismo. <b>In: XVIII Congresso da Associação Brasileira de Neurologia e Psiquiatria Infantil (ABENEPI). XV Congresso da Federação Latino-Americana de Psiquiatria da Infância, Adolescência, Família e Profissões Afins. I Jornada de Saúde Mental da Sociedade Paranaense de, 2005, Curitiba - PR. O futuro de uma geração: multidisciplinaridade e avanços no atendimento da criança, do adolescente e da família.. Curitiba - PR: ABENEPI</b>. p. 7-7, 2005. </td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>ORRÚ, Sílvia Ester. O desenvolvimento da linguagem e a construção de significados em crianças com autismo. <b>In: 1º Congresso Brasileiro de Comunicação Alternativa - Isaac Brasil e 1ºCongresso Internacional de Linguagem e Comunicação da Pessoa com Deficiência., 2005, Rio de Janeiro. Um retrato da Comunicação Alternativa no Brasil. Rio de Janeiro: Isaac</b>. p. 19-20, 2005. </td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Os Sistemas de Comunicação Alternativa como recurso à construção do signo para o desenvolvimento da linguagem de pessoas com autismo. <b>In: 3ª Mostra Acadêmica da Unimep, 2005, Piracicaba, SP. 3º Mostra Acadêmica Unimep. Piracicaba, SP: Unimep</b>. p. 1-3, 2005.</td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Reuven Feuerstein e a teoria da Modificabilidade Cognitiva Estrutural: um pouco de sua história. <b>Revista Humanidades</b>. <font color=#330066>Série Letras (FEOB), São João da Boa Vista, SP.</font>. v. x, p. 113-129, 2005.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (SÉRIE LETRAS , SÃO JOÃO DA BOA VISTA, SP.)</td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Revista Humanidades. <b>São João da Boa Vista, 2005. (Prefácio</b>. 2005. </td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino. <b>Diversidade Cultural, questão racial e educação de jovens e adultos: refletindo sobre a formação continuada de professores(as)</b>. Em: <font color=#330066>I Seminário Internacional Educação e População Negra: Políticas Contemporâneas</font>, p. 01-15, 2005.</td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino. <b>Diversidade cultural, questão racial e educação de jovens e adultos: refletindo sobre a formação continuada de professores(as)</b>. Em: I Seminário Internacional Educação e População Negra: políticas contemporâneas, 2005, Niterói - RJ.. I Seminário Internacional Educação e População Negra: políticas contemporâneas. Niterói - RJ: Editora da Universidade Federal Fluminense, p. 65-66, 2005. </td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino. <b>Diversidade cultural, questão racial e educação de jovens e adultos: refletindo sobre a formação continuada de professores(as)</b>. 2005. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino. <b>Diversidade Cultural, Questão Racial e Educação de Jovens e Adultos: refletindo sobre a formação continuada de professores(as). Belo Horizonte: Faculdade de Educação/UFMG</b>. 2005. Monografia de Conclusão de Graduação</td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>Mídias e cultura cotidiana nas aulas de história. Educação em Foco (Belo Horizonte</b>. <font color=#330066>2005), Belo Horizonte-MG</font>. v. 1, p. 23-40, 2005.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2005), BELO HORIZONTE-MG)</td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>Princípios paradigmáticos da relação entre cultura e ensino de história</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>Cultura juvenil em processos de iniciação científica</b>. 2005. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>TORRES, M. E. A. C. <b>"A psicanálise como tópico na abordagem discursiva no ensino de LE: a negação e a rejeição revelando conteúdos reprimidos"</b>. Em: GEL 2005, 2005, São Carlos. 53o. Seminário do GEL, 2005. </td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>TORRES, M. E. A. C. <b>A Enunciação e o processo de tomada de palavra: estratégias metacomunicativas</b>. Em: 15o. Inpla, 2005, São Paulo. 15o. Inpla -, v. CDrom, 2005. </td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>TOTI, F. A. <b>O uso do conhecimento produzido em atividades profissionais no ensino de Fìsica para alunos trabalhadores no Ensino Médio</b>. Em: <font color=#330066>I seminários de dissertações e teses do PPGE</font>, 2005.</td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>TOTI, F. A.; PIERSON, A. H. C.. <b>O uso do conhecimento produzido em atividades profissionais no ensino de Fìsica para alunos trabalhadores no Ensino Médio</b>. 2005. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FARIA, M. R. <b>A importância de se entender a cultura de um povo</b>. Jornal Domingo, Pouso Alegre - MG, 01 ago. 2004. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos</b>. <font color=#330066>Estágio Curricular: Espaço para aprendizagens significativas. Fórum Internacional de Educação - Textos, Universidade Federal da Paraíb,</font>. p. 282-285, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (ESTÁGIO CURRICULAR: ESPAÇO PARA APRENDIZAGENS SIGNIFICATIVAS. FÓRUM INTERNACIONAL DE EDUCAÇÃO - TEXTOS, UNIVERSIDADE FEDERAL DA PARAÍB,)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>O Novo Sistema de Avaliação do Ensino Superior Brasileiro</b>. <font color=#330066>Cepla Working Papers, Rondônia</font>. v. 56, n. 1, p. 1-18, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CEPLA WORKING PAPERS, RONDÔNIA)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A Pretensa Voz Passiva em Português do Brasil</b>. Em: <font color=#330066>Colóquio de Americanistas</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FILGUEIRAS, J. M. <b>O livro didático de educação moral e cívica no período da ditadura militar</b>. 2004. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GALEMBECK, Eduardo ; TORRES, Bayardo Baptista ; MACEDO, Denise Vaz de ; YOKAICHIYA, Daniela Kiyoko ; HORNINK, Gabriel Gerber ; BRUM, Itaraju Júnior Baracuhy ; SANTORO, Carlos Eduardo ; FRACETO, Leonardo F ; MIRANDA, Marcio A. <b>CD-ROM Bioquímica Softwares Educacionais. São Paulo: Kitmais (R) Serviços e Comércios LTDA</b>. 2004. R) Serviços e Comércios LTDA, 2004 (CD ROM</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GALEMBECK, Eduardo ; TORRES, Bayardo Baptista ; ORSI, Cintia Hotta ; FREITAS, Daniel Roberto Coradi ; YOKAICHIYA, Daniela Kiyoko ; SOARDI, Fernanda ; HORNINK, Gabriel Gerber ; PETERS, Helene ; SFAIR, Júlia Caram. <b>Manual do Usuário: Biologia em Multimeios</b>. 1 ed. São Paulo: Kitmais (r) Comércios e Serviços LTDA, 2004. v. 1, p. 96. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GIROTTO, V. C.; ABRAMOWICZ, A. ; CERMINARO, R. ; FERREIRA, I. F. ; ZAIATE, S.. <b>Fim do Cefam: efeitos e impactos</b>. Em: XII CIC_Congresso de Iniciação Cientifica da UFSCar, 2004, São Carlos. XII CIC- Congresso de iniciação cientifica da UFSCar, 2004. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>GIROTTO, V. C.; SILVA, S. R. M.. <b>V Encontro Regional de biblioteconomia e ciencia da informação</b>. Em: <font color=#330066>v encontro Regional de Biblioteconomia e Ciencia da Informacao</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>GIROTTO, V. C.; SILVA, S. R. M.. <b>Biblioteca Tutorada: democratização do conhecimento e da informação em Comunidades de Aprendizagem</b>. 2004. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>GIROTTO, V. C.; SILVA, S. R. M. ; PASCHOALINO, R. ; GABASSA, V.. <b>III Seminário Biblioteca Escolar Espaço de Ação Pedagógica</b>. Em: <font color=#330066>III Seminário de Biblioteca Escolar Espaço de Ação Pedagógica</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>GROPPO, L. A. <b>Contracultura, juventude e lazer</b>. <font color=#330066>Licere (Belo Horizonte), Belo Horizonte</font>. v. 7, n. 2, p. 62-72, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LICERE , BELO HORIZONTE)</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>GROPPO, L. A. <b>Dialética das juventudes modernas e contemporâneas</b>. <font color=#330066>Revista do COGEIME, Piracicaba</font>. v. 13, n. 25, p. 9-22, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA DO COGEIME, PIRACICABA)</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>GROPPO, L. A. <b>O ensino de Comunicação Social: novas tecnologias da mídia e a globalização</b>. <font color=#330066>Revista Ciência e Tecnologia, Campinas</font>. v. VII, n. 11, p. 107-115, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA CIÊNCIA E TECNOLOGIA, CAMPINAS)</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>GROPPO, L. A. <b>Autogestão, educação e movimentos estudantis dos anos 1960</b>. <font color=#330066>Gestão em Ação (Salvador), Salvador</font>. v. 7, n. 2, p. 179-196, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (GESTÃO EM AÇÃO , SALVADOR)</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>GROPPO, L. A. <b>Oriente e Ocidente em Marx</b>. <font color=#330066>Outubro (São Paulo), São Paulo</font>. n. 10, p. 109-128, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (OUTUBRO , SÃO PAULO)</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>GROPPO, L. A. <b>O fim da educação como pedagogia e a crise das categorias etárias: entre a barbárie e a pós-modernidade</b>. <font color=#330066>Revista de Ciências da Educação (Aparecida), Lorena</font>. v. 06, n. 11, p. 11-42, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA DE CIÊNCIAS DA EDUCAÇÃO , LORENA)</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>GROPPO, L. A. <b>A condição juvenil e os movimentos estudantis dos anos 1960</b>. 2004. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>GROPPO, L. A. <b>Ser jovem no mundo atual</b>. 2004. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>HERNANDES, P. R. <b>A Encenação para o Espírito</b>. Em: <font color=#330066>IV Encontro Nacional: História</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>HERNANDES, P. R. <b>Religiosidade e Cultura Brasileira - Leitura Crítica</b>. Em: <font color=#330066>IV Encontro Nacional: História</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>HORNINK, Gabriel Gerber; ORSI, Cintia Hotta ; YOKAICHIYA, Daniela Kiyoko ; SOARDI, Fernanda ; PETERS, Helene ; SFAIR, Júlia Caram ; FREITAS, Daniel Roberto Coradi ; GALEMBECK, Eduardo. <b>CD ROM - Biologa em Multimeios. São Paulo: KITMAIS (R) Comércios e Serviços LTDA</b>. 2004. R) Comércios e Serviços LTDA, 2004 (CD ROM</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>JULIO, R. <b>S.; DETONI, A R. ; CLARETO, S. M. . VII EPEM</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>JULIO, R. S.; AGUIAR, F. R. ; DETONI, A R.. <b>Uma Matemática mais Significativa</b>. Em: I Mostra de Trabalhos de Graduação de Pós-Graduação da UFJF: XI Seminário de Iniciação Científica, 2004, Juiz de Fora. I Mostra de Trabalhos de Graduação e Pós Graduação da UFJF. Juiz de Fora: Meio Magnético, 2004. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>JULIO, R. S.; AGUIAR, F. R. ; DETONI, A R.. <b>I Mostra de Graduação e Pós-Graduação da UFJF: XI Seminário de Iniciação Científica</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R. ; AGUIAR, F. R.. <b>Matemática e Currículo</b>. Em: I Mostra de Trabalhos de Graduação e Pós-Graduação da UFJF, 2004, Juiz de Fora. I Mostra de Trabalhos de Graduação e Pós-Graduação da UFJF: XI Seminário de Iniciação Científica. Juiz de Fora, v. único, 2004. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R. ; AGUIAR, F. R.. <b>I Mostra de Trabalhos de Graduação e Pós-Graduação da UFJF: XI Seminário de Iniciação Científica</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R. ; CLARETO, S. M.. <b>Múltiplas Multiplicações</b>. Em: <font color=#330066>VII EPEM</font>, v. único, 2004.</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>JULIO, R. S.; DETONI, A R. ; CLARETO, S. M.. <b>Múltiplas Multiplicações</b>. Em: VII EPEM, 2004, São Paulo. Matemática na Escola: Conteúdos e Contextos - Resumos, 2004. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>KIILL, K. B.; HARTWIG, Dácio Rodney ; FERREIRA, Luis Henrique. <b>Identificação qualitativa de íons ferro em produtos comerciais</b>. Em: XXVI Congreso Latinoamericano de Química - 27ª Reunião Anual da Sociedade Brasileira de química, 2004, Salvador. XXVI Congreso Latinoamericano de Química - 27ª Reunião Anual da Sociedade Brasileira de Química, 2004. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>KIILL, K. B.; HARTWIG, Dácio Rodney ; FERREIRA, Luis Henrique. <b>Práticas Experimentais de Extração e Identificação do Elemento Cálcio</b>. Em: XXVI Congreso Latinoamericano de Química - 27ª Reunião Anual da Sociedade Brasileira de química, 2004, Salvador. XXVI Congreso Latinoamericano de Química - 27ª Reunião Anual da Sociedade Brasileira de Química, 2004. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>KIILL, K. B.; HARTWIG, Dácio Rodney ; FERREIRA., L. H.. <b>O uso de um material instrucional como instrumento didático na contextualização de ensino de química</b>. Em: <font color=#330066>XII ENDIPE - Encontro Nacional de Didática e Prática de Ensino</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>MARIANO, A. L. S. <b>Educação para o Pensar, Educação Matemática e PCN: uma aproximação possível?</b>. <font color=#330066>REVISTA SUL-AMERICANA DE FILOSOFIA E EDUCAÇÃO</font>. v. 2, p. 1-7, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA SUL-AMERICANA DE FILOSOFIA E EDUCAÇÃO)</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>MARIANO, A. L. S. <b>Educação para o Pensar, Educação Matemática e PCN: uma aproximação possível?</b>. Em: <font color=#330066>Colóquio Filosofia</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>MARIANO, A. L. S. <b>Primeiro Amor. Petrópolis: Vozes, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>MARIANO, A. L. S. <b>Será mesmo verdade?. Petrópolis: Vozes, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>MARIANO, A. L. S. <b>Azul ou rosa?. Petrópolis: Vozes, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>MARIANO, A. L. S. <b>Coisas de criança. Petrópolis: Vozes, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>MARIANO, A. L. S. <b>O buraquinho da fechadura. Petrópolis: Vozes, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>MARIANO, A. L. S. <b>Mania de adulto. Petrópolis: Vozes, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>MARIANO, A. L. S. <b>Educação Básica</b>. 2004. Verbete</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>MARIANO, A. L. S. <b>Confusão do Amor. São Paulo: Pioneira Thomson Learning, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>MARIANO, A. L. S.; ALMEIDA, L. D. ; RAMOS-DE-OLIVEIRA, Paula. <b>Embolada. Petrópolis: Vozes, 2004 (História Filosófica para o Ensino</b>. 2004. História Filosófica para o Ensino Fundamental (1ª a 4ª série)</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>MONACO, S.A.S. <b>Ëtica: Alteridade e Nostridade em Sala de Aula. Revista Humanidades</b>. <font color=#330066>Série Letras (FEOB), São João da Boa Vista/SP</font>. v. 6, n. 6, p. 171-179, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (SÉRIE LETRAS , SÃO JOÃO DA BOA VISTA/SP)</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>MONACO, S.A.S. <b>Política Assistencialista, Sociedade e Educação Excludente</b>. Jornal A Mococa, Mococa-SP, p. 12-12, 10 jul. 2004. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>MONACO, S.A.S.; OUTROS. <b>Formação Ética do Professor: Educar para os Desejos ou Para Vontade?</b>. Em: Moreira, Ivanilde. (Org.). Docência no Ensino Superior: Ser ou Estar Professor? Eis a Questão. 01ed.São Paulo-SP. : Reis Editorial. 2004.v. 1, p. 59-64. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>OLIVEIRA, Elânia de ; SILVA, Natalino Neves da ; FERREIRA, Shirley de Jesus. <b>Reflexões sobre identidade e discurso em oficinas culturais</b>. Em: Nilma Lino Gomes; Aracy Alves Martins. (Org.). Afirmando direitos: acesso e permanência de jovens negros na universidade. Belo Horizonte. : Autêntica Editora. 2004.p. 157-161. </td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>OLIVEIRA, F. <b>Um estudo sobre a creche: o que as práticas pedagógicas produzem e revelam sobre a questão racial?</b>. Em: Associação Nacional de Pós-Graduação e Pesquisa em Educação, 2004, Caxambú - MG. Sociedade, Democracia e Educação: Qual Universidade?, v. V. 1, p. 01-01, 2004. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>OLIVEIRA, F. <b>A creche e a questão racial</b>. 2004. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>A Extensão Universitária na Formação do Pedagogo</b>. <font color=#330066>Revista Humanidades. Série Letras (FEOB), São João da Boa Vista: UNIFEOB</font>. v. -, p. 201-203, 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA HUMANIDADES. SÉRIE LETRAS , SÃO JOÃO DA BOA VISTA: UNIFEOB)</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Fazer a diferença: um desafio na formação do pedagogo</b>. FEOB Agora, São João da Boa Vista, , v. ano 4, p. 2-2, 19 jul. 2004. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>ORRÚ, Sílvia Ester. As múltiplas faces da avaliação: teoria e prática na educação. <b>São João da Boa Vista, SP, 2004. (Prefácio</b>. 2004. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Educação Especial, equoterapia e comunicação suplementar alternativa: possibilidades de ensino e avaliação. <b>In: Sílvia Ester Orrú; Roberto Valdés Puentes. (Org.). As múltiplas faces da avaliação: teoria e prática na educação.. São João da Boa Vista</b>. Em: . : UNIFEOB. 2004.p. 175-190. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>ORRÚ, Sílvia Ester. O compromisso institucional da universidade com a formação de professores. <b>In: 5º Congresso Regional de Educação, 2004, São José do Rio Pardo. Saberes teóricos e saberes da prática na formação de professores.. São José do Rio Pardo: FFCL e UNIFEOB</b>. p. 1-14, 2004.</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Os estudos das teorias educativas na América Latina. <b>São João da Boa Vista, SP., 2004. (Prefácio</b>. 2004. </td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Revista Humanidades. <b>São João da Boa Vista, SP, 2004. (Prefácio</b>. 2004. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>ORRÚ, Sílvia Ester; LEYVA-NÁPOLES, Ricardo Alain. <b>Autismo: aparente insensibilidade à dor - relato de caso</b>. Em: 6º Congresso Brasileiro de Dor, 2004, Florianópolis - SC. Suplemento da Revista da Sociedade Brasileira para Estudo da Dor. Mirandópolis - SP: Âmbito Editores Ltda, v. 5, p. 16-17, 2004. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>ORRÚ, Sílvia Ester; PUENTES, Roberto Valdés (Org.). <b>As múltiplas faces da avaliação: teoria e prática na educação.. São João da Boa Vista: UNIFEOB</b>. As múltiplas faces da avaliação: teoria e prática na educação.. São João da Boa Vista: UNIFEOB, 2004. v. 1, p. 300. </td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Ações Afirmativas: o (re)encontro com a identidade étnico-racial</b>. Em: Nilma Lino Gomes; Aracy Alves Martins. (Org.). Afirmando direitos: acesso e permanência de jovens negros na universidade. Belo Horizonte. : Autêntica Editora. 2004.p. 231-236. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Diversidade cultural e educação de jovens e adultos: refletindo sobre a prática e a formação continuada dos/as professores/as da EJA</b>. Em: II Encontro Nacional Negros/as e Educação - Educar o Brasil com raça construindo uma Pedagogia Multirracial e popular, 2004, Florianópolis - Santa Catarina. Cadernos de Resumos II Encontro Nacional Negros/as e Educação - Educar o Brasil com raça construindo uma Pedagogia Multirracial e popular, 2004. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>24º Encontro Nacional dos Estudantes de Pedagogia UFRN - Natal - RN. Ministrante do Mini-curso intitulado: A construção da Gestão democrática da educação no século XXI: o desafio de toda comunidade escolar</b>. 2004. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino ; FERREIRA, Shirley de Jesus. <b>Fórum Mundial da Educação São Paulo</b>. Em: Fórum Mundial da Educação São Paulo, 2004, São Paulo. Fórum Mundial da Educação São Paulo, 2004. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino ; SANTOS, Cynthia Adriadne ; FERREIRA, Shirley de Jesus. <b>Identidades e Corporeidades Negras: a formação de professores voltada para a diversidade étnico-racial</b>. Em: <font color=#330066>2° Congresso Brasileiro de Extensão Universitária</font>, 2004.</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>SILVA, Natalino Neves da; SANTOS, Wanderley Moreira dos. <b>Educação e Relações Raciais: um olhar da psicologia e da pedagogia</b>. Em: <font color=#330066>I Colóquio de Psicologia PUC MINAS - São Gabriel</font>, p. 72-76, 2004.</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>TORRES, M. E. A. C. <b>O Letramento sancionado na escola e as expectativas da comunidade</b>. <font color=#330066>Revista Sínteses, UNICAMP</font>. 2004.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA SÍNTESES, UNICAMP)</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>TORRES, M. E. A. C. <b>A competência de leitura na formação do professor: a história de letramento</b>. Em: 14o. InPLA - Iintercâmbio de Pesquisas em Linguística Aplicada, 2004, São Paulo. Anais do Inpla, v. unico, 2004. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>TORRES, M. E. A. C. <b>Reflexões sobre a prática do alfabetizador e a influência da sua história de letramento</b>. Em: GEL - Grupo de estudos Linguísticos, 2004, Campinas. 52o. Seminários do Gel 2004 - IEL - UNICAMP. Campinas: editora da Unicamp, v. unico, p. 37, 2004. </td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>XAVIER, Cristiane. F. <b>Avaliação do aproveitamento acadêmico</b>. 2004. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ASSIS, P. A. M. ; MONACO, S.A.S.. <b>Descrição de uma Experiência de Educação Para o Pensar-Filosofia para Crianças-Projeto CESG de Guaranésia</b>. Em: Semana Pedagógica CESG, 2003, Guuaxupé. Revista de Iniciação Científica FAFIG/FACEG. Guaxupé-MG, v. 3, p. 90-95, 2003. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BREGANHOLI, V. C. ; GIROTTO, V. C.. <b>Interações e processo de ensino e aprendizagem em duas turmas do Brasil Alfabetizado</b>. 2003. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. Estágio Curricular: Espaço / Tempo de articulação entre a teoria e a prática</b>. Em: <font color=#330066>Seminário Internacional de Educação</font>, 2003.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. A Formação Prática de Professores no Estágio Curricular</b>. Em: I Congresso Brasileiro de Formação de Professores, 2003, Campo Largo - PR. Anais do I Congresso Brasileiro de Formação de Professores, 2003. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FELÍCIO, Helena M. dos. O Estágio Curricular na Formação de Professores: Uma experiência em construção. <b>In: 26ª Reunião Anual da ANPED, 2003, Poços de Caldas - MG. O Estágio Curricular na Formação de Professores: Uma experiência em construção</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Estudo Comparativo da Lei 9394 (LDBN) e Outras Leis Menores de Nível Nacional com a Resolução 0138/99/CEE/RO (LDBE)</b>. <font color=#330066>Cepla Working Papers</font>. v. 1, n. 68, p. 1-9, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CEPLA WORKING PAPERS)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A influência do sistema escolar brasileiro nas relações humanas entre educadores.</b>. <font color=#330066>Cepla Working Papers, Porto Velho</font>. v. 1, p. 01-13, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CEPLA WORKING PAPERS, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Considerações sobre a Zona de Desenvolvimento Proximal com base nas idéias de Vygotkii</b>. <font color=#330066>Cepla Working Papers</font>. v. 01, n. 75, p. 01-13, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CEPLA WORKING PAPERS)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Da Natureza do Significado e Suas Implicações</b>. <font color=#330066>Língua Viva (Guajará-Mirim), Porto Velho</font>. v. 01, n. 01, p. 07-15, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LÍNGUA VIVA , PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Da (Im)Pessoalidade Científica</b>. <font color=#330066>Língua Viva (Guajará-Mirim), Porto Velho</font>. v. 01, n. 01, p. 96-121, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LÍNGUA VIVA , PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Livres Pensares</b>. 01 ed. Porto Velho: Editora da Universidade Federal de Rondônia, 2003. v. 500, p. 142. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Conversas Animais</b>. 01 ed. Porto Velho: Editora da Universidade Federal de Rondônia - EDUFRO, 2003. v. 500, p. 192. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A Política Educacional no Processo de Mudança Iniciado no Brasil</b>. Em: <font color=#330066>X Congresso de Trabalhadores em Educação</font>, v. 01, p. 15-25, 2003.</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Especialização Fonossemântica dos Sentidos: nunciados Afirmativos e Interrogativos em Português e Wari</b>. Em: VIII Seminário de Estudos Lingüísticos e Literários, 2003, Vilhena. Anais do VIII Seminário de Estudos Lingüísticos e Literários, v. 1, p. 30-30, 2003. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Normas de Publicação de Monografias, Dissertações e Teses - III Edição (Com as últimas modificações da ABNT). Guajará-Mirim: CEPLA</b>. 2003. Com as últimas modificações da ABNT). Guajará-Mirim: CEPLA, 2003 (Manual</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; OLIVEIRA, Katianny Rodrigues de. <b>Especialização Fonossemântica dos Enunciados Afirmativos do Wari</b>. <font color=#330066>Cd Rom Relatório do Seminário de Iniciação Científica Unir 2003, Porto Velho</font>. v. 01, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CD ROM RELATÓRIO DO SEMINÁRIO DE INICIAÇÃO CIENTÍFICA UNIR 2003, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; RIBEIRO, D. P.. <b>Especialização Fonossemântica dos Enunciados Interrogativos do Wari</b>. <font color=#330066>Cd Rom do Relatório do Seminário de Iniciação Científica da Unir 2003, Porto Velho</font>. v. 01, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CD ROM DO RELATÓRIO DO SEMINÁRIO DE INICIAÇÃO CIENTÍFICA DA UNIR 2003, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; TELES, Iara Maria. <b>A Especialização Fonossemântica em Enunciados de Contato Wari-Brasileiro</b>. Em: <font color=#330066>VII Seminário de Estudos Lingüísticos e Literários</font>, v. 01, p. 12-12, 2003.</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; TELES, Iara Maria ; MAEDA, C. T.. <b>Especialização Fonossemântica dos Sentidos no Português do Brasil</b>. <font color=#330066>Práxis (Rolim de Moura), Cacoal, RO</font>. v. 4, n. 1, p. 101-122, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (PRÁXIS , CACOAL, RO)</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>GIROTTO, V. C.; BREGANHOLI, V. C.. <b>Interações e processo de ensino e aprendizagem em duas turmas do Brasil Alfabetizado</b>. Em: I Congresso regional de Educação de Pessoas Adultas-CREPA, 2003, São Carlos. ICongresso Regional de Pessoas Adultas, 2003. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>GOMES, C. GOMES, Claudia; Barbosa. A. J. G.. <b>Portadores de Necessidades Educacionais Especiais: nível de concordância de professores quanto a inclusão escolar</b>. Em: 1º Congresso Brasileiro de Educação Especial, 2003, São Carlos / SP. 1º Congresso Brasileiro de Educação Especial, 2003. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>GOMES, C. GOMES, Claudia; Gonçalves, A. J. B.. <b>Inclusão Escolar do portador de paralisia cerebral: atitudes de professores do ensino fundamental</b>. 2003. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>GOMES, C. GOMES, Claudia; Gonçalves, A. J. B.. <b>Portadores de Necessidades Educacionais Especiais: índice de concordância de professores quanto a inclusão escolar</b>. 2003. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>GROPPO, L. A. <b>Lamentos que vêm do Norte: a crítica à globalização em David Korten</b>. <font color=#330066>Ciências Sociais Unisinos, São Leopoldo/ RS</font>. v. 39, n. 163, p. 81-107, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CIÊNCIAS SOCIAIS UNISINOS, SÃO LEOPOLDO/ RS)</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>GROPPO, L. A. <b>Alegoria e modernidade na obra de Walter Benjamin</b>. <font color=#330066>Cultura Vozes, Petrópolis/ RJ</font>. v. 97, n. 3, p. 15-28, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CULTURA VOZES, PETRÓPOLIS/ RJ)</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>GROPPO, L. A. <b>O Império, o Oriente e a Resistência: algumas considerações sobre os significados históricos da Guerra do Iraque</b>. <font color=#330066>Idéias & Argumentos, Americana/ SP</font>. v. 3, n. 8, p. 192-205, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IDÉIAS & ARGUMENTOS, AMERICANA/ SP)</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>GROPPO, L. A. <b>A educação e a juventude como técnicas sociais na obra de Karl Mannheim</b>. <font color=#330066>Revista de Ciências da Educação (Aparecida), Lorena</font>. v. 5, n. 9, p. 233-256, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA DE CIÊNCIAS DA EDUCAÇÃO , LORENA)</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>GROPPO, L. A. <b>Conservadores numa nova era de revolução social</b>. <font color=#330066>Espaço Científico (ULBRA), Santarém/PA</font>. v. 4, n. 1/2, p. 59-68, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (ESPAÇO CIENTÍFICO , SANTARÉM/PA)</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>GROPPO, L. A. <b>Identidade e diversidade juvenil</b>. 2003. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>GROPPO, L. A. <b>Concepções de juventude</b>. 2003. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>GROPPO, L. A. <b>Festas da Região</b>. 2003. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>GROPPO, L. A. <b>Juventudes modernas</b>. 2003. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>GROPPO, L. A. <b>Impactos da Guerra do Iraque</b>. 2003. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>GROPPO, L. A. <b>O popular e o lúdico nas festas da região de Americana</b>. 2003. Relatório de Pesquisa</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>HERNANDES, P. R. <b>Filosofar é responsabilidade de todos</b>. <font color=#330066>Intellectus. Revista Acadêmica Digital das Faculdades UNOPEC</font>. v. 1, p. 114-122, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTELLECTUS. REVISTA ACADÊMICA DIGITAL DAS FACULDADES UNOPEC)</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>HERNANDES, P. R. <b>Ita, Ita-iuba, Ita-iuba-eté: Considerações sobre os vocábulos indígenas e a cultura européia</b>. <font color=#330066>Quaestio (UNISO), UNISO_SOROCABA</font>. v. 1, p. 48-65, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (QUAESTIO , UNISO_SOROCABA)</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>HERNANDES, P. R. <b>O teatro de José de Anchieta. Arte e Pedagogia no Brasil Colônia</b>. Em: <font color=#330066>14o. COLE</font>, 2003.</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>HERNANDES, P. R. <b>A Morte é Alívio para o Cativeiro</b>. Em: <font color=#330066>III Encontro Nacional do Grupo de pesquisa</font>, 2003.</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>HERNANDES, P. R. <b>O Teatro de Anchieta. Teatro medieval na floresta brasileira?</b>. Em: II Seminário de Teses e Dissertações em Andamento, 2003, Campinas. Anais de resumos do II seminário de teses e dissertações em andamento.. Campinas: Graf. Fe, 2003. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>HERNANDES, P. R. <b>O Teatro de José de Anchieta. Arte e Pedagogia no Brasil Colônia</b>. Em: 14o. Congresso de Leitura do Brasil (COLE), 2003, Campinas. 14 COLE, 2003. </td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>HORNINK, Gabriel Gerber; ALCANTARA, Suzana de Fátima ; IKEMOTO, Erica ; MAHMOUD, Aida Gamal Eldin ; MARTINS, Fernando Robrto ; RIBEIRO, Danilo Bandino ; RICARTE, Juliana Duz ; TAMASHIRO, Jorge Yoshio ; VIRILLO, Carolina Bernucci ; WATANABE, Tânia Misae. <b>Tecnologias Multimídias aplicadas à educação ambiental</b>. Em: VI CAEB-Congresso aberto aos estudante de biologia, 2003, Campinas-SP. VI CAEB - Congresso aberto aos estudante de biologia, 2003. </td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>HORNINK, Gabriel Gerber; ORSI, Cintia Hotta ; FREITAS, Daniel Roberto Coradi ; YOKAICHIYA, Daniela Kiyoko ; GALEMBECK, Eduardo. <b>Concepções e componentes de softwares para o ensino de biologia</b>. Em: VI CAEB-Congresso aberto aos estudante de biologia, 2003, Campinas-SP. VI CAEB - Congresso aberto aos estudante de biologia, 2003. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; GALEMBECK, Eduardo ; KAWAZOE, Urara. <b>Guia prático e teórico de parasitas intestinais humanos</b>. Em: XVIII Congresso Brasileiro de Parasitologia, 2003, Rio de Janeiro-RJ. XVIII Congresso Brasileiro de Parasitologia, 2003. </td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; GALEMBECK, Eduardo ; KAWAZOE, Urara. <b>CD-ROM Guia Prático e Teórico de Parasitas Intestinais Humanos. Manaus: Kitmais LTDA</b>. 2003. CD ROM</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>IKEMOTO, Erica ; HORNINK, Gabriel Gerber ; RICARTE, Juliana Duz ; WATANABE, Tânia Misae. <b>Análise da estrutura espacial de Xylopia aromatica em um trecho de um fragmento de cerrado no município de Itirapina - SP.. Campinas</b>. 2003. Hiper Texto</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>MAHMOUD, Aida Gamal Eldin ; VIRILLO, Carolina Bernucci ; RIBEIRO, Danilo Bandino ; IKEMOTO, Erica ; HORNINK, Gabriel Gerber ; RICARTE, Juliana Duz ; ALCANTARA, Suzana de Fátima ; WATANABE, Tânia Misae. <b>Chave dicotômica para identificação de espécies arbóreo-arbustivas de cerrado do município de Itirapina - São Paulo.. Campinas</b>. 2003. Hiper Texto</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>MARIANO, A. L. S. <b>Teoria Crítica e Educação: a Escola de Frankfurt nas dissertações e teses brasileiras - um balanço preliminar</b>. <font color=#330066>Revista Eletrônica Outras Palavras, São Carlos</font>. v. 3, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA ELETRÔNICA OUTRAS PALAVRAS, SÃO CARLOS)</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>MARIANO, A. L. S. <b>Teoria Crítica e Educação: a Escola de Frankfurt nas dissertações e teses brasileiras</b>. Em: XV Congresso de Iniciação Científica, 2003, Marília. XV Congresso de Iniciação Científica, 2003. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>MARIANO, A. L. S. <b>Teoria Crítica e Educação: a Escola de Frankfurt nas dissertações e teses brasileiras</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>MONACO, S.A.S. <b>Alteridade/Nostridade</b>. 2003. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>MONACO, S.A.S.; SOUSA, R. R.. <b>Ausubel e a Formação de Professores</b>. <font color=#330066>Expressão (Guaxupé), Guaxupé-Mg</font>. v. 3, p. 130-137, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (EXPRESSÃO , GUAXUPÉ-MG)</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>OLIVEIRA, F. <b>A creche e a produção da subjetividade da criança negra</b>. 2003. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>OLIVEIRA, F.; ABRAMOWICZ, A. ; SILVÉRIO, V. R.. <b>Educando a diferença para a igualdade. São Paulo: Governo do Estado de São Paulo, 2003 (material</b>. 2003. material didático (apostila para professores)</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>A comunicação na pessoa com autismo</b>. <font color=#330066>Revista Humanidades. Série Letras (FEOB), São João da Boa Vista: FIFEOB</font>. v. x, p. 23-28, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA HUMANIDADES. SÉRIE LETRAS , SÃO JOÃO DA BOA VISTA: FIFEOB)</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>A Formação de Professores e a Educação de Autistas</b>. <font color=#330066>REVISTA IBEROAMERICANA DE EDUCACIÓN (ONLINE), Espanha</font>. v. 31, p. 01-15, 2003. <a href="http://dx.doi.org/10.13140/RG.2.2.22629.40164" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA IBEROAMERICANA DE EDUCACIÓN , ESPANHA)</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Reuven Feuerstein y la teoría de la Modificabilidad Cognitiva Estructural</b>. <font color=#330066>Revista de Educacion, Madri</font>. v. 32, n. 332, p. 33-54, 2003.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA DE EDUCACION, MADRI)</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Anais do 4º Congresso Regional de Educação: Multifaces da Educação. São João da Boa Vista, SP, 2003. (Prefácio</b>. 2003. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Revista Humanidades. <b>São João da Boa Vista, SP, 2003. (Prefácio</b>. 2003. </td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>ORRÚ, Sílvia Ester; AGOSTINHO, I. M. O.. <b>Y cuando el espacio fisico no es suficiente?</b>. Em: <font color=#330066>Pedagogia2003 - Encuentro por la unidad de los educadores</font>, 2003.</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>ORRÚ, Sílvia Ester; AGOSTINHO, I. M. O.. <b>El problemático de la deficiencia e la teoria del modificabilidade cognitiva estructural</b>. Em: <font color=#330066>Pedagogia2003 - Encuentro por la unidad de los educadores</font>, 2003.</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino ; FERREIRA, Shirley de Jesus. <b>6.º Encontro de Extensão da UFMG</b>. Em: <font color=#330066>6.º Encontro de Extensão da UFMG</font>, 2003.</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>SILVA, Natalino Neves da; GOMES, Nilma Lino ; FERREIRA, Shirley de Jesus. <b>Identidades e Corporiedades Negras - Oficinas Culturais</b>. Em: III Seminário Nacional Relações Raciais e Educação: Saberes, Políticas e Perspectivas, 2003, Niterói - Rio de Janeiro. III Seminário Nacional Relações Raciais e Educação: Saberes, Políticas e Perspectivas, p. 94-94, 2003. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>TORRES, M. E. A. C. <b>Expectativa de letramento de uma comunidade rural e o letramento sancionado na eescola local: cooperação e conflito</b>. Em: 14o. Congresso de Leitura do Brasil, 2003, Campinas. As coisas que tristes são as coisas consideradas sem ênfase. Campinas: Associação de Leitura do Brasil, v. unico, p. 201, 2003. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>TORRES, M. E. A. C. <b>A competência de leitura na formação do professor: a história do letramento</b>. 2003. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>TORRES, M. E. A. C. <b>Expectativas de letramento de uma comunidade rural e o letramento sancionado na escola local: cooperação e conflito</b>. 2003. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. Qualidade de vida: Um desafio para a Educação de Jovens e Adultos</b>. Em: VI Encontro de Iniciação Científica - II Encontro de Pós-Graduação da UNITAU, 2002, Taubaté. Anais do VI Encontro de Iniciação Científica - II Encontro de Pós-graduação da UNITAU, 2002. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Da Metáfora Funcional e Algumas Implicações</b>. <font color=#330066>Primeira Versão (UFRO), Porto Velho</font>. v. 82, p. 02-10, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (PRIMEIRA VERSÃO , PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>O Caminho Mais Curto</b>. <font color=#330066>Caderno de Criação, Porto Velho</font>. v. 01, n. 23, p. 72-79, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CADERNO DE CRIAÇÃO, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Da Natureza do Significado e Suas Implicações</b>. <font color=#330066>Língua Viva (Guajará-Mirim), Guajará-Mirim</font>. v. 1, p. 05-31, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LÍNGUA VIVA , GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A Construção de um Projeto Educacional para Rondônia</b>. Em: <font color=#330066>VI Congresso de Educação de Rondônia</font>, v. 01, p. 03-19, 2002.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; TELES, Iara Maria ; MAEDA, C. T.. <b>Especialização Fonossemântica dos Sentidos no Português</b>. Em: <font color=#330066>Congresso da ABRALIN</font>, 2002.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GROPPO, L. A. <b>A emergência da juventude e do lazer como categorias socioculturais da modernidade</b>. <font color=#330066>Licere (Belo Horizonte), Belo Horizonte</font>. v. 5, n. 1, p. 73-82, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LICERE , BELO HORIZONTE)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GROPPO, L. A. <b>MPB e indúsria cultural nos anos 60</b>. <font color=#330066>Impulso (Piracicaba), Piracicaba/ SP</font>. v. 13, n. 30, p. 133-148, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IMPULSO , PIRACICABA/ SP)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>GROPPO, L. A. <b>Problemas sociais da globalização</b>. Jornal Cidade de Rio Claro, Rio Claro/ SP, p. 2, 29 dez. 2002. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>GROPPO, L. A. <b>Alca e globalização III</b>. Jornal Cidade de Rio Claro, Rio Claro/ SP, p. 14, 27 out. 2002. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>GROPPO, L. A. <b>Alca, imperialismo e globalização II</b>. Jornal Cidade de Rio Claro, Rio Claro/ SP, p. 2, 19 out. 2002. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>GROPPO, L. A. <b>Alca e imperialismo</b>. Jornal Cidade de Rio Claro, Rio Claro/ SP, p. 20, 12 out. 2002. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>GROPPO, L. A. <b>Globalização, regionalização e a ALCA</b>. 2002. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>HERNANDES, P. R. <b>Estrutura de Pesquisa</b>. 2002. material didático</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>HERNANDES, P. R. <b>O Projeto</b>. 2002. material didático</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; GALEMBECK, Eduardo ; KAWAZOE, Urara. <b>Practical and theoretical guide of human intestinal parasites</b>. Em: X Simposio Internacional de Iniciação Cientifica da USP, 2002, Ribeirão Preto-SP. 10° SIICUSP - 2002, 2002. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; GALEMBECK, Eduardo ; KAWAZOE, Urara. <b>Guia prático e teórico de parasitas intestinais humanos: Biologia, Patologia e controle</b>. Em: X Congresso Interno de Iniciação Científica da Unicamp, 2002, Campinas-SP. X Congresso Interno de Iniciação Científica da Unicamp, 2002. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>OLIVEIRA, F. <b>A afirmação positiva das diferenças a partir da análise de relatos de meninas negras</b>. Em: II Congresso Brasileiro de Pesquisadores Negros, 2002, São Carlos. II Congresso Brasileiro de Pesquisadores Negros, 2002. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>OLIVEIRA, F. <b>A afirmação positiva das diferenças a partir de histórias de meninas negras</b>. Em: X Jornada de Jovens Pesquisadores da AUGM, 2002, Florianópolis/SC. X Jornada de Jovens Pesquisadores da AUGM, 2002. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>OLIVEIRA, F. <b>A afirmação positiva das diferenças a partir da análise de relatos de meninas negras</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>OLIVEIRA, F. <b>A afirmação positiva das diferenças a partir da análise do relato de meninas negras</b>. 2002. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Incertezas: um dispositivo para a educação do futuro. Revista Humanidades</b>. <font color=#330066>Série Letras (FEOB), FIFEOB - São João da Boa Vista</font>. v. x, p. 55-58, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (SÉRIE LETRAS , FIFEOB - SÃO JOÃO DA BOA VISTA)</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Aspectos inerentes ao desenvolvimento da criança com autismo</b>. <font color=#330066>Psicopedagogia On Line</font>. v. -, p. 1-6, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (PSICOPEDAGOGIA ON LINE)</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Estigma: a exclusão social do autista</b>. Em: III Congresso Regional de Educação, 2002, Mococa. Anais do III Congresso Regional de Educação. Mococa-SP, p. 113-115, 2002. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>O processo de formação de educadores na perspectiva da Modificabilidade Cognitiva Estrutural e a pessoa com autismo. Revista Humanidades, FIFEOB - São João da Boa Vista</b>. v. 1, p. 77-77, 2002, 2002. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Diagnóstico do autismo: critérios para investigação. Temas de Neurologia e Psiquiatria Infantil, São Paulo</b>. p. 303-303, 2002, 2002. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Revista Humanidades. São João da Boa Vista, 2002. (Prefácio</b>. 2002. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Diagnóstico do Autismo: critérios para a investigação. <b>In: VI Congresso Paulista da Associação Brasileira de Neurologia e Psiquiatria Infantil, 2002, São Paulo. Temas em Neurologia e Pisquiatria Infantil: uma visão multiprofissional.. São Paulo: ABNEPI</b>. p. 303-303, 2002. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Implicações referentes ao desenvolvimento da criança com autismo. <b>In: Congresso Brasileiro de Psiquiatria Clínica, I Congresso Sul-Sudeste de Psiquiatria Clínica e II Congresso Paulista de Psiquiatria Clínica, 2002, Campinas. WEB PAGE do Congresso Brasileiro de Psiquiatria Clínica, I Congresso Sul-Sudeste de Psiquiatria Clínica e II Congresso Paulista de Psiquiatria Clínica</b>. p. 4-5, 2002. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>ORRÚ, Sílvia Ester. O processo de formação de educadores na perspectiva da Modificabilidade Cognitiva Estrutural e a pessoa com autismo. <b>São Paulo: @prender virutal</b>. 2002. Resumo de Dissertação de Mestrado</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Resumo de dissertação: O processo de formação de educadores na perspectiva da Modificabilidade Cognitiva Estrutural e a pessoa com autismo. <b></b>. Revista Aprender Virtual, São Paulo, SP, , v. 3, p. 70-70, 01 maio 2002. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Sobre a arte de saber dizer e escrever.. <b></b>. FEOB Agora - Informativo da Fundação de Ensino Octávio Bastos, São João da Boa Vista, p. 02-02, 17 jun. 2002. </td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>ORRÚ, Sílvia Ester; CASTANHO, Maria Eugênia de Lima e Montes. <b>O processo de formação de professores e a educação da pessoa com autismo</b>. Em: <font color=#330066>V Encontro de Pesquisa em Educação da Região Sudeste ANPED</font>, p. 1-24, 2002.</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>PETERS, Helene ; HORNINK, Gabriel Gerber ; KAWAZOE, Urara ; GALEMBECK, Eduardo. <b>Guia prático e teórico de parasitas intestinais humanos: Exames copro-parasitológicos</b>. Em: X Congresso Interno de Iniciação Científica da Unicamp, 2002, Campinas-SP. X Congresso Interno de Iniciação Científica da Unicamp, 2002. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>Os reality shows e a formação de alunos e professores</b>. Em: IV Simpósio Brasileiro de Comunicação e Educação, 2002, Ponta Grossa - PR. IV Simpósio Brasileiro de Comunicação e Educação, 2002. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>Paranapiacaba - Patrimônio Histórico: um olhar fotográfico e uma leitura poética (oficina), II Semana Cultural do Programa de Educação de Jovens e Adultos, Faculdade de Filosofia, Letras e Educação, Universidade Presbiteriana Mackenzie</b>. 2002. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>A música e o ensino de História e Geografia nas séries iniciais, XI Simpósio de Educação e Encontro de Professores: Educação, Perspectivas e Alternativas para a ação docente, Faculdade de Filosofia, Letras e Educação e Centro de Formação de Professores, Universidade Presbiteriana Mackenzie</b>. 2002. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XAVIER, Cristiane. F. <b>Uma leitura da avaliação</b>. <font color=#330066>AMAE Educando</font>. v. 312, p. 20-22, 2002.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (AMAE EDUCANDO)</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. O tratamento da diversidade em uma sala de Educação de Jovens e Adultos</b>. Em: Congresso Regional de Educação, 2001, Mogi das Cruzes. 3º CONGRED, 2001. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Considerações sobre a Arte no Brasil</b>. <font color=#330066>Cepla Working Papers, Guajará-Mirim: CEPLA-WP</font>. v. 1, n. 1, p. 16-36, 2001.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CEPLA WORKING PAPERS, GUAJARÁ-MIRIM: CEPLA-WP)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GOMES, C. <b>GOMES, Claudia. A inclusão escolar do deficiente visual na rede comum de ensino</b>. Em: 3º Congresso Regional de Educação, 2001, Mogi das Cruzes - SP. 3º Congred, 2001. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GOMES, C. <b>GOMES, Claudia. Dislexia, Disgrafia e Discalculia</b>. Em: 3º Congresso Regional de Educação, 2001, Mogi das Cruzes - SP. 3º Congred, 2001. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GOMES, C. <b>GOMES, Claudia. A inclusão do deficiente visual na rede comum de ensino</b>. 2001. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GOMES, C. <b>GOMES, Claudia. Dislexia, Disgrafia e Discalculia</b>. 2001. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GROPPO, L. A. <b>Os alquimistas da nova sociedade: alguns aspectos da história do comunismo soviético</b>. <font color=#330066>Idéias & Argumentos, Americana/ SP</font>. v. 2, n. 4, p. 224-255, 2001.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IDÉIAS & ARGUMENTOS, AMERICANA/ SP)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GROPPO, L. A. <b>Mídia, sociedade e Contracultura</b>. Em: <font color=#330066>XXIV Congresso Brasileiro de Ciências da Comunicação (Intercom)</font>, 2001.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>GROPPO, L. A. <b>Mídia, sociedade e contracultura</b>. 2001. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>HERNANDES, P. R. <b>O Teatro de Anchieta Arte e Pedagogia no Brasil Colônia. Campinas: Faculdade de Educação - UNICAMP</b>. 2001. dissertação de mestrado</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>HERNANDES, P. R.; Marcos Francisco Martins. <b>A Realidade Grega Como Parteira da Filosofia: uma exposição didática sobre o nascimento e os primeiros passos da filosofia</b>. <font color=#330066>Revista Educação e Cidadania, Campinas - SP</font>. v. 1, n. 2, p. 115-126, 2001.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA EDUCAÇÃO E CIDADANIA, CAMPINAS - SP)</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MONACO, S.A.S. <b>A Ética na Formação do Professor</b>. <font color=#330066>Expressão (Guaxupé), Guaxupé-MG</font>. v. 2, p. 181-187, 2001.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (EXPRESSÃO , GUAXUPÉ-MG)</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MONACO, S.A.S. <b>'Ética, coisa pra Filósofo e para Educador'</b>. Em: II Congresso Regional de Educação, 2001. II Congresso Regional de Educação. São José do Rio Pardo-SP: Rio Pardo Gráfica, p. 15-15, 2001. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>OLIVEIRA, F. <b>Histórias de meninas negras: as vozes e as imagens femininas</b>. Em: IX Congresso de Iniciação Científica da UFSCar, 2001, São Carlos. 4a Jornada Científica da UFSCar, 2001. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>OLIVEIRA, F.; ABRAMOWICZ, A.. <b>Histórias de Meninas Negras: as vozes e as imagens femininas</b>. 2001. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>O autismo em pacientes psiquiátricos e a educação mediatizada</b>. <font color=#330066>Psicopedagogia On Line</font>. v. x, p. 1-6, 2001.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (PSICOPEDAGOGIA ON LINE)</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Ensino público x Ensino privado: desafio ou afronta para quem quer estudar?</b>. FEOB Agora - Informativo da Fundação de Ensino Octávio Bastos, São João da Boa Vista, p. 02-02, 03 dez. 2001. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Currículo, democracia e diversidade: cordões necessários à educação de todos</b>. Jornal a Cidade, Espírito Santo do Pinhal, p. 02-02, 23 jun. 2001. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Quem é o sujeito do direito à educação?</b>. ? FEOB Agora - Informativo da Fundação de Ensino Octávio Bastos, São João da Boa Vista, p. 02-02, 18 jun. 2001. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>The Picture Communication Symbols: Tecnologia de Apoio Educacional à Pessoas com Autismo</b>. Em: 3º Congresso Nacional de Pesquisadores, 2001, São Carlos. 3º Congresso Nacional de Pesquisadores. São Carlos: Editora Indústria e Comércio Gráfico O expresso, p. 69-70, 2001. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Currículo, democracia e diversidade: leituras contextuais para a educação de todos</b>. Em: 13º COLE - Congresso de Leitura do Brasil III Seminário sobre educação especial e leitura, 2001, Campinas. Com Todas as Letras. Campinas: Associação de Leitura do Brasil, p. 147-148, 2001. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>A questão da valorização da diversidade humana na formação do professor em tempos de transição informacional</b>. Em: II Congresso Regional de Educação, 2001, São José do Rio Pardo. II Congresso Regional de Educação. São José do Rio Pardo: Rio Pardo Gráfica Ltda, p. 30-30, 2001. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>Seminário de Tendências e Tecnologias em Educação a Distância, CEDU, UNISA</b>. 2001. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. Autoconceito em habilidades sociais e opinião de professores</b>. Em: I Monstra de pós-graduação da UNITAU, 2000, Taubaté. Anais da I Mostra de Pós-Graduação da UNITAU, 2000. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Da natureza do significado e suas implicações</b>. <font color=#330066>Wpal Unir, Porto Velho</font>. v. 1, p. 3, 2000.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Da (Im)Pessoalidade Científica ou Um Ensaio Sobre a Hipocrisia Na Ciência</b>. <font color=#330066>Caderno de Criação, Porto Velho</font>. v. 1, n. 23, p. 129-144, 2000.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CADERNO DE CRIAÇÃO, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Considerações sobre a Alfabetização no Brasil</b>. <font color=#330066>Cadernos de Criação do Centro de Hermenêutica do Presente, Porto Velho</font>. v. 01, n. 22, p. 149-157, 2000.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CADERNOS DE CRIAÇÃO DO CENTRO DE HERMENÊUTICA DO PRESENTE, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Discutindo linguagem com professores de português. São Paulo: Terceira Margem</b>. Discutindo linguagem com professores de português. São Paulo: Terceira Margem, 2000. v. 1000, p. 196. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>O Que Merecemos?</b>. Guajará em Foco, 20 out. 2000. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Normas de Produção de Monografias, Dissertações e Teses - Edição Revista e Ampliada. Guajará-Mirim: Fundação Universidade Federal de Rondôniia</b>. 2000. Manual</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GROPPO, L. A. <b>Rock: cultura, mercado e juventude</b>. <font color=#330066>Idéias & Argumentos, Americana/ SP</font>. v. 1, n. 1, p. 120-131, 2000.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IDÉIAS & ARGUMENTOS, AMERICANA/ SP)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>GROPPO, L. A. <b>Juventude: ensaios sobre sociologia e história das juventudes modernas</b>. 1 ed. Rio de Janeiro: Difel, 2000. v. 1, p. 301. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MONACO, S.A.S. <b>A Ética na Formação do Professor de Educação Infantil</b>. Em: <font color=#330066>II COPEDI Congresso Paulista de Educação Infantil</font>, p. 82-82, 2000.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MONACO, S.A.S. <b>Alfabetização de Adultos da 3a. idade</b>. Em: <font color=#330066>Curso e Oficinas EJA 2000</font>, 2000.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MONACO, S.A.S. <b>Ausubel e a Formação de Professores</b>. Em: I Congresso Regional de Educação, 2000, São João da Boa Vista. I Congresso Regional de Educação- Educação: Ciência e Profissão, p. 18-18, 2000. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MONACO, S.A.S. <b>Grupo de Alfabetização da Tereira Idade</b>. Em: Cursos e Oficinas Para a Formação de Professores em Educação de Jovens e Adultos, 2000, São Paulo. N/C, 2000. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>MONACO, S.A.S.; OUTROS. <b>Focalizando a Pedagogia Universitária Praticada em Sala de Aula</b>. <font color=#330066>Revista de Educação PUC-Campinas, CAMPINAS/ SP</font>. v. 8, p. 100-103, 2000.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA DE EDUCAÇÃO PUC-CAMPINAS, CAMPINAS/ SP)</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Que educação teremos para o próximo milênio?</b>. Jornal a Cidade, Espírito Santo do Pinhal, p. 02-02, 19 dez. 2000. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Previna as deficiências</b>. Jornal a Cidade, Espírito Santo do Pinhal, p. 02-02, 19 ago. 2000. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>O direito de ser e de vir a ser cidadão</b>. Jornal a Cidade, Espírito Santo do Pinhal, p. 02-02, 07 abr. 2000. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>A Modificabilidade Cognitiva Estrutural na Educação de Portadores de Autismo</b>. Em: I Congresso Latino Americano de Psicopedagogia, 2000, São Paulo. Psicopedagogia - Avanços Teóricos e Práticos: Escola-Família-Aprendizagem. São Paulo: Associação Brasisleira de Psicopedagogia, v. 1, p. 75-75, 2000. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Paixão e responsabilidade:uma reflexão sobre a formação de professores para uma educação inclusiva</b>. Em: I Congresso Regional de Educação, 2000, São João da Boa Vista. I Congresso Regional de Educação. São João da Boa Vista, p. 28-28, 2000. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>ORRÚ, Sílvia Ester; BACCAGLINI, C. A. ; STEFANI, I. R. ; AGUIAR, J. S. ; RIOS, M. M. ; MONACO, S. S.. <b>Resenha Focalizando a Pedagogia Universitária praticada em sala de aula</b>. Em: -, p. 100-103, 2000. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>TORRES, M. E. A. C. <b>Redação e Redação Forense (Oficina de textos)</b>. 2000. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. Comunidade Solidária</b>. Cultura Viva, São José dos Campos - SP, p. 7-7, 02 jan. 1999. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Considerações sobre a hipótese da interinfluência entre pensamento, cultura e linguagem</b>. <font color=#330066>Instrumento Crítico, Vilhena</font>. v. 1, n. 2, p. 135-157, 1999.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INSTRUMENTO CRÍTICO, VILHENA)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Funções da linguagem: uma reavaliação das idéias de Roman Jakobson</b>. <font color=#330066>Presença (Porto Velho), Porto Velho</font>. v. 1, n. 13, p. 93-103, 1999.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (PRESENÇA , PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Vincti Spei</b>. <font color=#330066>Cadernos de Criação do Centro de Hermenêutica do Presente, Porto Velho</font>. v. 1, n. 17, p. 32-43, 1999.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CADERNOS DE CRIAÇÃO DO CENTRO DE HERMENÊUTICA DO PRESENTE, PORTO VELHO)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Por que a educação faz tanta diferença</b>. Jornal O Mamoré, Guajará-Mirim, 12 dez. 1999. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Normas de Apresentação de Monografias, Dissertações eTeses. Porto Velho: Fundação Universidade Federal de Rondônia</b>. 1999. Manual</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; SANTOS, J. C.. <b>Léxico da Língua Moré</b>. Em: <font color=#330066>VIII Seminário de Iniciação Científica</font>, v. 1, 1999.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GROPPO, L. A. <b>Movimentos estudantis dos anos 1960</b>. 1999. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>TORRES, M. E. A. C. <b>A Língua INglesa e o Profissional de INformática</b>. 1999. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. Comunidade Solídária: A Maravilha do Sertão</b>. Cultura Viva, São José dos Campos - SP, p. 13-13, 01 nov. 1998. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Semântica: uma releitura dos fenômenos básicos pela Teoria da Otimalidade.</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Considerações sobre o ensino da leitura e da escrita na Escola: conversando sobre a experiência de um professor de português</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Dissertação e Silogismo</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Erros de Gramática e Gramáticas com Erro</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Flexão: Natureza e Manifestações</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Gramática: Conceito e Implicações</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Leitura e escrita: princípios naturais do gosto e do desgosto.</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>O particípio na língua portuguesa</b>. <font color=#330066>Wpal Unir, Guajará-Mirim</font>. 1998.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WPAL UNIR, GUAJARÁ-MIRIM)</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Educar faz bem à alma</b>. Jornal O Mamoré, Guajará-Mirim, 23 ago. 1998. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Recursos para a manutenção da inteligibilidade do enunciado: um estudo da interface Semântica/Morfossintaxe através de uma língua isolante</b>. Em: <font color=#330066>IV Seminário de Estudos Lingüísticos e Literários</font>, v. 1, p. 22-44, 1998.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A interface Semântica/Morfossintaxe. Porto Velho: Fundação Universidade Federal de Rondônia</b>. 1998. Tese de doutorado</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>GROPPO, L. A. <b>Juventude, mercado e rock nacional</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 15 maio 1998. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>GROPPO, L. A. <b>A opulência e a arte - Minas Gerais, século XVIII</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 5, 03 maio 1998. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>GROPPO, L. A. <b>O pop-rock nacional nos anos 90</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 21 abr. 1998. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>GROPPO, L. A. <b>Sociedade, rock and roll e juventude</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 10, 16 abr. 1998. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>GROPPO, L. A. <b>A prata de Potosi</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 6, 10 abr. 1998. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>GROPPO, L. A. <b>Causas da decadência das Minas Gerais</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 12, 04 abr. 1998. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>GROPPO, L. A. <b>A corrida do ouro</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 28 mar. 1998. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>GROPPO, L. A. <b>A identidade do favelado</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 17 mar. 1998. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>GROPPO, L. A. <b>Paulistas, bandeirantes e as primeiras minas no Sul e Sudeste</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 12, 15 mar. 1998. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>GROPPO, L. A. <b>Moradores de favelas e moradores de bairros</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 10 mar. 1998. </td></tr>
             
             <tr valign="top"><td>23. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>O ensino de História e a cultura televisiva, V Simpósio de Pesquisa da FEUSP, Faculdadede Educação, Universidade de São Paulo</b>. 1998. Apresentação de Trabalho/Simpósio</td></tr>
             
             <tr valign="top"><td>24. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>A Cultura Mediática e a Formação de um Imaginário Social, 2º Simpósio Brasileiro de Televisão, Criança e Imaginário - O Citidiano Infantil Violento: Marginalidade e Exclusão Social, Escola de Comunicação e Artes, Universidade de São Paulo</b>. 1998. Apresentação de Trabalho/Simpósio</td></tr>
             </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. O Sentido de um cinqüentenário</b>. Revista da FLEP - Universidade Mackenzie, São Paulo, p. 7-11, 01 nov. 1997. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=dos.+O+Sentido+de+um+cinqüentenário&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=dos.+O+Sentido+de+um+cinqüentenário">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=dos.+O+Sentido+de+um+cinqüentenário">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FELÍCIO, Helena M. <b>dos. O Sentido de um cinqüentenário</b>. Revista da FLEP - Universidade Mackenzie, São Paulo, p. 7-11, 01 nov. 1997. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A hipótese da interinfluência entre pensamento, cultura e linguagem</b>. <font color=#330066>Síntese</font>. 1997.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+hipótese+da+interinfluência+entre+pensamento,+cultura+e+linguagem&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+hipótese+da+interinfluência+entre+pensamento,+cultura+e+linguagem">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+hipótese+da+interinfluência+entre+pensamento,+cultura+e+linguagem">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A hipótese da interinfluência entre pensamento, cultura e linguagem</b>. <font color=#330066>Síntese, Campinas</font>. 1997.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (SÍNTESE, CAMPINAS)</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Ouvindo as Histórias de Touá Saê: Mitos e Lendas da Nação Moré. Guajará-Mirim: WPAL/UNIR - Campus de Guajará-Mirim</b>. Ouvindo as Histórias de Touá Saê: Mitos e Lendas da Nação Moré. Guajará-Mirim: WPAL/UNIR - Campus de Guajará-Mirim, 1997. p. 56. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ouvindo+as+Histórias+de+Touá+Saê:+Mitos+e+Lendas+da+Nação+Moré.+Guajará-Mirim:+WPAL/UNIR+-+Campus+de+Guajará-Mirim&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ouvindo+as+Histórias+de+Touá+Saê:+Mitos+e+Lendas+da+Nação+Moré.+Guajará-Mirim:+WPAL/UNIR+-+Campus+de+Guajará-Mirim">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ouvindo+as+Histórias+de+Touá+Saê:+Mitos+e+Lendas+da+Nação+Moré.+Guajará-Mirim:+WPAL/UNIR+-+Campus+de+Guajará-Mirim">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Ouvindo as Histórias de Touá Saê: Mitos e Lendas da Nação Moré. Guajará-Mirim: WPAL/UNIR - Campus de Guajará-Mirim</b>. Ouvindo as Histórias de Touá Saê: Mitos e Lendas da Nação Moré. Guajará-Mirim: WPAL/UNIR - Campus de Guajará-Mirim, 1997. p. 56. </td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Por uma educação de qualidade já</b>. Jornal OMamoré, Guajará-Mirim, 20 abr. 1997. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Por+uma+educação+de+qualidade+já&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Por+uma+educação+de+qualidade+já">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Por+uma+educação+de+qualidade+já">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Por uma educação de qualidade já</b>. Jornal OMamoré, Guajará-Mirim, 20 abr. 1997. </td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Nas águas dos itenês: um estudo semântico com a língua moré.. Campinas: Unicamp</b>. 1997. Dissertação de mestrado<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Nas+águas+dos+itenês:+um+estudo+semântico+com+a+língua+moré..+Campinas:+Unicamp&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Nas+águas+dos+itenês:+um+estudo+semântico+com+a+língua+moré..+Campinas:+Unicamp">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Nas+águas+dos+itenês:+um+estudo+semântico+com+a+língua+moré..+Campinas:+Unicamp">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Nas águas dos itenês: um estudo semântico com a língua moré.. Campinas: Unicamp</b>. 1997. Dissertação de mestrado</td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Curso de Formação de Alfabetização de Adultos. Guajará-mirim: Fundação Universidade Federal de Rondônia</b>. 1997. Manual<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Curso+de+Formação+de+Alfabetização+de+Adultos.+Guajará-mirim:+Fundação+Universidade+Federal+de+Rondônia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Curso+de+Formação+de+Alfabetização+de+Adultos.+Guajará-mirim:+Fundação+Universidade+Federal+de+Rondônia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Formação+de+Alfabetização+de+Adultos.+Guajará-mirim:+Fundação+Universidade+Federal+de+Rondônia">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Curso de Formação de Alfabetização de Adultos. Guajará-mirim: Fundação Universidade Federal de Rondônia</b>. 1997. Manual</td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; ANGENOT, Jean Pierre. <b>A descoberta de línguas 100% isolantes: a família Chapakura da Amazônia</b>. Em: <font color=#330066>II Jornada de Linguística Aborigen</font>, 1997.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+descoberta+de+línguas+100%+isolantes:+a+família+Chapakura+da+Amazônia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+descoberta+de+línguas+100%+isolantes:+a+família+Chapakura+da+Amazônia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+descoberta+de+línguas+100%+isolantes:+a+família+Chapakura+da+Amazônia">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERRAREZI JUNIOR, C.; ANGENOT, Jean Pierre. <b>A descoberta de línguas 100% isolantes: a família Chapakura da Amazônia</b>. Em: <font color=#330066>II Jornada de Linguística Aborigen</font>, 1997.</td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>GROPPO, L. A. <b>O videoclip e o pop-rock</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 2, 30 nov. 1997. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+videoclip+e+o+pop-rock&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+videoclip+e+o+pop-rock">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+videoclip+e+o+pop-rock">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>GROPPO, L. A. <b>O videoclip e o pop-rock</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 2, 30 nov. 1997. </td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>GROPPO, L. A. <b>O rock e a indústria cultural</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 18, 19 out. 1997. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+rock+e+a+indústria+cultural&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+rock+e+a+indústria+cultural">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+rock+e+a+indústria+cultural">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>GROPPO, L. A. <b>O rock e a indústria cultural</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 18, 19 out. 1997. </td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>GROPPO, L. A. <b>O Oriente segundo Dante</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 06 out. 1997. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Oriente+segundo+Dante&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Oriente+segundo+Dante">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Oriente+segundo+Dante">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>GROPPO, L. A. <b>O Oriente segundo Dante</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 06 out. 1997. </td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td>GROPPO, L. A.; GROPPO, -. S. A. B.. <b>A disciplina nas escolas na Idade Moderna e sua relação com a atualidade</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 10 out. 1997. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+disciplina+nas+escolas+na+Idade+Moderna+e+sua+relação+com+a+atualidade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+disciplina+nas+escolas+na+Idade+Moderna+e+sua+relação+com+a+atualidade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+disciplina+nas+escolas+na+Idade+Moderna+e+sua+relação+com+a+atualidade">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>11. &nbsp;</td> <td>GROPPO, L. A.; GROPPO, -. S. A. B.. <b>A disciplina nas escolas na Idade Moderna e sua relação com a atualidade</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, 10 out. 1997. </td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td>HERNANDES, P. R.; CURY, R. ; MASSON, N. C. ; SILOTO, R. C.. <b>Gestão da Educação Continuada e da Educação à Distância</b>. Em: III Congresso Latino-Americano de Administração da Educação, 1997, Campinas. III Congresso Latino_Americano de Administração da Educação, 1997. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Gestão+da+Educação+Continuada+e+da+Educação+à+Distância&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Gestão+da+Educação+Continuada+e+da+Educação+à+Distância">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Gestão+da+Educação+Continuada+e+da+Educação+à+Distância">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>12. &nbsp;</td> <td>HERNANDES, P. R.; CURY, R. ; MASSON, N. C. ; SILOTO, R. C.. <b>Gestão da Educação Continuada e da Educação à Distância</b>. Em: III Congresso Latino-Americano de Administração da Educação, 1997, Campinas. III Congresso Latino_Americano de Administração da Educação, 1997. </td></tr>
             </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>GROPPO, L. A.; ROGADO, James. <b>Preservação ambiental e qualidade de vida</b>. Em: <font color=#330066>II Encontro Regional de Ensino de Ciências</font>, p. 177-183, 1996.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Preservação+ambiental+e+qualidade+de+vida&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Preservação+ambiental+e+qualidade+de+vida">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Preservação+ambiental+e+qualidade+de+vida">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GROPPO, L. A.; ROGADO, James. <b>Preservação ambiental e qualidade de vida</b>. Em: <font color=#330066>II Encontro Regional de Ensino de Ciências</font>, p. 177-183, 1996.</td></tr>
             
             <tr valign="top"><td>2. &nbsp;</td> <td>GROPPO, L. A.; ROGADO, James. <b>Preservação ambiental e qualidade de vida</b>. 1996. Apresentação de Trabalho/Congresso</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>HERNANDES, P. R. <b>As concepções estéticas de arte e o teatro da crueldade de Artaud</b>. 1996. Monografia apresentada para a disciplina O teatro da crueldade de Artaud<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=As+concepções+estéticas+de+arte+e+o+teatro+da+crueldade+de+Artaud&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=As+concepções+estéticas+de+arte+e+o+teatro+da+crueldade+de+Artaud">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=As+concepções+estéticas+de+arte+e+o+teatro+da+crueldade+de+Artaud">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>HERNANDES, P. R. <b>As concepções estéticas de arte e o teatro da crueldade de Artaud</b>. 1996. Monografia apresentada para a disciplina O teatro da crueldade de Artaud</td></tr>
             </table></div><div id="dv-year-1995"><h3 class="year">1995</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Por um povo que leia mais</b>. Jornal O Mamoré, Guajará-Mirim, 03 dez. 1995. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Por+um+povo+que+leia+mais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Por+um+povo+que+leia+mais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Por+um+povo+que+leia+mais">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Por um povo que leia mais</b>. Jornal O Mamoré, Guajará-Mirim, 03 dez. 1995. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A Educação no Combate à Corrupção</b>. Jornal o Mamoré, Guajará-Mirim, 14 maio 1995. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Educação+no+Combate+à+Corrupção&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Educação+no+Combate+à+Corrupção">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Educação+no+Combate+à+Corrupção">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>A Educação no Combate à Corrupção</b>. Jornal o Mamoré, Guajará-Mirim, 14 maio 1995. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>HERNANDES, P. R. <b>A Filosofia de Samuel Beckett</b>. 1995. Monografia para a disciplina: A mise-en-scene teatral<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Filosofia+de+Samuel+Beckett&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Filosofia+de+Samuel+Beckett">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Filosofia+de+Samuel+Beckett">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>HERNANDES, P. R. <b>A Filosofia de Samuel Beckett</b>. 1995. Monografia para a disciplina: A mise-en-scene teatral</td></tr>
             </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>HERNANDES, P. R. <b>Leitura bachelardiana da peça "A Tempestade" William Shakespeare</b>. 1994. Monografia da disciplina de Estética<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Leitura+bachelardiana+da+peça+"A+Tempestade"+William+Shakespeare&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Leitura+bachelardiana+da+peça+"A+Tempestade"+William+Shakespeare">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Leitura+bachelardiana+da+peça+"A+Tempestade"+William+Shakespeare">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HERNANDES, P. R. <b>Leitura bachelardiana da peça "A Tempestade" William Shakespeare</b>. 1994. Monografia da disciplina de Estética</td></tr>
             </table></div><div id="dv-year-1993"><h3 class="year">1993</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>GROPPO, L. A. <b>Juventude e lazer</b>. 1993. Apresentação de Trabalho/Congresso</td></tr>
             </table></div><div id="dv-year-1991"><h3 class="year">1991</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Novos estudos morfossintáticos do português. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional</b>. Novos estudos morfossintáticos do português. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional, 1991. p. 130. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Novos+estudos+morfossintáticos+do+português.+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Novos+estudos+morfossintáticos+do+português.+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Novos+estudos+morfossintáticos+do+português.+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Novos estudos morfossintáticos do português. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional</b>. Novos estudos morfossintáticos do português. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional, 1991. p. 130. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Novos estudos morfossintáticos do português: a questão semântica. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional</b>. Novos estudos morfossintáticos do português: a questão semântica. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional, 1991. p. 88. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Novos+estudos+morfossintáticos+do+português:+a+questão+semântica.+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Novos+estudos+morfossintáticos+do+português:+a+questão+semântica.+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Novos+estudos+morfossintáticos+do+português:+a+questão+semântica.+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Novos estudos morfossintáticos do português: a questão semântica. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional</b>. Novos estudos morfossintáticos do português: a questão semântica. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional, 1991. p. 88. </td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>O que é linguagem humana.. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional</b>. O que é linguagem humana.. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional, 1991. p. 50. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+que+é+linguagem+humana..+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+que+é+linguagem+humana..+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+que+é+linguagem+humana..+Rio+de+Janeiro:+Escritório+de+Direitos+Autorais+da+Biblioteca+Nacional">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>O que é linguagem humana.. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional</b>. O que é linguagem humana.. Rio de Janeiro: Escritório de Direitos Autorais da Biblioteca Nacional, 1991. p. 50. </td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Educaçã como requisito de sucesso</b>. Jornal o Mamoré, Guajará-Mirim, 21 abr. 1991. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educaçã+como+requisito+de+sucesso&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educaçã+como+requisito+de+sucesso">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educaçã+como+requisito+de+sucesso">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Educaçã como requisito de sucesso</b>. Jornal o Mamoré, Guajará-Mirim, 21 abr. 1991. </td></tr>
             </table></div><div id="dv-year-1990"><h3 class="year">1990</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Universidade e Sociedade II: Questões de Poder Local</b>. Jornal O Mamoré, Guajará-Mirim, 16 dez. 1990. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Universidade+e+Sociedade+II:+Questões+de+Poder+Local&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Universidade+e+Sociedade+II:+Questões+de+Poder+Local">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Universidade+e+Sociedade+II:+Questões+de+Poder+Local">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Universidade e Sociedade II: Questões de Poder Local</b>. Jornal O Mamoré, Guajará-Mirim, 16 dez. 1990. </td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Universidade e Sociedade: Construindo um projeto conjunto</b>. O Mamoré, Guajará-Mirim, 14 out. 1990. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Universidade+e+Sociedade:+Construindo+um+projeto+conjunto&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Universidade+e+Sociedade:+Construindo+um+projeto+conjunto">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Universidade+e+Sociedade:+Construindo+um+projeto+conjunto">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERRAREZI JUNIOR, C. <b>Universidade e Sociedade: Construindo um projeto conjunto</b>. O Mamoré, Guajará-Mirim, 14 out. 1990. </td></tr>
             </table></div><div id="dv-year-1989"><h3 class="year">1989</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. <b>O Movimento pela Escola Nova e a Construção do Homem-Novo: 1924- 1932, I Congresso de Bolsistas de Iniciação Científica, UNESP</b>. 1989. Apresentação de Trabalho/Congresso</td></tr>
             </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>GROPPO, L. A. <b>Uma visita à Minas e ao passado. , In: Tempus, Jornal da Unisal Unidade Americana, ano I, n</b>. 2, Americana/ SP, , v. ano I, p. 02, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Uma+visita+à+Minas+e+ao+passado.+,+In:+Tempus,+Jornal+da+Unisal+Unidade+Americana,+ano+I,+n&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Uma+visita+à+Minas+e+ao+passado.+,+In:+Tempus,+Jornal+da+Unisal+Unidade+Americana,+ano+I,+n">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Uma+visita+à+Minas+e+ao+passado.+,+In:+Tempus,+Jornal+da+Unisal+Unidade+Americana,+ano+I,+n">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GROPPO, L. A. <b>Uma visita à Minas e ao passado. , In: Tempus, Jornal da Unisal Unidade Americana, ano I, n</b>. 2, Americana/ SP, , v. ano I, p. 02, .</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>GROPPO, L. A. <b>O vídeo como recurso de aprendizado e socialização na escola</b>. Simpro Cultura, Caderno de Cultura do Sindicato dos Professores de Campinas e Região, p. 12-14, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+vídeo+como+recurso+de+aprendizado+e+socialização+na+escola&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+vídeo+como+recurso+de+aprendizado+e+socialização+na+escola">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+vídeo+como+recurso+de+aprendizado+e+socialização+na+escola">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>GROPPO, L. A. <b>O vídeo como recurso de aprendizado e socialização na escola</b>. Simpro Cultura, Caderno de Cultura do Sindicato dos Professores de Campinas e Região, p. 12-14, .</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>GROPPO, L. A. <b>Rock, juventude e autenticidade</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Rock,+juventude+e+autenticidade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Rock,+juventude+e+autenticidade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Rock,+juventude+e+autenticidade">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>GROPPO, L. A. <b>Rock, juventude e autenticidade</b>. Jornal de Piracicaba, Piracicaba/ SP, p. 8, .</td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>GROPPO, L. A.; ROSSETTI, E. G.. <b>Turismo rural. Uma opção para nossa região</b>. , In: Tempus, Jornal da Unisal Unidade Americana, Americana/ SP, , v. ano I, p. 08, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Turismo+rural.+Uma+opção+para+nossa+região&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Turismo+rural.+Uma+opção+para+nossa+região">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Turismo+rural.+Uma+opção+para+nossa+região">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>GROPPO, L. A.; ROSSETTI, E. G.. <b>Turismo rural. Uma opção para nossa região</b>. , In: Tempus, Jornal da Unisal Unidade Americana, Americana/ SP, , v. ano I, p. 08, .</td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Tenho um aluno com autismo em minha sala de aula. E agora?</b>. Revista Guia Prático para Professores do Ensino Fundamental, Editora Escala, SP, p. 32-33, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tenho+um+aluno+com+autismo+em+minha+sala+de+aula.+E+agora?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tenho+um+aluno+com+autismo+em+minha+sala+de+aula.+E+agora?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tenho+um+aluno+com+autismo+em+minha+sala+de+aula.+E+agora?">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Tenho um aluno com autismo em minha sala de aula. E agora?</b>. Revista Guia Prático para Professores do Ensino Fundamental, Editora Escala, SP, p. 32-33, .</td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Os desafios da inclusão escolar</b>. A Tribuna Online, SP, p. 1-2, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Os+desafios+da+inclusão+escolar&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Os+desafios+da+inclusão+escolar">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Os+desafios+da+inclusão+escolar">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Os desafios da inclusão escolar</b>. A Tribuna Online, SP, p. 1-2, .</td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Cartografias participativas na EJA. 2020. https://pensaraeducacao.com.br/pensaraeducacaoempauta/cartografias-participativas-na-eja/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Cartografias+participativas+na+EJA.+2020.+https://pensaraeducacao.com.br/pensaraeducacaoempauta/cartografias-participativas-na-eja/&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Cartografias+participativas+na+EJA.+2020.+https://pensaraeducacao.com.br/pensaraeducacaoempauta/cartografias-participativas-na-eja/">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Cartografias+participativas+na+EJA.+2020.+https://pensaraeducacao.com.br/pensaraeducacaoempauta/cartografias-participativas-na-eja/">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Cartografias participativas na EJA. 2020. https://pensaraeducacao.com.br/pensaraeducacaoempauta/cartografias-participativas-na-eja/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .</td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Possibilidades e desafios do trabalho da Educação das Relações Étnico-Raciais na EJA. 2020. http://pensaraeducacao.com.br/pensaraeducacaoempauta/possibilidades-e-desafios-do-trabalho-da-educacao-das-relacoes-etnico-raciais-na-eja/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Possibilidades+e+desafios+do+trabalho+da+Educação+das+Relações+Étnico-Raciais+na+EJA.+2020.+http://pensaraeducacao.com.br/pensaraeducacaoempauta/possibilidades-e-desafios-do-trabalho-da-educacao-das-relacoes-etnico-raciais-na-eja/&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Possibilidades+e+desafios+do+trabalho+da+Educação+das+Relações+Étnico-Raciais+na+EJA.+2020.+http://pensaraeducacao.com.br/pensaraeducacaoempauta/possibilidades-e-desafios-do-trabalho-da-educacao-das-relacoes-etnico-raciais-na-eja/">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Possibilidades+e+desafios+do+trabalho+da+Educação+das+Relações+Étnico-Raciais+na+EJA.+2020.+http://pensaraeducacao.com.br/pensaraeducacaoempauta/possibilidades-e-desafios-do-trabalho-da-educacao-das-relacoes-etnico-raciais-na-eja/">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Possibilidades e desafios do trabalho da Educação das Relações Étnico-Raciais na EJA. 2020. http://pensaraeducacao.com.br/pensaraeducacaoempauta/possibilidades-e-desafios-do-trabalho-da-educacao-das-relacoes-etnico-raciais-na-eja/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .</td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>EJA: uma modalidade de ensino negra! 2021. http://pensaraeducacao.com.br/pensaraeducacaoempauta/eja-uma-modalidade-de-ensino-negra/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=EJA:+uma+modalidade+de+ensino+negra!+2021.+http://pensaraeducacao.com.br/pensaraeducacaoempauta/eja-uma-modalidade-de-ensino-negra/&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=EJA:+uma+modalidade+de+ensino+negra!+2021.+http://pensaraeducacao.com.br/pensaraeducacaoempauta/eja-uma-modalidade-de-ensino-negra/">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=EJA:+uma+modalidade+de+ensino+negra!+2021.+http://pensaraeducacao.com.br/pensaraeducacaoempauta/eja-uma-modalidade-de-ensino-negra/">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>EJA: uma modalidade de ensino negra! 2021. http://pensaraeducacao.com.br/pensaraeducacaoempauta/eja-uma-modalidade-de-ensino-negra/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .</td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Reflexões sobre práticas educativas Afroindígenas na EJA. 2021. https://pensaraeducacao.com.br/pensaraeducacaoempauta/reflexoes-sobre-praticas-educativas-afroindigenas-na-eja/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Reflexões+sobre+práticas+educativas+Afroindígenas+na+EJA.+2021.+https://pensaraeducacao.com.br/pensaraeducacaoempauta/reflexoes-sobre-praticas-educativas-afroindigenas-na-eja/&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Reflexões+sobre+práticas+educativas+Afroindígenas+na+EJA.+2021.+https://pensaraeducacao.com.br/pensaraeducacaoempauta/reflexoes-sobre-praticas-educativas-afroindigenas-na-eja/">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Reflexões+sobre+práticas+educativas+Afroindígenas+na+EJA.+2021.+https://pensaraeducacao.com.br/pensaraeducacaoempauta/reflexoes-sobre-praticas-educativas-afroindigenas-na-eja/">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Reflexões sobre práticas educativas Afroindígenas na EJA. 2021. https://pensaraeducacao.com.br/pensaraeducacaoempauta/reflexoes-sobre-praticas-educativas-afroindigenas-na-eja/</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Educação das Relações Étnico-Raciais e Educação de pessoas Jovens, Adultas e Idosas: desafios para superar a lógica do puxadinho! 2022. http://pensaraeducacao.com.br/pensaraeducacaoempauta/educacao-das-relacoes-etnico-raciais-e-educacao-de-pessoas-jovens-adultas-e-idosas-desafios-para-superar-a-logica-do-puxadinho/ Pensar a Educação em Pauta - um jornal para Ed.Brasileira</b>. Pensar a Educação em pauta - um jornal para Educação Brasileira, Belo Horizonte, .</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SILVA, Natalino Neves da. <b>Vamos falar de racismo? Uma escola pública e outra privada mostram por que construir uma educação antirracista muda tudo na escola. [Entrevista] Educatrix. Tendências, Edição 24, 2023. https://educatrix.moderna.com.br/vamos-falar-de-racismo. Educatrix, São Paulo, Editora Moderna</b>. Educatrix, São Paulo, p. 104-109, .</td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 22:08:08<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:34:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

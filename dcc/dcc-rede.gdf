@@ -1,19 +1,20 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,2363460036599181,Eduardo Gomes Salgado,[Sem rotulo],,,0.9816432,143,69,5,6,58,4,1,1,3,16,2,'10,110,164'
-1,6883421018811339,Eliseu Cesar Miguel,[Sem rotulo],,,0.15,14,4,1,0,8,0,1,0,0,0,3,'10,110,164'
+0,2363460036599181,Eduardo Gomes Salgado,[Sem rotulo],,,0.9820747,143,69,5,6,58,4,1,1,3,16,2,'10,110,164'
+1,6883421018811339,Eliseu Cesar Miguel,[Sem rotulo],,,1.0,15,5,1,0,8,0,1,0,0,0,3,'10,110,164'
 2,1310310705488241,Flavio Barbieri Gonzaga,[Sem rotulo],,,0.15,15,1,0,0,7,2,5,0,0,0,10,'10,110,164'
-3,3832045632369639,Humberto Cesar Brandao de Oliveira,[Sem rotulo],,,1.9563718,40,8,0,1,29,0,2,0,0,0,23,'10,110,164'
-4,9975041225831602,Iago Augusto de Carvalho,[Sem rotulo],,,0.15,50,16,0,0,29,1,4,0,0,1,7,'10,110,164'
-5,5459510407019521,Luiz Eduardo da Silva,[Sem rotulo],,,0.908283,22,5,0,3,7,1,6,0,0,0,0,'10,110,164'
-6,6453091384982419,Marcelo Lacerda Rezende,[Sem rotulo],,,0.8278036,85,40,1,1,23,5,15,0,1,12,20,'10,110,164'
-7,9682825029495702,Mariane Moreira de Souza,[Sem rotulo],,,0.7730825,18,3,0,0,10,1,4,0,0,0,5,'10,110,164'
-8,6853382226977684,Nelson Jose Freitas da Silveira,[Sem rotulo],,,0.15,62,40,0,2,1,1,18,1,5,13,15,'10,110,164'
+3,3832045632369639,Humberto César Brandão de Oliveira,[Sem rotulo],,,1.9567647,40,8,0,1,29,0,2,0,0,0,23,'10,110,164'
+4,9975041225831602,Iago Augusto de Carvalho,[Sem rotulo],,,1.0,51,17,0,0,29,1,4,0,0,1,7,'10,110,164'
+5,5459510407019521,Luiz Eduardo da Silva,[Sem rotulo],,,0.90871835,22,5,0,3,7,1,6,0,0,0,0,'10,110,164'
+6,6453091384982419,Marcelo Lacerda Rezende,[Sem rotulo],,,0.8259854,86,41,1,1,23,5,15,0,1,12,20,'10,110,164'
+7,9682825029495702,Mariane Moreira de Souza,[Sem rotulo],,,0.7737187,18,3,0,0,10,1,4,0,0,0,5,'10,110,164'
+8,6853382226977684,Nelson José Freitas da Silveira,[Sem rotulo],,,0.15,62,40,0,2,1,1,18,1,5,13,15,'10,110,164'
 9,0231239253253477,Paulo Alexandre Bressan,[Sem rotulo],,,0.15,22,2,0,3,12,2,3,0,0,1,8,'10,110,164'
-10,8918198224706238,Ricardo Menezes Salgado,[Sem rotulo],,,1.123676,75,22,0,3,28,8,14,0,0,8,35,'10,110,164'
-11,1194178136211401,Rodrigo Martins Pagliares,[Sem rotulo],,,0.4291399,10,5,2,0,3,0,0,0,0,0,1,'10,110,164'
+10,8918198224706238,Ricardo Menezes Salgado,[Sem rotulo],,,1.1244835,76,23,0,3,28,8,14,0,0,8,35,'10,110,164'
+11,1194178136211401,Rodrigo Martins Pagliares,[Sem rotulo],,,0.42825451,10,5,2,0,3,0,0,0,0,0,1,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
 0,6,2.0
 0,11,1.0
+1,4,1.0
 3,5,7.0
 3,7,6.0
 3,10,7.0

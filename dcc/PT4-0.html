@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Trabalhos técnicos'}, 
-series: [{data: [[2001,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2001,
 1],
 [2003,
 1],
@@ -124,34 +151,7 @@ series: [{data: [[2001,
 [2014,
 1],
 [2020,
-1]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+1]]}]});
         });
         </script>
         
@@ -161,33 +161,33 @@ shadow: true}});
                     
                     
                     <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Economista dá dicas sobre gastos durante a pandemia no EPTV 1. 2020. (Programa de rádio ou</b>. 2020.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Economista+dá+dicas+sobre+gastos+durante+a+pandemia+no+EPTV+1.+2020.+(Programa+de+rádio+ou">busca Google</a> |            <a href="http://www.bing.com/search?q=Economista+dá+dicas+sobre+gastos+durante+a+pandemia+no+EPTV+1.+2020.+(Programa+de+rádio+ou">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Economista dá dicas sobre gastos durante a pandemia no EPTV 1. 2020. (Programa de rádio ou</b>. 2020.</td></tr>
             </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Marcelo Lacerda Rezende. 2014; Tema: Aulas de Economia. (Rede</b>. 2014.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Marcelo+Lacerda+Rezende.+2014;+Tema:+Aulas+de+Economia.+(Rede">busca Google</a> |            <a href="http://www.bing.com/search?q=Marcelo+Lacerda+Rezende.+2014;+Tema:+Aulas+de+Economia.+(Rede">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>Marcelo Lacerda Rezende. 2014; Tema: Aulas de Economia. (Rede</b>. 2014.</td></tr>
             </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>O comércio que virou lazer. 2011. (Programa de rádio ou</b>. 2011.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=O+comércio+que+virou+lazer.+2011.+(Programa+de+rádio+ou">busca Google</a> |            <a href="http://www.bing.com/search?q=O+comércio+que+virou+lazer.+2011.+(Programa+de+rádio+ou">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>O comércio que virou lazer. 2011. (Programa de rádio ou</b>. 2011.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>A atração das feiras: pesquisa mostra que o comércio ao ar livre agrega consumo, cultura e confraternização. 2011. (Programa de rádio ou</b>. 2011.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=A+atração+das+feiras:+pesquisa+mostra+que+o+comércio+ao+ar+livre+agrega+consumo,+cultura+e+confraternização.+2011.+(Programa+de+rádio+ou">busca Google</a> |            <a href="http://www.bing.com/search?q=A+atração+das+feiras:+pesquisa+mostra+que+o+comércio+ao+ar+livre+agrega+consumo,+cultura+e+confraternização.+2011.+(Programa+de+rádio+ou">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>A atração das feiras: pesquisa mostra que o comércio ao ar livre agrega consumo, cultura e confraternização. 2011. (Programa de rádio ou</b>. 2011.</td></tr>
             </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>CAPES/UAB/UNIFAL-MG - Plano de trabalho anual para a oferta de cursos a distância em 2010</b>. 2009.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2010">busca Google</a> |            <a href="http://www.bing.com/search?q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2010">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>CAPES/UAB/UNIFAL-MG - Plano de trabalho anual para a oferta de cursos a distância em 2010</b>. 2009.</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>CAPES/UAB/UNIFAL-MG - Plano de trabalho anual para a oferta de cursos a distância em 2009</b>. 2009.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2009">busca Google</a> |            <a href="http://www.bing.com/search?q=CAPES/UAB/UNIFAL-MG+-+Plano+de+trabalho+anual+para+a+oferta+de+cursos+a+distância+em+2009">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>REZENDE, Marcelo Lacerda. <b>CAPES/UAB/UNIFAL-MG - Plano de trabalho anual para a oferta de cursos a distância em 2009</b>. 2009.</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>REZENDE, Marcelo Lacerda; REZENDE, E. G. ; HERNANDES, P. R.. <b>CAPES/UAB/UNIFAL-MG Plano Anual de Capacitação em EaD para a Unifal-MG - 2010</b>. 2009.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CAPES/UAB/UNIFAL-MG+Plano+Anual+de+Capacitação+em+EaD+para+a+Unifal-MG+-+2010">busca Google</a> |            <a href="http://www.bing.com/search?q=CAPES/UAB/UNIFAL-MG+Plano+Anual+de+Capacitação+em+EaD+para+a+Unifal-MG+-+2010">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>REZENDE, Marcelo Lacerda; REZENDE, E. G. ; HERNANDES, P. R.. <b>CAPES/UAB/UNIFAL-MG Plano Anual de Capacitação em EaD para a Unifal-MG - 2010</b>. 2009.</td></tr>
             </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>ARANHA, E. A. ; MORENO, R. ; REZENDE, Marcelo Lacerda. <b>Plano de ação do programa de pré-incubação da UNIFEI - 2008</b>. 2008.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Plano+de+ação+do+programa+de+pré-incubação+da+UNIFEI+-+2008">busca Google</a> |            <a href="http://www.bing.com/search?q=Plano+de+ação+do+programa+de+pré-incubação+da+UNIFEI+-+2008">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANHA, E. A. ; MORENO, R. ; REZENDE, Marcelo Lacerda. <b>Plano de ação do programa de pré-incubação da UNIFEI - 2008</b>. 2008.</td></tr>
             </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. G. <b>Auditoria da Qualidade baseado na NBR 17025:2005</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Auditoria+da+Qualidade+baseado+na+NBR+17025:2005">busca Google</a> |            <a href="http://www.bing.com/search?q=Auditoria+da+Qualidade+baseado+na+NBR+17025:2005">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. G. <b>Auditoria da Qualidade baseado na NBR 17025:2005</b>. 2007.</td></tr>
             </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. G. <b>Estágio em Lean Manufacturing</b>. 2005.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Estágio+em+Lean+Manufacturing">busca Google</a> |            <a href="http://www.bing.com/search?q=Estágio+em+Lean+Manufacturing">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. G. <b>Estágio em Lean Manufacturing</b>. 2005.</td></tr>
             </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. <b>G.. Estágio em Qualidade</b>. 2004.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=G..+Estágio+em+Qualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=G..+Estágio+em+Qualidade">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. <b>G.. Estágio em Qualidade</b>. 2004.</td></tr>
             </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. <b>G.. Estágio em Qualidade</b>. 2003.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=G..+Estágio+em+Qualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=G..+Estágio+em+Qualidade">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, E. <b>G.. Estágio em Qualidade</b>. 2003.</td></tr>
             </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, R. <b>M.; ALVES, Margareth da Silva . MATLAB e aplicações</b>. 2001.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=M.;+ALVES,+Margareth+da+Silva+.+MATLAB+e+aplicações">busca Google</a> |            <a href="http://www.bing.com/search?q=M.;+ALVES,+Margareth+da+Silva+.+MATLAB+e+aplicações">busca Bing</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SALGADO, R. <b>M.; ALVES, Margareth da Silva . MATLAB e aplicações</b>. 2001.</td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 07/03/2024 13:43:22<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:08:27<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

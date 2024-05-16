@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,69 +103,75 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Artigos aceitos para publicação'}, 
-series: [{data: [[2016,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2016,
 1],
 [2021,
 1],
 [2022,
-7]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+1],
+[2023,
+1],
+[2024,
+6]]}]});
         });
         </script>
         
                 <h3>Artigos aceitos para publicação</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 9<br>
+                    Número total de itens: 10<br>
+                    (<b>A1</b>: 1, <b>A2</b>: 2, <b>A3</b>: 0, <b>A4</b>: 0, <b>B1</b>: 0, <b>B2</b>: 0, <b>B3</b>: 0, <b>B4</b>: 0, <b>B5</b>: 0, <b>C</b>: 0, <b>NP</b>: 0, <b>Qualis n&atilde;o identificado</b>: 7)<br><p><b>Legenda Qualis:</b><ul><li> Publica&ccedil;&atilde;o para a qual o nome exato do Qualis foi identificado: <font color="#254117"><b>Qualis &lt;estrato&gt;</b></font><li> Publica&ccedil;&atilde;o para a qual um nome similar (n&atilde;o exato) do Qualis foi identificado: <font color="#F88017"><b>Qualis &lt;estrato&gt;</b></font> (nome similar)<li> Publica&ccedil;&atilde;o para a qual nenhum nome do Qualis foi identificado: <font color="#FDD7E4"><b>Qualis n&atilde;o identificado</b></font> (nome usado na busca)</ul>
                     
-                    
-                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>FERNANDEZ-GIRON, D. J. ; FELÍCIO, HELENA MARIA DOS SANTOS. <b>A Cátedra por Nariño na Colômbia: possibilidades para um currículo emancipatório</b>. REVISTA E-CURRICULUM (PUCSP). 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Cátedra+por+Nariño+na+Colômbia:+possibilidades+para+um+currículo+emancipatório&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Cátedra+por+Nariño+na+Colômbia:+possibilidades+para+um+currículo+emancipatório">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Cátedra+por+Nariño+na+Colômbia:+possibilidades+para+um+currículo+emancipatório">busca Google</a> ]          </font><br></td></tr>
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Almeida, V.S. ; PAULA, B.M.D ; HORNINK, G. G.. <b>Cerveja com Ciência: integrando conheciumentos</b>. EntreAções: diálogos em extensão. 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (ENTREAÇÕES: DIÁLOGOS EM EXTENSÃO)</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>GROPPO, LUIS ANTONIO; SALLAS, ANA LUISA FAYET. <b>Ocupações secundaristas no Brasil em 2015 e 2016: sujeitos e trajetórias</b>. REVISTA BRASILEIRA DE EDUCAÇÃO. 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ocupações+secundaristas+no+Brasil+em+2015+e+2016:+sujeitos+e+trajetórias&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ocupações+secundaristas+no+Brasil+em+2015+e+2016:+sujeitos+e+trajetórias">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ocupações+secundaristas+no+Brasil+em+2015+e+2016:+sujeitos+e+trajetórias">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>?A vida na taça da morte? : uma análise sobre o feticídio no Nepal a partir do poema de Usha Sherchan'</b>. Diálogos. 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (DIÁLOGOS)</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>GROPPO, LUIS ANTONIO; SOUSA, F. A.. <b>Experiências, emoções e memória de jovens: ocupações secundaristas no Ceará em 2016</b>. EDUCACAO UNISINOS (ONLINE). 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Experiências,+emoções+e+memória+de+jovens:+ocupações+secundaristas+no+Ceará+em+2016&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Experiências,+emoções+e+memória+de+jovens:+ocupações+secundaristas+no+Ceará+em+2016">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Experiências,+emoções+e+memória+de+jovens:+ocupações+secundaristas+no+Ceará+em+2016">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>ORRÚ, Sílvia Ester. <b>Aos Pés da Montanha: a interseccionalidade gênero e casta como ciclo de violência contra as Mulheres Nepalesas</b>. REVISTA TEMPOS E ESPAÇOS EM EDUCAÇÃO (ONLINE). 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA TEMPOS E ESPAÇOS EM EDUCAÇÃO)</td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>GROPPO, LUIS ANTONIO; TOMIZAKI, K. A. ; CORROCHANO, M. C. ; BORGES, L. F. ; BILIATTO, C. G. ; GINZEL, F.. <b>?UM ATO DE LIBERDADE?: MOVIMENTO DE ESTUDANTES SECUNDARISTAS EM SÃO PAULO, 2015. PRÓ-POSIÇÕES (UNICAMP</b>. ONLINE). 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=?UM+ATO+DE+LIBERDADE?:+MOVIMENTO+DE+ESTUDANTES+SECUNDARISTAS+EM+SÃO+PAULO,+2015.+PRÓ-POSIÇÕES+(UNICAMP&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=?UM+ATO+DE+LIBERDADE?:+MOVIMENTO+DE+ESTUDANTES+SECUNDARISTAS+EM+SÃO+PAULO,+2015.+PRÓ-POSIÇÕES+(UNICAMP">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=?UM+ATO+DE+LIBERDADE?:+MOVIMENTO+DE+ESTUDANTES+SECUNDARISTAS+EM+SÃO+PAULO,+2015.+PRÓ-POSIÇÕES+(UNICAMP">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>PEREIRA, L. F. ; JINZENJI, M. Y. ; FILGUEIRAS, J. M.. <b>Vandick Londres da Nóbrega: um intelectual conservador no contexto educacional durante a ditadura militar no Brasil (1964-1979)</b>. CADERNOS DE HISTÓRIA DA EDUCAÇÃO (ONLINE). 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (CADERNOS DE HISTÓRIA DA EDUCAÇÃO)</td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>RIBEIRO, M. S. ; KIILL, K. B.. <b>Alotropia: o design didático de uma sequência de ensino e aprendizagem</b>. Educação Química en Punto de Vista. 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Alotropia:+o+design+didático+de+uma+sequência+de+ensino+e+aprendizagem&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Alotropia:+o+design+didático+de+uma+sequência+de+ensino+e+aprendizagem">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Alotropia:+o+design+didático+de+uma+sequência+de+ensino+e+aprendizagem">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANTOS, A. C. S. ; PORTELA, E. M. S. ; HORNINK, G. G. ; FELICIO, H. M. S.. <b>O sequestro da autonomia docente: a redução da profissão e da didática nas contrarreformas neoliberais</b>. REVISTA E-CURRICULUM (PUCSP). 2024. <font color="#254117"><b>Qualis: A2</b></font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, Juliana Pereira Zorzin ; SILVA, GUILHERME HENRIQUE GOMES DA. <b>Contribuições de uma prática formativa envolvendo o software Geogebra para professores que ensinam matemática dos anos iniciais do ensino fundamental</b>. CIÊNCIA & EDUCAÇÃO (ONLINE). 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Contribuições+de+uma+prática+formativa+envolvendo+o+software+Geogebra+para+professores+que+ensinam+matemática+dos+anos+iniciais+do+ensino+fundamental&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Contribuições+de+uma+prática+formativa+envolvendo+o+software+Geogebra+para+professores+que+ensinam+matemática+dos+anos+iniciais+do+ensino+fundamental">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Contribuições+de+uma+prática+formativa+envolvendo+o+software+Geogebra+para+professores+que+ensinam+matemática+dos+anos+iniciais+do+ensino+fundamental">busca Google</a> ]          </font><br></td></tr>
-            
-            <tr valign="top"><td>7. &nbsp;</td> <td>XAVIER, Cristiane. F. <b>Educadores em territórios de sociabilidade política (Brasil, 1934-1935)</b>. EDUCAÇÃO E REALIDADE. 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educadores+em+territórios+de+sociabilidade+política+(Brasil,+1934-1935)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educadores+em+territórios+de+sociabilidade+política+(Brasil,+1934-1935)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educadores+em+territórios+de+sociabilidade+política+(Brasil,+1934-1935)">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, T. V. ; PAULA, B.M.D ; HORNINK, G. G.. <b>Avaliação de diferentes técnicas de hidratação na viabilidade de levedura cervejeira seca comercial. ACTA SCIENTIARUM</b>. TECHNOLOGY (ONLINE). 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (TECHNOLOGY)</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SIQUELLI, S.A.; BARRICELLI, E. M.. <b>A formação inicial à luz do PIBID: uma política pública de fortalecimento da docência</b>. Revista Universitarios Potosinos. 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA UNIVERSITARIOS POTOSINOS)</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERNANDEZ-GIRON, D. J. ; FELÍCIO, HELENA MARIA DOS SANTOS. <b>A Cátedra por Nariño na Colômbia: possibilidades para um currículo emancipatório</b>. REVISTA E-CURRICULUM (PUCSP). 2022. <font color="#254117"><b>Qualis: A2</b></font></td></tr>
             </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>GOMES, CLAUDIA; MEDEIROS, F. P. ; ARINELLI, G. S. ; ZUCOLOTO, P. C. S. V.. <b>Imagining, Creating, Building Together: School Psychologist Practices in Times of Pandemic</b>. Estudos de Psicologia (Campinas). 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Imagining,+Creating,+Building+Together:+School+Psychologist+Practices+in+Times+of+Pandemic&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Imagining,+Creating,+Building+Together:+School+Psychologist+Practices+in+Times+of+Pandemic">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Imagining,+Creating,+Building+Together:+School+Psychologist+Practices+in+Times+of+Pandemic">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GOMES, CLAUDIA; MEDEIROS, F. P. ; ARINELLI, G. S. ; ZUCOLOTO, P. C. S. V.. <b>Imagining, Creating, Building Together: School Psychologist Practices in Times of Pandemic</b>. Estudos de Psicologia (Campinas). 2021. <font color="#254117"><b>Qualis: A1</b></font></td></tr>
             </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>TORRES, M. E. A. C.; OLIVEIRA, F.. <b>?O ENSINO DE LEITURA EM SALAS DO PRIMEIRO ANO DO ENSINO FUNDAMENTAL? ?REFLEXÕES ACERCA DO ENSINO DE LEITURA?. Acta Scientiarum</b>. Education (Online). 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=?O+ENSINO+DE+LEITURA+EM+SALAS+DO+PRIMEIRO+ANO+DO+ENSINO+FUNDAMENTAL?+?REFLEXÕES+ACERCA+DO+ENSINO+DE+LEITURA?.+Acta+Scientiarum&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=?O+ENSINO+DE+LEITURA+EM+SALAS+DO+PRIMEIRO+ANO+DO+ENSINO+FUNDAMENTAL?+?REFLEXÕES+ACERCA+DO+ENSINO+DE+LEITURA?.+Acta+Scientiarum">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=?O+ENSINO+DE+LEITURA+EM+SALAS+DO+PRIMEIRO+ANO+DO+ENSINO+FUNDAMENTAL?+?REFLEXÕES+ACERCA+DO+ENSINO+DE+LEITURA?.+Acta+Scientiarum">busca Google</a> ]          </font><br></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>TORRES, M. E. A. C.; OLIVEIRA, F.. <b>?O ENSINO DE LEITURA EM SALAS DO PRIMEIRO ANO DO ENSINO FUNDAMENTAL? ?REFLEXÕES ACERCA DO ENSINO DE LEITURA?. Acta Scientiarum</b>. Education (Online). 2016. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (EDUCATION)</td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 22:08:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:34:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

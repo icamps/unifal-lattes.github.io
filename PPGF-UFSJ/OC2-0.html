@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF-UFSJ)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF-UFSJ)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Física (PPGF-UFSJ)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Física (PPGF-UFSJ)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Dissertação de mestrado'}, 
-series: [{data: [[2003,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2003,
 1],
 [2005,
 2],
@@ -132,51 +159,28 @@ series: [{data: [[2003,
 [2018,
 2],
 [2019,
-5],
+4],
 [2020,
 4],
 [2021,
-4],
+5],
 [2022,
 3],
 [2023,
-3]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+3],
+[2024,
+1]]}]});
         });
         </script>
         
                 <h3>Dissertação de mestrado</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 48<br>
+                    Número total de itens: 49<br>
                     
                     
-                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6502894549362355">Larissa Ferreira Eleotério</a>. <b>Simetrias e Anomalias no Modelo de Schwinger Quiral na Regularização Espectral</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7108816464261099">Gabrielle Oliveira de Almeida</a>. <b>O tensor de Polarização do vácuo no modelo de Schwinger em uma abordagem espectral</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
             
             <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9129345549112508">Maria Luiza Guimarães Dias dos Santos</a>. <b>Dinâmica Quântica com Reinício: Jaynes - Cummings</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Física) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0487113229071944">Adélcio Carlos de Oliveira</a>.</font></td></tr>
@@ -195,7 +199,9 @@ shadow: true}});
             
             <tr valign="top"><td>3. &nbsp;</td> <td>Guilherme Fernandes Cárias Barbosa. <b>Aplicações de Álgebra Linear na Compressão de Imagens</b>. Dissertação (Mestrado em PROFMAT - Mestrado Profissional em Matemática) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Luana Aparecida de Barros. <b>Subdifusão em insetos sociais</b>. Dissertação (Mestrado em Mestrado em Física em Associação UFSJ-UFLA-UNIFAL) - Universidade Federal de São João Del-Rei, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9428416479663144">Leticia Ribeiro de Paiva</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7235424140939267">Isaac Max Pereira</a>. <b>Independência de Ambiguidades no modelo de Nambu-Jona-Lasínio</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Universidade Federal de São João Del-Rei. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Luana Aparecida de Barros. <b>Subdifusão em insetos sociais</b>. Dissertação (Mestrado em Mestrado em Física em Associação UFSJ-UFLA-UNIFAL) - Universidade Federal de São João Del-Rei, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9428416479663144">Leticia Ribeiro de Paiva</a>.</font></td></tr>
             </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Deborah Sampaio Antunes de Oliveira. <b>Efeitos de simetrias da equação de Lindblad no transporte</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
             
@@ -207,13 +213,11 @@ shadow: true}});
             </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8363293767542766">Edgar Paulino Mamani Lopez</a>. <b>Estados Fundamentais de uma Cadeia Unidimensional Dimerizada Supercondutora</b>. Associação Ampla (UFSJ, UFLA, UNIFAL).) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1373657423991547">Heron Carlos de Godoy Caldas</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7235424140939267">Isaac Max Pereira</a>. <b>Independência de Ambiguidades no modelo de Nambu-Jona-Lasínio</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, Universidade Federal de São João Del-Rei. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Luiz Fernando Pinheiro Ramos. <b>Modelagem Matemática para Previsão de Jogos de Futebol</b>. Dissertação (Mestrado em PROFMAT - Mestrado Profissional em Matemática) - Universidade Federal de São João Del-Rei, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Luiz Fernando Pinheiro Ramos. <b>Modelagem Matemática para Previsão de Jogos de Futebol</b>. Dissertação (Mestrado em PROFMAT - Mestrado Profissional em Matemática) - Universidade Federal de São João Del-Rei, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8374281747074655">Humberto Cesar Fernandes Lemos</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6985613045320268">Túlio de Almeida Moreira Ferreira</a>. <b>Bifurcações e Caos em Sistemas Biológicos</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2091568617999217">Marcelo Martins de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6985613045320268">Túlio de Almeida Moreira Ferreira</a>. <b>Bifurcações e Caos em Sistemas Biológicos</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2091568617999217">Marcelo Martins de Oliveira</a>.</font></td></tr>
-            
-            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3189016459956475">Wagno César e Silva</a>. <b>Fatores de Forma no Modelo Espectral de Quarks SU(3)f</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3189016459956475">Wagno César e Silva</a>. <b>Fatores de Forma no Modelo Espectral de Quarks SU(3)f</b>. Dissertação (Mestrado em Física (UNIFAL/UFLA/UFSJ)(32011016010P8)) - Universidade Federal de São João Del-Rei, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
             </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7386244848291169">Marlon Nunes Gonzaga</a>. <b>Desordem congelada no processo de contato em subredes</b>. Dissertação (Mestrado em Mestrado em Física) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2091568617999217">Marcelo Martins de Oliveira</a>.</font></td></tr>
             
@@ -253,7 +257,7 @@ shadow: true}});
             
             <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0069697138404546">Polyanna Guimarães e Miranda</a>. <b>Efeitos de alvo finito em espalhamentos atômicos na presença de confinamento anisotrópico</b>. Dissertação (Mestrado em Física e Química de Materiais) - Universidade Federal de São João Del-Rei, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8453016139576761">André Luiz Mota</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2032232442751339">Raphaella Bahia Soares Cabral</a>. <b>Diagrama de fase supercondutor em sistemas de Dirac bidimensionais na presenc?a de um campo magne?tico aplicado</b>. Dissertação (Mestrado em Física e Química de Materiais) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9320579515635433">Lizardo Henrique Cerqueira Moreira Nunes</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2032232442751339">Raphaella Bahia Soares Cabral</a>. <b>Diagrama de fase supercondutor em sistemas de Dirac bidimensionais na presença de um campo magnético aplicado</b>. Dissertação (Mestrado em Física e Química de Materiais) - Universidade Federal de São João Del-Rei, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9320579515635433">Lizardo Henrique Cerqueira Moreira Nunes</a>.</font></td></tr>
             </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2706768463638642">Anderson de Jesus Pereira</a>. <b>Efeito de uma barreira cinética em modelos de crecimento de interface com mobilidade limitada</b>. Dissertação (Mestrado em Fisica Aplicada) - Universidade Federal de Viçosa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4536440727635518">Sidiney Geraldo Alves</a>.</font></td></tr>
             
@@ -275,5 +279,5 @@ shadow: true}});
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 07/03/2024 14:31:45<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:45:21<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

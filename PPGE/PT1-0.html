@@ -1,0 +1,225 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Softwares sem registro de patente'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2001,
+1],
+[2003,
+2],
+[2006,
+1],
+[2007,
+1],
+[2008,
+2],
+[2009,
+2],
+[2010,
+5],
+[2011,
+1],
+[2012,
+1],
+[2014,
+3],
+[2016,
+2],
+[2017,
+1],
+[2018,
+1],
+[2019,
+2]]}]});
+        });
+        </script>
+        
+                <h3>Softwares sem registro de patente</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 25<br>
+                    
+                    
+                    <div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>WISNIEWSKI, H. S. ; RIBEIRO, F. P. ; Rocha, D.A. ; OLIVEIRA, H. A. ; OLIVEIRA, L. P. ; NERY, M.A. ; HORNINK, G. G. ; SILVA, L. E.. <b>Tales Ludos: Ferramenta online para construção de jogos educacionais</b>. 2019.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>WISNIEWSKI, H.S. <b>; Rocha, D.A. ; HORNINK, G. G. . CriminalMaps</b>. 2019.</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, G. G.; COMPIANI, M.. <b>GeoVirt II: Cabecera del Río de las Piedras (V.2 versão em espanhol)</b>. 2018.</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber. <b>protVirt - Protein quantitation simulator (english version)</b>. 2017.</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ferraz, P. <b>F. O. ; Campos, R. S. ; Silva, E. J. ; Silva, R. B. ; Balbino, R. R. ; Souza, M. M. ; BUSQUEIRO, A. ; HORNINK, G. G. . inMapMoodle V.2</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HORNINK, G. G. <b>Agenda da IV Jornada da Biomedicina da Unifal-MG</b>. 2016.</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ribeiro, R.R. <b>; SILVA, R. S. L. ; HORNINK, G. G. ; HORNINK, Gabriel Gerber . orgLibello</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ribeiro, R.R. ; HORNINK, Gabriel Gerber ; HORNINK, G. G.. <b>Banco de Imagens - INEP</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Vilela, A.P. <b>; Maciel, B. ; Baêta, F. ; Marinho, G.B. ; Andrade, J.G. ; Cardoso, J. ; BERTOLDI, M. L. ; HORNINK, G. G. ; HORNINK, Gabriel Gerber . As aventuras de Kreber</b>. 2014.</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; GALEMBECK, Eduardo ; KAWAZOE, Urara. <b>Parasitas: Ensino médio V. 2</b>. 2012.</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber. <b>Simulando a Chuva ácida v. 1.1</b>. 2011.</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber; COMPIANI, M.. <b>GeoVirt I: Campo virtual das rochas tipo Campinas</b>. 2010.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HORNINK, Gabriel Gerber; COMPIANI, M.. <b>GeoVirt II: Cabeceira do Ribeirão das Pedras</b>. 2010.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HORNINK, Gabriel Gerber; GIACOMINI, B. B. ; COELHO, R. M. ; COMPIANI, M.. <b>Petra - Identificação de rochas (Campinas-SP)</b>. 2010.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; GALEMBECK, Eduardo ; KAWAZOE, Urara. <b>Parasitùs humanus: Principais parasitos humanos transmitidos via água ou alimento</b>. 2010.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; MENDES, L. T. ; FERNANDES, Renato ; KAWAZOE, Urara. <b>Coccidiose Aviária: Um parasito de galinha doméstica</b>. 2010.</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>KIMURA, Eduardo Kenji ; HORNINK, Gabriel Gerber ; GALEMBECK, Eduardo. <b>Gerenciador de projetos acadêmicos</b>. 2009.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SANTORO, Carlos Eduardo ; Santos, E.R. ; GODOY, G. F. ; CHIKUCHI, H. A. ; GALEMBECK, Eduardo ; KAWAZOE, Urara ; HORNINK, Gabriel Gerber ; PEREZ, Daniel. <b>Ciclo de vida de parasitas - Schistosoma mansoni</b>. 2009.</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber. <b>Curvas de nível: Animação</b>. 2008.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HORNINK, Gabriel Gerber; COMPIANI, M.. <b>Campo virtual em Campinas: Roteiro 1</b>. 2008.</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber; NICACIO, Erica ; HENRIQUE, Andre. <b>H2O: O ciclo da vida</b>. 2007.</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; GALEMBECK, Eduardo ; KAWAZOE, Urara. <b>Parasitas: Ensino médio</b>. 2006.</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber; MAHMOUD, Aida Gamal Eldin ; VIRILLO, Carolina Bernucci ; RIBEIRO, Danilo Bandino ; IKEMOTO, Erica ; RICARTE, Juliana Duz ; ALCANTARA, Suzana de Fátima ; WATANABE, Tânia Misae ; MARTINS, Fernando Robrto ; SANTOS, Flávio A. Maës dos ; TAMASHIRO, Jorge Yoshio. <b>Semeando Educação: Estação ecológica e experimental de Itirapina-SP</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>YOKAICHIYA, Daniela Kiyoko ; HORNINK, Gabriel Gerber ; GALEMBECK, Eduardo. <b>Nutrição - 2a. Versão</b>. 2003.</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, Gabriel Gerber; PEREZ, Daniel ; MENDES, L. T. ; FERNANDES, Renato ; KAWAZOE, Urara. <b>Coccidiose aviária: biologia, ciclo de vida virtual e controle</b>. 2001.</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 16/05/2024 15:34:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

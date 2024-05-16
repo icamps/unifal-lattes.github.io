@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Dissertação de mestrado'}, 
-series: [{data: [[2010,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2010,
 1],
 [2015,
 1],
@@ -114,66 +141,77 @@ series: [{data: [[2010,
 [2018,
 3],
 [2019,
-9],
+1],
 [2020,
-33],
+7],
 [2021,
-22],
+13],
 [2022,
-13]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+13],
+[2023,
+12],
+[2024,
+5]]}]});
         });
         </script>
         
                 <h3>Dissertação de mestrado</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 84<br>
+                    Número total de itens: 58<br>
                     
                     
-                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Angélica Cristina de Souza. <b>Avaliação das técnicas de produção comercial de cerveja sem álcool ou álcool reduzido</b>. Monografia (Aperfeiçoamento/Especialização em Tecnologia e qualidade em produção de alimentos) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8375237914547636">Brenda Sanches Ferreira. ?Alguém me avisou pra pisar nesse chão devagarinho?</a>. <b>As contribuições do samba de terreiro de Belo Horizonte para a construção de uma educação socioafetiva e comunitária negra</b>. Dissertação (Mestrado em Educação) - UFMG/Núcleo de Estudos Sobre o Trabalho, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Bruna Heloisa Klinkowski. <b>Validação de técnica de extração de chá verde</b>. Monografia (Aperfeiçoamento/Especialização em Tecnologia e qualidade em produção de alimentos) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cristiano Pereira da Silva. <b>Corpos-territórios existentes através do fazer poético como processo educativo da população em situação de rua</b>. Dissertação (Mestrado profissional em Educação e Docência) - Universidade Federal de Minas Gerais, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Daniel Henrique Guilheme. <b>Educação ambiental e a prática do turismo rural pedagógico no município de Barrinha/SP: estudo de caso no espaço rural Estância Fazendinha</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Izabelle Seoldo Marques. <b>Os livros didáticos e a construção do ?italiano novo?: uma análise historiográfica dos livros de leitura Il libro della seconda classe nos anos de 1930 e 1939</b>. Dissertação (Mestrado em História) - Universidade Federal de Minas Gerais, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4017666206901503">Daniel Serafini Alves</a>. <b>A festa de São Benedito como dispositivo educativo decolonial</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0684704531066899">Marlom César da Silva</a>. <b>Avaliação do uso da biblioteca física e virtual por estudantes de Ciências Biológicas</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4378487647374583">Elisa Fernanda Tardiole Alvim</a>. <b>Formação continuada e ressignificação das práticas escolares na perspectiva histórico-cultural</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Tamires Generoso do Prado. <b>Dialogando sobre Educação Matemática Crítica com futuras professoras e futuros professores do Ensino Fundamental I</b>. Dissertação (Mestrado em Educação Matemática) - Universidade Estadual Paulista Júlio de Mesquita Filho, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0827064443545671">Ana Teresa Lucio Alves</a>. <b>Educação antirracista</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8677093194377784">Ellen Maria Santos Portela</a>. <b>Perspectiva CTS no Programa de Residência Pedagógica em Biologia:uma análise de sequências didáticas</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8271263203866466">Anselmo Cássio Cesário</a>. <b>O teatro e a oralidade nas práticas escolares do ensino fundamental I</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Gabrielle Coelho Leal. <b>Uso de leveduras alternativa na produção cervejeira</b>. Monografia (Aperfeiçoamento/Especialização em Tecnologia e qualidade em produção de alimentos) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5404696414918481">Caroline Ferreira do Amaral</a>. <b>Questões éticas nas pesquisas em educação com crianças de (0-5 anos)</b>. Dissertação (Mestrado profissional em Programa de Pós-Graduação Stricto Sensu em Educação-PGSSE) - Universidade São Francisco-USF, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Heverton Carrara Pereira. <b>Controle de qualidade na produção de cerveja artesanal</b>. Monografia (Aperfeiçoamento/Especialização em Tecnologia e qualidade em produção de alimentos) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9263797728130316">Eduardo Soares Garcia</a>. <b>O enfoque Ciência, Tecnologia e Sociedade (CTS) na Educação Científica no enfrentamento das Fake News sobre ciência na Educação Básica</b>. Dissertação (Mestrado em Mestrado Em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>Marcone Loiola dos Santos. <b>Ecologia do corpo negro: o encantamento do viver no Bloco Afro Angola Janga</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5855260804080050">Fernanda Milan de Carvalho</a>. <b>Fundamentos da Ciência Política na Educação Básica e a cidadania: uma proposta de formação política para a juventude</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1391048714535049">Gislene da Silva</a>. <b>A rua também é Negra: Formação política de jovens negros e negras durante as Jornadas de 2013, do Rio de Janeiro</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5247867999547107">Jose Daniel Coutinho Silva</a>. <b>Adorno e a educação emancipatória: práticas educacionais que conduzam à liberdade de consciência dos jovens estudantes</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2611655713418600">Maria Flávia Maciel Santiago</a>. <b>Cenários para investigação na formação inicial de professores(as) de matemática: potencialidades e desafios</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2023966944059007">Pedro Marcos da Silva Júnior</a>. <b>O NEM, o ENEM e o ensino de história</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1925460616685386">Sara Maria Fagundes Conti Neves</a>. <b>De contextualização para atividades baseadas em categorias do cotidiano: possibilidades a partir do livro didático</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8194857222185695">Victor Sporkens Viana</a>. <b>A educação como ferramenta para diminuir o radicalismo ideológico e político.</b>. Dissertação (Mestrado em Programa de Pós-Graduação Stricto Sensu em Educação-PGSSE) - Universidade São Francisco-USF, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Vilma Aparecida Alves Silva. <b>A percepção do nível de escolaridade dos pais e responsáveis dos alunos do Quilombo da Pontinha no ensino remoto: os desafios da adesão na Educação de Jovens e Adultos e a valorização dos saberes tradicionais na comunidade</b>. Dissertação (Mestrado profissional em Educação e Docência) - Universidade Federal de Minas Gerais, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7363625374110091">Daniel Henrique Guilheme</a>. <b>Avaliação da percepção ambiental de monitores do projeto educação ambiental na estância fazendinha no município de Barrinha/SP: Estudo de caso no turismo rural pedagógico</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4017666206901503">Daniel Serafini Alves</a>. <b>A festa de São Benedito como dispositivo educativo decolonial</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4378487647374583">Elisa Fernanda Tardiole Alvim</a>. <b>Formação continuada e ressignificação das práticas escolares na perspectiva histórico-cultural</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8677093194377784">Ellen Maria Santos Portela</a>. <b>O programa de residência pedagógica na construção da identidade docente</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9522289039546967">Ivan Vilaça dos Santos</a>. <b>Educação inclusiva e decolonialidade</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4836441146837696">Leidilaine Aparecida Lourenço</a>. <b>Processos de inclusão de pessoas com deficiência na Educação de Jovens e Adultos em escola pública do sul de Minas Gerais: um estudo de caso</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3329288216605766">Leonardo Henrique Felício dos Santos</a>. <b>Movimento estudantil nas instituições de educação superior privadas no Sul de Minas Gerais</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marcone Loiola dos Santos. <b>Ecologia do corpo negro: o encantamento do viver no Bloco Afro Angola Janga</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1492539931870375">Mariana da Silva Ribeiro</a>. <b>Cinética da reação de Maillard na torra de café especial: os efeitos de uma sequência de ensino e aprendizagem contextualizada</b>. Dissertação (Mestrado em Química) - Universidade Federal de Alfenas, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></i></td></tr>
             
             <tr valign="top"><td>10. &nbsp;</td> <td>Marraynie Karen Barros Camelo Castilho. <b>A mulher negra na EJA: uma etnografia do sentido e significado atribuídos pelas mulheres negras, com idade a partir de 45 anos aos processos de escolarização vivenciados na EJA</b>. Dissertação (Mestrado profissional em Educação e Docência) - Universidade Federal de Minas Gerais, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
             
@@ -187,129 +225,43 @@ shadow: true}});
             
             <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9200779090694284">BRENO DE OLIVEIRA CORREIA</a>. <b>A cultura linguística popular e as pra´ticas de letramento na escola: valorização ou silenciamento?</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6153204790976092">Bruna de Cássia San Gregório</a>. <b>Docentes de universidades privadas e os desafios para suas produções científicas: questões para fomentar um debate</b>. Dissertação (Mestrado em Programa de Pós-Graduação Stricto Sensu em Educação-PGSSE) - Universidade São Francisco-USF, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></i></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9224031120140216">Bruna Pimentel Mendes</a>. <b>Educação de Jovens e Adultos (EJA) e as tecnologias digitais na produção científica brasileira (2010 a 2020)</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9224031120140216">Bruna Pimentel Mendes</a>. <b>Educação de Jovens e Adultos (EJA) e as tecnologias digitais na produção científica brasileira (2010 a 2020)</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></i></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>FLAVIA CRISTINA DE CARVALHO SOUZA BERTOZZI. <b>Práticas de alfabetização e letramento no contexto de ensino remoto</b>. Dissertação (Mestrado em MESTRADO EM EDUCAÇÃO) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2917024636534345">Daís Capucho Afini</a>. <b>Cenários para investigação em um ambiente virtual destinado à formação continuada de professores e professoras que ensinam matemática nos anos iniciais do ensino fundamental</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></i></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7806736909195855">Henrique Geovanine Macêdo Costa</a>. <b>Educação no campo: currículos e didáticas</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6274999242866961">Edson Aparecido da Silva Júnior</a>. <b>Microagressões no ensino superior no âmbito das ciências exatas</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></i></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4485232173307692">Jessica da Silva de Souza Paes</a>. <b>Expectativas de letramento em aulas de língua portuguesa na modalidade remota: aproximação oidistanciamento dos modelos de letramento?</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8930167171283194">Edson Vieira da Rocha Filho</a>. <b>Uma leitura de produções de significados de familiares e estudantes sobre a escola e a disciplina de matemática durante o ensino remoto</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></i></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4917812788962543">Letícia Alves de Andrade</a>. <b>?A cidade e a escola: investigações da participação e perspectiva das crianças moradoras da zona rural?</b>. Dissertação (Mestrado profissional em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2096965946836803">Fernanda Parentoni Avancini</a>. <b>Inclusão- Legislação e Educação básica brasileira: o enfoque para a formação de cidadãos</b>. Dissertação (Mestrado em Programa de Pós-Graduação Stricto Sensu em Educação-PGSSE) - Universidade São Francisco-USF, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></i></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2772514588672749">Lucas Silvério Medáu Dias</a>. <b>Escolas do legislativo (título provisório)</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>FLAVIA CRISTINA DE CARVALHO SOUZA BERTOZZI. <b>Práticas de alfabetização e letramento no contexto de ensino remoto</b>. Dissertação (Mestrado em MESTRADO EM EDUCAÇÃO) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1128875156654825">Natalia Oliveira Santos</a>. <b>Educação e Neoliberalismo: o novo modelo de ensino médio em tempo integral em Minas Gerais</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>Henrique Geovanine Macêdo Costa. <b>Educação no campo: currículos e didáticas</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4725206465005998">Pedro Otávio Carvalho Fernandes</a>. <b>Ensino de história e meio ambiente nos livros didáticos de história</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4485232173307692">Jessica da Silva de Souza Paes</a>. <b>Expectativas de letramento em aulas de língua portuguesa na modalidade remota: aproximação oidistanciamento dos modelos de letramento?</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4516049268325580">Tatiane dos Reis Silva Garcia Brazier</a>. <b>?Tia, eu posso ser a princesa?? o lugar e a identidade da criança negra na educação infantil: (re)pensando espaços, concepções e práticas a partir da voz das crianças"</b>. Dissertação (Mestrado profissional em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8892424598777271">Joice de Paiva</a>. <b>ENTRE DESAFIOS E POSSIBILIDADES: RELATOS DE APRENDIZAGENS DOS DOCENTES DO ENSINO FUNDAMENTAL I EM TEMPOS DE PANDEMIA</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></i></td></tr>
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4033948977081775">Viviane Assis Galvão</a>. <b>Processos educativos em terreiros de Umbanda</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6423853577820958">Leandra Borges Polita</a>. <b>Residência Pedagógica na formação de professores em tempos de pandemia: uma análise das considerações dos licenciandos e docentes envolvidos no prograla</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4917812788962543">Letícia Alves de Andrade</a>. <b>?A cidade e a escola: investigações da participação e perspectiva das crianças moradoras da zona rural?</b>. Dissertação (Mestrado profissional em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>15. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8559694284758206">Letícia de Oliveira dos Santos</a>. <b>Educação a distância e o direito à educação ? uma análise das Diretrizes Operacionais para a Educação de Jovens e Adultos (Resolução CNE/CEB nº 1, de 28 de maio de 2021</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>16. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2772514588672749">Lucas Silvério Medáu Dias</a>. <b>Escolas do legislativo (título provisório)</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>17. &nbsp;</td> <td>Marcos Bento Ribeiro. <b>O ESTUDO DA IMPLEMENTAÇÃO DA EDUCAÇÃO EM TEMPO INTEGRAL NAS ESCOLAS PÚBLICAS NO ESTADO DE MINAS GERAIS.</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>18. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1128875156654825">Natalia Oliveira Santos</a>. <b>Educação e Neoliberalismo: o novo modelo de ensino médio em tempo integral em Minas Gerais</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>19. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4725206465005998">Pedro Otávio Carvalho Fernandes</a>. <b>Ensino de história e meio ambiente nos livros didáticos de história</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>20. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4516049268325580">Tatiane dos Reis Silva Garcia Brazier</a>. <b>?Tia, eu posso ser a princesa?? o lugar e a identidade da criança negra na educação infantil: (re)pensando espaços, concepções e práticas a partir da voz das crianças"</b>. Dissertação (Mestrado profissional em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>21. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4033948977081775">Viviane Assis Galvão</a>. <b>Processos educativos em terreiros de Umbanda</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>22. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2932353834311236">Willinis Eziquiel Borges</a>. <b>As religiões de matriz afro-brasileiras na BNCC</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2932353834311236">Willinis Eziquiel Borges</a>. <b>As religiões de matriz afro-brasileiras na BNCC</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
             </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>André Luiz da Silva. <b>Lançamento de foguete como estratégia para a interdisciplinaridade entre a Matemática e Física no Ensino Médio.</b>. Dissertação (Mestrado profissional em Ensino de Física - MNPEF) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4326109448379822">Debora Marques Santos</a>. <b>O perfil e a produção de pesquisadoras Mineiras em Ciências Exatas</b>. Dissertação (Mestrado profissional em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9563294230737073">Anivaldo Sérgio Miguel</a>. <b>O conselho de classe como fórum deliberativo da discriminação étnico-racial nas escolas públicas e as motivações norteadoras dessa prática</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Francielli de Fatima dos Santos David. <b>A ideia de uma etnofísica e mundo do trabalho: o jovem e o sentido da aprendizagem de Física no novo Ensino Médio</b>. Dissertação (Mestrado profissional em Ensino de Física - MNPEF) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7827678924719094">Brissia Marques Gomes</a>. <b>Juventude e Educação: a presença do tema Juventude no GT03 - Movimentos Sociais, Sujeitos e Processos Educativos da ANPEd (Associação Nacional de Pós-Graduação e Pesquisa em Educação)</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0371656486261401">Jorge Hideo Yamamoto</a>. <b>A EDUCAÇÃO DA PÓLIS/CIDADE: da filosofia platônica à filosofia da cidade em Henri Lefebvre</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4326109448379822">Debora Marques Santos</a>. <b>O perfil e a produção de pesquisadoras Mineiras em Ciências Exatas</b>. Dissertação (Mestrado profissional em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6244932365201904">Larisse Silva de Souza</a>. <b>O EMBATE ENTRE A FORMAÇÃO INTEGRAL E A FORMAÇÃO TÉCNICA DOS DISCENTES NOS INSTITUTOS FEDERAIS DE ENSINO</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9418311799417480">Denis Paiva Ramos</a>. <b>CTS e CIdadania no novo ENEM</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4277805678861544">LUCIANA FERREIRA BARCELONA OLIVEIRA NASTRINI DA COST</a>. <b>A METODOLOGIA DE PROJETOS POR EIXOS DE INTERESSE E O PROCESSO DE AVALIAÇÃO DA APRENDIZAGEM EM ESCOLAS DEMOCRÁTICAS</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Elenita Rocha Benevides Nascimento. <b>A inserção das crianças da pré-escola no ensino fundamental</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></i></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1927157893322384">Luiz Fernando Vieira</a>. <b>Edith Stein e a educação</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></i></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Francielli de Fatima dos Santos David. <b>A ideia de uma etnofísica e mundo do trabalho: o jovem e o sentido da aprendizagem de Física no novo Ensino Médio</b>. Dissertação (Mestrado profissional em Ensino de Física - MNPEF) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>8. &nbsp;</td> <td>Heverton Soares. <b>A PEDAGOGIA NO PERÍODO SOCRÁTICO: UMA ANÁLISE DA OBRA PAIDEIA DE WERNER WILHELM JAEGER.</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6104330633473191">Ivanilda Cabral da Costa Chaves</a>. <b>A (re)significação do ensino a partir da formação continuada de professores nos anos finais no Ensino Fundamental</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1260681290337150">Jefferson Rio Branco</a>. <b>OS USOS DOS ESPAÇOS PEDAGÓGICOS E HETEROTÓPICOS NA DISCIPLINARIZAÇÃO DE CORPOS E MENTES NA ESCOLA</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0884865817790414">Jhonatan Zati</a>. <b>ENDURECER SEM PERDER A TERNURA: INSURREIÇÕES EM RESPOSTA À EXCLUSÃO SOCIAL NA AMÉRICA LATINA</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0371656486261401">Jorge Hideo Yamamoto</a>. <b>A EDUCAÇÃO DA PÓLIS/CIDADE: da filosofia platônica à filosofia da cidade em Henri Lefebvre</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1594655828470538">Julia Brazil de Almeida</a>. <b>O mal estar docente em produções brasileiras (título provisório)</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>14. &nbsp;</td> <td>Juliana de Souza Campos Mariano. <b>Relações de gênero no curso de Enfermagem</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>15. &nbsp;</td> <td>Lany Pereira da Silva. <b>Reflexões em torno da ?parditude?: relações étnico-raciais na Educação de Jovens e Adultos do ensino fundamental, no município de Betim/MG</b>. Dissertação (Mestrado profissional em Educação e Docência) - Universidade Federal de Minas Gerais, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>16. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6244932365201904">Larisse Silva de Souza</a>. <b>O EMBATE ENTRE A FORMAÇÃO INTEGRAL E A FORMAÇÃO TÉCNICA DOS DISCENTES NOS INSTITUTOS FEDERAIS DE ENSINO</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>17. &nbsp;</td> <td>Lilian Maria Soares. <b>O protagonismo das crianças em uma instituição de educação infantil: concepções e desafios</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>18. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4277805678861544">LUCIANA FERREIRA BARCELONA OLIVEIRA NASTRINI DA COST</a>. <b>A METODOLOGIA DE PROJETOS POR EIXOS DE INTERESSE E O PROCESSO DE AVALIAÇÃO DA APRENDIZAGEM EM ESCOLAS DEMOCRÁTICAS</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>19. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1927157893322384">Luiz Fernando Vieira</a>. <b>Edith Stein e a educação</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>20. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6996390020394266">Marcelo Cortez Visotto</a>. <b>Currículo escolar e Rede Emancipa: Educação formal e o movimento de educação popular, locais de disputa e ocupação</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>21. &nbsp;</td> <td>Maria Francielle Morais. <b>A Tertúlia Literária Dialógica como atividade socioeducativa para adolescentes em conflito com a lei</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>22. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9091096622830762">Mariana Silva Mancilha</a>. <b>O canto coral e a educação sociocultural: espaço de formação e de ressignificação</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>23. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9869739166850881">Mariana Teodoro Nascimento</a>. <b>Outsiders na EJA- gênero e identidade das mulheres nas pesquisas em educação de Minas Gerais</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>24. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5072053370557300">Melissa Lapa Camilo</a>. <b>As Relações Étnico-Raciais e as contribuições para a educação por meio de oficinas literárias com crianças em uma instituição de educação infantil</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>25. &nbsp;</td> <td>Mônica Flores de Carvalho Ribeiro. <b>Condições de trabalho docente</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>26. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4726822007000628">Pedro Grandchamp Neto</a>. <b>Obscurantismo e Ciência: Conflitos entre o conhecimento escolar e as redes sociais</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>27. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1251756175878072">Priscila Martins Mendonça</a>. <b>Internacionalização na UNIFAL-MG: da concepção à prática</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>28. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9553323591291948">Priscila Milena de Paulo Ruella</a>. <b>A atividade de estudo de história na sala de aula</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>29. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9854737435803888">Silas Paixão Mendes</a>. <b>Processos avaliativos escolares e desenvolvimento humano</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>30. &nbsp;</td> <td>Silvana Inês dos Santos Silva. <b>A matemática em cursos de Licenciatura em Pedagogia de instituições públicas de Minas Gerais</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>31. &nbsp;</td> <td>Simone Carvalho Silva Marques. <b>Plano Nacional de Educação: análise e problematização da Meta 1 no Município de Passos/ MG</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>32. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3277197314502946">Suellen Drumond Kler</a>. <b>Relação-Educativa- Possibilidades para a ampliação e valorização dos saberes de educandos da EJA</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>33. &nbsp;</td> <td>VALDEREZ SANTOS. <b>A representação discursiva de Hans Staden por Theodor De Bry em suas iluminuras</b>. Dissertação (Mestrado profissional em História Ibérica) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4726822007000628">Pedro Grandchamp Neto</a>. <b>NeNegacionismo e Ciência: Conflitos entre os conhecimentos científicos e as redes sociais</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
             </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7079384041018545">Cesar Alves da Silva</a>. <b>COLETA E ANÁLISE DE DADOS DE EVENTOS E EXPRESSÕES EMOCIONAIS QUE PODEM INTERFERIR NO PROCESSO DE ENSINO-APRENDIZAGEM UTILIZANDO A OXIMETRIA E RECURSOS MULTIMÍDIA</b>. Dissertação (Mestrado em Mestrado Em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0509437887301504">Dalva Aparecida de Lima Volpe</a>. <b>A naturalização dos processos relacionados às dificuldades de aprendizagem</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6518420666157768">Jayme Dutra Neto</a>. <b>Sobre a Virtude Infusa em Santo Tomás de Aquino</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4563097677095912">Lívia Furtado Borges</a>. <b>Ocupações secundaristas em São Paulo no ano 2015 e 2016</b>. Dissertação (Mestrado em ENFERMAGEM) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9284677866203116">Mariana Ramos Pereira</a>. <b>Ocupações secundaristas das escolas periféricas de Fortaleza/CE: práticas educativas e os seus impactos</b>. Dissertação (Mestrado em ENFERMAGEM) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>6. &nbsp;</td> <td>Poliana Nicola. <b>Uma proposta de análise libertária sobre a educação integral pública brasileira</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8577409418246025">Renata Sebastiana dos Santos</a>. <b>As necessidades formativas do educador de EJA nas IES mineiras- uma investigação das propostas curriculares dos cursos de Pedagogia</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7579366556459919">Susana de Andrade</a>. <b>Os Jesuítas e a Escola Técnica de Eletrônica Francisco Moreira da Costa: permanências e rupturas</b>. Dissertação (Mestrado em Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></i></td></tr>
-            
-            <tr valign="top"><td>9. &nbsp;</td> <td>Waldirene Maria Paulino Ferreira. <b>O aprendizado da segunda língua: dos motivos e aspirações docentes às práticas escolares</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></i></td></tr>
             </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4161447860709441">CAROLINA DE CÁSSIA ARAÚJO</a>. <b>Letramento acadêmico e o Bacharelado Interdisciplinar em Ciência e Tecnologia da UNIFAL-MG: cooperação e embates</b>. Dissertação (Mestrado em MESTRADO EM EDUCAÇÃO) - Universidade Federal de Alfenas, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></i></td></tr>
             
@@ -327,5 +279,5 @@ shadow: true}});
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 22:08:09<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:34:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

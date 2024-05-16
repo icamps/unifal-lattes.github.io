@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Matemática</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Matemática</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Matemática</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Matemática</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Dissertação de mestrado'}, 
-series: [{data: [[2015,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2015,
 1],
 [2016,
 2],
@@ -116,54 +143,43 @@ series: [{data: [[2015,
 [2019,
 7],
 [2020,
-2],
+3],
 [2021,
-1],
+2],
 [2022,
-1]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+1],
+[2023,
+5]]}]});
         });
         </script>
         
                 <h3>Dissertação de mestrado</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 19<br>
+                    Número total de itens: 26<br>
                     
                     
-                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2917024636534345">Daís Capucho Afini</a>. <b>Cenários para investigação em um ambiente virtual destinado à formação continuada de professores e professoras que ensinam matemática nos anos iniciais do ensino fundamental</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6274999242866961">Edson Aparecido da Silva Júnior</a>. <b>Microagressões no ensino superior no âmbito das ciências exatas</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8930167171283194">Edson Vieira da Rocha Filho</a>. <b>Uma leitura de produções de significados de familiares e estudantes sobre a escola e a disciplina de matemática durante o ensino remoto e presencial em duas escolas públicas de São Lourenço (MG)</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luiz Gustavo Alves Silva. <b>Jogos de Tabuleiro no Ensino de Números Inteiros: uma Proposta de Sequência Didática</b>. Dissertação (Mestrado em Mestrado Profissional em Matemática em Rede Nacional) - Universidade Federal de Alfenas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0061488493893247">Cátia Regina de Oliveira Quilles Queiroz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5339107806669913">Silvana Inês dos Santos Silva</a>. <b>Matemática em cursos de Pedagogia de instituições públicas de Minas Gerais</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5100882902316977">Ronaldo André Lopes</a>. <b>A Lei de Cotas na UNIFAL-MG: alcance no ingresso e implicações para a integração social e acadêmica de estudantes das Ciências Exatas</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
             </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8851883472629670">Juliana Pereira Zorzin Silva</a>. <b>Contribuições de uma prática formativa envolvendo o software Geogebra para professores dos anos iniciais do ensino fundamental</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9108383397996236">Mariana Gabriela Gusmão</a>. <b>Conexões existentes entre equações diferenciais fuchsianas, geometria hiperbólica e códigos corretores de erros, aplicadas em sistemas de comunicação</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
             </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5862080409520795">Nayara da Silva</a>. <b>Educação Matemática a partir de um projeto de extensão direcionado a pessoas idosas: contribuições para a formação inicial de professores de Matemática</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5205355303433030">Walter Luís Moura Silva</a>. <b>Uma leitura das falas de licenciandos em matemática sobre</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Nicole Aparecida Barbosa Cardoso. <b>DINÂMICA EPIDEMIOLÓGICA DA AIDS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3089568911577519">Evandro Monteiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5205355303433030">Walter Luís Moura Silva</a>. <b>Uma leitura das falas de licenciandos em matemática sobre</b>. Dissertação (Mestrado em Educação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
             </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0768760617808822">Andiara Cristina de Souza</a>. <b>O uso de tecnologias digitais educacionais para o favorecimento da aprendizagem matemática e inclusão de estudantes com transtorno do espectro autista em anos iniciais de escolarização</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
             
@@ -177,7 +193,7 @@ shadow: true}});
             
             <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4803594791585565">Sandra Maria da Silva</a>. <b>Compreendendo a formação matemática de futuros pedagogos de um curso na modalidade a distância</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Taís Aparecida Faria. <b>ESTUDO DA DINÂMICA DE TRANSMISSÃO DA TUBERCULOSE BOVINA POR MEIO DE EQUAÇÕES DIFERENCIAIS ORDINÁRIAS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3089568911577519">Evandro Monteiro</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8456614622284819">Taís Aparecida Faria</a>. <b>ESTUDO DA DINÂMICA DE TRANSMISSÃO DA TUBERCULOSE BOVINA POR MEIO DE EQUAÇÕES DIFERENCIAIS ORDINÁRIAS</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3089568911577519">Evandro Monteiro</a>.</font></td></tr>
             </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9220568701203441">Alice Noronha de Oliveira</a>. <b>Códigos Corretores de Erros Aplicados no Processo de Transmissão de Informação Genética</b>. Dissertação (Mestrado em Estatística Aplicada e Biometria) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1349156075777095">Anderson José de Oliveira</a>.</font></td></tr>
             
@@ -197,5 +213,5 @@ shadow: true}});
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 21:46:10<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:15:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

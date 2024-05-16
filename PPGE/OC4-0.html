@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,17 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Trabalho de conclusão de curso de graduação'}, 
-series: [{data: [[1964,
-2],
-[1971,
-1],
-[1987,
-1],
-[1993,
-1],
-[1998,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1998,
 2],
 [1999,
 1],
@@ -134,7 +153,7 @@ series: [{data: [[1964,
 [2007,
 20],
 [2008,
-24],
+23],
 [2009,
 19],
 [2010,
@@ -146,70 +165,155 @@ series: [{data: [[1964,
 [2013,
 33],
 [2014,
-50],
+52],
 [2015,
-35],
+36],
 [2016,
-15],
+17],
 [2017,
 43],
 [2018,
-25],
+27],
 [2019,
 37],
 [2020,
-5],
+11],
 [2021,
-12],
+13],
 [2022,
-6]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+14],
+[2023,
+47]]}]});
         });
         </script>
         
                 <h3>Trabalho de conclusão de curso de graduação</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 553<br>
+                    Número total de itens: 616<br>
                     
                     
-                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adrieli Cordeiro de Sá; Karina de Oliveira Ferri. <b>O Ensino Remoto Emergencial em uma Escola Pública: O que dizem os residentes do Programa Residência Pedagógica do curso de Pedagogia da UNIFAL-MG?</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Clara Dias Almeida e Sophia Costa Nascimento. <b>Implicações da avaliação externa SARESP no currículo de Língua Portuguesa do 2° ano do Ensino Fundamental: análise documental</b>. (Graduação em Pedagogia) - Universidade São Francisco-USF, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Anderson Maurício da Silva. <b>Desenvolvimento de um cenário para investigação nas aulas de matemática em um contexto do ensino médio</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Andressa Meyrielle Ferreira. <b>A LITERATURA INFANTIL NO PROCESSO DE ALFABETIZAÇÃO: ANÁLISE DAS PRODUÇÕES DA ABALF</b>. (Graduação em Letras - Língua Portuguesa) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Anelise Oliveira Feliciano Batista. <b>Autoavaliação: Estudo do Programa de Estudos Tutorados para o Ensino Fundamental II da Secretaria Estadual de Educação de Minas Gerais</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Augusto Fagundes dos Santos. <b>Ética e integridade na pesquisa educacional</b>. (Graduação em Pedagogia) - Universidade São Francisco-USF, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Bianca Rocha Silva, Marina Romanzini Freire. <b>Representações do analfabeto na literatura: uma análise da obra ?O Leitor?, de Bernhard Schlink</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BRENO FERREIRA PINHEIRO. <b>CULTURA POPULAR NO AMBIENTE ESCOLAR E A FOLIA DE REIS</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Bruna Costa Calado e Maria; Gabriela Gomes da Silva. <b>PROJETOS SOCIOEDUCATIVOS EM DIÁLOGO COM A RESSOCIALIZAÇÃO DOS SUJEITOS PRIVADOS DE LIBERDADE</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Camila dos Anjos Rosseto. <b>O RAP no ensino de História e os conhecimentos sobre o racismo no Brasil</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Caroline Ferreira do Amaral e Camila de Oliveira. <b>Levantamento em teses e dissertações de educação sobre a questão da ética em pesquisa</b>. (Graduação em Pedagogia) - Universidade São Francisco-USF, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Daniela Marques Alves. <b>O uso de panfletos de supermercado como material didático para o ensino de introdução à função com abordagem investigativa</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Danielle Silva de Assis. <b>?SOBRE A RELAÇÃO FAMÍLIA E ESCOLA NO BRASIL: ALGUMAS CONTRIBUIÇÕES DA HISTÓRIA?</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Dhara Cristina Souza Salvioli. <b>A TERTÚLIA LITERÁRIA DIALÓGICA NO PROCESSO DE ALFABETIZAÇÃO DE CRIANÇAS</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Elen Camila Silva. <b>Reflexões acerca do uso excessivo do celular e sua influência nos processos de aprendizagem e leitura da criança</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Estêvão Ariel Pinto da Silveira. <b>A REPRESENTATIVIDADE DE PESSOAS COM DEFICIÊNCIA NOS LIVROS DIDÁTICOS DE PROJETO DE VIDA</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>FABIANA ROBERTA ALVARENGA DE OLIVEIRA. <b>SALVAR UMA NAÇÃO DE INCONSTANTES: AS REPRESENTAÇÕES INDÍGENAS NAS CARTAS JESUÍTICAS DA AMÉRICA PORTUGUESA DO SÉCULO XVI</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Fernanda Damasceno da Silva. <b>Contribuições do pensamento de Michel Foucault para a educação escolar</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Francine de Cássia Ferreira. <b>Os malefícios do uso exagerado de Tecnologias de Informação e Comunicação (TIC) para o desenvolvimento da leitura da criança</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Gabriel Barreto Lopes. <b>?As ?elites escolares? no Brasil: um olhar a partir das produções da ANPEd?</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Geisianne Fernandes. <b>A ORGANIZAÇÃO DO ESPAÇO ESCOLAR PARA A CONSTRUÇÃO DE UM AMBIENTE ALFABETIZADOR</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Giovanna Oliveira Petrorenzo. <b>NARRATIVAS DE SUJEITOS PRIVADOS DE LIBERDADE EM DIÁLOGO COM ASPECTOS ALIENANTES E NÃO ALIENANTES</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Izabella Barreiro Stephani. <b>O Preconceito Linguístico e Possíveis Conflitos Sociais em Sala de Aula</b>. (Graduação em Letras - Língua Portuguesa) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Juliana Danielle Miranda Silva e Tassiélen Ventura de Paula. <b>ENSINO REMOTO EMERGENCIAL NA PANDEMIA: UMA DISCUSSÃO SOCIAL SOBRE A DESISTÊNCIA E PERMANÊNCIA DE ESTUDANTES DOS CURSOS DE LICENCIATURAS</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Jéssica Ferreira Miranda. <b>PROFESSORES(AS) ALFABETIZADORES(AS): DESAFIOS E POSSIBILIDADES NA PRÁTICA PEDAGÓGICA COM CRIANÇAS AUTISTAS</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Karen Juliana Novarino Britto e Raynara Pereira da Silva. <b>O ENSINO DE QUÍMICA E OS JOGOS: UMA DISCUSSÃO SOBRE O ENSINO SUPERIOR</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Larissa Grespan de Sordi. <b>As necessidades dos estudantes e os usos da história nas redações nota 1000 do ENEM</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Laura Bueno de Sousa. <b>O cotidiano em disciplinas que envolvem matemática em cursos de Pedagogia: possibilidades para a formação inicial</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Letícia Martins Bezerra da Lima. <b>O FUNK COMO METODOLOGIA ATIVA PARA O ENSINO DE SOCIOLOGIA</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Luana Bruno da Silva Bellini Ramos. <b>?O Lobisomem Caiu de Uso?: Constatações poético-existenciais preentes na cultura linguística de Conceição da Aparecida-MG</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Lucas Borges Matheus. <b>O PIBID NA FORMAÇÃO INICIAL: NARRATIVAS DE ESTUDANTES DE LICENCIATURA EM QUÍMICA</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Maria Eduarda Ribeiro Resende. <b>O USO EDUCACIONAL DE TECNOLOGIA NO ENSINO SUPERIOR: EXPERIÊNCIA EM UM CURSO DE FORMAÇÃO DOCENTE</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>MARIA FERNANDA DE SOUZA SILVA. <b>?Gênese das práticas escolares no Brasil: um estudo das cartas dos primeiros jesuítas?</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Monique Damasceno Cipriano. <b>O Ensino de Língua Materna no Período Pandêmico: relato de experiência</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Niara Souza Fernandes da Silva. <b>FORMAÇÃO DOCENTE, ENSINO E O COTIDIANO ESCOLAR: INVESTIGAÇÕES TEMÁTICAS E AÇÕES EDUCACIONAIS NO MÓDULO DE ALFABETIZAÇÃO</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Pietra Bruna Barbosa Bento. <b>Caracterização bioquímica parcial da LPMI AFAA9E do fungo Aspergillus fumigatus</b>. (Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Rafael Ferreira Cardoso. <b>Educação Algébrica em documentos curriculares oficiais do Ensino Fundamental</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Raíssa Barbosa Mendonça. <b>Análise de manifestações machistas dentro das mídias sociais: uma abordagem a par􀀚r da Semân􀀚ca de Contextos e Cenários</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Renata Marques dos Santos. <b>Alfabetização na terceira idade: importância da prática educativa com idosos e sua relação com o analfabetismo no Brasil</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Ronan Batistão Alves. <b>Expressões Idiomáticas e Cultura Linguística: Uma amostra colhida no contexto sociocultural brasileiro</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Rosalva Rosa da Silva. <b>As múltiplas mulheres que me habitam: tensionando a interseccionalidade</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Tallis Vinicius Araujo da Silva. <b>Impacto de técnicas diversificadas de hidratação na viabilidade de leveduras cervejeiras comerciais</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Tamires Generoso do Prado. <b>A educação matemática crítica e a discussão de sexismo e racismo no novo ensino médio: diálogos interseccionais</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Thamara Aparecida de Almeida. <b>Educação e Pandemia: uma análise do trabalho docente pós-ensino remoto</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Thamara Aparecida de Almeida. <b>Educação e Pandemia: uma análise do trabalho docente pós ensino remoto</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Vitória Helena da Silva. <b>FINANCEIRIZAÇÃO E SEGURIDADE SOCIAL: O IMPACTO DOS INTERESSES FINANCEIROS SOBRE O SISTEMA PREVIDENCIÁRIO NO BRASIL</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Éder de Oliveira Quintino. <b>Alcance da Lei de Cotas no âmbito das ciências exatas na Universidade Federal de Alfenas em 2019</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Ana Carolyne Martins de França. <b>Inovação na educação: a escola Projeto Âncora em questão</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Caroline Cristina Caetano. <b>REFLEXÕES SOCIOLÓGICAS ACERCA DO MAL ESTAR NA CONTEMPORANEIDADE</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carolina Adriano Rodrigues. <b>Competência Leitora: uma análise nos livros didá􀀖cos do Ensino Fundamental anos iniciais (3º ao 5º ano)</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Gabriel Victor Angelim Campos Moreira. <b>A institucionalização da mudança de representação do negro no currículo: análise crítica do documento "Orientações e Ações para a Educação das Relações Étnico Raciais</b>. (Graduação em Abi - História) - Universidade Federal de Minas Gerais, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Caroline Cristina Caetano. <b>REFLEXÕES SOCIOLÓGICAS ACERCA DO MAL ESTAR NA CONTEMPORANEIDADE</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Juliana Santana da Silva Lopes. <b>PERSPECTIVAS DE ACESSO À EDUCAÇÃO SUPERIOR DE JOVENS NEGRAS E NEGROS</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Francine Satil Ferreira Jarduli. <b>CATEQUIZAÇÃO E RESISTÊNCIA INDÍGENA NA AMÉRICA PORTUGUESA DO SÉCULO XVI</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Leandro Lente de Andrade. <b>Aspectos da escolástica e do humanismo na formação híbrida da Companhia de Jesus</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gabriel Victor Angelim Campos Moreira. <b>A institucionalização da mudança de representação do negro no currículo: análise crítica do documento "Orientações e Ações para a Educação das Relações Étnico Raciais</b>. (Graduação em Abi - História) - Universidade Federal de Minas Gerais, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Sílvia Estanislau da Costa. <b>As Metáforas Conceituais para Dinheiro como Fenômeno Linguístico na Cultura Sul-Mineira</b>. (Graduação em Letras - Língua Portuguesa) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Juliana Santana da Silva Lopes. <b>PERSPECTIVAS DE ACESSO À EDUCAÇÃO SUPERIOR DE JOVENS NEGRAS E NEGROS</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Karen Cristina Dias. <b>Residência Pedagógica e a sua importância na formação docente: um estudo bibliográfico</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Kauane Maria Lourenço Adriano. <b>Os desafios do Programa Residência Pedagógica no Ensino Remoto</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Leandro Lente de Andrade. <b>Aspectos da escolástica e do humanismo na formação híbrida da Companhia de Jesus</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6774743936781093">Paulo Romualdo Hernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Leandro Oliveira Domingos. <b>Ocupações secundaristas de 2016 em Alfenas (MG): dimensões políticas e subjetivas</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Marina Eduarda Pratesi de Carvalho. <b>A Jornada do Herói na Literatura e Possíveis Caminhos na Educação</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Rafaela Marques de Carvalho. <b>A iniciação à docência: que fase é essa?</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Sofia Maria do Carmo Nicolau. <b>O racismo brasileiro e suas faces: a divisão racial do trabalho e do espaço na obra de Lélia Gonzalez</b>. (Graduação em Ciências Sociais) - Universidade Federal de Minas Gerais, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Sílvia Estanislau da Costa. <b>As Metáforas Conceituais para Dinheiro como Fenômeno Linguístico na Cultura Sul-Mineira</b>. (Graduação em Letras - Língua Portuguesa) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Villas Boas Ferreira e Daniel da Silva Lisboa. <b>O lado invisível da marginalização e da exclusão em pesquisa em educação</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             
@@ -234,16 +338,30 @@ shadow: true}});
             <tr valign="top"><td>11. &nbsp;</td> <td>Luís Gustavo Firmino dos Santos. <b>História local no ensino de história: elementos da cidade de Elói Mendes/MG para produção do conhecimento histórico sobre Primeira República</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
             
             <tr valign="top"><td>12. &nbsp;</td> <td>Maria Olympia de Moura Peluso. <b>REPRESENTAÇÕES DO AMOR POR ADOLESCENTES DO ENSINO MÉDIO: Cartas de estudantes de Carmo do Rio Claro/MG</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Valderez Santos. <b>Folia de Reis: Tradição oral, ritualização e simbologia sacra em Carmo do Rio Claro, MG.</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Brenda Generoso Rocha. <b>O PROCESSO DE INSERÇÃO E PERMANÊNCIA NA EDUCAÇÃO DE JOVENS E ADULTOS: DESAFIOS E POSSIBILIDADES NA BDTD</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Júlia de Souza. <b>O ENSINO DE BIOLOGIA NO SISTEMA PRISIONAL: UMA DISCUSSÃO EM TORNO DO SENSO COMUM E DO CONHECIMENTO CIENTÍFICO</b>. (Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gisselda Angélica Silva. <b>Teorias Sintáticas Aplicadas: as principais diferenças entre uma abordagem tradicionalista e uma abordagem funcionalista na Educação Básica - estudo com dois livros didáticos adotados em escolas públicas de Paraguaçu, MG.</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Letícia de Oliveira dos Santos. <b>Colonialidade e o politicamento correto- a questão etnico-racial em livro didático de EJA</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>José Luiz Moreira Junior. <b>O desenvolvimento do hábito da leitura por meio do projeto ?Carrossel de Leitura?: relato de experiências pedagógicas reais em uma escola pública de Alfenas, MG.</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Simone Helena Maciel da Silva. <b>Trajetórias de vida e escolar e o mito da meritocracia</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Júlia de Souza. <b>O ENSINO DE BIOLOGIA NO SISTEMA PRISIONAL: UMA DISCUSSÃO EM TORNO DO SENSO COMUM E DO CONHECIMENTO CIENTÍFICO</b>. (Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Vinícius Gabriel Silva Nogueira. <b>Análise dos diálogos que ocorrem em uma atividade investigativa envolvendo matemática</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>, <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></i></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Letícia de Oliveira dos Santos. <b>Colonialidade e o politicamento correto- a questão etnico-racial em livro didático de EJA</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Michele de Melo Dias. <b>Metodologias de Aulas de Leitura no Ensino Fundamental: Contribuições para a docência</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Silmara Luíza Órfão Novais. <b>O Registro Linguístico Histórico-Cultural e o Conflito de Gerações: um estudo com expressões idiomáticas de Paraguaçu, MG.</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Simone Helena Maciel da Silva. <b>Trajetórias de vida e escolar e o mito da meritocracia</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Thamara Santos dos Reis. <b>A Importância dos Domínios das Áreas de Sintaxe e Semântica para o Campo da Revisão Textual</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Thayná Cristina da Silva de Souza. <b>Análise do Ensino de Língua Materna no Currículo de Referência de Minas Gerais segundo os pressupostos da Pedagogia do Silenciamento</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Vinícius Gabriel Silva Nogueira. <b>Análise dos diálogos que ocorrem em uma atividade investigativa envolvendo matemática</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1798884495942862">Rejane Siqueira Julio</a>, <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></i></td></tr>
             </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Cristina Medeiros. <b>O brincar como ação de desenvolvimento na educação infantil</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
@@ -351,23 +469,27 @@ shadow: true}});
             
             <tr valign="top"><td>16. &nbsp;</td> <td>Juliana Pereira e Rafaela Vitti. <b>Contribuições do Referencial Dialógico para propostas CTS em Ensino de Ciências</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>17. &nbsp;</td> <td>Jussara Cristina da Silva Martins. <b>Expressões típicas de Fama-MG: estudo da linguagem local e seus sentidos</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            <tr valign="top"><td>17. &nbsp;</td> <td>Juliana Silva Vieira. Os primeiros anos da reforma educacional promovida pela lei n. <b>5.692/71 nas páginas do jornal ?Folha de São Paulo? (1971 E 1972)</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
             
-            <tr valign="top"><td>18. &nbsp;</td> <td>Larissa de Cássia Hélen Honório. <b>A INFLUÊNCIA DA CULTURA NA LINGUAGEM: UM ESTUDO NO MUNICÍPIO DE CAMPESTRE ? MG</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            <tr valign="top"><td>18. &nbsp;</td> <td>Jussara Cristina da Silva Martins. <b>Expressões típicas de Fama-MG: estudo da linguagem local e seus sentidos</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             
-            <tr valign="top"><td>19. &nbsp;</td> <td>Letícia Bueno Mançanares. <b>O papel da Psicomotricidade na Educação Infantil</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>19. &nbsp;</td> <td>Larissa de Cássia Hélen Honório. <b>A INFLUÊNCIA DA CULTURA NA LINGUAGEM: UM ESTUDO NO MUNICÍPIO DE CAMPESTRE ? MG</b>. (Graduação em Letras) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             
-            <tr valign="top"><td>20. &nbsp;</td> <td>Maria da Glória Oliveira Silva. <b>Revisão Sobre os projetos políticos elaborados na última década sobre alfabetização</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>20. &nbsp;</td> <td>Letícia Bueno Mançanares. <b>O papel da Psicomotricidade na Educação Infantil</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>21. &nbsp;</td> <td>Matheus de Ávila Pereira. <b>Memórias da disciplina Educação Moral e Cívica na escola estadual São Marcos em Poço Fundo-mMG possibilidade de apropriação e transformação do currículo prescrito na escola</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            <tr valign="top"><td>21. &nbsp;</td> <td>Maria da Glória Oliveira Silva. <b>Revisão Sobre os projetos políticos elaborados na última década sobre alfabetização</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>22. &nbsp;</td> <td>Paola de Oliveira de Carvalho Souza. <b>Notas sobre a Representação do Negro na Literatura Infantil</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            <tr valign="top"><td>22. &nbsp;</td> <td>Matheus de Ávila Pereira. <b>Memórias da disciplina Educação Moral e Cívica na escola estadual São Marcos em Poço Fundo-mMG possibilidade de apropriação e transformação do currículo prescrito na escola</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
             
-            <tr valign="top"><td>23. &nbsp;</td> <td>Rafaela Nascimento da Silva. <b>O engajamento de idosos em atividades matemáticas em um ambiente de geometria dinâmica</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
+            <tr valign="top"><td>23. &nbsp;</td> <td>Paola de Oliveira de Carvalho Souza. <b>Notas sobre a Representação do Negro na Literatura Infantil</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>24. &nbsp;</td> <td>Renata Megda Lino Cordeiro. <b>A Prática Pedagógica na formação de professores - Um olhar para os cursos de licenciatura da UNIFAL-MG</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            <tr valign="top"><td>24. &nbsp;</td> <td>Rafaela Nascimento da Silva. <b>O engajamento de idosos em atividades matemáticas em um ambiente de geometria dinâmica</b>. (Graduação em Matemática) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5817829882396943">Guilherme Henrique Gomes da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>25. &nbsp;</td> <td>Vanda Messias Alves. <b>O processo de ensino e aprendizagem da língua escrita: alguns desafios</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>25. &nbsp;</td> <td>Renata Megda Lino Cordeiro. <b>A Prática Pedagógica na formação de professores - Um olhar para os cursos de licenciatura da UNIFAL-MG</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Rubens Miguel de Almeida Piva. <b>Políticas educacionais da Educação Básica durante o governo militar (1964-1985): reflexos de um governo ditatorial</b>. (Graduação em História) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Vanda Messias Alves. <b>O processo de ensino e aprendizagem da língua escrita: alguns desafios</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Aline F.Silva; Renata A. Oliveira; Vitória B. Gutierres. <b>A escola é o lugar de abordar a educação sexual</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
@@ -457,33 +579,37 @@ shadow: true}});
             </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Campos Machado; Mayra Christina Lopes Pereira. <b>A construção do currículo no cotidiano da Educação Infantil: percepções dos professores sobre a implantação do sistema de ensino Aprender Brasil no município de Alfenas - MG</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Beatriz Reneis Luiz. <b>Reformas educacionais na América Latina e a educação de adultos na Revista Interamericana de Educação de Adultos</b>. (Graduação em Geografia-Licenciatura) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>André Victor Pereira. <b>Avaliação do histórico da produção em ensino de Bioquímica durante as reuniões da Sociedade Brasileira de Bioquímica e Biologia Molecular (SBBq) entre 1993 e 2016</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Camila Rossi Amorim Sirigatti. <b>O PIBID e a formação na perspectiva inclusiva: desafios, dilemas e possibilidades para a formação e atuação docente</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Beatriz Reneis Luiz. <b>Reformas educacionais na América Latina e a educação de adultos na Revista Interamericana de Educação de Adultos</b>. (Graduação em Geografia-Licenciatura) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Caroline A. Roque;Caroline Cristenssen;Leticia F. Ansani. <b>Educação escolar: da liberdade de direitos à restrição de formação crítica</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Camila Rossi Amorim Sirigatti. <b>O PIBID e a formação na perspectiva inclusiva: desafios, dilemas e possibilidades para a formação e atuação docente</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Cristiano Carlos Borges de Assis. <b>O discurso do professor de Física no Ensino Médio: uma análise sobre a interação discursiva e algumas relações com a aprendizagem significativa em Leis de Newton</b>. (Graduação em Licenciatura de Física) - Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Caroline A. Roque;Caroline Cristenssen;Leticia F. Ansani. <b>Educação escolar: da liberdade de direitos à restrição de formação crítica</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Eloíse Iara Braghini David. <b>A proposição do "nós": análise e considerações sobre a exposição "De EFOA á Unifal-MG": uma história de cem anos</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Cinthia Rafaela Maciel Santos. <b>Bullying no ambiente escolar sob a perspectiva histórica e política das pesquisas em educação (2013-2015)</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Erika Maria de Oliveira. <b>Trajetórias escolares: infância e memórias juvenis na EJA</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>Cristiano Carlos Borges de Assis. <b>O discurso do professor de Física no Ensino Médio: uma análise sobre a interação discursiva e algumas relações com a aprendizagem significativa em Leis de Newton</b>. (Graduação em Licenciatura de Física) - Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8701722710780673">Natalino Neves da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Guilherme Kalil Vieira Bichara. <b>Validação de indicadores de Colaboração e Participação no Moodle: bloco indeXMoodle</b>. (Graduação em Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>Eloíse Iara Braghini David. <b>A proposição do "nós": análise e considerações sobre a exposição "De EFOA á Unifal-MG": uma história de cem anos</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>Letícia Curtio;Matheus Resende;Mayara Moreira;Mayara Ribeiro. <b>Educação e trabalho sob a visão do mercado no processo educacional</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>Erika Maria de Oliveira. <b>Trajetórias escolares: infância e memórias juvenis na EJA</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>Lívia Silva Macedo. <b>Parlamento Jovem de Minas: limites e contribuições para a formação política da juventude</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>Guilherme Kalil Vieira Bichara. <b>Validação de indicadores de Colaboração e Participação no Moodle: bloco indeXMoodle</b>. (Graduação em Bacharelado em Ciências da Computação) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td>Marcela S. M. Deluca;Rafaela M. Piovesan,Silvana Oliveira. <b>Relação família e escola no contexto histórico</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>11. &nbsp;</td> <td>Letícia Curtio;Matheus Resende;Mayara Moreira;Mayara Ribeiro. <b>Educação e trabalho sob a visão do mercado no processo educacional</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td>Marcos Tadeu da Silva. <b>Entre embates e conflitos: uma análise das estratégias de catequese indígena nas cartas do Padre Manuel da Nóbrega</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            <tr valign="top"><td>12. &nbsp;</td> <td>Lívia Silva Macedo. <b>Parlamento Jovem de Minas: limites e contribuições para a formação política da juventude</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4667459802757846">Luís Antonio Groppo</a>.</font></td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td>Mayra Christina Lopes Pereira; Amanda Campos Machado. <b>A construção do currículo no cotidiano da Educação Infantil: percepções dos professores sobre a implantação do sistema de ensino Aprende Brasil no município de Alfenas - MG</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            <tr valign="top"><td>13. &nbsp;</td> <td>Marcela S. M. Deluca;Rafaela M. Piovesan,Silvana Oliveira. <b>Relação família e escola no contexto histórico</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>14. &nbsp;</td> <td>Paloma Caroline de Andrade Alexandre. <b>Livros literários infantis como reveladores da imagem de criança para a pedagogia da infância</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>14. &nbsp;</td> <td>Marcos Tadeu da Silva. <b>Entre embates e conflitos: uma análise das estratégias de catequese indígena nas cartas do Padre Manuel da Nóbrega</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
             
-            <tr valign="top"><td>15. &nbsp;</td> <td>Sílvia Leticia Rodrigues. O estudo do Egito antigo e a África nos livros didáticos após a lei n. <b>10.639/03</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            <tr valign="top"><td>15. &nbsp;</td> <td>Mayra Christina Lopes Pereira; Amanda Campos Machado. <b>A construção do currículo no cotidiano da Educação Infantil: percepções dos professores sobre a implantação do sistema de ensino Aprende Brasil no município de Alfenas - MG</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Paloma Caroline de Andrade Alexandre. <b>Livros literários infantis como reveladores da imagem de criança para a pedagogia da infância</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Sílvia Leticia Rodrigues. O estudo do Egito antigo e a África nos livros didáticos após a lei n. <b>10.639/03</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
             </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Ana Carolina de Almeida Paulino. <b>Limites e possibilidades para implementação de práticas dialógicas na EPJA</b>. (Graduação em Química - Licenciatura) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></td></tr>
             
@@ -553,7 +679,9 @@ shadow: true}});
             
             <tr valign="top"><td>34. &nbsp;</td> <td>Tuane Francelino Araújo. <b>A arte de transformar: criando e brincando com sucatas</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>35. &nbsp;</td> <td>Vitor Donizete da Silva. <b>Escola, Diversidade Cultural e Preconceitos: da denúncia ao apontamento de possibilidades de superação a partir dos periódicos da área educacional</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            <tr valign="top"><td>35. &nbsp;</td> <td>Vanessa Souza Batista. <b>As normatizações para a instrução pública em Minas Gerais: entre regulamentos, sujeitos e práticas ? 1835-1906</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Vitor Donizete da Silva. <b>Escola, Diversidade Cultural e Preconceitos: da denúncia ao apontamento de possibilidades de superação a partir dos periódicos da área educacional</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra dos Santos Morais. <b>Concepções educacionais inclusivas: problematizando as facetas da gestão escolar</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
@@ -609,51 +737,55 @@ shadow: true}});
             
             <tr valign="top"><td>27. &nbsp;</td> <td>Laís Regina dos Santos Folquito/ Mariana Moraes Garcia. <b>O Curso de Licenciatura em Química EaD Unifal-desafios e perspectivas para o diálogo na visão dos alunos</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>28. &nbsp;</td> <td>Ludmila Sabato Valverdes. <b>Memórias de relações de ensino e aprendizagem em Educação Inclusiva: um estudo de caso</b>. (Graduação em Pedagogia) - Instituto Superior de Educação Vera Cruz, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            <tr valign="top"><td>28. &nbsp;</td> <td>Lucélia Carla da Silva dos Anjos. <b>Identidade e Diferença: o dito e o não dito nas pesquisas em educação (analisando o ENDIPE/2008)</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             
-            <tr valign="top"><td>29. &nbsp;</td> <td>Luiz Guilherme Basílio de Novais e Francieli Ribeiro Pires. <b>Experimentação Investigativa-Dialógica: cromatografia no ensino de Química</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>29. &nbsp;</td> <td>Ludmila Sabato Valverdes. <b>Memórias de relações de ensino e aprendizagem em Educação Inclusiva: um estudo de caso</b>. (Graduação em Pedagogia) - Instituto Superior de Educação Vera Cruz, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
             
-            <tr valign="top"><td>30. &nbsp;</td> <td>Maria Claudia de Oliveira Souza. <b>Produção textual e as contribuições da teoria da mediação</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>30. &nbsp;</td> <td>Luiz Guilherme Basílio de Novais e Francieli Ribeiro Pires. <b>Experimentação Investigativa-Dialógica: cromatografia no ensino de Química</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>31. &nbsp;</td> <td>Maria Ester Duarte Pedrosa Rechi. <b>A influência dos resultados das avaliações externas no cotidiano escolar e o trabalho docente</b>. (Graduação em Pedagogia) - Instituto Superior de Educação Vera Cruz, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
+            <tr valign="top"><td>31. &nbsp;</td> <td>Maria Claudia de Oliveira Souza. <b>Produção textual e as contribuições da teoria da mediação</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>32. &nbsp;</td> <td>Maria Lucia Alves. <b>Educação Inclusiva no ensino básico: desafios e perspectivas docentes</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            <tr valign="top"><td>32. &nbsp;</td> <td>Maria Ester Duarte Pedrosa Rechi. <b>A influência dos resultados das avaliações externas no cotidiano escolar e o trabalho docente</b>. (Graduação em Pedagogia) - Instituto Superior de Educação Vera Cruz, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
             
-            <tr valign="top"><td>33. &nbsp;</td> <td>Marina Vieira Santos. <b>Imagens dos livros didáticos de química: construção de significado a partir da teoria semiótica</b>. (Graduação em Licenciatura em Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></td></tr>
+            <tr valign="top"><td>33. &nbsp;</td> <td>Maria Lucia Alves. <b>Educação Inclusiva no ensino básico: desafios e perspectivas docentes</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>34. &nbsp;</td> <td>Mariângela Machado de Castro. <b>Currículo oculto, escola e Ideologia: reflexões a partir da tradição marxista</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            <tr valign="top"><td>34. &nbsp;</td> <td>Marina Vieira Santos. <b>Imagens dos livros didáticos de química: construção de significado a partir da teoria semiótica</b>. (Graduação em Licenciatura em Química) - Universidade Federal de Alfenas, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></td></tr>
             
-            <tr valign="top"><td>35. &nbsp;</td> <td>Marlene Cabral de Souza. <b>Contribuições da Neurociências para a Educação Inclusiva de alunos com déficits intelectuais</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            <tr valign="top"><td>35. &nbsp;</td> <td>Mariângela Machado de Castro. <b>Currículo oculto, escola e Ideologia: reflexões a partir da tradição marxista</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             
-            <tr valign="top"><td>36. &nbsp;</td> <td>Maryelle de Souza Novais. <b>Alunas egressas da EJA no ensino superior- aspectos das trajetórias de discentes do curso de Pedagogia da Universidade Federal de Alfenas</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            <tr valign="top"><td>36. &nbsp;</td> <td>Marlene Cabral de Souza. <b>Contribuições da Neurociências para a Educação Inclusiva de alunos com déficits intelectuais</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>37. &nbsp;</td> <td>Muriel de Oliveira Morgante. <b>Os escritos do Padre Antonio Vieira acerca das questões indígenas: Maranhão - Século XVI</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            <tr valign="top"><td>37. &nbsp;</td> <td>Maryelle de Souza Novais. <b>Alunas egressas da EJA no ensino superior- aspectos das trajetórias de discentes do curso de Pedagogia da Universidade Federal de Alfenas</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
             
-            <tr valign="top"><td>38. &nbsp;</td> <td>Natalia Cruz Spinelli. <b>Hibridismos e resistências na América portuguesa do século XVI</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
+            <tr valign="top"><td>38. &nbsp;</td> <td>Muriel de Oliveira Morgante. <b>Os escritos do Padre Antonio Vieira acerca das questões indígenas: Maranhão - Século XVI</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
             
-            <tr valign="top"><td>39. &nbsp;</td> <td>Olivia Tresinari Camargo de Oliveira. <b>Conhecendo o formador do educador de EJA- análise exploratória da produção intelectual de professores que lecionam disciplina de EJA em curso de Pedagogia</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
+            <tr valign="top"><td>39. &nbsp;</td> <td>Natalia Cruz Spinelli. <b>Hibridismos e resistências na América portuguesa do século XVI</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
             
-            <tr valign="top"><td>40. &nbsp;</td> <td>Patrícia Mara de Oliveira. <b>O reconto e a aprendizagem da leitura: possibilidades no ensino fundamental</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>40. &nbsp;</td> <td>Olivia Tresinari Camargo de Oliveira. <b>Conhecendo o formador do educador de EJA- análise exploratória da produção intelectual de professores que lecionam disciplina de EJA em curso de Pedagogia</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3768499838856176">Cristiane Fernanda Xavier</a>.</font></td></tr>
             
-            <tr valign="top"><td>41. &nbsp;</td> <td>Poliana Fernandes dos Santos. <b>O PIBID e a formação de professores de biologia: desafios e perspectivas para a educação inclusiva</b>. (Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            <tr valign="top"><td>41. &nbsp;</td> <td>Patrícia Mara de Oliveira. <b>O reconto e a aprendizagem da leitura: possibilidades no ensino fundamental</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>42. &nbsp;</td> <td>Priscila de Oliveira Batista. <b>Os impactos da alta literatura e os desafios do processo de formação de crianças leitoras na atualidade escolar brasileira</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>42. &nbsp;</td> <td>Poliana Fernandes dos Santos. <b>O PIBID e a formação de professores de biologia: desafios e perspectivas para a educação inclusiva</b>. (Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>43. &nbsp;</td> <td>Tammy Ito. <b>A obrigatoriedade da matrícula das crianças de 4 e 5 anos de idade: perdeu-se o direito de brincar?</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>43. &nbsp;</td> <td>Priscila de Oliveira Batista. <b>Os impactos da alta literatura e os desafios do processo de formação de crianças leitoras na atualidade escolar brasileira</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>44. &nbsp;</td> <td>Tammy Silveira Ito. <b>A obrigatoriedade da matrícula das crianças de 4 anos e o espaço reservado para o brincar nas instituições educativas</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>44. &nbsp;</td> <td>Renata de Fatima Gonçalves. <b>Um enfoque dado ao direcionamento ao conceito de identidade, diferença e educação em trabalhos apresentados no ENDIPE/2010</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             
-            <tr valign="top"><td>45. &nbsp;</td> <td>Tatiana Aparecida Silva de Carvalho. <b>A Prova Brasil e seus impactos na aprendizagem de alunos do ensino fundamental</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>45. &nbsp;</td> <td>Tammy Ito. <b>A obrigatoriedade da matrícula das crianças de 4 e 5 anos de idade: perdeu-se o direito de brincar?</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>46. &nbsp;</td> <td>Tawana Cristina Teodoro Novaes e Tahaís Saughelli. <b>Contos de fadas e o seu papel social</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>46. &nbsp;</td> <td>Tammy Silveira Ito. <b>A obrigatoriedade da matrícula das crianças de 4 anos e o espaço reservado para o brincar nas instituições educativas</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>47. &nbsp;</td> <td>Thamires de Cássia Lima. <b>A temática de gênero nas tiras da Mafalda: uma proposta coeducativa ao ensino de sociologia</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            <tr valign="top"><td>47. &nbsp;</td> <td>Tatiana Aparecida Silva de Carvalho. <b>A Prova Brasil e seus impactos na aprendizagem de alunos do ensino fundamental</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             
-            <tr valign="top"><td>48. &nbsp;</td> <td>Thays Alexandre Salles. <b>Leitura do mundo e leitura da palavra: A Tertúlia Literária Dialógica no ProFoQui ? Unifal? MG</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>48. &nbsp;</td> <td>Tawana Cristina Teodoro Novaes e Tahaís Saughelli. <b>Contos de fadas e o seu papel social</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>49. &nbsp;</td> <td>Thaís Cristina Fontes Cohen. <b>O estudante com discalculia e as contribuições das práticas pedagógicas inovadoras</b>. (Graduação em Pedagogia) - Universidade de Brasília, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            <tr valign="top"><td>49. &nbsp;</td> <td>Thamires de Cássia Lima. <b>A temática de gênero nas tiras da Mafalda: uma proposta coeducativa ao ensino de sociologia</b>. (Graduação em Ciências Sociais) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             
-            <tr valign="top"><td>50. &nbsp;</td> <td>Vitor de Rezende Costella. <b>Educação Ambiental e a relação com a Comunidade: um estudo de revisão de literatura</b>. (Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            <tr valign="top"><td>50. &nbsp;</td> <td>Thays Alexandre Salles. <b>Leitura do mundo e leitura da palavra: A Tertúlia Literária Dialógica no ProFoQui ? Unifal? MG</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Thaís Cristina Fontes Cohen. <b>O estudante com discalculia e as contribuições das práticas pedagógicas inovadoras</b>. (Graduação em Pedagogia) - Universidade de Brasília, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Vitor de Rezende Costella. <b>Educação Ambiental e a relação com a Comunidade: um estudo de revisão de literatura</b>. (Graduação em Ciências Biológicas) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1898701586881222">Vanessa Cristina Girotto Nery</a>.</font></td></tr>
             </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Aline Borges; Aline Macedo Joaquim. <b>Como ensinar valores éticos e morais às crianças portadoras de TDAH</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
@@ -667,39 +799,39 @@ shadow: true}});
             
             <tr valign="top"><td>6. &nbsp;</td> <td>Camila Reis Oliveira. <b>O Concílio de Trento e a religião no século XVI: fundamentos teológico-políticos e filosóficos da Contra-Reforma</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1615459773983790">Marcos Roberto de Faria</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Cinthia Rafaela Maciel Santos. <b>Bullying no ambiente escolar sob a perspectiva histórica e política das pesquisas em educação (2013-2015)</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>Edvânia O.M. Marçal; Juliana Ap. Pereira. <b>Ensino Fundamental: política dos nove anos e suas implicações</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Edvânia O.M. Marçal; Juliana Ap. Pereira. <b>Ensino Fundamental: política dos nove anos e suas implicações</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>Emilene Mazucato Borelli OIiveira. <b>A construção da sexualidade na Educação Infantil: percepção de professoras e contribuições do curso de Pedagogia</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>Emilene Mazucato Borelli OIiveira. <b>A construção da sexualidade na Educação Infantil: percepção de professoras e contribuições do curso de Pedagogia</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>Flávia Simões; Roberta Cardoso Merlo. <b>Análise da eficácia do Programa ?Ler e Escrever? em São João da Boa Vista e Espírito Santo de Pinhal</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>Flávia Simões; Roberta Cardoso Merlo. <b>Análise da eficácia do Programa ?Ler e Escrever? em São João da Boa Vista e Espírito Santo de Pinhal</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>Gislaine C. Paulino; João de Assis; Lúcia Mara do Nascimento. <b>A EJA e sua realidade docente.</b>. (Graduação em Pedagogia) - Universidade do Vale do Sapucaí - UNIVÁS, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td>Gislaine C. Paulino; João de Assis; Lúcia Mara do Nascimento. <b>A EJA e sua realidade docente.</b>. (Graduação em Pedagogia) - Universidade do Vale do Sapucaí - UNIVÁS, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>11. &nbsp;</td> <td>Giuller Fernando de Assis. <b>O enfoque CTS na geração de temas controversos: Produção de energia elétrica a partir de uma Usina Nuclear</b>. (Graduação em Física) - Universidade Federal de Goiás, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td>Giuller Fernando de Assis. <b>O enfoque CTS na geração de temas controversos: Produção de energia elétrica a partir de uma Usina Nuclear</b>. (Graduação em Física) - Universidade Federal de Goiás, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            <tr valign="top"><td>12. &nbsp;</td> <td>Janine Gabrielle dos Santos. <b>As relações étnico-raciais na educação infantil</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td>Janine Gabrielle dos Santos. <b>As relações étnico-raciais na educação infantil</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>13. &nbsp;</td> <td>Jaqueline Kelly da Nóbrega Sousa. <b>História da África no ensino fundamental II: a formação do Império de Mali</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
             
-            <tr valign="top"><td>14. &nbsp;</td> <td>Jaqueline Kelly da Nóbrega Sousa. <b>História da África no ensino fundamental II: a formação do Império de Mali</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
+            <tr valign="top"><td>14. &nbsp;</td> <td>Jesus Vinicius da Silva. <b>Uma proposta sobre dualidade onda-partícula para inserção de Física Moderna e Contemporânea no Ensino Médio</b>. (Graduação em Física) - Universidade Federal de Goiás, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
             
-            <tr valign="top"><td>15. &nbsp;</td> <td>Jesus Vinicius da Silva. <b>Uma proposta sobre dualidade onda-partícula para inserção de Física Moderna e Contemporânea no Ensino Médio</b>. (Graduação em Física) - Universidade Federal de Goiás, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            <tr valign="top"><td>15. &nbsp;</td> <td>Ligia da Silva Marques. <b>CONCORDÂNCIAS/DISCORDÂNCIAS ACERCA DO PROCESSO INCLUSINO NO ENSINO SUPERIOR: um estudo exploratório</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>16. &nbsp;</td> <td>Ligia da Silva Marques. <b>CONCORDÂNCIAS/DISCORDÂNCIAS ACERCA DO PROCESSO INCLUSINO NO ENSINO SUPERIOR: um estudo exploratório</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            <tr valign="top"><td>16. &nbsp;</td> <td>Luciana Vilela Alvarenga Thiers. <b>A importância da organização do espaço para o desenvolvimento das crianças na creche</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>17. &nbsp;</td> <td>Luciana Vilela Alvarenga Thiers. <b>A importância da organização do espaço para o desenvolvimento das crianças na creche</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>17. &nbsp;</td> <td>Maria Ap. Ferreira Lameu. <b>O perfil docente da Creche</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>18. &nbsp;</td> <td>Maria Ap. Ferreira Lameu. <b>O perfil docente da Creche</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>18. &nbsp;</td> <td>Mariani Zampar; Daniela Salvático. <b>O ensino/aprendizagem da ética no Ensino Fundamental</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>19. &nbsp;</td> <td>Mariani Zampar; Daniela Salvático. <b>O ensino/aprendizagem da ética no Ensino Fundamental</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação Octávio Bastos, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>19. &nbsp;</td> <td>Matheus Cabral Torres; Mayra Brunner Pires dos Santos. <b>Radioatividade: o que dizem as imagens dos livros didáticos?</b>. (Graduação em Licenciatura em Química) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></td></tr>
             
-            <tr valign="top"><td>20. &nbsp;</td> <td>Matheus Cabral Torres; Mayra Brunner Pires dos Santos. <b>Radioatividade: o que dizem as imagens dos livros didáticos?</b>. (Graduação em Licenciatura em Química) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></td></tr>
+            <tr valign="top"><td>20. &nbsp;</td> <td>Nathalia Rocha do Nascimento. <b>A EDUCAÇÃO INCLUSIVA SOB O OLHAR DO GESTOR: dificuldades e desafios de coordenadores de cursos de graduação</b>. (Graduação em Pedagogia) - Universidade de Brasília, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
             
-            <tr valign="top"><td>21. &nbsp;</td> <td>Nathalia Rocha do Nascimento. <b>A EDUCAÇÃO INCLUSIVA SOB O OLHAR DO GESTOR: dificuldades e desafios de coordenadores de cursos de graduação</b>. (Graduação em Pedagogia) - Universidade de Brasília, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
+            <tr valign="top"><td>21. &nbsp;</td> <td>Naãma Cristina Negri Vaciloto; Rafael dos Santos Geonmonond. <b>Recurso didático adaptado para o ensino das proteínas</b>. (Graduação em Licenciatura em Química) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></td></tr>
             
-            <tr valign="top"><td>22. &nbsp;</td> <td>Naãma Cristina Negri Vaciloto; Rafael dos Santos Geonmonond. <b>Recurso didático adaptado para o ensino das proteínas</b>. (Graduação em Licenciatura em Química) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3094025825865221">Keila Bossolani Kiill</a>.</font></td></tr>
+            <tr valign="top"><td>22. &nbsp;</td> <td>Nelize Aparecida Oliveira Feliciano. <b>Um estudo sobre o brincar em salas do primeiro ano do ensino fundamental</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>23. &nbsp;</td> <td>Nelize Aparecida Oliveira Feliciano. <b>Um estudo sobre o brincar em salas do primeiro ano do ensino fundamental</b>. (Graduação em PEDAGOGIA) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9670033909365792">Fabiana de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>23. &nbsp;</td> <td>Pedro Marcos da Silva Júnior. <b>A proposta curricular para o ensino de história de Minas Gerais em 1987: entre o passado e o presente</b>. (Graduação em História) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
             
             <tr valign="top"><td>24. &nbsp;</td> <td>Pedro Torres de Oliveira. <b>Uso de indicadores em ambientes virtuais de aprendizagem</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
             
@@ -893,19 +1025,19 @@ shadow: true}});
             
             <tr valign="top"><td>24. &nbsp;</td> <td>Lourdes Maciel Soares e Solange Moreira da Silva. <b>Escola de Tempo Integral</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>25. &nbsp;</td> <td>MARIA DO CARMO SILVA. <b>" A literatura da educação infantil: um estudo de caso com crianças de zero a três anos"</b>. (Graduação em Pedagogia) - Pontifícia Universidade Católica de Minas Gerais, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
+            <tr valign="top"><td>25. &nbsp;</td> <td>Luiz Augusto Liparini. <b>A Educação nos anos de chumbo: a política educacional ambicionada pela utopia autoritária (1964-1975).</b>. (Graduação em História) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>26. &nbsp;</td> <td>Maria Gilcilene Carvalho SIlva. <b>Cantigas de roda e brincadeiras na alfabetização infantil</b>. (Graduação em Licenciatura Plena Em Pedagogia) - Universidade Federal de Rondônia, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
+            <tr valign="top"><td>26. &nbsp;</td> <td>MARIA DO CARMO SILVA. <b>" A literatura da educação infantil: um estudo de caso com crianças de zero a três anos"</b>. (Graduação em Pedagogia) - Pontifícia Universidade Católica de Minas Gerais, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9989867717454257">Maria Emilia Almeida da Cruz Torres</a>.</font></td></tr>
             
-            <tr valign="top"><td>27. &nbsp;</td> <td>Mariane Mendes. <b>A temática das Drogas na Escola e o PROERD</b>. (Graduação em Pedagogia) - Universidade Estadual de Ponta Grossa, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            <tr valign="top"><td>27. &nbsp;</td> <td>Maria Gilcilene Carvalho SIlva. <b>Cantigas de roda e brincadeiras na alfabetização infantil</b>. (Graduação em Licenciatura Plena Em Pedagogia) - Universidade Federal de Rondônia, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             
-            <tr valign="top"><td>28. &nbsp;</td> <td>Marilena Cristina de Souza Andrade. <b>Avaliação como processo de replanejamento</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
+            <tr valign="top"><td>28. &nbsp;</td> <td>Mariane Mendes. <b>A temática das Drogas na Escola e o PROERD</b>. (Graduação em Pedagogia) - Universidade Estadual de Ponta Grossa, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
             
-            <tr valign="top"><td>29. &nbsp;</td> <td>Nilton Caetano Vilela Filho. <b>Uma proposta de seqüência didática com experimento para introdução do conceito de quantização da energia no ensino médio.</b>. (Graduação em Licenciatura em Física) - Universidade Federal de Goiás, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            <tr valign="top"><td>29. &nbsp;</td> <td>Marilena Cristina de Souza Andrade. <b>Avaliação como processo de replanejamento</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8888651090922749">Helena Maria dos Santos Felício</a>.</font></td></tr>
             
-            <tr valign="top"><td>30. &nbsp;</td> <td>Núbia Profira Vieira. <b>Uma adaptação do ?International Young Phisicists' Tournament? (IYPT) como proposta de avaliação no ensino de física no Ensino Médio.</b>. (Graduação em Licenciatura em Física) - Universidade Federal de Goiás, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
+            <tr valign="top"><td>30. &nbsp;</td> <td>Nilton Caetano Vilela Filho. <b>Uma proposta de seqüência didática com experimento para introdução do conceito de quantização da energia no ensino médio.</b>. (Graduação em Licenciatura em Física) - Universidade Federal de Goiás, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
             
-            <tr valign="top"><td>31. &nbsp;</td> <td>Renata de Fatima Gonçalves. <b>Um enfoque dado ao direcionamento ao conceito de identidade, diferença e educação em trabalhos apresentados no ENDIPE/2010</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            <tr valign="top"><td>31. &nbsp;</td> <td>Núbia Profira Vieira. <b>Uma adaptação do ?International Young Phisicists' Tournament? (IYPT) como proposta de avaliação no ensino de física no Ensino Médio.</b>. (Graduação em Licenciatura em Física) - Universidade Federal de Goiás, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5154949759339458">Frederico Augusto Toti</a>.</font></td></tr>
             
             <tr valign="top"><td>32. &nbsp;</td> <td>Ricardo Luiz da Silva. <b>A primeira experiência docente de um professor recém-formado</b>. (Graduação em Matemática) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
@@ -989,21 +1121,19 @@ shadow: true}});
             
             <tr valign="top"><td>16. &nbsp;</td> <td>Luane Ap. da Silva. <b>A Importância da educação Sexual na Educação Básica</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>17. &nbsp;</td> <td>Lucélia Carla da Silva dos Anjos. <b>Identidade e Diferença: o dito e o não dito nas pesquisas em educação (analisando o ENDIPE/2008)</b>. (Graduação em Pedagogia) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1707973773263725">André Luiz Sena Mariano</a>.</font></td></tr>
+            <tr valign="top"><td>17. &nbsp;</td> <td>Marina da Silva Melo. <b>O papel do professor na formação política do aluno</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>18. &nbsp;</td> <td>Marina da Silva Melo. <b>O papel do professor na formação política do aluno</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>18. &nbsp;</td> <td>Maristela Faustino Gavioli, Sônia M. Bozelli Campos e Souza. <b>A Ética e o Professor da educação Básica</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>19. &nbsp;</td> <td>Maristela Faustino Gavioli, Sônia M. Bozelli Campos e Souza. <b>A Ética e o Professor da educação Básica</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>19. &nbsp;</td> <td>Marta Moraes / Maria do Carmo Oliveira. <b>Inclusão e capacitação de pessoas com necessidades especiais</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>20. &nbsp;</td> <td>Marta Moraes / Maria do Carmo Oliveira. <b>Inclusão e capacitação de pessoas com necessidades especiais</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            <tr valign="top"><td>20. &nbsp;</td> <td>Simony M. B. Morais e Alyene Pizetta. <b>O Ensino de Filosofia nos Anos Iniciais do Ensino Fundamental: Retratos de uma sala de aula</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>21. &nbsp;</td> <td>Simony M. B. Morais e Alyene Pizetta. <b>O Ensino de Filosofia nos Anos Iniciais do Ensino Fundamental: Retratos de uma sala de aula</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>21. &nbsp;</td> <td>Talussa Maria Valerio Riograndense da Silva. <b>Violência e Cidadania: Uma leitura a partir da Literatura Brasileira</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>22. &nbsp;</td> <td>Talussa Maria Valerio Riograndense da Silva. <b>Violência e Cidadania: Uma leitura a partir da Literatura Brasileira</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>22. &nbsp;</td> <td>Tamiris Ap. Magalhães. <b>Aspectos éticos e morais: a relação família e escola segundo a visão dos pais</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>23. &nbsp;</td> <td>Tamiris Ap. Magalhães. <b>Aspectos éticos e morais: a relação família e escola segundo a visão dos pais</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação Octávio Bastos, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
-            
-            <tr valign="top"><td>24. &nbsp;</td> <td>Viviane Rodrigues Lima. <b>Psicologia Escolar e Educação de Jovens e Adultos: inclusoes, desafios e perspectivas</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
+            <tr valign="top"><td>23. &nbsp;</td> <td>Viviane Rodrigues Lima. <b>Psicologia Escolar e Educação de Jovens e Adultos: inclusoes, desafios e perspectivas</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Aila M Reco e Vanessa Sbrici. <b>Impacto sócio-educacional do Transtorno do Déficit de Atenção e Hiperatividade em crianças com idade pré-escolar.</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
             
@@ -1049,13 +1179,13 @@ shadow: true}});
             
             <tr valign="top"><td>2. &nbsp;</td> <td>Claudia Correa de Oliveira. <b>Representação Social do surdo: imagem e ação do psicologo</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Cleusa Juliana Piovan Honório. <b>Ética na Educação Infantil</b>. (Graduação em Normal Superior) - Universidade Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cleusa Juliana Piovan Honório. <b>Ética na Educação Infantil</b>. (Graduação em Normal Superior) - Centro Universitário Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Cláudia Alves Gonçalves Galliero. <b>O Prazer da Leitura</b>. (Graduação em Normal Superior) - Universidade Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cláudia Alves Gonçalves Galliero. <b>O Prazer da Leitura</b>. (Graduação em Normal Superior) - Centro Universitário Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
             <tr valign="top"><td>5. &nbsp;</td> <td>Eduardo Strazzer. <b>Inclusão Escolar: um enfoque na formação de professores</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Elaine Cristina Campagnoli Duarte. <b>Alfabetização de Crianças de Seis Anos</b>. (Graduação em Normal Superior) - Universidade Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Elaine Cristina Campagnoli Duarte. <b>Alfabetização de Crianças de Seis Anos</b>. (Graduação em Normal Superior) - Centro Universitário Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
             <tr valign="top"><td>7. &nbsp;</td> <td>Elaine Santana dos Santos. <b>Idosos Institucionalizados: aspectos subjetivos</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
@@ -1073,9 +1203,9 @@ shadow: true}});
             
             <tr valign="top"><td>14. &nbsp;</td> <td>Lívia Silva Dias. <b>Educação Inclusiva.</b>. (Graduação em Pedagogia) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0285349325152247">Sílvia Ester Orrú</a>.</font></td></tr>
             
-            <tr valign="top"><td>15. &nbsp;</td> <td>Marcos Antonio Batista Júnior. <b>Inclusão Social e Educação</b>. (Graduação em Normal Superior) - Universidade Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>15. &nbsp;</td> <td>Marcos Antonio Batista Júnior. <b>Inclusão Social e Educação</b>. (Graduação em Normal Superior) - Centro Universitário Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
-            <tr valign="top"><td>16. &nbsp;</td> <td>Marilsa Isabel da Silva. <b>Um realidade social e insitucional da educação de Jovens e Adultos</b>. (Graduação em Normal Superior) - Universidade Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
+            <tr valign="top"><td>16. &nbsp;</td> <td>Marilsa Isabel da Silva. <b>Um realidade social e insitucional da educação de Jovens e Adultos</b>. (Graduação em Normal Superior) - Centro Universitário Presidente Antônio Carlos, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             
             <tr valign="top"><td>17. &nbsp;</td> <td>Regiane Martins Dias. <b>Vivencias e perspectivas de crianças em situação de abrigo</b>. (Graduação em Psicologia) - Universidade Braz Cubas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0483616532104544">Claudia Gomes</a>.</font></td></tr>
             
@@ -1294,18 +1424,8 @@ shadow: true}});
             <tr valign="top"><td>1. &nbsp;</td> <td>Liene Moraes Assunção. <b>Transição ou confusão: uma proposta de alívio para os educandos na passagem da quarta para a quinta série</b>. (Graduação em Licenciatura Plena Em Pedagogia) - Universidade Federal de Rondônia, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
             
             <tr valign="top"><td>2. &nbsp;</td> <td>Rosinélia Gomes badra. <b>O momento ideal para a alfabetização</b>. (Graduação em Licenciatura Plena Em Pedagogia) - Universidade Federal de Rondônia, . 1998.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6396955256879565">Celso Ferrarezi Junior</a>.</font></td></tr>
-            </table></div><div id="dv-year-1993"><h3 class="year">1993</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>André Victor Pereira. <b>Avaliação do histórico da produção em ensino de Bioquímica durante as reuniões da Sociedade Brasileira de Bioquímica e Biologia Molecular (SBBq) entre 1993 e 2016</b>. (Graduação em Química) - Universidade Federal de Alfenas, . 1993.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7615930937088442">Gabriel Gerber Hornink</a>.</font></td></tr>
-            </table></div><div id="dv-year-1987"><h3 class="year">1987</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Pedro Marcos da Silva Júnior. <b>A proposta curricular para o ensino de história de Minas Gerais em 1987: entre o passado e o presente</b>. (Graduação em História) - Universidade Federal de Alfenas, . 1987.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5381334650906335">Olavo Pereira Soares</a>.</font></td></tr>
-            </table></div><div id="dv-year-1971"><h3 class="year">1971</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Juliana Silva Vieira. Os primeiros anos da reforma educacional promovida pela lei n. <b>5.692/71 nas páginas do jornal ?Folha de São Paulo? (1971 E 1972)</b>. (Graduação em História) - Universidade Federal de Alfenas, . 1971.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8349741972184016">Juliana Miranda Filgueiras</a>.</font></td></tr>
-            </table></div><div id="dv-year-1964"><h3 class="year">1964</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Luiz Augusto Liparini. <b>A Educação nos anos de chumbo: a política educacional ambicionada pela utopia autoritária (1964-1975).</b>. (Graduação em História) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 1964.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
-            
-            <tr valign="top"><td>2. &nbsp;</td> <td>Rubens Miguel de Almeida Piva. <b>Políticas educacionais da Educação Básica durante o governo militar (1964-1985): reflexos de um governo ditatorial</b>. (Graduação em História) - Centro Universitário da Fundação de Ensino Octávio Bastos, . 1964.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7785849794300988">Sônia Aparecida Siquelli</a>.</font></td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 22:08:09<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:34:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

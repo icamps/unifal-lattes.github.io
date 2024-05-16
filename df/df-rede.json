@@ -1,26 +1,25 @@
 {
 "nodes":[
-{ "name":"Anibal Thiago Bezerra", "idlattes":"8478305453281130", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Artur Justiniano Roberto Junior", "idlattes":"6122155083160820", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Celio Wisniewski", "idlattes":"4055079165002493", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Cristiana Schmidt de Magalhaes", "idlattes":"1140012060761818", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
+{ "name":"Anibal Thiago Bezerra", "idlattes":"8478305453281130", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Artur Justiniano Roberto Junior", "idlattes":"6122155083160820", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Célio Wisniewski", "idlattes":"4055079165002493", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
+{ "name":"Cristiana Schmidt de Magalhães", "idlattes":"1140012060761818", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Frederico Augusto Toti", "idlattes":"5154949759339458", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Hugo Bonette de Carvalho", "idlattes":"1642083834158700", "rotulo":"[Sem rotulo]", "collaborationrank":1.37660908699 },
-{ "name":"Ihosvany Camps Rodriguez", "idlattes":"3732563704810366", "rotulo":"[Sem rotulo]", "collaborationrank":0.714182734489 },
-{ "name":"Mirta Mir Caraballo", "idlattes":"6165304398755510", "rotulo":"[Sem rotulo]", "collaborationrank":0.986212849617 },
-{ "name":"Person Pereira Neves", "idlattes":"2380268778692743", "rotulo":"[Sem rotulo]", "collaborationrank":0.922995448112 },
+{ "name":"Hugo Bonette de Carvalho", "idlattes":"1642083834158700", "rotulo":"[Sem rotulo]", "collaborationrank":1.419851541519165 },
+{ "name":"Ihosvany Camps Rodríguez", "idlattes":"3732563704810366", "rotulo":"[Sem rotulo]", "collaborationrank":0.6254935264587402 },
+{ "name":"Mirta Mir Caraballo", "idlattes":"6165304398755510", "rotulo":"[Sem rotulo]", "collaborationrank":0.9545652270317078 },
+{ "name":"Person Pereira Neves", "idlattes":"2380268778692743", "rotulo":"[Sem rotulo]", "collaborationrank":1.0000896453857422 },
 { "name":"Samuel Bueno Soltau", "idlattes":"4318353199461089", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Tales Alexandre Aversi-Ferreira", "idlattes":"1101341437463729", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Thirza Pavan Sorpreso", "idlattes":"3940703666349048", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 },
-{ "name":"Tiago Jose Arruda", "idlattes":"2604391010090933", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596 }
+{ "name":"Thirza Pavan Sorpreso", "idlattes":"3940703666349048", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Tiago José Arruda", "idlattes":"2604391010090933", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 }
 ],
 "links":[
 { "source":2, "target":3, "value":5.0 },
 { "source":4, "target":9, "value":1.0 },
-{ "source":5, "target":6, "value":8.0 },
+{ "source":5, "target":6, "value":7.0 },
 { "source":5, "target":7, "value":8.0 },
-{ "source":5, "target":8, "value":10.0 },
-{ "source":6, "target":7, "value":3.0 },
+{ "source":5, "target":8, "value":11.0 },
+{ "source":6, "target":7, "value":2.0 },
 { "source":7, "target":8, "value":8.0 }
 ]
 }

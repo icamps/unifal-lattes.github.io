@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Ciência da Computação</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Ciência da Computação</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Trabalho de conclusão de curso de graduação'}, 
-series: [{data: [[2001,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2001,
 4],
 [2002,
 1],
@@ -114,25 +141,25 @@ series: [{data: [[2001,
 [2004,
 13],
 [2005,
-11],
+10],
 [2006,
 5],
 [2007,
 3],
 [2008,
-8],
+6],
 [2009,
 6],
 [2010,
-9],
+10],
 [2011,
-18],
+19],
 [2012,
 14],
 [2013,
 7],
 [2014,
-20],
+21],
 [2015,
 12],
 [2016,
@@ -148,42 +175,15 @@ series: [{data: [[2001,
 [2021,
 11],
 [2022,
-9],
+10],
 [2023,
-4]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+4]]}]});
         });
         </script>
         
                 <h3>Trabalho de conclusão de curso de graduação</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 205<br>
+                    Número total de itens: 206<br>
                     
                     
                     <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
@@ -195,23 +195,25 @@ shadow: true}});
             
             <tr valign="top"><td>4. &nbsp;</td> <td>Vitor Risso Parisi. <b>Projeto de Experiência de Usuário para o aplicativo Adote</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
             </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Bruna Pereira Falcucci e Murilo Sousa Moraes. <b>Sistema Integrado de Saúde com a Blockchain</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alice Batista. Vitor Rubatino. <b>Um método baseado em Behavior Driven Development (BDD) e System Theoretic Process Analysis (STPA) para verificação de requisitos de segurança (security) em sistemas críticos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Gabriel Takahiro Toma de Lima. <b>Sistema de Gerenciamento de Indicadores de Cidades Inteligentes</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruna Pereira Falcucci e Murilo Sousa Moraes. <b>Sistema Integrado de Saúde com a Blockchain</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Gustavo Henrique Santiago da Silva. <b>Esquemas JSON e XML para STPA (System Theoretic Process Analysis)</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gabriel Takahiro Toma de Lima. <b>Sistema de Gerenciamento de Indicadores de Cidades Inteligentes</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Lucas Henrique Vilela. <b>Remotto - Um sistema de controle remoto para sistemas computacionais</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gustavo Henrique Santiago da Silva. <b>Esquemas JSON e XML para STPA (System Theoretic Process Analysis)</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Luiz Gustavo Akazawa Nóra. <b>Identificação e localização, de anomalias causadas pelo COVID-19, em radiografias do tórax utilizando inteligência artificial.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Lucas Henrique Vilela. <b>Remotto - Um sistema de controle remoto para sistemas computacionais</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Maria Luiza Fernandes. Otávio Augusto Faria. <b>Um pipeline para evoluc?a?o da WebSTAMP: um exemplo de entrega conti?nua de software de valor</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Luiz Gustavo Akazawa Nóra. <b>Identificação e localização, de anomalias causadas pelo COVID-19, em radiografias do tórax utilizando inteligência artificial.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Pedro Paulo Miranda Afonso. <b>Identificação e localização, de anomalias causadas pelo COVID-19, em radiografias do tórax utilizando inteligência artificial.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>Maria Luiza Fernandes. Otávio Augusto Faria. <b>Um pipeline para evolução da WebSTAMP: um exemplo de entrega contínua de software de valor</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Thiago Oliveira da Silva e Gustavo Celestino de Lima. <b>Alfabetizai: um aplicativo de smartphone para auxiliar na alfabetização de adultos e idosos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>Pedro Paulo Miranda Afonso. <b>Identificação e localização, de anomalias causadas pelo COVID-19, em radiografias do tórax utilizando inteligência artificial.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>Wendell João Castro de Avila. <b>Study and analysis of deep learning techniques for solving financial machine learning problems</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>Thiago Oliveira da Silva e Gustavo Celestino de Lima. <b>Alfabetizai: um aplicativo de smartphone para auxiliar na alfabetização de adultos e idosos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Wendell João Castro de Avila. <b>Study and analysis of deep learning techniques for solving financial machine learning problems</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Ariela Marçal Stefanini. <b>Abordagem de Rede Neural Convolucional para Avaliação de Doenças Pulmonares a Partir de Exames de Tomográficos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
@@ -221,7 +223,7 @@ shadow: true}});
             
             <tr valign="top"><td>4. &nbsp;</td> <td>Fillipe Teixeira Cesarini. <b>Desenvolvimento de uma plataforma Mobile e Web de apoio ao processo de doação de sangue da instituição Esperançar</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Glauco Amaral Geraldino. <b>Uma proposta para automac?a?o de testes e melhorias no design da WebSTAMP</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Glauco Amaral Geraldino. <b>Uma proposta para automação de testes e melhorias no design da WebSTAMP</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
             <tr valign="top"><td>6. &nbsp;</td> <td>Guilherme Fernandes da Silva. <b>MODELAGEM INTELIGENTE PARA DETECÇÃO DA RETINOPATIA DIABÉTICA EM IMAGENS MÉDICAS</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
@@ -249,7 +251,7 @@ shadow: true}});
             
             <tr valign="top"><td>7. &nbsp;</td> <td>Marcelo Cézar Costa/ Vinícius Alex da Silva. <b>Objetos de aprendizagem: uma pesquisa dos softwares educacionais disponíveis para o ensino de Economia</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Rafael Alves Menicucci Pinto. Pedro Seiti Mazine Kiyuna. <b>TestCode: Uma Aplicação Web Gratuita e de Código Aberto para Correção Automatizada de Provas e Trabalhos em Disciplinas de Orientação a Objetos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>Rafael Alves Menicucci Pinto. Pedro Seiti Mazine Kiyuna. <b>Test&Code: Uma Aplicação Web Gratuita e de Código Aberto para Correção Automatizada de Provas e Trabalhos em Disciplinas de Orientação a Objetos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
             <tr valign="top"><td>9. &nbsp;</td> <td>Sylvester Henrique Alvarenga. Guilherme. <b>Sistema de Compartilhamento de Dados Geoespaciais: SisGEO</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
@@ -267,7 +269,7 @@ shadow: true}});
             
             <tr valign="top"><td>6. &nbsp;</td> <td>Jéssica Dias Rodrigues / Thiago Rodrigues Periz. <b>Fatores de Risco no Desenvolvimento de Software</b>. (Graduação em Bacharelado em Ciência da Computação) - UNIVERSIDADE FEDERAL DE ALFENAS, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Maik de Souza. <b>Desenvolvimento de uma ferramenta de localizac?a?o para a UNIFAL-MG</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>Maik de Souza. <b>Desenvolvimento de uma ferramenta de localização para a UNIFAL-MG</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
             <tr valign="top"><td>8. &nbsp;</td> <td>Romário da Silva Borges. <b>Análise do uso de um software educacional no ensino do Modelo de Oferta e Demanda</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
             </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
@@ -347,43 +349,45 @@ shadow: true}});
             </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>André Macedo de Almeida Pigosso Luiz. <b>Estudo de Caso: Avaliação da importância dos indicadores de desempenho, comunicação e das ferramentas de qualidade em uma empresa biotecnológica</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Camila Garnica Conterato. <b>Análise das razões, benefícios e dificuldades na implantação da nbr iso 9001 em empresas sucroalcoleiras</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Augusto Duarte Alvarenga. <b>Seleção de organismos certificadores da ISO 9001:2008 por meio do Analytic Hierarchy Process (AHP)</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Carlos Alberto Fatigate Junior. <b>Ferramenta de Animação de Proteínas.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Camila Garnica Conterato. <b>Análise das razões, benefícios e dificuldades na implantação da nbr iso 9001 em empresas sucroalcoleiras</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Daniel Borges Torrico Villarreal. <b>Modelagem Computacional para Auxílio na Aplicação e Avaliação de Processos Seletivos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carlos Alberto Fatigate Junior. <b>Ferramenta de Animação de Proteínas.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Diailison Teixeira de Carvalho. <b>Priorização dos riscos no processo de desenvolvimento de produtos em empresas de biotecnologia</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Daniel Borges Torrico Villarreal. <b>Modelagem Computacional para Auxílio na Aplicação e Avaliação de Processos Seletivos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Eduardo Luiz Divino Rebelo. <b>Numbers Crush: Aplicativo Móvel para Ensino de Divisibilidade</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Diailison Teixeira de Carvalho. <b>Priorização dos riscos no processo de desenvolvimento de produtos em empresas de biotecnologia</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Fernando Augusto Scaranelli Vince. <b>O Uso de Algoritmos de Classificação para Determinar Perfis de Consumidores de Veículos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>Eduardo Luiz Divino Rebelo. <b>Numbers Crush: Aplicativo Móvel para Ensino de Divisibilidade</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Gabrielle Moretti de Souza. <b>Bubble Math - Jogo educativo para auxiliar no ensino-aprendizagem da divisão</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>Fernando Augusto Scaranelli Vince. <b>O Uso de Algoritmos de Classificação para Determinar Perfis de Consumidores de Veículos</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>Joyce Mara Martins e Matheus Motta Ferreira. <b>Aplicação do método de análise hierárquica na tomada de decisão para a adoção de computação em nuvem em empresa júnior</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>Gabrielle Moretti de Souza. <b>Bubble Math - Jogo educativo para auxiliar no ensino-aprendizagem da divisão</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>Jéssica Gonçalves Ribeiro. <b>Análise de ferramentas baseadas em inteligência artificial no auxilio a elaboração de planos alimentares</b>. (Graduação em Nutrição) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>Joyce Mara Martins e Matheus Motta Ferreira. <b>Aplicação do método de análise hierárquica na tomada de decisão para a adoção de computação em nuvem em empresa júnior</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td>Júlia Cavalieri Muciacito. <b>Análise de ferramentas baseadas em inteligência artificial no auxilio a elaboração de planos alimentares</b>. (Graduação em Nutrição) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>11. &nbsp;</td> <td>Jéssica Gonçalves Ribeiro. <b>Análise de ferramentas baseadas em inteligência artificial no auxilio a elaboração de planos alimentares</b>. (Graduação em Nutrição) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td>Karine Teixeira Porto e Leandro Antunes da Silva. <b>Dificuldades na implantação do scrum: estudo de casos múltiplos</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>12. &nbsp;</td> <td>Júlia Cavalieri Muciacito. <b>Análise de ferramentas baseadas em inteligência artificial no auxilio a elaboração de planos alimentares</b>. (Graduação em Nutrição) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td>Karla Silva Silveira. <b>Utilização do AHP Para Priorização das Práticas do TQM na Indústria Farmacêutica</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>13. &nbsp;</td> <td>Karine Teixeira Porto e Leandro Antunes da Silva. <b>Dificuldades na implantação do scrum: estudo de casos múltiplos</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>14. &nbsp;</td> <td>Mariana Francelino Granig. <b>Utilização do AHP para Priorização dos benefícios, dificuldades e motivações da implementação da NBR ISO 14001</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>14. &nbsp;</td> <td>Karla Silva Silveira. <b>Utilização do AHP Para Priorização das Práticas do TQM na Indústria Farmacêutica</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>15. &nbsp;</td> <td>Murilo Borges Ribeiro e Vinícius Diniz Duarte. <b>Priorização dos Fatores críticos de sucesso no desenvolvimento de Software</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>15. &nbsp;</td> <td>Mariana Francelino Granig. <b>Utilização do AHP para Priorização dos benefícios, dificuldades e motivações da implementação da NBR ISO 14001</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>16. &nbsp;</td> <td>Raphael Vinícius Castro Silva. <b>Bubble Math - Jogo educativo para auxiliar no ensino-aprendizagem da divisão</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            <tr valign="top"><td>16. &nbsp;</td> <td>Murilo Borges Ribeiro e Vinícius Diniz Duarte. <b>Priorização dos Fatores críticos de sucesso no desenvolvimento de Software</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>17. &nbsp;</td> <td>Rudhi Colombaroli Carneiro. <b>Principais riscos no processo de desenvolvimento em biotecnologia</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>17. &nbsp;</td> <td>Raphael Vinícius Castro Silva. <b>Bubble Math - Jogo educativo para auxiliar no ensino-aprendizagem da divisão</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
             
-            <tr valign="top"><td>18. &nbsp;</td> <td>Sueli Pereira Perpétua. <b>Estudo Comparativo entre Ferramentas para Docking de Proteítnas Utilizando o Método AHP.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            <tr valign="top"><td>18. &nbsp;</td> <td>Rudhi Colombaroli Carneiro. <b>Principais riscos no processo de desenvolvimento em biotecnologia</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>19. &nbsp;</td> <td>Talysson de Oliveira Cassiano. <b>Análise de usabilidade e interpretação de fórmulas matemáticas para a ferramenta SearchOnMath</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            <tr valign="top"><td>19. &nbsp;</td> <td>Sueli Pereira Perpétua. <b>Estudo Comparativo entre Ferramentas para Docking de Proteítnas Utilizando o Método AHP.</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>20. &nbsp;</td> <td>Thiago Henrique Reis. <b>Utilização de Equipamentos de Rastreamento de Movimentos no Ensino de Física</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
+            <tr valign="top"><td>20. &nbsp;</td> <td>Talysson de Oliveira Cassiano. <b>Análise de usabilidade e interpretação de fórmulas matemáticas para a ferramenta SearchOnMath</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Thiago Henrique Reis. <b>Utilização de Equipamentos de Rastreamento de Movimentos no Ensino de Física</b>. (Graduação em Física) - Universidade Federal de Alfenas, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
             </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Camila Bastos. <b>Enactment de processos de desenvolvimento de software modelados com com EPF-Composer no MS-Project</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
@@ -431,7 +435,7 @@ shadow: true}});
             
             <tr valign="top"><td>2. &nbsp;</td> <td>Carlos Augusto N. De C. Rivilino/Thiago de Oliveira Almeida. <b>MAXIMUS II: UM DESCOBRIDOR DE REGRAS TÉCNICAS PARA O MERCADO ACIONÁRIO DA BOLSA DE VALORES DE SÃO PAULO</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3832045632369639">Humberto César Brandão de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Douglas Castilho. <b>Definição de um processo de modelagem de negócio para a fábrica de software LPD</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Douglas Castilho. <b>Definição de um processo de modelagem de negócio para a fábrica de software LP&D</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
             
             <tr valign="top"><td>4. &nbsp;</td> <td>Guilherme Machado Rodrigues. <b>Mineração e classificação de dados de equações matemáticas</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             
@@ -445,41 +449,45 @@ shadow: true}});
             
             <tr valign="top"><td>9. &nbsp;</td> <td>Luiz Felipe Zafra Saggioro. <b>Estudo de técnicas de ataque e testes de segurança em servidores</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>Mariana Dehon Costa e Lima. <b>Aplicação das Técnicas de Support Vector Machines para Geração de Séries Sintética de Vazões</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, Fundação de Desenvolvimento da Unicamp. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>Marcela Cristina Goulart e Caio Stockler Ferreira. <b>Razões, benefícios e dificuldades na implementação da ISO 9001:2008 em empresas sucroalcoolerias</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>11. &nbsp;</td> <td>Mateus Drigo da Silva. <b>Um Modelo Para Análise e Tratamento de Dados de Demanda de Energia Elétrica</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mariana Dehon Costa e Lima. <b>Aplicação das Técnicas de Support Vector Machines para Geração de Séries Sintética de Vazões</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, Fundação de Desenvolvimento da Unicamp. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>12. &nbsp;</td> <td>Matheus Virtudes. <b>Ferramenta para automatizar a configuração de servidores Linux</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mateus Drigo da Silva. <b>Um Modelo Para Análise e Tratamento de Dados de Demanda de Energia Elétrica</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>13. &nbsp;</td> <td>Pedro Henrique Reato Cisi. <b>Análise das contribuições da Agência de Desenvolvimento de São João da Boa Vista - SP na geração de emprego e renda por meio da captação de novas indústrias</b>. (Graduação em Geografia - Licenciatura) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
+            <tr valign="top"><td>13. &nbsp;</td> <td>Matheus Virtudes. <b>Ferramenta para automatizar a configuração de servidores Linux</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             
-            <tr valign="top"><td>14. &nbsp;</td> <td>Rafael Peria de Sene. <b>MODELAGEM DE UM PROCESSO DE DESENVOLVIMENTO DE SOFTWARE BASEADO NO OPENUP PARA A FÁBRICA DE SOFTWARE DO LPD</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>14. &nbsp;</td> <td>Pedro Henrique Reato Cisi. <b>Análise das contribuições da Agência de Desenvolvimento de São João da Boa Vista - SP na geração de emprego e renda por meio da captação de novas indústrias</b>. (Graduação em Geografia - Licenciatura) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6453091384982419">Marcelo Lacerda Rezende</a>.</font></td></tr>
             
-            <tr valign="top"><td>15. &nbsp;</td> <td>Renata Vieira Nobre. <b>Definição de um processo de medição e estimativas para a Fábrica de Software do LPD</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            <tr valign="top"><td>15. &nbsp;</td> <td>Rafael Peria de Sene. <b>MODELAGEM DE UM PROCESSO DE DESENVOLVIMENTO DE SOFTWARE BASEADO NO OPENUP PARA A FÁBRICA DE SOFTWARE DO LP&D</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
-            <tr valign="top"><td>16. &nbsp;</td> <td>Rômulo Silva Campos. <b>DEFINIÇÃO DAS DISCIPLINAS DE GESTÃO DE CONFIGURAÇÃO E TESTES PARA O PROCESSO DE DESENVOLVIMENTO DE SOFTWARE DO LPD</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>16. &nbsp;</td> <td>Renata Vieira Nobre. <b>Definição de um processo de medição e estimativas para a Fábrica de Software do LP&D</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
             
-            <tr valign="top"><td>17. &nbsp;</td> <td>Tatiane Fernandes Figueiredo. <b>ADAPTAÇÃO DO ALGORITMO SUBIDA DE ENCOSTA PARA RESOLUÇÃO DO PROBLEMA DE FORMAÇÃO DE EQUIPES DE TRABALHO</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3832045632369639">Humberto César Brandão de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>17. &nbsp;</td> <td>Rômulo Silva Campos. <b>DEFINIÇÃO DAS DISCIPLINAS DE GESTÃO DE CONFIGURAÇÃO E TESTES PARA O PROCESSO DE DESENVOLVIMENTO DE SOFTWARE DO LP&D</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
-            <tr valign="top"><td>18. &nbsp;</td> <td>Thiago Castilho Elias. <b>UMA ABORDAGEM COMPUTACIONAL DO MHC E SUA RELAÇÃO COM O CÂNCER</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            <tr valign="top"><td>18. &nbsp;</td> <td>Tatiane Fernandes Figueiredo. <b>ADAPTAÇÃO DO ALGORITMO SUBIDA DE ENCOSTA PARA RESOLUÇÃO DO PROBLEMA DE FORMAÇÃO DE EQUIPES DE TRABALHO</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3832045632369639">Humberto César Brandão de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Thiago Castilho Elias. <b>UMA ABORDAGEM COMPUTACIONAL DO MHC E SUA RELAÇÃO COM O CÂNCER</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
             </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Daniel T. Martins; Marcelo C. de Moura e Thiago M. Martins. <b>Modelo Adaptado para Desenvolvimento de Produtos no setor de laticínios</b>. (Graduação em Engenharia de Produção) - Centro Universitário do Sul de Minas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cecília Buzatto Westin e Geovana Gomes Trancoso. <b>Implantação de sistema de qualidade baseado na ISO 17025:2005: Estudo de caso em uma empresa de biotecnologia</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Filipe de Oliveira Costa. <b>Modelos Inteligentes Aplicados na Classificação de Padrões de Caracteres</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Daniel T. Martins; Marcelo C. de Moura e Thiago M. Martins. <b>Modelo Adaptado para Desenvolvimento de Produtos no setor de laticínios</b>. (Graduação em Engenharia de Produção) - Centro Universitário do Sul de Minas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Geraldo Lucas Jardim Cordeiro. <b>Interface para ferramenta de busca de conteúdo matemático</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Filipe de Oliveira Costa. <b>Modelos Inteligentes Aplicados na Classificação de Padrões de Caracteres</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>José Alexandre Macedo. <b>Previsão do Valor das Ações da BOVESPA através da Técnica de Programação Genética</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3832045632369639">Humberto César Brandão de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Geraldo Lucas Jardim Cordeiro. <b>Interface para ferramenta de busca de conteúdo matemático</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Juliana Oliveira Ferreira. <b>Otimização de Árvores Sintáticas aplicada à Detecção de Células Cancerígenas</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3832045632369639">Humberto César Brandão de Oliveira</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>José Alexandre Macedo. <b>Previsão do Valor das Ações da BOVESPA através da Técnica de Programação Genética</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, Universidade Federal de Alfenas. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3832045632369639">Humberto César Brandão de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Lucas Schmoeller do Prado Rodrigues. <b>Implementação do enactment de processos utilizando o meta-modelo SPEM no jogo educativo SPARSE</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Juliana Oliveira Ferreira. <b>Otimização de Árvores Sintáticas aplicada à Detecção de Células Cancerígenas</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3832045632369639">Humberto César Brandão de Oliveira</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Monique Samaan. <b>Identificação dos fatores críticos de sucesso no desenvolvimento de produtos das empresas de Biotecnologia do Estado de Minas Gerais</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lucas Schmoeller do Prado Rodrigues. <b>Implementação do enactment de processos utilizando o meta-modelo SPEM no jogo educativo SPARSE</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9682825029495702">Mariane Moreira de Souza</a>.</font></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Neubio Matos Ferreira. <b>UTILIZAÇÃO DO SCRUM PARA ADEQUAÇÃO PARCIAL DA FÁBRICA DE SOFTWARE DA UNIFAL-MG AO CMMI NÍVEL 2</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>Monique Samaan. <b>Identificação dos fatores críticos de sucesso no desenvolvimento de produtos das empresas de Biotecnologia do Estado de Minas Gerais</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>Paulo Vinícios Sanches Daltro de Carvalho. <b>Abordagem Computacional aplicada no Descobrimento de Fitofármacos presentes em Euphorbia tirucalli Lineu (Aveloz), com Potencial Terapêutico em Câncer de Cabeça e Pescoço.</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>Neubio Matos Ferreira. <b>UTILIZAÇÃO DO SCRUM PARA ADEQUAÇÃO PARCIAL DA FÁBRICA DE SOFTWARE DA UNIFAL-MG AO CMMI NÍVEL 2</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Paulo Vinícios Sanches Daltro de Carvalho. <b>Abordagem Computacional aplicada no Descobrimento de Fitofármacos presentes em Euphorbia tirucalli Lineu (Aveloz), com Potencial Terapêutico em Câncer de Cabeça e Pescoço.</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6853382226977684">Nelson José Freitas da Silveira</a>.</font></td></tr>
             </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Adriano Luis da Silva. <b>Simulação tridimensional de sistema estelar binário compacto</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0231239253253477">Paulo Alexandre Bressan</a>.</font></td></tr>
             
@@ -493,21 +501,17 @@ shadow: true}});
             
             <tr valign="top"><td>6. &nbsp;</td> <td>Max Olinto Moreira. <b>SISTEMA INTELIGENTE BASEADO EM ENSEMBLE PARA PREVISÃO DE SÉRIES TEMPORAIS DE CARGA ELÉTRICA</b>. (Graduação em Ciência da Computação) - Universidade Federal de Alfenas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
-            <tr valign="top"><td>1. &nbsp;</td> <td>Augusto Duarte Alvarenga. <b>Seleção de organismos certificadores da ISO 9001:2008 por meio do Analytic Hierarchy Process (AHP)</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cláudia Caroline Ferreira. <b>Aprendendo lógica de programação usando programação por demonstração</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Cláudia Caroline Ferreira. <b>Aprendendo lógica de programação usando programação por demonstração</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Henrique Andrade Godoy e Tiago Garcia. <b>Utilização da Simulação Computacional em uma abordagem Lean do Desenvolvimento de Produtos</b>. (Graduação em Engenharia de Produção Mecância) - Universidade Federal de Itajubá, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Henrique Andrade Godoy e Tiago Garcia. <b>Utilização da Simulação Computacional em uma abordagem Lean do Desenvolvimento de Produtos</b>. (Graduação em Engenharia de Produção Mecância) - Universidade Federal de Itajubá, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Jeovane Monteiro Guimarães. <b>Estudo da viabilidade de implementação usando ferramentas livres</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Jeovane Monteiro Guimarães. <b>Estudo da viabilidade de implementação usando ferramentas livres</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Mariana Teixeira Silva. <b>Modelagem Matemática de redes PDS-MUC</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Marcela Cristina Goulart e Caio Stockler Ferreira. <b>Razões, benefícios e dificuldades na implementação da ISO 9001:2008 em empresas sucroalcoolerias</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Vanessa Bueno dos Passos. <b>Estudo Comparativo entre Paradigmas de Programação</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Mariana Teixeira Silva. <b>Modelagem Matemática de redes PDS-MUC</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
-            
-            <tr valign="top"><td>7. &nbsp;</td> <td>Vanessa Bueno dos Passos. <b>Estudo Comparativo entre Paradigmas de Programação</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
-            
-            <tr valign="top"><td>8. &nbsp;</td> <td>Vanessa Tormen Gasparoni. <b>Pandora Mobile</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Vanessa Tormen Gasparoni. <b>Pandora Mobile</b>. (Graduação em Ciência da Computação Bacharelado) - Faculdade Ubaense Ozanam Coelho, . 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1310310705488241">Flavio Barbieri Gonzaga</a>.</font></td></tr>
             </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Ademir Aparecido Dutra Rompa. <b>Análise da Influência do Computador em Pré-Adolescentes via Sistema Especialista</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
@@ -527,25 +531,23 @@ shadow: true}});
             </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>Andréia da Silva. <b>Previsão de Séries Temporais de Temperatura (ºC) Utilizando Redes Neurais Artificiais</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>Cecília Buzatto Westin e Geovana Gomes Trancoso. <b>Implantação de sistema de qualidade baseado na ISO 17025:2005: Estudo de caso em uma empresa de biotecnologia</b>. (Graduação em Biotecnologia) - Universidade Federal de Alfenas, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2363460036599181">Eduardo Gomes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cleiton Meirelles de Souza. <b>Desenvolvimento de um Sistema Comercial UtilizandoWAP (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>Cleiton Meirelles de Souza. <b>Desenvolvimento de um Sistema Comercial UtilizandoWAP (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fabrício da Silva Valadares Xavier. <b>Desenvolvimento de um Laboratório Virtual baseado em PHP para Estudo de Criptografia RSA em Ambiente Internet</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5459510407019521">Luiz Eduardo da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>Fabrício da Silva Valadares Xavier. <b>Desenvolvimento de um Laboratório Virtual baseado em PHP para Estudo de Criptografia RSA em Ambiente Internet</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5459510407019521">Luiz Eduardo da Silva</a>.</font></td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Julio Cesar Brito. <b>Ferramenta para Melhoramento e Restauração de Imagens Digitais</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5459510407019521">Luiz Eduardo da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>Julio Cesar Brito. <b>Ferramenta para Melhoramento e Restauração de Imagens Digitais</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5459510407019521">Luiz Eduardo da Silva</a>.</font></td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>Luis Fernando Pereira Vicente. <b>Redes Neurais Artificiais na Previsão do Consumo de Energia Elétrica</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>Luis Fernando Pereira Vicente. <b>Redes Neurais Artificiais na Previsão do Consumo de Energia Elétrica</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>Luiz Fernando Victal Feres. <b>Sistema para registro de Presença Utilzando Código de Barras (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
             
-            <tr valign="top"><td>7. &nbsp;</td> <td>Luiz Fernando Victal Feres. <b>Sistema para registro de Presença Utilzando Código de Barras (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
+            <tr valign="top"><td>7. &nbsp;</td> <td>Luiza Bianchetti Lima. <b>Uma Aplicação Web para pesquisa de Opinião Acadêmico Discente (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
             
-            <tr valign="top"><td>8. &nbsp;</td> <td>Luiza Bianchetti Lima. <b>Uma Aplicação Web para pesquisa de Opinião Acadêmico Discente (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
+            <tr valign="top"><td>8. &nbsp;</td> <td>Maurício Pereira Maia. <b>Estudo e Implementação de um Sistema de Reconhecimento de Faces</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5459510407019521">Luiz Eduardo da Silva</a>.</font></td></tr>
             
-            <tr valign="top"><td>9. &nbsp;</td> <td>Maurício Pereira Maia. <b>Estudo e Implementação de um Sistema de Reconhecimento de Faces</b>. (Graduação em Bacharelado em Ciência da Computação) - Universidade Vale do Rio Verde de Três Corações, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5459510407019521">Luiz Eduardo da Silva</a>.</font></td></tr>
+            <tr valign="top"><td>9. &nbsp;</td> <td>Renata Pinto Dutra. <b>Software Livre (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
             
-            <tr valign="top"><td>10. &nbsp;</td> <td>Renata Pinto Dutra. <b>Software Livre (Doc 18)</b>. (Graduação em Ciência da Computação) - Centro Universitário Presidente Antônio Carlos, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6883421018811339">Eliseu Cesar Miguel</a>.</font></td></tr>
-            
-            <tr valign="top"><td>11. &nbsp;</td> <td>Tais Ester Benicio da Silva. <b>Utilização de Redes Neurais Artificiais para Previsão de Temperatura (ºC) na cidade de Cananéia/SP</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
+            <tr valign="top"><td>10. &nbsp;</td> <td>Tais Ester Benicio da Silva. <b>Utilização de Redes Neurais Artificiais para Previsão de Temperatura (ºC) na cidade de Cananéia/SP</b>. (Graduação em Ciência da Computação) - Faculdade de Jaguariúna, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8918198224706238">Ricardo Menezes Salgado</a>.</font></td></tr>
             </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>André Luiz Gonçalves de Lima. <b>BlueVelvetCds: Uma loja de vendas de Cds on­Iine utilizando a Tecnologia Java Server Pages</b>. (Graduação em Ciencia da Computacao) - Fundação Universidade de Itaúna, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1194178136211401">Rodrigo Martins Pagliares</a>.</font></td></tr>
             
@@ -599,5 +601,5 @@ shadow: true}});
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 07/03/2024 13:43:22<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:08:27<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               

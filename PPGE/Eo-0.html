@@ -1,7 +1,7 @@
 
-                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Programa de Pós Graduação em Educação (PPGE)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Programa de Pós Graduação em Educação (PPGE)</h2></div>
                 
-        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <!--
         <script type="text/javascript" src="./highcharts.js"></script>
         <script type="text/javascript" src="./exporting.js"></script>
@@ -15,13 +15,13 @@
         <script type="text/javascript">
         // Load the fonts
         Highcharts.createElement('link', {
-           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
            rel: 'stylesheet',
            type: 'text/css'
         }, null, document.getElementsByTagName('head')[0]);
 
         Highcharts.theme = {
-   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
       backgroundColor: null,
       style: {
@@ -103,9 +103,36 @@
 
         Highcharts.setOptions(Highcharts.theme);
         $(function () {
-            $('#container').highcharts({subtitle: {text: ''}, 
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
 title: {text: 'Total de organização de eventos'}, 
-series: [{data: [[2000,
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2000,
 1],
 [2001,
 2],
@@ -146,43 +173,34 @@ series: [{data: [[2000,
 [2020,
 6],
 [2021,
-4]], 
-name: 'Total'}], 
-yAxis: {labels: {overflow: 'justify'}, 
-title: {text: 'Quantidade', 
-align: 'middle'}, 
-stackLabels: {enabled: true, 
-format: '{stack}'}, 
-min: 0}, 
-chart: {type: 'column', 
-height: 300}, 
-tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
-shared: false, 
-headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
-valueSuffix: '', 
-enabled: true}, 
-credits: {enabled: false}, 
-plotOptions: {column: {stacking: null}, 
-series: {shadow: 'true'}, 
-bar: {dataLabels: {enabled: false}}}, 
-xAxis: {type: 'category', 
-title: {text: ''}}, 
-legend: {layout: 'vertical', 
-align: 'right', 
-enabled: false, 
-borderWidth: 1, 
-backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
-verticalAlign: 'middle', 
-shadow: true}});
+4],
+[2022,
+1],
+[2023,
+4],
+[2024,
+1]]}]});
         });
         </script>
         
                 <h3>Total de organização de eventos</h3> <br>
                     <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
-                    Número total de itens: 215<br>
+                    Número total de itens: 230<br>
                     
                     
-                    <div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GROPPO, L. A.; CONCEICAO, M. R. ; CLAUDINO, A. C. ; BILIATTO, C. G. ; COSTA, C. ; SILVA, G. ; SILVA, G. A. ; SILVA, J. D. C. ; SILVA, J. A. ; ALMEIDA, N. P. M. ; CRIVELARO, R. ; NEDEL, V. H.. <b>Seminário: Memorial: 10 anos das Jornadas de 2013 no Brasil</b>. 2024. Congresso</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, Natalino Neves da; FREITAS, M. S. ; SANTOS, M. L. ; CRUZ, D. G.. <b>Convers-Ações Afirmativas: Linguagens Artísticas Negras em Diálogo com a Educação</b>. 2023. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, Natalino Neves da; SILVA, J. F. R. ; MOURA, S. ; ALVARENGA, C.. <b>Roda de Conversa com Simone Moura produtora da ficção-documental Matriarcas da Serra</b>. 2023. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SIQUELLI, S.A.; SOUSA, F. R. ; MASCIA, M. A. A.. <b>1º. Seminário de educação étnico-racial e política de formação permanente para educadores: 20 anos da lei 10.639/03</b>. 2023. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SOARES, OLAVO PEREIRA; Mello, Paulo Eduardo Dias. ; Almeida Neto, Antonio Simplício. <b>ST 028. Combates pelo Ensino de História: propostas, práticas e lutas</b>. 2023. Outro</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GROPPO, LUIS ANTONIO; MARTINS, G. F. L. ; MOTA, M. A. ; GUERRA, A. C. ; LOWANDE, W. F. F. ; ROVAI, M. G. O. ; MOREIRA, J. A.. <b>Semana Nacional de Ciência e Tecnologia 2022 ? Sul de Minas Gerais</b>. 2022. Congresso</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>HORNINK, G. G.; Costa M.J. ; Bianco, A.A.G. ; REIS, E. M. R. ; TRINDADE, V.T. ; COSTA, V.. <b>TANTO MAR- Jornadas internacionais de ensino de Bioquímica e Biologia Molecular</b>. 2021. Outro</td></tr>
             
             <tr valign="top"><td>2. &nbsp;</td> <td>HORNINK, G. G.; Costa M.J. ; SOARES, S. ; LENCASTRE, J. A.. <b>Docência+ Impacto</b>. 2021. Outro</td></tr>
@@ -225,15 +243,15 @@ shadow: true}});
             </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
             <tr valign="top"><td>1. &nbsp;</td> <td>AZEVEDO, S. C. ; FILGUEIRAS, J. M.. <b>O direito à educação no contexto atual: reformas e alternativas</b>. 2017. Outro</td></tr>
             
-            <tr valign="top"><td>2. &nbsp;</td> <td>FABIANA DE OLIVEIRA; RUI, A. J. ; PARADAS, A. F.. <b>I CONGRESO INTERNACIONAL ?LA HISTORIA EN EL ÁMBITO EDUCATIVO: CONTEXTOS Y REALIDADES EN LA SOCIEDAD DEL CONOCIMIENTO?</b>. 2017. Congresso</td></tr>
+            <tr valign="top"><td>2. &nbsp;</td> <td>FERREIRA, E. B. ; TOTI, F. A.. <b>Introdução ao Latex para Físicos</b>. 2017. Outro</td></tr>
             
-            <tr valign="top"><td>3. &nbsp;</td> <td>FERREIRA, E. B. ; TOTI, F. A.. <b>Introdução ao Latex para Físicos</b>. 2017. Outro</td></tr>
+            <tr valign="top"><td>3. &nbsp;</td> <td>FILGUEIRAS, J. M.; DANIELI NETO, M.. <b>III Semana de História: o papel social do historiador(a) e do(a) professor(a) de história</b>. 2017. Outro</td></tr>
             
-            <tr valign="top"><td>4. &nbsp;</td> <td>FILGUEIRAS, J. M.; DANIELI NETO, M.. <b>III Semana de História: o papel social do historiador(a) e do(a) professor(a) de história</b>. 2017. Outro</td></tr>
+            <tr valign="top"><td>4. &nbsp;</td> <td>HORNINK, G. G.; Galembeck, Eduardo. <b>Conference "The Internet of Things, mobile devices and the promissing future for Science Education" in the 46th Annual Meeting of Brazilian Society for Biochemistry and Molecular Biology (SBBq)</b>. 2017. Congresso</td></tr>
             
-            <tr valign="top"><td>5. &nbsp;</td> <td>HORNINK, G. G.; Galembeck, Eduardo. <b>Conference "The Internet of Things, mobile devices and the promissing future for Science Education" in the 46th Annual Meeting of Brazilian Society for Biochemistry and Molecular Biology (SBBq)</b>. 2017. Congresso</td></tr>
+            <tr valign="top"><td>5. &nbsp;</td> <td>HORNINK, G. G.; TORRES, Bayardo Baptista ; Galembeck, Eduardo ; TRINDADE, V.T.. <b>Estande da Revista de Ensino de Bioquímica durante a 46a. reunião anual da Sociedade Brasileira de Bioquímica e Biologia Molecular (SBBq)</b>. 2017. Outro</td></tr>
             
-            <tr valign="top"><td>6. &nbsp;</td> <td>HORNINK, G. G.; TORRES, Bayardo Baptista ; Galembeck, Eduardo ; TRINDADE, V.T.. <b>Estande da Revista de Ensino de Bioquímica durante a 46a. reunião anual da Sociedade Brasileira de Bioquímica e Biologia Molecular (SBBq)</b>. 2017. Outro</td></tr>
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, F.; RUI, A. J. ; PARADAS, A. F.. <b>I CONGRESO INTERNACIONAL ?LA HISTORIA EN EL ÁMBITO EDUCATIVO: CONTEXTOS Y REALIDADES EN LA SOCIEDAD DEL CONOCIMIENTO?</b>. 2017. Congresso</td></tr>
             
             <tr valign="top"><td>7. &nbsp;</td> <td>ORRÚ, Sílvia Ester; LEYVA-NÁPOLES, Ricardo Alain. <b>I Simpósio Nacional "Por uma escola inovadora e inclusiva"</b>. 2017. Congresso</td></tr>
             
@@ -475,145 +493,163 @@ shadow: true}});
             
             <tr valign="top"><td>20. &nbsp;</td> <td>GROPPO, L. A.. Semana Nacional de Ciência e Tecnologia 2020 ? Sul de Minas Gerais. 2020. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>21. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. 13a Reunião Regional Sudeste ANPEd. 2018. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>21. &nbsp;</td> <td>GROPPO, LUIS ANTONIO. Semana Nacional de Ciência e Tecnologia 2021 ? Sul de Minas Gerais. 2021. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>22. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. II Seminário Nacional da Pesquisa Ocupações secundaristas no Brasil em 2015 e 2016. 2022. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>22. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. 13a Reunião Regional Sudeste ANPEd. 2018. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>23. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. Seminário Memorial das ocupações estudantis. 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>23. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. II Seminário Nacional da Pesquisa Ocupações secundaristas no Brasil em 2015 e 2016. 2022. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>24. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. Simpósio Internacional de Filosofia, Comunicação e Subjetividade Luso-brasileiro-alemão (Lubral 2016). 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>24. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. Seminário Memorial das ocupações estudantis. 2017. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>25. &nbsp;</td> <td>HERNANDES, P. R.. 3a. Edupec. 2005. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>25. &nbsp;</td> <td>GROPPO, LUÍS ANTONIO. Simpósio Internacional de Filosofia, Comunicação e Subjetividade Luso-brasileiro-alemão (Lubral 2016). 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>26. &nbsp;</td> <td>HERNANDES, P. R.. 4a. Edupec. 2006. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>26. &nbsp;</td> <td>HERNANDES, P. R.. 3a. Edupec. 2005. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>27. &nbsp;</td> <td>HERNANDES, P. R.. I Colóquio em EAD, Cultura e Produção de Subjetividade. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>27. &nbsp;</td> <td>HERNANDES, P. R.. 4a. Edupec. 2006. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>28. &nbsp;</td> <td>JULIO, R. S.. I Semana da Matemática da UNIFAL-MG. 2011. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>28. &nbsp;</td> <td>HERNANDES, P. R.. I Colóquio em EAD, Cultura e Produção de Subjetividade. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>29. &nbsp;</td> <td>JULIO, R. S.. ICMI Study 15 - The Professional Education and Development of Teachers of Mathematics. 2005. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>29. &nbsp;</td> <td>HORNINK, G. G.. Symposium - Post-COVID teaching and learning: what keeps and what goes? at the 51th Annual Meeting of the Brazilian Society of Biochemistry and Molecular Biology (SBBq), 46th Congress of the Brazilian Society of Biophysics (SBBf)/Latin American Federation of Biophysical Societies (Lafebs). 2022. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>30. &nbsp;</td> <td>JULIO, R. S.. II Seminário Nacional sobre Formação de Professores. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>30. &nbsp;</td> <td>JULIO, R. S.. I Semana da Matemática da UNIFAL-MG. 2011. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>31. &nbsp;</td> <td>JULIO, R. S.. Semana Nacional de Ciência e Tecnologia. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>31. &nbsp;</td> <td>JULIO, R. S.. ICMI Study 15 - The Professional Education and Development of Teachers of Mathematics. 2005. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>32. &nbsp;</td> <td>JULIO, R. S.. Seminário Modelo dos Campos Semânticos e Educação Matemática: 20 anos de história. 2012. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>32. &nbsp;</td> <td>JULIO, R. S.. II Seminário Nacional sobre Formação de Professores. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>33. &nbsp;</td> <td>JULIO, R. S.. VII Seminário sobre Leitura e Produção no Ensino Superior. 2010. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>33. &nbsp;</td> <td>JULIO, R. S.. Semana Nacional de Ciência e Tecnologia. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>34. &nbsp;</td> <td>JULIO, R. S.. XI Mostra de Extensão - Relação Universidade-Sociedade: faces e interfaces. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>34. &nbsp;</td> <td>JULIO, R. S.. Seminário Modelo dos Campos Semânticos e Educação Matemática: 20 anos de história. 2012. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>35. &nbsp;</td> <td>KIILL, K. B.. 4ª Semana da Química. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>35. &nbsp;</td> <td>JULIO, R. S.. VII Seminário sobre Leitura e Produção no Ensino Superior. 2010. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>36. &nbsp;</td> <td>KIILL, K. B.. I Seminário de Socialização do PIBID - Unifal/MG. 2011. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>36. &nbsp;</td> <td>JULIO, R. S.. XI Mostra de Extensão - Relação Universidade-Sociedade: faces e interfaces. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>37. &nbsp;</td> <td>KIILL, K. B.. II Jornada Científica da UNIFAL-MG. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>37. &nbsp;</td> <td>KIILL, K. B.. 4ª Semana da Química. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>38. &nbsp;</td> <td>KIILL, K. B.. II Seminário de Socialização do PIBID/UNIFAL-MG. 2012. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>38. &nbsp;</td> <td>KIILL, K. B.. I Seminário de Socialização do PIBID - Unifal/MG. 2011. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>39. &nbsp;</td> <td>MARIANO, A. L. S.. I Seminário de Dissertações e Teses do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (PPGE/UFSCar). 2005. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>39. &nbsp;</td> <td>KIILL, K. B.. II Jornada Científica da UNIFAL-MG. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>40. &nbsp;</td> <td>MARIANO, A. L. S.. I Simpósio dos Grupos de Pesquisa sobre Formação de Professores no Brasil. 2006. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>40. &nbsp;</td> <td>KIILL, K. B.. II Seminário de Socialização do PIBID/UNIFAL-MG. 2012. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>41. &nbsp;</td> <td>MARIANO, A. L. S.. II Seminário de Dissertações e Teses do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (PPGE/UFSCar). 2006. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>41. &nbsp;</td> <td>KIILL, K. B.. VII Simpósio Mineiro de Educação Química. 2023. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>42. &nbsp;</td> <td>ORRÚ, Sílvia Ester. 1ª Semana da Pedagogia: Contextualizando a prática educativa.. 2001. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>42. &nbsp;</td> <td>MARIANO, A. L. S.. I Seminário de Dissertações e Teses do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (PPGE/UFSCar). 2005. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>43. &nbsp;</td> <td>ORRÚ, Sílvia Ester. 1º Encontro de Produção Acadêmica do curso de Pedagogia.. 2005. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>43. &nbsp;</td> <td>MARIANO, A. L. S.. I Simpósio dos Grupos de Pesquisa sobre Formação de Professores no Brasil. 2006. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>44. &nbsp;</td> <td>ORRÚ, Sílvia Ester. 2º Encontro de Produção Acadêmica do curso de Pedagogia. 2006. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>44. &nbsp;</td> <td>MARIANO, A. L. S.. II Seminário de Dissertações e Teses do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (PPGE/UFSCar). 2006. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>45. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Atividade de extensão universitária: Conversando com quem gosta de ensinar: oficina de vivências.. 2002. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>45. &nbsp;</td> <td>ORRÚ, Sílvia Ester. 1ª Semana da Pedagogia: Contextualizando a prática educativa.. 2001. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>46. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Curso de Capacitação em Língua Brasileira de Sinais - LIBRAS. 2007. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>46. &nbsp;</td> <td>ORRÚ, Sílvia Ester. 1º Encontro de Produção Acadêmica do curso de Pedagogia.. 2005. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>47. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Curso de Equoterapia.. 2005. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>47. &nbsp;</td> <td>ORRÚ, Sílvia Ester. 2º Encontro de Produção Acadêmica do curso de Pedagogia. 2006. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>48. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Fórum de Educação e Tecnologia: implicações educacionais no uso de tecnologias em sala de aula.. 2002. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>48. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Atividade de extensão universitária: Conversando com quem gosta de ensinar: oficina de vivências.. 2002. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>49. &nbsp;</td> <td>ORRÚ, Sílvia Ester. II Simpósio Nacional "Por uma escola inovadora e inclusiva". 2018. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>49. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Curso de Capacitação em Língua Brasileira de Sinais - LIBRAS. 2007. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>50. &nbsp;</td> <td>ORRÚ, Sílvia Ester. IV Simpósio de Letras e Educação. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>50. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Curso de Equoterapia.. 2005. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>51. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Simpósio: Estudantes com Necessidades Especiais. 2012. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>51. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Fórum de Educação e Tecnologia: implicações educacionais no uso de tecnologias em sala de aula.. 2002. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>52. &nbsp;</td> <td>ORRÚ, Sílvia Ester. VIII Congreso Internacional de Educación y Aprendizaje. 2019. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>52. &nbsp;</td> <td>ORRÚ, Sílvia Ester. II Simpósio Nacional "Por uma escola inovadora e inclusiva". 2018. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>53. &nbsp;</td> <td>SILVA, G. H. G.. II Congresso Nacional de Educação Matemática Inclusiva. 2020. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>53. &nbsp;</td> <td>ORRÚ, Sílvia Ester. IV Simpósio de Letras e Educação. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>54. &nbsp;</td> <td>SILVA, G. H. G.. XII Encontro de Estudantes de Pós-Graduação em Educação Matemática - EBRAPEM. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>54. &nbsp;</td> <td>ORRÚ, Sílvia Ester. Simpósio: Estudantes com Necessidades Especiais. 2012. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>55. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. Evento: O DIREITO À EDUCAÇÃO NO CONTEXTO ATUAL: REFORMAS E ALTERNATIVAS. 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>55. &nbsp;</td> <td>ORRÚ, Sílvia Ester. VIII Congreso Internacional de Educación y Aprendizaje. 2019. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>56. &nbsp;</td> <td>SILVA, Natalino Neves da. Diálogos de Iniciação Científica no Ensino Médio: Experiências do Núcleo de Estudos Africanos, Afrobrasileiros e da Diáspora (NUPEAAs) do Sul de Minas. 2018. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>56. &nbsp;</td> <td>SILVA, G. H. G.. II Congresso Nacional de Educação Matemática Inclusiva. 2020. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>57. &nbsp;</td> <td>SILVA, Natalino Neves da. DIÁLOGOS SOBRE A EDUCAÇÃO NOS CURSOS DE LICENCIATURA DO IFMG - OURO PRETO. 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>57. &nbsp;</td> <td>SILVA, G. H. G.. XII Encontro de Estudantes de Pós-Graduação em Educação Matemática - EBRAPEM. 2008. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>58. &nbsp;</td> <td>SILVA, Natalino Neves da. I Seminário de Inovação, Pesquisa e Extensão do IFMG - Campus Ouro Preto. 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>58. &nbsp;</td> <td>SILVA, GUILHERME HENRIQUE GOMES DA. Evento: O DIREITO À EDUCAÇÃO NO CONTEXTO ATUAL: REFORMAS E ALTERNATIVAS. 2017. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>59. &nbsp;</td> <td>SILVA, Natalino Neves da. I Simpósio de Educação Articulando a Graduação e a Pós-Graduação na Produção do Conhecimento. 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>59. &nbsp;</td> <td>SILVA, Natalino Neves da. Diálogos de Iniciação Científica no Ensino Médio: Experiências do Núcleo de Estudos Africanos, Afrobrasileiros e da Diáspora (NUPEAAs) do Sul de Minas. 2018. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>60. &nbsp;</td> <td>SILVA, Natalino Neves da. II Chá Preto - Roda de Conversas. 2019. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>60. &nbsp;</td> <td>SILVA, Natalino Neves da. DIÁLOGOS SOBRE A EDUCAÇÃO NOS CURSOS DE LICENCIATURA DO IFMG - OURO PRETO. 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>61. &nbsp;</td> <td>SILVA, Natalino Neves da. III Chá Preto Rodas de Conversas Mês da Consciência Negra. 2019. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>61. &nbsp;</td> <td>SILVA, Natalino Neves da. Homenagem de descerramento de placa de inauguração da sala de defesa professor Luiz Alberto Oliveira Gonçalves.. 2023. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>62. &nbsp;</td> <td>SILVA, Natalino Neves da. IX Seminário de Estágio das Licenciaturas do IFMG. Tema: Análise da Educação Brasileira no contexto político atual. 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>62. &nbsp;</td> <td>SILVA, Natalino Neves da. I Seminário de Inovação, Pesquisa e Extensão do IFMG - Campus Ouro Preto. 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>63. &nbsp;</td> <td>SILVA, Natalino Neves da. Mesa Redonda: 20 anos de realização da Conferência de Durban, 20 anos Programa Ações Afirmativas na UFMG. 2021. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>63. &nbsp;</td> <td>SILVA, Natalino Neves da. I Simpósio de Educação Articulando a Graduação e a Pós-Graduação na Produção do Conhecimento. 2017. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>64. &nbsp;</td> <td>SILVA, Natalino Neves da. Palestra O machismo nosso de cada dia: reflexões sobre a violência cotidiana. 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>64. &nbsp;</td> <td>SILVA, Natalino Neves da. II Chá Preto - Roda de Conversas. 2019. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>65. &nbsp;</td> <td>SILVA, Natalino Neves da. Relações Étnico-raciais: o que eu tenho a ver com isso? IX Semana de Cultura Afrobrasileira do IFMG - Campus Ouro Preto. 2015. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>65. &nbsp;</td> <td>SILVA, Natalino Neves da. III Chá Preto Rodas de Conversas Mês da Consciência Negra. 2019. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>66. &nbsp;</td> <td>SILVA, Natalino Neves da. Vidas negras na cidade e na universidade: existências e resistências. 2019. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>66. &nbsp;</td> <td>SILVA, Natalino Neves da. IX Seminário de Estágio das Licenciaturas do IFMG. Tema: Análise da Educação Brasileira no contexto político atual. 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>67. &nbsp;</td> <td>SILVA, Natalino Neves da. VIII Seminário de Estágio dos cursos de Licenciatura em Física e Geografia. 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>67. &nbsp;</td> <td>SILVA, Natalino Neves da. Mesa Redonda: 20 anos de realização da Conferência de Durban, 20 anos Programa Ações Afirmativas na UFMG. 2021. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>68. &nbsp;</td> <td>SILVA, Natalino Neves da. X Semana de Cultura Afro-brasileira e Africana do IFMG Campus Ouro Preto. Tema: Relações Étnico-Raciais e Trabalho. 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>68. &nbsp;</td> <td>SILVA, Natalino Neves da. Minicurso: A formação da área de estudos em educação das relações étnico-raciais no Brasil 1978-2018: atrizes, atores e temas - Valter R. Silvério (UFSCar). 2023. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>69. &nbsp;</td> <td>SILVA, Natalino Neves da. X Seminário de Estágio das Licenciaturas do IFMG. Tema: Discutindo sobre a inserção do docente na Educação Básica. 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>69. &nbsp;</td> <td>SILVA, Natalino Neves da. Palestra O machismo nosso de cada dia: reflexões sobre a violência cotidiana. 2017. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>70. &nbsp;</td> <td>SILVA, Natalino Neves da. XVII Encontro de Pesquisa em Educação da FaE/UFMG. 2021. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>70. &nbsp;</td> <td>SILVA, Natalino Neves da. Quarta na Pós: A formação da área de estudos em educação das relações étnico-raciais no Brasil 1978-2018. Valter Roberto Silvério (UFSCar). 2023. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>71. &nbsp;</td> <td>SIQUELLI, S.. ANPEDINHA - IX Encontro de Pesquisa em Educação da Região Sudeste. 2009. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>71. &nbsp;</td> <td>SILVA, Natalino Neves da. Relações Étnico-raciais: o que eu tenho a ver com isso? IX Semana de Cultura Afrobrasileira do IFMG - Campus Ouro Preto. 2015. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>72. &nbsp;</td> <td>SIQUELLI, S.A.. 1º Congresso de Educação de Educação do Vale do Sapucaí-CEVS. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>72. &nbsp;</td> <td>SILVA, Natalino Neves da. Seminário de 20 anos do Programa Ações Afirmativas na UFMG. 2022. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>73. &nbsp;</td> <td>SIQUELLI, S.A.. 2º Seminário de Produção Científico em Educação"Pesquisa e Transformações Sociais: desafios e lutas pela educação". 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>73. &nbsp;</td> <td>SILVA, Natalino Neves da. Vidas negras na cidade e na universidade: existências e resistências. 2019. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>74. &nbsp;</td> <td>SIQUELLI, S.A.. Aula Inaugural 1º Semestre/2018 "Profissão docente: formação. desafios e utopias". 2018. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>74. &nbsp;</td> <td>SILVA, Natalino Neves da. VIII Seminário de Estágio dos cursos de Licenciatura em Física e Geografia. 2017. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>75. &nbsp;</td> <td>SIQUELLI, S.A.. Aula Inaugural Mestrado em Educação/2016-?A Forma Social da Escola: Contradições e Lutas do Presente?. 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>75. &nbsp;</td> <td>SILVA, Natalino Neves da. X Semana de Cultura Afro-brasileira e Africana do IFMG Campus Ouro Preto. Tema: Relações Étnico-Raciais e Trabalho. 2017. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>76. &nbsp;</td> <td>SIQUELLI, S.A.. Aula inaugural: Nova gestão pública e trabalho docente. 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>76. &nbsp;</td> <td>SILVA, Natalino Neves da. X Seminário de Estágio das Licenciaturas do IFMG. Tema: Discutindo sobre a inserção do docente na Educação Básica. 2017. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>77. &nbsp;</td> <td>SIQUELLI, S.A.. Conferência:A Reforma Educativa Chilena na Atualidade. 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>77. &nbsp;</td> <td>SILVA, Natalino Neves da. XVII Encontro de Pesquisa em Educação da FaE/UFMG. 2021. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>78. &nbsp;</td> <td>SIQUELLI, S.A.. Curso "Clássicos do Pensamento Social: Durkheim, Weber e Marx- e a pesquisa em Educação". 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>78. &nbsp;</td> <td>SIQUELLI, S.. ANPEDINHA - IX Encontro de Pesquisa em Educação da Região Sudeste. 2009. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>79. &nbsp;</td> <td>SIQUELLI, S.A.. Curso de Extensão Formação sobre a Base Nacional Comum Curricular-BNCC para os profissionais da Secretaria Municipal de Educação e Cultura-SMEC/Pouso Alegre-MG. 2018. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>79. &nbsp;</td> <td>SIQUELLI, S.A.. 1º Congresso de Educação de Educação do Vale do Sapucaí-CEVS. 2016. (Congresso).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>80. &nbsp;</td> <td>SIQUELLI, S.A.. Encontro de Estudos e Pesquisas: "Políticas e Práticas Educacionais Inclusivas: Desafios Contemporâneos". 2017. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>80. &nbsp;</td> <td>SIQUELLI, S.A.. 2º Seminário de Produção Científico em Educação"Pesquisa e Transformações Sociais: desafios e lutas pela educação". 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>81. &nbsp;</td> <td>SIQUELLI, S.A.. I Seminário de Produção Científica em Educação: Pesquisa e Socialização. 2015. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>81. &nbsp;</td> <td>SIQUELLI, S.A.. Aula Inaugural 1º Semestre/2018 "Profissão docente: formação. desafios e utopias". 2018. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>82. &nbsp;</td> <td>SIQUELLI, S.A.. II Encontro de Estudos e Pesquisas-CEPEDU. 2015. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>82. &nbsp;</td> <td>SIQUELLI, S.A.. Aula Inaugural 2º Semestre/2022 PPGSSE-USF. 2022. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>83. &nbsp;</td> <td>SIQUELLI, S.A.. Palestra "Gestão Democrática da Escola Pública". 2016. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>83. &nbsp;</td> <td>SIQUELLI, S.A.. Aula Inaugural Mestrado em Educação/2016-?A Forma Social da Escola: Contradições e Lutas do Presente?. 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>84. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. Jornada Científica da UNIFAL/MG. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>84. &nbsp;</td> <td>SIQUELLI, S.A.. Aula inaugural: Nova gestão pública e trabalho docente. 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>85. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. XI Simpósio de Educação e Encontro de Formação de Professores - Educação: perspectivas e alternativas para a ação docente, Universidade Presbiteriana Mackenzie (membro da comissão organizadora). 2002. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>85. &nbsp;</td> <td>SIQUELLI, S.A.. Comemoração 20 anos do Programa de Stricto Sensu em Educação-PGSSE/USF. 2022. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>86. &nbsp;</td> <td>TOTI, F. A.. I Seminário Institucional de Residência Pedagógica. 2019. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>86. &nbsp;</td> <td>SIQUELLI, S.A.. Conferência:A Reforma Educativa Chilena na Atualidade. 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>87. &nbsp;</td> <td>TOTI, F. A.. II Seminário de Estágios de Jataí. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>87. &nbsp;</td> <td>SIQUELLI, S.A.. Curso "Clássicos do Pensamento Social: Durkheim, Weber e Marx- e a pesquisa em Educação". 2016. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>88. &nbsp;</td> <td>XAVIER, Cristiane. F.. "Um dedo de prosa" - I Seminário de Educação de Jovens e Adultos - Memoria, sujeitos e trajetórias. 2013. (Outro).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>88. &nbsp;</td> <td>SIQUELLI, S.A.. Curso de Extensão Formação sobre a Base Nacional Comum Curricular-BNCC para os profissionais da Secretaria Municipal de Educação e Cultura-SMEC/Pouso Alegre-MG. 2018. (Outro).. <b></b>. 0. </td></tr>
             
-            <tr valign="top"><td>89. &nbsp;</td> <td>XAVIER, Cristiane. F.. IV Encontro Nacional das Licenciaturas - ENALIC'13. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            <tr valign="top"><td>89. &nbsp;</td> <td>SIQUELLI, S.A.. Encontro de Estudos e Pesquisas: "Políticas e Práticas Educacionais Inclusivas: Desafios Contemporâneos". 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>SIQUELLI, S.A.. I Seminário de Produção Científica em Educação: Pesquisa e Socialização. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>SIQUELLI, S.A.. II Encontro de Estudos e Pesquisas-CEPEDU. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>SIQUELLI, S.A.. Palestra "Gestão Democrática da Escola Pública". 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. Jornada Científica da UNIFAL/MG. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>SOARES, OLAVO PEREIRA. XI Simpósio de Educação e Encontro de Formação de Professores - Educação: perspectivas e alternativas para a ação docente, Universidade Presbiteriana Mackenzie (membro da comissão organizadora). 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>TOTI, F. A.. I Seminário Institucional de Residência Pedagógica. 2019. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>TOTI, F. A.. II Seminário de Estágios de Jataí. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>XAVIER, Cristiane. F.. "Um dedo de prosa" - I Seminário de Educação de Jovens e Adultos - Memoria, sujeitos e trajetórias. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>XAVIER, Cristiane. F.. IV Encontro Nacional das Licenciaturas - ENALIC'13. 2013. (Congresso).. <b></b>. 0. </td></tr>
             </table></div>
                     </table>
                 <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
-<br>Data de processamento: 29/06/2022 22:08:09<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+<br>Data de processamento: 16/05/2024 15:34:14<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
               
