@@ -1,21 +1,24 @@
 {
 "nodes":[
-{ "name":"Adélcio Carlos de Oliveira", "idlattes":"0487113229071944", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
+{ "name":"Adélcio Carlos de Oliveira", "idlattes":"0487113229071944", "rotulo":"[Sem rotulo]", "collaborationrank":1.4594593048095703 },
+{ "name":"André Luiz Mota", "idlattes":"8453016139576761", "rotulo":"[Sem rotulo]", "collaborationrank":1.3599157333374023 },
 { "name":"Érico Goulart de Oliveira Costa", "idlattes":"4937965723746020", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
 { "name":"Heron Carlos de Godoy Caldas", "idlattes":"1373657423991547", "rotulo":"[Sem rotulo]", "collaborationrank":1.1602040529251099 },
-{ "name":"Humberto Cesar Fernandes Lemos", "idlattes":"8374281747074655", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
+{ "name":"Humberto Cesar Fernandes Lemos", "idlattes":"8374281747074655", "rotulo":"[Sem rotulo]", "collaborationrank":0.5044402480125427 },
+{ "name":"Jean Carlos Coelho Felipe", "idlattes":"1513522824340750", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Leticia Ribeiro de Paiva", "idlattes":"9428416479663144", "rotulo":"[Sem rotulo]", "collaborationrank":0.7702702879905701 },
+{ "name":"Lizardo Henrique Cerqueira Moreira Nunes", "idlattes":"9320579515635433", "rotulo":"[Sem rotulo]", "collaborationrank":0.47988006472587585 },
 { "name":"Marcelo Martins de Oliveira", "idlattes":"2091568617999217", "rotulo":"[Sem rotulo]", "collaborationrank":0.7702702879905701 },
 { "name":"Sidiney Geraldo Alves", "idlattes":"4536440727635518", "rotulo":"[Sem rotulo]", "collaborationrank":1.4594594240188599 },
-{ "name":"André Luiz Mota", "idlattes":"8453016139576761", "rotulo":"[Sem rotulo]", "collaborationrank":1.3599157333374023 },
-{ "name":"Leticia Ribeiro de Paiva", "idlattes":"9428416479663144", "rotulo":"[Sem rotulo]", "collaborationrank":0.7702702879905701 },
-{ "name":"Lizardo Henrique Cerqueira Moreira Nunes", "idlattes":"9320579515635433", "rotulo":"[Sem rotulo]", "collaborationrank":0.47988006472587585 }
+{ "name":"Maurício Reis e Silva Júnior", "idlattes":"7617696183555654", "rotulo":"[Sem rotulo]", "collaborationrank":1.0361006259918213 }
 ],
 "links":[
-{ "source":0, "target":3, "value":2.0 },
-{ "source":2, "target":6, "value":11.0 },
-{ "source":2, "target":8, "value":1.0 },
-{ "source":4, "target":5, "value":4.0 },
-{ "source":5, "target":7, "value":4.0 },
-{ "source":6, "target":8, "value":3.0 }
+{ "source":0, "target":4, "value":2.0 },
+{ "source":0, "target":10, "value":5.0 },
+{ "source":1, "target":3, "value":11.0 },
+{ "source":1, "target":7, "value":3.0 },
+{ "source":3, "target":7, "value":1.0 },
+{ "source":6, "target":9, "value":4.0 },
+{ "source":8, "target":9, "value":4.0 }
 ]
 }

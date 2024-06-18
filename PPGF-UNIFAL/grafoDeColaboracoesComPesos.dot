@@ -1,5 +1,5 @@
 strict graph grafo2 {
-	graph [bb="0,0,1085,87",
+	graph [bb="0,0,1207,87",
 		id=grafo2,
 		overlap=False
 	];
@@ -55,9 +55,20 @@ strict graph grafo2 {
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Ihosvany Camps Rodríguez [0]",
+		label="Ihosvany Camps Rodríguez [1]",
 		pos="650.5,76.5",
 		width=2.2778];
+	7	 [URL="membro-4183276948524704.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="Walter F. de Azevedo Junior [1]",
+		pos="650.5,10.5",
+		width=2.3194];
+	4 -- 7	 [fontsize=8,
+		label=1.0,
+		lp="655.5,43.5",
+		pos="650.5,65.896 650.5,53.653 650.5,33.622 650.5,21.297"];
 	5	 [URL="membro-1312049227898761.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
@@ -65,11 +76,18 @@ strict graph grafo2 {
 		label="Marcelo Gonçalves Vivas [0]",
 		pos="828.5,76.5",
 		width=2.1528];
-	7	 [URL="membro-9972552337847809.html",
+	8	 [URL="membro-7286059807128292.html",
 		color="#0A6EA4",
 		fontcolor="#FFFFFF",
 		height=0.29167,
-		label="Mariama R. de Sousa Dias [0]",
-		pos="1004.5,76.5",
-		width=2.2361];
+		label="Iara Tosta e Melo [0]",
+		pos="982.5,76.5",
+		width=1.6111];
+	9	 [URL="membro-2740598136336384.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="Jordana Torrico Ferreira [0]",
+		pos="1132.5,76.5",
+		width=2.0694];
 }

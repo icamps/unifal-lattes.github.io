@@ -4,13 +4,16 @@
 { "name":"Cássius Anderson Miquele de Melo", "idlattes":"4002033080997386", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Fernando Gonçalves Gardim", "idlattes":"2425549033248106", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
 { "name":"Gustavo do Amaral Valdiviesso", "idlattes":"4023778019418442", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Ihosvany Camps Rodríguez", "idlattes":"3732563704810366", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Ihosvany Camps Rodríguez", "idlattes":"3732563704810366", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Marcelo Gonçalves Vivas", "idlattes":"1312049227898761", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
 { "name":"Rodrigo Rocha Cuzinatto", "idlattes":"8073303573679522", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Mariama Rebello de Sousa Dias", "idlattes":"9972552337847809", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 }
+{ "name":"Walter Filgueira de Azevedo Junior", "idlattes":"4183276948524704", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
+{ "name":"Iara Tosta e Melo", "idlattes":"7286059807128292", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
+{ "name":"Jordana Torrico Ferreira", "idlattes":"2740598136336384", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 }
 ],
 "links":[
 { "source":0, "target":3, "value":4.0 },
-{ "source":1, "target":6, "value":8.0 }
+{ "source":1, "target":6, "value":8.0 },
+{ "source":4, "target":7, "value":1.0 }
 ]
 }
