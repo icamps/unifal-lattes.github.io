@@ -10,7 +10,7 @@ nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUB
 8,6853382226977684,Nelson José Freitas da Silveira,[Sem rotulo],,,0.15,62,40,0,2,1,1,18,1,5,13,15,'10,110,164'
 9,0231239253253477,Paulo Alexandre Bressan,[Sem rotulo],,,0.15,22,2,0,3,12,2,3,0,0,1,8,'10,110,164'
 10,8918198224706238,Ricardo Menezes Salgado,[Sem rotulo],,,1.1244835,76,23,0,3,28,8,14,0,0,8,35,'10,110,164'
-11,1194178136211401,Rodrigo Martins Pagliares,[Sem rotulo],,,0.42825451,10,5,2,0,3,0,0,0,0,0,1,'10,110,164'
+11,1194178136211401,Rodrigo Martins Pagliares,[Sem rotulo],,,0.42825451,11,6,2,0,3,0,0,0,0,0,1,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
 0,6,2.0
 0,11,1.0
