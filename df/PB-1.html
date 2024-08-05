@@ -1,0 +1,249 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Departamento de Física</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Departamento de Física</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de produção bibliográfica'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1991,
+3],
+[1992,
+2],
+[1993,
+5],
+[1994,
+4],
+[1995,
+6],
+[1996,
+8],
+[1997,
+8],
+[1998,
+10],
+[1999,
+13],
+[2000,
+21],
+[2001,
+21],
+[2002,
+26],
+[2003,
+20],
+[2004,
+26],
+[2005,
+65],
+[2006,
+47],
+[2007,
+47],
+[2008,
+38],
+[2009,
+65],
+[2010,
+64],
+[2011,
+54],
+[2012,
+73],
+[2013,
+50],
+[2014,
+50],
+[2015,
+33],
+[2016,
+37],
+[2017,
+36],
+[2018,
+38],
+[2019,
+36],
+[2020,
+19],
+[2021,
+34],
+[2022,
+15],
+[2023,
+22],
+[2024,
+21]]}]});
+        });
+        </script>
+        
+                <h3>Total de produção bibliográfica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 1017<br>
+                    
+                    <center>Página: <a href="PB-0.html">1</a> &nbsp;<b>2</b> &nbsp;</center>
+                    <div id="dv-year-1995"><h3 class="year">1995</h3> <table>
+            <tr valign="top"><td>4. &nbsp;</td> <td>Mir, M.; FUENTES, L. ; RODRÍGUEZ-FUENTES, G.. <b>On Rietveld identification of multi-fhase zeolitic minerals</b>. <font color=#330066>Revista Del C N I C, Habana</font>. v. 26, p. 159, 1995.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (REVISTA DEL C N I C, HABANA)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mir, M.; RODRÍGUEZ-FUENTES, G.. <b>Analisis de Rietveld de zeolitas sustituidas</b>. Em: XII Seminario Cinetifico:CNIC, 1995, Cuidad de la Habana. Resumenes: Revista Cenic, v. 26, p. 159-159, 1995. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>WISNIEWSKI, C.; DENICOLÓ, I. ; Hümmelgen, I. A.. <b>Electrochemically Deposited Cobalt Thin Films On P-Typt Silicon And Its Characterization</b>. <font color=#330066>Journal of the Electrochemical Society</font>. v. 142, p. 3889, 1995. <a href="http://dx.doi.org/10.1149/1.2048429" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MAGALHÃES, C. S.; BITTENCOURT, C. ; ALVAREZ, F.. <b>Photoluminescence, Disorder and Localization in Hydrogenated Amorphous Silicon Carbon Alloys</b>. <font color=#330066>Brazilian Journal of Physics</font>. v. 24, n. 1, p. 416, 1994.<font color="#254117"><b>Qualis: A3</b></font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MAGALHÃES, C. S.; BITTENCOURT, C. ; ALVAREZ, F.. <b>Estudo do comprimento de localização em a-SiC:H e a-Si:H através da fotoluminescência dependente da temperatura</b>. Em: Oficina de Propriedades de Materiais de Camada Fina para Aplicações Fotovoltáicas, Microeletrônicas e Recobrimentos, 1994, Campinas, 1994. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MAGALHÃES, C. S.; BITTENCOURT, C. ; ROVIRA, P. ; ALVAREZ, F.. <b>Estudo do comprimento de localização em a-SiC:H e a-Si:H através da Fotoluminescência Estacionária</b>. Em: XVII Encontro Nacional de Física da Matéria Condensada, 1994, Caxambu. Física da Matéria Condensada: resumos, p. 339, 1994. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>WISNIEWSKI, C.; Hümmelgen, I. A.. <b>Eletrodeposição de Cobalto sobre Silício</b>. Em: XI Congresso Brasileiro de Engenharia e Ciências dos Materiais, 1994, Águas de São Pedro - SP. Anais do XI Congresso Brasileiro de Engenharia e Ciências dos Materiais, 1994. </td></tr>
+            </table></div><div id="dv-year-1993"><h3 class="year">1993</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MAGALHÃES, C. S.; ALVAREZ, F.. <b>Properties of Amorphous Silicon-Carbon Alloys with Very Low Densities of States</b>. <font color=#330066>Journal of Physics Condensed Matter</font>. v. 5, n. A329, p. A329, 1993.<font color="#F88017"><b>Qualis: A3</b></font> (JOURNAL OF PHYSICS. CONDENSED MATTER)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MAGALHÃES, C. S.; ALVAREZ, F.. <b>Fotoluminescência em Ligas de Carbeto de Silício Amorfo Hidrogenado</b>. Em: XVI Encontro Nacional de Física da Matéria Condensada, 1993, Caxambu. Física da Matéria Condensada: resumos, 1993. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MAGALHÃES, C. S.; BITTENCOURT, C. ; ALVAREZ, F.. <b>Photoluminescence Studies on Silicon Carbon Alloys</b>. <font color=#330066>Journal of Non-Crystalline Solids</font>. v. 1027, p. 164-166, 1993.<font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MAGALHÃES, C. S.; BITTENCOURT, C. ; ALVAREZ, F.. <b>Photoluminescence Studies on Silicon Carbon Alloys</b>. Em: XV International Conference on Amorphous Semiconductors: Science and Technology, 1993, Cambrige, 1993. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MAGALHÃES, C. S.; BITTENCOURT, C. ; ALVAREZ, F.. <b>Photoluminescence, Disorder, and Localization in Hydrogenated Amorphous Silicon Carbon Alloys</b>. Em: 6TH. BRAZILIAN SCHOOL OF SEMICONDUCTOR PHYSICS, 1993, SÃO CARLOS. 6th Brazilian School of Semiconductor Physics: Abstracts, p. 86, 1993. </td></tr>
+            </table></div><div id="dv-year-1992"><h3 class="year">1992</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MAGALHÃES, C. S.; ALVAREZ, F.. <b>Properties of Amorphous Silicon-Carbon Alloys with Very Low Densities of States</b>. Em: SLAFS-7 -7o. Simposio Latinoamericano de Fisica de Superficies, 1992, Bariloche, 1992. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>WISNIEWSKI, C.; DENICOLÓ, I. ; CAMARGO, P. C.. <b>Determinação do Coeficiente de Expansão Térmica de Ligas Metálicas de Cr-V e Ni-Mo com Raios-X</b>. Em: XIV Encontro Nacional de Física da Matéria Condensada., 1992, Caxambú - MG. Anais do XIV Encontro Nacional de Física da Matéria Condensada, 1992. </td></tr>
+            </table></div><div id="dv-year-1991"><h3 class="year">1991</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MAGALHÃES, C. S.; NOVELLINO, R. A. ; MOTISUKE, P.. <b>Oscilações de Franz-Keldysh Associadas à Exciton em GaAs</b>. Em: XIV Encontro Nacional de Física da Matéria Condensada, 1991, Caxambu. Física da Matéria Condensada: programa e resumos, p. 329, 1991. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mir, M.; PRIETO, J. J. ; VICTORERO, A. ; RODRÍGUEZ-FUENTES, G.. <b>Natural Zeolites for Ceramic Industry</b>. Em: <font color=#330066>III Conferencia Internacional sobre Ocurrencias</font>, p. 130-137, 1991.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>NOVELLINO, R. A. ; VAZQUEZLÓPEZ, C. ; BERNUSSI, A. A. ; MAGALHÃES, C. S. ; CERDEIRA, F. ; MOTISUKE, P. ; POLLAK, F. H. ; PLOOG, K.. <b>On the origin of Franz-Keldysh oscillations in AlGaAs/GaAs modulation-doped heterojuctions</b>. <font color=#330066>Journal of Applied Physics</font>. v. 70, n. 10, p. 5570, 1991.<font color="#254117"><b>Qualis: A1</b></font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 05/08/2024 15:41:21<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

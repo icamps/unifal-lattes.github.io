@@ -1608,7 +1608,7 @@ IS  -
 SP  - 1
 EP  - 13
 PY  - 2012
-L2  - 
+L2  - http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49
 L3  - 
 ER  - 
 
@@ -1842,7 +1842,7 @@ IS  -
 SP  - 1
 EP  - 11
 PY  - 2011
-L2  - 
+L2  - http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49
 L3  - 
 ER  - 
 
@@ -1907,7 +1907,7 @@ IS  -
 SP  - 1
 EP  - 12
 PY  - 2010
-L2  - http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49
+L2  - 
 L3  - 
 ER  - 
 
@@ -1985,7 +1985,7 @@ IS  -
 SP  - 1
 EP  - 23
 PY  - 2009
-L2  - http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49
+L2  - 
 L3  - 
 ER  - 
 
@@ -2226,6 +2226,18 @@ PY  - 2009
 VL  - 
 SP  - 95
 EP  - 
+ER  - 
+
+TY  - CHAP
+AU  - Costa, André Luiz Caliari ; SILVA, REGINALDO JOSÉ DA ; Lopes, Mara Lúcia Martins ; MORENO, ANGELA LEITE
+T1  - Pancreatic cancer detection with self-expanding ART fuzzy neural network online training
+TI  - Seven Publicações LTDA.. (Org.). The Evolution of Research in Health Sciences. 1ed.São José dos Pinhais
+IS  - 
+PB  - Seven Editora
+PY  - 2024
+VL  - 
+SP  - 353
+EP  - 367
 ER  - 
 
 TY  - CHAP
@@ -2745,6 +2757,17 @@ EP  -
 ER  - 
 
 TY  - CONF
+AU  - SILVA, R. J. ; CHAUCANES, P. A. M. ; COSTA, A. L. C. ; FARIA, A. S. S. ; MORENO, A. L. ; LOPES, M. L. L.
+T1  - Comparação entre Técnicas de Extração de Características para a Classificação de Arritmias Cardíacas
+TI  - VIII ERMAC Regional 9 ? Ilha Solteira
+VL  - 
+SP  - 1
+EP  - 7
+PY  - 2024
+L2  - http://dx.doi.org/10.22533/at.ed.80519071022
+ER  - 
+
+TY  - CONF
 AU  - CANDIDO, M. R. A. ; MORENO, ANGELA L.
 T1  - Rede Neural Autoexpansível Baseada na Teoria da Ressonância Adaptativa para a Identificação de Desordens no Fígado
 TI  - IV Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia
@@ -2752,7 +2775,7 @@ VL  - 4
 SP  - 
 EP  - 
 PY  - 2023
-L2  - http://dx.doi.org/10.22533/at.ed.80519071022
+L2  - 
 ER  - 
 
 TY  - CONF
