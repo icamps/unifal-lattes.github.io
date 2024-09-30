@@ -1,0 +1,475 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de produção técnica'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1994,
+1],
+[1996,
+1],
+[1998,
+3],
+[1999,
+5],
+[2000,
+5],
+[2001,
+5],
+[2002,
+6],
+[2003,
+3],
+[2004,
+5],
+[2005,
+4],
+[2006,
+3],
+[2007,
+11],
+[2008,
+2],
+[2010,
+3],
+[2011,
+5],
+[2012,
+3],
+[2013,
+8],
+[2014,
+11],
+[2015,
+17],
+[2016,
+12],
+[2017,
+12],
+[2018,
+9],
+[2019,
+5],
+[2022,
+1]]}]});
+        });
+        </script>
+        
+                <h3>Total de produção técnica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 140<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MATTAR, J. ; SCHRODER, U. ; GONSALES, P. ; Corradi, W. J. B.. <b>Ciclo de Debates - Novos Rumos nas Humanidades. 2022. (Programa de rádio ou TV/Mesa</b>. 2022.</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Avaliação de artigo científico ID 09 V 02 para Revista Inclusão Social/ IBICT</b>. 2019.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Avaliação de artigo científico Nº 418 para a Revista de Educação a Distância EmRede</b>. 2019.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Avaliação de artigo científico 213940-997748-1-RV para o Periódico Educação e Revista</b>. 2019.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Avaliação de artigo científico 221251-1026843-1-RV para o Periódico Educação e Revista</b>. 2019.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Parecer sobre pedidos de tempo submetidos ao Telescópio SOAR - Semestre 2019B</b>. 2019.</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Telescópio SOAR - Semestre 2018B</b>. 2018.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos apresentados no CIET/ENPED 2018</b>. 2018.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; BRUNO, A. ; COSTA, J. W. ; HINO, M. C.. <b>Tecnologia e Educação. 2018. (Programa de rádio ou TV/Mesa</b>. 2018.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Corradi, W. J. B.; FIDALGO, F. S. R. ; CUNHA, E. J. L.. <b>Consolidação da Extensão Universitãria na EaD/UFMG. 2018. (Programa de rádio ou TV/Mesa</b>. 2018.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B.; SCARANO, S. ; Riffel, R. ; FRAGA, L.. <b>Parecer sobre pedidos de tempo submetidos ao Telescópio SOAR - Semestre 2019A</b>. 2018.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Corradi, Wagner. <b>Astronomia na Escola: uma visão geral do Universo</b>. 2018. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CORRADI, WAGNER J. B.; CUNHA, M. I. ; PASCHOALINO, JUSSARA BUENO DE QUEIROZ. <b>Indissociabilidade entre ensino, pesquisa e extensão. 2018. (Programa de rádio ou TV/Mesa</b>. 2018.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Avaliação de artigo científico 189927-904449-2-RV para o Periódico Educação e Revista</b>. 2018.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Corradi, Wagner J.B.; CUNHA, E. J. L.. <b>Desafios da extensão universitária na atualidade. 2018. (Programa de rádio ou TV/Mesa</b>. 2018.</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre trabalhos científicos apresentados no ESUD 2017</b>. 2017.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2017B</b>. 2017.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2018A</b>. 2017.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B. <b>Política linguística para internacionalização da educação superior é tema de livro da Editora UFMG. 2017. (Programa de rádio ou</b>. 2017.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B. <b>Astronomia na Escola: Uma Visão Geral do Universo</b>. 2017. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CORRADI, W. J. B.; TÁRSIA, R. D.. <b>Astronomia na Escola</b>. 2017. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CORRADI, W. J. B.; TÁRSIA, R. D.. <b>Astronomia na Escola</b>. 2017. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Corradi, W.J.B. <b>Astronomia na Escola: Uma Visão Geral do Universo</b>. 2017. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Avaliação de artigo cientifico 178412-856955-1-RV para o Periódico Educação e Revista</b>. 2017.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MILL, D. R. S. ; PINTO, I. M. ; ARRUDA, E. P. ; CORRADI, W. J. B.. <b>Marco Regulatório da EaD. 2017. (Programa de rádio ou TV/Mesa</b>. 2017.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>RAMIREZ, J. A. ; CASAS, E. L. ; Corradi, W. J. B.. <b>Papel social da educação a distância na UFMG. 2017. (Programa de rádio ou</b>. 2017.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SILVA, M. ; LOPES, T. ; VIDIGAL, A. R. ; CORRADI, W. J. B.. <b>Mesa Redonda - Educação, Linguagens, Tecnologias e Novas Mídias. 2017. (Programa de rádio ou TV/Mesa</b>. 2017.</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre trabalhos científicos submetidos ao ESUD 2016</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2017A</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Corradi, W. J. B. <b>Dinheiro para ensino a distância some nas principais universidades do país. 2016. (Programa de rádio ou</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; BRITO, J. N. ; LASCARRO, J. ; TORI, R. ; BARROS, R. ; SILVA, M.. <b>As Tendências Tecnológicas na Educação Superior a Distância. 2016. (Programa de rádio ou TV/Mesa</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Corradi, W. J. B.; CARNEIRO, M. L. F. ; SILVA, M. A.. <b>Integração UAB em rede: Formação da Rede Cearense. 2016. (Programa de rádio ou TV/Mesa</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Corradi, W.J.B. <b>Parecer sobre trabalhos científicos submetidos à 40a. Reunião Anual da Sociedade Astronômica Brasileira</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CORRADI, WAGNER J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2016B</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Corradi, Wagner J.B.; TÁRSIA, R. D. ; ANGELO, MATEUS DE SOUZA. <b>Curso Teórico-Prático de Astronomia</b>. 2016. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Corradi, Wagner; ARRUDA, E. P. ; ALVIM, C. G.. <b>Em Perspectiva: UFMG apresenta, em mesa redonda, resultados parciais da avaliação de seus cursos a distância. 2016. (Programa de rádio ou</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Corradi, Wagner; GOMES, S. S. ; GIROLETTI, D.. <b>Interconexão Brasil - Educação a Distância no Brasil</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>PINTO, I. M. ; Corradi, W. J. B. ; CARNEIRO, M. L. F. ; SILVA, R. S.. <b>PromovEaD: proposta e seus reflexos. 2016. (Programa de rádio ou TV/Mesa</b>. 2016.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SOARES, M. M. ; OLIVEIRA, D. M. T. ; Corradi, Wagner J.B. ; ARRUDA, E. P.. <b>APCN do Mestrado Profissional em Políticas Públicas e Gestão da Educação Superior</b>. 2016.</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos científicos submetidos ao Evento I PromovEaD: promovendo a visibilidade da educação a distância</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos científicos submetidos à XXXIX Reunião Anual da Sociedade Astronômica Brasileira</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre programas e projetos submetidos ao Edital MEC/PROEXT 2016</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2015B</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2016A</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos científicos submetidos ao ESUD 2015</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre projeto submetido ao programa CAPES/COFECUB 2015 - univap</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Corradi, W. J. B. <b>Etapa Vencida: UFMG forma 175 alunos em graduações a distância. 2015. (Programa de rádio ou</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Corradi, W. J. B. <b>Noções Básicas de Astronomia e Astrofísica</b>. 2015. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Corradi, W. J. B. <b>Relatório Final - FAPEMIG - Processo APQ-01858-12</b>. 2015. Relatório de pesquisa</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Corradi, W. J. B.; MORAES, M. F. D. ; TAKAHASHI, R. H. C.. <b>Ensino não presencial na UFMG. 2015. (Programa de rádio ou TV/Mesa</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Corradi, W. J. B.; NEVES, M. L. R. C.. <b>50 ANOS de CECIMIG na Formação Continuada de Professores no Ensino de Ciências do Estado de Minas Gerais. 2015. (Programa de rádio ou TV/Mesa</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Parecer sobre projeto submetido ao programa CAPES/COFECUB 2015 - Corot</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Situação da EaD no Brasil. 2015. (Programa de rádio ou</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Papel da FUNDEP em parceria com o CAED na UAB. 2015. (Programa de rádio ou</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Corradi, Wagner J.B.; SOUZA, A. A. ; AMARAL, H. F. ; CKAGNAZAROFF, I. B. ; LOPES, A. L. M. ; AVELAR, E. A. ; MARQUES, W. E. U. ; TRAVALHA, C. C. X. ; OLIVEIRA, H. S. ; GUIMARAES, F. B. ; SILVA, W. G.. <b>Formação Pré-Acadêmica de Acesso à Pós-Graduação das Áreas de Ciências Sociais Aplicadas</b>. 2015.</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SOARES, M. M. ; GRILLO, M. J. C. ; DUARTE, R. A. P. ; Corradi, W.J.B.. <b>APCN do Mestrado Profissional em Gestão Pública</b>. 2015.</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BARBUY, B. ; Oliveira, K.S. ; CASTILHO, B. V. ; Storchi-Bergmann, T. ; Daniela Lazzaro ; Laerte Sodré ; CAPELATO, H. V. ; Corradi, Wagner J.B.. <b>INCT: Astrofísica - Desenvolvimento e Consolidação da Astronomia Brasileira: Grandes Telescópios, Grandes Levantamentos, Instrumentação e Inovação</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos científicos submetidos à XXXVIII Reunião Anual da Sociedade Astronômica Brasileira</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre programas e projetos submetidos ao Edital MEC/PROEXT 2015</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2014B</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Observatório Gemini - Semestre 2015A</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos científicos submetidos ao ESUD 2014</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CORRADI, W. J. B.; MOREIRA, M. G.. <b>Desafios e Metas da atual gestão do CAED. 2014. (Programa de rádio ou</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Corradi, W. J. B.; VILA, M. C. ; ARRUDA, E. P. ; FAVACHO, A. M. P.. <b>Desafios para a Extensão Universitária em Educação a Distância. 2014. (Programa de rádio ou TV/Mesa</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Corradi, Wagner J.B. <b>Ensino a distância tem adesão em massa de universidades públicas consagradas. 2014. (Programa de rádio ou</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Corradi, Wagner J.B.; ARRUDA, E. P.. <b>ENEM 2014: EaD na UFMG e a Universidade Aberta do Brasil. 2014. (Programa de rádio ou</b>. 2014.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Martioli, Eder. <b>XVII CURSO DE INTRODUÇÃO À ASTRONOMIA E ASTROFÍSICA</b>. 2014. Curso de curta duração ministrado/Extensão</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Telescópio SOAR - Semestre 2014A</b>. 2013.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos aos Telescópios SOAR e CFHT - Semestre 2013B</b>. 2013.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos científicos submetidos ao ESUD 2013</b>. 2013.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer para o Programa PROBRAL I - 2013 - BEX 8160-13-9</b>. 2013.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer para o Programa PVE 2013 - BEX 12150-13-4</b>. 2013.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Corradi, W. J. B.; ALBUQUERQUE, G.. <b>Institucionalização da Educação a Distância nas IES. 2013. (Programa de rádio ou TV/Mesa</b>. 2013.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Corradi, W. J. B.; VALENTE, J. A.. <b>Conferência sobre Tecnologias e Currículo. 2013. (Programa de rádio ou TV/Mesa</b>. 2013.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>COSTA, M. E. O. ; FIDALGO, F. S. R. ; CENDON, B. V. ; Corradi, W. J. B. ; SOARES, F. M.. <b>Pesquisa Básica no Catálogo Online - PRODUTO AUDIOVISUAL</b>. 2013.</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre pedidos de tempo submetidos ao Telescópio SOAR - Semestre 2013A</b>. 2012.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, W. J. B. <b>Parecer sobre trabalhos científicos apresentados no SIED 2012</b>. 2012.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Martioli, Eder; D. Teeple ; A. Venne ; M. Tannock. <b>OPERA (Open-source Pipeline for Espadons Reduction and Analysis)</b>. 2012.</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre trabalhos científicos submetidos à XXXVI Reunião Anual da Sociedade Astronômica Brasileira</b>. 2011.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre projetos científicos submetidos à FAPESP</b>. 2011.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer para o Colegiado de Graduação em Física</b>. 2011.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; DOMINICI, Tania. <b>Relatório Técnico do Grupo de Trabalho de Educação e Instrumentação do OPD</b>. 2011.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Martioli, Eder. <b>ESPaDOnS CFHT exposure time calculator v2.0</b>. 2011.</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre trabalhos científicos submetidos à XXXV Reunião Anual da Sociedade Astronômica Brasileira</b>. 2010.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer para o Colegiado de Graduação em Física</b>. 2010.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Corradi, W. J. B. <b>Divulgação do conhecimento é ostensiva e bem feita. 2010. (Programa de rádio ou</b>. 2010.</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. <b>J. B.. Projeto Progrid 2008</b>. 2008.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre trabalhos científicos submetidos à XXXIV Reunião Anual da Sociedade Astronômica Brasileira</b>. 2008.</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer de Acompanhamento de Bolsa de Pós-Doutoramento no País; Interessado Antônio Armstrong Pereyra Quirós, Processo FAPESP 02/12880-0 (data: 02/05/2007)</b>. 2007.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre projetos PAD011/2006, PAD012/2006 e PID021/2006; Interessado: Câmara de Graduação/PROGRAD/UFMG</b>. 2007.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B. <b>Relatório Final da Comissão de Sindicância, Interessado: ICEx/UFMG; Portaria: ICEx 063 de 03/10/2006, prorrogada pela Portaria 071 de 06/11/2006</b>. 2007.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B. <b>Fisica do Meio Interestelar e da Formacao Estelar</b>. 2007.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre trabalho intitulado ?Near Infrared Photometric and Optical Spectroscopic study of 22 low mass star clusters embedded in nebulae? de autoria de Soares J.B., Bica E., Ahumada A.V., Clariá J.J., submetidos ao Boletim da Associación Argentina de Astronomía, vol. 50, 2007 eds. G. Dubner, M. Rovira, A. Piatti</b>. 2007.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CORRADI, W. J. B. <b>Fisica do Meio Interestelar e da Formacao Estelar</b>. 2007.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CORRADI, W. J. B. <b>XVIII Escola de Inverno do Departamento de Física da UFMG: Física do Meio Interestelar e Formação Estelar</b>. 2007. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, K.. <b>SOFTWARE e MATERIAL DIDÁTICO: Apoio Didático às Disciplinas de Física Básica no formato de Ensino a Distância</b>. 2007.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, Karla ; TÁRSIA, R. D. ; SIMOES, R. ; ALMEIDA, P. B. ; VIEIRA, S.L.A. ; ALESSIO, M.A.D. ; OLIVEIRA, W. S. ; RIBEIRO, R. M. L.. <b>Fundamentos de Oscilações, Ondas e Óptica na modalidade a distância</b>. 2007. Desenvolvimento de material didático ou instrucional - Material Didático</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, Karla ; TÁRSIA, R. D. ; VIEIRA, S.L.A. ; RIBEIRO, R. M. L. ; OLIVEIRA, W. S. ; ALESSIO, M.A.D.. <b>Física Experimental para o Curso de Graduação em Química na modalidade a distância</b>. 2007. Desenvolvimento de material didático ou instrucional - Material Didático</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CORRADI, W. J. B.; TÁRSIA, R. D. ; VIEIRA, S.L.A. ; BALZUWEIT, Karla ; RIBEIRO, R. M. L. ; OLIVEIRA, W. S. ; ALESSIO, M.A.D.. <b>Fundamentos de Física para o Curso de Graduação em Química na modalidade a distância</b>. 2007. Desenvolvimento de material didático ou instrucional - Material Didático</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B.; ALENCAR, S.H.P.. <b>XVII Escola de Inverno da Física: Estrelas Jovens e Aglomerados Estelares</b>. 2006. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, Karla. <b>Apoio Didático para os Módulos de Física: Implementação da Disciplina Fundamentos de Ondas e Óptica a Distância</b>. 2006. Desenvolvimento de material didático ou instrucional - Material Didático</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DICKMAN, R. ; CORRADI, W. J. B.. <b>Parecer sobre defesa de projeto de tese de doutorado</b>. 2006.</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre plano de tese de doutorado</b>. 2005.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>XVI Escola de Inverno da Física: Meio Interestelar e Estrelas Jovens</b>. 2005. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, Karla. <b>Apoio Didático para os Módulos de Física: Implementação da Disciplina Fundamentos de Mecânica Ondulatória a Distância</b>. 2005. Desenvolvimento de material didático ou instrucional - Material Didático</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; VIEIRA, S.L.A.. <b>Atividades de Pós-Graduação do Colégio Santo Agostinho</b>. 2005. Curso de curta duração ministrado/Especialização</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre plano de dissertação de mestrado</b>. 2004.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>Uma Visão Geral do Universo</b>. 2004. Palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, Karla ; MOREIRA, J. G. A.. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Mecânica dos Sólidos e Fluidos à Distância</b>. 2004. Desenvolvimento de material didático ou instrucional - Material Didático</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, Karla ; MOREIRA, J. G. A. ; CARVALHO, A.L. ; MERICI, T.A. ; SUASSUNA, R.S. ; NOGUEIRA, Luciano ; FARGNOLI, Helvécio ; BATISTA, N.C.. <b>Apoio Didático aos Módulos de Física Básica: Fundamentos de Mecânica Ondulatória</b>. 2004. Desenvolvimento de material didático ou instrucional - Material Didático</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B.; VIEIRA, S.L.A.. <b>XV Escola de Inverno da Física: Meio Interestelar e Estrelas Jovens</b>. 2004. Curso de curta duração ministrado/Extensão</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Uma Visão Geral do Universo</b>. 2003. Palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B.; BALZUWEIT, Karla ; GOUVEA, M. E.. <b>PROJETO PAE: Apoio Didático aos Módulos de Física Básica</b>. 2003.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; VIEIRA, S.L.A.. <b>XII Escola de Inverno da Física: Estrelas Jovens e Meio Interestelar</b>. 2003. Curso de curta duração ministrado/Extensão</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. <b>J. B.; LAGES, W. S. ; MALAQUIAS, I. M. . Projeto NAWI</b>. 2002.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>Uma Visão Geral do Universo</b>. 2002. Palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; COSTA, C. C.. <b>Propriedades Polarimétricas do Meio Interestelar Local na direção da Associação Sco-Cen</b>. 2002.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; SANTOS JR, J.F.C. ; VIEIRA, S.L.A. ; GUIMARÃES, M.M. ; SARTORI, M.J.. <b>Evidências de Discos e Corpos Cometários em Estrelas Ae/Be de Herbig</b>. 2002.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B.; VIEIRA, S.L.A.. <b>XIII Escola de Inverno da Física: Estrelas Jovens e Meio Interestelar</b>. 2002. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CORRADI, W. J. B.; ZAGURY, Fredéric. <b>Extinction Curve towards the Coalsack and Musca Directions</b>. 2002.</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>II Mostra Marista de Tecnologia</b>. 2001. Palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B.; ALMEIDA, B. R.. <b>Apostila da XII Escola de Inverno da Física</b>. 2001. Desenvolvimento de material didático ou instrucional - Apostila</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; COSTA, C. C. ; VIEIRA, S.L.A. ; TÁRSIA, R. D. ; FARIA, P. L.. <b>Parecer Técnico Sobre a Implantação de um Observatório Astronômico e/ou um Planetário no Ginásio Poliesportivo Marista</b>. 2001.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; GOUVEA, M. E.. <b>PROJETO PAE: Apoio Didático aos Módulos de Física Básica</b>. 2001.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B.; VIEIRA, S.L.A. ; COSTA, C. C. ; TÁRSIA, R. D.. <b>Astronomia Básica</b>. 2001. Curso de curta duração ministrado/Extensão</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Parecer sobre incubação da empresa F2VNET para o CENEX - Camara de Ensino e Extensão da UFMG</b>. 2000.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B.; GOUVEA, M. E.. <b>PROJETO PAE: Implantação da Estrutura Modular nos Cursos de Física Básica</b>. 2000.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; PANIAGO, R.. <b>Apostila da XI Escola de Inverno da Física</b>. 2000. Desenvolvimento de material didático ou instrucional - Apostila</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; SANTOS JR, J.F.C.. <b>Estudo Integrado da População Estelar e do Meio Interestelar na Direção da Associação de Estrelas OB Scorpio-Centaurus</b>. 2000.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORRADI, W. J. B.; SANTOS JR, J.F.C.. <b>XI Escola de Inverno da Física: A Via Láctea: estrutura e componentes</b>. 2000. Curso de curta duração ministrado/Extensão</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Astronomia na Praça: de Planetas a Galáxias</b>. 1999. Palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B.; SANTOS JR, J.F.C. ; VIEIRA, S.L.A.. <b>Procura de Estrelas Ae/Be de Herbig em Aglomerados Jovens</b>. 1999.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; SANTOS JR, J.F.C. ; VIEIRA, S.L.A.. <b>X Escola de Inverno da Física: A Via Láctea: estrutura e componentes</b>. 1999. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRADI, W. J. B.; SPEZIALI, N. L.. <b>Programa Microcal Origin: comandos básicos</b>. 1999. Desenvolvimento de material didático ou instrucional - Apostila</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LÉPINE, J.R.D. ; Franco, G.A.P.. <b>Propriedades Polarimétricas do Meio Interestelar Local na Direção da Associação de Estrelas OB Scorpio-Centaurus</b>. 1999.</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B. <b>Referee Comments on the Paper: ``Imaging Polarimetry of Nearby Molecular Clouds`` by Ramaprakash A.N., Tandon S.N. and Gupta R</b>. 1998.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRADI, W. J. B. <b>Referee Comments on the Paper ``The Local Association of Young Stars`` by Ollin Eggen</b>. 1998.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CORRADI, W. J. B.; VIEIRA, S.L.A.. <b>Cálculo de Coordenadas Astrômicas para o Sol</b>. 1998.</td></tr>
+            </table></div><div id="dv-year-1996"><h3 class="year">1996</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Knude J. ; Franco, G.A.P.. <b>Local Interstellar Medium Dynamics towards the Southern Coalsack and the Chamaeleon-Musca dark clouds</b>. 1996.</td></tr>
+            </table></div><div id="dv-year-1994"><h3 class="year">1994</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Franco, G.A.P.. <b>Physical Association between the Southern Coalsack and the Chamaeleon-Musca clouds</b>. 1994.</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 30/09/2024 14:03:32<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

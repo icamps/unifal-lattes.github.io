@@ -1,0 +1,5 @@
+nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
+0,2728001193575385,Eder Martioli,[Sem rotulo],,,0.15,83,76,0,1,5,0,1,1,0,1,3,'10,110,164'
+1,6549869827105994,Luciano Fraga,[Sem rotulo],,,0.15,69,44,0,0,3,1,21,0,0,0,0,'10,110,164'
+2,1643888402032845,Wagner José Corradi Barbosa,[Sem rotulo],,,0.15,124,25,6,7,17,10,59,2,3,9,35,'10,110,164'
+edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE

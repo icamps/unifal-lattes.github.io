@@ -1,7 +1,7 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
 0,9808310940421979,Adriana Dias,[Sem rotulo],,,0.45942155,23,3,0,0,0,12,8,0,0,1,1,'10,110,164'
-1,3858924778362309,Denismar Alves Nogueira,[Sem rotulo],,,1.707689,446,186,3,0,9,66,182,2,0,15,14,'10,110,164'
-2,9965398009651936,Eric Batista Ferreira,[Sem rotulo],,,1.4454184,363,188,4,7,7,54,103,4,9,45,40,'10,110,164'
+1,3858924778362309,Denismar Alves Nogueira,[Sem rotulo],,,1.707689,449,188,3,1,9,66,182,2,0,15,14,'10,110,164'
+2,9965398009651936,Eric Batista Ferreira,[Sem rotulo],,,1.4454184,364,189,4,7,7,54,103,4,9,45,40,'10,110,164'
 3,6886514520601172,Fabrício Goecking Avelar,[Sem rotulo],,,1.0698546,39,13,0,0,1,5,20,0,0,9,15,'10,110,164'
 4,6581499944728910,Flávio Bittencourt,[Sem rotulo],,,0.45569935,65,24,0,3,5,10,23,0,0,0,17,'10,110,164'
 5,4404511957654050,Glaucia de Paula Falco,[Sem rotulo],,,0.15,36,16,0,1,19,0,0,0,0,0,0,'10,110,164'

@@ -1,0 +1,175 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Capítulos de livros publicados'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2012,
+1],
+[2013,
+1],
+[2015,
+1],
+[2016,
+1],
+[2018,
+3],
+[2019,
+1]]}]});
+        });
+        </script>
+        
+                <h3>Capítulos de livros publicados</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 8<br>
+                    
+                    
+                    <div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Corradi, Wagner J.B.; MOREIRA, M. G. ; CUNHA, E. J. L. ; PASCHOALINO, J. B. Q. ; BOAVENTURA JUNIOR, M. ; ALMEIDA, A. C. C. ; ARRUDA, E. P. ; FIDALGO, F. S. R.. <b>PROGRAMA APROXIME-SE: AÇÕES DA EDUCAÇÃO A DISTÂNCIA QUE PROMOVEM A VIVÊNCIA UNIVERSITÁRIA</b>. Em: Wagner Corradi; Evandro José Lemos da Cunha; Márcio Boaventura Júnior; Ana Carolina Correia Almeida; Jussara Bueno de Queiroz Paschoalino. (Org.). EXTENSÃO UNIVERSITÁRIA NA EAD: DESAFIOS E EXPERIÊNCIAS DA INDISSOCIABILIDADE ENTRE PESQUISA, ENSINO E EXTENSÃO. IIed.Belo Horizonte. : Editora UFMG. 2019.v. 1, p. 95-114. </td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRANCO, J. C. S. ; AZEVEDO, L. G. M. R. P. P. ; HINO, M. C. ; Corradi, Wagner. <b>Tecnologias como ferramenta para cooperação e internacionalização da educação</b>. Em: Rachel de Souza Vianna; Delzi Alves Laranjeira. (Org.). Internacionalização do Ensino Superior: Concepções e Experiências. 1ed.Belo Horizonte. : Editora da Universidade do Estado de Minas Gerais - EdUEMG. 2018.v. I, p. 74-85. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Corradi, Wagner; ANTONIO, D. ; MOREIRA, M. G.. <b>Transversalidade no ensino superior não presencial na UFMG: Reflexões sobre o potencial da EaD para a oferta da formação transversal nos cursos de graduação</b>. Em: Daisy Moreira Cunha; Estevam Barbosa de Las Casas. (Org.). Educação Superior: desafios em perspectivas transdisciplinares. 1ed.Belo Horizonte. : Editora UFMG. 2018.v. 1, p. 238-268. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Donati, J.-F. ; Kouach, D. ; Lacombe, M. ; Baratchart, S. ; Doyon, R. ; DELFOSSE, X. ; ARTIGAU, E. ; MOUTOU, C. ; Hébrard, G. ; Bouchy, F. ; Bouvier, J. ; Alencar, S. ; Saddlemyer, L. ; Parès, L. ; Rabou, P. ; Micheau, Y. ; Dolon, F. ; Barrick, G. ; Hernandez, O. ; MARTIOLI, E.. <b>SPIRou: A nIR Spectropolarimeter/High-precision Velocimeter for the CFHT</b>. Em: Hans J. Deeg; Juan Antonio Belmonte. (Org.). Handbook of Exoplanets. 1ed.New York. : Springer International Publishing. 2018.p. 1-27. </td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LIMA, D. M. A. E. ; MORAES FILHO, W. B. ; BARBOSA CORRADI, WAGNER JOSÉ ; BRUM, A. S.. <b>O Programa Inglês sem Fronteiras e a Política de Incentivo à Internacionalização do Ensino Superior Brasileiro</b>. Em: Simone Sarmento; Denise Martins de Abreu e Lima; Waldenor Barros Moraes Filho. (Org.). Do Inglês sem Fronteiras ao Idiomas sem Fronteiras: a construção de uma política linguística para a internacionalização. 1ed.Belo Horizonte. : Editora UFMG. 2016.v. 1, p. 19-46. </td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Corradi, Wagner J.B.; FIDALGO, F. S. R. ; MOREIRA, P. R. ; PASCHOALINO, J. B. Q.. <b>Tessituras do trabalho de gestão da UAM nas instituições de ensino superior</b>. Em: Maria Teresa Menezes Freitas; Eucidio Pimenta Arruda; Sarah Mendonça de Araújo. (Org.). NA TESSITURA DA DISTÂNCIA: entre políticas, docência e tecnologia na EaD. 1ed.Uberlândia. : EDUFU - Editora da Universidade Federal de Uberlândia. 2015.v. 1, p. 27-50. </td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Corradi, W. J. B.; QUIRINO, R. ; MACHADO, M. R. L.. <b>Resultados, Desafios e Perspectiva do Sistema Universidade Aberta do Brasil (UAB) no âmbito da UFMG</b>. Em: Fernando S.R. Fidalgo; Wagner Jose Corradi; Reginaldo Naves de Souza Lima; André Favacho; Eucídio Pimenta Arruda. (Org.). Educação a Distância: Meios, Atores e Processos. 1ed.Belo Horizonte. : Editora CAED-UFMG. 2013.v. I, p. 163-182. </td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRADI, W. J. B.; PINHEIRO, C. B. ; ALENCAR, S. H. P. ; VIANNA, R. O. ; MOREIRA, J. G. A. ; BALZUWEIT, Karla ; TÁRSIA, R. D. ; NEMES, M. C. ; FONSECA, L. ; OLIVEIRA, W. S. ; FONSECA, C. H. D. ; VIEIRA, S.L.A.. <b>Apoio Didático para as disciplinas de Física do Ciclo Básico na Modalidade de Ensino a Distância na UFMG</b>. Em: Fernando S.R. Fidalgo; Nara L.R. Fidalgo; Inajara de S.V. Neves; Jussara B.Q. Paschoalino. (Org.). Educação a Distância: Tão Longe, Tão Perto. 1ed.Belo Horizonte. : Editora CAED - UFMG. 2012.v. 1, p. 195-220. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 30/09/2024 14:03:32<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

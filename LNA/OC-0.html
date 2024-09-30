@@ -1,0 +1,627 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de orientações concluídas'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2000,
+4],
+[2001,
+6],
+[2002,
+10],
+[2003,
+5],
+[2004,
+11],
+[2005,
+8],
+[2006,
+7],
+[2007,
+6],
+[2008,
+16],
+[2009,
+4],
+[2010,
+27],
+[2011,
+17],
+[2012,
+6],
+[2013,
+14],
+[2014,
+18],
+[2015,
+10],
+[2016,
+10],
+[2017,
+10],
+[2018,
+14],
+[2019,
+4],
+[2020,
+5],
+[2021,
+4],
+[2022,
+1]]}]});
+        });
+        </script>
+        
+                <h3>Total de orientações concluídas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 217<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Laura Guimarães Novaes. <b>Análise e Caracterização dos Aglomerados Abertos NGC2360 e UFMG100</b>. (Graduação em Engenharia Aeroespacial) - Universidade Federal de Minas Gerais, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Eduardo B Castro. <b>Parâmetros Astrofísicos de Aglomerados Abertos entre 330 < l(graus) < 340 e -5 < b(graus) < 5</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Maria Gabriela Macedo. <b>Parâmetros Astrofísicos de Aglomerados Abertos entre 350 < l(graus) < 360 e -5 < b(graus) < 5</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Thomas Miller dos Santos. <b>Parâmetros Astrofísicos de Aglomerados Abertos entre 40 < l(graus) < 50 e -5 < b(graus) < 5</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ícaro Meidem Silva. <b>Utilização do Estudo de Caracterização de Atmosferas de Exoplanetas do Tipo Hot Jupiter para a Melhoria do Ensino de Astronomia na Educação Básica do Brasil</b>. (Graduação em Física) - Universidade Federal de Itajubá, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Giulia A Anacleto. <b>Parâmetros Astrofísicos de Aglomerados Abertos entre 340 < l(graus) < 350 e -5 < b(graus) < 5</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Letícia Rioga. <b>Parâmetros Astrofísicos de Aglomerados Abertos entre 20 < l(graus) < 30 e -5 < b(graus) < 5</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Matheus Alves Magalhães. <b>O Meio Interestelar na região de NGC 6494 e a busca por novos Aglomerados Abertos​</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Nicolas Vasconcelos. <b>Determinação da distância da Nuvem Interestelar TGUH1902 e a busca por Aglomerados Abertos​</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7894554599919972">Pedro Henrique Ferreira de Britto Braz</a>. <b>Espectroscopia das Estrelas Jovens HD 141569, HD 144432, HD 163296 e o Aglomerado Aberto NGC 1981</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Arthur Silva Magalhães. <b>ESTUDO DA NUVEM INTERESTELAR TGUH1821 DURANTE A BUSCA POR AGLOMERADOS ABERTOS​</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fernando Dantas. <b></b>. Universidade Federal de Minas Gerais, . 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Isaac Chagas. <b>Estudo de Bandas Interestelares Difusas na direção de estrelas Ae/Be de Herbig</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Maíra Gabrielly Sousa Santos. <b>Parâmetros Astrofísicos de Aglomerados Abertos entre 10 < l(graus) < 20 e -5 < b(graus) < 5</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Paula Pereira. <b>Tutoria a Distância das Disciplinas do Curso de Licenciatura em Matemática, Química e Biologia a Distânciaa e Biologia a Distância</b>. (Física) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Claudemir Henrique Silva. <b>Programa Aproxime-se</b>. (Geografia) - Universidade Federal de Minas Gerais, Pró-Reitoria de Extensão da UFMG. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Denis Bernardes. <b>Projeto de desenvolvimento do protótipo da interface de controle dos EM CCDs do instrumento SPARC4</b>. Orientação de outra natureza - Laboratório Nacional de Astrofísica, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fernando Ernany Costa de Oliveira. <b>Programa Aproxime-se</b>. (Geografia) - Universidade Federal de Minas Gerais, Pró-Reitoria de Extensão da UFMG. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Izabela Prates Botelho Silva. <b>Estudo Polarimétrico da Região da Nuvem Escura LDN288</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Izabela Prates Botelho Silva. <b>Introdução à Astronomia e Astrofísica voltada ao estudo e detecção de exoplanetas</b>. (Física) - Universidade Federal de Minas Gerais, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Janderson Muniz de Oliveira. <b>Observação de trânsitos de exoplanetas para determinação precisa dos parâmetros físicos</b>. (Graduando em Física) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lud' Milla Melúcio Guedes. <b>Iniciação à Extensão</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Marcelo Tucci Maia. <b></b>. Laboratório Nacional de Astrofísica, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Matheus Felipe de Souza Barbosa. <b>Polarimetria dos Glóbulos de Bok CB68 e CB63</b>. (Graduação em Física) - Universidade Federal de Minas Gerais, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>PEDRO HENRIQUE FERREIRA DE BRITTO BRAZ. <b>Program de Monitoria de Graduação da Diretoria do CAED: Apoio Institucional às disciplinas dos Cursos de Graduação a Distância</b>. (Física) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Rafaela Souza Almeida. <b>Polarimetria na Região do Aglomerado Aberto NGC6494</b>. Iniciação Científica - Universidade Federal de Minas Gerais, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Taynara Vitória de Souza. <b>Morfologia do Campo Magnético e distância da Eridanus Expanding Shell</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Yasmin Matos Amado. <b>Espectroscopia de AM Herculis utilizando o instrumento ESPaDOnS/CFHT</b>. Dissertação (Mestrado em Astrofísica) - Instituto Nacional de Pesquisas Espaciais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bernardo Pereira Lima Ferreira. <b>Determinação da distância de nuvens interestelares na direção da Superbolha Orion-Eridanus</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BONNIE ROMANO ZAIRE. <b>Tutoria a Distância das Disciplinas de Física do Curso de Licenciatura a Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Denis Varise Bernardes. <b>Caracterização fotométrica dos CCDs do Observatório Pico dos Dias</b>. (Graduação em Engenharia Física) - Universidade de São Paulo, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Felipe Castro da Mata Ferreira. <b>Programa Aproxime-se</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Leandro Jose Pedrosa de Lima Oliveira. <b>Programa Aproxime-se</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Matheus Felipe de Souza Barbosa. <b>Monitoria de Graduação das Disciplinas de Física para os cursos a aistância</b>. (Física) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Natalia Alves Pereira Cota. <b>Programa Aproxime-se</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Pedro Henrique Ferreira de Britto Braz. <b>Análise e Caracterização de Estrelas Ae/Be de Herbig do Pico dos Dias Survey</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Pedro Henrique Ferreira de Britto Braz. <b>Monitoria de Graduação das Disciplinas de Física para os cursos a aistância</b>. (Física) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SHEILLA DE OLIVEIRA. <b>Tutoria a Distância das Disciplinas de Física do Curso de Licenciatura a Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amarildes de Fatima Soares. <b>Programa Aproxime-se</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fabricia Nunes Miranda. <b>Programa Aproxime-se</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Graziela Ariana Lobo. <b>Programa Aproxime-se: projeto saberes transversais</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Janderson Muniz de Oliveira. <b>Observação de trânsitos de exoplanetas para determinação precisa dos parâmetros físicos</b>. Iniciação Científica - Laboratório Nacional de Astrofísica, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Katia Pereira Gomes. <b>Programa Aproxime-se: Projeto Ficção e Realidade</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Kelvia Fabiane Alves de Moura. <b>O Papel das Mídias Sociais no Combate ao Bullying nas Escolas</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Matheus Felipe de Souza Barbosa. <b>Polarimetria de Nuvens Escuras e Glóbulos de Bok</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Pedro Lucas Aiala dos Santos. <b>Estudo químico-dinâmico-estrutural da região dos aglomerados abertos NGC1981 e NGC1977</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Tales Ceniro Campos. <b>Programa Aproxime-se</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Welen Lima. <b>Programa Pronoturno: Disciplinas Semipresenciais do Ciclo Básico de Física da UFMG</b>. (Física) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALEXANDRE Rodrigues Veira. <b>Estágio Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Ópticao Docência II - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Física) - Universidade Federal de Minas Gerais, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Maria de Sousa Campos. <b>Programa Aproxime-se: Projeto Ficção e Realidade</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fabricia Nunes Miranda. <b>Programa Aproxime-se: projeto virtualidades</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0106547085848460">FILIPE Andrade Ferreira</a>. <b>Determinação de massa dos aglomerados abertos NGC6494, NGC 6405 e ASCC 95</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HELDER ALEXANDER SANTOS E COSTA. <b>Estágio Docência II - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Física) - Universidade Federal de Minas Gerais, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Karina Fatima Rodrigues. <b>Programa Aproxime-se: projeto virtualidades</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Muriel de Pauli. <b>Estágio Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Física) - Universidade Federal de Minas Gerais, . 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Santa Medina Morais Neta. <b>Programa Aproxime-se: projeto virtualidades</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Sarah Faria Fernandes. <b>Programa Pronoturno - Grupo de Ensino de Física na modalidade de educação a distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Thâmara Stephany Vaz Carlos. <b>Programa Aproxime-se: projeto saberes transversais</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALANA PAIXAO DE SOUSA. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALEXANDRE JOSE MEDEIROS DO NASCIMENTO. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Alexandre Rodrigues Veira. <b>Estágio Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Ópticao Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Física) - Universidade Federal de Minas Gerais, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ana Maria de Sousa Campos. <b>Tutoria a Distância do Projeto Ficção e Realidade</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Edileia Soares de Souza. <b>Tutoria a Distância do Projeto Saberes Transversais</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Elaine Cristiane de Souza Santos Oliveira. <b>Tutoria a Distância do projeto Saberes Transversais</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Fernanda Miranda da Silva Marinho. <b>Tutoria a Distância do Projeto Ficção e Realidade</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Filipe Andrade Ferreira. <b>Fotometria e Espectroscopia de Aglomerados Abertos Jovens</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Flavio Eder Vieira. <b>Tutoria a Distância do Projeto Virtualidades</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>HELDER ALEXANDER SANTOS E COSTA. <b>Estágio Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>HELDER ALEXANDER SANTOS E COSTA. <b>Tutoria a Distância da Disciplina Física Experimental II do Curso de Licenciatura em Matemática a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Joao Barbosa Ramos. <b>Tutoria a Distância do Projeto Saberes Transversais</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>JULIA MARIA TORRES ROQUETTE. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Luana Passos Nascimento. <b>Programa Aproxime-se: projeto virtualidades</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Marli Mara Araujo Oliveira. <b>Tutoria a Distância do Projeto Ficção e Realidade</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Nayara Nunes Rocha Maruno. <b>Tutoria a Distância do Projeto Virtualidades</b>. (Educação a distância) - Universidade Federal de Minas Gerais, Programa de Bolsas de Extensão. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>RENAN SOUZA CUNHA. <b>Tutoria a Distância da Disciplina Física Experimental do Curso de Licenciatura em Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SHEILLA DE OLIVEIRA. <b>Tutoria a Distância da Disciplina Física Experimental II do Curso de Licenciatura em Matemática a Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>EMILSON RIBEIRO VIANA JUNIOR. <b>Tutoria a Distância da Disciplina Física Experimental I do Curso de Licenciatura em Química a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>EMILSON RIBEIRO VIANA JUNIOR. <b>Tutoria a Distância da Disciplina Física Experimental do Curso de Licenciatura em Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>EMILSON RIBEIRO VIANA JUNIOR. <b>Tutoria a Distância da Disciplina Física Experimental II do Curso de Licenciatura em Matemática a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FABIO LACAERDA RESENDE E SILVA. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FILIPE ANDRADE FERREIRA. Programa Pronoturno do Colegiado de Graduação em Física (PN17). <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial</b>. (Física) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>INGRID DAVID BARCELOS. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>JEAN CARLOS COELHO FELIPE. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>JENAÍNA RIBEIRO SOARES. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>JOILSON SILVA PORTO. <b>Estágio Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Leandra de Souza Resende. <b>Busca por variação no período de pulsação da estrela Ae de Herbig HR5999</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MATEUS DE SOUZA ANGELO. <b>Estágio Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ROBERTO BATISTA SARDENBERG. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>RODOLFO VIEIRA MAXIMIANO. Tutoria a Distância das Disciplinas Fundamentos de Física I, Fund. <b>de Física II, Física Experimental I Física Experimental II dos Cursos de Licenciatura em Química, Matemática e Ciências Biológicas a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>TIAGO CAMPOLINA BARBOSA. <b>Estágio Docência I - Fundamentos de Mecânica Ondulatória e Fundamentos de Óptica</b>. (Física) - Universidade Federal de Minas Gerais, . 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andre Venne. <b>Implementation of Spectropolarimetric Calibration and Reduction Techniques in to CFHT OPERA Pipeline</b>. (Graduando em Baccalauréat en Physique) - Université de Sherbrooke, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>EMILSON RIBEIRO VIANA JUNIOR. <b>Tutoria a Distância das Disciplinas Fundamentos de Física I, Física Experimental I Física Experimental II do Curso de Licenciatura em Química a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Francisco Ferreira de Souza Maia. <b>Caracterização e Evolução Estrutural de Aglomerados Abertos da Galáxia</b>. Tese (Doutorado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GUSTAVO FOSCOLO MOURA GOMES. <b>Disciplinas de Física para o Sistema UAB na UFMG</b>. (Fisica) - Universidade Federal de Minas Gerais, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3760467350102703">MATEus de Souza Angelo</a>. <b>Fotometria e Espectroscopia de Remanescentes de Aglomerados Abertos</b>. Tese (Doutorado em Doutorado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3760467350102703">Mateus de Souza Angelo</a>. <b>Determinação dos parâmetros astrofísicos dos aglomerados abertos NGC7193, NGC7772 e do objeto ESO442-SC04</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alexandre Alberto Chaves Cotta. <b>Programa de Tutoria do Sistema UAB no Curso de Química</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Paula Alves. <b>Programa de Tutoria do Sistema UAB</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Paula Gomes Pereira. <b>Programa de Tutoria do Sistema UAB no Curso de Química</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Breno Henrique de Meira Torres. <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial.</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Clyffe de Assis Ribeiro. <b>Programa de Tutoria do Sistema UAB no Curso de Ciências Biológicas na modalidade a distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Filipe Andrade Ferreira. Programa Pronoturno do Colegiado de Graduação em Física (PN17). <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial</b>. (Física) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Gabriel Augusto Ribeiro Nogueira. Programa de Monitoria de Graduação do Colegiado de Graduação em Física (PMG98/2011). <b>Acompanhamento acadêmico na disciplina Fundamentos de Eletromagnetismo ? modalidade semipresencial.</b>. (Engenharia Aeroespacial) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Gustavo Foscolo de Moura Gomes. <b>Programa de Tutoria do Sistema UAB no Curso de Biologia na modalidade a distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Igor Yuri Rocha Ribeiro. <b>Meio Interestelar Local e Formação de Estrelas Ae/Be de Herbig/ Espectroscopia de Galáxias em</b>. (Graduando em Fisica) - Universidade Federal de Minas Gerais, . 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Jean Carlos Coelho Felipe. <b>Programa de Tutoria do Sistema UAB</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Jenaína Ribeiro Soares. <b>Programa de Tutoria do Sistema UAB</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Nathalia Nazareth Junqueira Fonseca. <b>Programa de Tutoria do Sistema UAB no Curso de Matemática</b>. (Fisica) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Paulo Fernando Gomes de Oliveira. Programa Pronoturno do Colegiado de Graduação em Física (PN17). <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial.</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Regiane do Nascimento. <b>Programa de Tutoria do Sistema UAB no Curso de Matemática</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Sarah Faria Fernandes. Programa Pronoturno do Colegiado de Graduação em Física (PN17). <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Thonimar Vieira de Alencar Souza. <b>Programa de Tutoria do Sistema UAB no Curso de Química</b>. (Fisica) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9836600520728479">Wilson Reis Junior</a>. <b>Três Aspectos Fundamentais da Bolha Local</b>. Tese (Doutorado em Física) - Universidade Federal de Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alexandre Ferreira de Freitas Lages. <b>Programa de Tutoria do Sistema UAB</b>. (Física) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alexandre Lucas Soares Barbosa. <b>PMG 96 - Monitoria de Graduação</b>. (Engenharia Mecânica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Alysson Gustavo Lima Nascimento. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Andre Luis Ribeiro Lucio. <b>PMG 96 - Monitoria de Graduação</b>. (Engenharia de Controle e Automação) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Augusto Aires Simões. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Breno Henrique de Meira Torres. <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Caio Cesar Pereira Vargas Liguori. <b>PMG 96 - Monitoria de Graduação</b>. (Engenharia Aeroespacial) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Danúbia Telles Braga. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Elaine Cristina Fonseca Bretz. <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fagner Ferreira Pinto. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Felipe Oliveira Castro. <b>PMG 96 - Monitoria de Graduação</b>. (Engenharia Mecânica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Gustavo Henrique de Araújo Lima. <b>Programa de Tutoria do Sistema UAB</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Helvécio Geovani Fargnoli Filho. <b>Programa de Tutoria do Sistema UAB</b>. (Fisica) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Héder José Ribeiro. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Jason Bragança Goncalves. <b>PMG 96 - Monitoria de Graduação</b>. (Engenharia Mecânica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Jonatas Francisco de Souza. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Ludmila Silva Brighenti. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Luiza Heleza Silva Vidigal. <b>Programa de Tutoria do Sistema UAB</b>. (Matemática) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Mônica dos Santos Cruz. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Nathalia Nazareth Junqueira Fonseca. <b>Programa de Tutoria do Sistema UAB</b>. (Fisica) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Paulo Fernando Gomes de Oliveira. <b>Elaboração de material didático para as disciplinas de física básica ? modalidade semipresencial</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Roney Rachide Nunes. <b>Programa de Tutoria do Sistema UAB</b>. (Matemática) - Universidade Federal de Minas Gerais, . 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Suellen Cristina Moreira Sales. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Thonimar Vieira de Alencar Souza. <b>Programa de Tutoria do Sistema UAB</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Tiago Alvim Jota. <b>Determinação do período de pulsação da estrela jovem Ae de Herbig HR 5999</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Ubirajara de Oliveira. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Wanderson Silva de Oliveira. <b>Programa de Tutoria do Sistema UAB</b>. (Matemática) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7834697572852953">Fabio Pereira Santos</a>. <b>Propriedades Polarimétricas da Zona de Interação entre as Bolhas Local e Loop I</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mateus de Souza Angelo. <b>Determinação de Parâmetros Físicos de Aglomerados Abertos</b>. (Graduando em Fisica) - Universidade Federal de Minas Gerais, . 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Tauanne Dias Amarante. <b>Programa de Monitoria de Graduação.</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Tiago Alvim Jota. <b>Fotometria de Estrelas Ae/Be de Herbig</b>. (Graduando em Fisica) - Universidade Federal de Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2009.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>André Gustavo de Oliveira. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Breno M.S. Teixeira. <b>Estudo da variabilidade fotométrica da estrela T Tauri DF Tau</b>. (Graduando em Fisica) - Universidade Federal de Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carolina Carvalho de Souza. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cristiane de Oliveira Costa. <b>A Banda Interestelar Difusa 6613 Angstroms nas Estrelas Ae/Be de Herbig do PDS</b>. Dissertação (Mestrado em Física e Matemática Aplicada) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Danúbia Telles Braga. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Edimilson Helton Rios. <b>PMG ? Ensino à Distância: Fundamentos de Mecânica de Sólidos e Fluídos / Fundamentos de Mecânica Ondulatória / Fundamentos de Óptica</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Elaine Cristina Fonseca Bretz. <b>PRONOTURNO</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Fagner Ferreira Pinto. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Isabela Moreira Silva. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Ludmila Silva Brighenti. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mônica dos Santos Cruz. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Pauline Telles McGinnis. <b>Variabilidade Fotométrica da Estrela Orionis</b>. (Graduando em Fisica) - Universidade Federal de Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Ralph Gruppi Thomé. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Rodrigo Damasceno Guedes. <b>Tutoria Ensino à Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Vanessa Isabel Penha de Moura. <b>Programa de Tutoria do Sistema UAB</b>. (Ciências Biológicas) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Wanderson Silva de Oliveira. <b>PMG-85 Programa de Monitoria de Graduação 2007 - Departamento de Física</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2008.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Elaine Cristina Fonseca Bretz. <b>Elaboração de um livro Didático para o Ensino a Distância da Disciplina de Física: Oscilações, Ondas e Óptica a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5722721476354670">Francisco Ferreira de Souza Maia</a>. <b>Caracterização dos Aglomerados Abertos Jovens NGC 1981 e Dolidze-Dzim 1 usando Fotometria BVRI</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gabriel Almeida. <b>Variabilidade Fotométrica da Estrela RY Tau</b>. (Graduando em Fisica) - Universidade Federal de Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Petrus Bonato de Almeida. <b>PEG74 - ELABORAÇÃO DE UM LIVRO DIDÁTICO PARA O ENSINO A DISTÂNCIA DA DISCIPLINA DE FÍSICA BÁSICA OSCILAÇÕES, ONDAS E ÓPTICA</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Raul Simões. <b>Elaboração de um livro didático para a disciplina de Oscilações, Ondas e Óptica a Distância</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9836600520728479">Wilson Reis Jr</a>. <b>Mapeamento da Interface entre as Bolhas Local e Loop I utilizando Fotometria Strömgren</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Antonio Marcos de Lacerda. <b>Projeto Piloto de Implementação da Disciplina de Fundamentos de Ondas e Óptica à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fabio Pereira Santos. <b>Seleção de Alvos para o Programa Adicional do Satélite COROT</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, Fundação de Amparo à Pesquisa do Estado de Minas Gerais. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Igor Batalha de Magalhaes. <b>Apoio didatico aos modulos de fisica básica: implementacao da disciplina fundamentos de ondas e optica a distancia</b>. (Engenharia Civil) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Marcelo Angelo Diniz Alessio. <b>Apoio Didatico aos Modulos de Fisica Basica: implementaçao da disciplina fundamentos de ondas e optica a distancia</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Petrus Bonato de Almeida. <b>Implementacao da disciplina fundamentos de solidos e fluidos a distancia</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Raul Simoes. <b>Implementacao da disciplina fundamentos de solidos e fluidos a distancia</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Wanderson Silva de Oliveira. <b>Apoio didatico aos modulos de fisica básica: implementacao da disciplina fundamentos de ondas e optica a distancia</b>. (Fisica) - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Luiza Carvalho. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Ondas e Óptica à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Marcelo Angelo Diniz Alessio. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Ondas e Óptica à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Rodrigo Damasceno Guedes. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Sólidos e Fluidos à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Roneirobson Santos Suassuna. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Sólidos e Fluidos à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Samira Henriques Haddad. <b>Pulsações em Estrelas Ae/Be de Herbig</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Silvio Mendes Arruda. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Sólidos e Fluidos à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Thiago Alonso Merici. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Sólidos e Fluidos à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Walison Duarte. <b>Projeto Piloto de Implementação do Curso de Fundamentos de Sólidos e Fluidos à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2005.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Luiza Carvalho. <b>Projeto Piloto de Implementação da Disciplina de Fundamentos de Sólidos e Fluidos à Distância</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Douglas Rodrigues Miquita. <b>Estágio Docência: Disciplina Fundamentos de Termodinâmica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Helvécio Fargnoli. <b>Apoio Didático aos Módulos de Física Básica: Fundamentos de Mecânica Ondulatória</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Julio Cesar Siqueira Rocha. <b>Fotometria BVRI de Aglomerados Abertos Jovensl</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Luciano Nogueira. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7669967284860729">Marcelo Medeiros Guimarães</a>. <b>Estudo de Eventos de Acresção de Matéria em Estrelas Pré-Sequência Principal Ae/Be de Herbig</b>. Dissertação (Mestrado em Física) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Natália Cosse Batista. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Pró Reitoria de Graduação, Pró Reitoria de Graduação. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Nivea Renata Alencar de Freitas. <b>Bandas Interestelares Difusas nas HAeBes do PDS</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Roneirobson Santos Suassuna. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Saulo Milani. <b>Propriedades Polarimétricas do Meio Interestelar na direção das nuvens escuras Saco de Carvão, Chamaeleon e Musca</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Thiago Alonso Merici. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, . 2004.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Daniel Ângelo Avelino. <b>Aglomerados de Estrelas como base para o Estudo de Populações Estelares</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Eduardo Luciano Gomes. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Igor Machado Malaquias. <b>Rádio Telescópio Automatizado</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Sérgio Luiz Araújo Vieira. <b></b>. Universidade Federal de Minas Gerais, . 2003.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Wallace Santos Lages. <b>Rádio Telescópio Automatizado</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, . 2003.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carolina Conceição Costa. <b>Uma proposta de ensino de astronomia</b>. (Graduação em Física) - Universidade Federal de Minas Gerais, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carolina Conceição Costa. <b>Propriedades Polarimétricas do Meio Interestelar Local na Direção das Nuvens Escuras Saco de Carvão e Chamaeleon-Musca</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fabian Unterumberger. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fernando Lugão Veltem. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Helder Heleno Ferreira. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Lister Fleury de Oliveira Laranjo. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Luciano Nogueira. <b>Monitoria de Graduação - Projeto PID</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Luiz Gustavo Cançado. <b>Monitoria de Pós-Graduação</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ricardo de Aguilar Lopes Chácara. <b>Acompanhamento Sistemático de Estrelas Candidatas ao Grupo Ae/Be de Herbig</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Wadan Halen Morae e Feu. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Pró Reitoria de Graduação. 2002.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carolina Conceição Costa. <b>Projeto de Astronomia : Um Relato de Experiência em Pedagogia de Projetos</b>. (Graduação em Física) - Universidade Federal de Minas Gerais, . 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fabian Unterumberger. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Universidade Federal de Minas Gerais. 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fernando Lugão Veltem. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Universidade Federal de Minas Gerais. 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Lister Fleury de Oliveira Laranjo. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Universidade Federal de Minas Gerais. 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Marcelo Medeiros Guimarães. <b>Apoio Didático aos Módulos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Universidade Federal de Minas Gerais. 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Sérgio Luiz Araújo Vieira. <b>Investigation of 131 Herbig Candidates</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, . 2001.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carolina Conceição Costa. <b>Propriedades Polarimétricas do Meio Interestelar Local na Direção das Nuvens Escuras Saco de Carvão e Chamaeleon-Musca</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2000.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Frederico Gadelha Guimarães. <b>Implantação da Estrutura Modular nos Cursos de Física Básica</b>. Orientação de outra natureza - Universidade Federal de Minas Gerais, Universidade Federal de Minas Gerais. 2000.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Humberto de Castro Lopes. <b>UMA PROPOSTA DE ENSINO DOS PRINCÍPIOS DA COSMOLOGIA MODERNA NO NÍVEL MÉDIO</b>. (Graduação em Física) - Universidade Federal de Minas Gerais, . 2000.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Marcelo Medeiros Guimarães. <b>A Zona de Interação entre a a Bolha Local e a Bolha Loop I</b>. (Graduando em Física) - Universidade Federal de Minas Gerais, . 2000.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 30/09/2024 14:03:32<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

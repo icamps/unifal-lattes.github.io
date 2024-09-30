@@ -1,0 +1,223 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de projetos de pesquisa'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1998,
+1],
+[2001,
+1],
+[2002,
+1],
+[2003,
+2],
+[2004,
+1],
+[2005,
+1],
+[2006,
+1],
+[2007,
+2],
+[2008,
+2],
+[2009,
+2],
+[2010,
+1],
+[2012,
+1],
+[2014,
+1],
+[2021,
+2],
+[2022,
+4]]}]});
+        });
+        </script>
+        
+                <h3>Total de projetos de pesquisa</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 23<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2022-Atual</span>. <b>Astronomia e robótica como pilares da pesquisa espacial e educação científica: promovendo o despertar dos futuros cientistas e engenheiros brasileiros</b><br><i><font size=-1>Descrição: Esta proposta é a fase 1 (infraestrutura) de um projeto que visa utilizar a astronomia e robótica como pilares da pesquisa espacial e da educação científica e tecnológica, promovendo o despertar de futuros cientistas e engenheiros brasileiros. Implantaremos a infraestrutura astronômica e de robótica no Laboratório Nacional de Astrofísica, através da instalação de laboratórios abertos multiusuários, cujos pilares são um telescópio robótico e uma estação educacional de robótica. Esta será a base para a fase2 que é inspirar educadores e alunos a se aprofundarem em conteúdos de CT&I com uso de metodologias ativas, para um aprendizado mais interessante, atrativo e significativo. Sob a supervisão de pesquisadores será incentivada a ciência cidadã, onde a sociedade participa ativamente de pesquisas científicas. Isso induzirá a melhoria da qualidade da educação básica e o despertar de vocações científico tecnológicas com acesso aberto à infraestrutura de CT&I nacional.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Eder Martioli - Integrante / Alberto Rodríguez-Ardila - Integrante / Luciano Fraga - Integrante / Bruno Vaz Castilho de Souza - Integrante / Giuliana Capistrano Cunha Mendes de Andrade - Integrante / Wagner José Corradi Barbosa - Coordenador / Maximiliano Faúndez Abans - Integrante / Mariângela de Oliveira Abans - Integrante / Clemens Darwin Gneiding - Integrante / Saulo Roberly Gargaglioni - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><span class="projects">2022-Atual</span>. <b>Conduzindo a astronomia brasileira ao patamar de excelência mundial: desenvolvimento de equipamentos multiusuários</b><br><i><font size=-1>Descrição: O Laboratório Nacional de Astrofísica tem sido imprescindível no processo de inserção do Brasil na astronomia internacional, principalmente através da construção e gerenciamento de infraestrutura astronômica observacional, por meio da qual são coletados dados para o desenvolvimento de pesquisas científicas nas mais variadas áreas da astrofísica. O LNA é responsável pela operação do Observatório do Pico dos Dias, e gerencia a participação brasileira nos consórcios internacionais SOAR (Chile) e Gemini (Chile e Havaí). Para atender as demandas científicas da comunidade brasileira por equipamentos capazes de expandir as fronteiras do conhecimento humano, o LNA investiu em novos laboratórios e capacitou sua equipe, sendo hoje referência nacional e internacional em instrumentação astronômica. Em cooperação com a comunidade científica nacional e internacional, e atendendo os interesses comuns destes, este Laboratório vem desenvolvendo novos instrumentos que representam avanços tecnológicos na área de instrumentação astronômica. Quando disponibilizados, representarão avanços científicos na área de astrofísica. Esta proposta visa obter apoio para acelerar e assegurar a finalização dos espectrógrafos de alta resolução STELES e ECHARPE, instalar o polarímetro SPARC4 no OPD, atualizar a eletrônica do espectrógrafo de campo integral do SOAR (SIFS), contribuir com o desenvolvimento do CUBES e participar do desenho conceitual do maior espectrógrafo em construção no mundo, MOSAIC. Alguns desses projetos possuem financiamento parcial de outras agências de fomento, entretanto, seu desenvolvimento foi seriamente afetado pela alta do dólar e pela pandemia. A motivação desse projeto é disponibilizar esses instrumentos para que a comunidade astronômica brasileira possa desenvolver projetos científicos de alto impacto, de forma independente ou em condições de maior igualdade nas parcerias científicas.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Eder Martioli - Coordenador / Luciano Fraga - Integrante / Alberto Rodriguez Ardila - Integrante / Bruno Vaz Castilho de Souza - Integrante / Clemens Darvin Gneiding - Integrante / Giuliana Capistrano Cunha Mendes de Andrade - Integrante / Leandro de Almeida - Integrante / Marcos Antonio Fonseca Faria - Integrante / Wagner José Corradi Barbosa - Integrante. Financiador(es): Associação dos Servidores do CNPq - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><span class="projects">2022-Atual</span>. <b>Implantação e Operacionalização do Telescópio Robótico AZ800 do Observatório do Pico dos Dias (OPD)</b><br><i><font size=-1>Descrição: O LNA é a Unidade de Pesquisa do MCTI que tem a missão de fornecer à comunidade astronômica brasileira a infraestrutura e os meios para a pesquisa competitiva em astronomia observacional óptica e infravermelha. Nós cumprimos esta tarefa operando e gerenciando o Observatório do Pico dos Dias, e gerenciando a participação brasileira nos observatórios internacionais do Gemini (Chile e Havaí) e SOAR (Chile). Os telescópios são oferecidos na forma de equipamentos multiusuários abertos, cujo acesso é realizado por meio de projetos científicos analisados por comissão de especialistas independentes. Um processo que possuímos mais de três décadas de experiência. Esta proposta destina-se a oferecer à comunidade científica brasileira um telescópio robótico de 0,8 metros de diâmetro de última geração equipado com um sistema de aquisição capaz de obter imagens simultâneas em múltiplas bandas espectrais. O telescópio será operado de forma autônoma, otimizado para a realização de surveys fotométricos e alvos de oportunidade para acompanhamento dos grandes levantamentos fotométricos em operação e planejamento. Este instrumento aberto multiusuário (com acesso nacional por mérito científico) abrirá novas possibilidades científicas para a astronomia brasileira e terá sinergias com a infraestrutura já instalada no país e com os consórcios internacionais nos quais o Brasil é parceiro.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Eder Martioli - Coordenador / Alberto Rodríguez-Ardila - Integrante / Luciano Fraga - Integrante / Bruno Vaz Castilho de Souza - Integrante / Wagner José Corradi Barbosa - Integrante / Mariângela de Oliveira Abans - Integrante / Clemens Darwin Gneiding - Integrante / Saulo Roberly Gargaglioni - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><span class="projects">2022-Atual</span>. <b>Investigando a Natureza de Transientes Multi- mensageiros com Observações Multibanda Coordenadas</b><br><i><font size=-1>Descrição: O objetivo deste projeto é integrar as instalações astronômicas em óptico, rádio, raios-X e raios-gama já existentes nos BRICS para realizar o acompanhamento e monitoramento coordenado de eventos transientes e multimensageiros (MM) ? tais como os associados a neutrinos, raios cósmicos e ondas gravitacionais (GW) ? a fim de estudar as propriedades de objetos astrofísicos variáveis e explosivos. Além dos sinais MM, o caso científico para o projeto se concentrará na observação de Fast Radio Bursts (FRBs), Gamma-ray Bursts (GRBs), Active Galactic Nuclei (AGN) e sistemas de binárias estelares em interação. Em particular, o projeto visa utilizar esta rede observacional global multi-banda espalhada pelos BRICS para apoiar o próximo run O4 dos observatórios LIGO-VIRGO-KAGRA (LVK) de ondas gravitacionais. Os objetivos científicos do projeto serão alcançados pelo planejamento e condução de campanhas multibanda coordenadas envolvendo as instalações e cientistas participantes nos cinco países dos BRICS, por meio do estabelecimento de uma rede de cooperação para programas observacionais conjuntos. Essa rede de observatórios dos BRICS será única no sentido de que cobrirá todo o espectro eletromagnético (EM), bem como uma faixa global de latitudes e longitudes, fornecendo assim uma cobertura espaço-temporal completa do céu, para acompanhamento e monitoramento de fontes variáveis. Do lado brasileiro, vários observatórios serão integrados nesta rede de infraestrutura dos BRICS, como o Observatório Pico dos Dias (OPD/LNA), o Radio-Observatório Pierre Kaufmann (ROPK), o futuro Radiotelescópio LLAMA e o SOAR/LNA. O observatório de raios- gama MAGIC, do qual o Coordenador deste projeto é membro, também será envolvido no projeto pelo lado brasileiro. A operação coordenada da rede e a integração de big data dos produtos observacionais serão feitas no nível de software usando protocolos do Observatório Virtual (VO) e ferramentas de machine learning (ML) para otimização. O Consórcio BRICS criado por meio deste projeto envolverá equipes de várias instituições e instalações astronômicas com uma vasta experiência em astronomia observacional. O projeto terá grande impacto na formação de alunos e treinamento de pessoas, especialmente em ferramentas de ciências de dados e computação de alto desempenho (HPC). Também gerará oportunidades para jovens cientistas participarem de projetos internacionais impactantes e colaborativos junto aos parceiros BRICS. Coordenador Russia: Alexei Pozanenko, IKI/RAS Coordenador India: Kuntal Misra, ARIES/DST (P.I. Joint Application Form) Coordenador China: Roberto Soria, UCAS Coordenador África do Sul: David Buckley, SAAO/UCT (P.I. BRICS Flagship Project). Situação: Em andamento; Natureza: Pesquisa. Integrantes: Wagner José Corradi Barbosa - Coordenador / Reis, Wilson - Integrante / Bruno Vaz Castilho de Souza - Integrante / DOMINICI, TANIA P. - Integrante / Ulisses Barres de Almeida - Integrante / Claudia Vilega Rodrigues - Integrante / Zulema Abraham - Integrante / Odylio D Aguiar - Integrante / Nelio Sasaki - Integrante / Alexei Pozanenko - Integrante / Kuntal Misra - Integrante / Roberto Soria - Integrante / David Buckley - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2021-Atual</span>. <b>Apoio ao desenvolvimento de equipamentos multiusuários para a astronomia brasileira</b><br><i><font size=-1>Descrição: Fapemig Demanda Universal 0001/2021 (APQ-02423-21) Apoio ao desenvolvimento de equipamentos multiusuários para a astronomia brasileira Vigência: 17/09/2021 - 17/09/2024 R$ 75.496,00 Função: Comissionamento dos espectrógrafos STELES, ECHARPE e do polarímetro SPARC4.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Wagner José Corradi Barbosa - Integrante / Bruno Vaz de Castilho - Integrante / GNEIDING, CLEMENS D. - Integrante / Luciano Fraga - Coordenador / Eder Martioli - Integrante / Jesulino Bispo dos Santos - Integrante / ALBERTO RODRIGUEZ ARDILA - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><span class="projects">2021-Atual</span>. <b>Conduzindo a astronomia brasileira ao patamar de excelência mundial: desenvolvimento de equipamentos multiusuários</b><br><i><font size=-1>Descrição: Chamada CNPq/MCTI/FNDCT No 18/2021 - Faixa B - Grupos Consolidados (Universal 2021) Conduzindo a astronomia brasileira ao patamar de excelência mundial: desenvolvimento de equipamentos multiusuários Vigência: 03/12/2021 - 03/dez/2024 R$ 270.245,00 Função: Comissionamento dos espectrógrafos STELES, ECHARPE e do polarímetro SPARC4, orientador de um dos estudantes de IC e gestão.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Wagner José Corradi Barbosa - Integrante / Bruno Vaz de Castilho - Integrante / GNEIDING, CLEMENS D. - Integrante / Luciano Fraga - Integrante / Eder Martioli - Integrante / Jesulino Bispo dos Santos - Integrante / ALBERTO RODRIGUEZ ARDILA - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2014-2018</span>. <b>Participação brasileira no desenvolvimento do espectro-polarímetro infravermelho de alta resolução SPIRou</b><br><i><font size=-1>Descrição: O SPIRou é um espectro-polarímetro de dispersão cruzada de alta-resolução (R~75K) que cobrirá toda a região do infravermelho próximo, ou seja, desde ~0,98 até 2,35 microns. Este instrumento será alimentado por fibras ópticas, que coletam luz a partir do telescópio CFHT de 3,6 m situado no Mauna Kea, Havaí. O SPIRou será instalado no terceiro andar do observatório dentro de uma câmara criogênica com controle térmico e estabilidade da ordem de 1 mili-Kelvin. A estabilidade do SPIRou, juntamente com fontes de calibração simultânea, possibilitará sua utilização como um velocímetro de alta precisão (~1 m/s) otimizado para a deteção de planetas na zona habitável semelhantes à Terra, em órbita de estrelas anãs vermelhas próximas. O SPIRou no modo polarimétrico será também um instrumento único capaz de obter espectros de polarização (Stokes Q, U e V) de regiões internas de formação estelar, estrelas jovens e sistemas planetários em formação. O SPIRou é um projeto de colaboração internacional liderado pela França que envolve, além do CFHT, os seguintes países: Canadá, Suíça, Brasil, Taiwan e Portugal. A construção do SPIRou se iniciou em abril de 2014, sua integração será feita em 2016 nos laboratórios de Toulouse, na França, e em 2017 está programada a primeira luz desse instrumento. No Brasil, o Laboratório Nacional de Astrofísica (LNA/MCTI), a Universidade Federal de Minas Gerais (UFMG) e a Universidade Federal do Rio Grande do Norte (UFRN) participarão no desenvolvimento das fibras ópticas no infravermelho e fornecerão os elementos dispersivos do espectrógrafo, tais como o prisma e a rede de difração do tipo echelle, além de outras contribuições técnico-científicas em várias etapas do projeto.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Eder Martioli - Coordenador / Castilho, B. V. - Integrante / ALENCAR, SILVIA H. P. - Integrante / DO NASCIMENTO, JOSÉ-DIAZ - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2728001193575385">Eder Martioli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2012-Atual</span>. <b>Bolhas Interestelares e Objetos Estelares Jovens</b><br><i><font size=-1>Descrição: Na direção da associação Scorpio-Centaurus, foi proposta a existência de uma interface entre duas bolhas interestelares: uma na qual estaríamos embebidos (Bolha Local) e sua vizinha (Bolha Loop I). Segundo os dados de raios-X e de HI haveria uma região anular densa envolvendo a interface. Recentemente mostramos que as estruturas que compõem a suposta interface estão localizadas a distâncias muito diferentes, e com orientação do campo magnético incompatível com o modelo vigente há quase duas décadas. Esse resultado nos levou a estudar a região vizinha, onde se encontra a Superbolha Órion-Eridanus (SO-E). Na direção da SO-E, há ndicações que a distância e o relacionamento físico das regiões que comporiam o contorno da superbolha são também discrepantes. Para corrobar tais resultados propomos investigar o avermelhamento interestelar e o campo magnético na direção da SO-E, visando definir com maior cobertura espacial a distância das diferentes partes da suposta interface. Nos anos 90 foi realizada no Brasil uma campanha observacional para a procura de objetos estelares jovens no Hemisfério Sul, conhecida como Pico dos Dias Survey. Muitas novas estrelas T Tauri foram identificadas juntamente com mais de 100 novas candidatas a estrelas Ae/Be de Herbig (HAeBe). Em 2003, nossa análise da natureza dessas estrelas HAeBe resultou no maior catálogo de objetos de massa intermediária do Hemisfério Sul. Esse catálogo nos oferece uma oportunidade única e estatisticamente significante de melhorar o conhecimento sobre a natureza das HAeBe. Assim sendo, pretendemos: 1. analisar as séries temporais de dados espectroscópicos coletados no ESO para entender o processo de acreção de matéria e as pulsações; 2. investigar a deficiênciia de bandas interestelares difusas no ambiente circunstelar; 3. aumentar a base de dados de aglomerados abertos jovens com parâmetros físicos bem determinados, utilizando nosso método de descontaminação de Diagramas Cor-Magnitude, para buscar novas HAeBe.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Doutorado: (2) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Fabio Pereira Santos - Integrante / Cristiane de Oliveira Costa - Integrante / Reis, Wilson - Integrante / Francisco Ferreira de Souza Maia - Integrante / Mateus de Souza Angelo - Integrante / Filipe Andrade Ferreira - Integrante / leandra de souza resende - Integrante / igor yuri rocha ribeiro - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 7 / Número de orientações: 1</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2010-Atual</span>. <b>Estudos em Educação a Distância</b><br><i><font size=-1>Descrição: Esta linha de pesquisa tem como objetivo analisar os processos da EaD: repercussões, processos avaliativos, trabalho docente e relações interpesoais, assim como fortalecer as pesquisas teóricas sobre essa modalidade de ensino.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (2) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Rodrigo Dias Társia - Integrante / Silvia Helena Paixão Alencar - Integrante / Carlos Basilio Pinheiro - Integrante / Reinaldo Oliveira Vianna - Integrante / FERNANDO SELMAR ROCHA FIDALGO - Integrante / PRISCILA REZENDE MOREIRA - Integrante / MARCELA ROSA DE LIMA MACHADO - Integrante / Fernanda Araújo Coutinho Campos - Integrante / Filipe Andrade Ferreira - Integrante / Sarah Faria Fernandes - Integrante / Eucidio Pimenta Arruda - Integrante / Raquel Quirino - Integrante / CRISTINA GONCALVES FERREIRA DE S DUTRA - Integrante / Cristina Alves Menezes Rocha - Integrante / rosilene oliveira de carvalho - Integrante / MARIA DAS GRAÇAS MOREIRA - Integrante / DESIRÉE ANTONIO - Integrante / ana carolina correia almeida - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa. Número de produções C, T & A: 78</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2009-Atual</span>. <b>Aglomerados de Estrelas como Base para o Estudo de Populações Estelares</b><br><i><font size=-1>Descrição: Análise de aglomerados da Via Láctea e Nuvens de Magalhães a partir de observações fotométricas e espectroscópicas para a determinação de seus parâmetros astrofísicos.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Wagner José Corradi Barbosa - Coordenador / João Francisco Coelho dos Santos Júnior - Integrante / André Lages - Integrante / Andrés Piatti - Integrante / Charles Bonatto - Integrante / Eduardo Bica - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><span class="projects">2009-Atual</span>. <b>Desenvolvimento do Espectrógrafo ECHARPE</b><br><i><font size=-1>Descrição: Construção do espectrógrafo ECHARPE, instrumento de alta resolução que será instalado no OPD e disponibilizado para a comunidade astronômica brasileira.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Wagner José Corradi Barbosa - Coordenador / Germano Quast - Integrante / Gustavo Porto de Mello - Integrante / Jorge Meléndez Moreno - Integrante / Tania Dominici - Integrante / Bruno Castilho - Integrante / Gabriel Franco - Integrante / José Dias do Nascimento - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2008-2011</span>. <b>Meio Interestelar Local e Estrelas Ae/Be de Herbig</b><br><i><font size=-1>Descrição: Projeto APQ-00154-08 R$ 25.970,08 Fapemig. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (3) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Cristiane de Oliveira Costa - Integrante / Maia, F. F. S. - Integrante / Santos, Fábio P. - Integrante / Reis, Wilson - Integrante / Tiago A. Jota - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 10</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><span class="projects">2008-2012</span>. <b>Spectroscopy of the galaxy VGC4703 B and associated bridge</b><br><i><font size=-1>Descrição: As observações, obbtidas com o telescópio GEMINI SUL, de 8m de abertura, começaral a ser analisadas. A redução dos dados está em andamento. O trabalho é uma conseguência da dissertação de mestrado de David Balparda de Carvalho, realizada sob orientação do Prof. Domingos Lima.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Wagner José Corradi Barbosa - Integrante / Domingos Sávio de Lima Soares - Coordenador / David Balparda de Carbalho - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2007-Atual</span>. <b>Acréscimo e Perda de Massa em Estrelas T Tauri Clássicas</b><br><i><font size=-1>Descrição: projeto de estudo da variabilidade fotométrica e espectroscópica de estrelas T Tau, com objetivo de construir um atlas de variabilidade Fapemig CEx 1148 - R$ 17.000,00. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) . Integrantes: Wagner José Corradi Barbosa - Integrante / Silvia Helena Paixão Alencar - Coordenador / Gabriel Almeida - Integrante / Breno M. S. Teixeira - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 2</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><span class="projects">2007-2008</span>. <b>Atlas de variabilidades de estrelas T Tauri clássicas</b><br><i><font size=-1>Descrição: Foi continuada a redução dos fotométricos como programa de iniciação científica de 2 estudantes. Os resultados preliminares do trabalho foram apresentados na reunião anual da Sociedade Astronômica Brasileira.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Doutorado: (2) . Integrantes: Wagner José Corradi Barbosa - Coordenador / BRENO DE MATOS BARBOSA SALES - Integrante / Silvia Helena Paixão Alencar - Integrante / Pauline Telles Mcginnis - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2006-2011</span>. <b>Estudo do aglomerado de estrelas Jovens NGC2264 com o Satélite COROT</b><br><i><font size=-1>Descrição: Analisar a variabilidade de estrelas jovens em várias escalar de tempo e suas estruturas circunstelares com dados do satélite europeu/brasileiro COROT. Foi feito o planejamento das observações do aglomerado jovem NGC2264 a serem realizadas pelo satélite. Situação: Concluído; Natureza: Pesquisa. Integrantes: Wagner José Corradi Barbosa - Coordenador / Silvia Helena Paixão Alencar - Integrante / Marcelo Medeiros Guimarães - Integrante / Fabio Favata - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2005-2007</span>. <b>Meio Interestelar Local e Formação de Estrelas Ae/Be de Herbig (2004-2007)</b><br><i><font size=-1>Descrição: Meio Interestelar e Formação de Estrelas Jovens Valor: R$ 30.000,00 Fapemig. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (2) / Mestrado profissional: (0) / Doutorado: (2) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Sérgio Luiz Araújo Vieira - Integrante / Silvia Helena Paixão Alencar - Integrante / Saulo Milani Pereira - Integrante / Fabio Pereira Santos - Integrante / Wilson Reis Júnior - Integrante / Francisco Ferreira de Souza Maia - Integrante / Cristiane de Oliveira Costa - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Bolsa / Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 19</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2004-2005</span>. <b>Meio Interestelar Local e Formação Estelar na Direção da Associação Scorpio-Centaurus</b><br><i><font size=-1>Descrição: Processo Fapemig EDT 1883/03 e Fundep 6505 Valor R$ 13.000,00. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Sérgio Luiz Araújo Vieira - Integrante / Silvia Helena Paixão Alencar - Integrante / Luiz Themýstokliz Sanctos Mendes - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro. Número de produções C, T & A: 10</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2003-2005</span>. <b>Colaborador: Condições Dinâmicas e Estruturais do Sistema Solar</b><br><i><font size=-1>Descrição: Estudo das evidências estruturais do sistema solar e existência de uma constante fundamental; análise teórica do significado das transformações de escala e analogia com outros sistemas planetários. Situação: Desativado; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Wagner José Corradi Barbosa - Integrante / Ramon Quiroga - Coordenador. Financiador(es): Universidade Federal de Minas Gerais - Outra.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><span class="projects">2003-2005</span>. <b>Meio Interestelar Local e Formação de Estrelas Ae/Be de Herbig</b><br><i><font size=-1>Descrição: Estudo do Meio Interestelar na direção da Associação Sco-Cen, Bolhas Local e Loop I ; técnicas: fotometria, espectroscopia e polarimetria Formação de Estrelas Ae/Be de Herbig: nascimento de modo isolado e em aglomerados abertos, distância das regiões de formação estelar, existência de bandas interestelares difusas, fenômenos de acresção.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (5) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Sérgio Luiz Araújo Vieira - Integrante / Marcelo Medeiros Guimarães - Integrante / Daniel Ângelo Avelino - Integrante / Nivea Renata Alencar de Freitas - Integrante / Julio Cesar Siqueira Rocha - Integrante / Saulo Milani Pereira - Integrante / Geraldo de Almeida Lima Neto - Integrante. Financiador(es): Pró Reitoria de Graduação - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 3</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2002-2003</span>. <b>Coordenador: Propriedades Físicas do Meio Interestelar Local na Direção da Sco-Cen</b><br><i><font size=-1>Descrição: Meio Interestelar Local: Interface das bolhas Local e Loop I; polarimetria Estrelas Ae/Be de Herbig: fenômenos de acresção, distância das regiões de formação estelar, DIBS, aglomerados abertos jovens.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Sérgio Luiz Araújo Vieira - Integrante / Marcelo Medeiros Guimarães - Integrante / Daniel Ângelo Avelino - Integrante / Julio Cesar Siqueira Rocha - Integrante. Financiador(es): Fundação de Desenvolvimento da Pesquisa - Auxílio financeiro. Número de produções C, T & A: 8</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2001-2003</span>. <b>Coordenador do projeto Propriedades Físicas do Meio Interestelar Local na direção da Associação de Estrelas OB Scorpio-Centaurus</b><br><i><font size=-1>Descrição: Estudo da zona de interação entre as bolhas Local e Loop I Busca de Estrelas Ae/Be de Herbig em Aglomerados Jovens Polarimetria de Estrelas na direção das nuvens escuras na direção da Sco-Cen Acompanhamento Espectroscópico das 131 novas estrelas Ae/Be de Herbig do PDS Valor: R$ 10000,00 - via Edital Universal 2001.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Wagner José Corradi Barbosa - Coordenador / João Francisco Coelho dos Santos Jr - Integrante / Sérgio Luiz Araújo Vieira - Integrante / Silvia Helena Paixão Alencar - Integrante / Marcelo Medeiros Guimarães - Integrante / Luiz Themýstokliz Sanctos Mendes - Integrante / Ricardo de Aguilar Lopes Chácara - Integrante / Daniel Ângelo Avelino - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 18</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">1998-2001</span>. <b>Física do Meio Interestelar e Formação Estelar (2001)</b><br><i><font size=-1>Descrição: propriedades físicas do meio interestelar local na direção da associação Sco-Cen. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Wagner José Corradi Barbosa - Coordenador / Sérgio Luiz Araújo Vieira - Integrante / Marcelo Medeiros Guimarães - Integrante / Carolina Conceição Costa - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 14</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1643888402032845">Wagner José Corradi Barbosa</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 30/09/2024 14:03:32<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

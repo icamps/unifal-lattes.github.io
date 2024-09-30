@@ -1,0 +1,589 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>UNIFEI</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>UNIFEI</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de participação em eventos'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[1997,
+1],
+[1998,
+1],
+[1999,
+1],
+[2000,
+1],
+[2001,
+2],
+[2002,
+4],
+[2003,
+6],
+[2004,
+9],
+[2005,
+8],
+[2006,
+5],
+[2007,
+9],
+[2008,
+8],
+[2009,
+6],
+[2010,
+11],
+[2011,
+15],
+[2012,
+12],
+[2013,
+18],
+[2014,
+16],
+[2015,
+17],
+[2016,
+11],
+[2017,
+19],
+[2018,
+12],
+[2019,
+3],
+[2020,
+2]]}]});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 197<br>
+                    
+                    
+                    <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ExoSystèmes I - Evolution.Follow-up of transiting exoplanets with SPIRou. 2020. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fourth SPIRou science meeting.RM effect of the close-in transiting planet AU Mic b. 2020. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ciclo de seminários do Programa de Pós Graduação em Física dos Materiais.Aglomerados abertos e meio interestelar. 2019. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Reunião Anual da Sociedade Astronômica Brasileira - SAB 2019. Variabilidade Espectroscópica nas Estrelas Ae/Be de Herbig HD145169, HD144432. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>VII Encontro de Física e Astronomia da UFSC.A instrumentação astronômica desenvolvida no LNA. 2019. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1a. Reunião Extraordinária do Fórum Nacional de Coordenadores UAB - ForUAB. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AstroWorkshop UNIFEI,.Telescópios: passado, presente e futuro. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>II CONEXED - Colóquio de Extensão Universitária na Educação a Distância.Consolidação da Extensão Universitária na EaD - UFMG. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Reunião da Secretaria de Educação a Distância da FURG.Desafios e Perspectivas no Desenvolvimento de Disciplinas a Distância ou Semipresenciais. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Science with SOAR and GEMINI Telescopes: Preparing for the GMT. Overall status and result from the commissioning and early science of SIFS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Semana Ser Professor/A da Faculdade de Educação da UFMG.A Educação a Distancia e os Desafios do Tempo Presente. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Seminário Pesquisa para quê? Extensão para quem? - Mesa.Impacto da Extensão Universitária na EaD: Programa Aproxime-se. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Simpósio Tecnologias e Educação a Distância no Ensino Superior.A Educação a Distância na UFMG. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Workshop Pesquisadores Pioneiros do LNA.Meio Interestelar e Formação Estelar: Estrelas Ae/Be de Herbig do PDS. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XXI Encontro de Extensão 2018.Contribuições do Programa Aproxime-se. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXII Semana da Graduação da UFMG. Programa de Monitoria da Graduação da Diretoria do CAED: Apoio Institucional do CAED às disciplinas dos cursos de graduação a distância. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXII Semana da Graduação da UFMG.Avaliação de Trabalhos da XXII Semana da Graduação da UFMG. 2018. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>23o. CIAED - Congresso Internacional de Educação a Distância. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2o. Seminário e 2a. Mostra AVAS21: ensino mediado por tecnologia e a expansão da sala de aula.A Universidade e o Aprendizado mediado por Tecnologias para a Graduação. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>69a ReunIão Anual da Sociedade Brasileira para o Progresso da Ciência. Minicurso Astonomia na Escola. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Atividades Acadêmicas Complementares.Como a EaD pode contribuir para a formação do aluno do noturno?. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Audiência Pública da Assembleia Legistativa de Minas Gerais: Comissão de Direitos Humanos debate a obra Diálogos possíveis sobre a pedagogia e o direito.Política de Educação a Distância na UFMG. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Congresso Nacional Universidade, EAD e Software Livre: UEADSL 2016.2. Boas Vindas do CAED ao UEADSL. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Encontro Nacional do PROFBIO - 2017.Plataforma Moodle - CAEDVirtual. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Fórum de Internacionalização da UEMG: Diretrizes e Estratégias.GT4: Colaboração Internacional como Estratégia para Inovação. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Seminário Práticas Pedagógicas no Ensino Superior. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Seminário Diálogos sobre EaD: as práticas pedagógicas.A Educação a Distância nas Instituições Públicas de Ensino Superior: perspectivas para uma política de estado. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III CIM - Congresso de Inovação e Metodologias no Ensino Superior. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>III PromovEAD - Educação Aberta e a Distância em uma perspectiva institucional e de comunicação em rede.A Comunicação da Educação a Distância na UFMG: ações, resultados, perspectivas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Minas em diálogo: edição especial - Dialogando Direitos Humanos.A educação a distância na UFMG. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Reunião Extraordinária do Fórum dos Coordenadores da Universidade Aberta - FoRUAB. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SBPC Educação 2017.Astronomia na Escola: Uma Visão Geral do Universo: Uma Visão Geral do Universo. 2017. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SBPC Jovem - 69a. Reunião Anual da SBPC. ESTANDE DA ASTRONOMIA (Sociedade Astronômica Brasileira). 2017. (Exposição).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>WORKSHOP ON SOAR SCIENCE 2020. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIV Congresso Brasileiro de Ensino Superior a Distância (ESUD 2017) e III Congresso Internacional de Educação Superior a Distância (CIESUD 2017). Avaliação de Trabalhos do ESUD e CIESUD 2017. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XVI Jornada de Extensão da UFMG - Extensão Contemporânea: Experiências de Transformação.O Programa Aproxime-se. 2017. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>4a. Reunião Extraordinária de Coordenadores UAB. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>9a. Reunião Ordinária do Fórum de Coordenadores UAB. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro "Integração entre Pós-Graduação e Educação Básica: O Ensino de Biologia em Evidência".Parceria PROFBIO, CAED e GIZ. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro Regional de Sete Lagoas do Fórum Técnico do Plano Estadual de Educação.Proposta de Emendas ao Plano Estadual de Educação. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Etapa Final do Fórum Técnico do Plano Estadual de Educação.Mesa Diretora: Votação das Emendas ao Plano Estadual de Educação. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>II Congresso de Inovação e Metodologia de Ensino. Comunicação Oral do Congresso de Inovação e Metodologias de Ensino - GC11. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>III Semana Universitária da UNILAB.Conjuntura Atual da UAB e o Ensino Não Presencial na UFMG. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Workshop UK-Brazil partnership on astronomical instrumentation.SPIRou Project at LNA. 2016. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XIII Congresso Brasileiro de Educação Superior a Distância (ESUD) e II Congresso Internacional de Educação Superior a Distância (CIESUD). As Tendências Tecnológicas na Educação Superior a Distância. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XIII Congresso Brasileiro de Educação Superior a Distância (ESUD) e II Congresso Internacional de Educação Superior a Distância (CIESUD). Avaliação de Trabalhos do ESUD e CIESUD 2016. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XIX Encontro de Extensão da UFMG.O Papel das Mídias Sociais no Combate ao Bullying nas Escolas. 2016. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>15 años de Ciencia con Gemini en Argentina. Espectroscopía de alta resolución con el nuevo instrumento GRACES. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1a. Reunião Extraordinária do Fórum Nacional de Coordenadores UAB 2015. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>22o. BETT Brasil/ Educar 2015. Os Ambientes Virtuais de Aprendizagem (AVA) e as Abordagens Centradas no Aluno: Os impactos da Colaboração nos AVA no Rendimento Escolar. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>3a. Reunião do Fórum Nacional dos Coordenadores UAB - ForUAB. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>8o. Fórum Nacional de Coordenadores do Sistema Universidade Aberta do Brasil (UAB). 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>EAD: virtudes e desafios. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Congresso de Inovação e Metodologias de Ensino. Comunicação Oral do Congresso de Inovação e Metodologias de Ensino - Eixo Temático Flexibilização Curricular e Materiais Didáticos. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Fórum de Ações Afirmativas de Minas Gerais. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Seminário de Formação Continuada da UFMG. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Simpósio Internacional - Compartilhamento de práticas e saberes em EaD: IES Públicas Brasileiiras e UAb.Práticas e Saberes em EaD. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>IAU XXIX GENERAL ASSEMBLY - FM 8 ? Statistics and Exoplanets. A statistical study of quantities that affect the precision of near infrared photometry for the detection of secondary eclipses. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PromovEad - Discutindo a visibilidade da EaD Pública no Brasil.Panorama da receptividade da EaD no Brasil, dificuldades e desafios para a visibilidade/crescimento da modalidade. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Seminário Diálogos sobre EaD: Práticas Pedagógicas.Diálogos sobre EaD: Ensino não Presencial na UFMG. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Seminário IEAT 2015.Ensino Não Presencial na UFMG. 2015. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Universidade, EaD e Software Livre UEADSL 2015.1. Conhecendo as Ações de Educação a Distância da UFMG. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VIII Simpósio Acadêmico de Química.Desafios e Perspectiva para o Ensino de Química a Distância. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Workshop do Observatório Pico dos Dias - Observação e Instrumentação.Redução de Dados Echelle. 2015. (Oficina).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1a. Reunião Extraordinária do Fórum Nacional dos Coordenadores da Universidade Aberta do Brasil. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1o. Seminário de Educação e Tecnologias: DISCUTINDO DIRETRIZES DA EDUCAÇÃO BÁSICA, BUSCANDO NOVAS POSSIBILIDADES PARA A EaD. 2014. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>7o Fórum Nacional de Coordenadores do Sistema Universidade Aberta do Brasil (UAB). 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro das Instituições de Ensino Superio/Região Sudeste integrantes do Sistema UAB com a CGFO/CAPESra. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ESUD 2014 - XI Congresso Brasileiro de Educação Superior a Distância. Disciplinas Semipresenciais do Ciclo Básico de Física: Desafios e Soluções. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>I Colóquio de Extensão Universitária na Educação a Distância.Coordenador da mesa: Desafios para a Extensão Universitária em Educação a Distância. 2014. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Colóquio de Extensão Universitária na Educação a Distância.Resultados, Desafios e Perspectivas da EaD na UFMG. 2014. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Encontro Nacional dos FORPROF/FEPAD. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II Seminário Internacional de EaD: Perspectivas Teóricas e Experiências Práticas em EAD.Curso de Formação de Tutor: Solução para o Fomento de Mão de Obra Qualificada para EaD'. 2014. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Oficina de Capacitação Específica de Tutores do Curso de Especialização de Formação Pedagógica para Profissionais de Saúde - CEFPEPS.Laboratório de Produção de Material Didático em EaD do CAED. 2014. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Oficina de Capacitação Específica de Tutores do Curso de Especialização de Formação Pedagógica para Profissionais de Saúde - CEFPEPS.O Panorma da Educação a Distância da UAB em Minas Gerais e na UFMG. 2014. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Oportunidades Científicas com os Novos Instrumentos do Gemini e SOAR.GRACES and CFHT instruments / Exercícios práticos GRACES. 2014. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Simpósio Internacional de Educação a Distância e Encontro de Pesquisadores em Educação a Distância Etapa Virtual.Ciclo Básico de Física: Desafios e Soluções das Disciplinas Semipresenciais. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Simpósio Internacional de Educação a Distância e Encontro de Pesquisadores em Educação a Distância.Ciclo Básico de Física: Desafios e Soluções das Disciplinas Semipresenciais. 2014. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XVII Encontro Presencial de Tutores do curso de Especialização em Estratégia Saúde da Família.Panorama da Educação a Distância no Cenário Nacional. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXXVIII REUNIÃO ANUAL DA SAB.DETECÇÃO DA EMISSÃO TÉRMICA DE EXOPLANETAS. 2014. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>23rd Annual Astronomical Data Analysis Software and Systems (ADASS) Conference. Ground Based Observatories - from operations to archive. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2a. Reunião Extraordinária de Coordenadores UAB 2013.Institucionalização da EaD. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro de Capacitação do Curso de Pedagogia - UAB/UFMG. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro Nacional de Polos do Sistema Universidade Aberta do Brasil - UAB. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>I Fórum Nacional das Áreas do Sistema Universidade Aberta do Brasil (UAB). 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LARIM 2013: XIV Latin American Regional IAU Meeting.Detectability of Habitable Planets around Very Low-Mass Stars. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Seminário de Educação a Distância - CREA-Minas.EaD no Cenário Nacional. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Seminário de Educação a Distância - CREA-Minas.EaD no Setor Público. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Treinamento para observação remota no Telescópio SOAR. 2013. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>V Seminário Internacional de Educação a Distância: meios, atores e processos.Conferência sobre Tecnologias e Currículo. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>V Seminário Internacional de Educação a Distância: meios, atores e processos.Material Didático Bilíngue: Videoaula de Física em Libras/Português. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V Seminário Internacional de Educação a Distância: meios, atores e processos.Parecerista da linha temática Gestão e Institucionalização da Educação a Distância. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V Seminário Internacional de Educação a Distância: meios, atores e processos.Resultados, Desafios e Perscpectivas do Sistema Universidade Aberta do Brasil (UAB) no Âmbito da UFMG. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>V Seminário Internacional de Educação a Distância: meios, atores e processos.Simpósio sobre Gestão e Institucionalização da EaD. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>X Congresso Brasileiro de Ensino Superior a Distância (ESUD 2013). O Sistema Universitário Aberto do Brasil (UAB) como proposta de formação universitária no âmbito da UFMG: Resultados, Desafios e Perspectivas.. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XVI Encontro de Extensão - UFMG Conhecimento e Cultura.Comissão de Avaliação do XVI Encontro de Extensão UFMG Conhecimento e Cultura. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XVI Encontro de Extensão - UFMG Conhecimento e Cultura.Programa Aproxime-se: relacionando cidadania e violência no município de Montes Claros. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XVI Encontro de Extensão - UFMG Conhecimento e Cultura.PROJETO FICÇÃO & REALIDADE: um olhar sobre a violência a partir do cinema, em Teófilo Otoni-MG.. 2013. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3a. Reunião Extraordinária de Coordenadores UAB. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>4a. Reunião Extraordinária de Coordenadores UAB. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>6o. Fórum Nacional de Coordenadores do Sistema Universidade Aberta do Brasil. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Abertura do Curso de Especialização CEFPEPS: Enfermagem - Polo Jaboticatubas. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gemini Science and Users Meeting.GRACES - The Gemini Remote Access to CFHT ESPaDOnS Spectrograph. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>III Colóquio em EaD da Semana Acadêmica da Universidade Federal de Lavras UFLA.Desafios da Convergência EaD-Presencial no ensino de física. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>IV Seminário de Educação a Distância: tão longe, tão perto.Apoio Didático para as disciplinas de física do ciclo básico na modalidade a distância na UFMG. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IX Congresso Brasileiro de Ensino Superior a Distância ESUD 2012. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Solenidade de Encerramento do Curso de Especialização CEFPEPS: Enfermagem - Polo de Governador Valadares. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SPIE Astronomical Telescopes and Instrumentation. Open source Pipeline for ESPaDOnS Reduction and Analysis. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>V Workshop de Física do Programa de Pós-Graduação em Física da UFMA.Bolhas Interestelares e Aglomerados Abertos Jovens. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXVIII IAU General Assembly.Spectropolarimetric Observations of the Galilean Satellites to Characterize Signatures from Terrestrial Habitable Planets. 2012. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>3o. Seminário de Educação a Distância ? CAED/UFMG.Gestão e Avaliação Institucional em EaD. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>4o. Curso de Capacitação para Tutores do Curso de Licenciatura em Química / Modalidade a Distancia.Capacitação para Tutores do Curso de Licenciatura em Química / Modalidade a Distancia. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>9a. Semana Nacional de Museus.Sessão de Planetário Comentada no ETUC: ?Alvorecer da Era Espacial?. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Curso de Capacitação para Tutores do Curso de Licenciatura em Biologia / Modalidade a Distancia.Capacitação para Tutores do Curso de Licenciatura em Biologia / Modalidade a Distancia. 2011. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Palestras de Física do Departamento de Física da UFMG.Bolhas Interestelares e Formação Estelar. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Seminário Nacional da UniRede 2011.Discussão da PG na modalidade a distância.. 2011. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>South American Gemini Data Workshop.Membro dos Comitês Organizadores Científico e Local. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Telescopes from Afar Conference. An international conference on remotely operated, automated, or robotic ground based telescopes. CFHT data processing and calibration ESPaDOnS pipeline: Upena and OPERA (optical spectropolarimetry). 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>V Fórum Nacional de Coordenadores da Universidade Aberta do Brasil (UAB).Representante da UFMG pela Coordenação da UAB e coordenador do GT-BOLSAS da DED/CAPES. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VIII Congresso Brasileiro de Ensino Superior a Distância (ESUD 2011).Planejamento e Gestão de EAD (GD4).. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XIV Encontro de Extensão - UFMG Conhecimento e Cultura 2011.Participação como avaliador de trabalhos. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XV Semana da Graduação.PMG-98 ? Monitoria do Departamento de Física. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XV Semana da Graduação.PN-20 Colegiado do Curso de Graduação em Física. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XVII Encontro Regional de Ensino de Astronomia (EREA).Meio Interestelar e Formação Estelar. 2011. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXII Escola de Inverno.Bolhas Interestelares e Objetos Estelares Jovens. 2011. (Oficina).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2o. Curso de Capacitação para Tutores do Curso de Licenciatura em Química / Modalidade a Distancia.2o. Curso de Capacitação para Tutores do Curso de Licenciatura em Química / Modalidade a Distancia. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>3o. Curso de Capacitação para Tutores do Curso de Licenciatura em Química / Modalidade a Distancia.3o. Curso de Capacitação para Tutores do Curso de Licenciatura em Química / Modalidade a Distancia. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>3o. Encontro Nacional de Coordenadores da Universidade Aberta do Brasil (UAB).Representante da UFMG pela Coordenação da UAB. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VII Congresso Brasileiro de Ensino Superior a Distância (ESUD 2010). Mini-curso: Design Instrucional. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Workshop OPD, SOAR & Gemini ? Passado, Presente & Futuro.Membro Convidado para a Mesa Redonda: Instrumentação do OPD. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Workshop OPD, SOAR e Gemini - Passado, Presente e Futuro..Redução automática de espectros echelle para obtenção de velocidades radiais. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XIII Encontro de Extensão - UFMG Conhecimento e Cultura 2010.Avaliador dos trabalhos intitulados: ?Probabilidades no Futebol (12805)?, ?Visitas Programadas ao Laboratório de Ensino da Matemática (15116), ?Ensinando Astronomia (15339)?. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XIV Semana da Graduação.PMG-96 ? Monitoria de Graduação em Física ? Teoria e Laboratório, do Programa de Monitoria de Graduação. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XIX Semana de Iniciação Científica.Determinação do Período de Pulsação da Estrela Jovem Ae de Herbig HR5999. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XX Escola de Inverno.Bolhas Interestelares e Aglomerados Abertos Jovens. 2010. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXXVI Reunião Anual da Sociedade Astronômica Brasileira.Mapeamento da cavidade local utilizando fotometria Strömgren ? pôster 272 ? autores:Wilson Reis, Wagner Corradi. 2010. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Encuentro Peruano de Astronomia y Astrofisica (EPAA 2009).Detección de Planetas Extra-Solares. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>IAU XXVII GENERAL ASSEMBLY. Joint Discussion 15, Special Section 7 and IAU Symposium 266. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Super Vatican Observatory Summer School. The Study of Extrasolar Systems with Combined Radial Velocity, Astrometry and Optical Interferometry. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XIX Semana de Iniciação Científica.Determinação do Período de Pulsação da Estrela Jovem Ae de Herbig HR5999. 2009. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XVII Semana de Iniciação Científica.Determinação do Período de Pulsação da Estrela Jovem Ae de Herbig HR5999. 2009. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XXVII IAU GENERAL ASSEMBLY. Obtaining the Mass of Exoplanet Candidates by Combining Radial Velocity and Optical Interferometry. 2009. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>211th Meeting of the American Astronomical Society.Determining the Mass of HD136118 b with Combined Astrometric and Radial Velocity Data. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>211th Meeting of the American Astronomical Society.Planet Masses in the Upsilon Andromadae system determined with the HST Fine Guidance Sensors. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Curso de Capacitação para Tutores do Curso de Licenciatura em Química / Modalidade a Distancia.Curso de Capacitação para Tutores. 2008. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Reuniao Anual da Sociedade Astronomica Brasileira. Ferramenta para o planejamento das observações em modo fila do SOAR. 2008. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>VLTI Summer School - Astrometry and Imaging with the Very Large Telescope Interferometer.Astrometry of Extra-Solar Systems with HST/FGS. 2008. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XII Semana da Graduação.PMG096 ? Monitoria de Graduação em Física ? Teoria e Laboratório, do Programa de Monitoria de Graduação. 2008. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXXIV Reunião Anual da SAB.Determining the Mass of HD136118 b with Combined Astrometric and Radial Velocity Data. 2008. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXXIV Reunião da Sociedade Astronômica Brasileira.Aplicação do Teste de Baade-Wesselink À Estrela HR 5999. 2008. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Curso de Capacitação em Ensino a Distância do Sistema Universidade Aberta do Brasil (UAB).Programa Inter-Institucional de Capacitação em EAD para o sistema UAG/MG-RJ-Sergipe. 2007. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gemini Science Meeting : The 2nd Conference on Gemini Science Results. ESO 442-SC04: An Open Cluster Remnant. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IV Semana de Iniciação Científica do Departamento de Ciências Naturais.Astrofísica do Meio Interestelar e da Formação Estelar. 2007. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Palestras para Calouros do DF/UFMG.Astrofísica do Meio Interestelar e da Formação Estelar. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Third CoRoT-Brazil Workshop.1) PDS 530: a PMS candidate to the CoRoT Additional Program/ 2) The Baade-Wesselink Test applied to HR 5999 : the photometry results. 2007. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XI Semana de Graduação da UFMG.PEG 074/ Elaboração de um livro Didático para o Ensino a Distância da Disciplina de Física: Oscilações, Ondas e Óptica a Distância. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XI Semana de Graduação da UFMG.PMG 85/ Ensino à Distância: Fundamentos de Mecânica de Sólidos e Fluidos/ Fundamentos de Mecânica Ondulatória/ Fundamentos de Óptica. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XVI Semana de Iniciação Científica da UFMG.Estudo de Variabilidade Fotométrica da Estrela T Tauri Clássica DF Tau. 2007. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XVIII Escola de Inverno do Departamento de Física da UFMG.Aglomerados Estelares e Estrelas Jovens. 2007. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1st Brazilian Workshop on Astrobiology. Detectability of Exoplanets. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Palestras para Calouros do DF/UFMG.Aglomerados Abertos e Estrelas Jovens. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>X SEMANA DA GRADUAÇÃO DA UFMG.Implementação da disciplina Fundamentos de Mecânica dos Sólidos e Fluidos a Distância - Programa PAE 44. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XXVI IAU General Assembly.Looking for Exoplanets in Bright Stars with Small Field-of-View Detectors and How to look for planetary transits using a small telescope and a commercial CCD in developing countries. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XXXII Reunião Anual da Sociedade Astronômica Brasileira.Busca por Trânsitos Planetários em Estrelas Brilhantes com Detectores de Pequeno Campo. 2006. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2005"><h3 class="year">2005</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2nd CoRoT-Brazil Workshop. Photometric observations of the microlensing events OGLE-BLG-2005-259/370. 2005. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>IX Semana da Graduação - UFMG Conhecimento e Cultura.Avaliador dos Trabalhos do Programa de Bolsas de Aprimoramento Discente (PAD), Acadêmico Especial (PAE) e Iniciação a Docência (PID). 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>IX Semana da Graduação - UFMG Conhecimento e Cultura.Implementação da disciplina Fundamentos de Mecânica dos Sólidos e Fluidos a Distância - Programa PAE 38. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IX Semana de Graduação - UFMG Conhecimento e Cultura.Apoio Didático aos Módulos de Física Básica: Implementação das disciplinas fundamentos de ondas e óptica a distância - Programa PAE 37. 2005. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Palestras para Calouros do DF/UFMG.Física do Meio Interestelar. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Semana de Recepção aos Calouros do 1o. Semestre de 2005 da UFMG.A Vida das Estrelas. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Seminário da Astronomia no Observatório Nacional.Extinção Interestelar na Direção da Interface entre as Bolhas Local e Loop I. 2005. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXXI Reunião Anual da Sociedade Astronômica Brasileira.Estudos dos Trânsitos de HD 209458b. 2005. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2004"><h3 class="year">2004</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1ST BRAZIL-COROT MEETING.Observation of the transit of HD209458b with a small telescope. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>First Brazil-Corot Scientific and Technical Workshop.First Brazil-Corot Scientific and Technical Workshop. 2004. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Minastec 2004.Minastec 2004. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Semana de Recepção aos Calouros do 2o. Semestre de 2004 da UFMG.Uma Visão Geral do Universo. 2004. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>The A-Star Puzzle.Looking for a definitive answer for age dependecy of Ap stars. 2004. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VIII Semana da Graduação da UFMG.Apoio Didático aos Módulos de Física Básica: Fundamentos de Mecânica Ondulatória. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>VIII Semana da Graduação da UFMG.Projeto piloto de implementação da disciplina Fundamentos de Mecânica dos Sólidos e Fluidos à Distância. 2004. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XII Escola Avançada de Astrofísica. 2004. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>XIII Semana de Iniciação Científica da UFMG.XIII Semana de Iniciação Científica da UFMG. 2004. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2003"><h3 class="year">2003</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Open Yssues in Local Star Formation and Early Stellar Evolution. Membro de Comissão Organizadora Local e Apresentaçao de poster. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Optical and Infrared Astronomical Instrumentation for Modern Telescopes - Brazilian Workshop. Looking for a definitive answer for age dependency of peculiar star.. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Optical and Infrared Astronomical Instrumentation for Modern Telescopes.Understanding Diffuse Interstellar Bands towards the Interaction Zone between the Local and Loop I bubbles. 2003. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Reunião Anual da Sociedade Astrônomica Brasileira. A ver. 2003. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XII Semana de Iniciação Científica da UFMG.II Semana do Conhecimento da UFMG. 2003. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XIV Escola de Inverno do DF-UFMG.Mini-curso ministrado: Estrelas Jovens e Meio Interestelar. 2003. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2002"><h3 class="year">2002</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Reunião Anual da Sociedade Astrônomica Brasileira. When dos an "A" star turn into an Ap star?. 2002. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>VI Semana da Graduação da UFMG.Apoio Didático aos Módulos de Física Básica - Programa PAE. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>XI Semana da Iniciação Científica da UFMG.I Semana do Conhecimento da UFMG. 2002. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XIII Escola de Inverno do DF-UFMG.Mini-Curso Ministrado: Estrelas Jovens e Meio Interestelar. 2002. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2001"><h3 class="year">2001</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Reunião Anual da Sociedade Astrônomica Brasileira. Quando acontece o surgimento de peculiaridades químicas em estrelas A peculiares?. 2001. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>X Semana da Iniciação Científica da UFMG.X Semana da Iniciação Científica da UFMG. 2001. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2000"><h3 class="year">2000</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Reunião Anual da Sociedade Astrônomica Brasileira. Quando surgem peculiaridades químicas em estrelas A peculiares?. 2000. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1999"><h3 class="year">1999</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Reunião Anual da Sociedade Astrônomica Brasileira. Primeiros resultados da robotizacão do telescópio Meade LX-200 de 20cm da UFSC.. 1999. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1998"><h3 class="year">1998</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>XXIV Reunião Anual da Sociedade Astronômica Brasileira. O Meio Interestelar Local na Direção das Nuvens Escuras Saco de Carvão e Chamaeleon-Musca. 1998. (Congresso).</td></tr>
+            </table></div><div id="dv-year-1997"><h3 class="year">1997</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Workshop Science with Gemini.Workshop Science with Gemini.. 1997. (Congresso).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 1914 até 2114
+<br>Data de processamento: 30/09/2024 14:03:32<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:icamps@unifal-mg.edu.br">icamps@unifal-mg.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
