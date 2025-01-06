@@ -5,21 +5,16 @@
 { "name":"Célio Wisniewski", "idlattes":"4055079165002493", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Cristiana Schmidt de Magalhães", "idlattes":"1140012060761818", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Frederico Augusto Toti", "idlattes":"5154949759339458", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Hugo Bonette de Carvalho", "idlattes":"1642083834158700", "rotulo":"[Sem rotulo]", "collaborationrank":1.419851541519165 },
-{ "name":"Ihosvany Camps Rodríguez", "idlattes":"3732563704810366", "rotulo":"[Sem rotulo]", "collaborationrank":0.6254935264587402 },
-{ "name":"Mirta Mir Caraballo", "idlattes":"6165304398755510", "rotulo":"[Sem rotulo]", "collaborationrank":0.9545652270317078 },
-{ "name":"Person Pereira Neves", "idlattes":"2380268778692743", "rotulo":"[Sem rotulo]", "collaborationrank":1.0000896453857422 },
+{ "name":"Hugo Bonette de Carvalho", "idlattes":"1642083834158700", "rotulo":"[Sem rotulo]", "collaborationrank":1.4594591856002808 },
+{ "name":"Ihosvany Camps Rodríguez", "idlattes":"3732563704810366", "rotulo":"[Sem rotulo]", "collaborationrank":0.6324325203895569 },
+{ "name":"Person Pereira Neves", "idlattes":"2380268778692743", "rotulo":"[Sem rotulo]", "collaborationrank":0.9081082344055176 },
 { "name":"Samuel Bueno Soltau", "idlattes":"4318353199461089", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
-{ "name":"Thirza Pavan Sorpreso", "idlattes":"3940703666349048", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
 { "name":"Tiago José Arruda", "idlattes":"2604391010090933", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 }
 ],
 "links":[
 { "source":2, "target":3, "value":5.0 },
-{ "source":4, "target":9, "value":1.0 },
+{ "source":4, "target":8, "value":1.0 },
 { "source":5, "target":6, "value":7.0 },
-{ "source":5, "target":7, "value":8.0 },
-{ "source":5, "target":8, "value":11.0 },
-{ "source":6, "target":7, "value":2.0 },
-{ "source":7, "target":8, "value":8.0 }
+{ "source":5, "target":7, "value":11.0 }
 ]
 }
